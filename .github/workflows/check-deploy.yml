@@ -1,0 +1,29 @@
+name: Verificar FuturoCientífico
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositorio
+      uses: actions/checkout@v3
+
+    - name: Configurar Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20
+
+    - name: Instalar pnpm
+      run: npm install -g pnpm
+
+    - name: Instalar dependencias
+      run: pnpm install
+
+    - name: Verificar build de Astro
+      run: pnpm astro build
