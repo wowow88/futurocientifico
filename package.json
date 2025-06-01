@@ -10,7 +10,7 @@
   "dependencies": {
     "astro": "^4.0.0",
     "@astrojs/tailwind": "^5.0.0",
-    "@astrojs/sitemap": "^4.0.0",
+    "@astrojs/sitemap": "^3.0.0",
     "@astrojs/mdx": "^4.0.0"
   },
   "packageManager": "pnpm@8.15.4"
