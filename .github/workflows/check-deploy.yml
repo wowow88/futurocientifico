@@ -1,29 +1,24 @@
-name: Verificar Flujo FuturoCientífico
+name: Check Astro Workflow
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  build:
+  check-astro:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Clonar repositorio
-      uses: actions/checkout@v3
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
 
-    - name: Configurar Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
-    - name: Instalar pnpm
-      run: npm install -g pnpm
+      - name: 📦 Install dependencies
+        run: npm install
 
-    - name: Instalar dependencias
-      run: pnpm install
-
-    - name: Ejecutar build de Astro
-      run: pnpm run build
+      - name: 🛠️ Build Astro
+        run: npm run build
