@@ -1,0 +1,31 @@
+name: Daily Update and Build
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todos los días a las 6:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: 📦 Install dependencies (legacy peer deps)
+        run: npm install --legacy-peer-deps
+
+      - name: 📚 Run fetch articles
+        run: node scripts/fetch-articles.js
+
+      - name: 🧩 Merge articles
+        run: node scripts/merge-articles.js
+
+      - name: 🔨 Build site
+        run: npm run build
