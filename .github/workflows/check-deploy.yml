@@ -1,4 +1,4 @@
-name: Verificar FuturoCientífico
+name: Verificar Flujo FuturoCientífico
 
 on:
   push:
@@ -25,5 +25,5 @@ jobs:
     - name: Instalar dependencias
       run: pnpm install
 
-    - name: Verificar build de Astro
-      run: pnpm astro build
+    - name: Ejecutar build de Astro
+      run: pnpm run build
