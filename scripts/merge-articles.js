@@ -1,7 +1,7 @@
 // scripts/merge-articles.js
 import fs from 'fs';
-const inputPath = './workspace/astro/public/articles_js.json';
-const outputPath = './workspace/astro/public/articles.json';
+const inputPath = './public/articles_js.json';
+const outputPath = './public/articles.json';
 
 if (fs.existsSync(inputPath)) {
   const data = JSON.parse(fs.readFileSync(inputPath));
