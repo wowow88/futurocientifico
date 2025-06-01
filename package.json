@@ -1,4 +1,3 @@
-
 {
   "name": "futurocientifico",
   "type": "module",
@@ -13,5 +12,6 @@
     "@astrojs/sitemap": "^4.0.0",
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/content": "^4.0.0"
-  }
+  },
+  "packageManager": "pnpm@8.15.4"
 }
