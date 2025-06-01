@@ -16,6 +16,6 @@ const dummyData = [
     date: new Date().toISOString()
   }
 ];
-fs.writeFileSync('./workspace/astro/public/articles_js.json', JSON.stringify(dummyData, null, 2));
+fs.writeFileSync('./public/articles_js.json', JSON.stringify(dummyData, null, 2));
 console.log("✅ Artículos de ejemplo guardados con imágenes.");
 
