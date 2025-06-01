@@ -10,7 +10,7 @@
     "astro": "^4.0.0",
     "@astrojs/tailwind": "^3.0.0",
     "@astrojs/mdx": "^4.0.0",
-    "@astrojs/sitemap": "^3.0.0"
+    "@astrojs/sitemap": "^3.4.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
