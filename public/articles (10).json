@@ -1,0 +1,16 @@
+[
+  {
+    "title_es": "Ejemplo de art\u00edculo 1",
+    "url": "https://ejemplo.com/articulo1",
+    "image": "https://placekitten.com/400/200",
+    "source": "Fuente Demo",
+    "date": "2025-06-01T06:00:00Z"
+  },
+  {
+    "title_es": "Ejemplo de art\u00edculo 2",
+    "url": "https://ejemplo.com/articulo2",
+    "image": "https://placekitten.com/401/200",
+    "source": "Fuente Demo",
+    "date": "2025-06-01T06:00:00Z"
+  }
+]
