@@ -3,7 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 const inputPath = './public/articles_js.json';
-const outputPath = './public/articles.json';
+const outputDir = './workspace/articles';
+const outputPath = path.join(outputDir, 'articles.json');
 
 if (fs.existsSync(inputPath)) {
   const data = JSON.parse(fs.readFileSync(inputPath));
@@ -20,8 +21,11 @@ if (fs.existsSync(inputPath)) {
     }
   });
 
+  // Asegurar que el directorio de salida existe
+  fs.mkdirSync(outputDir, { recursive: true });
+
   fs.writeFileSync(outputPath, JSON.stringify(deduplicated, null, 2));
-  console.log("✅ Artículos fusionados y guardados (sin duplicados por título).");
+  console.log("✅ Artículos fusionados y guardados en './workspace/articles/articles.json'.");
 } else {
-  console.log("⚠️ No se encontró el archivo de entrada.");
+  console.log("⚠️ No se encontró el archivo de entrada en './public/articles_js.json'.");
 }
