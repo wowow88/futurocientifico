@@ -3,35 +3,31 @@ import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout>
-  <section class="mb-6 p-4 bg-pink-50 rounded-xl text-sm text-pink-800">
-    <h1 class="text-2xl font-bold mb-2">Apoya FuturoCientífico</h1>
-    <p>
-      Si te gusta este proyecto y quieres que siga creciendo, puedes apoyarlo de varias formas. Cada gesto cuenta para que la ciencia llegue a más personas.
+  <section class="bg-gradient-to-r from-pink-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-pink-800">Apóyanos</h1>
+    <p class="mt-2 text-pink-700 text-sm max-w-xl mx-auto">
+      Tu apoyo hace posible que FuturoCientífico siga compartiendo ciencia cada día de forma gratuita y accesible para todos.
     </p>
   </section>
 
-  <div class="grid md:grid-cols-2 gap-6">
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-pink-800">☕ Invítame a un café</h2>
-      <p class="text-gray-700 mt-2">Puedes hacer una pequeña donación puntual a través de BuyMeACoffee.</p>
-      <a href="https://buymeacoffee.com/tucuenta" target="_blank" class="inline-block mt-2 text-white bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded-md">Apoyar ahora</a>
-    </article>
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-pink-800">Haz una donación</h2>
+      <p class="text-sm text-gray-600">Contribuye a través de <a href="https://www.buymeacoffee.com/futurocientifico" class="text-pink-700 underline" target="_blank">BuyMeACoffee</a> para ayudar al mantenimiento y crecimiento del proyecto.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-pink-800">Difunde nuestra misión</h2>
+      <p class="text-sm text-gray-600">Comparte la web, los artículos y nuestras redes sociales con estudiantes, familias y profesores.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-pink-800">Colabora con contenido</h2>
+      <p class="text-sm text-gray-600">¿Tienes experiencia científica o educativa? Puedes ayudarnos a crear contenidos o validarlos.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-pink-800">Traduce o corrige</h2>
+      <p class="text-sm text-gray-600">Si dominas inglés y español, ayúdanos a revisar las traducciones automáticas y mejorar la calidad.</p>
+    </div>
+  </section>
+</Layout>
 
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-pink-800">📢 Comparte la web</h2>
-      <p class="text-gray-700 mt-2">Ayuda a difundir el contenido compartiendo esta web con tus contactos y en redes sociales.</p>
-    </article>
-
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-pink-800">💡 Sugerencias y feedback</h2>
-      <p class="text-gray-700 mt-2">Escríbeme con ideas, correcciones o recursos que quieras ver aquí.</p>
-      <a href="mailto:contacto@futurocientifico.com" class="text-pink-700 hover:underline">contacto@futurocientifico.com</a>
-    </article>
-
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-pink-800">🤝 Patrocina o colabora</h2>
-      <p class="text-gray-700 mt-2">¿Representas una entidad educativa, editorial o proyecto científico? ¡Hablemos!</p>
-      <a href="mailto:colabora@futurocientifico.com" class="text-pink-700 hover:underline">colabora@futurocientifico.com</a>
-    </article>
-  </div>
 </Layout>
