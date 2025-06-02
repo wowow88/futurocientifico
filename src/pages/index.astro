@@ -13,14 +13,30 @@ import Layout from '../layouts/Layout.astro';
     }, 3000);
   </script>
 
-  <section class="mb-6 p-4 bg-blue-50 rounded-xl text-sm text-blue-800">
-    <p>
-      Bienvenido a <strong>FuturoCientífico</strong>, tu espacio para descubrir, aprender y crecer en el mundo de la ciencia.
-      Aquí encontrarás noticias científicas diarias, recursos educativos y orientación para tu futuro profesional.
+  <section class="bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <img src="/avatar.png" alt="Avatar" class="w-24 h-24 mx-auto mb-4" />
+    <h1 class="text-3xl font-bold text-blue-800">FuturoCientífico</h1>
+    <p class="mt-2 text-blue-700 text-sm max-w-xl mx-auto">
+      Plataforma educativa y de divulgación para inspirar a los futuros científicos. Noticias, formación y recursos cada día.
     </p>
   </section>
 
-  <h2 class="text-2xl font-bold mb-4">Últimas noticias científicas</h2>
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+    <a href="/formacion" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+      <h2 class="text-lg font-semibold text-blue-800">Formación</h2>
+      <p class="text-sm text-gray-600">Rutas académicas, consejos y orientación científica.</p>
+    </a>
+    <a href="/recursos" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+      <h2 class="text-lg font-semibold text-blue-800">Recursos</h2>
+      <p class="text-sm text-gray-600">Herramientas, plataformas y enlaces educativos útiles.</p>
+    </a>
+    <a href="/apoya" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+      <h2 class="text-lg font-semibold text-blue-800">Apóyanos</h2>
+      <p class="text-sm text-gray-600">Colabora para que sigamos creando contenido libre y diario.</p>
+    </a>
+  </section>
+
+  <h2 class="text-xl font-bold text-blue-900 mb-4">Últimas noticias científicas</h2>
   <div id="articles" class="space-y-6"></div>
 
   <script type="module">
