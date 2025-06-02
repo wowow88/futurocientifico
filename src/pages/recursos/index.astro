@@ -3,48 +3,34 @@ import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout>
-  <section class="mb-6 p-4 bg-green-50 rounded-xl text-sm text-green-800">
-    <h1 class="text-2xl font-bold mb-2">Recursos Útiles</h1>
-    <p>
-      Una selección de herramientas, plataformas y enlaces para ayudarte a avanzar en tu formación y divulgación científica.
+  <section class="bg-gradient-to-r from-yellow-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-yellow-800">Recursos Educativos</h1>
+    <p class="mt-2 text-yellow-700 text-sm max-w-xl mx-auto">
+      Herramientas, plataformas y materiales para aprender y enseñar ciencia de forma accesible y divertida.
     </p>
   </section>
 
-  <div class="grid md:grid-cols-2 gap-6">
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-green-800">📖 Bibliotecas y papers</h2>
-      <ul class="list-disc list-inside text-gray-700 mt-2">
-        <li><a href="https://arxiv.org" target="_blank" class="text-green-700 hover:underline">arXiv.org</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank" class="text-green-700 hover:underline">PubMed</a></li>
-        <li><a href="https://sci-hub.se" target="_blank" class="text-green-700 hover:underline">Sci-Hub</a></li>
-      </ul>
-    </article>
-
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-green-800">🛠️ Herramientas online</h2>
-      <ul class="list-disc list-inside text-gray-700 mt-2">
-        <li><a href="https://colab.research.google.com" target="_blank" class="text-green-700 hover:underline">Google Colab</a></li>
-        <li><a href="https://deepai.org" target="_blank" class="text-green-700 hover:underline">DeepAI</a></li>
-        <li><a href="https://observablehq.com" target="_blank" class="text-green-700 hover:underline">Observable</a></li>
-      </ul>
-    </article>
-
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-green-800">🎓 Formación continua</h2>
-      <ul class="list-disc list-inside text-gray-700 mt-2">
-        <li><a href="https://www.edx.org" target="_blank" class="text-green-700 hover:underline">edX</a></li>
-        <li><a href="https://www.coursera.org" target="_blank" class="text-green-700 hover:underline">Coursera</a></li>
-        <li><a href="https://www.khanacademy.org" target="_blank" class="text-green-700 hover:underline">Khan Academy</a></li>
-      </ul>
-    </article>
-
-    <article class="bg-white rounded-xl p-4 shadow-md">
-      <h2 class="text-xl font-semibold text-green-800">🌐 Comunidades científicas</h2>
-      <ul class="list-disc list-inside text-gray-700 mt-2">
-        <li><a href="https://researchgate.net" target="_blank" class="text-green-700 hover:underline">ResearchGate</a></li>
-        <li><a href="https://academia.edu" target="_blank" class="text-green-700 hover:underline">Academia.edu</a></li>
-        <li><a href="https://mastodon.social/tags/science" target="_blank" class="text-green-700 hover:underline">#Science en Mastodon</a></li>
-      </ul>
-    </article>
-  </div>
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-yellow-800">Plataformas educativas</h2>
+      <p class="text-sm text-gray-600">Accede a Khan Academy, UNED Abierta, Coursera, edX y otras para aprender ciencia a tu ritmo.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-yellow-800">Materiales descargables</h2>
+      <p class="text-sm text-gray-600">Libros, guías en PDF, experimentos caseros y fichas imprimibles para todas las edades.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-yellow-800">Aplicaciones científicas</h2>
+      <p class="text-sm text-gray-600">Apps móviles para aprender biología, química, astronomía y más de forma interactiva.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-yellow-800">Simuladores y laboratorios virtuales</h2>
+      <p class="text-sm text-gray-600">Herramientas como PhET, Labster y simulaciones científicas para experimentar desde casa o el aula.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-yellow-800">Canales y podcasts recomendados</h2>
+      <p class="text-sm text-gray-600">Listas seleccionadas con contenido audiovisual educativo y científico en español e inglés.</p>
+    </div>
+  </section>
 </Layout>
+
