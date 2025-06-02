@@ -1,28 +1,47 @@
-
 ---
 import Layout from '../../layouts/Layout.astro';
 ---
 
-<main class="max-w-3xl mx-auto py-10 px-6 text-white">
-  <h1 class="text-4xl font-bold mb-4">Formación para Futuros Científicos</h1>
-  <p class="mb-6 text-lg">Descubre caminos, carreras y recursos para convertir tu pasión por la ciencia en una profesión. Esta sección está diseñada para inspirarte y guiarte desde cero.</p>
+<Layout>
+  <section class="bg-gradient-to-r from-green-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-green-800">Formación Científica</h1>
+    <p class="mt-2 text-green-700 text-sm max-w-xl mx-auto">
+      Guías, rutas académicas y orientación para estudiantes, familias y educadores interesados en el mundo científico.
+    </p>
+  </section>
 
-  <ul class="grid gap-4">
-    <li class="bg-blue-900 p-4 rounded-xl shadow">
-      <a href="/formacion/que-estudiar" class="text-xl font-semibold hover:underline">Qué estudiar</a>
-      <p class="text-sm">Explora carreras universitarias y formaciones científicas.</p>
-    </li>
-    <li class="bg-blue-900 p-4 rounded-xl shadow">
-      <a href="/formacion/rutas-cientificas" class="text-xl font-semibold hover:underline">Rutas científicas</a>
-      <p class="text-sm">Desde el laboratorio hasta la divulgación o el espacio: posibles caminos.</p>
-    </li>
-    <li class="bg-blue-900 p-4 rounded-xl shadow">
-      <a href="/formacion/consejos" class="text-xl font-semibold hover:underline">Consejos prácticos</a>
-      <p class="text-sm">Técnicas de estudio, cómo hacer un CV científico, becas, etc.</p>
-    </li>
-    <li class="bg-blue-900 p-4 rounded-xl shadow">
-      <a href="/formacion/cursos" class="text-xl font-semibold hover:underline">Cursos y recursos</a>
-      <p class="text-sm">Plataformas recomendadas, ebooks, materiales interactivos.</p>
-    </li>
-  </ul>
-</main>
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Educación Primaria</h2>
+      <p class="text-sm text-gray-600">Recursos introductorios, juegos educativos y curiosidades científicas para niños y niñas.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Secundaria y Bachillerato</h2>
+      <p class="text-sm text-gray-600">Consejos, asignaturas clave, proyectos y preparación universitaria.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Formación Profesional Científica</h2>
+      <p class="text-sm text-gray-600">FP de grado medio y superior orientadas al mundo laboral científico: laboratorio, química, salud ambiental, etc.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Certificados de Profesionalidad</h2>
+      <p class="text-sm text-gray-600">Especializaciones técnicas del SEPE en ramas científicas y tecnológicas, accesibles con o sin título previo.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Universidad y más allá</h2>
+      <p class="text-sm text-gray-600">Carreras científicas, másteres, doctorados y oportunidades de investigación.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Familias y Padres</h2>
+      <p class="text-sm text-gray-600">Cómo apoyar el interés por la ciencia en casa, herramientas y lectura recomendada.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Orientadores de Estudio</h2>
+      <p class="text-sm text-gray-600">Guías y materiales para acompañar a jóvenes en su vocación científica.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Cursos, Campus y Campamentos</h2>
+      <p class="text-sm text-gray-600">Iniciativas formativas extracurriculares: programas de verano, campus STEM, cursos en línea y más.</p>
+    </div>
+  </section>
+</Layout>
