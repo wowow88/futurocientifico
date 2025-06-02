@@ -8,11 +8,6 @@ import Layout from '../layouts/Layout.astro';
   </div>
 
   <script>
-    const lastAvatar = localStorage.getItem('avatar') || 'cientifico';
-    const nextAvatar = lastAvatar === 'cientifico' ? 'cientifica' : 'cientifico';
-    document.getElementById('splash-avatar').src = `/avatar-${nextAvatar}.png`;
-    localStorage.setItem('avatar', nextAvatar);
-
     setTimeout(() => {
       document.getElementById('splash').style.display = 'none';
     }, 3000);
