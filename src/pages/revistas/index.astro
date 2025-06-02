@@ -1,0 +1,28 @@
+---
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FuturoCientífico</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow p-4 flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-blue-700">FuturoCientífico</a>
+      <nav class="space-x-4 text-sm">
+        <a href="/formacion" class="text-blue-600 hover:underline">Formación</a>
+        <a href="/recursos" class="text-blue-600 hover:underline">Recursos</a>
+        <a href="/revistas" class="text-blue-600 hover:underline">Revistas</a>
+        <a href="/apoya" class="text-blue-600 hover:underline">Apóyanos</a>
+      </nav>
+    </header>
+    <main class="max-w-4xl mx-auto py-8 px-4">
+      <slot />
+    </main>
+    <footer class="text-center text-xs text-gray-500 py-6">
+      © FuturoCientífico 2025 — Ciencia para todos los públicos.
+    </footer>
+  </body>
+</html>
