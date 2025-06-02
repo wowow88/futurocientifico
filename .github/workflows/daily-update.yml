@@ -22,10 +22,19 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: 📚 Run fetch articles
-        run: node scripts/fetch-articles.js
+        run: |
+          echo "🔍 Ejecutando fetch-articles.js..."
+          node scripts/fetch-articles.js
 
       - name: 🧩 Merge articles
-        run: node scripts/merge-articles.js
+        run: |
+          echo "🧩 Ejecutando merge-articles.js..."
+          node scripts/merge-articles.js
+          echo "✅ Número de artículos combinados:"
+          cat ./workspace/articles/articles.json | jq '. | length'
 
       - name: 🔨 Build site
         run: npm run build
+
+      - name: 📁 List output files
+        run: ls -R dist/
