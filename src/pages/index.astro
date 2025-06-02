@@ -4,10 +4,15 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout>
   <div id="splash" class="fixed inset-0 bg-white flex items-center justify-center z-50">
-    <img src="/avatar.png" alt="Avatar" class="w-32 h-32 animate-bounce" />
+    <img id="splash-avatar" src="/avatar-cientifico.png" alt="Avatar" class="w-32 h-32 animate-bounce" />
   </div>
 
   <script>
+    const lastAvatar = localStorage.getItem('avatar') || 'cientifico';
+    const nextAvatar = lastAvatar === 'cientifico' ? 'cientifica' : 'cientifico';
+    document.getElementById('splash-avatar').src = `/avatar-${nextAvatar}.png`;
+    localStorage.setItem('avatar', nextAvatar);
+
     setTimeout(() => {
       document.getElementById('splash').style.display = 'none';
     }, 3000);
@@ -33,6 +38,14 @@ import Layout from '../layouts/Layout.astro';
     <a href="/apoya" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
       <h2 class="text-lg font-semibold text-blue-800">Apóyanos</h2>
       <p class="text-sm text-gray-600">Colabora para que sigamos creando contenido libre y diario.</p>
+    </a>
+    <a href="/fp" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+      <h2 class="text-lg font-semibold text-blue-800">FP y Certificados</h2>
+      <p class="text-sm text-gray-600">Grado medio, superior y certificaciones científicas oficiales.</p>
+    </a>
+    <a href="/campamentos" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
+      <h2 class="text-lg font-semibold text-blue-800">Campamentos</h2>
+      <p class="text-sm text-gray-600">Campus, talleres y experiencias científicas juveniles.</p>
     </a>
   </section>
 
