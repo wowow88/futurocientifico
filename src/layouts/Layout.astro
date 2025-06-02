@@ -1,14 +1,27 @@
+---
+---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FuturoCientífico</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body class="font-sans bg-white text-gray-900">
+    <!-- Splash Screen -->
+    <div id="splash" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+      <img id="splash-avatar" src="/avatar-cientifico.png" alt="Avatar" class="w-32 h-32 animate-bounce" />
+    </div>
+    <script>
+      setTimeout(() => {
+        document.getElementById('splash').style.display = 'none';
+      }, 3000);
+    </script>
 
-<Layout>
-  <div id="splash" class="fixed inset-0 bg-white flex items-center justify-center z-50">
-    <img id="splash-avatar" src="/avatar-cientifico.png" alt="Avatar" class="w-32 h-32 animate-bounce" />
-  </div>
-
-  <script>
-    setTimeout(() => {
-      document.getElementById('splash').style.display = 'none';
-    }, 3000);
-  </script>
+    <!-- Contenido principal -->
+    <slot />
+  </body>
+</html>
 
   <section class="bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <img src="/avatar.png" alt="Avatar" class="w-24 h-24 mx-auto mb-4" />
