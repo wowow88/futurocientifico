@@ -13,7 +13,8 @@
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/sitemap": "^3.4.0",
     "node-fetch": "^3.3.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "openai": "^4.30.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.0"
