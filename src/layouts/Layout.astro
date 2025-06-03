@@ -18,23 +18,27 @@
       }, 3000);
     </script>
 
-    <!-- Responsive Navigation -->
+    <!-- Navegación principal -->
     <header class="bg-white border-b shadow-sm sticky top-0 z-40">
       <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <a href="/" class="text-xl font-bold text-blue-700">FuturoCientífico</a>
         <button id="menu-toggle" class="md:hidden text-blue-700 text-xl">☰</button>
         <nav id="menu" class="hidden md:flex space-x-4 text-sm">
+          <a href="/" class="text-blue-600 hover:underline">Inicio</a>
           <a href="/formacion" class="text-blue-600 hover:underline">Formación</a>
           <a href="/recursos" class="text-blue-600 hover:underline">Recursos</a>
           <a href="/revistas" class="text-blue-600 hover:underline">Revistas</a>
+          <a href="/noticias" class="text-blue-600 hover:underline">Noticias</a>
           <a href="/apoya" class="text-blue-600 hover:underline">Apóyanos</a>
           <a href="/quienes-somos" class="text-blue-600 hover:underline">Quiénes somos</a>
         </nav>
       </div>
       <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2">
+        <a href="/" class="block text-blue-600 hover:underline">Inicio</a>
         <a href="/formacion" class="block text-blue-600 hover:underline">Formación</a>
         <a href="/recursos" class="block text-blue-600 hover:underline">Recursos</a>
         <a href="/revistas" class="block text-blue-600 hover:underline">Revistas</a>
+        <a href="/noticias" class="block text-blue-600 hover:underline">Noticias</a>
         <a href="/apoya" class="block text-blue-600 hover:underline">Apóyanos</a>
         <a href="/quienes-somos" class="block text-blue-600 hover:underline">Quiénes somos</a>
       </div>
@@ -47,13 +51,11 @@
     </header>
 
     <!-- Contenido de las páginas -->
-    <main class="max-w-6xl mx-auto px-4 py-6">
-      <slot />
-    </main>
+    <slot />
 
     <!-- Footer -->
     <footer class="bg-blue-50 text-blue-800 mt-12">
-      <div class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-sm">
+      <div class="max-w-5xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
         <div>
           <h3 class="font-semibold mb-2">Secciones</h3>
           <ul class="space-y-1">
@@ -63,7 +65,6 @@
             <li><a href="/apoya" class="hover:underline">Apóyanos</a></li>
             <li><a href="/revistas" class="hover:underline">Revistas</a></li>
             <li><a href="/noticias" class="hover:underline">Noticias</a></li>
-            <li><a href="/quienes-somos" class="hover:underline">Quiénes somos</a></li>
           </ul>
         </div>
         <div>
@@ -75,15 +76,31 @@
         <div>
           <h3 class="font-semibold mb-2">Redes Sociales</h3>
           <div class="flex gap-4">
-            <a href="https://www.instagram.com/futurocientifico2025/" target="_blank" class="hover:text-pink-600">📸 Instagram</a>
-            <a href="#" target="_blank" class="hover:text-black">🎵 TikTok</a>
-            <a href="#" target="_blank" class="hover:text-sky-500">🐦 Twitter</a>
+            <a href="https://www.instagram.com/futurocientifico2025/" target="_blank" aria-label="Instagram" class="hover:text-pink-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16h10M7 12h4m-4-4h10m2 12V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2z" /></svg>
+            </a>
+            <a href="#" target="_blank" aria-label="TikTok" class="hover:text-black">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2v20M2 12h20" /></svg>
+            </a>
+            <a href="#" target="_blank" aria-label="Twitter" class="hover:text-sky-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2v20M2 12h20" /></svg>
+            </a>
           </div>
         </div>
+      </div>
+
+      <!-- Mobile Bottom Navigation -->
+      <div class="fixed bottom-0 inset-x-0 bg-white border-t border-gray-200 shadow-md md:hidden flex justify-around py-2 text-sm text-blue-800 z-50">
+        <a href="/" class="flex flex-col items-center"><span>🏠</span><span>Inicio</span></a>
+        <a href="/formacion" class="flex flex-col items-center"><span>🎓</span><span>Formación</span></a>
+        <a href="/recursos" class="flex flex-col items-center"><span>📚</span><span>Recursos</span></a>
+        <a href="/revistas" class="flex flex-col items-center"><span>🧪</span><span>Revistas</span></a>
+        <a href="/apoya" class="flex flex-col items-center"><span>🤝</span><span>Apóyanos</span></a>
       </div>
     </footer>
   </body>
 </html>
-</html>
+
+
 
 
