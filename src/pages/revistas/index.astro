@@ -4,32 +4,59 @@ import Layout from '../../layouts/Layout.astro';
 
 <Layout>
   <section class="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <h1 class="text-3xl font-bold text-purple-800">Revistas y Centros</h1>
+    <h1 class="text-3xl font-bold text-purple-800">Artículos de Investigación</h1>
     <p class="mt-2 text-purple-700 text-sm max-w-xl mx-auto">
-      Noticias destacadas y enlaces a revistas científicas y centros de investigación para estar al día en ciencia.
+      Selección diaria de publicaciones científicas con títulos traducidos y visuales generados por IA.
     </p>
+
+    <div class="mt-4 text-sm">
+      <label for="filtro" class="block text-purple-800 font-medium mb-2">Filtrar por tema:</label>
+      <select id="filtro" class="px-4 py-2 border rounded shadow-sm w-full max-w-sm mx-auto">
+        <option value="todos">Todos</option>
+        <option value="biología">Biología</option>
+        <option value="física">Física</option>
+        <option value="química">Química</option>
+        <option value="astronomía">Astronomía</option>
+        <option value="medicina">Medicina</option>
+        <option value="tecnología">Tecnología</option>
+        <option value="medio ambiente">Medio ambiente</option>
+        <option value="inteligencia artificial">Inteligencia Artificial</option>
+      </select>
+    </div>
   </section>
 
-  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-purple-800">Revistas científicas</h2>
-      <p class="text-sm text-gray-600">Explora publicaciones como Nature, Science, Investigación y Ciencia, y más.</p>
-    </div>
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-purple-800">Instituciones reconocidas</h2>
-      <p class="text-sm text-gray-600">Conoce el trabajo de organismos como CSIC, NASA, CERN, y universidades punteras.</p>
-    </div>
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-purple-800">Boletines y suscripciones</h2>
-      <p class="text-sm text-gray-600">Accede a newsletters científicas para recibir lo más reciente en tu correo.</p>
-    </div>
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-purple-800">Blogs y portales especializados</h2>
-      <p class="text-sm text-gray-600">Recomendaciones de divulgadores, portales de ciencia en español e inglés.</p>
-    </div>
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-purple-800">Jóvenes investigadores</h2>
-      <p class="text-sm text-gray-600">Publicaciones, concursos y oportunidades para estudiantes que investigan.</p>
-    </div>
-  </section>
+  <section id="revistas" class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-4 pb-10"></section>
+
+  <script type="module">
+    const contenedor = document.querySelector('#revistas');
+    const filtro = document.querySelector('#filtro');
+
+    function render(articulos, temaSeleccionado) {
+      contenedor.innerHTML = '';
+      const filtrados = temaSeleccionado === 'todos'
+        ? articulos
+        : articulos.filter(a => a.tema.toLowerCase() === temaSeleccionado);
+
+      filtrados.sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).forEach(article => {
+        contenedor.innerHTML += `
+          <article class="bg-white rounded-xl shadow p-4 flex flex-col gap-2">
+            <img src="${article.imagen}" alt="Imagen IA" class="rounded w-full h-40 object-cover">
+            <h2 class="text-lg font-semibold text-purple-800">${article.titulo_es}</h2>
+            <div class="flex justify-between text-xs text-gray-500">
+              <span class="bg-purple-100 text-purple-700 px-2 py-0.5 rounded">${article.tema}</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded">${article.fuente}</span>
+            </div>
+            <a href="${article.url}" target="_blank" class="text-purple-700 hover:underline text-sm">Leer artículo completo</a>
+          </article>`;
+      });
+    }
+
+    fetch('/articles.json')
+      .then(res => res.json())
+      .then(data => {
+        const articulosRevistas = data.filter(a => a.tipo === 'revista');
+        render(articulosRevistas, 'todos');
+        filtro.addEventListener('change', () => render(articulosRevistas, filtro.value));
+      });
+  </script>
 </Layout>
