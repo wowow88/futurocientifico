@@ -21,6 +21,11 @@ jobs:
       - name: 📦 Install dependencies (legacy peer deps)
         run: npm install --legacy-peer-deps
 
+      - name: 🔐 Set env vars
+        run: |
+          echo "DEEPL_API_KEY=${{ secrets.DEEPL_API_KEY }}" >> $GITHUB_ENV
+          echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
+
       - name: 📚 Run fetch articles
         run: |
           echo "🔍 Ejecutando fetch-articles.js..."
