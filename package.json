@@ -1,6 +1,7 @@
 {
   "name": "futurocientifico",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -10,12 +11,10 @@
     "astro": "^4.0.0",
     "@astrojs/tailwind": "^3.0.0",
     "@astrojs/mdx": "^4.0.0",
-    "@astrojs/sitemap": "^3.4.0"
+    "@astrojs/sitemap": "^3.4.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.33"
-  },
-  "type": "module"
+    "tailwindcss": "^3.3.0"
+  }
 }
