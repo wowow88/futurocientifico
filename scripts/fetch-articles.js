@@ -18,5 +18,5 @@ const dummyData = [
   }
 ];
 
-fs.writeFileSync('./public/articles.json', JSON.stringify(dummyData, null, 2));
+fs.writeFileSync('./public/temp-articles.json', JSON.stringify(dummyData, null, 2));
 console.log("✅ Artículos de ejemplo guardados correctamente.");
