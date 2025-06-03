@@ -22,7 +22,8 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: ➕ Instalar openai y fetch
-        run: npm install openai node-fetch dotenv --save
+        run: npm install openai node-fetch dotenv --legacy-peer-deps
+
 
       - name: 🔐 Set env vars
         run: |
