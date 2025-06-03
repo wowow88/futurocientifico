@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { useEffect, useState } from 'react';
+---
+
+<Layout>
+  <section class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-blue-800 mb-6">Noticias científicas</h1>
+
+    <div id="articulos" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* Este bloque será reemplazado en el navegador con JavaScript */}
+    </div>
+  </section>
+
+  <script type="module">
+    async function cargarArticulos() {
+      const res = await fetch('/articles.json');
+      const data = await res.json();
+      const contenedor = document.getElementById('articulos');
+
+      data.forEach(art => {
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-xl shadow p-4 flex flex-col';
+        card.innerHTML = `
+          <img src="${art.imagen}" alt="Imagen artículo" class="w-full h-40 object-cover rounded mb-2" />
+          <h2 class="text-lg font-semibold text-blue-700 mb-1">${art.titulo_es}</h2>
+          <p class="text-xs text-gray-600 mb-1">${art.tema || 'General'} | ${art.fuente || 'Fuente desconocida'} - ${art.fecha}</p>
+          <a href="${art.url}" target="_blank" class="mt-auto text-blue-600 hover:underline text-sm">Leer artículo</a>
+        `;
+        contenedor.appendChild(card);
+      });
+    }
+
+    cargarArticulos();
+  </script>
+</Layout>
