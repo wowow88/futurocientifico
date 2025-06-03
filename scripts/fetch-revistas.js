@@ -1,4 +1,4 @@
-import fs from 'fs';
+mport fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
@@ -62,8 +62,9 @@ async function obtenerArticulos() {
     };
   }));
 
-  fs.writeFileSync('./public/articles.json', JSON.stringify(resultado, null, 2));
+  fs.writeFileSync('./public/temp-revistas.json', JSON.stringify(resultado, null, 2));
   console.log('Artículos de revistas actualizados correctamente.');
 }
 
 obtenerArticulos();
+
