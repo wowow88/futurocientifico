@@ -1,22 +1,27 @@
-// scripts/fetch-articles.js
 import fs from 'fs';
 
-const dummyData = [
+const noticias = [
   {
-    title_es: "Ejemplo de artículo 1",
-    url: "https://ejemplo.com/articulo1",
-    image: "https://placekitten.com/400/200",
-    source: "Fuente Demo",
-    date: new Date().toISOString()
+    tipo: "noticia",
+    titulo_es: "La NASA descubre indicios de agua en una luna de Júpiter",
+    titulo_en: "NASA finds hints of water on a moon of Jupiter",
+    url: "https://example.com/nasa-water-jupiter",
+    imagen: "https://source.unsplash.com/featured/?space",
+    tema: "astronomía",
+    fuente: "NASA",
+    fecha: new Date().toISOString().split('T')[0]
   },
   {
-    title_es: "Ejemplo de artículo 2",
-    url: "https://ejemplo.com/articulo2",
-    image: "https://placekitten.com/401/200",
-    source: "Fuente Demo",
-    date: new Date().toISOString()
+    tipo: "noticia",
+    titulo_es: "Nuevo avance en edición genética CRISPR",
+    titulo_en: "New breakthrough in CRISPR gene editing",
+    url: "https://example.com/crispr-breakthrough",
+    imagen: "https://source.unsplash.com/featured/?genetics",
+    tema: "biotecnología",
+    fuente: "Nature",
+    fecha: new Date().toISOString().split('T')[0]
   }
 ];
 
-fs.writeFileSync('./public/temp-articles.json', JSON.stringify(dummyData, null, 2));
-console.log("✅ Artículos de ejemplo guardados correctamente.");
+fs.writeFileSync('./public/temp-articles.json', JSON.stringify(noticias, null, 2));
+console.log('✅ Noticias de ejemplo guardadas correctamente.');
