@@ -12,7 +12,8 @@
     "@astrojs/tailwind": "^3.0.0",
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/sitemap": "^3.4.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.0"
