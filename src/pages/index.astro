@@ -11,7 +11,7 @@ import Layout from '../layouts/Layout.astro';
     </p>
   </section>
 
-  <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
     <a href="/formacion" class="block p-4 bg-white rounded-xl shadow hover:shadow-md transition">
       <h2 class="text-lg font-semibold text-blue-800">Formación</h2>
       <p class="text-sm text-gray-600">Rutas académicas, consejos y orientación científica.</p>
@@ -48,10 +48,13 @@ import Layout from '../layouts/Layout.astro';
       .then(data => {
         data.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(article => {
           container.innerHTML += `
-            <article class="bg-white rounded-xl p-4 shadow-md">
-              <h3 class="text-lg font-semibold text-blue-900">${article.title_es}</h3>
-              <p class="text-sm text-gray-600">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
-              <a href="${article.url}" target="_blank" class="text-blue-700 hover:underline mt-2 block">Leer más</a>
+            <article class="bg-white rounded-xl p-4 shadow-md flex flex-col md:flex-row gap-4">
+              <img src="${article.image}" alt="Imagen del artículo" class="w-full md:w-48 h-auto object-cover rounded">
+              <div>
+                <h3 class="text-lg font-semibold text-blue-900">${article.title_es}</h3>
+                <p class="text-sm text-gray-600">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
+                <a href="${article.url}" target="_blank" class="text-blue-700 hover:underline mt-2 block">Leer más</a>
+              </div>
             </article>`;
         });
       });
