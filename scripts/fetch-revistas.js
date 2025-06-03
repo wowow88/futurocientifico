@@ -1,4 +1,4 @@
-mport fs from 'fs';
+import fs from 'fs';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 dotenv.config();
