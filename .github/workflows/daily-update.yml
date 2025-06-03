@@ -1,3 +1,10 @@
+name: Daily Update and Build
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todos los días a las 6:00 UTC
+  workflow_dispatch:
+
 jobs:
   update-and-build:
     runs-on: ubuntu-latest
@@ -40,4 +47,3 @@ jobs:
 
       - name: 📁 List output files
         run: ls -R dist/
-
