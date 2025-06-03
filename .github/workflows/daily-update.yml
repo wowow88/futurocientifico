@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: 📦 Install dependencies
-        run: npm install --legacy-peer-deps
+                run: npm install --legacy-peer-deps
 
       - name: ➕ Instalar openai y fetch
         run: npm install openai node-fetch dotenv --legacy-peer-deps
