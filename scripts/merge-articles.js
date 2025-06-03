@@ -1,26 +1,34 @@
-// scripts/merge-articles.js
 import fs from 'fs';
 
-const filePath = './public/articles.json';
+const revistasPath = './public/articles.json';
+const noticiasPath = './public/temp-articles.json';
+const salidaPath = './public/articles.json';
 
-try {
-  const articles = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-  const uniqueArticles = [];
-  const seenTitles = new Set();
-
-  for (const article of articles) {
-    const title = article.title_es?.trim();
-    if (title && !seenTitles.has(title)) {
-      seenTitles.add(title);
-      uniqueArticles.push(article);
-    }
+function leerArchivo(path) {
+  try {
+    const data = fs.readFileSync(path, 'utf8');
+    return JSON.parse(data);
+  } catch {
+    return [];
   }
-
-  fs.writeFileSync(filePath, JSON.stringify(uniqueArticles, null, 2));
-
-  console.log('✅ Artículos fusionados y guardados sin duplicados.');
-  console.log('✅ Total:', uniqueArticles.length);
-} catch (err) {
-  console.error('❌ Error procesando artículos:', err.message);
-  process.exit(1);
 }
+
+function quitarDuplicados(articulos) {
+  const titulos = new Set();
+  return articulos.filter((art) => {
+    const clave = art.titulo_en?.toLowerCase().trim();
+    if (titulos.has(clave)) return false;
+    titulos.add(clave);
+    return true;
+  });
+}
+
+function mergeArticulos() {
+  const revistas = leerArchivo(revistasPath);
+  const noticias = leerArchivo(noticiasPath);
+  const combinados = quitarDuplicados([...revistas, ...noticias]);
+  fs.writeFileSync(salidaPath, JSON.stringify(combinados, null, 2));
+  console.log(`✅ Artículos combinados: ${combinados.length}`);
+}
+
+mergeArticulos();
