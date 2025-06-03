@@ -23,8 +23,10 @@ jobs:
 
       - name: ➕ Instalar openai y fetch
         run: npm install openai node-fetch dotenv --legacy-peer-deps
-
-
+        
+      - name: ➕ Instalar dependencias extra
+        run: npm install openai node-fetch dotenv rss-parser --legacy-peer-deps
+      
       - name: 🔐 Set env vars
         run: |
           echo "DEEPL_API_KEY=${{ secrets.DEEPL_API_KEY }}" >> $GITHUB_ENV
