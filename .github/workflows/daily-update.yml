@@ -18,7 +18,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: 📦 Install dependencies (legacy peer deps)
+      - name: 📦 Install dependencies
+      run: npm install --legacy-peer-deps
+
+    - name: ➕ Instalar openai y fetch
+      run: npm install openai node-fetch dotenv --save (legacy peer deps)
         run: npm install --legacy-peer-deps
 
       - name: 🔐 Set env vars
@@ -44,3 +48,4 @@ jobs:
 
       - name: 📁 List output files
         run: ls -R dist/
+
