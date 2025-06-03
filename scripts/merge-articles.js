@@ -1,27 +1,25 @@
-// scripts/fetch-articles.js
+// scripts/merge-articles.js
 import fs from 'fs';
 
-const dummyData = [
-  {
-    title_es: "Ejemplo de artículo 1",
-    url: "https://ejemplo.com/articulo1",
-    image: "https://placekitten.com/400/200",
-    source: "Fuente Demo",
-    date: new Date().toISOString()
-  },
-  {
-    title_es: "Ejemplo de artículo 2",
-    url: "https://ejemplo.com/articulo2",
-    image: "https://placekitten.com/401/200",
-    source: "Fuente Demo",
-    date: new Date().toISOString()
+const filePath = './public/articles.json';
+
+try {
+  const articles = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  const uniqueArticles = [];
+  const seenTitles = new Set();
+
+  for (const article of articles) {
+    const title = article.title_es?.trim();
+    if (title && !seenTitles.has(title)) {
+      seenTitles.add(title);
+      uniqueArticles.push(article);
+    }
   }
-];
 
-fs.writeFileSync('./public/articles.json', JSON.stringify(dummyData, null, 2));
-console.log("✅ Artículos de ejemplo guardados correctamente.");
+  fs.writeFileSync(filePath, JSON.stringify(uniqueArticles, null, 2));
 
-  console.log('✅ Número de artículos combinados:', uniqueArticles.length);
+  console.log('✅ Artículos fusionados y guardados sin duplicados.');
+  console.log('✅ Total:', uniqueArticles.length);
 } catch (err) {
   console.error('❌ Error procesando artículos:', err.message);
   process.exit(1);
