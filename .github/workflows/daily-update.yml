@@ -1,31 +1,41 @@
-name: Actualización diaria de artículos
+name: Daily Update and Build
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Cada día a las 06:00 UTC
-  workflow_dispatch: # Permite ejecutarlo manualmente
+    - cron: '0 6 * * *'  # Todos los días a las 6:00 UTC
+  workflow_dispatch:
 
 jobs:
-  actualizar:
+  update-and-build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar repositorio
+      - name: 📥 Checkout repo
         uses: actions/checkout@v3
 
-      - name: Instalar Node.js
+      - name: 🟢 Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: 20
 
-      - name: Instalar dependencias
+      - name: 📦 Install dependencies (legacy peer deps)
         run: npm install --legacy-peer-deps
 
-      - name: Ejecutar fetch-articles.js
-        run: node scripts/fetch-articles.js
+      - name: 📚 Run fetch articles
+        run: |
+          echo "🔍 Ejecutando fetch-articles.js..."
+          node scripts/fetch-articles.js
+          node scripts/fetch-revistas.js
 
-      - name: Ejecutar merge-articles.js
-        run: node scripts/merge-articles.js
+      - name: 🧩 Merge articles
+        run: |
+          echo "🧩 Ejecutando merge-articles.js..."
+          node scripts/merge-articles.js
+          echo "✅ Número de artículos combinados:"
+          cat ./workspace/articles/articles.json | jq '. | length'
 
-      - name: Compilar sitio con Astro
+      - name: 🔨 Build site
         run: npm run build
+
+      - name: 📁 List output files
+        run: ls -R dist/
