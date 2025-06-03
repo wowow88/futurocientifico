@@ -1,28 +1,35 @@
 ---
+import Layout from '../../layouts/Layout.astro';
 ---
 
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FuturoCientífico</title>
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
-  <body class="bg-gray-50 text-gray-900">
-    <header class="bg-white shadow p-4 flex items-center justify-between">
-      <a href="/" class="text-xl font-bold text-blue-700">FuturoCientífico</a>
-      <nav class="space-x-4 text-sm">
-        <a href="/formacion" class="text-blue-600 hover:underline">Formación</a>
-        <a href="/recursos" class="text-blue-600 hover:underline">Recursos</a>
-        <a href="/revistas" class="text-blue-600 hover:underline">Revistas</a>
-        <a href="/apoya" class="text-blue-600 hover:underline">Apóyanos</a>
-      </nav>
-    </header>
-    <main class="max-w-4xl mx-auto py-8 px-4">
-      <slot />
-    </main>
-    <footer class="text-center text-xs text-gray-500 py-6">
-      © FuturoCientífico 2025 — Ciencia para todos los públicos.
-    </footer>
-  </body>
-</html>
+<Layout>
+  <section class="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-purple-800">Revistas y Centros</h1>
+    <p class="mt-2 text-purple-700 text-sm max-w-xl mx-auto">
+      Noticias destacadas y enlaces a revistas científicas y centros de investigación para estar al día en ciencia.
+    </p>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-purple-800">Revistas científicas</h2>
+      <p class="text-sm text-gray-600">Explora publicaciones como Nature, Science, Investigación y Ciencia, y más.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-purple-800">Instituciones reconocidas</h2>
+      <p class="text-sm text-gray-600">Conoce el trabajo de organismos como CSIC, NASA, CERN, y universidades punteras.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-purple-800">Boletines y suscripciones</h2>
+      <p class="text-sm text-gray-600">Accede a newsletters científicas para recibir lo más reciente en tu correo.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-purple-800">Blogs y portales especializados</h2>
+      <p class="text-sm text-gray-600">Recomendaciones de divulgadores, portales de ciencia en español e inglés.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-purple-800">Jóvenes investigadores</h2>
+      <p class="text-sm text-gray-600">Publicaciones, concursos y oportunidades para estudiantes que investigan.</p>
+    </div>
+  </section>
+</Layout>
