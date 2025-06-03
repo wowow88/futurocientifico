@@ -32,7 +32,7 @@ jobs:
           echo "🧩 Ejecutando merge-articles.js..."
           node scripts/merge-articles.js
           echo "✅ Número de artículos combinados:"
-          cat ./workspace/articles/articles.json | jq '. | length'
+          cat ./public/articles.json | jq '. | length'
 
       - name: 🔨 Build site
         run: npm run build
