@@ -1,33 +1,42 @@
 import fs from 'fs';
 
-const noticiasPath = './public/temp-articles.json';
-const revistasPath = './public/temp-revistas.json';
-const salidaPath = './public/articles.json';
+const PY_PATH = './workspace/astro/public/articles_py.json';
+const JS_PATH = './workspace/astro/public/articles_js.json';
+const FINAL_PATH = './public/articles.json';
 
-function leer(path) {
-  try {
-    return JSON.parse(fs.readFileSync(path, 'utf8'));
-  } catch {
-    return [];
-  }
+function loadJSON(path) {
+  if (!fs.existsSync(path)) return [];
+  return JSON.parse(fs.readFileSync(path, 'utf-8'));
 }
 
-function quitarDuplicados(articulos) {
-  const titulos = new Set();
-  return articulos.filter(art => {
-    const clave = art.titulo_en?.toLowerCase().trim();
-    if (titulos.has(clave)) return false;
-    titulos.add(clave);
-    return true;
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // quitar tildes
+    .replace(/[^a-z0-9 ]/gi, '') // quitar símbolos excepto espacios
+    .replace(/\b(pdf|articulo completo|leer mas)\b/g, '') // quitar palabras irrelevantes
+    .replace(/\s+/g, ' ') // colapsar espacios
+    .trim();
+}
+
+function mergeArticles(pyArticles, jsArticles) {
+  const titleMap = new Map();
+
+  [...pyArticles, ...jsArticles].forEach(article => {
+    const baseTitle = article.title_es || article.title || '';
+    const key = normalize(baseTitle);
+    if (!titleMap.has(key)) {
+      titleMap.set(key, article);
+    }
   });
+
+  return Array.from(titleMap.values()).sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
-function merge() {
-  const noticias = leer(noticiasPath);
-  const revistas = leer(revistasPath);
-  const combinados = quitarDuplicados([...noticias, ...revistas]);
-  fs.writeFileSync(salidaPath, JSON.stringify(combinados, null, 2));
-  console.log(`✅ Artículos combinados: ${combinados.length}`);
-}
+const pyArticles = loadJSON(PY_PATH);
+const jsArticles = loadJSON(JS_PATH);
+const merged = mergeArticles(pyArticles, jsArticles);
 
-merge();
+fs.writeFileSync(FINAL_PATH, JSON.stringify(merged, null, 2));
+console.log(`Merged ${merged.length} articles.`);
