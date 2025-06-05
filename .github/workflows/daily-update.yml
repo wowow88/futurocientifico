@@ -6,58 +6,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-articles:
+  sync:
     runs-on: ubuntu-latest
 
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GH_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+      - name: 🔁 Actualización automática (simulada)
+        run: echo "Ya no es necesario generar artículos. Se cargan desde CurioScience."
 
-      - name: Install Python dependencies
-        run: pip install arxiv requests feedparser beautifulsoup4 deep-translator
-
-      - name: Run data pipeline (Python)
-        env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-        run: python scripts/data_pipeline.py
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install JS dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Fetch articles (JavaScript)
-        env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
-        run: node scripts/fetch-articles.js
-
-
-      - name: Install dependencies (Astro site)
-        working-directory: ./astro
-        run: npm install --legacy-peer-deps
-        
-      - name: 🔍 Ejecutando fetch-articles.js...
-        run: node ./scripts/fetch-articles.js
-
-      - name: 🧠 Ejecutando merge-articles.js...
-        run: node ./scripts/merge-articles.js
-
-      - name: Commit and push
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add public/articles.json
-          git commit -m "Auto-update articles.json [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Fin
+        run: echo "✅ Workflow completado."
 
