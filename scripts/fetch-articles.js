@@ -1,65 +1,78 @@
 import fs from 'fs';
 import Parser from 'rss-parser';
 import fetch from 'node-fetch';
-import dotenv from 'dotenv';
-dotenv.config();
+import { franc } from 'franc';
 
-const rssFeeds = [
-  {
-    url: 'https://www.sciencedaily.com/rss/top/science.xml',
-    tema: 'ciencia',
-    fuente: 'ScienceDaily',
-  },
+const parser = new Parser();
+
+const fuentes = [
   {
     url: 'https://www.nature.com/subjects/astronomy/rss',
     tema: 'astronomía',
-    fuente: 'Nature',
+    fuente: 'Nature'
   },
   {
     url: 'https://www.nature.com/subjects/biology/rss',
     tema: 'biología',
-    fuente: 'Nature',
+    fuente: 'Nature'
   }
+  // Puedes añadir más feeds RSS aquí
 ];
 
-const parser = new Parser();
-const articles = [];
-
 async function traducir(texto) {
-  const res = await fetch('https://api-free.deepl.com/v2/translate', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      Authorization: `DeepL-Auth-Key ${process.env.DEEPL_API_KEY}`,
-    },
-    body: `text=${encodeURIComponent(texto)}&target_lang=ES`,
-  });
-
-  const data = await res.json();
-  return data.translations?.[0]?.text || texto;
-}
-
-for (const feed of rssFeeds) {
   try {
-    const parsed = await parser.parseURL(feed.url);
-    for (const entry of parsed.items.slice(0, 5)) {
-      const titulo = entry.title || '';
-      const titulo_es = await traducir(titulo);
-      articles.push({
-        tipo: 'revista',
-        titulo: titulo,
-        titulo_es,
-        url: entry.link,
-        fuente: feed.fuente,
-        tema: feed.tema,
-        imagen: '/images/placeholder.jpg',
-        fecha: entry.isoDate || new Date().toISOString(),
-      });
-    }
-  } catch (err) {
-    console.error(`Error con ${feed.url}:`, err.message);
+    const res = await fetch('https://api-free.deepl.com/v2/translate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        Authorization: `DeepL-Auth-Key ${process.env.DEEPL_API_KEY}`
+      },
+      body: new URLSearchParams({
+        text: texto,
+        target_lang: 'ES'
+      })
+    });
+    const data = await res.json();
+    return data.translations?.[0]?.text || texto;
+  } catch {
+    return texto;
   }
 }
 
-fs.writeFileSync('./workspace/astro/public/articles_js.json', JSON.stringify(articles, null, 2));
-console.log(`✅ ${articles.length} artículos RSS guardados correctamente.`);
+async function obtenerArticulos() {
+  const articulos = [];
+
+  for (const fuente of fuentes) {
+    try {
+      const feed = await parser.parseURL(fuente.url);
+
+      for (const item of feed.items) {
+        const lang = franc(item.title || '');
+        if (lang !== 'eng') continue;
+
+        const tituloTraducido = await traducir(item.title);
+        articulos.push({
+          titulo: item.title,
+          titulo_es: tituloTraducido,
+          url: item.link,
+          fecha: item.pubDate,
+          tema: fuente.tema,
+          fuente: fuente.fuente,
+          tipo: 'revista',
+          imagen: 'https://source.unsplash.com/400x200/?science,' + fuente.tema
+        });
+      }
+    } catch (e) {
+      console.error(`Error con ${fuente.url}: ${e.message}`);
+    }
+  }
+
+  return articulos;
+}
+
+const todos = await obtenerArticulos();
+
+fs.mkdirSync('./public', { recursive: true });
+fs.writeFileSync('./public/articles_js.json', JSON.stringify(todos, null, 2));
+
+console.log('✅ Artículos científicos guardados correctamente.');
