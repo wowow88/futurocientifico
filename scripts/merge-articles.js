@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const PY_PATH = './public/articles_py.json';
-const JS_PATH = './public/articles_js.json';
+const JS_PATH = '.public/articles_js.json';
 const FINAL_PATH = './public/articles.json';
 
 function loadJSON(path) {
@@ -13,10 +13,10 @@ function normalize(text) {
   return text
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9 ]/gi, '')
-    .replace(/\b(pdf|articulo completo|leer mas)\b/g, '')
-    .replace(/\s+/g, ' ')
+    .replace(/[\u0300-\u036f]/g, '') // quitar tildes
+    .replace(/[^a-z0-9 ]/gi, '') // quitar símbolos excepto espacios
+    .replace(/\b(pdf|articulo completo|leer mas)\b/g, '') // quitar palabras irrelevantes
+    .replace(/\s+/g, ' ') // colapsar espacios
     .trim();
 }
 
@@ -39,5 +39,5 @@ const jsArticles = loadJSON(JS_PATH);
 const merged = mergeArticles(pyArticles, jsArticles);
 
 fs.writeFileSync(FINAL_PATH, JSON.stringify(merged, null, 2));
-console.log(`✅ ${merged.length} artículos combinados correctamente.`);
+console.log(`Merged ${merged.length} articles.`);
 
