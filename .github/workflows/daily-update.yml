@@ -35,7 +35,7 @@ jobs:
           node-version: '20'
 
       - name: Install JS dependencies
-        run: npm install rss-parser node-fetch franc
+        run: npm install --legacy-peer-deps
 
       - name: Fetch articles (JavaScript)
         env:
