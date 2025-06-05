@@ -9,21 +9,44 @@ jobs:
   update-articles:
     runs-on: ubuntu-latest
 
+
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install arxiv requests feedparser beautifulsoup4 deep-translator
+
+      - name: Run data pipeline (Python)
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: python scripts/data_pipeline.py
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
-      - name: Install dependencies
+      - name: Install JS dependencies
+        run: npm install rss-parser node-fetch franc
+
+      - name: Fetch articles (JavaScript)
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: node scripts/fetch-articles.js
+
+
+      - name: Install dependencies (Astro site)
+        working-directory: ./astro
         run: npm install --legacy-peer-deps
-
-      - name: Set env variable
-        run: echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
-
+        
       - name: 🔍 Ejecutando fetch-articles.js...
         run: node ./scripts/fetch-articles.js
 
