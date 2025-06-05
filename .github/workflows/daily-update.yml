@@ -18,13 +18,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: 📦 Instalar dependencias necesarias
+      - name: 📦 Instalar dependencias
         run: npm install --legacy-peer-deps
-
-      - name: 📦 Instalar TailwindCSS y PostCSS
-        run: |
-          npm install -D tailwindcss postcss autoprefixer
-          npx tailwindcss init -p
 
       - name: 🔐 Set env vars
         run: |
@@ -52,3 +47,4 @@ jobs:
           git add public/articles.json
           git commit -m "Auto-update articles.json [skip ci]" || echo "No hay cambios"
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+
