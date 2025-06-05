@@ -25,6 +25,11 @@ jobs:
         run: |
           npm install --legacy-peer-deps
           npm install rss-parser
+          
+    - name: 📦 Instalar TailwindCSS y PostCSS
+        run: |
+          npm install -D tailwindcss postcss autoprefixer
+          npx tailwindcss init -p
 
       - name: 🔐 Set env vars
         run: |
