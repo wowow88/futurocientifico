@@ -51,12 +51,9 @@ import Layout from '../../layouts/Layout.astro';
       });
     }
 
-    fetch('/articles.json')
+    fetch('https://curioscience.vercel.app/articles.json')
       .then(res => res.json())
       .then(data => {
         const articulosRevistas = data.filter(a => a.tipo === 'revista');
-        render(articulosRevistas, 'todos');
-        filtro.addEventListener('change', () => render(articulosRevistas, filtro.value));
-      });
-  </script>
-</Layout>
+        render(articulosRev
+
