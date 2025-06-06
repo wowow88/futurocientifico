@@ -1,4 +1,4 @@
-name: 📰 Copiar artículos desde CurioScience
+name: 📰 Daily Update
 
 on:
   schedule:
@@ -10,23 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout FuturoCientífico
+      - name: Checkout repositorio destino (futurocientifico)
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
-      - name: Descargar archivo articles.json desde CurioScience
+      - name: Descargar archivo desde CurioScience
         run: |
-          curl -o public/articles.json https://raw.githubusercontent.com/wowow88/curioscience/workspace/astro/public/articles.json
+          curl -o public/articles.json https://curioscience.vercel.app/articles.json
 
-      - name: Confirmar contenido del archivo
-        run: cat public/articles.json
-
-      - name: Commit and push
-        env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit y push de actualización
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add public/articles.json
           git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
-
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
