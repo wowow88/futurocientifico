@@ -1,59 +1,44 @@
----
-import Layout from '../../layouts/Layout.astro';
----
-
 <Layout>
-  <section class="bg-gradient-to-r from-purple-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <h1 class="text-3xl font-bold text-purple-800">Artículos de Investigación</h1>
-    <p class="mt-2 text-purple-700 text-sm max-w-xl mx-auto">
-      Selección diaria de publicaciones científicas con títulos traducidos y visuales generados por IA.
-    </p>
-
-    <div class="mt-4 text-sm">
-      <label for="filtro" class="block text-purple-800 font-medium mb-2">Filtrar por tema:</label>
-      <select id="filtro" class="px-4 py-2 border rounded shadow-sm w-full max-w-sm mx-auto">
-        <option value="todos">Todos</option>
-        <option value="biología">Biología</option>
-        <option value="física">Física</option>
-        <option value="química">Química</option>
-        <option value="astronomía">Astronomía</option>
-        <option value="medicina">Medicina</option>
-        <option value="tecnología">Tecnología</option>
-        <option value="medio ambiente">Medio ambiente</option>
-        <option value="inteligencia artificial">Inteligencia Artificial</option>
-      </select>
-    </div>
+  <section class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-purple-800 mb-6">Revistas científicas</h1>
+    <div id="contenedor-temas" class="space-y-10"></div>
   </section>
 
-  <section id="revistas" class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-4 pb-10"></section>
-
   <script type="module">
-    const contenedor = document.querySelector('#revistas');
-    const filtro = document.querySelector('#filtro');
+    async function cargarArticulos() {
+      const res = await fetch('/articles.json');
+      const data = await res.json();
+      const revistas = data.filter(art => art.tipo === 'revista'); // Clasifica tipo si es necesario
 
-    function render(articulos, temaSeleccionado) {
-      contenedor.innerHTML = '';
-      const filtrados = temaSeleccionado === 'todos'
-        ? articulos
-        : articulos.filter(a => a.tema.toLowerCase() === temaSeleccionado);
-
-      filtrados.sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).forEach(article => {
-        contenedor.innerHTML += `
-          <article class="bg-white rounded-xl shadow p-4 flex flex-col gap-2">
-            <img src="${article.imagen}" alt="Imagen IA" class="rounded w-full h-40 object-cover">
-            <h2 class="text-lg font-semibold text-purple-800">${article.titulo_es}</h2>
-            <div class="flex justify-between text-xs text-gray-500">
-              <span class="bg-purple-100 text-purple-700 px-2 py-0.5 rounded">${article.tema}</span>
-              <span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded">${article.fuente}</span>
-            </div>
-            <a href="${article.url}" target="_blank" class="text-purple-700 hover:underline text-sm">Leer artículo completo</a>
-          </article>`;
+      const agrupados = {};
+      revistas.forEach(art => {
+        const tema = art.tema || 'General';
+        if (!agrupados[tema]) agrupados[tema] = [];
+        agrupados[tema].push(art);
       });
+
+      const contenedor = document.getElementById('contenedor-temas');
+      for (const [tema, articulos] of Object.entries(agrupados)) {
+        const bloque = document.createElement('div');
+        bloque.innerHTML = `<h2 class="text-2xl font-semibold text-purple-600 mb-3">${tema}</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="grupo-${tema}"></div>`;
+        
+        const grupo = bloque.querySelector(`#grupo-${tema}`);
+        articulos.forEach(art => {
+          const card = document.createElement('div');
+          card.className = 'bg-white rounded-xl shadow p-4 flex flex-col';
+          card.innerHTML = `
+            <h3 class="text-lg font-semibold text-purple-700 mb-1">${art.title_es || art.title}</h3>
+            <p class="text-xs text-gray-600 mb-1">${art.source || 'Fuente desconocida'} - ${art.date}</p>
+            <a href="${art.url}" target="_blank" class="mt-auto text-purple-600 hover:underline text-sm">Leer revista</a>
+          `;
+          grupo.appendChild(card);
+        });
+
+        contenedor.appendChild(bloque);
+      }
     }
 
-    fetch('https://curioscience.vercel.app/articles.json')
-      .then(res => res.json())
-      .then(data => {
-        const articulosRevistas = data.filter(a => a.tipo === 'revista');
-        render(articulosRev
-
+    cargarArticulos();
+  </script>
+</Layout>
