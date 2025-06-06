@@ -1,30 +1,32 @@
-<Layout>
-  <section class="max-w-6xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold text-blue-800 mb-6">Noticias científicas</h1>
+---
+// index de NOTICIAS
+import articles from '../../public/articles.json';
 
-    <div id="articulos" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Artículos por JavaScript -->
-    </div>
+const noticias = articles.filter(article => article.category === 'noticia');
+---
+
+<Layout title="Noticias científicas">
+  <section class="p-4">
+    <h1 class="text-3xl font-bold mb-4">Noticias científicas</h1>
+    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {noticias.map(article => (
+        <li class="border p-4 rounded shadow bg-white" key={article.link}>
+          <h2 class="text-xl font-semibold mb-2">{article.title_es || article.title}</h2>
+          <p class="text-sm text-gray-700 mb-2">{article.description}</p>
+          {article.tags && article.tags.length > 0 && (
+            <div class="mt-2">
+              {article.tags.map(tag => (
+                <span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+          <a class="block mt-4 text-blue-600 hover:underline" href={article.link} target="_blank" rel="noopener noreferrer">
+            Leer más
+          </a>
+        </li>
+      ))}
+    </ul>
   </section>
-
-  <script type="module">
-    async function cargarArticulos() {
-      const res = await fetch('/articles.json');
-      const data = await res.json();
-      const contenedor = document.getElementById('articulos');
-
-      data.forEach(art => {
-        const card = document.createElement('div');
-        card.className = 'bg-white rounded-xl shadow p-4 flex flex-col';
-        card.innerHTML = `
-          <h2 class="text-lg font-semibold text-blue-700 mb-1">${art.title_es || art.title}</h2>
-          <p class="text-xs text-gray-600 mb-1">${art.tema || 'General'} | ${art.source || 'Fuente desconocida'} - ${art.date}</p>
-          <a href="${art.url}" target="_blank" class="mt-auto text-blue-600 hover:underline text-sm">Leer artículo</a>
-        `;
-        contenedor.appendChild(card);
-      });
-    }
-
-    cargarArticulos();
-  </script>
 </Layout>
