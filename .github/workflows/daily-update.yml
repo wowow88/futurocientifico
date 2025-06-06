@@ -15,7 +15,7 @@ jobs:
 
       - name: Descargar archivo articles.json desde CurioScience
         run: |
-          curl -o public/articles.json https://raw.githubusercontent.com/usuario/curioscience/main/public/articles.json
+          curl -o public/articles.json https://raw.githubusercontent.com/wowow88/curioscience/workspace/astro/public/articles.json
 
       - name: Confirmar contenido del archivo
         run: cat public/articles.json
