@@ -21,10 +21,12 @@ jobs:
         run: cat public/articles.json
 
       - name: Commit and push
+        env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add public/articles.json
           git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
 
