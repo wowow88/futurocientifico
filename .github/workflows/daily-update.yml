@@ -20,7 +20,7 @@ jobs:
           curl -o ./public/articles.json https://raw.githubusercontent.com/wowow88/curioscience/main/public/articles.json
 
       - name: 🧠 Enriquecer artículos
-        run: node enrich-articles.js
+        run: node scripts/enrich-articles.js
 
       - name: 🔁 Commit y Push
         run: |
