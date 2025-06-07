@@ -3,7 +3,7 @@ import fs from 'fs';
 const raw = fs.readFileSync('./public/articles_enriched.json', 'utf-8');
 const articles = JSON.parse(raw);
 const noticias = articles.filter(article => article.category === 'noticia');
-import Layout from 'src/layouts/Layout.astro';
+import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout title="Noticias científicas">
