@@ -1,3 +1,4 @@
+// enrich-articles.js
 import fs from 'fs';
 
 const filePath = './public/articles.json';
@@ -16,6 +17,7 @@ const detectCategory = (title) => {
 // Generador simulado de descripción y etiquetas
 const generateDescription = (title) =>
   `Este artículo trata sobre "${title}". Se exploran los aspectos clave relacionados con la ciencia actual.`;
+
 const generateTags = (title) =>
   title
     .split(' ')
@@ -29,5 +31,6 @@ const enriched = articles.map(article => ({
   category: article.category || detectCategory(article.title),
 }));
 
-fs.writeFileSync('./public/articles.json', JSON.stringify(enrichedArticles, null, 2));
+fs.writeFileSync(outputPath, JSON.stringify(enriched, null, 2));
 console.log(`✅ Archivo enriquecido guardado en ${outputPath}`);
+
