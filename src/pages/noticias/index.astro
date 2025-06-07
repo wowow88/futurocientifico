@@ -1,9 +1,9 @@
 ---
-import Layout from '../../layouts/Layout.astro';
 import fs from 'fs';
 const raw = fs.readFileSync('./public/articles_enriched.json', 'utf-8');
 const articles = JSON.parse(raw);
 const noticias = articles.filter(article => article.category === 'noticia');
+import Layout from '../../components/Layout.astro';
 ---
 
 <Layout title="Noticias científicas">
@@ -13,7 +13,6 @@ const noticias = articles.filter(article => article.category === 'noticia');
       {noticias.map(article => (
         <li class="border p-4 rounded shadow bg-white" key={article.link}>
           <h2 class="text-xl font-semibold mb-2">{article.title_es || article.title}</h2>
-          <p class="text-sm text-gray-700 mb-2">{article.description}</p>
           {article.tags && article.tags.length > 0 && (
             <div class="mt-2">
               {article.tags.map(tag => (
@@ -23,12 +22,15 @@ const noticias = articles.filter(article => article.category === 'noticia');
               ))}
             </div>
           )}
-          <a class="block mt-4 text-blue-600 hover:underline" href={article.link} target="_blank" rel="noopener noreferrer">
-            Leer más
-          </a>
+          {article.pdfLink && (
+            <a class="block mt-4 text-blue-600 hover:underline" href={article.pdfLink} target="_blank" rel="noopener noreferrer">
+              Leer PDF
+            </a>
+          )}
         </li>
       ))}
     </ul>
   </section>
 </Layout>
+
 
