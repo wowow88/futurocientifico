@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import fs from 'fs';
-const raw = fs.readFileSync('./public/articles.json', 'utf-8');
+const raw = fs.readFileSync('./public/articles_enriched.json', 'utf-8');
 const articles = JSON.parse(raw);
 const revistas = articles.filter(article => article.category === 'revista');
 ---
