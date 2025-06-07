@@ -29,5 +29,5 @@ const enriched = articles.map(article => ({
   category: article.category || detectCategory(article.title),
 }));
 
-fs.writeFileSync(outputPath, JSON.stringify(enriched, null, 2), 'utf-8');
+fs.writeFileSync('./public/articles.json', JSON.stringify(enrichedArticles, null, 2));
 console.log(`✅ Archivo enriquecido guardado en ${outputPath}`);
