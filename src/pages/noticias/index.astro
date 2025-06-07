@@ -1,35 +1,40 @@
 ---
-import fs from 'fs';
-const raw = fs.readFileSync('./public/articles_enriched.json', 'utf-8');
-const articles = JSON.parse(raw);
-const noticias = articles.filter(article => article.category === 'noticia');
 import Layout from '../../layouts/Layout.astro';
 ---
 
-<Layout title="Noticias científicas">
-  <section class="p-4">
-    <h1 class="text-3xl font-bold mb-4">Noticias científicas</h1>
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {noticias.map(article => (
-        <li class="border p-4 rounded shadow bg-white" key={article.link}>
-          <h2 class="text-xl font-semibold mb-2">{article.title_es || article.title}</h2>
-          {article.tags && article.tags.length > 0 && (
-            <div class="mt-2">
-              {article.tags.map(tag => (
-                <span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">
-                  #{tag}
-                </span>
-              ))}
-            </div>
-          )}
-          {article.pdfLink && (
-            <a class="block mt-4 text-blue-600 hover:underline" href={article.pdfLink} target="_blank" rel="noopener noreferrer">
-              Leer PDF
-            </a>
-          )}
-        </li>
-      ))}
-    </ul>
+<Layout>
+  <section class="bg-gradient-to-r from-orange-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-orange-800">Preguntona</h1>
+    <p class="mt-2 text-orange-700 text-sm max-w-xl mx-auto">
+      Una sección para mentes curiosas. Respuestas sorprendentes, mitos desmontados y experimentos que puedes hacer en casa.
+    </p>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-orange-800">¿Sabías que...?</h2>
+      <p class="text-sm text-gray-600">El pulpo tiene tres corazones, y dos de ellos se detienen cuando nada. ¡Eso sí es eficiencia!</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-orange-800">Preguntas que todos se hacen</h2>
+      <p class="text-sm text-gray-600">¿Por qué no podemos ver el aire? ¿Y por qué algunos objetos flotan y otros se hunden?</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-orange-800">Hazlo en casa</h2>
+      <p class="text-sm text-gray-600">Crea un arcoíris líquido con solo agua, azúcar y colorante. Aprende densidad jugando.</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-orange-800">Mitos desmontados</h2>
+      <p class="text-sm text-gray-600">No, no usamos solo el 10% del cerebro. Es un mito popular sin base científica.</p>
+    </div>
+
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-orange-800">Observa y Piensa</h2>
+      <p class="text-sm text-gray-600">¿Qué pesa más: un kilo de plomo o un kilo de plumas? 🤔 Aprende con paradojas y juegos.</p>
+    </div>
   </section>
 </Layout>
 
