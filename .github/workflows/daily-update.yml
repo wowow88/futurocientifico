@@ -24,10 +24,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Enriquecer artículos
-        run: |
-          npm install
-          node scripts/enrich-articles.js
+     - name: 🧠 Enriquecer artículos
+       run: node enrich-articles.js
 
       - name: Commit y push
         run: |
