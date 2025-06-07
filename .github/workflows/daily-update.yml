@@ -30,6 +30,14 @@ jobs:
         working-directory: futurocientifico
         run: node scripts/enrich-articles.js
 
+      - name: Instalar dependencias
+        working-directory: futurocientifico
+        run: npm install --legacy-peer-deps
+
+      - name: Build del sitio
+        working-directory: futurocientifico
+        run: npm run build
+
       - name: Commit y push
         working-directory: futurocientifico
         run: |
