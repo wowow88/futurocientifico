@@ -1,6 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Seo } from 'astro-seo';
 ---
+
+<Seo 
+  title="Inicio | FuturoCientífico"
+  description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios en español e inglés para todas las edades."
+  site="https://futurocientifico.vercel.app"
+  image="/avatar-cientifico.png"
+  twitter="@futurocientifico"
+/>
 
 <Layout>
   <section class="bg-gradient-to-r from-blue-100 to-white p-6 rounded-xl shadow-sm text-center mb-8">
@@ -9,7 +18,7 @@ import Layout from '../layouts/Layout.astro';
     <p class="mt-2 text-blue-700 text-sm max-w-2xl mx-auto">
       Un proyecto de divulgación y educación científica abierto, automatizado y pensado para todos los públicos.
     </p>
-    <a href="/noticias" class="inline-block mt-4 px-6 py-2 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 transition">Ver noticias científicas</a>
+    <a href="/revistas" class="inline-block mt-4 px-6 py-2 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 transition">Ver noticias científicas</a>
   </section>
 
   <section class="max-w-4xl mx-auto text-sm text-gray-700 space-y-6">
@@ -22,7 +31,7 @@ import Layout from '../layouts/Layout.astro';
       <li><strong>Formación:</strong> Guías y orientación para todos los niveles, desde primaria hasta universidad, FP y especializaciones científicas.</li>
       <li><strong>Recursos:</strong> Plataformas, apps, simuladores, podcasts y materiales para aprender y enseñar ciencia de forma dinámica.</li>
       <li><strong>Revistas:</strong> Novedades científicas, enlaces a publicaciones especializadas y centros de investigación.</li>
-      <li><strong>Preguntona:</strong> Artículos actualizados automáticamente con lo más reciente en el mundo científico.</li>
+      <li><strong>Preguntona:</strong> Curiosidades, preguntas científicas, mitos desmontados y experimentos para hacer en casa, explicados de forma sencilla.</li>
       <li><strong>Apóyanos:</strong> Opciones para colaborar con el proyecto y mantener su crecimiento sostenible.</li>
       <li><strong>Quiénes somos:</strong> La historia y motivación del creador del sitio, y la visión que lo impulsa.</li>
     </ul>
