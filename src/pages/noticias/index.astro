@@ -1,13 +1,8 @@
-
 ---
 import Layout from '../../layouts/Layout.astro';
----
----
-// index de NOTICIAS
 import fs from 'fs';
 const raw = fs.readFileSync('./public/articles.json', 'utf-8');
 const articles = JSON.parse(raw);
-
 const noticias = articles.filter(article => article.category === 'noticia');
 ---
 
@@ -36,3 +31,4 @@ const noticias = articles.filter(article => article.category === 'noticia');
     </ul>
   </section>
 </Layout>
+
