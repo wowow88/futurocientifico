@@ -1,10 +1,13 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import fs from 'fs';
-const raw = fs.readFileSync('./public/articles_enriched.json', 'utf-8');
-const articles = JSON.parse(raw);
-const revistas = articles.filter(article => article.category === 'revista');
+import { Seo } from '../../components/Seo.astro';
 ---
+
+<Seo 
+  title="Revistas Científicas | FuturoCientífico"
+  description="Noticias y artículos seleccionados de revistas científicas como Nature, arXiv, PubMed, CNIO y más."
+  site="https://futurocientifico.vercel.app/revistas"
+/>
 
 <Layout>
   <section class="mb-6 p-4 bg-gray-50 rounded-xl text-sm text-gray-700">
@@ -66,4 +69,3 @@ const revistas = articles.filter(article => article.category === 'revista');
     button.addEventListener('click', renderPage);
   </script>
 </Layout>
-
