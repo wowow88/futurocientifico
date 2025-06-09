@@ -5,9 +5,9 @@ import ProductCard from '../../components/ProductCard.astro';
 ---
 
 <Seo 
-  title="Quiénes Somos | FuturoCientífico"
-  description="Conoce al creador de FuturoCientífico, su experiencia, visión educativa y el propósito de esta plataforma científica."
-  site="https://futurocientifico.vercel.app/quienes-somos"
+  title="Preguntona | FuturoCientífico"
+  description="Una sección para mentes curiosas. Respuestas sorprendentes, mitos desmontados y experimentos que puedes hacer en casa."
+  site="https://futurocientifico.vercel.app/preguntona"
 />
 
 <Layout>
@@ -45,45 +45,38 @@ import ProductCard from '../../components/ProductCard.astro';
     </div>
   </section>
 
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="1234567890"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+  <section class="mt-12 bg-blue-50 p-6 rounded-xl shadow-sm">
+    <h2 class="text-xl font-bold text-blue-800 mb-4 text-center">También te puede interesar</h2>
+    <div class="grid gap-4 md:grid-cols-3 text-sm text-blue-700">
+      <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🔬 Explora rutas formativas para aprender ciencia paso a paso.</a>
+      <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Descubre recursos útiles para investigar y aprender en casa.</a>
+      <a href="/revistas" class="bg-white p-4 rounded-lg border hover:shadow transition">📰 Consulta revistas científicas adaptadas a diferentes edades.</a>
+    </div>
+  </section>
 
-
-<section class="mt-12">
-  <h2 class="text-2xl font-bold text-orange-900 text-center mb-6">Explora más ciencia en casa</h2>
-  <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-    <ProductCard
-      title="National Geographic Telescopio + Microscopio 50 mm"
-      image="https://m.media-amazon.com/images/I/51vZgKTIbBL._AC_SL1000_.jpg"
-      description="Kit combinado para explorar el cielo y el microcosmos en familia."
-      url="https://www.amazon.es/dp/B07NBGSMQX?tag=futurocientif-21"
-    />
-    <ProductCard
-      title="Clementoni Jr. Laboratorio de Ciencias"
-      image="https://m.media-amazon.com/images/I/61gNw4hFhYL._AC_SL1000_.jpg"
-      description="Laboratorio junior con experimentos seguros para primeras edades."
-      url="https://www.amazon.es/dp/B09ZPS184F?tag=futurocientif-21"
-    />
-    <ProductCard
-      title="National Geographic 40‑640× Microscopio LED"
-      image="https://m.media-amazon.com/images/I/71FSU4XQZAL._AC_SL1500_.jpg"
-      description="Microscopio ampliable con LED y soporte para smartphone."
-      url="https://www.amazon.es/dp/B016QIPWO8?tag=futurocientif-21"
-    />
-  </div>
-</section>
-
-
-</Layout>
-
-
+  <section class="mt-12">
+    <h2 class="text-2xl font-bold text-blue-900 text-center mb-6">Productos recomendados</h2>
+    <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <ProductCard 
+        title="Microscopio para niños (Amazon)"
+        image="https://m.media-amazon.com/images/I/61DXmBdUGrL._AC_SL1000_.jpg"
+        description="Un microscopio educativo para despertar la curiosidad científica en niños desde 8 años."
+        url="https://www.amazon.es/dp/B07H7JPPQK?tag=futurocientif-21" 
+      />
+      <ProductCard 
+        title="Libro: Cosmos - Carl Sagan (Amazon)"
+        image="https://m.media-amazon.com/images/I/71w24J+3xbL._SL1500_.jpg"
+        description="Un clásico de la divulgación científica que inspira a generaciones."
+        url="https://www.amazon.es/dp/840820481X?tag=futurocientif-21"
+      />
+      <ProductCard 
+        title="Set de experimentos científicos (Amazon)"
+        image="https://m.media-amazon.com/images/I/81XxQ4Sw0uL._AC_SL1500_.jpg"
+        description="Incluye más de 20 experimentos seguros para realizar en casa. Ideal para primaria."
+        url="https://www.amazon.es/dp/B08P3YRBN7?tag=futurocientif-21"
+      />
+    </div>
+  </section>
 
 </Layout>
 
