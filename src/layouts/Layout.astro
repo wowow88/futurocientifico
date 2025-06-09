@@ -3,6 +3,16 @@
 
 <html lang="es">
   <head>
+ <body class="font-sans bg-white text-gray-900">
+    <!-- Splash Screen -->
+    <div id="splash" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+      <img id="splash-avatar" src="/avatar-cientifico.png" alt="Avatar científico animado de FuturoCientífico" class="w-32 h-32 animate-bounce" />
+    </div>
+    <script>
+      setTimeout(() => {
+        document.getElementById('splash').style.display = 'none';
+      }, 3000);
+    </script>
     <slot name="head" />
   </head>
   <body class="overflow-x-hidden">
