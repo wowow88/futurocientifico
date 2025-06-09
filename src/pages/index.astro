@@ -7,13 +7,16 @@ import Seo from "../components/Seo.astro"
   title="Inicio | FuturoCientífico"
   description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios en español e inglés para todas las edades."
   site="https://futurocientifico.vercel.app"
-  image="/avatar-cientifico.png"
+  image="/avatar-cientifico.webp"
   twitter="@futurocientifico"
 />
 
 <Layout>
   <section class="bg-gradient-to-r from-blue-100 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <img src="/avatar-cientifica.png" alt="Avatar animado de bienvenida a FuturoCientífico" class="w-full max-w-xl mx-auto rounded-xl shadow mb-4" />
+    <picture>
+      <source srcset="/avatar-cientifica.webp" type="image/webp" />
+      <img src="/avatar-cientifica.webp" alt="Avatar científica de FuturoCientífico con gafas y bata" loading="lazy" />
+    </picture>
     <h1 class="text-3xl font-bold text-blue-800">Bienvenidos a FuturoCientífico</h1>
     <p class="mt-2 text-blue-700 text-sm max-w-2xl mx-auto">
       Un proyecto de divulgación y educación científica abierto, automatizado y pensado para todos los públicos.
