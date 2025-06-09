@@ -1,42 +1,56 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Seo from "../components/Seo.astro"
+import Layout from '../../layouts/Layout.astro';
+import Seo from '../../components/Seo.astro';
+import ProductCard from '../../components/ProductCard.astro';
 ---
 
 <Seo 
-  title="Inicio | FuturoCientífico"
-  description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios en español e inglés para todas las edades."
-  site="https://futurocientifico.vercel.app"
-  image="/avatar-cientifico.png"
-  twitter="@futurocientifico"
+  title="Formación Científica | FuturoCientífico"
+  description="Rutas educativas y orientación desde primaria hasta universidad y especializaciones científicas."
+  site="https://futurocientifico.vercel.app/formacion"
 />
 
 <Layout>
-  <section class="bg-gradient-to-r from-blue-100 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <img src="/avatar-cientifica.png" alt="Avatar animado de bienvenida a FuturoCientífico" class="w-full max-w-xl mx-auto rounded-xl shadow mb-4" />
-    <h1 class="text-3xl font-bold text-blue-800">Bienvenidos a FuturoCientífico</h1>
-    <p class="mt-2 text-blue-700 text-sm max-w-2xl mx-auto">
-      Un proyecto de divulgación y educación científica abierto, automatizado y pensado para todos los públicos.
+  <section class="bg-gradient-to-r from-green-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
+    <h1 class="text-3xl font-bold text-green-800">Formación Científica</h1>
+    <p class="mt-2 text-green-700 text-sm max-w-xl mx-auto">
+      Guías, rutas académicas y orientación para estudiantes, familias y educadores interesados en el mundo científico.
     </p>
-    <a href="/revistas" class="inline-block mt-4 px-6 py-2 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 transition">Ver revistas científicas</a>
   </section>
 
-  <section class="max-w-4xl mx-auto text-sm text-gray-700 space-y-6">
-    <p><strong>FuturoCientífico</strong> nace del compromiso con una ciencia accesible, divertida y actual. Este sitio está diseñado para estudiantes, familias, docentes y cualquier persona curiosa que desee aprender sobre ciencia cada día, sin barreras.</p>
-
-    <p>Gracias a tecnologías como Astro, IA generativa y automatización, la plataforma se actualiza diariamente con contenidos fiables, en español e inglés. Aquí encontrarás rutas educativas, noticias científicas, recursos descargables y muchas ideas para crecer en el mundo de la ciencia.</p>
-
-    <h2 class="text-xl font-semibold text-blue-900 mt-8">¿Qué puedes encontrar aquí?</h2>
-    <ul class="list-disc pl-5 space-y-2">
-      <li><strong>Formación:</strong> Guías y orientación para todos los niveles, desde primaria hasta universidad, FP y especializaciones científicas.</li>
-      <li><strong>Recursos:</strong> Plataformas, apps, simuladores, podcasts y materiales para aprender y enseñar ciencia de forma dinámica.</li>
-      <li><strong>Revistas:</strong> Novedades científicas, enlaces a publicaciones especializadas y centros de investigación.</li>
-      <li><strong>Preguntona:</strong> Curiosidades, preguntas científicas, mitos desmontados y experimentos para hacer en casa, explicados de forma sencilla.</li>
-      <li><strong>Apóyanos:</strong> Opciones para colaborar con el proyecto y mantener su crecimiento sostenible.</li>
-      <li><strong>Quiénes somos:</strong> La historia y motivación del creador del sitio, y la visión que lo impulsa.</li>
-    </ul>
-
-    <p>Este sitio es libre, sin muros de pago ni publicidad invasiva. Si te resulta útil, compártelo y ayúdanos a llegar a más futuros científicos.</p>
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Educación Primaria</h2>
+      <p class="text-sm text-gray-600">Recursos introductorios, juegos educativos y curiosidades científicas para niños y niñas.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Secundaria y Bachillerato</h2>
+      <p class="text-sm text-gray-600">Consejos, asignaturas clave, proyectos y preparación universitaria.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Formación Profesional Científica</h2>
+      <p class="text-sm text-gray-600">FP de grado medio y superior orientadas al mundo laboral científico: laboratorio, química, salud ambiental, etc.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Certificados de Profesionalidad</h2>
+      <p class="text-sm text-gray-600">Especializaciones técnicas del SEPE en ramas científicas y tecnológicas, accesibles con o sin título previo.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Universidad y más allá</h2>
+      <p class="text-sm text-gray-600">Carreras científicas, másteres, doctorados y oportunidades de investigación.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Familias y Padres</h2>
+      <p class="text-sm text-gray-600">Cómo apoyar el interés por la ciencia en casa, herramientas y lectura recomendada.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Orientadores de Estudio</h2>
+      <p class="text-sm text-gray-600">Guías y materiales para acompañar a jóvenes en su vocación científica.</p>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-xl font-semibold text-green-800">Cursos, Campus y Campamentos</h2>
+      <p class="text-sm text-gray-600">Iniciativas formativas extracurriculares: programas de verano, campus STEM, cursos en línea y más.</p>
+    </div>
   </section>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -47,13 +61,17 @@ import Seo from "../components/Seo.astro"
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+</section>
+
+  </div>
 <section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
   <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">Explora más contenido</h2>
+    <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">También te puede interesar</h2>
     <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-    <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🎓 Rutas educativas para todas las edades.</a>
-    <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Herramientas para aprender y enseñar ciencia.</a>
-    <a href="/preguntona" class="bg-white p-4 rounded-lg border hover:shadow transition">🧠 Responde preguntas científicas divertidas.</a>
+    <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Encuentra recursos para complementar tu aprendizaje.</a>
+    <a href="/formacion#campamentos" class="bg-white p-4 rounded-lg border hover:shadow transition">🏕️ Explora cursos, campus y campamentos.</a>
+    <a href="/revistas" class="bg-white p-4 rounded-lg border hover:shadow transition">📰 Lee artículos de revistas científicas relevantes.</a>
   </div>
 </section>
 
