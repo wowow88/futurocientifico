@@ -11,7 +11,7 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="FuturoCientífico" />
     <meta property="og:description" content="Divulgación científica para todas las edades." />
-    <meta property="og:image" content="/logo.svg" />
+    <meta property="og:image" content="/avatar-cientifico.webp" />
     <meta property="og:url" content="https://futurocientifico.vercel.app" />
     <meta name="twitter:card" content="summary_large_image" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163450732409344" crossorigin="anonymous"></script>
@@ -25,118 +25,6 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
         justify-content: center;
         align-items: center;
         z-index: 1000;
-      }
-      #splash img {
-        width: 120px;
-        animation: bounce 1s infinite;
-      }
-      @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-      }
-      #mobile-menu {
-        display: none;
-      }
-      @media (max-width: 768px) {
-        #mobile-menu {
-          display: block;
-        }
-      }
-    </style>
-  </head>
-  <body class="overflow-x-hidden">
-    <div id="splash">
-      <img src="/avatar-cientifico.png" alt="Cargando FuturoCientífico..." />
-    </div>
-
-    <header class="bg-white border-b sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <a href="/" class="flex items-center space-x-2">
-          <img src="/logo.svg" alt="Logo Futuro Científico" class="h-10" />
-          <span class="font-bold text-lg text-blue-900">FuturoCientífico</span>
-        </a>
-        <nav class="hidden md:flex space-x-4">
-          <a href="/formacion" class="text-sm text-blue-800 hover:underline">Formación</a>
-          <a href="/recursos" class="text-sm text-blue-800 hover:underline">Recursos</a>
-          <a href="/revistas" class="text-sm text-blue-800 hover:underline">Revistas</a>
-          <a href="/preguntona" class="text-sm text-blue-800 hover:underline">Preguntona</a>
-          <a href="/apoya" class="text-sm text-blue-800 hover:underline">Apóyanos</a>
-          <a href="/quienes-somos" class="text-sm text-blue-800 hover:underline">Quiénes Somos</a>
-        </nav>
-        <div class="md:hidden">
-          <button id="menu-toggle" aria-label="Abrir menú">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
-        <a href="/formacion" class="block py-1 text-blue-800">Formación</a>
-        <a href="/recursos" class="block py-1 text-blue-800">Recursos</a>
-        <a href="/revistas" class="block py-1 text-blue-800">Revistas</a>
-        <a href="/preguntona" class="block py-1 text-blue-800">Preguntona</a>
-        <a href="/apoya" class="block py-1 text-blue-800">Apóyanos</a>
-        <a href="/quienes-somos" class="block py-1 text-blue-800">Quiénes Somos</a>
-      </div>
-    </header>
-
-    <main class="max-w-7xl mx-auto px-4 py-8 min-h-[60vh] mb-12">
-      <slot />
-    </main>
-
-    <footer class="bg-gray-100 text-sm text-gray-700 px-4 py-12">
-      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div>
-          <h3 class="font-semibold text-blue-900 mb-2">FuturoCientífico</h3>
-          <p>Divulgación científica para todas las edades.</p>
-          <p class="mt-2">Contacto: <a href="mailto:futurocientifico@outlook.com" class="text-blue-700 hover:underline">futurocientifico@outlook.com</a></p>
-        </div>
-        <div>
-          <h4 class="font-semibold text-blue-900 mb-2">Enlaces</h4>
-          <ul class="space-y-1">
-            <li><a href="/formacion" class="hover:underline">Formación</a></li>
-            <li><a href="/recursos" class="hover:underline">Recursos</a></li>
-            <li><a href="/revistas" class="hover:underline">Revistas</a></li>
-            <li><a href="/preguntona" class="hover:underline">Preguntona</a></li>
-            <li><a href="/quienes-somos" class="hover:underline">Quiénes Somos</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="font-semibold text-blue-900 mb-2">Síguenos</h4>
-          <a href="https://www.instagram.com/futurocientifico" class="text-blue-700 hover:underline block" title="Instagram">
-            <svg class="w-6 h-6 inline mr-1" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7Zm5.25-.88a.88.88 0 1 1 0 1.75a.88.88 0 0 1 0-1.75Z"/></svg>
-            Instagram
-          </a>
-          <a href="https://buymeacoffee.com/futurociene" title="Invítanos a un café" class="inline-block mt-2">
-            <img src="/buymeacoffee.svg" alt="Buy Me a Coffee" class="h-8" />
-          </a>
-        </div>
-      </div>
-    </footer>
-
-    <nav class="fixed bottom-0 left-0 right-0 bg-white shadow-inner md:hidden flex justify-around py-2 border-t z-50">
-      <a href="/formacion" class="text-blue-700 text-xs text-center"><div>📘</div><div>Formación</div></a>
-      <a href="/recursos" class="text-blue-700 text-xs text-center"><div>🧰</div><div>Recursos</div></a>
-      <a href="/revistas" class="text-blue-700 text-xs text-center"><div>📚</div><div>Revistas</div></a>
-      <a href="/preguntona" class="text-blue-700 text-xs text-center"><div>❓</div><div>Preguntona</div></a>
-      <a href="/apoya" class="text-blue-700 text-xs text-center"><div>💖</div><div>Apoya</div></a>
-    </nav>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => document.getElementById('splash')?.remove(), 1500);
-
-        const toggle = document.getElementById('menu-toggle');
-        const menu = document.getElementById('mobile-menu');
-        toggle.addEventListener('click', () => {
-          menu.classList.toggle('hidden');
-        });
-      });
-    </script>
-  </body>
-</html>
-
       }
       #splash img {
         width: 120px;
@@ -213,7 +101,7 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
           </a>
         </div>
     </footer>
-<section class="mt-12 mb-6">
+<section class="mt-12 mb-24">
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-2xl font-bold text-blue-900 text-center mb-6">🎁 Productos Recomendados</h2>
     <div class="flex gap-4 overflow-x-auto pb-4 snap-x scroll-pl-6">
@@ -257,17 +145,10 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
 
     </nav>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(() => document.getElementById('splash')?.remove(), 1500);
-
-    const toggle = document.getElementById('menu-toggle');
-    const menu = document.getElementById('mobile-menu');
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-  });
-</script>
-
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(() => document.getElementById('splash')?.remove(), 1500);
+      });
+    </script>
   </body>
 </html>
