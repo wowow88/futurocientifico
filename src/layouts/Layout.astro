@@ -145,10 +145,17 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
 
     </nav>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => document.getElementById('splash')?.remove(), 1500);
-      });
-    </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(() => document.getElementById('splash')?.remove(), 1500);
+
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  });
+</script>
+
   </body>
 </html>
