@@ -1,9 +1,24 @@
 ---
+import BuyMeACoffee from '../components/BuyMeACoffee.astro';
 ---
 
 <html lang="es">
   <head>
- <body class="font-sans bg-white text-gray-900">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FuturoCientífico</title>
+    <meta name="description" content="FuturoCientífico es una plataforma educativa bilingüe con noticias, recursos y formación científica para todas las edades." />
+    <meta name="keywords" content="ciencia, educación, recursos científicos, noticias científicas, formación científica, divulgación, ciencia para niños, ciencia para jóvenes" />
+    <meta name="author" content="FuturoCientífico" />
+    <meta property="og:title" content="FuturoCientífico" />
+    <meta property="og:description" content="Descubre ciencia cada día con artículos, recursos y formación gratuita para mentes curiosas." />
+    <meta property="og:image" content="/avatar-cientifico.png" />
+    <meta property="og:url" content="https://futurocientifico.vercel.app" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163450732409344" crossorigin="anonymous"></script>
+  </head>
+  <body class="font-sans bg-white text-gray-900">
     <!-- Splash Screen -->
     <div id="splash" class="fixed inset-0 bg-white flex items-center justify-center z-50">
       <img id="splash-avatar" src="/avatar-cientifico.png" alt="Avatar científico animado de FuturoCientífico" class="w-32 h-32 animate-bounce" />
@@ -13,39 +28,83 @@
         document.getElementById('splash').style.display = 'none';
       }, 3000);
     </script>
-    <slot name="head" />
-  </head>
-  <body class="overflow-x-hidden">
-    <header class="bg-white border-b sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <a href="/" class="flex items-center space-x-2">
-          <img src="public/avatar-cientifico.svg" alt="Logo Futuro Científico" class="h-10" />
-          <span class="font-bold text-lg text-blue-900">FuturoCientífico</span>
-        </a>
-        <nav class="hidden md:flex space-x-4">
-          <a href="/formacion" class="text-sm text-blue-800 hover:underline">Formación</a>
-          <a href="/recursos" class="text-sm text-blue-800 hover:underline">Recursos</a>
-          <a href="/revistas" class="text-sm text-blue-800 hover:underline">Revistas</a>
-          <a href="/preguntona" class="text-sm text-blue-800 hover:underline">Preguntona</a>
-          <a href="/apoya" class="text-sm text-blue-800 hover:underline">Apóyanos</a>
+
+    <!-- Navegación principal -->
+    <header class="bg-white border-b shadow-sm sticky top-0 z-40">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <a href="/" class="text-xl font-bold text-blue-700">FuturoCientífico</a>
+        <BuyMeACoffee />
+        <button id="menu-toggle" class="md:hidden text-blue-700 text-xl">☰</button>
+        <nav id="menu" class="hidden md:flex space-x-4 text-sm">
+          <a href="/" class="text-blue-600 hover:underline">Inicio</a>
+          <a href="/formacion" class="text-blue-600 hover:underline">Formación</a>
+          <a href="/recursos" class="text-blue-600 hover:underline">Recursos</a>
+          <a href="/revistas" class="text-blue-600 hover:underline">Revistas</a>
+          <a href="/preguntona" class="text-blue-600 hover:underline">Preguntona</a>
+          <a href="/apoya" class="text-blue-600 hover:underline">Apóyanos</a>
           <a href="/quienes-somos" class="text-blue-600 hover:underline">Quiénes somos</a>
         </nav>
-        <div class="md:hidden">
-          <button id="menu-toggle" aria-label="Abrir menú">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
       </div>
+      <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2">
+        <a href="/" class="block text-blue-600 hover:underline">Inicio</a>
+        <a href="/formacion" class="block text-blue-600 hover:underline">Formación</a>
+        <a href="/recursos" class="block text-blue-600 hover:underline">Recursos</a>
+        <a href="/revistas" class="block text-blue-600 hover:underline">Revistas</a>
+        <a href="/preguntona" class="block text-blue-600 hover:underline">Preguntona</a>
+        <a href="/apoya" class="block text-blue-600 hover:underline">Apóyanos</a>
+        <a href="/quienes-somos" class="block text-blue-600 hover:underline">Quiénes somos</a>
+      </div>
+      <script>
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+          const menu = document.getElementById('mobile-menu');
+          menu.classList.toggle('hidden');
+        });
+      </script>
     </header>
 
-    <main class="max-w-7xl mx-auto px-4 py-8">
-      <slot />
-    </main>
+    <!-- Contenido de las páginas -->
+<section class="mt-12 px-4 md:px-8">
+  <h2 class="text-2xl font-bold text-blue-900 text-center mb-8">🎁 Productos Recomendados</h2>
+  <div class="flex gap-6 overflow-x-auto snap-x pb-4 scroll-smooth scroll-pl-4">
+    
+    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
+      <h3 class="text-lg font-semibold text-blue-900 mb-2">Arduino Starter Kit</h3>
+      <p class="text-sm text-gray-700 mb-3">Aprende electrónica y programación desde cero.</p>
+      <a href="https://www.amazon.es/dp/B00XHY8VUW?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
+    </div>
 
-    <footer class="bg-gray-100 text-sm text-gray-700 px-4 py-12 mt-12">
-      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
+      <h3 class="text-lg font-semibold text-blue-900 mb-2">Microscopio National Geographic</h3>
+      <p class="text-sm text-gray-700 mb-3">Explora el microcosmos con ampliación hasta 640x.</p>
+      <a href="https://www.amazon.es/dp/B07YZ7Q67T?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
+    </div>
+
+    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
+      <h3 class="text-lg font-semibold text-blue-900 mb-2">ELEGOO Starter Kit</h3>
+      <p class="text-sm text-gray-700 mb-3">Compatible con Arduino, ideal para empezar proyectos.</p>
+      <a href="https://www.amazon.es/dp/B088GY8JLG?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
+    </div>
+
+    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
+      <h3 class="text-lg font-semibold text-blue-900 mb-2">Carteles educativos de ciencia</h3>
+      <p class="text-sm text-gray-700 mb-3">Set de 12 pósteres para aprender en el aula o casa. Colores vivos y contenido didáctico.</p>
+      <a href="https://www.amazon.es/dp/B0BG27L3L3?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
+    </div>
+
+    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
+      <h3 class="text-lg font-semibold text-blue-900 mb-2">Calculadora científica Casio FX-82SP</h3>
+      <p class="text-sm text-gray-700 mb-3">Modelo escolar recomendado por profesores. Ideal para ESO, Bachillerato y ciclos.</p>
+      <a href="https://www.amazon.es/dp/B0C43WTQVS?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
+    </div>
+
+  </div>
+</section>
+
+    <slot />
+
+    <!-- Footer -->
+    <footer class="bg-blue-50 text-blue-800 mt-12">
+      <div class="max-w-5xl mx-auto px-4 py-32 md:py-16 flex flex-col md:grid md:grid-cols-3 gap-4 text-sm">
         <div class="md:block hidden">
           <h3 class="font-semibold mb-2">Secciones</h3>
           <ul class="space-y-1">
@@ -89,44 +148,5 @@
         <a href="/apoya" class="flex flex-col items-center"><span>🤝</span><span>Apóyanos</span></a>
       </div>
     </footer>
-
-<section class="mt-12 px-4 md:px-8">
-  <h2 class="text-2xl font-bold text-blue-900 text-center mb-8">🎁 Productos Recomendados</h2>
-  <div class="flex gap-6 overflow-x-auto snap-x pb-4 scroll-smooth scroll-pl-4">
-    
-    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
-      <h3 class="text-lg font-semibold text-blue-900 mb-2">Arduino Starter Kit</h3>
-      <p class="text-sm text-gray-700 mb-3">Aprende electrónica y programación desde cero.</p>
-      <a href="https://www.amazon.es/dp/B00XHY8VUW?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
-    </div>
-
-    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
-      <h3 class="text-lg font-semibold text-blue-900 mb-2">Microscopio National Geographic</h3>
-      <p class="text-sm text-gray-700 mb-3">Explora el microcosmos con ampliación hasta 640x.</p>
-      <a href="https://www.amazon.es/dp/B07YZ7Q67T?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
-    </div>
-
-    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
-      <h3 class="text-lg font-semibold text-blue-900 mb-2">ELEGOO Starter Kit</h3>
-      <p class="text-sm text-gray-700 mb-3">Compatible con Arduino, ideal para empezar proyectos.</p>
-      <a href="https://www.amazon.es/dp/B088GY8JLG?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
-    </div>
-
-    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
-      <h3 class="text-lg font-semibold text-blue-900 mb-2">Carteles educativos de ciencia</h3>
-      <p class="text-sm text-gray-700 mb-3">Set de 12 pósteres para aprender en el aula o casa. Colores vivos y contenido didáctico.</p>
-      <a href="https://www.amazon.es/dp/B0BG27L3L3?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
-    </div>
-
-    <div class="snap-start min-w-[280px] bg-gradient-to-br from-white to-blue-50 border border-blue-100 rounded-2xl shadow-md p-5 flex-shrink-0">
-      <h3 class="text-lg font-semibold text-blue-900 mb-2">Calculadora científica Casio FX-82SP</h3>
-      <p class="text-sm text-gray-700 mb-3">Modelo escolar recomendado por profesores. Ideal para ESO, Bachillerato y ciclos.</p>
-      <a href="https://www.amazon.es/dp/B0C43WTQVS?tag=futurocientif-21" target="_blank" class="inline-block mt-auto text-sm text-blue-700 font-semibold underline">Ver en Amazon ↗</a>
-    </div>
-    <script>
-      document.getElementById('menu-toggle').addEventListener('click', function () {
-        alert('Aquí se abriría el menú responsive (pendiente implementación).');
-      });
-    </script>
   </body>
 </html>
