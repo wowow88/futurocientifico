@@ -11,7 +11,7 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="FuturoCientífico" />
     <meta property="og:description" content="Divulgación científica para todas las edades." />
-    <meta property="og:image" content="/avatar-cientifico.png" />
+    <meta property="og:image" content="/avatar-cientifico.webp" />
     <meta property="og:url" content="https://futurocientifico.vercel.app" />
     <meta name="twitter:card" content="summary_large_image" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163450732409344" crossorigin="anonymous"></script>
@@ -38,16 +38,21 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
   </head>
   <body class="overflow-x-hidden">
     <div id="splash">
-      <img src="/avatar-cientifico.png" alt="Cargando FuturoCientífico..." />
+      <picture>
+        <source srcset="/avatar-cientifico.webp" type="image/webp" />
+        <img src="/avatar-cientifico.png" alt="Avatar científico de FuturoCientífico con tablet" loading="lazy" />
+      </picture>
     </div>
   </div>
 </section>
     <header class="bg-white border-b sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <a href="/" class="flex items-center space-x-2">
-          <img src="/avatar-cientifico.png" alt="Logo Futuro Científico" class="h-10" />
-          <span class="font-bold text-lg text-blue-900">FuturoCientífico</span>
-        </a>
+          <picture>
+            <source srcset="/avatar-cientifico.webp" type="image/webp" />
+            <img src="/avatar-cientifico.png" alt="Avatar científico de FuturoCientífico con tablet" loading="lazy" />
+          </picture>
+      </a>
         <nav class="hidden md:flex space-x-4">
           <a href="/formacion" class="text-sm text-blue-800 hover:underline">Formación</a>
           <a href="/recursos" class="text-sm text-blue-800 hover:underline">Recursos</a>
