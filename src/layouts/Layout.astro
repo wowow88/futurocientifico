@@ -46,27 +46,50 @@
 
     <footer class="bg-gray-100 text-sm text-gray-700 px-4 py-12 mt-12">
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div>
-          <h3 class="font-semibold text-blue-900 mb-2">FuturoCientífico</h3>
-          <p>Divulgación científica para todas las edades.</p>
-        </div>
-        <div>
-          <h4 class="font-semibold text-blue-900 mb-2">Enlaces</h4>
+        <div class="md:block hidden">
+          <h3 class="font-semibold mb-2">Secciones</h3>
           <ul class="space-y-1">
+            <li><a href="/" class="hover:underline">Inicio</a></li>
             <li><a href="/formacion" class="hover:underline">Formación</a></li>
             <li><a href="/recursos" class="hover:underline">Recursos</a></li>
+            <li><a href="/apoya" class="hover:underline">Apóyanos</a></li>
             <li><a href="/revistas" class="hover:underline">Revistas</a></li>
             <li><a href="/preguntona" class="hover:underline">Preguntona</a></li>
           </ul>
         </div>
-        <div>
-          <h4 class="font-semibold text-blue-900 mb-2">Síguenos</h4>
-          <a href="https://buymeacoffee.com/futurociene" title="Invítanos a un café" class="inline-block mt-2">
-            <img src="/buymeacoffee.svg" alt="Buy Me a Coffee" class="h-8" />
-          </a>
+        <div class="flex flex-col md:flex-row md:col-span-2 justify-between items-start md:items-center gap-4">
+          <div class="w-full md:w-1/2">
+            <h3 class="font-semibold mb-2">Contacto</h3>
+            <ul class="space-y-1">
+              <li><a href="mailto:futurecientifico2025@gmail.com" class="hover:underline">futurocientifico2025@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/2 flex justify-start md:justify-end gap-4 items-center">
+            <a href="https://www.instagram.com/futurocientifico2025/" target="_blank" aria-label="Instagram" class="hover:text-pink-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16h10M7 12h4m-4-4h10m2 12V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2z" /></svg>
+            </a>
+            <a href="#" target="_blank" aria-label="TikTok" class="hover:text-black">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2v20M2 12h20" /></svg>
+            </a>
+            <a href="#" target="_blank" aria-label="Twitter" class="hover:text-sky-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2v20M2 12h20" /></svg>
+            </a>
+          </div>
         </div>
       </div>
+      <p class="text-center text-xs text-gray-500 mt-4">
+        Apóyanos en <a href="https://buymeacoffee.com/futurociene" class="text-yellow-700 underline hover:text-yellow-800">Buy Me a Coffee</a>
+      </p>
+      <div class="fixed bottom-0 inset-x-0 bg-white border-t border-gray-200 shadow-md md:hidden flex justify-around py-2 text-sm text-blue-800 z-50">
+        <a href="/" class="flex flex-col items-center"><span>🏠</span><span>Inicio</span></a>
+        <a href="/formacion" class="flex flex-col items-center"><span>🎓</span><span>Formación</span></a>
+        <a href="/recursos" class="flex flex-col items-center"><span>📚</span><span>Recursos</span></a>
+        <a href="/revistas" class="flex flex-col items-center"><span>🧪</span><span>Revistas</span></a>
+        <a href="/preguntona" class="flex flex-col items-center"><span>❓</span><span>Preguntona</span></a>
+        <a href="/apoya" class="flex flex-col items-center"><span>🤝</span><span>Apóyanos</span></a>
+      </div>
     </footer>
+
 <section class="mt-12 px-4 md:px-8">
   <h2 class="text-2xl font-bold text-blue-900 text-center mb-8">🎁 Productos Recomendados</h2>
   <div class="flex gap-6 overflow-x-auto snap-x pb-4 scroll-smooth scroll-pl-4">
