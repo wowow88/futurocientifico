@@ -108,7 +108,13 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
         </div>
       </div>
     </footer>
-
+ <nav class="fixed bottom-0 left-0 right-0 bg-white shadow-inner md:hidden flex justify-around py-2 border-t z-50">
+      <a href="/formacion" class="text-blue-700 text-xs text-center"><div>📘</div><div>Formación</div></a>
+      <a href="/recursos" class="text-blue-700 text-xs text-center"><div>🧰</div><div>Recursos</div></a>
+      <a href="/revistas" class="text-blue-700 text-xs text-center"><div>📚</div><div>Revistas</div></a>
+      <a href="/preguntona" class="text-blue-700 text-xs text-center"><div>❓</div><div>Preguntona</div></a>
+      <a href="/apoya" class="text-blue-700 text-xs text-center"><div>💖</div><div>Apoya</div></a>
+  </nav>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => document.getElementById('splash')?.remove(), 1500);
