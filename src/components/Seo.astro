@@ -5,6 +5,7 @@ export interface Props {
   site: string;
   image?: string;
   twitter?: string;
+  lang?: 'es' | 'en';
 }
 
 const {
@@ -12,7 +13,8 @@ const {
   description,
   site,
   image = '/avatar-cientifico.png',
-  twitter = '@futurocientifico'
+  twitter = '@futurocientifico',
+  lang = 'es'
 } = Astro.props;
 ---
 
@@ -27,3 +29,7 @@ const {
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={image} />
 <meta name="twitter:site" content={twitter} />
+<link rel="canonical" href={site} />
+<link rel="alternate" hreflang="es" href={site.replace('/en', '')} />
+<link rel="alternate" hreflang="en" href={site.includes('/en') ? site : site + '/en'} />
+
