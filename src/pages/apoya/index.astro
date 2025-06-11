@@ -44,8 +44,6 @@ import ProductCard from '../../components/ProductCard.astro';
       <p class="text-sm text-gray-600">Si dominas inglés y español, ayúdanos a revisar las traducciones automáticas y mejorar la calidad.</p>
     </div>
   </section>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163450732409344"
-     crossorigin="anonymous"></script>
 <!-- BannerIndex -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -54,10 +52,19 @@ import ProductCard from '../../components/ProductCard.astro';
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+  if (typeof window !== "undefined") {
+    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+      window.adsbygoogle.push({});
+    } else {
+      const interval = setInterval(() => {
+        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+          clearInterval(interval);
+        }
+      }, 300);
+    }
+  }
 </script>
-</script>
-
 <section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
   <div class="max-w-7xl mx-auto px-4">
     <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">Explora más contenido</h2>
