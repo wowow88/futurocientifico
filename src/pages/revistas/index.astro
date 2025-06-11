@@ -69,8 +69,6 @@ import ProductCard from '../../components/ProductCard.astro';
 
     button.addEventListener('click', renderPage);
   </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2163450732409344"
-     crossorigin="anonymous"></script>
 <!-- BannerIndex -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -79,9 +77,19 @@ import ProductCard from '../../components/ProductCard.astro';
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+  if (typeof window !== "undefined") {
+    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+      window.adsbygoogle.push({});
+    } else {
+      const interval = setInterval(() => {
+        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+          clearInterval(interval);
+        }
+      }, 300);
+    }
+  }
 </script>
-
   </div>
 <section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
   <div class="max-w-7xl mx-auto px-4">
