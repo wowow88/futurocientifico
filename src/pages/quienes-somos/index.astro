@@ -35,22 +35,27 @@ import ProductCard from '../../components/ProductCard.astro';
       <p>Contacto: <a href="mailto:futurocientifico2025@gmail.com" class="text-indigo-600 underline">futurocientifico2025@gmail.com</a></p>
     </div>
 
-  <section class="mt-8 text-center">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2163450732409344"
-         data-ad-slot="6134548917"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      if (typeof window !== "undefined") {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      }
-    </script>
-  </section>
-</Layout>
-
-
+<!-- BannerIndex -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2163450732409344"
+     data-ad-slot="6134548917"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+  if (typeof window !== "undefined") {
+    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+      window.adsbygoogle.push({});
+    } else {
+      const interval = setInterval(() => {
+        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+          clearInterval(interval);
+        }
+      }, 300);
+    }
+  }
+</script>
 </Layout>
 
 
