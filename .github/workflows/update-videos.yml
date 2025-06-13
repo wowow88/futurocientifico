@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Ejecutar script de actualización
-        run: node src/scripts/update-videos.js
+        run: node scripts/update-videos.js
 
       - name: Subir cambios
         run: |
