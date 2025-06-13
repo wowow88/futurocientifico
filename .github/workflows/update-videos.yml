@@ -1,3 +1,10 @@
+name: 📺 Actualizar videos semanales
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # Cada lunes a las 9:00 UTC
+  workflow_dispatch:
+
 jobs:
   update-videos:
     runs-on: ubuntu-latest
@@ -27,5 +34,5 @@ jobs:
           TOKEN: ${{ secrets.PAT }}
         run: |
           git add src/data/latest-videos.json
-          git commit -m "📹 Actualización semanal de videos educativos" || echo "No hay cambios para hacer commit"
+          git commit -m "📹 Actualización semanal de videos educativos" || echo "Sin cambios que hacer commit"
           git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
