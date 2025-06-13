@@ -1,7 +1,11 @@
-// update-videos.js
+// src/scripts/update-videos.js
+
 import fs from 'fs/promises'
 import fetch from 'node-fetch'
 import xml2js from 'xml2js'
+import path from 'path'
+
+const DATA_PATH = path.resolve('src/data/latest-videos.json')
 
 const CHANNELS = [
   { name: 'NatGeoKids', id: 'UCXVCgDuD_QCkI7gTKU7-tpg' },
@@ -25,16 +29,30 @@ async function fetchLatestVideo(channelId) {
 }
 
 async function main() {
-  const videos = []
+  let existing = []
+
+  try {
+    const raw = await fs.readFile(DATA_PATH, 'utf-8')
+    existing = JSON.parse(raw)
+  } catch {
+    existing = []
+  }
+
+  const existingLinks = new Set(existing.map(v => v.link))
+  const videos = [...existing]
+
   for (const ch of CHANNELS) {
     try {
       const vid = await fetchLatestVideo(ch.id)
-      videos.push({ channel: ch.name, ...vid })
+      if (!existingLinks.has(vid.link)) {
+        videos.unshift({ channel: ch.name, ...vid })
+      }
     } catch (e) {
       console.error(`Error loading ${ch.name}:`, e)
     }
   }
-  await fs.writeFile('src/data/latest-videos.json', JSON.stringify(videos, null, 2))
+
+  await fs.writeFile(DATA_PATH, JSON.stringify(videos, null, 2))
 }
 
 main().catch(console.error)
