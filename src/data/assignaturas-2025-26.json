@@ -1,0 +1,54 @@
+[
+  {
+    "curso": "1º ESO",
+    "asignaturas": [
+      { "nombre": "Matemáticas", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Ciencias de la Naturaleza", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Tecnología y Digitalización", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" }
+    ]
+  },
+  {
+    "curso": "2º ESO",
+    "asignaturas": [
+      { "nombre": "Matemáticas", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Ciencias de la Naturaleza", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Física y Química", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Tecnología / Digitalización", "tipo": "Obligatoria/Optativa", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/217" }
+    ]
+  },
+  {
+    "curso": "3º ESO",
+    "asignaturas": [
+      { "nombre": "Matemáticas", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Física y Química", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Tecnología y Digitalización", "tipo": "Optativa", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/217" }
+    ]
+  },
+  {
+    "curso": "4º ESO",
+    "asignaturas": [
+      { "nombre": "Matemáticas Científicas", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Física y Química", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Biología y Geología", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" },
+      { "nombre": "Robótica / Ciencia Ciudadana", "tipo": "Optativa", "enlace": "https://www.ccmadrid.es/robotica" }
+    ]
+  },
+  {
+    "curso": "1º Bachillerato",
+    "asignaturas": [
+      { "nombre": "Matemáticas I", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Física y Química", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Biología", "tipo": "Optativa", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Dibujo Técnico / Tecnología Industrial", "tipo": "Optativa", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Proyectos de Investigación", "tipo": "Optativa", "enlace": "https://www.boe.es/eli/es/rd/2014/12/04/1105" }
+    ]
+  },
+  {
+    "curso": "2º Bachillerato",
+    "asignaturas": [
+      { "nombre": "Matemáticas II / Aplicadas", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Física y Química", "tipo": "Obligatoria", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" },
+      { "nombre": "Biología y Geología / Ciencias Ambientales", "tipo": "Optativa", "enlace": "https://www.boe.es/eli/es/rd/2022/03/15/243" }
+    ]
+  }
+]
