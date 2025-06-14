@@ -1,20 +1,48 @@
 ---
-import assignaturas from '../data/assignaturas-2025-26.json'
+layout: "../../../layouts/Layout.astro"
+title: "Formación · Educación Secundaria y Bachillerato | FuturoCientífico"
+description: "Consejos, asignaturas clave, proyectos y preparación universitaria para estudiantes de Secundaria y Bachillerato."
+site: "https://futurocientifico.vercel.app/formacion/secundaria"
 ---
 
-<section class="mt-12 px-4 py-6 bg-gray-100 rounded-xl shadow-sm max-w-4xl mx-auto">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">📚 Asignaturas 2025–26 y enlaces oficiales</h2>
-  {assignaturas.map(curso => (
-    <div class="mb-6">
-      <h3 class="text-xl font-semibold text-gray-700 mb-2">{curso.curso}</h3>
-      <ul class="list-disc list-inside text-gray-700">
-        {curso.asignaturas.map(a => (
-          <li>
-            <strong>{a.nombre}</strong> – {a.tipo} – 
-            <a href={a.enlace} target="_blank" rel="noopener" class="text-blue-600 underline">Ver currículo oficial</a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  ))}
+<section class="mt-8 px-4 max-w-3xl mx-auto">
+  <h1 class="text-3xl font-bold text-blue-800 mb-4">Secundaria y Bachillerato</h1>
+  <p class="text-lg text-gray-700 mb-6">
+    Recursos actualizados a 2025 para todas las asignaturas científicas por curso, con descripciones oficiales, materiales de refuerzo y vídeos semanales. Basado en el currículo del RD 217/2022 y RD 243/2022.
+  </p>
 </section>
+
+<section class="mt-12 px-4 py-6 bg-slate-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+  <h2 class="text-2xl font-bold text-slate-800 mb-4">📘 Asignaturas Científicas por Curso</h2>
+  <RecursosAcademicos />
+  <p class="text-sm text-gray-500 mt-4">
+    Fuentes oficiales: <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2022-4512" class="underline text-blue-700" target="_blank">RD 217/2022 (ESO)</a> | <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2022-4513" class="underline text-blue-700" target="_blank">RD 243/2022 (Bachillerato)</a>
+  </p>
+</section>
+
+<section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+  <h2 class="text-2xl font-bold text-orange-800 mb-4">🎥 Experimentos Semanales para Inspirar</h2>
+  <p class="text-gray-700 mb-4">
+    Cada semana seleccionamos un experimento en video adaptado para estudiantes de secundaria y bachillerato. Haz clic en los enlaces para descubrir cómo aplicar ciencia real desde casa o en el aula.
+  </p>
+  <ul class="list-disc list-inside text-blue-700">
+    {latestExperimentos.map(video => (
+      <li><a href={video.url} target="_blank" rel="noopener">{video.title}</a></li>
+    ))}
+  </ul>
+</section>
+
+<section class="mt-12 px-4 py-6 bg-indigo-50 rounded-xl shadow-sm max-w-3xl mx-auto text-center">
+  <h2 class="text-2xl font-bold text-indigo-800 mb-4">🔁 Otras etapas formativas</h2>
+  <p class="text-gray-700 mb-4">¿Quieres explorar más niveles educativos?</p>
+  <div class="flex flex-wrap justify-center gap-2">
+    <a href="/formacion/primaria" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Primaria</a>
+    <a href="/formacion/fp" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Formación Profesional</a>
+    <a href="/formacion/certificados" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Certificados SEPE</a>
+    <a href="/formacion/universidad" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Universidad</a>
+    <a href="/formacion/familias" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Familias</a>
+    <a href="/formacion/orientadores" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Orientadores</a>
+    <a href="/formacion/cursos" class="px-4 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800">Cursos y Campus</a>
+  </div>
+</section>
+
