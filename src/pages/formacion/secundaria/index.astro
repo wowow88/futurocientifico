@@ -2,6 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
 import RecursosAcademicos from '../../../components/RecursosAcademicos.astro';
+import latestVideos from '../../../data/latest-experimentos-secundaria.json';
 title: "Formación · Secundaria y Bachillerato | FuturoCientífico"
 description: "Consejos, asignaturas clave, proyectos y preparación universitaria para estudiantes de secundaria y bachillerato."
 site: "https://futurocientifico.vercel.app/formacion/secundaria-bachillerato"
@@ -120,6 +121,8 @@ site: "https://futurocientifico.vercel.app/formacion/secundaria-bachillerato"
         frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+  <iframe src={latestVideos[0].url} ... ></iframe>
+  <p>{latestVideos[0].title}</p>
 </section>
 
 <!-- BannerIndex -->
