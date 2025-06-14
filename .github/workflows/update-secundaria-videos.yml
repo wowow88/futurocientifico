@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Ejecuta el script de actualización
-        run: node src/scripts/update-experimentos-secundaria.js
+        run: node scripts/update-experimentos-secundaria.js
 
       - name: Commit de los cambios
         run: |
