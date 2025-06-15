@@ -260,14 +260,18 @@ site: "https://futurocientifico.vercel.app/formacion/secundaria-bachillerato"
   <p class="text-gray-700 mb-4">
     Cada semana seleccionamos un nuevo video de experimentos científicos adaptado a estudiantes de Secundaria y Bachillerato. Puedes ver el más reciente a continuación:
   </p>
-  <div class="grid gap-4">
-    {latestVideos.length > 0 && (
-      <iframe class="w-full rounded-xl shadow" height="250"
-        src={`https://www.youtube.com/embed/${latestVideos[0].videoId}`}
-        title={latestVideos[0].title}
-        frameborder="0" allowfullscreen>
-      </iframe>
-    )}
+---
+const video = latestVideos[0];
+---
+
+{video && (
+  <iframe class="w-full rounded-xl shadow" height="250"
+    src={`https://www.youtube.com/embed/${video.videoId}`}
+    title={video.title}
+    frameborder="0" allowfullscreen>
+  </iframe>
+)}
+
   </div>
 </section>
 
