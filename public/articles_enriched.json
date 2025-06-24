@@ -1,76 +1,76 @@
 [
   {
-    "title": "Ignition Phase : Standard Training for Fast Adversarial Robustness",
-    "title_es": "Fase de ignición: formación estándar para una rápida robustez adversarial",
-    "url": "https://arxiv.org/abs/2506.15685",
-    "date": "2025-06-23",
+    "title": "Outcome-Based Education: Evaluating Students' Perspectives Using Transformer",
+    "title_es": "Educación basada en resultados: Evaluación de las perspectivas de los estudiantes mediante Transformer",
+    "url": "https://arxiv.org/abs/2506.17223",
+    "date": "2025-06-24",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Fase de ignición: formación estándar para una rápida robustez adversarial\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Educación basada en resultados: Evaluación de las perspectivas de los estudiantes mediante Transformer\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "ignition",
-      "phase",
-      ""
+      "outcomebased",
+      "education",
+      "evaluating"
     ],
     "category": "noticia"
   },
   {
-    "title": "Learning from M-Tuple Dominant Positive and Unlabeled Data",
-    "title_es": "Aprendizaje a partir de datos positivos y no etiquetados dominantes en tuplas M",
-    "url": "https://arxiv.org/abs/2506.15686",
-    "date": "2025-06-23",
+    "title": "Bridging Equilibrium and Kinetics Prediction with a Data-Weighted Neural Network Model of Methane Steam Reforming",
+    "title_es": "Predicción de equilibrio y cinética con un modelo de red neuronal ponderada de reformado con vapor de metano",
+    "url": "https://arxiv.org/abs/2506.17224",
+    "date": "2025-06-24",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Aprendizaje a partir de datos positivos y no etiquetados dominantes en tuplas M\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Predicción de equilibrio y cinética con un modelo de red neuronal ponderada de reformado con vapor de metano\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "learning",
-      "from",
-      "mtuple"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "S$^2$GPT-PINNs: Sparse and Small models for PDEs",
-    "title_es": "S$^2$GPT-PINNs: Modelos dispersos y pequeños para EDP",
-    "url": "https://arxiv.org/abs/2506.15687",
-    "date": "2025-06-23",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"S$^2$GPT-PINNs: Modelos dispersos y pequeños para EDP\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "sgptpinns",
-      "sparse",
+      "bridging",
+      "equilibrium",
       "and"
     ],
     "category": "noticia"
   },
   {
-    "title": "Cellular Traffic Prediction via Deep State Space Models with Attention Mechanism",
-    "title_es": "Predicción del tráfico celular mediante modelos de espacio de estados profundos con mecanismo de atención",
-    "url": "https://arxiv.org/abs/2506.15688",
-    "date": "2025-06-23",
+    "title": "DCMF: A Dynamic Context Monitoring and Caching Framework for Context Management Platforms",
+    "title_es": "DCMF: un marco dinámico de supervisión y almacenamiento en caché para plataformas de gestión de contextos",
+    "url": "https://arxiv.org/abs/2506.17226",
+    "date": "2025-06-24",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Predicción del tráfico celular mediante modelos de espacio de estados profundos con mecanismo de atención\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"DCMF: un marco dinámico de supervisión y almacenamiento en caché para plataformas de gestión de contextos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "cellular",
-      "traffic",
-      "prediction"
+      "dcmf",
+      "a",
+      "dynamic"
     ],
     "category": "noticia"
   },
   {
-    "title": "BASE-Q: Bias and Asymmetric Scaling Enhanced Rotational Quantization for Large Language Models",
-    "title_es": "BASE-Q: Cuantización rotacional mejorada por sesgo y escalado asimétrico para grandes modelos lingüísticos",
-    "url": "https://arxiv.org/abs/2506.15689",
-    "date": "2025-06-23",
+    "title": "MMET: A Multi-Input and Multi-Scale Transformer for Efficient PDEs Solving",
+    "title_es": "MMET: Un transformador multientrada y multiescala para la resolución eficiente de EDP",
+    "url": "https://arxiv.org/abs/2506.17230",
+    "date": "2025-06-24",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"BASE-Q: Cuantización rotacional mejorada por sesgo y escalado asimétrico para grandes modelos lingüísticos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"MMET: Un transformador multientrada y multiescala para la resolución eficiente de EDP\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "baseq",
-      "bias",
-      "and"
+      "mmet",
+      "a",
+      "multiinput"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Efficient and Stealthy Jailbreak Attacks via Adversarial Prompt Distillation from LLMs to SLMs",
+    "title_es": "Ataques eficientes y sigilosos de fuga de la cárcel mediante la destilación de promesas adversarias de LLM a SLM",
+    "url": "https://arxiv.org/abs/2506.17231",
+    "date": "2025-06-24",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Ataques eficientes y sigilosos de fuga de la cárcel mediante la destilación de promesas adversarias de LLM a SLM\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "efficient",
+      "and",
+      "stealthy"
     ],
     "category": "noticia"
   },
@@ -78,7 +78,7 @@
     "title": "New books from outer space, future Earth, and close to home",
     "title_es": "Nuevos libros sobre el espacio exterior, la Tierra del futuro y los países vecinos",
     "url": "https://www.science.org/doi/abs/10.1126/science.adz0140?af=R",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Nuevos libros sobre el espacio exterior, la Tierra del futuro y los países vecinos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -93,7 +93,7 @@
     "title": "A near-real-time data-assimilative model of the solar corona",
     "title_es": "A near-real-time data-assimilative model of the solar corona",
     "url": "https://www.science.org/doi/abs/10.1126/science.adq0872?af=R",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"A near-real-time data-assimilative model of the solar corona\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -108,7 +108,7 @@
     "title": "Greener green and bluer blue: Ocean poleward greening over the past two decades",
     "title_es": "Verde más verde y azul más azul: El reverdecimiento de los polos oceánicos en las dos últimas décadas",
     "url": "https://www.science.org/doi/abs/10.1126/science.adr9715?af=R",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Verde más verde y azul más azul: El reverdecimiento de los polos oceánicos en las dos últimas décadas\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -123,7 +123,7 @@
     "title": "Bacterial reverse transcriptase synthesizes long poly(A)-rich cDNA for antiphage defense",
     "title_es": "La transcriptasa inversa bacteriana sintetiza ADNc largo rico en poli(A) para la defensa antifágica",
     "url": "https://www.science.org/doi/abs/10.1126/science.ads4639?af=R",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"La transcriptasa inversa bacteriana sintetiza ADNc largo rico en poli(A) para la defensa antifágica\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -138,7 +138,7 @@
     "title": "In vivo CAR T cell generation to treat cancer and autoimmune disease",
     "title_es": "Generación in vivo de células T CAR para tratar el cáncer y las enfermedades autoinmunes",
     "url": "https://www.science.org/doi/abs/10.1126/science.ads8473?af=R",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Generación in vivo de células T CAR para tratar el cáncer y las enfermedades autoinmunes\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -150,77 +150,77 @@
     "category": "noticia"
   },
   {
-    "title": "Author Correction: Regulatory genomic circuitry of human disease loci by integrative epigenomics",
-    "title_es": "Corrección del autor: Circuitos genómicos reguladores de loci de enfermedades humanas mediante epigenómica integrativa",
-    "url": "https://www.nature.com/articles/s41586-025-09134-4",
-    "date": "2025-06-23",
+    "title": "Modular arene functionalization by differential 1,2-diborylation",
+    "title_es": "Funcionalización modular de arenos por 1,2-diborilación diferencial",
+    "url": "https://www.nature.com/articles/s41586-025-09284-5",
+    "date": "2025-06-24",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Corrección del autor: Circuitos genómicos reguladores de loci de enfermedades humanas mediante epigenómica integrativa\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Funcionalización modular de arenos por 1,2-diborilación diferencial\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "author",
-      "correction",
-      "regulatory"
+      "modular",
+      "arene",
+      "functionalization"
     ],
     "category": "noticia"
   },
   {
-    "title": "This tiny robot moves mini-droplets with ease",
-    "title_es": "Este diminuto robot mueve minigotas con facilidad",
-    "url": "https://www.nature.com/articles/d41586-025-01843-0",
-    "date": "2025-06-23",
+    "title": "Gating and noelin clustering of native Ca<sup>2+</sup>-permeable AMPA receptors",
+    "title_es": "Gating y agrupación de noelina de receptores AMPA nativos permeables al Ca<sup>2+</sup>.",
+    "url": "https://www.nature.com/articles/s41586-025-09289-0",
+    "date": "2025-06-24",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Este diminuto robot mueve minigotas con facilidad\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Gating y agrupación de noelina de receptores AMPA nativos permeables al Ca<sup>2+</sup>.\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "this",
-      "tiny",
-      "robot"
+      "gating",
+      "and",
+      "noelin"
     ],
     "category": "noticia"
   },
   {
-    "title": "Sensors pinpoint the exact time of a Yellowstone explosion",
-    "title_es": "Sensores determinan el momento exacto de una explosión en Yellowstone",
-    "url": "https://www.nature.com/articles/d41586-025-01844-z",
-    "date": "2025-06-23",
+    "title": "Ice society: looking for life at unlikely altitudes",
+    "title_es": "Sociedad del hielo: en busca de vida a altitudes inverosímiles",
+    "url": "https://www.nature.com/articles/d41586-025-01972-6",
+    "date": "2025-06-24",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Sensores determinan el momento exacto de una explosión en Yellowstone\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Sociedad del hielo: en busca de vida a altitudes inverosímiles\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "sensors",
-      "pinpoint",
-      "the"
+      "ice",
+      "society",
+      "looking"
     ],
     "category": "noticia"
   },
   {
-    "title": "Stories that are out of this world: Books in brief",
-    "title_es": "Historias de otro mundo: Libros en breve",
-    "url": "https://www.nature.com/articles/d41586-025-01950-y",
-    "date": "2025-06-23",
+    "title": "The shattered statues of Queen Hatshepsut: the reasons for the wreckage",
+    "title_es": "Las estatuas destrozadas de la reina Hatshepsut: las razones del naufragio",
+    "url": "https://www.nature.com/articles/d41586-025-01956-6",
+    "date": "2025-06-24",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Historias de otro mundo: Libros en breve\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Las estatuas destrozadas de la reina Hatshepsut: las razones del naufragio\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "stories",
-      "that",
-      "are"
+      "the",
+      "shattered",
+      "statues"
     ],
     "category": "noticia"
   },
   {
-    "title": "‘Super-healing’ animals inspire human treatments",
-    "title_es": "Animales \"supercurativos\" inspiran tratamientos humanos",
-    "url": "https://www.nature.com/articles/d41586-025-01901-7",
-    "date": "2025-06-23",
+    "title": "First images from world’s largest digital camera leave astronomers in awe",
+    "title_es": "Las primeras imágenes de la mayor cámara digital del mundo dejan asombrados a los astrónomos",
+    "url": "https://www.nature.com/articles/d41586-025-01973-5",
+    "date": "2025-06-24",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Animales \"supercurativos\" inspiran tratamientos humanos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Las primeras imágenes de la mayor cámara digital del mundo dejan asombrados a los astrónomos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "superhealing",
-      "animals",
-      "inspire"
+      "first",
+      "images",
+      "from"
     ],
     "category": "noticia"
   },
@@ -228,7 +228,7 @@
     "title": "Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones ",
     "title_es": "Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones ",
     "url": "https://www.cnic.es/es/noticias/visita-universidad-shanghai-al-cnic-para-explorar-futuras-colaboraciones",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones \". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -243,7 +243,7 @@
     "title": "Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\" ",
     "title_es": "Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\"",
     "url": "https://www.cnic.es/es/noticias/eduardo-marban-hemos-disenado-un-producto-celular-deramiocel-momento-hemos-tenido",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\"\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -258,7 +258,7 @@
     "title": "Eduardo Marbán: \"We have designed a cellular product called Deramiocel, and until now, we have had positive results in at least two clinical trials\" ",
     "title_es": "Eduardo Marbán: \"Hemos diseñado un producto celular llamado Deramiocel, y hasta ahora hemos tenido resultados positivos en al menos dos ensayos clínicos\"",
     "url": "https://www.cnic.es/es/node/234665",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Eduardo Marbán: \"Hemos diseñado un producto celular llamado Deramiocel, y hasta ahora hemos tenido resultados positivos en al menos dos ensayos clínicos\"\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -273,7 +273,7 @@
     "title": "Three CNIC projects receive more than €5 million in ERC Advanced Grant funding",
     "title_es": "Tres proyectos del CNIC reciben más de 5 millones de euros de financiación ERC Advanced Grant",
     "url": "https://www.cnic.es/es/noticias/three-cnic-projects-receive-more-eu5-million-erc-advanced-grant-funding",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Tres proyectos del CNIC reciben más de 5 millones de euros de financiación ERC Advanced Grant\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -288,7 +288,7 @@
     "title": "Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ ",
     "title_es": "Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ ",
     "url": "https://www.cnic.es/es/noticias/tres-proyectos-cnic-recibiran-mas-5-millones-euros-convocatoria-erc-advanced-grant-0",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ \". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -300,10 +300,25 @@
     "category": "noticia"
   },
   {
+    "title": "Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer",
+    "title_es": "Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer",
+    "url": "https://www.cnio.es/noticias/un-estudio-del-cnio-descubre-biomarcadores-que-predicen-que-pacientes-no-responderan-a-la-quimioterapia-contra-el-cancer/",
+    "date": "2025-06-24",
+    "source": "CNIO",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "un",
+      "estudio",
+      "del"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa",
     "title_es": "El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa",
     "url": "https://www.cnio.es/noticias/el-cnio-obtiene-por-cuarta-vez-la-acreditacion-de-centro-de-excelencia-severo-ochoa/",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -318,7 +333,7 @@
     "title": "La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células",
     "title_es": "La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células",
     "url": "https://www.cnio.es/noticias/la-biologia-se-adentra-cada-vez-mas-en-los-engranajes-de-la-maquinaria-que-hace-funcionar-las-celulas/",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -333,7 +348,7 @@
     "title": "El CNIO abre una vía hacia la prevención del cáncer de páncreas",
     "title_es": "El CNIO abre una vía hacia la prevención del cáncer de páncreas",
     "url": "https://www.cnio.es/noticias/el-cnio-abre-una-via-hacia-la-prevencion-del-cancer-de-pancreas/",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"El CNIO abre una vía hacia la prevención del cáncer de páncreas\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -348,7 +363,7 @@
     "title": "Una nueva inmunoterapia para la leucemia linfoblástica aguda de células B, el cáncer pediátrico más frecuente",
     "title_es": "Una nueva inmunoterapia para la leucemia linfoblástica aguda de células B, el cáncer pediátrico más frecuente",
     "url": "https://www.cnio.es/noticias/una-nueva-inmunoterapia-para-la-leucemia-linfoblastica-aguda-de-celulas-b-el-cancer-pediatrico-mas-frecuente/",
-    "date": "2025-06-23",
+    "date": "2025-06-24",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"Una nueva inmunoterapia para la leucemia linfoblástica aguda de células B, el cáncer pediátrico más frecuente\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -356,21 +371,6 @@
       "una",
       "nueva",
       "inmunoterapia"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Una copia virtual para cada mujer con cáncer: así avanza la medicina personalizada en cáncer",
-    "title_es": "Una copia virtual para cada mujer con cáncer: así avanza la medicina personalizada en cáncer",
-    "url": "https://www.cnio.es/noticias/una-copia-virtual-para-cada-mujer-con-cancer-asi-avanza-la-medicina-personalizada-en-cancer/",
-    "date": "2025-06-23",
-    "source": "CNIO",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Una copia virtual para cada mujer con cáncer: así avanza la medicina personalizada en cáncer\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "una",
-      "copia",
-      "virtual"
     ],
     "category": "noticia"
   }
