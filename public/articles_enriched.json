@@ -1,76 +1,90 @@
 [
   {
-    "title": "Secure Energy Transactions Using Blockchain Leveraging AI for Fraud Detection and Energy Market Stability",
-    "title_es": "Transacciones energéticas seguras mediante Blockchain Aprovechamiento de la IA para la detección de fraudes y la estabilidad del mercado energético",
-    "url": "https://arxiv.org/abs/2506.19870",
-    "date": "2025-06-27",
+    "title": "ClusterRCA: Network Failure Diagnosis in HPC Systems Using Multimodal Data",
+    "title_es": "ClusterRCA: diagnóstico de fallos de red en sistemas HPC mediante datos multimodales",
+    "url": "https://arxiv.org/abs/2506.20673",
+    "date": "2025-06-28",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Transacciones energéticas seguras mediante Blockchain Aprovechamiento de la IA para la detección de fraudes y la estabilidad del mercado energético\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"ClusterRCA: diagnóstico de fallos de red en sistemas HPC mediante datos multimodales\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "secure",
-      "energy",
-      "transactions"
+      "clusterrca",
+      "network",
+      "failure"
     ],
     "category": "noticia"
   },
   {
-    "title": "An Attack Method for Medical Insurance Claim Fraud Detection based on Generative Adversarial Network",
-    "title_es": "Un método de ataque para la detección de fraudes en reclamaciones de seguros médicos basado en redes generativas adversariales",
-    "url": "https://arxiv.org/abs/2506.19871",
-    "date": "2025-06-27",
+    "title": "Scalable GPU Performance Variability Analysis framework",
+    "title_es": "Marco escalable de análisis de la variabilidad del rendimiento de la GPU",
+    "url": "https://arxiv.org/abs/2506.20674",
+    "date": "2025-06-28",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Un método de ataque para la detección de fraudes en reclamaciones de seguros médicos basado en redes generativas adversariales\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Marco escalable de análisis de la variabilidad del rendimiento de la GPU\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "an",
-      "attack",
-      "method"
+      "scalable",
+      "gpu",
+      "performance"
     ],
     "category": "noticia"
   },
   {
-    "title": "Towards Provable (In)Secure Model Weight Release Schemes",
-    "title_es": "Hacia esquemas probables de liberación de peso de modelos (in)seguros",
-    "url": "https://arxiv.org/abs/2506.19874",
-    "date": "2025-06-27",
+    "title": "Utility-Driven Speculative Decoding for Mixture-of-Experts",
+    "title_es": "Descodificación especulativa basada en utilidades para mezclas de expertos",
+    "url": "https://arxiv.org/abs/2506.20675",
+    "date": "2025-06-28",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Hacia esquemas probables de liberación de peso de modelos (in)seguros\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Descodificación especulativa basada en utilidades para mezclas de expertos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "towards",
-      "provable",
-      "insecure"
+      "utilitydriven",
+      "speculative",
+      "decoding"
     ],
     "category": "noticia"
   },
   {
-    "title": "Robust Anomaly Detection in Network Traffic: Evaluating Machine Learning Models on CICIDS2017",
-    "title_es": "Detección Robusta de Anomalías en el Tráfico de Red: Evaluación de modelos de aprendizaje automático en CICIDS2017",
-    "url": "https://arxiv.org/abs/2506.19877",
-    "date": "2025-06-27",
+    "title": "Adaptive Hybrid Sort: Dynamic Strategy Selection for Optimal Sorting Across Diverse Data Distributions",
+    "title_es": "Ordenación híbrida adaptativa: Selección dinámica de estrategias para la ordenación óptima de diversas distribuciones de datos",
+    "url": "https://arxiv.org/abs/2506.20677",
+    "date": "2025-06-28",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Detección Robusta de Anomalías en el Tráfico de Red: Evaluación de modelos de aprendizaje automático en CICIDS2017\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Ordenación híbrida adaptativa: Selección dinámica de estrategias para la ordenación óptima de diversas distribuciones de datos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "robust",
-      "anomaly",
-      "detection"
+      "adaptive",
+      "hybrid",
+      "sort"
     ],
     "category": "noticia"
   },
   {
-    "title": "Blameless Users in a Clean Room: Defining Copyright Protection for Generative Models",
-    "title_es": "Usuarios inocentes en una sala blanca: Definición de la protección de los derechos de autor de los modelos generativos",
-    "url": "https://arxiv.org/abs/2506.19881",
-    "date": "2025-06-27",
+    "title": "Establishing validated standards for Home and Work location Detection",
+    "title_es": "Establecimiento de normas validadas para la detección de lugares de trabajo y de residencia",
+    "url": "https://arxiv.org/abs/2506.20679",
+    "date": "2025-06-28",
     "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Usuarios inocentes en una sala blanca: Definición de la protección de los derechos de autor de los modelos generativos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Establecimiento de normas validadas para la detección de lugares de trabajo y de residencia\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "blameless",
-      "users",
-      "in"
+      "establishing",
+      "validated",
+      "standards"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Producing hunger",
+    "title_es": "Producir hambre",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ady0446?af=R",
+    "date": "2025-06-28",
+    "source": "Science.org",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Producir hambre\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "producing",
+      "hunger"
     ],
     "category": "noticia"
   },
@@ -78,7 +92,7 @@
     "title": "Facing life’s wild unknowns",
     "title_es": "Afrontar las incógnitas de la vida",
     "url": "https://www.science.org/doi/abs/10.1126/science.ady3159?af=R",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Afrontar las incógnitas de la vida\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -90,24 +104,10 @@
     "category": "noticia"
   },
   {
-    "title": "Producing hunger",
-    "title_es": "Producir hambre",
-    "url": "https://www.science.org/doi/abs/10.1126/science.ady0446?af=R",
-    "date": "2025-06-27",
-    "source": "Science.org",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Producir hambre\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "producing",
-      "hunger"
-    ],
-    "category": "noticia"
-  },
-  {
     "title": "Death Glitch",
     "title_es": "Fallo mortal",
     "url": "https://www.science.org/doi/abs/10.1126/science.adz3936?af=R",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Fallo mortal\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -121,7 +121,7 @@
     "title": "Bespoke plant glycoconjugates for gut microbiota–mediated drug targeting",
     "title_es": "Glucoconjugados vegetales a medida para la administración de fármacos a través de la microbiota intestinal",
     "url": "https://www.science.org/doi/abs/10.1126/science.adk7633?af=R",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Glucoconjugados vegetales a medida para la administración de fármacos a través de la microbiota intestinal\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -136,7 +136,7 @@
     "title": "Gradient refractive indices enable squid structural color and inspire multispectral materials",
     "title_es": "Los índices de refracción graduales permiten el color estructural del calamar e inspiran materiales multiespectrales",
     "url": "https://www.science.org/doi/abs/10.1126/science.adn1570?af=R",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Los índices de refracción graduales permiten el color estructural del calamar e inspiran materiales multiespectrales\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -148,77 +148,77 @@
     "category": "noticia"
   },
   {
-    "title": "Addendum: Unravelling cysteine-deficiency-associated rapid weight loss",
-    "title_es": "Addendum: Desentrañar la pérdida rápida de peso asociada a la deficiencia de cisteína",
-    "url": "https://www.nature.com/articles/s41586-025-09282-7",
-    "date": "2025-06-27",
+    "title": "Exclusive: NIH still screens grants in process a judge ruled illegal",
+    "title_es": "Exclusiva: Los NIH siguen examinando subvenciones en un proceso que un juez declaró ilegal",
+    "url": "https://www.nature.com/articles/d41586-025-02024-9",
+    "date": "2025-06-28",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Addendum: Desentrañar la pérdida rápida de peso asociada a la deficiencia de cisteína\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Exclusiva: Los NIH siguen examinando subvenciones en un proceso que un juez declaró ilegal\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "addendum",
-      "unravelling",
-      "cysteinedeficiencyassociated"
+      "exclusive",
+      "nih",
+      "still"
     ],
     "category": "noticia"
   },
   {
-    "title": "Are these the world’s oldest rocks? Fresh data confirm contested claim",
-    "title_es": "¿Son éstas las rocas más antiguas del mundo? Nuevos datos confirman una afirmación controvertida",
-    "url": "https://www.nature.com/articles/d41586-025-02010-1",
-    "date": "2025-06-27",
+    "title": "Arrests of scientists over smuggled samples add to US border anxiety",
+    "title_es": "La detención de científicos por el contrabando de muestras aumenta la inquietud en la frontera de EE.UU.",
+    "url": "https://www.nature.com/articles/d41586-025-01958-4",
+    "date": "2025-06-28",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"¿Son éstas las rocas más antiguas del mundo? Nuevos datos confirman una afirmación controvertida\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"La detención de científicos por el contrabando de muestras aumenta la inquietud en la frontera de EE.UU.\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "are",
-      "these",
-      "the"
+      "arrests",
+      "of",
+      "scientists"
     ],
     "category": "noticia"
   },
   {
-    "title": "‘I didn’t know someone could pursue astronomy as a career’",
-    "title_es": "No sabía que alguien pudiera dedicarse a la astronomía\".",
-    "url": "https://www.nature.com/articles/d41586-025-01816-3",
-    "date": "2025-06-27",
+    "title": "Can AI build a virtual cell? Scientists race to model life’s smallest unit",
+    "title_es": "¿Puede la IA construir una célula virtual? Los científicos compiten por modelar la unidad más pequeña de la vida",
+    "url": "https://www.nature.com/articles/d41586-025-02011-0",
+    "date": "2025-06-28",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"No sabía que alguien pudiera dedicarse a la astronomía\".\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"¿Puede la IA construir una célula virtual? Los científicos compiten por modelar la unidad más pequeña de la vida\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "i",
-      "didnt",
-      "know"
+      "can",
+      "ai",
+      "build"
     ],
     "category": "noticia"
   },
   {
-    "title": "Harvard vs Trump: what this epic battle means for science",
-    "title_es": "Harvard contra Trump: qué significa esta batalla épica para la ciencia",
-    "url": "https://www.nature.com/articles/d41586-025-02017-8",
-    "date": "2025-06-27",
+    "title": "First independent survey of deaths in Gaza reports more than 80,000 fatalities",
+    "title_es": "El primer estudio independiente sobre las muertes en Gaza informa de más de 80.000 víctimas mortales",
+    "url": "https://www.nature.com/articles/d41586-025-02009-8",
+    "date": "2025-06-28",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Harvard contra Trump: qué significa esta batalla épica para la ciencia\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"El primer estudio independiente sobre las muertes en Gaza informa de más de 80.000 víctimas mortales\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "harvard",
-      "vs",
-      "trump"
+      "first",
+      "independent",
+      "survey"
     ],
     "category": "noticia"
   },
   {
-    "title": "These scientists re-enacted Stone-Age voyage to Japan’s remotest islands",
-    "title_es": "Estos científicos recrean un viaje de la Edad de Piedra a las islas más remotas de Japón",
-    "url": "https://www.nature.com/articles/d41586-025-02008-9",
-    "date": "2025-06-27",
+    "title": "Niède Guidon obituary: Brazilian archaeologist who upended ideas on early human migration",
+    "title_es": "Obituario de Niède Guidon: La arqueóloga brasileña que cambió las ideas sobre las primeras migraciones humanas",
+    "url": "https://www.nature.com/articles/d41586-025-02029-4",
+    "date": "2025-06-28",
     "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Estos científicos recrean un viaje de la Edad de Piedra a las islas más remotas de Japón\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Obituario de Niède Guidon: La arqueóloga brasileña que cambió las ideas sobre las primeras migraciones humanas\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "these",
-      "scientists",
-      "reenacted"
+      "nide",
+      "guidon",
+      "obituary"
     ],
     "category": "noticia"
   },
@@ -226,7 +226,7 @@
     "title": "Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones ",
     "title_es": "Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones ",
     "url": "https://www.cnic.es/es/noticias/visita-universidad-shanghai-al-cnic-para-explorar-futuras-colaboraciones",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Visita de la Universidad de Shanghai al CNIC para explorar futuras colaboraciones \". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -241,7 +241,7 @@
     "title": "Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\" ",
     "title_es": "Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\"",
     "url": "https://www.cnic.es/es/noticias/eduardo-marban-hemos-disenado-un-producto-celular-deramiocel-momento-hemos-tenido",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Eduardo Marbán: \"Hemos diseñado un producto celular, deramiocel, y de momento hemos tenido resultados positivos dos ensayos clínicos\"\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -256,7 +256,7 @@
     "title": "Eduardo Marbán: \"We have designed a cellular product called Deramiocel, and until now, we have had positive results in at least two clinical trials\" ",
     "title_es": "Eduardo Marbán: \"Hemos diseñado un producto celular llamado Deramiocel, y hasta ahora hemos tenido resultados positivos en al menos dos ensayos clínicos\"",
     "url": "https://www.cnic.es/es/node/234665",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Eduardo Marbán: \"Hemos diseñado un producto celular llamado Deramiocel, y hasta ahora hemos tenido resultados positivos en al menos dos ensayos clínicos\"\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -271,7 +271,7 @@
     "title": "Three CNIC projects receive more than €5 million in ERC Advanced Grant funding",
     "title_es": "Tres proyectos del CNIC reciben más de 5 millones de euros de financiación ERC Advanced Grant",
     "url": "https://www.cnic.es/es/noticias/three-cnic-projects-receive-more-eu5-million-erc-advanced-grant-funding",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Tres proyectos del CNIC reciben más de 5 millones de euros de financiación ERC Advanced Grant\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -286,7 +286,7 @@
     "title": "Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ ",
     "title_es": "Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ ",
     "url": "https://www.cnic.es/es/noticias/tres-proyectos-cnic-recibiran-mas-5-millones-euros-convocatoria-erc-advanced-grant-0",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIC",
     "content_es": "",
     "description": "Este artículo trata sobre \"Tres proyectos del CNIC recibirán más de 5 millones de euros en la convocatoria ‘ERC Advanced Grant’ \". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -298,10 +298,25 @@
     "category": "noticia"
   },
   {
+    "title": "Roger Castells-Graells recibe el premio Hawk Biosystems de la Sociedad de Biofísica de España",
+    "title_es": "Roger Castells-Graells recibe el premio Hawk Biosystems de la Sociedad de Biofísica de España",
+    "url": "https://www.cnio.es/noticias/roger-castells-graells-recibe-el-premio-hawk-biosystems-de-la-sociedad-espanola-de-biofisica/",
+    "date": "2025-06-28",
+    "source": "CNIO",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Roger Castells-Graells recibe el premio Hawk Biosystems de la Sociedad de Biofísica de España\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "roger",
+      "castellsgraells",
+      "recibe"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "Mariano Barbacid, Premio Valor Añadido a la Ciencia e Investigación",
     "title_es": "Mariano Barbacid, Premio Valor Añadido a la Ciencia e Investigación",
     "url": "https://www.cnio.es/noticias/mariano-barbacid-premio-valor-anadido-a-la-ciencia-e-investigacion/",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"Mariano Barbacid, Premio Valor Añadido a la Ciencia e Investigación\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -316,7 +331,7 @@
     "title": "El CNIO crea ‘nanopartículas de proteínas’ para acelerar el desarrollo de fármacos contra el cáncer",
     "title_es": "El CNIO crea ‘nanopartículas de proteínas’ para acelerar el desarrollo de fármacos contra el cáncer",
     "url": "https://www.cnio.es/noticias/el-cnio-crea-nanoparticulas-de-proteinas-para-acelerar-el-desarrollo-de-farmacos-contra-el-cancer/",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"El CNIO crea ‘nanopartículas de proteínas’ para acelerar el desarrollo de fármacos contra el cáncer\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -331,7 +346,7 @@
     "title": "Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer",
     "title_es": "Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer",
     "url": "https://www.cnio.es/noticias/un-estudio-del-cnio-descubre-biomarcadores-que-predicen-que-pacientes-no-responderan-a-la-quimioterapia-contra-el-cancer/",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"Un estudio del CNIO descubre biomarcadores que predicen qué pacientes no responderán a la quimioterapia contra el cáncer\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -346,7 +361,7 @@
     "title": "El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa",
     "title_es": "El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa",
     "url": "https://www.cnio.es/noticias/el-cnio-obtiene-por-cuarta-vez-la-acreditacion-de-centro-de-excelencia-severo-ochoa/",
-    "date": "2025-06-27",
+    "date": "2025-06-28",
     "source": "CNIO",
     "content_es": "",
     "description": "Este artículo trata sobre \"El CNIO obtiene por cuarta vez la acreditación de Centro de Excelencia Severo Ochoa\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -354,21 +369,6 @@
       "el",
       "cnio",
       "obtiene"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células",
-    "title_es": "La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células",
-    "url": "https://www.cnio.es/noticias/la-biologia-se-adentra-cada-vez-mas-en-los-engranajes-de-la-maquinaria-que-hace-funcionar-las-celulas/",
-    "date": "2025-06-27",
-    "source": "CNIO",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"La biología se adentra cada vez más en los engranajes de la maquinaria que hace funcionar las células\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "la",
-      "biología",
-      "se"
     ],
     "category": "noticia"
   }
