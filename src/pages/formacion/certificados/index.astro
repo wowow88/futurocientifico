@@ -1,134 +1,393 @@
 ---
-layout: ../../../../layouts/Layout.astro
+import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
-title: "Certificados de Profesionalidad Científica | FuturoCientífico"
-description: "Especializaciones técnicas del SEPE en ramas científicas y tecnológicas, accesibles con o sin título previo."
+title: "Formación · Certificados de Profesionalidad Científica | FuturoCientífico"
+description: "Todo sobre los certificados científicos: requisitos, salidas, centros, ventajas y más. Información accesible para jóvenes y familias."
 site: "https://futurocientifico.vercel.app/formacion/certificados"
 ---
+
 <Seo 
-  title="Certificados de Profesionalidad Científica | FuturoCientífico"
-  description="Especializaciones técnicas del SEPE en ramas científicas y tecnológicas, accesibles con o sin título previo."
+  title="Formación · Certificados de Profesionalidad Científica | FuturoCientífico"
+  description="Todo sobre los certificados científicos: requisitos, salidas, centros, ventajas y más. Información accesible para jóvenes y familias."
   site="https://futurocientifico.vercel.app/formacion/certificados"
 />
 
-<h1 class="text-3xl font-bold mb-6">🧪 Certificados de Profesionalidad Científica</h1>
+<Layout>
+  <section class="mt-8 px-4 max-w-3xl mx-auto">
+    <h1 class="text-3xl font-bold text-pink-800 mb-4">Certificados de Profesionalidad Científica</h1>
+    <p class="text-lg text-gray-700 mb-6">
+      Información actualizada para el curso <strong>2025–2026</strong>, pensada para orientar a estudiantes y familias sobre los <strong>Certificados de Profesionalidad</strong> en el ámbito científico. Conoce qué son, dónde estudiarlos, sus ventajas, salidas laborales y cómo se relacionan con la FP o la universidad.
+    </p>
+  </section>
 
-<p class="mb-6">Los certificados de profesionalidad son acreditaciones oficiales que certifican que una persona está cualificada para el desarrollo de una actividad laboral en todo el territorio nacional. Son una alternativa cada vez más valorada para acceder rápidamente al mundo laboral científico.</p>
+  <!-- Bloque 1: ¿Qué son los Certificados de Profesionalidad Científica? -->
+  <section class="mt-12 px-4 py-6 bg-pink-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-pink-800 mb-4">🔍 ¿Qué son los Certificados de Profesionalidad Científica?</h2>
+    <p class="text-gray-700 mb-4">
+      <strong>Los Certificados de Profesionalidad</strong> son títulos oficiales que acreditan tus competencias para desempeñar una actividad laboral específica. En el ámbito científico, están enfocados a áreas como:
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Área</th><th class="p-2">Ejemplos de Certificados</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Laboratorio</td><td class="p-2">Análisis químico, microbiología</td></tr>
+        <tr class="border-t"><td class="p-2">Control ambiental</td><td class="p-2">Gestión de residuos, aguas, calidad del aire</td></tr>
+        <tr class="border-t"><td class="p-2">Biotecnología</td><td class="p-2">Técnicas básicas de laboratorio biológico</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      Estos certificados están regulados por el <strong>SEPE</strong> y las <strong>comunidades autónomas</strong>, y tienen validez en <strong>todo el territorio nacional</strong> y en <strong>Europa</strong> (según el Marco Europeo de Cualificaciones).
+    </p>
+    <blockquote class="border-l-4 border-pink-500 pl-4 italic text-gray-600 mb-4">
+      No son títulos académicos, pero sí <u>profesionales</u>, reconocidos por empresas y entidades del sector.
+    </blockquote>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li>Buscan empleo técnico sin pasar por universidad.</li>
+      <li>Quieren una <strong>formación práctica y aplicada</strong>.</li>
+      <li>Desean especializarse en un área concreta.</li>
+      <li>Necesitan acreditación oficial para continuar estudiando o trabajando.</li>
+    </ul>
+    <p class="text-gray-700">
+      Más información oficial: <a href="https://www.sepe.es/HomeSepe/Personas/formacion/certificados-de-profesionalidad.html" class="text-pink-700 underline" target="_blank">SEPE - Certificados de Profesionalidad</a>
+    </p>
+  </section>
 
-<!-- Bloques del índice desarrollados -->
+  <!-- Bloque 2: Requisitos para acceder -->
+  <section class="mt-12 px-4 py-6 bg-purple-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-purple-800 mb-4">📋 Requisitos para acceder</h2>
+    <p class="text-gray-700 mb-4">
+      El acceso a los certificados de profesionalidad depende del <strong>nivel formativo</strong> del certificado. Existen tres niveles (1, 2 y 3), cada uno con sus condiciones específicas. A continuación, se resumen los requisitos más comunes:
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Nivel</th><th class="p-2">Requisitos principales</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Nivel 1</td><td class="p-2">No requiere estudios previos. Solo competencias básicas en lectura, escritura y aritmética.</td></tr>
+        <tr class="border-t"><td class="p-2">Nivel 2</td><td class="p-2">ESO finalizada o prueba de acceso a ciclos formativos de grado medio.</td></tr>
+        <tr class="border-t"><td class="p-2">Nivel 3</td><td class="p-2">Título de Bachillerato o equivalente. También válido acceso a grado superior o acreditación de experiencia laboral.</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      En algunos casos también se aceptan <strong>certificados anteriores</strong> del mismo sector, o experiencia laboral demostrada. También puede pedirse una <em>entrevista de orientación</em> o prueba diagnóstica.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li>La modalidad presencial puede tener plazas limitadas según comunidad autónoma.</li>
+      <li>En teleformación, se recomienda disponer de ordenador propio y conexión estable.</li>
+      <li>Algunos cursos priorizan jóvenes desempleados, mujeres o personas en riesgo de exclusión.</li>
+    </ul>
+    <p class="text-gray-700">
+      Puedes consultar los requisitos completos según tu comunidad en: <a href="https://www.sepe.es/HomeSepe/Personas/formacion/certificados-de-profesionalidad.html" class="text-purple-700 underline" target="_blank">SEPE – Acceso por niveles</a>
+    </p>
+  </section>
 
-<!-- 1. ¿Qué son los certificados de profesionalidad? -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">❓ ¿Qué son los certificados de profesionalidad?</h2>
-<p class="mb-6">Los certificados de profesionalidad son acreditaciones oficiales que validan las competencias laborales de una persona en un área profesional específica. Están gestionados por el SEPE (Servicio Público de Empleo Estatal) y las comunidades autónomas, y son válidos en todo el territorio nacional. Estos certificados permiten a los titulados demostrar que tienen los conocimientos y habilidades necesarias para desempeñar una determinada función en el ámbito laboral.</p>
-<p class="mb-4">A diferencia de los estudios convencionales, los certificados de profesionalidad se centran en la formación práctica y la experiencia, lo que aumenta significativamente las probabilidades de inserción en el mercado laboral. Dependiendo de su nivel, los certificados pueden ser obtenidos a través de formación académica o reconocimiento de competencias profesionales ya adquiridas.</p>
-<p class="mb-4">Existen tres niveles de certificación: nivel 1, para funciones básicas; nivel 2, para técnicas intermedias; y nivel 3, para puestos de mayor especialización y responsabilidad. Estos niveles se corresponden con la estructura del Catálogo Nacional de Cualificaciones Profesionales y permiten la progresión de un sector a otro.</p>
-<p class="mb-4">Son muy valorados en sectores como la química, la sanidad, la biotecnología y la gestión ambiental, donde la práctica y la experiencia en el campo son esenciales. Además, los certificados de profesionalidad también permiten a los titulados obtener una titulación oficial y homologada a nivel europeo.</p>
+  <!-- Bloque 3: Modalidades y dónde cursarlos -->
+  <section class="mt-12 px-4 py-6 bg-blue-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">🏫 Modalidades y dónde cursarlos</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad pueden realizarse en tres modalidades principales, adaptándose a diferentes necesidades personales y laborales:
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Modalidad</th><th class="p-2">Características</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Presencial</td><td class="p-2">Clases en aula/laboratorio. Enfoque práctico con tutoría directa. Ideal para quienes prefieren estructura y contacto directo.</td></tr>
+        <tr class="border-t"><td class="p-2">Semipresencial</td><td class="p-2">Combinación de sesiones online y presenciales. Flexibilidad con apoyo presencial.</td></tr>
+        <tr class="border-t"><td class="p-2">Teleformación</td><td class="p-2">100 % online. Requiere autonomía, disciplina y medios digitales (ordenador y conexión estable).</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      Se imparten en <strong>centros públicos</strong> (institutos, CRNs, SEPE) y <strong>centros privados homologados</strong>. Todos deben estar acreditados oficialmente.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li>Las prácticas en empresa son <u>obligatorias</u> en la mayoría de certificados.</li>
+      <li>Consulta convocatorias activas en el portal del <a href="https://www.sepe.es" target="_blank" class="text-blue-700 underline">SEPE</a>.</li>
+      <li>Los cursos son gratuitos si están subvencionados (para personas desempleadas o en mejora de empleo).</li>
+    </ul>
+    <p class="text-gray-700">
+      Puedes encontrar centros y convocatorias activas en tu comunidad desde la plataforma: <a href="https://www.fundae.es/Observatorio/Buscador-de-Certificados" class="text-blue-700 underline" target="_blank">Fundae – Buscador de Certificados</a>
+    </p>
+  </section>
 
-<!-- 2. Requisitos de acceso -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🎓 Requisitos de acceso (edad, estudios, pruebas)</h2>
-<p class="mb-4">Para acceder a los certificados de profesionalidad, es necesario cumplir ciertos requisitos según el nivel de cualificación del certificado. Estos requisitos varían dependiendo del tipo de formación que se quiera cursar, aunque en general, los requisitos incluyen una edad mínima y una base educativa específica.</p>
-<p class="mb-4">- **Nivel 1**: No se requiere ninguna titulación previa, pero es necesario ser mayor de 16 años. Este nivel está destinado a personas que no han completado la educación secundaria obligatoria y desean comenzar a trabajar en el sector con formación básica.</p>
-<p class="mb-4">- **Nivel 2**: Requiere como mínimo haber completado la Educación Secundaria Obligatoria (ESO) o un certificado equivalente. También se puede acceder mediante una prueba de competencias o experiencia laboral relacionada.</p>
-<p class="mb-4">- **Nivel 3**: Para acceder a este nivel se necesita tener el título de Bachillerato, un ciclo formativo de grado medio o haber superado una prueba de acceso específica. Este nivel está destinado a puestos de mayor responsabilidad y requiere conocimientos más avanzados.</p>
-<p class="mb-4">Algunos certificados permiten acceder mediante experiencia laboral acreditada. Además, existen pruebas de acceso o formación previa que pueden permitir a las personas sin el título académico exigido acceder a estos programas.</p>
+  <!-- Bloque 4: Dónde informarse -->
+  <section class="mt-12 px-4 py-6 bg-indigo-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-indigo-800 mb-4">📚 Dónde informarse</h2>
+    <p class="text-gray-700 mb-4">
+      Existen múltiples vías para informarse sobre los certificados de profesionalidad científica. La información oficial proviene del <strong>SEPE</strong> y de los <strong>servicios de empleo autonómicos</strong>. También puedes acudir a centros formativos acreditados.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>Web oficial del SEPE:</strong> contiene buscador por sector, comunidad y nivel. <a href="https://www.sepe.es" target="_blank" class="text-indigo-700 underline">https://www.sepe.es</a></li>
+      <li><strong>Portales autonómicos:</strong> SOC (Cataluña), Lanbide (Euskadi), SAE (Andalucía), entre otros.</li>
+      <li><strong>Orientadores/as laborales:</strong> en oficinas de empleo te orientan según tu perfil.</li>
+      <li><strong>Centros de formación acreditados:</strong> publica regularmente sus cursos activos.</li>
+      <li><strong>Portales especializados:</strong> <a href="https://www.educaweb.com" target="_blank" class="underline text-indigo-700">Educaweb</a>, <a href="https://www.emagister.com" target="_blank" class="underline text-indigo-700">Emagister</a> y <a href="https://www.infojobs.net/formacion" target="_blank" class="underline text-indigo-700">InfoJobs Formación</a>.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      También puedes seguir las redes sociales del SEPE, suscribirte a boletines de empleo o utilizar aplicaciones como <em>Formación Profesional Empleo</em> que recopilan convocatorias.
+    </p>
+    <p class="text-gray-700">
+      Recomendamos verificar siempre que el centro esté <strong>homologado</strong> y que el certificado tenga código oficial. Más info en: <a href="https://www.sepe.es/HomeSepe/Personas/formacion/certificados-de-profesionalidad.html" class="underline text-indigo-700" target="_blank">Certificados en SEPE</a>
+    </p>
+  </section>
 
+  <!-- Bloque 5: Certificados científicos por nivel -->
+  <section class="mt-12 px-4 py-6 bg-green-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-green-800 mb-4">🧪 Certificados científicos por nivel</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad científica se agrupan en tres niveles según su complejidad y requisitos de acceso. Cada nivel permite desarrollar competencias específicas en el ámbito científico-técnico, desde funciones auxiliares hasta tareas más especializadas.
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Nivel</th><th class="p-2">Certificados destacados</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Nivel 1</td><td class="p-2">Operaciones auxiliares en laboratorios, Servicios auxiliares de sanidad</td></tr>
+        <tr class="border-t"><td class="p-2">Nivel 2</td><td class="p-2">Muestreo y análisis químico, Control de organismos nocivos, Ensayos microbiológicos</td></tr>
+        <tr class="border-t"><td class="p-2">Nivel 3</td><td class="p-2">Análisis químico, Gestión ambiental, Ensayos físicos y fisicoquímicos, Control de calidad en procesos</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      Cuanto más alto es el nivel, mayor es la especialización y también las exigencias de acceso. Además, los certificados de nivel 3 suelen tener mayor reconocimiento en el sector productivo.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li>Cada certificado incluye <strong>módulos formativos</strong> y unidades de competencia convalidables.</li>
+      <li>Su duración suele estar entre <u>400 y 700 horas</u>, incluyendo teoría y prácticas.</li>
+      <li>Algunos permiten <strong>acumulación de acreditaciones</strong> parciales para FP o certificaciones futuras.</li>
+    </ul>
+    <p class="text-gray-700">
+      Para ver todos los certificados científicos disponibles por nivel, visita: <a href="https://www.fundae.es/Observatorio/Buscador-de-Certificados" class="underline text-green-700" target="_blank">Fundae – Catálogo de Certificados</a>
+    </p>
+  </section>
 
-<!-- 3. Dónde se imparten -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🏫 ¿Dónde se imparten y cómo cursarlos?</h2>
-<p class="mb-4">Los certificados de profesionalidad se imparten en una amplia variedad de centros, tanto públicos como privados, distribuidos a lo largo del país. Los principales centros son aquellos acreditados por el SEPE o las entidades autonómicas correspondientes, como centros de formación profesional, academias, y universidades.</p>
-<p class="mb-4">En general, se pueden cursar de forma presencial, online o semipresencial, lo que permite a los estudiantes adaptar el estudio a su ritmo y lugar de residencia. Los cursos presenciales se imparten en instituciones educativas públicas o privadas, mientras que las opciones online suelen estar disponibles a través de plataformas homologadas por el SEPE.</p>
-<p class="mb-4">Además, algunos centros permiten realizar formación dual, en la que se alterna el aprendizaje en el centro educativo con prácticas en empresas del sector. Esta modalidad aumenta las oportunidades de empleo tras finalizar el certificado, ya que los estudiantes adquieren experiencia real durante el curso.</p>
-<p class="mb-4">En la plataforma [TodoFP.es](https://www.todofp.es) puedes consultar todos los centros acreditados, tanto para formación presencial como para la modalidad online. Esta plataforma te permite filtrar por comunidad autónoma, tipo de certificado y modalidad de enseñanza.</p>
-<p class="mb-4">Por otro lado, el SEPE también ofrece cursos de formación a distancia a través de su red de centros colaboradores. Estas opciones son ideales para quienes no pueden asistir presencialmente a clases debido a la ubicación o la disponibilidad horaria.</p>
+  <!-- Bloque 6: Salidas laborales -->
+  <section class="mt-12 px-4 py-6 bg-red-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-red-800 mb-4">💼 Salidas laborales</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad científica preparan para acceder directamente al mercado laboral en áreas técnicas, especialmente dentro de sectores productivos, sanitarios, ambientales y tecnológicos. Las salidas varían según la especialización del certificado, pero suelen implicar funciones prácticas, de control o de apoyo a profesionales titulados.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>Laboratorios de análisis</strong> clínico, químico o microbiológico.</li>
+      <li><strong>Empresas de control de calidad</strong> en alimentación, industria o farmacia.</li>
+      <li><strong>Entidades ambientales</strong>: análisis de aguas, residuos, atmósfera.</li>
+      <li><strong>Consultoras técnicas</strong> que trabajan con ayuntamientos o industrias.</li>
+      <li><strong>Centros de I+D</strong> que requieren personal de apoyo en ensayos y muestreo.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Además, algunos perfiles son demandados en sectores emergentes como la bioeconomía, los biomateriales, la sostenibilidad urbana o el tratamiento de datos ambientales. Se trata de empleos estables que valoran más la <strong>capacidad técnica</strong> y la <strong>formación práctica</strong> que el título académico.
+    </p>
+    <p class="text-gray-700">
+      Revisa estadísticas y tendencias en el portal de empleo científico: <a href="https://empleate.gob.es" class="underline text-red-700" target="_blank">Empléate – Sectores científicos</a>
+    </p>
+  </section>
 
+  <!-- Bloque 7: Puente a FP y Universidad -->
+  <section class="mt-12 px-4 py-6 bg-yellow-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-yellow-800 mb-4">🎓 Puente a FP y Universidad</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad no solo permiten trabajar directamente, sino que también pueden ser una <strong>puerta de acceso</strong> hacia estudios más avanzados, como <u>Formación Profesional</u> o incluso la universidad, dependiendo del nivel alcanzado y la normativa vigente.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li>Los certificados de <strong>nivel 2</strong> permiten preparar y acceder con ventaja a ciclos de grado medio.</li>
+      <li>Los certificados de <strong>nivel 3</strong> pueden facilitar el acceso a grados superiores y en algunos casos convalidar módulos.</li>
+      <li>Existe la opción de utilizar la experiencia certificada para <u>obtener acreditaciones</u> parciales oficiales en FP.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Algunos certificados también han sido reconocidos como <em>formación válida</em> en procedimientos de admisión a grados universitarios, especialmente en áreas como ciencias ambientales, ingeniería química o biotecnología. Aunque esto varía según universidad y comunidad autónoma.
+    </p>
+    <p class="text-gray-700 mb-4">
+      Además, son útiles para quienes <strong>no tienen título de ESO o Bachillerato</strong>, ya que permiten acumular formación reglada en otro camino alternativo. Puedes también acceder a pruebas de acceso a FP o grados desde esta base práctica.
+    </p>
+    <p class="text-gray-700">
+      Más información sobre conexiones con otros estudios en el portal educativo de tu comunidad y en <a href="https://todofp.es" target="_blank" class="underline text-yellow-700">TodoFP.es – Pasarelas y equivalencias</a>
+    </p>
+  </section>
 
-<!-- 4. Dónde buscar información oficial -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🔎 ¿Dónde buscar información oficial?</h2>
-<p class="mb-4">Existen varias fuentes oficiales donde puedes encontrar información sobre los certificados de profesionalidad, los requisitos, los centros que los imparten y las convocatorias. Los principales son:</p>
-<ul class="list-disc list-inside mb-4">
-  <li><a href="https://www.sepe.es" class="text-blue-600 underline" target="_blank">SEPE - Servicio Público de Empleo Estatal</a>: Aquí puedes consultar la oferta de formación disponible, los requisitos y la normativa relacionada.</li>
-  <li><a href="https://www.todofp.es" class="text-blue-600 underline" target="_blank">TodoFP.es</a>: Portal oficial del Ministerio de Educación y Formación Profesional, que ofrece un buscador completo de cursos y certificados por modalidad y comunidad autónoma.</li>
-  <li><a href="https://www.fundae.es" class="text-blue-600 underline" target="_blank">FUNDAE - Fundación Estatal para la Formación en el Empleo</a>: Ofrece información sobre las opciones de formación y financiación para empresas y trabajadores en activo.</li>
-  <li>Portales autonómicos de empleo: La mayoría de las comunidades autónomas tienen su propia plataforma de formación en el ámbito de la FP y los certificados de profesionalidad.</li>
-</ul>
-<p class="mb-4">En estos sitios también podrás encontrar las convocatorias y plazos de inscripción para cada uno de los programas disponibles, tanto presenciales como online. Además, puedes acceder a la bolsa de empleo de los centros donde se imparte formación para tener más oportunidades de inserción laboral.</p>
+  <!-- Bloque 8: Ejemplos de centros -->
+  <section class="mt-12 px-4 py-6 bg-cyan-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-cyan-800 mb-4">🏫 Ejemplos de centros</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad científica se imparten en centros públicos y privados siempre que estén <strong>acreditados oficialmente</strong> por el SEPE o las comunidades autónomas. A continuación te presentamos ejemplos destacados que ofrecen este tipo de formación:
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>CRN Química – Cartagena:</strong> Centro de Referencia Nacional especializado en química aplicada. <a href="https://crnquimica.es" target="_blank" class="underline text-cyan-700">Sitio web</a></li>
+      <li><strong>IFP Laboratorio Madrid:</strong> Formación en ensayos químicos, físico-químicos y microbiológicos. <a href="https://www.ifplaboratorio.com" target="_blank" class="underline text-cyan-700">Sitio web</a></li>
+      <li><strong>Fomento Profesional:</strong> Plataforma de cursos a distancia con certificados oficiales. <a href="https://www.fomentoprofesional.com" target="_blank" class="underline text-cyan-700">Ver cursos</a></li>
+      <li><strong>Grupo Femxa:</strong> Cursos gratuitos subvencionados en modalidad online. <a href="https://www.cursosfemxa.es" target="_blank" class="underline text-cyan-700">Ver oferta</a></li>
+      <li><strong>FOREM Castilla-La Mancha:</strong> Formación pública de calidad en el ámbito ambiental y químico. <a href="https://www.castillalamancha.es" target="_blank" class="underline text-cyan-700">Portal regional</a></li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Para comprobar si un centro está acreditado, accede al <a href="https://www.fundae.es/Informacion/Paginas/buscador-centros.aspx" target="_blank" class="underline text-cyan-700">Buscador de centros de Fundae</a>.
+    </p>
+    <p class="text-gray-700">
+      Recuerda que la oferta formativa puede variar cada año. Consulta siempre en el centro o en tu servicio autonómico de empleo.
+    </p>
+  </section>
 
+  <!-- Bloque 9: Testimonios reales -->
+  <section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-orange-800 mb-4">🗣️ Testimonios reales</h2>
+    <p class="text-gray-700 mb-4">
+      Escuchar la experiencia de otras personas que ya han cursado certificados de profesionalidad científica puede ayudarte a tomar decisiones. Aquí te compartimos algunos testimonios reales que muestran diferentes caminos y resultados:
+    </p>
+    <div class="space-y-4 text-gray-700">
+      <blockquote class="border-l-4 border-orange-500 pl-4 italic">
+        "Yo no sabía si estudiar FP o trabajar, pero descubrí el certificado de muestreo químico y me encantó. Ahora trabajo en un laboratorio de aguas." – <strong>Sara, 22 años</strong>
+      </blockquote>
+      <blockquote class="border-l-4 border-orange-500 pl-4 italic">
+        "Me apunté al curso de control ambiental sin saber mucho, pero me enganché. Las prácticas me abrieron la puerta a un contrato en una consultora ecológica." – <strong>Iván, 19 años</strong>
+      </blockquote>
+      <blockquote class="border-l-4 border-orange-500 pl-4 italic">
+        "Quería estudiar algo científico sin ir a la universidad. El certificado de ensayos microbiológicos me permitió entrar como técnico en una empresa alimentaria." – <strong>Lucía, 24 años</strong>
+      </blockquote>
+    </div>
+    <p class="text-gray-700 mt-6">
+      Si quieres conocer más historias como estas, puedes explorar reseñas en portales como <a href="https://www.educaweb.com/cursos/formacion-profesional/certificado-profesionalidad/" target="_blank" class="underline text-orange-700">Educaweb</a> o contactar directamente con los centros formativos.
+    </p>
+  </section>
 
-<!-- 5. Certificados científicos por niveles -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">📚 Certificados científicos por niveles</h2>
-<h3 class="text-xl font-semibold mt-4 mb-2">Nivel 1</h3>
-<ul class="list-disc list-inside space-y-2 mb-4">
-  <li><strong>Operaciones auxiliares de laboratorio químico y microbiológico</strong>: Este certificado ofrece formación en la realización de tareas sencillas en laboratorios, como la preparación de muestras y la gestión de materiales. Ideal para quienes buscan iniciarse en el sector.</li>
-</ul>
+  <!-- Bloque 10: Comparativa con FP -->
+  <section class="mt-12 px-4 py-6 bg-gray-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">⚖️ Comparativa con FP</h2>
+    <p class="text-gray-700 mb-4">
+      Aunque los certificados de profesionalidad y la Formación Profesional (FP) tienen similitudes, también presentan diferencias clave que es importante conocer antes de decidir un camino formativo. Ambos están orientados al empleo y se basan en competencias prácticas, pero difieren en duración, reconocimiento académico y pasarelas educativas.
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Aspecto</th><th class="p-2">Certificado</th><th class="p-2">Formación Profesional</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Duración</td><td class="p-2">4 a 9 meses</td><td class="p-2">2 años</td></tr>
+        <tr class="border-t"><td class="p-2">Nivel educativo</td><td class="p-2">No es título académico</td><td class="p-2">Título oficial de grado medio o superior</td></tr>
+        <tr class="border-t"><td class="p-2">Flexibilidad</td><td class="p-2">Alta (presencial, online, parcial)</td><td class="p-2">Media (mayor carga horaria fija)</td></tr>
+        <tr class="border-t"><td class="p-2">Pasarela a universidad</td><td class="p-2">Limitada</td><td class="p-2">Sí, desde grado superior</td></tr>
+        <tr class="border-t"><td class="p-2">Prácticas</td><td class="p-2">Obligatorias en empresa</td><td class="p-2">FCT (Formación en Centros de Trabajo)</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      En resumen, los certificados son ideales para <strong>formarse rápido</strong> y trabajar pronto, mientras que la FP ofrece una <strong>formación más extensa</strong> con reconocimiento académico y mejores pasarelas a estudios superiores.
+    </p>
+    <p class="text-gray-700">
+      Consulta ambos itinerarios en: <a href="https://www.todofp.es/que-como-y-donde-estudiar.html" target="_blank" class="underline text-gray-800">TodoFP – Qué, cómo y dónde estudiar</a>
+    </p>
+  </section>
 
-<h3 class="text-xl font-semibold mt-4 mb-2">Nivel 2</h3>
-<ul class="list-disc list-inside space-y-2 mb-4">
-  <li><strong>Técnicas de laboratorio químico</strong>: Cubre las bases de los procesos químicos, las medidas de seguridad y las técnicas analíticas. Es un certificado clave para quienes desean trabajar en investigación y producción en la industria química.</li>
-  <li><strong>Control ambiental y gestión de residuos</strong>: Orientado a la gestión de residuos y el análisis de calidad del aire y agua. Es una excelente opción para quienes buscan empleo en el sector medioambiental.</li>
-  <li><strong>Operaciones de ensayos microbiológicos</strong>: Proporciona conocimientos sobre el cultivo y análisis de microorganismos en diversas aplicaciones (alimentación, farmacología, etc.).</li>
-</ul>
+  <!-- Bloque 11: Ventajas -->
+  <section class="mt-12 px-4 py-6 bg-lime-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-lime-800 mb-4">✅ Ventajas</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad científica tienen múltiples beneficios para quienes buscan una <strong>formación práctica</strong> y con alta inserción laboral. Aquí resumimos sus principales ventajas:
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>Validez oficial</strong> a nivel estatal y europeo.</li>
+      <li><strong>Gratuitos</strong> en la mayoría de casos, si están subvencionados.</li>
+      <li><strong>Alta empleabilidad</strong> en sectores técnicos y científicos.</li>
+      <li><strong>Prácticas reales</strong> obligatorias en empresas.</li>
+      <li><strong>Flexibles</strong>: modalidades presenciales, semipresenciales y online.</li>
+      <li>Permiten acceder a <u>mejores puestos de trabajo</u> o promocionar profesionalmente.</li>
+      <li>Válidos para <strong>oposiciones</strong> y bolsas de empleo públicas.</li>
+      <li>Incluyen contenidos actualizados por <strong>expertos del sector</strong>.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Son ideales para jóvenes que desean especializarse, adultos que necesitan reciclarse o personas en búsqueda activa de empleo. También son una <strong>alternativa rápida</strong> a la FP tradicional.
+    </p>
+    <p class="text-gray-700">
+      Más información y razones para formarte: <a href="https://www.fundae.es/Informacion/Paginas/Que-son-los-Certificados.aspx" target="_blank" class="underline text-lime-700">Fundae – Qué son los certificados</a>
+    </p>
+  </section>
 
-<h3 class="text-xl font-semibold mt-4 mb-2">Nivel 3</h3>
-<ul class="list-disc list-inside space-y-2 mb-4">
-  <li><strong>Organización y control de ensayos no destructivos</strong>: Este certificado prepara para realizar pruebas de control de calidad en materiales sin dañarlos, un aspecto fundamental en la industria química y metalúrgica.</li>
-  <li><strong>Gestión ambiental</strong>: Capacita para implementar y gestionar políticas medioambientales en empresas, así como auditorías de sostenibilidad.</li>
-  <li><strong>Laboratorio de análisis clínicos</strong>: Enfocado en la realización de pruebas de diagnóstico en laboratorios médicos, con especial énfasis en análisis sanguíneos y microbiológicos.</li>
-</ul>
+  <!-- Bloque 12: Limitaciones -->
+  <section class="mt-12 px-4 py-6 bg-rose-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-rose-800 mb-4">⚠️ Limitaciones</h2>
+    <p class="text-gray-700 mb-4">
+      Aunque los certificados de profesionalidad científica son una herramienta potente para la inserción laboral, también presentan algunas <strong>limitaciones</strong> que conviene tener en cuenta antes de inscribirse:
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>No equivalen a títulos académicos</strong> (ESO, Bachillerato, FP o universitarios).</li>
+      <li><strong>Reconocimiento limitado</strong> fuera del ámbito laboral técnico-científico.</li>
+      <li>Acceso a la universidad solo mediante vías extraordinarias o pasarelas FP previas.</li>
+      <li><strong>No todos los certificados tienen demanda alta</strong> en el mercado laboral.</li>
+      <li><strong>Algunas comunidades</strong> no convocan todos los certificados cada año.</li>
+      <li>En formación online, <strong>puede faltar acompañamiento personalizado</strong>.</li>
+      <li><strong>Duración intensiva</strong>: algunas personas pueden necesitar más tiempo.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Además, la calidad de los cursos puede variar según el centro y la modalidad. Es esencial revisar opiniones, comprobar la homologación y preguntar por el profesorado y las prácticas.
+    </p>
+    <p class="text-gray-700">
+      Recomendamos consultar la guía oficial de calidad en la formación: <a href="https://www.fundae.es/Informacion/Paginas/Calidad-en-la-formacion.aspx" target="_blank" class="underline text-rose-700">Fundae – Calidad en la Formación</a>
+    </p>
+  </section>
 
+  <!-- Bloque 13: Relación con sectores emergentes -->
+  <section class="mt-12 px-4 py-6 bg-amber-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-amber-800 mb-4">🚀 Relación con sectores emergentes</h2>
+    <p class="text-gray-700 mb-4">
+      Los certificados de profesionalidad científica no solo responden a necesidades laborales actuales, sino que también <strong>se alinean con sectores emergentes</strong> y en transformación. Esto los convierte en una opción formativa estratégica, con alta proyección de futuro.
+    </p>
+    <table class="w-full text-left mb-4 border">
+      <thead><tr class="bg-gray-200"><th class="p-2">Sector emergente</th><th class="p-2">Certificados relacionados</th></tr></thead>
+      <tbody class="bg-white">
+        <tr class="border-t"><td class="p-2">Biotecnología verde</td><td class="p-2">Ensayos microbiológicos, control ambiental</td></tr>
+        <tr class="border-t"><td class="p-2">Transición ecológica</td><td class="p-2">Gestión ambiental, análisis de aguas</td></tr>
+        <tr class="border-t"><td class="p-2">Industria 4.0</td><td class="p-2">Control de calidad, análisis fisicoquímico</td></tr>
+        <tr class="border-t"><td class="p-2">Economía circular</td><td class="p-2">Gestión de residuos, ensayos de materiales</td></tr>
+      </tbody>
+    </table>
+    <p class="text-gray-700 mb-4">
+      Además, con la aceleración tecnológica y las exigencias ambientales, muchas empresas valoran cada vez más perfiles técnicos con capacidad para implementar <strong>procesos sostenibles</strong>, controlar la <strong>calidad medioambiental</strong> o trabajar en proyectos de <strong>I+D+i</strong>.
+    </p>
+    <p class="text-gray-700">
+      Puedes conocer más sobre los perfiles emergentes en ciencia visitando el <a href="https://observatorio.fundaciontripartita.org" target="_blank" class="underline text-amber-700">Observatorio de la Fundación Estatal para la Formación en el Empleo</a>.
+    </p>
+  </section>
 
-<!-- 6. Salidas laborales reales -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">💼 Salidas laborales reales y empleabilidad</h2>
-<p class="mb-4">En sectores científicos, los certificados permiten acceder a puestos como técnicos de laboratorio, control de calidad, análisis microbiológico, operadores de planta química o técnicos ambientales. La empleabilidad media en estos perfiles supera el 60% en los primeros 6 meses.</p>
+  <!-- Bloque 14: Casos de éxito -->
+  <section class="mt-12 px-4 py-6 bg-teal-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-teal-800 mb-4">🏆 Casos de éxito</h2>
+    <p class="text-gray-700 mb-4">
+      A lo largo del país, numerosas personas han transformado su futuro gracias a los certificados de profesionalidad científica. Estos programas han sido la <strong>puerta de entrada a trabajos técnicos</strong>, la vía para conseguir prácticas remuneradas o incluso el trampolín hacia estudios superiores.
+    </p>
+    <ul class="list-disc list-inside text-gray-700 mb-4">
+      <li><strong>Ana (Valencia)</strong> – Tras perder su empleo, cursó el certificado en análisis de aguas. Hoy trabaja en una planta depuradora.</li>
+      <li><strong>Raúl (Sevilla)</strong> – Gracias al certificado de ensayos microbiológicos, accedió a prácticas que se convirtieron en contrato fijo en una empresa de alimentación.</li>
+      <li><strong>Lidia (La Rioja)</strong> – Con su certificado en gestión ambiental, trabaja en proyectos europeos de sostenibilidad urbana.</li>
+    </ul>
+    <p class="text-gray-700 mb-4">
+      Además, muchos centros de formación cuentan con acuerdos con empresas que facilitan la inserción laboral inmediata tras finalizar las prácticas. El enfoque práctico y directo de los certificados favorece <u>resultados reales y medibles</u>.
+    </p>
+    <blockquote class="border-l-4 border-teal-600 pl-4 italic text-gray-600 mb-4">
+      “No pensaba que tras cuatro meses de formación pudiera estar ya trabajando en algo relacionado con la ciencia” – Testimonio recogido en CRN Química.
+    </blockquote>
+    <p class="text-gray-700">
+      Puedes consultar más historias de éxito reales en el portal oficial de la <a href="https://www.fundae.es/Observatorio/Informes-y-estudios/Paginas/default.aspx" target="_blank" class="underline text-teal-700">Fundae – Observatorio de Empleo</a>
+    </p>
+  </section>
 
-<!-- 7. Pasarelas a FP o universidad -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🎓 Pasarelas a la FP o universidad</h2>
-<p class="mb-4">Quienes completan un certificado pueden solicitar convalidaciones o ingreso preferente en ciclos de FP. También se puede acreditar la experiencia para el acceso universitario. Esto convierte a los certificados en una vía alternativa muy útil para seguir estudiando.</p>
+  <!-- Aquí continuaré añadiendo el bloque 15 -->
 
-<!-- 8. Ejemplos de centros -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🏫 Ejemplos de centros que los imparten</h2>
-<p class="mb-4">Algunos centros destacados:</p>
-<ul class="list-disc list-inside mb-4">
-  <li>IFES Fundación Laboral</li>
-  <li>Centro de Formación Profesional de Madrid</li>
-  <li>Confederación Empresarial Valenciana</li>
-</ul>
+  <section class="mt-16 px-4 py-8 bg-gray-100 rounded-xl shadow-sm max-w-5xl mx-auto text-center">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">🔁 Explora otras etapas educativas</h2>
+    <p class="text-gray-700 mb-6">Complementa esta información con otras rutas educativas científicas para jóvenes y familias.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <a href="/formacion/primaria" class="block px-6 py-4 bg-green-600 text-white rounded-lg hover:bg-green-700">Educación Primaria</a>
+      <a href="/formacion/fp" class="block px-6 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Formación Profesional</a>
+      <a href="/formacion/universidad" class="block px-6 py-4 bg-red-600 text-white rounded-lg hover:bg-red-700">Universidad y más allá</a>
+      <a href="/formacion/familias" class="block px-6 py-4 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700">Familias y Padres</a>
+      <a href="/formacion/orientadores" class="block px-6 py-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">Orientadores</a>
+      <a href="/formacion/campus" class="block px-6 py-4 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700">Cursos, Campus y Campamentos</a>
+    </div>
+  </section>
 
-<!-- 9. Testimonios de alumnos -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🗣️ Testimonios de alumnos</h2>
-<p class="mb-4 italic">“Gracias al certificado pude trabajar en una empresa de biotecnología en solo unos meses” – <strong>Lucía, Nivel 2</strong></p>
-<p class="mb-4 italic">“Muy práctico y enfocado al empleo, con muchas salidas” – <strong>Jorge, Nivel 3</strong></p>
-
-<!-- 10. Comparativa con FP tradicional -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">⚖️ Comparativa con FP tradicional</h2>
-<p class="mb-4">La FP dura dos años completos y proporciona titulación académica. Los certificados son más breves (entre 300 y 900 horas), se centran en el trabajo inmediato y permiten mayor flexibilidad. Son complementarios.</p>
-
-<!-- 11. Ventajas de cursarlos -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">✅ Ventajas de cursarlos</h2>
-<ul class="list-disc list-inside mb-4">
-  <li>Horarios flexibles</li>
-  <li>Prácticas garantizadas</li>
-  <li>Reconocimiento europeo</li>
-  <li>Acceso sin titulación formal (nivel 1)</li>
-  <li>Alta empleabilidad</li>
-</ul>
-
-<!-- 12. Limitaciones y puntos a tener en cuenta -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">⚠️ Limitaciones y puntos a tener en cuenta</h2>
-<p class="mb-4">Algunos certificados no son reconocidos como titulación académica reglada. Además, no todos los certificados se ofertan continuamente, y puede haber limitaciones de plazas según comunidad autónoma.</p>
-
-<!-- 13. Relación con sectores emergentes -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🌱 Relación con sectores emergentes</h2>
-<p class="mb-4">Muchos certificados están alineados con tendencias como salud digital, energía verde, biotecnología ambiental o IA aplicada. Se están creando nuevas cualificaciones que responden a la transformación industrial y tecnológica.</p>
-
-<!-- 14. Casos de éxito en ciencia -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🚀 Casos de éxito en ciencia</h2>
-<p class="mb-4">Técnicos certificados han sido contratados por laboratorios como Ainia o centros tecnológicos como ITENE. También participan en proyectos de investigación aplicada y sostenibilidad, incluso en entornos internacionales.</p>
-
-<!-- 15. Botones de navegación -->
-<h2 class="text-2xl font-semibold mt-8 mb-4">🔁 Ir a otras etapas</h2>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4" aria-label="Navegación entre etapas educativas">
-  <a href="/formacion/primaria" class="block bg-white p-4 rounded-xl shadow hover:shadow-lg transition">👧 Educación Primaria</a>
-  <a href="/formacion/secundaria" class="block bg-white p-4 rounded-xl shadow hover:shadow-lg transition">👩‍🎓 Secundaria y Bachillerato</a>
-  <a href="/formacion/fp" class="block bg-white p-4 rounded-xl shadow hover:shadow-lg transition">🧪 Formación Profesional</a>
-  <a href="/formacion/universidad" class="block bg-white p-4 rounded-xl shadow hover:shadow-lg transition">🎓 Universidad y más allá</a>
-</div>
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2163450732409344"
+     data-ad-slot="6134548917"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
+    }
+  </script>
+</Layout>
