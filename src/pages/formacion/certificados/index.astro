@@ -18,6 +18,7 @@ site: "https://futurocientifico.vercel.app/formacion/certificados"
     <p class="text-lg text-gray-700 mb-6">
       Información actualizada para el curso <strong>2025–2026</strong>, pensada para orientar a estudiantes y familias sobre los <strong>Certificados de Profesionalidad</strong> en el ámbito científico. Conoce qué son, dónde estudiarlos, sus ventajas, salidas laborales y cómo se relacionan con la FP o la universidad.
     </p>
+    <img src="/avatar.webp" alt="Avatar científico" width="128" height="128" loading="lazy" class="mx-auto mt-4" />
   </section>
 
   <!-- Bloque 1: ¿Qué son los Certificados de Profesionalidad Científica? -->
@@ -370,7 +371,7 @@ site: "https://futurocientifico.vercel.app/formacion/certificados"
     </div>
   </section>
 
-  <ins class="adsbygoogle"
+ <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
      data-ad-slot="6134548917"
@@ -379,11 +380,15 @@ site: "https://futurocientifico.vercel.app/formacion/certificados"
   <script>
     if (typeof window !== "undefined") {
       if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-        window.adsbygoogle.push({});
+        setTimeout(() => {
+          window.adsbygoogle.push({});
+        }, 1000);
       } else {
         const interval = setInterval(() => {
           if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-            window.adsbygoogle.push({});
+            setTimeout(() => {
+              window.adsbygoogle.push({});
+            }, 1000);
             clearInterval(interval);
           }
         }, 300);
