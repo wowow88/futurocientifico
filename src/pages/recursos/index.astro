@@ -1,7 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
-import ProductCard from '../../components/ProductCard.astro';
 ---
 
 <Seo 
@@ -14,65 +13,99 @@ import ProductCard from '../../components/ProductCard.astro';
   <section class="bg-gradient-to-r from-yellow-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-yellow-800">Recursos Educativos</h1>
     <p class="mt-2 text-yellow-700 text-sm max-w-xl mx-auto">
-      Herramientas, plataformas y materiales para aprender y enseñar ciencia de forma accesible y divertida.
+      Explora herramientas, materiales y plataformas para aprender y enseñar ciencia desde cualquier lugar. Accede a contenido interactivo, práctico y accesible para todas las edades.
     </p>
   </section>
 
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-yellow-800">Plataformas educativas</h2>
-      <p class="text-sm text-gray-600">Accede a Khan Academy, UNED Abierta, Coursera, edX y otras para aprender ciencia a tu ritmo.</p>
+      <a href="/recursos/plataformas" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Plataformas educativas</h2>
+        <p class="text-sm text-gray-600">Aprende a tu ritmo con Khan Academy, UNED Abierta, edX, Coursera y más.</p>
+      </a>
     </div>
     <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-yellow-800">Materiales descargables</h2>
-      <p class="text-sm text-gray-600">Libros, guías en PDF, experimentos caseros y fichas imprimibles para todas las edades.</p>
+      <a href="/recursos/materiales" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Materiales descargables</h2>
+        <p class="text-sm text-gray-600">Fichas imprimibles, experimentos caseros y libros gratuitos en PDF.</p>
+      </a>
     </div>
     <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-yellow-800">Aplicaciones científicas</h2>
-      <p class="text-sm text-gray-600">Apps móviles para aprender biología, química, astronomía y más de forma interactiva.</p>
+      <a href="/recursos/apps" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Aplicaciones científicas</h2>
+        <p class="text-sm text-gray-600">Apps móviles para aprender ciencia desde tu dispositivo favorito.</p>
+      </a>
     </div>
     <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-yellow-800">Simuladores y laboratorios virtuales</h2>
-      <p class="text-sm text-gray-600">Herramientas como PhET, Labster y simulaciones científicas para experimentar desde casa o el aula.</p>
+      <a href="/recursos/simuladores" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Simuladores y laboratorios virtuales</h2>
+        <p class="text-sm text-gray-600">PhET, Labster y más para experimentar ciencia desde casa.</p>
+      </a>
     </div>
     <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-yellow-800">Canales y podcasts recomendados</h2>
-      <p class="text-sm text-gray-600">Listas seleccionadas con contenido audiovisual educativo y científico en español e inglés.</p>
+      <a href="/recursos/audiovisual" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Canales y podcasts recomendados</h2>
+        <p class="text-sm text-gray-600">Contenido audiovisual educativo y entretenido para todas las edades.</p>
+      </a>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <a href="/recursos/integracion" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Cómo usar recursos en casa o el aula</h2>
+        <p class="text-sm text-gray-600">Guías prácticas para familias y docentes.</p>
+      </a>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <a href="/recursos/consejos" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Consejos para seleccionar recursos</h2>
+        <p class="text-sm text-gray-600">Evita saturarte y elige lo que realmente te sirve.</p>
+      </a>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <a href="/recursos/inclusion" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Recursos accesibles e inclusivos</h2>
+        <p class="text-sm text-gray-600">Educación científica para todos los perfiles y capacidades.</p>
+      </a>
+    </div>
+    <div class="bg-white p-4 rounded-xl shadow">
+      <a href="/recursos/explora" class="block">
+        <h2 class="text-xl font-semibold text-yellow-800">Explora por nivel educativo</h2>
+        <p class="text-sm text-gray-600">Primaria, Secundaria, FP, Universidad: lo que necesitas según tu etapa.</p>
+      </a>
     </div>
   </section>
-<!-- BannerIndex -->
-<ins class="adsbygoogle"
+
+  <!-- Adsense -->
+  <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
      data-ad-slot="6134548917"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>
-  if (typeof window !== "undefined") {
-    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-      window.adsbygoogle.push({});
-    } else {
-      const interval = setInterval(() => {
-        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-          window.adsbygoogle.push({});
-          clearInterval(interval);
-        }
-      }, 300);
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
     }
-  }
-</script>
+  </script>
 
-
-<section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
-  <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">Completa tu aprendizaje</h2>
-    <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-    <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🎓 Rutas formativas para estructurar tu estudio.</a>
-    <a href="/preguntona" class="bg-white p-4 rounded-lg border hover:shadow transition">❓ Descubre curiosidades y experimentos fáciles.</a>
-    <a href="/revistas" class="bg-white p-4 rounded-lg border hover:shadow transition">🧪 Consulta novedades de investigación.</a>
-  </div>
-</section>
-
+  <section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">Completa tu experiencia científica</h2>
+      <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
+        <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🎓 Formación científica estructurada</a>
+        <a href="/preguntona" class="bg-white p-4 rounded-lg border hover:shadow transition">🔍 Preguntas y retos curiosos</a>
+        <a href="/revistas" class="bg-white p-4 rounded-lg border hover:shadow transition">🧪 Revistas de actualidad científica</a>
+      </div>
+    </div>
+  </section>
 </Layout>
 
 
