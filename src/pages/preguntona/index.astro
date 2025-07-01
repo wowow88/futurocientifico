@@ -1,80 +1,142 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
-import ProductCard from '../../components/ProductCard.astro';
 ---
 
 <Seo 
-  title="Preguntona | FuturoCientífico"
-  description="Una sección para mentes curiosas. Respuestas sorprendentes, mitos desmontados y experimentos que puedes hacer en casa."
+  title="La Preguntona | FuturoCientífico"
+  description="Explora las preguntas científicas más curiosas y cotidianas. Respuestas claras para jóvenes mentes inquietas."
   site="https://futurocientifico.vercel.app/preguntona"
 />
 
 <Layout>
   <section class="bg-gradient-to-r from-orange-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <h1 class="text-3xl font-bold text-orange-800">Preguntona</h1>
+    <h1 class="text-3xl font-bold text-orange-800">La Preguntona</h1>
     <p class="mt-2 text-orange-700 text-sm max-w-xl mx-auto">
-      Una sección para mentes curiosas. Respuestas sorprendentes, mitos desmontados y experimentos que puedes hacer en casa.
+      Aquí respondemos las preguntas científicas más curiosas, raras o cotidianas que nos hacemos todos. Perfecto para mentes jóvenes e inquietas.
     </p>
   </section>
 
-  <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-orange-800">¿Sabías que...?</h2>
-      <p class="text-sm text-gray-600">El pulpo tiene tres corazones, y dos de ellos se detienen cuando nada. ¡Eso sí es eficiencia!</p>
-    </div>
-
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-orange-800">Preguntas que todos se hacen</h2>
-      <p class="text-sm text-gray-600">¿Por qué no podemos ver el aire? ¿Y por qué algunos objetos flotan y otros se hunden?</p>
-    </div>
-
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-orange-800">Hazlo en casa</h2>
-      <p class="text-sm text-gray-600">Crea un arcoíris líquido con solo agua, azúcar y colorante. Aprende densidad jugando.</p>
-    </div>
-
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-orange-800">Mitos desmontados</h2>
-      <p class="text-sm text-gray-600">No, no usamos solo el 10% del cerebro. Es un mito popular sin base científica.</p>
-    </div>
-
-    <div class="bg-white p-4 rounded-xl shadow">
-      <h2 class="text-xl font-semibold text-orange-800">Observa y Piensa</h2>
-      <p class="text-sm text-gray-600">¿Qué pesa más: un kilo de plomo o un kilo de plumas? 🤔 Aprende con paradojas y juegos.</p>
-    </div>
+  <!-- Bloque 1: Curiosidades científicas -->
+  <section class="mt-12 px-4 py-6 bg-orange-100 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-orange-900 mb-4">🔍 Curiosidades científicas</h2>
+    <ul class="list-disc pl-6 text-gray-700">
+      <li>¿Por qué el cielo es azul?</li>
+      <li>¿Por qué los gatos siempre caen de pie?</li>
+      <li>¿Qué pasaría si dejáramos de dormir?</li>
+      <li>¿Qué tan frío es el espacio?</li>
+      <li>¿Por qué no sentimos la rotación de la Tierra?</li>
+      <li>¿Por qué los metales brillan?</li>
+      <li>¿Qué tan profundo es el océano?</li>
+      <li>¿Por qué algunos insectos caminan sobre el agua?</li>
+      <li>¿Cómo ven los animales?</li>
+      <li>¿Qué hace que algo huela mal?</li>
+      <li>¿Qué pasa cuando un rayo cae sobre un árbol?</li>
+      <li>¿Por qué sentimos vértigo?</li>
+      <li>¿Cómo se forma un arcoíris doble?</li>
+      <li>¿Por qué se apagan las estrellas?</li>
+      <li>¿Qué hay dentro de un agujero negro?</li>
+    </ul>
   </section>
-<!-- BannerIndex -->
-<ins class="adsbygoogle"
+
+  <!-- Bloque 2: Preguntas cotidianas -->
+  <section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-orange-900 mb-4">🏠 Preguntas cotidianas</h2>
+    <ul class="list-disc pl-6 text-gray-700">
+      <li>¿Por qué lloramos cuando cortamos cebolla?</li>
+      <li>¿Cómo funciona el microondas?</li>
+      <li>¿Qué tiene la pasta de dientes que la hace blanquear?</li>
+      <li>¿Por qué el pan se pone duro?</li>
+      <li>¿Qué es el moho y por qué aparece?</li>
+      <li>¿Cómo se forma la escarcha en el congelador?</li>
+      <li>¿Por qué sentimos sueño después de comer?</li>
+      <li>¿Cómo huelen los alimentos en el espacio?</li>
+      <li>¿Qué pasa si mezclas cloro con vinagre?</li>
+      <li>¿Qué hace el bicarbonato en una receta?</li>
+      <li>¿Por qué chirrían las puertas?</li>
+      <li>¿Por qué las pantallas tienen píxeles?</li>
+      <li>¿Qué es la electricidad estática?</li>
+      <li>¿Por qué el jabón hace espuma?</li>
+      <li>¿Qué hay dentro de un LED?</li>
+    </ul>
+  </section>
+
+  <!-- Bloque 3: Experimentos caseros -->
+  <section class="mt-12 px-4 py-6 bg-orange-100 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-orange-900 mb-4">🧪 Experimentos caseros</h2>
+    <ul class="list-disc pl-6 text-gray-700">
+      <li>¿Cómo hacer un volcán con vinagre y bicarbonato?</li>
+      <li>¿Cómo crear una lámpara de lava casera?</li>
+      <li>¿Qué sucede si haces germinar una lenteja en algodón?</li>
+      <li>¿Se puede inflar un globo sin soplarlo?</li>
+      <li>¿Qué ocurre si mezclas aceite y agua con colorante?</li>
+      <li>¿Puedes hacer un huevo rebotar?</li>
+      <li>¿Cómo se forman los cristales de sal?</li>
+      <li>¿Qué pasa si metes una vela encendida en un vaso?</li>
+      <li>¿Puedes separar pigmentos con papel y alcohol?</li>
+      <li>¿Cómo hacer una brújula casera?</li>
+      <li>¿Puedes doblar la luz con agua?</li>
+      <li>¿Qué pasa al calentar globos con una vela?</li>
+      <li>¿Se puede hacer un arcoíris con un CD?</li>
+      <li>¿Puedes generar electricidad con un limón?</li>
+      <li>¿Cómo hacer una nube en una botella?</li>
+    </ul>
+  </section>
+
+  <!-- Bloque 4: Mitos y verdades científicas -->
+  <section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-orange-900 mb-4">🧠 Mitos y verdades científicas</h2>
+    <ul class="list-disc pl-6 text-gray-700">
+      <li>¿Es verdad que solo usamos el 10% del cerebro?</li>
+      <li>¿El azúcar vuelve hiperactivos a los niños?</li>
+      <li>¿Se puede ver la Gran Muralla China desde el espacio?</li>
+      <li>¿Las vacunas causan autismo?</li>
+      <li>¿Los murciélagos son ciegos?</li>
+      <li>¿Comer zanahorias mejora la visión?</li>
+      <li>¿El frío causa resfriados?</li>
+      <li>¿Los rayos no caen dos veces en el mismo lugar?</li>
+      <li>¿Los peces tienen memoria de 3 segundos?</li>
+      <li>¿Puedes morir si tragas chicle?</li>
+      <li>¿El agua del váter gira distinto en el hemisferio sur?</li>
+      <li>¿Las plantas sienten dolor?</li>
+      <li>¿Los humanos brillamos en la oscuridad?</li>
+      <li>¿Beber agua salada quita la sed?</li>
+      <li>¿La leche ayuda a fortalecer los huesos?</li>
+    </ul>
+  </section>
+
+  <!-- Adsense -->
+  <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
      data-ad-slot="6134548917"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
-<script>
-  if (typeof window !== "undefined") {
-    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-      window.adsbygoogle.push({});
-    } else {
-      const interval = setInterval(() => {
-        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-          window.adsbygoogle.push({});
-          clearInterval(interval);
-        }
-      }, 300);
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
     }
-  }
-</script>
-<section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
-  <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">También te puede interesar</h2>
-    <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-      <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🔬 Explora rutas formativas para aprender ciencia paso a paso.</a>
-      <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Descubre recursos útiles para investigar y aprender en casa.</a>
-      <a href="/revistas" class="bg-white p-4 rounded-lg border hover:shadow transition">📰 Consulta revistas científicas adaptadas a diferentes edades.</a>
+  </script>
+
+  <section class="mt-12 bg-orange-50 py-6 rounded-xl shadow-sm">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-xl font-bold text-orange-800 mb-4 text-center">✉️ ¿Tienes una pregunta?</h2>
+      <p class="text-center text-orange-700 mb-4">Envíanos tu duda científica y podrías verla publicada en futuras actualizaciones.</p>
+      <div class="text-center">
+        <a href="mailto:formacioncientifica2025@gmail.com" class="bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded-xl shadow">Enviar tu pregunta</a>
+      </div>
     </div>
   </section>
-
 </Layout>
+
 
 
