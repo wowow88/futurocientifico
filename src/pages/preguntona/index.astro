@@ -17,94 +17,89 @@ import Seo from '../../components/Seo.astro';
     </p>
   </section>
 
-  <!-- Bloque 1: Curiosidades científicas -->
-  <section class="mt-12 px-4 py-6 bg-orange-100 rounded-xl shadow-sm max-w-3xl mx-auto">
-    <h2 class="text-2xl font-bold text-orange-900 mb-4">🔍 Curiosidades científicas</h2>
-    <ul class="list-disc pl-6 text-gray-700">
-      <li>¿Por qué el cielo es azul?</li>
-      <li>¿Por qué los gatos siempre caen de pie?</li>
-      <li>¿Qué pasaría si dejáramos de dormir?</li>
-      <li>¿Qué tan frío es el espacio?</li>
-      <li>¿Por qué no sentimos la rotación de la Tierra?</li>
-      <li>¿Por qué los metales brillan?</li>
-      <li>¿Qué tan profundo es el océano?</li>
-      <li>¿Por qué algunos insectos caminan sobre el agua?</li>
-      <li>¿Cómo ven los animales?</li>
-      <li>¿Qué hace que algo huela mal?</li>
-      <li>¿Qué pasa cuando un rayo cae sobre un árbol?</li>
-      <li>¿Por qué sentimos vértigo?</li>
-      <li>¿Cómo se forma un arcoíris doble?</li>
-      <li>¿Por qué se apagan las estrellas?</li>
-      <li>¿Qué hay dentro de un agujero negro?</li>
-    </ul>
+  <!-- Bloques en grid -->
+  <section class="grid md:grid-cols-2 gap-6 px-4 max-w-6xl mx-auto">
+    <div class="bg-orange-100 px-6 py-6 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-orange-900 mb-4">🔍 Curiosidades científicas</h2>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>¿Por qué el cielo es azul?</li>
+        <li>¿Por qué los gatos siempre caen de pie?</li>
+        <li>¿Qué pasaría si dejáramos de dormir?</li>
+        <li>¿Qué tan frío es el espacio?</li>
+        <li>¿Por qué no sentimos la rotación de la Tierra?</li>
+        <li>¿Por qué los metales brillan?</li>
+        <li>¿Qué tan profundo es el océano?</li>
+        <li>¿Por qué algunos insectos caminan sobre el agua?</li>
+        <li>¿Cómo ven los animales?</li>
+        <li>¿Qué hace que algo huela mal?</li>
+        <li>¿Qué pasa cuando un rayo cae sobre un árbol?</li>
+        <li>¿Por qué sentimos vértigo?</li>
+        <li>¿Cómo se forma un arcoíris doble?</li>
+        <li>¿Por qué se apagan las estrellas?</li>
+        <li>¿Qué hay dentro de un agujero negro?</li>
+      </ul>
+    </div>
+    <div class="bg-orange-50 px-6 py-6 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-orange-900 mb-4">🏠 Preguntas cotidianas</h2>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>¿Por qué lloramos cuando cortamos cebolla?</li>
+        <li>¿Cómo funciona el microondas?</li>
+        <li>¿Qué tiene la pasta de dientes que la hace blanquear?</li>
+        <li>¿Por qué el pan se pone duro?</li>
+        <li>¿Qué es el moho y por qué aparece?</li>
+        <li>¿Cómo se forma la escarcha en el congelador?</li>
+        <li>¿Por qué sentimos sueño después de comer?</li>
+        <li>¿Cómo huelen los alimentos en el espacio?</li>
+        <li>¿Qué pasa si mezclas cloro con vinagre?</li>
+        <li>¿Qué hace el bicarbonato en una receta?</li>
+        <li>¿Por qué chirrían las puertas?</li>
+        <li>¿Por qué las pantallas tienen píxeles?</li>
+        <li>¿Qué es la electricidad estática?</li>
+        <li>¿Por qué el jabón hace espuma?</li>
+        <li>¿Qué hay dentro de un LED?</li>
+      </ul>
+    </div>
+    <div class="bg-orange-100 px-6 py-6 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-orange-900 mb-4">🧪 Experimentos caseros</h2>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>¿Cómo hacer un volcán con vinagre y bicarbonato?</li>
+        <li>¿Cómo crear una lámpara de lava casera?</li>
+        <li>¿Qué sucede si haces germinar una lenteja en algodón?</li>
+        <li>¿Se puede inflar un globo sin soplarlo?</li>
+        <li>¿Qué ocurre si mezclas aceite y agua con colorante?</li>
+        <li>¿Puedes hacer un huevo rebotar?</li>
+        <li>¿Cómo se forman los cristales de sal?</li>
+        <li>¿Qué pasa si metes una vela encendida en un vaso?</li>
+        <li>¿Puedes separar pigmentos con papel y alcohol?</li>
+        <li>¿Cómo hacer una brújula casera?</li>
+        <li>¿Puedes doblar la luz con agua?</li>
+        <li>¿Qué pasa al calentar globos con una vela?</li>
+        <li>¿Se puede hacer un arcoíris con un CD?</li>
+        <li>¿Puedes generar electricidad con un limón?</li>
+        <li>¿Cómo hacer una nube en una botella?</li>
+      </ul>
+    </div>
+    <div class="bg-orange-50 px-6 py-6 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-orange-900 mb-4">🧠 Mitos y verdades científicas</h2>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>¿Es verdad que solo usamos el 10% del cerebro?</li>
+        <li>¿El azúcar vuelve hiperactivos a los niños?</li>
+        <li>¿Se puede ver la Gran Muralla China desde el espacio?</li>
+        <li>¿Las vacunas causan autismo?</li>
+        <li>¿Los murciélagos son ciegos?</li>
+        <li>¿Comer zanahorias mejora la visión?</li>
+        <li>¿El frío causa resfriados?</li>
+        <li>¿Los rayos no caen dos veces en el mismo lugar?</li>
+        <li>¿Los peces tienen memoria de 3 segundos?</li>
+        <li>¿Puedes morir si tragas chicle?</li>
+        <li>¿El agua del váter gira distinto en el hemisferio sur?</li>
+        <li>¿Las plantas sienten dolor?</li>
+        <li>¿Los humanos brillamos en la oscuridad?</li>
+        <li>¿Beber agua salada quita la sed?</li>
+        <li>¿La leche ayuda a fortalecer los huesos?</li>
+      </ul>
+    </div>
   </section>
-
-  <!-- Bloque 2: Preguntas cotidianas -->
-  <section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
-    <h2 class="text-2xl font-bold text-orange-900 mb-4">🏠 Preguntas cotidianas</h2>
-    <ul class="list-disc pl-6 text-gray-700">
-      <li>¿Por qué lloramos cuando cortamos cebolla?</li>
-      <li>¿Cómo funciona el microondas?</li>
-      <li>¿Qué tiene la pasta de dientes que la hace blanquear?</li>
-      <li>¿Por qué el pan se pone duro?</li>
-      <li>¿Qué es el moho y por qué aparece?</li>
-      <li>¿Cómo se forma la escarcha en el congelador?</li>
-      <li>¿Por qué sentimos sueño después de comer?</li>
-      <li>¿Cómo huelen los alimentos en el espacio?</li>
-      <li>¿Qué pasa si mezclas cloro con vinagre?</li>
-      <li>¿Qué hace el bicarbonato en una receta?</li>
-      <li>¿Por qué chirrían las puertas?</li>
-      <li>¿Por qué las pantallas tienen píxeles?</li>
-      <li>¿Qué es la electricidad estática?</li>
-      <li>¿Por qué el jabón hace espuma?</li>
-      <li>¿Qué hay dentro de un LED?</li>
-    </ul>
-  </section>
-
-  <!-- Bloque 3: Experimentos caseros -->
-  <section class="mt-12 px-4 py-6 bg-orange-100 rounded-xl shadow-sm max-w-3xl mx-auto">
-    <h2 class="text-2xl font-bold text-orange-900 mb-4">🧪 Experimentos caseros</h2>
-    <ul class="list-disc pl-6 text-gray-700">
-      <li>¿Cómo hacer un volcán con vinagre y bicarbonato?</li>
-      <li>¿Cómo crear una lámpara de lava casera?</li>
-      <li>¿Qué sucede si haces germinar una lenteja en algodón?</li>
-      <li>¿Se puede inflar un globo sin soplarlo?</li>
-      <li>¿Qué ocurre si mezclas aceite y agua con colorante?</li>
-      <li>¿Puedes hacer un huevo rebotar?</li>
-      <li>¿Cómo se forman los cristales de sal?</li>
-      <li>¿Qué pasa si metes una vela encendida en un vaso?</li>
-      <li>¿Puedes separar pigmentos con papel y alcohol?</li>
-      <li>¿Cómo hacer una brújula casera?</li>
-      <li>¿Puedes doblar la luz con agua?</li>
-      <li>¿Qué pasa al calentar globos con una vela?</li>
-      <li>¿Se puede hacer un arcoíris con un CD?</li>
-      <li>¿Puedes generar electricidad con un limón?</li>
-      <li>¿Cómo hacer una nube en una botella?</li>
-    </ul>
-  </section>
-
-  <!-- Bloque 4: Mitos y verdades científicas -->
-  <section class="mt-12 px-4 py-6 bg-orange-50 rounded-xl shadow-sm max-w-3xl mx-auto">
-    <h2 class="text-2xl font-bold text-orange-900 mb-4">🧠 Mitos y verdades científicas</h2>
-    <ul class="list-disc pl-6 text-gray-700">
-      <li>¿Es verdad que solo usamos el 10% del cerebro?</li>
-      <li>¿El azúcar vuelve hiperactivos a los niños?</li>
-      <li>¿Se puede ver la Gran Muralla China desde el espacio?</li>
-      <li>¿Las vacunas causan autismo?</li>
-      <li>¿Los murciélagos son ciegos?</li>
-      <li>¿Comer zanahorias mejora la visión?</li>
-      <li>¿El frío causa resfriados?</li>
-      <li>¿Los rayos no caen dos veces en el mismo lugar?</li>
-      <li>¿Los peces tienen memoria de 3 segundos?</li>
-      <li>¿Puedes morir si tragas chicle?</li>
-      <li>¿El agua del váter gira distinto en el hemisferio sur?</li>
-      <li>¿Las plantas sienten dolor?</li>
-      <li>¿Los humanos brillamos en la oscuridad?</li>
-      <li>¿Beber agua salada quita la sed?</li>
-      <li>¿La leche ayuda a fortalecer los huesos?</li>
-    </ul>
-  </section>
-
   <section class="mt-12 bg-orange-50 py-6 rounded-xl shadow-sm">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-xl font-bold text-orange-800 mb-4 text-center">✉️ ¿Tienes una pregunta?</h2>
@@ -114,7 +109,7 @@ import Seo from '../../components/Seo.astro';
       </div>
     </div>
   </section>
-  <!-- Adsense -->
+ <!-- Adsense -->
   <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
@@ -136,6 +131,7 @@ import Seo from '../../components/Seo.astro';
     }
   </script>
 </Layout>
+
 
 
 
