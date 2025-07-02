@@ -20,125 +20,106 @@ import Seo from '../../components/Seo.astro';
   <!-- Últimos artículos (ya automatizado) -->
   <section class="px-4 max-w-6xl mx-auto mb-12">
     <h2 class="text-2xl font-bold text-purple-900 mb-4">🧪 Artículos recientes</h2>
-     <p>
+    <p>
       Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente desde fuentes fiables como 
       <strong>arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong> y medios científicos en español como 
       <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong> e <strong>ISCIII</strong>.
     </p>
 
-  <div id="articles" class="space-y-6"></div>
+    <div id="articles" class="space-y-6"></div>
 
-  <div class="flex justify-center mt-8">
-    <button id="loadMore" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 hidden">
-      Ver más noticias
-    </button>
-  </div>
+    <div class="flex justify-center mt-8">
+      <button id="loadMore" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 hidden">
+        Ver más noticias
+      </button>
+    </div>
 
-  <script type="module">
-    const container = document.querySelector('#articles');
-    const button = document.querySelector('#loadMore');
-    let currentPage = 1;
-    const perPage = 10;
-    let allArticles = [];
+    <script type="module">
+      const container = document.querySelector('#articles');
+      const button = document.querySelector('#loadMore');
+      let currentPage = 1;
+      const perPage = 10;
+      let allArticles = [];
 
-    fetch('/articles_enriched.json')
-      .then(res => res.json())
-      .then(data => {
-        allArticles = data
-          .filter(article => article.category === 'noticia')
-          .sort((a, b) => new Date(b.date) - new Date(a.date));
-        renderPage();
-        if (allArticles.length > perPage) button.classList.remove('hidden');
-      });
+      fetch('/articles_enriched.json')
+        .then(res => res.json())
+        .then(data => {
+          allArticles = data
+            .filter(article => article.category === 'noticia')
+            .sort((a, b) => new Date(b.date) - new Date(a.date));
+          renderPage();
+          if (allArticles.length > perPage) button.classList.remove('hidden');
+        });
 
-    function renderPage() {
-      const start = (currentPage - 1) * perPage;
-      const end = start + perPage;
-      const currentArticles = allArticles.slice(start, end);
-      currentArticles.forEach(article => {
-        const tags = article.tags?.map(tag =>
-          `<span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">#${tag}</span>`).join('') || '';
-        const html = `
-          <article class="bg-white rounded-xl p-4 shadow-md mb-4">
-            <h3 class="text-xl font-semibold text-blue-900">${article.title_es}</h3>
-            <p class="text-gray-600 text-sm mb-2">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
-            ${tags ? `<div class="mb-2">${tags}</div>` : ''}
-            <a href="${article.pdf || article.url}" target="_blank" class="text-blue-700 hover:underline block mt-2">Leer PDF</a>
-          </article>`;
-        container.insertAdjacentHTML('beforeend', html);
-      });
-      currentPage++;
-      if ((currentPage - 1) * perPage >= allArticles.length) {
-        button.classList.add('hidden');
+      function renderPage() {
+        const start = (currentPage - 1) * perPage;
+        const end = start + perPage;
+        const currentArticles = allArticles.slice(start, end);
+        currentArticles.forEach(article => {
+          const tags = article.tags?.map(tag =>
+            `<span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">#${tag}</span>`).join('') || '';
+          const html = `
+            <article class="bg-white rounded-xl p-4 shadow-md mb-4">
+              <h3 class="text-xl font-semibold text-blue-900">${article.title_es}</h3>
+              <p class="text-gray-600 text-sm mb-2">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
+              ${tags ? `<div class="mb-2">${tags}</div>` : ''}
+              <a href="${article.pdf || article.url}" target="_blank" class="text-blue-700 hover:underline block mt-2">Leer PDF</a>
+            </article>`;
+          container.insertAdjacentHTML('beforeend', html);
+        });
+        currentPage++;
+        if ((currentPage - 1) * perPage >= allArticles.length) {
+          button.classList.add('hidden');
+        }
       }
-    }
 
-    button.addEventListener('click', renderPage);
-  </script>
+      button.addEventListener('click', renderPage);
+    </script>
   </section>
 
-  <!-- Bloque: Revistas populares -->
-  <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-    <h2 class="text-2xl font-bold text-purple-900 mb-4">📰 Revistas científicas en quioscos y bibliotecas</h2>
-    <ul class="list-disc pl-6 text-purple-700">
-      <li><a href="https://www.investigacionyciencia.es/" class="underline font-semibold" target="_blank">Investigación y Ciencia</a>: versión española de Scientific American.</li>
-      <li><a href="https://www.muyinteresante.es/" class="underline font-semibold" target="_blank">Muy Interesante</a>: ciencia para todos los públicos.</li>
-      <li><a href="https://www.nationalgeographicla.com/espana" class="underline font-semibold" target="_blank">National Geographic (España)</a>: ciencia, naturaleza y cultura visual.</li>
-      <li><a href="https://quo.eldiario.es/" class="underline font-semibold" target="_blank">Quo</a>: actualidad científica con tono divulgativo.</li>
-      <li><a href="https://principia.io/" class="underline font-semibold" target="_blank">Principia</a>: ciencia con arte, literatura y diseño.</li>
-    </ul>
-  </section>
-
-  <!-- Bloque: Centros de investigación con publicaciones -->
-  <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-    <h2 class="text-2xl font-bold text-purple-900 mb-4">🏛️ Publicaciones de centros de investigación</h2>
-    <ul class="list-disc pl-6 text-purple-700">
-      <li><a href="https://revistadigital.csic.es/" class="underline font-semibold" target="_blank">CSIC</a>: revistas y boletines de todas las áreas científicas.</li>
-      <li><a href="https://www.cnio.es/divulgacion/publicaciones/" class="underline font-semibold" target="_blank">CNIO</a>: informes y revistas sobre investigación oncológica.</li>
-      <li><a href="https://www.cnic.es/es/publicaciones" class="underline font-semibold" target="_blank">CNIC</a>: publicaciones del Centro Nacional de Investigaciones Cardiovasculares.</li>
-      <li><a href="https://www.iac.es/es/divulgacion/publicaciones" class="underline font-semibold" target="_blank">IAC</a>: revistas y contenidos del Instituto de Astrofísica de Canarias.</li>
-      <li><a href="https://www.isciii.es/QueHacemos/DivulgacionCientifica/Paginas/default.aspx" class="underline font-semibold" target="_blank">ISCIII</a>: divulgación en salud y ciencia biomédica.</li>
-      <li><a href="https://www.inta.es/WEB/INTA/es/noticias-y-publicaciones/" class="underline font-semibold" target="_blank">INTA</a>: publicaciones del Instituto Nacional de Técnica Aeroespacial.</li>
-      <li><a href="https://www.idibaps.org/es/divulgacion/publicaciones" class="underline font-semibold" target="_blank">IDIBAPS</a>: publicaciones sobre medicina traslacional.</li>
-    </ul>
-  </section>
-
-  <!-- Bloque: Cómo encontrar artículos científicos fiables -->
-  <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-    <h2 class="text-2xl font-bold text-purple-900 mb-4">🔍 Cómo encontrar artículos científicos fiables</h2>
-    <p class="text-purple-700 mb-4">Encontrar buena ciencia en internet es posible si sabes dónde buscar. Aquí tienes algunas fuentes y consejos:</p>
-    <ul class="list-disc pl-6 text-purple-700">
-      <li><strong><a href="https://scholar.google.es" class="underline" target="_blank">Google Scholar</a></strong>: buscador especializado en artículos académicos de todas las áreas.</li>
-      <li><strong><a href="https://pubmed.ncbi.nlm.nih.gov" class="underline" target="_blank">PubMed</a></strong>: base de datos biomédica internacional, muy útil para salud y biociencias.</li>
-      <li><strong><a href="https://doaj.org" class="underline" target="_blank">DOAJ</a></strong>: directorio de revistas científicas de acceso abierto y gratuito.</li>
-      <li><strong>Repositorios universitarios</strong>: muchas universidades publican sus tesis y artículos de forma abierta.</li>
-      <li><strong>Evita fuentes no verificadas</strong>: asegúrate de que el artículo proviene de una publicación científica con revisión por pares (peer-reviewed).</li>
-    </ul>
-  </section>
-
-  <!-- Bloque: Herramientas para interpretar publicaciones científicas -->
-  <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-12">
-    <h2 class="text-2xl font-bold text-purple-900 mb-4">📖 Herramientas para interpretar publicaciones científicas</h2>
-    <p class="text-purple-700 mb-4">¿Te cuesta entender algunos artículos científicos? No estás solo. Existen recursos pensados para ayudarte a interpretar términos técnicos, metodologías y resultados:</p>
-    <ul class="list-disc pl-6 text-purple-700">
-      <li><a href="https://sciencemedcomms.wordpress.com/tag/glossary/" class="underline" target="_blank">Glosario de términos científicos</a> para familiarizarte con conceptos frecuentes en publicaciones.</li>
-      <li><a href="https://elifesciences.org/inside-elife/56bc3d45/understanding-science-through-plain-language-summaries" class="underline" target="_blank">eLife – Plain Language Summaries</a>: resúmenes accesibles de investigaciones actuales.</li>
-      <li><a href="https://www.sciencebuddies.org/science-fair-projects/science-fair/interpret-data-graphs" class="underline" target="_blank">Cómo interpretar gráficos y tablas científicas</a>: guía visual paso a paso.</li>
-      <li><a href="https://www.knowablemagazine.org/" class="underline" target="_blank">Knowable Magazine</a>: publicaciones científicas explicadas en lenguaje cotidiano.</li>
-      <li><strong>Consejo práctico:</strong> busca siempre la sección de “Discusión” o “Conclusiones” de un artículo para obtener una visión general sin entrar en los detalles técnicos más complejos.</li>
-    </ul>
-  </section>
-
-  <!-- Botones a otras páginas relacionadas -->
-  <section class="bg-purple-50 py-6 px-4 max-w-4xl mx-auto rounded-xl shadow-sm mb-12 text-center">
-    <h2 class="text-xl font-bold text-purple-800 mb-4">🔗 Sigue explorando la ciencia</h2>
-    <p class="text-purple-700 mb-4">Si quieres seguir descubriendo el mundo científico, aquí tienes más recursos interesantes:</p>
-    <div class="flex flex-wrap justify-center gap-4">
-      <a href="/formacion/universidad" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Carreras universitarias</a>
-      <a href="/recursos/plataformas" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Plataformas educativas</a>
-      <a href="/recursos/simuladores" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Simuladores científicos</a>
-      <a href="/ciencia-ciudadana" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Proyectos colaborativos</a>
-      <a href="/formacion/certificados" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Certificados de Profesionalidad</a>
+  <!-- Grid de bloques informativos -->
+  <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">📰 Revistas científicas en quioscos y bibliotecas</h2>
+      <ul class="list-disc pl-6 text-purple-700">
+        <li><a href="https://www.investigacionyciencia.es/" class="underline font-semibold" target="_blank">Investigación y Ciencia</a></li>
+        <li><a href="https://www.muyinteresante.es/" class="underline font-semibold" target="_blank">Muy Interesante</a></li>
+        <li><a href="https://www.nationalgeographicla.com/espana" class="underline font-semibold" target="_blank">National Geographic (España)</a></li>
+        <li><a href="https://quo.eldiario.es/" class="underline font-semibold" target="_blank">Quo</a></li>
+        <li><a href="https://principia.io/" class="underline font-semibold" target="_blank">Principia</a></li>
+      </ul>
+    </div>
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">🏛️ Publicaciones de centros de investigación</h2>
+      <ul class="list-disc pl-6 text-purple-700">
+        <li><a href="https://revistadigital.csic.es/" class="underline font-semibold" target="_blank">CSIC</a></li>
+        <li><a href="https://www.cnio.es/divulgacion/publicaciones/" class="underline font-semibold" target="_blank">CNIO</a></li>
+        <li><a href="https://www.cnic.es/es/publicaciones" class="underline font-semibold" target="_blank">CNIC</a></li>
+        <li><a href="https://www.iac.es/es/divulgacion/publicaciones" class="underline font-semibold" target="_blank">IAC</a></li>
+        <li><a href="https://www.isciii.es/QueHacemos/DivulgacionCientifica/Paginas/default.aspx" class="underline font-semibold" target="_blank">ISCIII</a></li>
+        <li><a href="https://www.inta.es/WEB/INTA/es/noticias-y-publicaciones/" class="underline font-semibold" target="_blank">INTA</a></li>
+        <li><a href="https://www.idibaps.org/es/divulgacion/publicaciones" class="underline font-semibold" target="_blank">IDIBAPS</a></li>
+      </ul>
+    </div>
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">🔍 Cómo encontrar artículos científicos fiables</h2>
+      <ul class="list-disc pl-6 text-purple-700">
+        <li><a href="https://scholar.google.es" class="underline font-semibold" target="_blank">Google Scholar</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov" class="underline font-semibold" target="_blank">PubMed</a></li>
+        <li><a href="https://doaj.org" class="underline font-semibold" target="_blank">DOAJ</a></li>
+        <li><strong>Repositorios universitarios</strong>: tesis y artículos en acceso abierto.</li>
+        <li><strong>Evita fuentes no verificadas</strong>: busca publicaciones peer-reviewed.</li>
+      </ul>
+    </div>
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">📖 Herramientas para interpretar publicaciones científicas</h2>
+      <ul class="list-disc pl-6 text-purple-700">
+        <li><a href="https://sciencemedcomms.wordpress.com/tag/glossary/" class="underline" target="_blank">Glosario de términos científicos</a></li>
+        <li><a href="https://elifesciences.org/inside-elife/56bc3d45/understanding-science-through-plain-language-summaries" class="underline" target="_blank">eLife – Resúmenes accesibles</a></li>
+        <li><a href="https://www.sciencebuddies.org/science-fair-projects/science-fair/interpret-data-graphs" class="underline" target="_blank">Cómo interpretar gráficos</a></li>
+        <li><a href="https://www.knowablemagazine.org/" class="underline" target="_blank">Knowable Magazine</a></li>
+        <li><strong>Consejo:</strong> busca la sección de “Discusión” o “Conclusiones”.</li>
+      </ul>
     </div>
   </section>
 
@@ -155,3 +136,4 @@ import Seo from '../../components/Seo.astro';
     </div>
   </section>
 </Layout>
+
