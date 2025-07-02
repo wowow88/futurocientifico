@@ -40,7 +40,7 @@ import Seo from '../../components/Seo.astro';
       const container = document.querySelector('#articles');
       const button = document.querySelector('#loadMore');
       let currentPage = 1;
-      const perPage = 10;
+      const perPage = 5;
       let allArticles = [];
 
       fetch('/articles_enriched.json')
