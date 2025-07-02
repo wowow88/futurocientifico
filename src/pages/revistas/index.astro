@@ -20,7 +20,61 @@ import Seo from '../../components/Seo.astro';
   <!-- Últimos artículos (ya automatizado) -->
   <section class="px-4 max-w-6xl mx-auto mb-12">
     <h2 class="text-2xl font-bold text-purple-900 mb-4">🧪 Artículos recientes</h2>
-    <div id="feed-articles"></div>
+     <p>
+      Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente desde fuentes fiables como 
+      <strong>arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong> y medios científicos en español como 
+      <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong> e <strong>ISCIII</strong>.
+    </p>
+
+  <div id="articles" class="space-y-6"></div>
+
+  <div class="flex justify-center mt-8">
+    <button id="loadMore" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 hidden">
+      Ver más noticias
+    </button>
+  </div>
+
+  <script type="module">
+    const container = document.querySelector('#articles');
+    const button = document.querySelector('#loadMore');
+    let currentPage = 1;
+    const perPage = 10;
+    let allArticles = [];
+
+    fetch('/articles_enriched.json')
+      .then(res => res.json())
+      .then(data => {
+        allArticles = data
+          .filter(article => article.category === 'noticia')
+          .sort((a, b) => new Date(b.date) - new Date(a.date));
+        renderPage();
+        if (allArticles.length > perPage) button.classList.remove('hidden');
+      });
+
+    function renderPage() {
+      const start = (currentPage - 1) * perPage;
+      const end = start + perPage;
+      const currentArticles = allArticles.slice(start, end);
+      currentArticles.forEach(article => {
+        const tags = article.tags?.map(tag =>
+          `<span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">#${tag}</span>`).join('') || '';
+        const html = `
+          <article class="bg-white rounded-xl p-4 shadow-md mb-4">
+            <h3 class="text-xl font-semibold text-blue-900">${article.title_es}</h3>
+            <p class="text-gray-600 text-sm mb-2">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
+            ${tags ? `<div class="mb-2">${tags}</div>` : ''}
+            <a href="${article.pdf || article.url}" target="_blank" class="text-blue-700 hover:underline block mt-2">Leer PDF</a>
+          </article>`;
+        container.insertAdjacentHTML('beforeend', html);
+      });
+      currentPage++;
+      if ((currentPage - 1) * perPage >= allArticles.length) {
+        button.classList.add('hidden');
+      }
+    }
+
+    button.addEventListener('click', renderPage);
+  </script>
   </section>
 
   <!-- Bloque: Revistas populares -->
