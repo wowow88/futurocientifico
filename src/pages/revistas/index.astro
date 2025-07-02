@@ -18,20 +18,22 @@ import Seo from '../../components/Seo.astro';
   </section>
 
   <!-- Últimos artículos (ya automatizado) -->
-  <section class="px-4 max-w-6xl mx-auto mb-12">
-    <h2 class="text-2xl font-bold text-purple-900 mb-4">🧪 Artículos recientes</h2>
-    <p>
-      Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente desde fuentes fiables como 
-      <strong>arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong> y medios científicos en español como 
-      <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong> e <strong>ISCIII</strong>.
-    </p>
-
-    <div id="articles" class="space-y-6"></div>
-
-    <div class="flex justify-center mt-8">
-      <button id="loadMore" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 hidden">
-        Ver más noticias
-      </button>
+  <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
+    <div class="grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold text-purple-900 mb-4">🧪 Artículos recientes</h2>
+        <p class="text-purple-700">
+          Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente desde fuentes fiables como 
+          <strong>arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong> y medios científicos en español como 
+          <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong> e <strong>ISCIII</strong>.
+        </p>
+        <div class="flex justify-start mt-6">
+          <button id="loadMore" class="bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800 hidden">
+            Ver más noticias
+          </button>
+        </div>
+      </div>
+      <div id="articles" class="space-y-6"></div>
     </div>
 
     <script type="module">
@@ -76,7 +78,6 @@ import Seo from '../../components/Seo.astro';
       button.addEventListener('click', renderPage);
     </script>
   </section>
-
   <!-- Grid de bloques informativos -->
   <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
