@@ -1,8 +1,8 @@
-name: Daily Article Update
+name: 📰 Daily Update
 
 on:
   schedule:
-    - cron: '0 7 * * *' # Todos los días a las 07:00 UTC
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,33 +15,34 @@ jobs:
         with:
           path: futurocientifico
           token: ${{ secrets.GH_TOKEN }}
-          persist-credentials: false
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Checkout CurioScience
+        uses: actions/checkout@v3
         with:
-          node-version: 18
+          repository: wowow88/curioscience
+          path: curioscience
+          token: ${{ secrets.GH_TOKEN }}
 
-      - name: Install dependencies
-        run: |
-          cd futurocientifico
-          npm ci
+      - name: Copiar archivo desde CurioScience
+        run: cp curioscience/workspace/astro/public/articles.json futurocientifico/public/articles.json
 
-      - name: Run enrichment script
-        run: |
-          cd futurocientifico
-          node scripts/enrich-articles.js
+      - name: Enriquecer artículos
+        working-directory: futurocientifico
+        run: node scripts/enrich-articles.js
 
-      - name: Configure Git remote with token
-        run: |
-          cd futurocientifico
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/wowow88/futurocientifico.git
+      - name: Instalar dependencias
+        working-directory: futurocientifico
+        run: npm install --legacy-peer-deps
 
-      - name: Commit and push changes
+      - name: Build del sitio
+        working-directory: futurocientifico
+        run: npm run build
+
+      - name: Commit y push
+        working-directory: futurocientifico
         run: |
-          cd futurocientifico
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/articles.json
-          git commit -m "🤖 Update enriched articles [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:main
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add public/articles_enriched.json
+          git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No hay cambios para hacer commit"
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
