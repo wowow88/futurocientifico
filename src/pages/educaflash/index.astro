@@ -1,0 +1,51 @@
+---
+import RSS from '@astrojs/rss';
+
+const feeds = [
+  // Andalucía – oficiales y funcionales
+  { name: 'And. Consejería Educación', url: 'https://www.juntadeandalucia.es/educacion/portals/suscripciones-rss/consejeria-noticias.xml' },
+  { name: 'And. Novedades Alumnado', url: 'https://www.juntadeandalucia.es/educacion/portals/suscripciones-rss/alumnado-novedades.xml' },
+  { name: 'And. Novedades Profesorado', url: 'https://www.juntadeandalucia.es/educacion/portals/suscripciones-rss/profesorado-novedades.xml' },
+
+  // Galicia
+  { name: 'Xunta Galicia Educación', url: 'https://www.edu.xunta.gal/portal/rss' },
+
+  // Aragón (pública)
+  { name: 'Biblioteca Aragón', url: 'https://bibliotecavirtual.aragon.es/portal/rss.do' }
+];
+
+const allItems = await Promise.all(
+  feeds.map(async feed => {
+    const res = await fetch(feed.url);
+    const xml = await res.text();
+    const items = await RSS.parseItems(xml);
+    return items.map(i => ({ ...i, source: feed.name }));
+  })
+).then(arrays => arrays.flat());
+
+allItems.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+const items = allItems.slice(0, 30);
+---
+
+<html lang="es">
+  <head>
+    <title>EduFlash · FuturoCientífico</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Noticias educativas oficiales desde Andalucía, Galicia, Aragón." />
+  </head>
+  <body class="prose mx-auto p-4">
+    <h1 class="text-3xl font-bold mb-4">EduFlash</h1>
+    <ul role="list" class="space-y-4">
+      {items.map(item => (
+        <li key={item.link}>
+          <a href={item.link} target="_blank" rel="noopener noreferrer" class="text-lg font-semibold text-blue-600 hover:underline">
+            {item.title}
+          </a>
+          <time datetime={new Date(item.pubDate).toISOString()} class="block text-sm text-gray-500">
+            {new Date(item.pubDate).toLocaleDateString('es-ES')} – {item.source}
+          </time>
+        </li>
+      ))}
+    </ul>
+  </body>
+</html>
