@@ -25,7 +25,7 @@ jobs:
 
       - name: Ejecutar script de EduFlash
         run: |
-          python data_pipeline.py
+          python scripts/eduflash_pipeline.py
 
       - name: Confirmar cambios
         run: |
