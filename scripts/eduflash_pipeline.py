@@ -18,15 +18,19 @@ def fetch_rss(name, url):
         try:
             date = datetime(*entry.published_parsed[:6]).date().isoformat()
         except AttributeError:
-            date = datetime.now().date().isoformat()
+            try:
+                date = datetime(*entry.updated_parsed[:6]).date().isoformat()
+            except AttributeError:
+                date = datetime.now().date().isoformat()
         article = {
             "title": entry.title,
             "url": entry.link,
             "date": date,
             "source": name,
-            "content_es": BeautifulSoup(entry.get("summary", ""), "html.parser").get_text()
+            "content_es": BeautifulSoup(entry.get("summary", entry.get("description", "")), "html.parser").get_text()
         }
         articles.append(article)
+    print(f"{name}: {len(articles)} artículos encontrados")
     return articles
 
 def main():
@@ -35,6 +39,8 @@ def main():
         all_articles += fetch_rss(name, url)
 
     unique_articles = {a["url"]: a for a in all_articles}
+
+    print("Total artículos únicos:", len(unique_articles))
 
     with open("public/eduflash.json", "w", encoding="utf-8") as f:
         json.dump(list(unique_articles.values()), f, ensure_ascii=False, indent=2)
