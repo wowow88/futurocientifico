@@ -1,23 +1,44 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Seo from '../../components/Seo.astro';
 ---
 
+<Seo 
+  title="EduFlash | Noticias Educativas Oficiales"
+  description="Noticias educativas actualizadas automáticamente desde fuentes oficiales y sindicales de España, como Andalucía, Galicia, Madrid y más."
+  site="https://futurocientifico.vercel.app/eduflash"
+/>
+
 <Layout>
-  <section class="mb-6 p-4 bg-yellow-50 rounded-xl text-sm text-yellow-800">
+  <section class="mb-6 p-4 bg-yellow-50 rounded-xl text-sm text-yellow-800 text-center">
+    <h1 class="text-3xl font-bold text-yellow-900 mb-2">⚡ EduFlash</h1>
     <p>
-      Esta sección presenta noticias educativas oficiales actualizadas automáticamente desde fuentes como la
-      <strong>Junta de Andalucía</strong>, <strong>Xunta de Galicia</strong> y la <strong>Biblioteca Virtual de Aragón</strong>.
+      Noticias educativas seleccionadas de forma automática desde fuentes oficiales como la <strong>Junta de Andalucía</strong>, 
+      <strong>Xunta de Galicia</strong>, <strong>Comunidad de Madrid</strong> y portales sindicales educativos.
+    </p>
+    <p class="mt-2 text-yellow-700 text-base">
+      Una recopilación semanal con las novedades educativas más relevantes, para estudiantes, docentes y familias. Información clara y actualizada directamente desde los portales autonómicos y sindicatos.
     </p>
   </section>
 
-  <h2 class="text-2xl font-bold mb-4">Últimas noticias educativas</h2>
-  <div id="eduflash" class="space-y-6"></div>
+  <section class="bg-white py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+      <div class="space-y-4">
+        <h2 class="text-2xl font-bold text-yellow-900">📰 Últimas noticias educativas</h2>
+        <p class="text-yellow-800">
+          Esta sección se actualiza automáticamente todos los viernes. Incluye titulares y resúmenes breves de las noticias más recientes.
+        </p>
+      </div>
+    </div>
 
-  <div class="flex justify-center mt-8">
-    <button id="loadMore" class="bg-yellow-700 text-white px-4 py-2 rounded hover:bg-yellow-800 hidden">
-      Ver más noticias
-    </button>
-  </div>
+    <div id="eduflash" class="space-y-6 mt-6"></div>
+
+    <div class="flex justify-center mt-8">
+      <button id="loadMore" class="bg-yellow-700 text-white px-4 py-2 rounded hover:bg-yellow-800 hidden">
+        Ver más noticias
+      </button>
+    </div>
+  </section>
 
   <script type="module">
     const container = document.querySelector('#eduflash');
@@ -57,6 +78,14 @@ import Layout from '../../layouts/Layout.astro';
 
     button.addEventListener('click', renderPage);
   </script>
+
+  <section class="bg-yellow-100 mt-12 py-6 rounded-xl shadow-sm">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-xl font-bold text-yellow-800 mb-4">¿Te interesa la actualidad educativa?</h2>
+      <p class="text-yellow-700 mb-4">Explora EduFlash cada semana y mantente informado sobre novedades, convocatorias y cambios normativos en educación.</p>
+      <a href="/formacion" class="bg-yellow-700 hover:bg-yellow-800 text-white py-2 px-4 rounded-xl shadow">Explorar formación educativa</a>
+    </div>
+  </section>
 <!-- Adsense -->
   <ins class="adsbygoogle"
      style="display:block"
@@ -79,3 +108,4 @@ import Layout from '../../layouts/Layout.astro';
     }
   </script>
 </Layout>
+
