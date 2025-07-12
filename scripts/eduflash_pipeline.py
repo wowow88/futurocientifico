@@ -4,9 +4,10 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 sources = [
-{ name: 'And. Educación – Actualidad', url: 'https://www.juntadeandalucia.es/educacion/portales/web/educacion/actualidad' },
-{ name: 'Xunta Galicia Educación', url: 'https://www.edu.xunta.gal/portal/es/actualidade' }, 
+  ("And. Educación – Actualidad", "https://www.juntadeandalucia.es/educacion/portales/web/educacion/actualidad"),
+  ("Xunta Galicia Educación", "https://www.edu.xunta.gal/portal/es/actualidade")
 ]
+
 
 def fetch_rss(name, url):
     articles = []
