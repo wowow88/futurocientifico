@@ -1,55 +1,34 @@
-name: 📰 Daily Update
+name: 📚 Publicación automática diaria
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: '0 7 * * *'  # Todos los días a las 07:00 UTC
   workflow_dispatch:
 
 jobs:
-  update-articles:
+  update-content:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout FuturoCientífico
+      - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          path: futurocientifico
-          token: ${{ secrets.GH_TOKEN }}
-
-      - name: Checkout CurioScience
-        uses: actions/checkout@v3
-        with:
-          repository: wowow88/curioscience
-          path: curioscience
-          token: ${{ secrets.GH_TOKEN }}
-
-      - name: Copiar archivo desde CurioScience
-        run: cp curioscience/workspace/astro/public/articles.json futurocientifico/public/articles.json
-
-      - name: Enriquecer artículos
-        working-directory: futurocientifico
-        run: node scripts/enrich-articles.js
 
       - name: Instalar dependencias
-        working-directory: futurocientifico
-        run: npm install --legacy-peer-deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser beautifulsoup4
 
-      - name: Build del sitio
-        working-directory: futurocientifico
-        run: npm run build
+      - name: Ejecutar scripts de artículos científicos
+        run: |
+          python scripts/fetch_articles.py
+          python scripts/merge_articles.py
 
-- name: Publicar artículos científicos
-  run: |
-    python scripts/fetch_articles.py
-    git add public/articles.json
-    git commit -m "🧠 Artículos nuevos"
-    git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
+      - name: Ejecutar EduFlash y actualizar eduflash.json
+        run: |
+          python scripts/eduflash_pipeline.py
 
-- name: Publicar EduFlash
-  run: |
-    python scripts/eduflash_pipeline.py
-    git add public/eduflash.json
-    git commit -m "📚 EduFlash actualizado"
-    git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
-
-
+      - name: Commit y push de todos los cambios
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add public/articles.json public/eduflash.json
+          git commit -m "�
