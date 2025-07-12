@@ -46,3 +46,14 @@ jobs:
           git add public/articles_enriched.json
           git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No hay cambios para hacer commit"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          - name: Ejecutar EduFlash y generar JSON
+      - name: Commit y push
+        working-directory: futurocientifico
+        run: |
+        python scripts/eduflash_pipeline.py
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add public/eduflash.json
+        git commit -m "🔄 EduFlash actualizado automáticamente" || echo "Sin cambios"
+        git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
