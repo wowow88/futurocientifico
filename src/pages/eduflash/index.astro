@@ -57,4 +57,25 @@ import Layout from '../../layouts/Layout.astro';
 
     button.addEventListener('click', renderPage);
   </script>
+<!-- Adsense -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2163450732409344"
+     data-ad-slot="6134548917"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
+    }
+  </script>
 </Layout>
