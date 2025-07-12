@@ -1,37 +1,29 @@
-name: Actualizar EduFlash
+name: EduFlash - Actualización Semanal
 
 on:
   schedule:
-    - cron: '0 4 * * 5'  # Todos los viernes a las 04:00 UTC
+    - cron: "0 8 * * 5" # Ejecutar cada viernes a las 08:00 UTC
   workflow_dispatch:
 
 jobs:
   update-eduflash:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Clonar repositorio
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Instalar dependencias
+      - name: Instalar dependencias Python
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser beautifulsoup4
 
       - name: Ejecutar script de EduFlash
-        run: |
-          python scripts/eduflash_pipeline.py
+        run: python scripts/eduflash_pipeline.py
 
-      - name: Confirmar cambios
+      - name: Commit y push del archivo eduflash.json
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add public/eduflash.json
-          git commit -m "🔄 Actualización semanal de EduFlash (viernes)"
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
-        continue-on-error: true
+          git commit -m "🔄 Actualización semanal de EduFlash (viernes)" || echo "Sin cambios"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
