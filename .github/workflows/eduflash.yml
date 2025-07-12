@@ -15,6 +15,7 @@ jobs:
         with:
           path: futurocientifico
           token: ${{ secrets.GH_TOKEN }}
+          with: fetch-depth:0
 
       - name: Checkout CurioScience
         uses: actions/checkout@v3
@@ -22,6 +23,7 @@ jobs:
           repository: wowow88/curioscience
           path: curioscience
           token: ${{ secrets.GH_TOKEN }}
+          with: fetch-depth:0
 
       - name: Copiar archivo desde CurioScience
         run: cp curioscience/workspace/astro/public/articles.json futurocientifico/public/articles.json
