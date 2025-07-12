@@ -33,5 +33,5 @@ jobs:
           git config user.email github-actions@github.com
           git add public/eduflash.json
           git commit -m "🔄 Actualización semanal de EduFlash (viernes)"
-          git push
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
         continue-on-error: true
