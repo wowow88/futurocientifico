@@ -58,6 +58,7 @@ jobs:
         with:
           path: futurocientifico
           token: ${{ secrets.GH_TOKEN }}
+          with: fetch-depth:0
 
       - name: Instalar dependencias Python
         working-directory: futurocientifico
