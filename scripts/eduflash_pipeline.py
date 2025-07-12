@@ -4,10 +4,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 sources = [
-  ("And. Educación – Actualidad", "https://www.juntadeandalucia.es/educacion/portales/web/educacion/actualidad"),
-  ("Xunta Galicia Educación", "https://www.edu.xunta.gal/portal/es/actualidade")
+    ("Andalucía – BOJA Educación", "https://juntadeandalucia.es/boja/distribucion/s51.xml"),
+    ("Aragón – ANPE Aragón", "https://www.anpearagon.es/rss"),
+    ("Castilla y León – Educacyl", "https://www.educa.jcyl.es/educacyl/cm/rss?locale=es_ES&textOnly=false&rssContent=5"),
+    ("Galicia – Cultura Galicia", "https://www.cultura.gal/es/rss"),
+    ("Madrid – RRHH Educación", "https://www.comunidad.madrid/sites/default/files/doc/educacion/rh20/edu_dgrrhh.xml"),
 ]
-
 
 def fetch_rss(name, url):
     articles = []
