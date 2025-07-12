@@ -21,17 +21,16 @@ import Seo from '../../components/Seo.astro';
     </p>
   </section>
 
-  <section class="bg-white py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-      <div class="space-y-4">
+ <section class="bg-white py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="col-span-1 md:col-span-2">
         <h2 class="text-2xl font-bold text-yellow-900">📰 Últimas noticias educativas</h2>
-        <p class="text-yellow-800">
+        <p class="text-yellow-800 mb-6">
           Esta sección se actualiza automáticamente todos los viernes. Incluye titulares y resúmenes breves de las noticias más recientes.
         </p>
       </div>
+      <div id="eduflash" class="space-y-6 md:space-y-0 md:space-x-4 md:columns-2 w-full"></div>
     </div>
-
-    <div id="eduflash" class="space-y-6 mt-6"></div>
 
     <div class="flex justify-center mt-8">
       <button id="loadMore" class="bg-yellow-700 text-white px-4 py-2 rounded hover:bg-yellow-800 hidden">
