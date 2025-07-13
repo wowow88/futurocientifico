@@ -1,26 +1,39 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../../layouts/Layout.astro';
+import Seo from '../../../components/Seo.astro';
 ---
+title: "Aviso Legal | FuturoCientífico"
+description: "Lee aquí el aviso legal del sitio FuturoCientífico: responsable, derechos, condiciones y contacto."
+site: "https://futurocientifico.vercel.app/legal/aviso-legal"
 
-<article class="prose lg:prose-lg mx-auto px-4 py-10">
-  <h1>📄 Aviso Legal</h1>
-  <p>Este sitio web, <strong>FuturoCientífico</strong>, tiene como objetivo divulgar contenidos educativos y científicos de forma accesible. Al acceder y navegar por este sitio, aceptas las condiciones expuestas en este aviso.</p>
 
-  <h2>Responsable del sitio</h2>
-  <ul>
-    <li><strong>Nombre del responsable:</strong> FuturoCientífico</li>
-    <li><strong>Correo electrónico:</strong> futurocientifico2025@gmail.com</li>
-  </ul>
+<Seo 
+  title="Aviso Legal | FuturoCientífico"
+  description="Lee aquí el aviso legal del sitio FuturoCientífico: responsable, derechos, condiciones y contacto."
+  site="https://futurocientifico.vercel.app/legal/aviso-legal"
+/>
 
-  <h2>Propiedad intelectual</h2>
-  <p>Todos los contenidos publicados (textos, imágenes, documentos, etc.) pertenecen a sus respectivos autores o están disponibles bajo licencias libres. Si consideras que algún contenido infringe derechos, por favor contacta.</p>
+<Layout>
+  <article class="prose lg:prose-lg mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">📄 Aviso Legal</h1>
+    <p>Este sitio web, <strong>FuturoCientífico</strong>, tiene como objetivo divulgar contenidos educativos y científicos de forma accesible. Al acceder y navegar por este sitio, aceptas las condiciones expuestas en este aviso.</p>
 
-  <h2>Enlaces externos</h2>
-  <p>Este sitio contiene enlaces a plataformas como YouTube, Amazon o páginas educativas. FuturoCientífico no se responsabiliza del contenido alojado en sitios externos.</p>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Responsable del sitio</h2>
+    <ul>
+      <li><strong>Nombre del responsable:</strong> FuturoCientífico</li>
+      <li><strong>Correo electrónico:</strong> futurocientifico2025@gmail.com</li>
+    </ul>
 
-  <h2>Publicidad y financiación</h2>
-  <p>FuturoCientífico participa en programas de afiliación como Amazon y plataformas de apoyo como BuyMeACoffee. También puede mostrar anuncios de Google AdSense.</p>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Propiedad intelectual</h2>
+    <p>Todos los contenidos publicados (textos, imágenes, documentos, etc.) pertenecen a sus respectivos autores o están disponibles bajo licencias libres. Si consideras que algún contenido infringe derechos, por favor contacta.</p>
 
-  <h2>Contacto</h2>
-  <p>Para cualquier consulta legal, técnica o de colaboración, puedes escribirnos a <a href="mailto:futurocientifico2025@gmail.com">futurocientifico2025@gmail.com</a>.</p>
-</article>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Enlaces externos</h2>
+    <p>Este sitio contiene enlaces a plataformas como YouTube, Amazon o páginas educativas. FuturoCientífico no se responsabiliza del contenido alojado en sitios externos.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Publicidad y financiación</h2>
+    <p>FuturoCientífico participa en programas de afiliación como Amazon y plataformas de apoyo como BuyMeACoffee. También puede mostrar anuncios de Google AdSense.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Contacto</h2>
+    <p>Para cualquier consulta legal, técnica o de colaboración, puedes escribirnos a <a href="mailto:futurocientifico2025@gmail.com" class="text-blue-600 underline">futurocientifico2025@gmail.com</a>.</p>
+  </article>
+</Layout>
