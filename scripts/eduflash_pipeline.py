@@ -22,9 +22,11 @@ def fetch_rss(name, url):
                 date = datetime(*entry.updated_parsed[:6]).date().isoformat()
             except AttributeError:
                 date = datetime.now().date().isoformat()
+        original_title = entry.title
+        short_title = " ".join(original_title.split()[:5]) + "…" if len(original_title.split()) > 5 else original_title
         article = {
-            "title": entry.title,
-            "title_es": entry.title,
+            "title": original_title,
+            "title_es": short_title,
             "url": entry.link,
             "date": date,
             "source": name,
