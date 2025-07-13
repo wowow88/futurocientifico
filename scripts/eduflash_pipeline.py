@@ -24,6 +24,7 @@ def fetch_rss(name, url):
                 date = datetime.now().date().isoformat()
         article = {
             "title": entry.title,
+            "title_es": entry.title,
             "url": entry.link,
             "date": date,
             "source": name,
