@@ -84,4 +84,37 @@ import Seo from '../../components/Seo.astro';
       <a href="/formacion" class="bg-yellow-700 hover:bg-yellow-800 text-white py-2 px-4 rounded-xl shadow">Explorar formación educativa</a>
     </div>
   </section>
+  <!-- CTA final -->
+  <section class="bg-purple-100 mt-12 py-6 rounded-xl shadow-sm">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-xl font-bold text-purple-800 mb-4">¿Quieres aprender a leer ciencia?</h2>
+      <p class="text-purple-700 mb-4">Explora nuestras secciones de formación, recursos y ciencia ciudadana para descubrir más herramientas y contenidos.</p>
+      <div class="flex justify-center gap-4 flex-wrap">
+        <a href="/formacion" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Formación</a>
+        <a href="/recursos" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Recursos</a>
+        <a href="/ciencia-ciudadana" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Ciencia Ciudadana</a>
+      </div>
+    </div>
+  </section>
+<!-- Adsense -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2163450732409344"
+     data-ad-slot="6134548917"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
+    }
+  </script>
 </Layout>
