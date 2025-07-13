@@ -47,8 +47,11 @@ jobs:
           git config --global user.email "actions@github.com"
           git add public/articles_enriched.json
           git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No hay cambios"
+          git stash --include-untracked
           git pull --rebase origin main
+          git stash pop || echo "Nada que aplicar"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+
 
   update-eduflash:
     runs-on: ubuntu-latest
@@ -78,5 +81,7 @@ jobs:
           git config --global user.email "actions@github.com"
           git add public/eduflash.json
           git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "Sin cambios"
+          git stash --include-untracked
           git pull --rebase origin main
+          git stash pop || echo "Nada que aplicar"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
