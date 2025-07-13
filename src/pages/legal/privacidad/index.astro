@@ -1,23 +1,29 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../../layouts/Layout.astro';
+import Seo from '../../../components/Seo.astro';
 ---
 
-<article class="prose lg:prose-lg mx-auto px-4 py-10">
-  <h1>🔐 Política de Privacidad</h1>
-  <p>En FuturoCientífico respetamos tu privacidad y no recogemos datos personales sensibles. No utilizamos formularios de contacto, newsletter ni bases de datos de usuarios.</p>
+<Seo 
+  title="Política de Privacidad | FuturoCientífico"
+  description="Conoce cómo FuturoCientífico protege tu privacidad y qué datos pueden ser tratados al usar nuestro sitio web."
+  site="https://futurocientifico.vercel.app/legal/privacidad"
+/>
 
-  <h2>Información recopilada</h2>
-  <p>El único dato que puedes proporcionarnos voluntariamente es tu dirección de correo si decides escribirnos directamente.</p>
+<Layout>
+  <article class="prose lg:prose-lg mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">🔐 Política de Privacidad</h1>
+    <p>En <strong>FuturoCientífico</strong> nos tomamos muy en serio la privacidad. Este documento explica qué información recopilamos y cómo la usamos.</p>
 
-  <h2>Finalidad del tratamiento</h2>
-  <p>Solo utilizaremos tu correo para responder tus consultas. No compartimos ni cedemos esa información a terceros.</p>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Datos personales</h2>
+    <p>No recopilamos datos personales directamente. Puedes navegar libremente sin necesidad de registro. Solo se almacenan datos si nos contactas directamente vía correo electrónico.</p>
 
-  <h2>Servicios de terceros</h2>
-  <ul>
-    <li>YouTube (embebido en algunas páginas)</li>
-    <li>Amazon Afiliados (enlaces en productos)</li>
-    <li>BuyMeACoffee</li>
-    <li>Google AdSense</li>
-  </ul>
-  <p>Estos servicios pueden usar cookies o sistemas de seguimiento ajenos a nuestro control.</p>
-</article>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Servicios de terceros</h2>
+    <p>Usamos servicios como Google AdSense, Amazon Afiliados y BuyMeACoffee que pueden utilizar cookies o rastreadores para mostrar contenido o anuncios personalizados. Consulta sus políticas para más información.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Enlaces externos</h2>
+    <p>Podemos enlazar a YouTube u otros sitios educativos. No tenemos control sobre sus políticas de privacidad.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Derechos</h2>
+    <p>Puedes ejercer tu derecho a la eliminación de tus datos escribiéndonos directamente a <a href="mailto:futurocientifico2025@gmail.com" class="text-blue-600 underline">futurocientifico2025@gmail.com</a>.</p>
+  </article>
+</Layout>
