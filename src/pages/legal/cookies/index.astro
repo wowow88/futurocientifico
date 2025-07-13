@@ -1,18 +1,34 @@
 ---
-import Layout from '../../layouts/Layout.astro'
+import Layout from '../../../layouts/Layout.astro';
+import Seo from '../../../components/Seo.astro';
 ---
 
-<article class="prose lg:prose-lg mx-auto px-4 py-10">
-  <h1>🍪 Política de Cookies</h1>
-  <p>FuturoCientífico no utiliza cookies propias. Sin embargo, algunos servicios de terceros insertados en la web podrían emplearlas.</p>
+<Seo 
+  title="Política de Cookies | FuturoCientífico"
+  description="Infórmate sobre el uso de cookies en FuturoCientífico: qué son, cómo las usamos y cómo gestionarlas."
+  site="https://futurocientifico.vercel.app/legal/cookies"
+/>
 
-  <h2>Cookies de terceros</h2>
-  <ul>
-    <li><strong>YouTube:</strong> Puede registrar vistas cuando incrustamos vídeos.</li>
-    <li><strong>Google AdSense:</strong> Usa cookies para personalizar la publicidad mostrada.</li>
-    <li><strong>Amazon Afiliados:</strong> Puede rastrear si haces clic en sus enlaces de productos.</li>
-  </ul>
+<Layout>
+  <article class="prose lg:prose-lg mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">🍪 Política de Cookies</h1>
+    <p>En <strong>FuturoCientífico</strong> utilizamos cookies para mejorar la experiencia del usuario, mostrar contenido relevante y analizar el uso del sitio.</p>
 
-  <h2>Cómo controlar las cookies</h2>
-  <p>Puedes gestionar o eliminar las cookies desde tu navegador. Consulta la documentación del navegador que utilices para configurar estas preferencias.</p>
-</article>
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">¿Qué son las cookies?</h2>
+    <p>Son pequeños archivos que se almacenan en tu navegador cuando visitas una página web. Ayudan a reconocer al usuario y ofrecen una navegación más personalizada.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Cookies utilizadas</h2>
+    <ul>
+      <li><strong>Cookies de análisis:</strong> Para conocer el uso del sitio.</li>
+      <li><strong>Cookies de afiliación:</strong> Para registrar compras desde enlaces de Amazon.</li>
+      <li><strong>Cookies publicitarias:</strong> De plataformas como Google AdSense.</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Gestión de cookies</h2>
+    <p>Puedes bloquear o eliminar cookies desde la configuración de tu navegador. También puedes usar navegadores en modo incógnito para evitar su uso.</p>
+
+    <h2 class="text-2xl font-bold text-gray-700 mt-8">Más información</h2>
+    <p>Si tienes dudas, contáctanos a <a href="mailto:futurocientifico2025@gmail.com" class="text-blue-600 underline">futurocientifico2025@gmail.com</a>.</p>
+  </article>
+</Layout>
+
