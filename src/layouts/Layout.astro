@@ -100,10 +100,60 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
   </div>
 </header>
 
-    <main class="max-w-7xl mx-auto px-4 py-8 min-h-[60vh]">
-      <slot />
-    </main>
+    <main class="max-w-7xl mx-auto px-4 py-8 min-h-[60vh] flex flex-col md:flex-row gap-4">
+  <!-- Anuncio lateral izquierdo (escritorio) -->
+  <aside class="w-full md:w-1/6">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-2163450732409344"
+      data-ad-slot="6134548917"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      if (typeof window !== "undefined") {
+        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+        } else {
+          const interval = setInterval(() => {
+            if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+              window.adsbygoogle.push({});
+              clearInterval(interval);
+            }
+          }, 300);
+        }
+      }
+    </script>
+  </aside>
 
+  <!-- Contenido principal -->
+  <div class="flex-1 order-first md:order-none">
+    <slot />
+  </div>
+
+  <!-- Anuncio lateral derecho (escritorio) -->
+  <aside class="w-full md:w-1/6">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-2163450732409344"
+      data-ad-slot="6134548917"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      if (typeof window !== "undefined") {
+        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+          window.adsbygoogle.push({});
+        } else {
+          const interval = setInterval(() => {
+            if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+              window.adsbygoogle.push({});
+              clearInterval(interval);
+            }
+          }, 300);
+        }
+      }
+    </script>
+  </aside>
+</main>
     <footer class="bg-gray-100 text-base text-gray-700 px-4 py-12 mt-12">
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
@@ -199,3 +249,4 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
     </div>
   </body>
 </html>
+
