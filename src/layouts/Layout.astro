@@ -46,8 +46,11 @@ import BuyMeACoffee from "../components/BuyMeACoffee.astro";
     gtag('js', new Date());
     gtag('config', 'G-CB9XQMQ9WY');
   </script>
-  <link rel="manifest" href="/manifest.webmanifest" />
-  <meta name="theme-color" content="#1e3a8a" />
+<!-- Manifest para PWA -->
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta name="theme-color" content="#1e3a8a" />
+<link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
   <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
