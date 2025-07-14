@@ -1,9 +1,12 @@
 {
   "name": "FuturoCientífico",
   "short_name": "FutCientífico",
-  "description": "Divulgación científica automatizada para todas las edades.",
+  "description": "Divulgación científica para todas las edades. Contenido automatizado, educativo y gratuito.",
+  "lang": "es",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
   "icons": [
