@@ -20,9 +20,9 @@
   ],
   "shortcuts": [
     {
-      "name": "EduFlash",
-      "short_name": "EduFlash",
-      "url": "/eduflash",
+      "name": "Formación",
+      "short_name": "Formación",
+      "url": "/formacion",
       "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
     },
     {
@@ -30,19 +30,27 @@
       "short_name": "Recursos",
       "url": "/recursos",
       "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Revistas",
+      "short_name": "Revistas",
+      "url": "/revistas",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "EduFlash",
+      "short_name": "EduFlash",
+      "url": "/eduflash",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Preguntona",
+      "short_name": "Preguntona",
+      "url": "/preguntona",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
     }
-  ],
-  "protocol_handlers": [],
-  "file_handlers": [],
-  "share_target": {
-    "action": "/compartido",
-    "method": "POST",
-    "enctype": "multipart/form-data",
-    "params": {
-      "title": "titulo",
-      "text": "descripcion",
-      "url": "url"
-    }
+  ]
+}
   },
   "scope": "/",
   "description": "Divulgación científica para todas las edades",
