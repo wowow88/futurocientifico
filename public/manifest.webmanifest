@@ -1,6 +1,6 @@
 {
   "name": "FuturoCientífico",
-  "short_name": "FCiencia",
+  "short_name": "FC",
   "description": "Divulgación científica automatizada para todas las edades.",
   "start_url": "/",
   "display": "standalone",
