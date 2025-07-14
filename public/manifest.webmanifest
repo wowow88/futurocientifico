@@ -1,9 +1,12 @@
 {
   "name": "FuturoCientífico",
   "short_name": "FutCientífico",
+  "description": "Divulgación científica para todas las edades. Contenido automatizado, educativo y gratuito.",
+  "lang": "es",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "display_override": ["standalone", "browser"],
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
   "icons": [
@@ -17,42 +20,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "shortcuts": [
-    {
-      "name": "Formación",
-      "short_name": "Formación",
-      "url": "/formacion",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
-    },
-    {
-      "name": "Recursos",
-      "short_name": "Recursos",
-      "url": "/recursos",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
-    },
-    {
-      "name": "Revistas",
-      "short_name": "Revistas",
-      "url": "/revistas",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
-    },
-    {
-      "name": "EduFlash",
-      "short_name": "EduFlash",
-      "url": "/eduflash",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
-    },
-    {
-      "name": "Preguntona",
-      "short_name": "Preguntona",
-      "url": "/preguntona",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
-    }
   ]
-}
-  },
-  "scope": "/",
-  "description": "Divulgación científica para todas las edades",
-  "categories": ["education", "science"]
 }
