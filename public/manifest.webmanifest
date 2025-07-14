@@ -1,12 +1,9 @@
 {
   "name": "FuturoCientífico",
-  "short_name": "FutCientífico",
-  "description": "Divulgación científica para todas las edades. Contenido automatizado, educativo y gratuito.",
-  "lang": "es",
+  "short_name": "FuturoCiencia",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "orientation": "portrait",
+  "display_override": ["standalone", "browser"],
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
   "icons": [
@@ -20,5 +17,34 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "EduFlash",
+      "short_name": "EduFlash",
+      "url": "/eduflash",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Recursos",
+      "short_name": "Recursos",
+      "url": "/recursos",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "protocol_handlers": [],
+  "file_handlers": [],
+  "share_target": {
+    "action": "/compartido",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "titulo",
+      "text": "descripcion",
+      "url": "url"
+    }
+  },
+  "scope": "/",
+  "description": "Divulgación científica para todas las edades",
+  "categories": ["education", "science"]
 }
