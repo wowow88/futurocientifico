@@ -12,6 +12,20 @@
   "handle_links":"preferred",
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
+  "screenshots": [
+  {
+    "src": "/icons/screenshot1.png",
+    "sizes": "1280x720",
+    "type": "image/png",
+    "platform": "wide"
+  },
+  {
+    "src": "/icons/screenshot2.png",
+    "sizes": "720x1280",
+    "type": "image/png",
+    "platform": "narrow"
+  }
+  ],
   "icons": [
     {
       "src": "/icons/icon-192.png",
