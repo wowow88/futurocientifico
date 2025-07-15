@@ -5,9 +5,6 @@
   "scope": "/",
   "display": "standalone",
   "handle_links":"preferred",
-  "scope_extensions": [
-  { "origin": "https://futurocientifico.vercel.app" }
-  ]
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
   "icons": [
