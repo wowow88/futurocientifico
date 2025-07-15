@@ -68,4 +68,31 @@
       }]
     }
   ]
+"share_target": {
+    "action": "/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "url": "/contacto?to=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/abrir-archivo",
+      "accept": {
+        "application/pdf": [".pdf"]
+      }
+    }
+  ],
+  "scope": "/",
+  "handle_links": "preferred"
 }
+
