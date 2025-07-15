@@ -3,6 +3,28 @@
   "short_name": "FutCientífico",
   "start_url": "/?source=pwa",
   "scope": "/",
+  "categories": ["education", "science", "kids"]
+  "description": "Divulgación científica para todas las edades"
+  "id": "/"
+  "launch_handler": {
+  "client_mode": "navigate-existing"}
+  "orientation": "portrait"
+  "dir": "ltr"
+  "iarc_rating_id": ""
+  "lang": "es"
+  "screenshots": [
+  {
+    "src": "/icons/screenshot1.png",
+    "type": "image/png",
+    "sizes": "540x720"
+  },
+  {
+    "src": "/icons/screenshot2.png",
+    "type": "image/png",
+    "sizes": "540x720"
+  }
+  ]
+  "prefer_related_applications": false
   "display": "standalone",
   "handle_links":"preferred",
   "background_color": "#ffffff",
