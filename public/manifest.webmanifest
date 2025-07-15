@@ -5,12 +5,9 @@
   "scope": "/",
   "categories": ["education", "science", "kids"]
   "description": "Divulgación científica para todas las edades"
-  "id": "/"
   "orientation": "portrait"
   "dir": "ltr"
-  "iarc_rating_id": ""
   "lang": "es"
-  "prefer_related_applications": false
   "display": "standalone",
   "handle_links":"preferred",
   "background_color": "#ffffff",
