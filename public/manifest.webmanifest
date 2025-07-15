@@ -4,13 +4,9 @@
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
-  "handle_links": [
-  {
-    "matches": ["https://futurocientifico.vercel.app/*"],
-    "action": {
-      "navigate": "always"
-    }
-  }
+  "handle_links":"preferred",
+  "scope_extensions": [
+  { "origin": "https://futurocientifico.vercel.app" }
   ]
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
