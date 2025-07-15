@@ -2,6 +2,7 @@
   "name": "FuturoCientífico",
   "short_name": "FutCientífico",
   "start_url": "/?source=pwa",
+  "id": "/?homescreen=1",
   "scope": "/",
   "categories": ["education", "science", "kids"],
   "description": "Divulgación científica para todas las edades",
