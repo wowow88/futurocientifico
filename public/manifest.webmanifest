@@ -13,6 +13,7 @@
   "handle_links":"preferred",
   "background_color": "#ffffff",
   "theme_color": "#1e3a8a",
+  "prefer_related_applications": false,
   "screenshots": [
   {
     "src": "/icons/screenshot1.png",
