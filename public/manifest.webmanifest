@@ -81,7 +81,7 @@
   "protocol_handlers": [
     {
       "protocol": "mailto",
-      "url": "/contacto?to=%s"
+      "url": "/contacto"
     }
   ],
   "file_handlers": [
