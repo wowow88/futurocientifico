@@ -1,6 +1,6 @@
 {
   "name": "FuturoCientífico",
-  "short_name": "Futuro",
+  "short_name": "FutCientífico",
   "start_url": "/",
   "display": "standalone",
   "display_override": ["standalone", "browser"],
