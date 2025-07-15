@@ -3,11 +3,11 @@
   "short_name": "FutCientífico",
   "start_url": "/?source=pwa",
   "scope": "/",
-  "categories": ["education", "science", "kids"]
-  "description": "Divulgación científica para todas las edades"
-  "orientation": "portrait"
-  "dir": "ltr"
-  "lang": "es"
+  "categories": ["education", "science", "kids"],
+  "description": "Divulgación científica para todas las edades",
+  "orientation": "portrait",
+  "dir": "ltr",
+  "lang": "es",
   "display": "standalone",
   "handle_links":"preferred",
   "background_color": "#ffffff",
