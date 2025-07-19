@@ -1,12 +1,12 @@
-name: 🔄 Actualizaciones diarias y semanales
+name: 🔦 EduFlash
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # Todos los días a las 06:00 UTC    
+    - cron: "0 6 * * *"  # Cada día a las 06:00 UTC
   workflow_dispatch:
 
 jobs:
-  update-articles:
+  update-eduflash:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,73 +15,27 @@ jobs:
         with:
           path: futurocientifico
           token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
-
-      - name: Checkout CurioScience
-        uses: actions/checkout@v3
-        with:
-          repository: wowow88/curioscience
-          path: curioscience
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
-
-      - name: Copiar archivo desde CurioScience
-        run: cp curioscience/workspace/astro/public/articles.json futurocientifico/public/articles.json
-
-      - name: Enriquecer artículos
-        working-directory: futurocientifico
-        run: node scripts/enrich-articles.js
 
       - name: Instalar dependencias
         working-directory: futurocientifico
         run: npm install --legacy-peer-deps
 
-      - name: Build del sitio
+      - name: Ejecutar Eduflash solo viernes o manual
         working-directory: futurocientifico
-        run: npm run build
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(date +%u)" -eq 5 ]]; then
+            echo "Ejecutando EduFlash..."
+            python3 scripts/eduflash_pipeline.py
+          else
+            echo "No es viernes. EduFlash no se ejecutará."
+          fi
 
-      - name: Commit y push de artículos
+      - name: Commit y push de eduflash.json
         working-directory: futurocientifico
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add public/articles_enriched.json
-          git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No hay cambios"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || echo "Nada que aplicar"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
-
-
-  update-eduflash:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 5')
-    steps:
-      - name: Checkout FuturoCientífico
-        uses: actions/checkout@v3
-        with:
-          path: futurocientifico
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
-
-      - name: Instalar dependencias Python
-        working-directory: futurocientifico
-        run: |
-          python -m pip install --upgrade pip
-          pip install feedparser beautifulsoup4
-
-      - name: Ejecutar EduFlash
-        working-directory: futurocientifico
-        run: python scripts/eduflash_pipeline.py
-
-      - name: Commit y push de EduFlash
-        working-directory: futurocientifico
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add public/eduflash.json
-          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "Sin cambios"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || echo "Nada que aplicar"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git add public/eduflash.json || echo "No hay cambios en eduflash.json"
+          git commit -m "🔄 EduFlash actualizado automáticamente [skip ci]" || echo "Nada para commitear"
+          git pull --rebase
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || echo "No se pudo hacer push"
