@@ -55,7 +55,9 @@ jobs:
 
   update-eduflash:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 5')
+    schedule:
+      - cron: "0 6 * * 5' # Viernes 06:00 UTC
+    workflow_dispatch:
     steps:
       - name: Checkout FuturoCientífico
         uses: actions/checkout@v3
