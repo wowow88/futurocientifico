@@ -12,7 +12,7 @@ sources = [
     ("Madrid – RRHH Educación", "https://www.comunidad.madrid/sites/default/files/doc/educacion/rh20/edu_dgrrhh.xml"),
 ]
 
-def truncar(texto, limite=10):
+def truncar(texto, limite=25):
     return texto[:limite] + "…" if len(texto) > limite else texto
 
 def fetch_rss(name, url):
