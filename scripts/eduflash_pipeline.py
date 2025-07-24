@@ -24,8 +24,9 @@ def fetch_rss(name, url):
             except AttributeError:
                 date = datetime.now().date().isoformat()
 
-        original_title = entry.title.strip()
+        original_title = entry.title
         short_title = " ".join(original_title.split()[:5]) + "…" if len(original_title.split()) > 5 else original_title
+        content_raw = BeautifulSoup(entry.get("summary", entry.get("description", "")), "html.parser").get_text()
 
         article = {
             "title": original_title,
@@ -33,9 +34,10 @@ def fetch_rss(name, url):
             "url": entry.link,
             "date": date,
             "source": name,
-            "content_es": BeautifulSoup(entry.get("summary", entry.get("description", "")), "html.parser").get_text()
+            "content_es": content_raw[:10] + "…" if len(content_raw) > 10 else content_raw
         }
         articles.append(article)
+    print(f"{name}: {len(articles)} artículos encontrados")
     return articles
 
 def main():
