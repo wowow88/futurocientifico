@@ -1,5 +1,6 @@
 import json
 import feedparser
+import os
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -22,8 +23,10 @@ def fetch_rss(name, url):
                 date = datetime(*entry.updated_parsed[:6]).date().isoformat()
             except AttributeError:
                 date = datetime.now().date().isoformat()
-        original_title = entry.title
+
+        original_title = entry.title.strip()
         short_title = " ".join(original_title.split()[:5]) + "…" if len(original_title.split()) > 5 else original_title
+
         article = {
             "title": original_title,
             "title_es": short_title,
@@ -33,20 +36,40 @@ def fetch_rss(name, url):
             "content_es": BeautifulSoup(entry.get("summary", entry.get("description", "")), "html.parser").get_text()
         }
         articles.append(article)
-    print(f"{name}: {len(articles)} artículos encontrados")
     return articles
 
 def main():
-    all_articles = []
+    archivo_json = "public/eduflash.json"
+    datos_existentes = []
+
+    # Leer si existe el archivo
+    if os.path.exists(archivo_json):
+        with open(archivo_json, "r", encoding="utf-8") as f:
+            datos_existentes = json.load(f)
+
+    urls_existentes = {item["url"] for item in datos_existentes}
+
+    # Descargar y filtrar nuevas noticias
+    nuevas_noticias = []
     for name, url in sources:
-        all_articles += fetch_rss(name, url)
+        nuevos = fetch_rss(name, url)
+        for noticia in nuevos:
+            if noticia["url"] not in urls_existentes:
+                nuevas_noticias.append(noticia)
 
-    unique_articles = {a["url"]: a for a in all_articles}
+    todos_los_datos = datos_existentes + nuevas_noticias
 
-    print("Total artículos únicos:", len(unique_articles))
+    # Ordenar por fecha descendente
+    try:
+        todos_los_datos.sort(key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"), reverse=True)
+    except Exception as e:
+        print("⚠️ Error al ordenar fechas:", e)
 
-    with open("public/eduflash.json", "w", encoding="utf-8") as f:
-        json.dump(list(unique_articles.values()), f, ensure_ascii=False, indent=2)
+    # Guardar archivo final
+    with open(archivo_json, "w", encoding="utf-8") as f:
+        json.dump(todos_los_datos, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ eduflash.json actualizado con {len(nuevas_noticias)} nuevas noticias. Total: {len(todos_los_datos)}.")
 
 if __name__ == "__main__":
     main()
