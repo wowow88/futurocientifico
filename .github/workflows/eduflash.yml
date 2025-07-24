@@ -54,17 +54,12 @@ jobs:
 
 
   name: Eduflash Diario
-
-on:
-  schedule:
-    - cron: '0 6 * * *'  # Todos los días a las 06:00 UTC
   workflow_dispatch:
+  jobs:
+    actualizar-eduflash:
+      runs-on: ubuntu-latest
 
-jobs:
-  actualizar-eduflash:
-    runs-on: ubuntu-latest
-
-    steps:
+      steps:
       - name: Checkout repositorio
         uses: actions/checkout@v3
 
