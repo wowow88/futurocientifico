@@ -53,35 +53,38 @@ jobs:
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
 
-  update-eduflash:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 5')
-    steps:
-      - name: Checkout FuturoCientífico
-        uses: actions/checkout@v3
-        with:
-          path: futurocientifico
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
+  name: Eduflash Diario
 
-      - name: Instalar dependencias Python
-        working-directory: futurocientifico
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Todos los días a las 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  actualizar-eduflash:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
           pip install feedparser beautifulsoup4
 
-      - name: Ejecutar EduFlash
-        working-directory: futurocientifico
-        run: python scripts/eduflash_pipeline.py
+      - name: Ejecutar script eduflash
+        run: python eduflash_pipeline.py
 
-      - name: Commit y push de EduFlash
-        working-directory: futurocientifico
+      - name: Confirmar cambios en eduflash.json
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.email "github-actions@github.com"
           git add public/eduflash.json
-          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "Sin cambios"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || echo "Nada que aplicar"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git commit -m "🔄 Eduflash diario actualizado automáticamente" || echo "No hay cambios"
+          git push
