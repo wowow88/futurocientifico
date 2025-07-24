@@ -12,6 +12,9 @@ sources = [
     ("Madrid – RRHH Educación", "https://www.comunidad.madrid/sites/default/files/doc/educacion/rh20/edu_dgrrhh.xml"),
 ]
 
+def truncar(texto, limite=10):
+    return texto[:limite] + "…" if len(texto) > limite else texto
+
 def fetch_rss(name, url):
     articles = []
     feed = feedparser.parse(url)
@@ -23,18 +26,16 @@ def fetch_rss(name, url):
                 date = datetime(*entry.updated_parsed[:6]).date().isoformat()
             except AttributeError:
                 date = datetime.now().date().isoformat()
-
         original_title = entry.title
         short_title = " ".join(original_title.split()[:5]) + "…" if len(original_title.split()) > 5 else original_title
         content_raw = BeautifulSoup(entry.get("summary", entry.get("description", "")), "html.parser").get_text()
-
         article = {
             "title": original_title,
             "title_es": short_title,
             "url": entry.link,
             "date": date,
             "source": name,
-            "content_es": content_raw[:10] + "…" if len(content_raw) > 10 else content_raw
+            "content_es": truncar(content_raw)
         }
         articles.append(article)
     print(f"{name}: {len(articles)} artículos encontrados")
@@ -49,13 +50,15 @@ def main():
         with open(archivo_json, "r", encoding="utf-8") as f:
             datos_existentes = json.load(f)
 
+    # Truncar content_es en existentes
+    for item in datos_existentes:
+        item["content_es"] = truncar(item.get("content_es", ""))
+
     urls_existentes = {item["url"] for item in datos_existentes}
 
-    # Descargar y filtrar nuevas noticias
     nuevas_noticias = []
     for name, url in sources:
-        nuevos = fetch_rss(name, url)
-        for noticia in nuevos:
+        for noticia in fetch_rss(name, url):
             if noticia["url"] not in urls_existentes:
                 nuevas_noticias.append(noticia)
 
@@ -75,3 +78,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
