@@ -1,0 +1,18 @@
+---
+const base = 'https://futurocientifico.vercel.app';
+const routes = [
+  '/', '/formacion', '/recursos', '/revistas', '/eduflash', '/preguntona',
+  '/apoya', '/legal/aviso-legal', '/legal/privacidad', '/legal/cookies'
+];
+---
+
+<!DOCTYPE html>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {routes.map((route) => (
+    <url>
+      <loc>{base + route}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  ))}
+</urlset>
