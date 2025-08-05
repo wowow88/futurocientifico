@@ -11,46 +11,42 @@ import ProductCard from '../../components/ProductCard.astro';
 />
 
 <Layout>
-  <section class="bg-gradient-to-r from-indigo-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <h1 class="text-3xl font-bold text-indigo-800">Quiénes Somos</h1>
-    <p class="mt-2 text-indigo-700 text-sm max-w-2xl mx-auto">
-      Detrás de FuturoCientífico hay una misión clara: acercar la ciencia a todos los públicos mediante recursos accesibles, diarios y gratuitos.
-    </p>
-  </section>
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-blue-900 mb-8 text-center">👥 Quiénes somos</h1>
+    <div class="grid md:grid-cols-2 gap-8 items-start">
 
-  <section class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-    <img src="/avatar-cientifico.png" alt="José Miguel Moreno Verdejo" class="rounded-xl w-full h-auto object-cover" />
+      <!-- Lado izquierdo: imagen + cuadro gris -->
+      <div class="space-y-6">
+        <img src="/avatar-cientifico.webp" alt="Avatar FuturoCientífico" class="w-40 h-40 mx-auto rounded-full shadow-md" />
 
-    <div class="text-sm text-gray-700 space-y-4">
-      <p><strong>José Miguel Moreno Verdejo</strong> es el fundador de FuturoCientífico. Licenciado en Bioquímica por la Universidad Autónoma de Madrid y Máster en Formación del Profesorado, ha dedicado más de 10 años a la educación científica en institutos de la Comunidad de Madrid.</p>
+        <div class="bg-gray-100 p-4 rounded-lg shadow-sm">
+          <h3 class="text-base font-semibold text-gray-800 mb-2">🔍 Transparencia y comunidad</h3>
+          <ul class="list-disc pl-5 text-sm space-y-1 text-gray-700">
+            <li>
+              Código abierto. Consulta nuestra 
+              <a href="https://github.com/wowow88/futurocientifico/blob/main/LICENSE" target="_blank" class="text-blue-800 underline hover:text-blue-600">licencia MIT</a>.
+            </li>
+            <li>
+              ¿Quieres contribuir? Lee nuestra 
+              <a href="https://github.com/wowow88/futurocientifico/blob/main/CONTRIBUTING.md" target="_blank" class="text-blue-800 underline hover:text-blue-600">guía de colaboración</a>.
+            </li>
+            <li>
+              Si detectas un problema técnico, revisa nuestra 
+              <a href="https://github.com/wowow88/futurocientifico/blob/main/SECURITY.md" target="_blank" class="text-blue-800 underline hover:text-blue-600">política de seguridad</a>.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-      <p>Ha impartido Física, Química, Biología, Matemáticas e Informática en todos los niveles de ESO y Bachillerato, y ha trabajado como investigador en el CSIC (Instituto de Química-Física Rocasolano), colaborando en proyectos científicos y publicaciones internacionales.</p>
-
-      <p>José Miguel combina su pasión por la divulgación con una sólida formación en tecnologías educativas, programación y <strong>Inteligencia Artificial</strong>. Ha completado múltiples certificaciones en IA aplicada a la enseñanza y promueve activamente su uso para personalizar y expandir el aprendizaje científico.</p>
-
-      <p>También es <strong>entrenador nacional de tenis de mesa</strong>, con más de 15 años de experiencia como deportista y formador. Esta faceta refuerza su visión educativa integral: ciencia, esfuerzo y comunidad.</p>
-
-      <p><strong>FuturoCientífico</strong> es el reflejo de su compromiso: una web viva que se actualiza a diario con noticias, rutas formativas, recursos educativos y herramientas tecnológicas al alcance de todos.</p>
-
-      <p>Contacto: <a href="mailto:futurocientifico2025@gmail.com" class="text-indigo-600 underline">futurocientifico2025@gmail.com</a></p>
-      <section class="mt-12 px-4 py-6 bg-gray-100 rounded-xl shadow-sm max-w-3xl mx-auto text-sm text-gray-700">
-  <h2 class="text-lg font-bold text-gray-900 mb-2">🔍 Transparencia y comunidad</h2>
-  <ul class="list-disc pl-6 space-y-1">
-    <li>
-      Código abierto. Consulta nuestra 
-      <a href="https://github.com/wowow88/futurocientifico/blob/main/LICENSE" target="_blank" class="text-blue-800 underline hover:text-blue-600">licencia MIT</a>.
-    </li>
-    <li>
-      ¿Quieres contribuir? Lee nuestra 
-      <a href="https://github.com/wowow88/futurocientifico/blob/main/CONTRIBUTING.md" target="_blank" class="text-blue-800 underline hover:text-blue-600">guía de colaboración</a>.
-    </li>
-    <li>
-      Si detectas un problema técnico, revisa nuestra 
-      <a href="https://github.com/wowow88/futurocientifico/blob/main/SECURITY.md" target="_blank" class="text-blue-800 underline hover:text-blue-600">política de seguridad</a>.
-    </li>
-  </ul>
-</section>
+      <!-- Lado derecho: texto -->
+      <div class="text-sm text-gray-700 space-y-4">
+        <p><strong>FuturoCientífico</strong> es un proyecto independiente de divulgación científica accesible. Nuestro objetivo es acercar el pensamiento crítico y el conocimiento científico a estudiantes, familias y docentes mediante herramientas visuales, automatizadas y adaptadas a todos los niveles educativos.</p>
+        <p>Utilizamos inteligencia artificial, tecnologías web abiertas y automatización con GitHub Actions para ofrecer contenidos diarios de calidad.</p>
+        <p>Este sitio ha sido desarrollado con cariño, código abierto y compromiso con la accesibilidad. Gracias por formar parte de esta aventura científica.</p>
+        <p>Contacto: <a href="mailto:futurocientifico2025@gmail.com" class="text-indigo-600 underline">futurocientifico2025@gmail.com</a></p>
+      </div>
     </div>
+  </section>
 
 
 <!-- BannerIndex -->
