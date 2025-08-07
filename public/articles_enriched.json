@@ -1,20 +1,5 @@
 [
   {
-    "title": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
-    "title_es": "PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen",
-    "url": "https://arxiv.org/abs/2508.03696",
-    "date": "2025-08-07",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "pla",
-      "prompt",
-      "learning"
-    ],
-    "category": "noticia"
-  },
-  {
     "title": "These genes can have the opposite effects depending on which parent they came from",
     "title_es": "Estos genes pueden tener efectos opuestos según el progenitor del que procedan",
     "url": "https://www.nature.com/articles/d41586-025-02499-6",
@@ -26,6 +11,21 @@
       "these",
       "genes",
       "can"
+    ],
+    "category": "noticia"
+  },
+    {
+    "title": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
+    "title_es": "PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen",
+    "url": "https://arxiv.org/abs/2508.03696",
+    "date": "2025-08-07",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "pla",
+      "prompt",
+      "learning"
     ],
     "category": "noticia"
   },
