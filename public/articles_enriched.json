@@ -1,5 +1,35 @@
 [
   {
+    "title": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
+    "title_es": "PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen",
+    "url": "https://arxiv.org/abs/2508.03696",
+    "date": "2025-08-07",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "pla",
+      "prompt",
+      "learning"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "These genes can have the opposite effects depending on which parent they came from",
+    "title_es": "Estos genes pueden tener efectos opuestos según el progenitor del que procedan",
+    "url": "https://www.nature.com/articles/d41586-025-02499-6",
+    "date": "2025-08-07",
+    "source": "Nature",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Estos genes pueden tener efectos opuestos según el progenitor del que procedan\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "these",
+      "genes",
+      "can"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "Has NSF defied a court order by suspending 300 UCLA grants?",
     "title_es": "¿Ha desafiado NSF una orden judicial suspendiendo 300 subvenciones de UCLA?",
     "url": "https://www.science.org/content/article/has-nsf-defied-court-order-suspending-300-ucla-grants",
@@ -11,21 +41,6 @@
       "has",
       "nsf",
       "defied"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "NIH details options for limiting its payments for open-access publishing fees",
-    "title_es": "NIH Detal las opciones de limitación de sus pagos por tarifas de publicación de acceso abierto",
-    "url": "https://www.science.org/content/article/nih-details-options-limiting-its-payments-open-access-publishing-fees",
-    "date": "2025-08-06",
-    "source": "Science.org",
-    "content_es": "Otras propuestas de publicación desembolsarían reembolsos o pagarían a los revisores de pares, pasos sin precedentes para un gran financiador del gobierno",
-    "description": "Este artículo trata sobre \"NIH Detal las opciones de limitación de sus pagos por tarifas de publicación de acceso abierto\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "nih",
-      "details",
-      "options"
     ],
     "category": "noticia"
   },
@@ -45,62 +60,17 @@
     "category": "noticia"
   },
   {
-    "title": "Orbit recovery for spherical functions",
-    "title_es": "Recuperación de órbitas para funciones esféricas",
-    "url": "https://arxiv.org/abs/2508.02674",
+    "title": "Author Correction: Persistent transcriptional programmes are associated with remote memory",
+    "title_es": "Corrección del autor: Los programas transcripcionales persistentes están asociados a la memoria remota",
+    "url": "https://www.nature.com/articles/s41586-025-09463-4",
     "date": "2025-08-06",
-    "source": "arXiv",
+    "source": "Nature",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Recuperación de órbitas para funciones esféricas\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Corrección del autor: Los programas transcripcionales persistentes están asociados a la memoria remota\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "orbit",
-      "recovery",
-      "for"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Full Vectorial Maxwell Equations with Continuous Angular Indices",
-    "title_es": "Ecuaciones de Maxwell vectoriales completas con índices angulares continuos",
-    "url": "https://arxiv.org/abs/2508.02675",
-    "date": "2025-08-06",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Ecuaciones de Maxwell vectoriales completas con índices angulares continuos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "full",
-      "vectorial",
-      "maxwell"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "When surface evolution meets Fokker-Planck equation: a novel tangential velocity model for uniform parametrization",
-    "title_es": "Cuando la evolución de la superficie se encuentra con la ecuación de Fokker-Planck: un nuevo modelo de velocidad tangencial para parametrización uniforme",
-    "url": "https://arxiv.org/abs/2508.02676",
-    "date": "2025-08-06",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Cuando la evolución de la superficie se encuentra con la ecuación de Fokker-Planck: un nuevo modelo de velocidad tangencial para parametrización uniforme\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "when",
-      "surface",
-      "evolution"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Automated $h$-adaptivity for finite element approximations of the Falkner-Skan equation",
-    "title_es": "Adaptividad $h$ automatizada para aproximaciones por elementos finitos de la ecuación de Falkner-Skan",
-    "url": "https://arxiv.org/abs/2508.02677",
-    "date": "2025-08-06",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Adaptividad $h$ automatizada para aproximaciones por elementos finitos de la ecuación de Falkner-Skan\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "automated",
-      "hadaptivity",
-      "for"
+      "author",
+      "correction",
+      "persistent"
     ],
     "category": "noticia"
   },
@@ -108,7 +78,7 @@
     "title": "Experiencing the Arctic",
     "title_es": "Experimentar el Ártico",
     "url": "https://www.science.org/doi/abs/10.1126/science.ady6388?af=R",
-    "date": "2025-08-06",
+    "date": "2025-08-05",
     "source": "Science.org",
     "content_es": "",
     "description": "Este artículo trata sobre \"Experimentar el Ártico\". Se exploran los aspectos clave relacionados con la ciencia actual.",
@@ -116,141 +86,6 @@
       "experiencing",
       "the",
       "arctic"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Dead in Banaras: An Ethnography of Funeral Travelling",
-    "title_es": "Muertos en Banaras: Una etnografía de los viajes funerarios",
-    "url": "https://www.science.org/doi/abs/10.1126/science.aea4215?af=R",
-    "date": "2025-08-06",
-    "source": "Science.org",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Muertos en Banaras: Una etnografía de los viajes funerarios\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "dead",
-      "in",
-      "banaras"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "An American energy experiment",
-    "title_es": "An American energy experiment",
-    "url": "https://www.science.org/doi/abs/10.1126/science.adz6514?af=R",
-    "date": "2025-08-06",
-    "source": "Science.org",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"An American energy experiment\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "an",
-      "american",
-      "energy"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Acoustic wave modulation of gap plasmon cavities",
-    "title_es": "Modulación de ondas acústicas en cavidades gap plasmon",
-    "url": "https://www.science.org/doi/abs/10.1126/science.adv1728?af=R",
-    "date": "2025-08-06",
-    "source": "Science.org",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Modulación de ondas acústicas en cavidades gap plasmon\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "acoustic",
-      "wave",
-      "modulation"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Altered translation elongation contributes to key hallmarks of aging in the killifish brain",
-    "title_es": "Las alteraciones en la elongación de la traducción contribuyen a las principales características del envejecimiento en el cerebro de los killis",
-    "url": "https://www.science.org/doi/abs/10.1126/science.adk3079?af=R",
-    "date": "2025-08-06",
-    "source": "Science.org",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Las alteraciones en la elongación de la traducción contribuyen a las principales características del envejecimiento en el cerebro de los killis\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "altered",
-      "translation",
-      "elongation"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Breed giant prawns to withstand disease and climate change",
-    "title_es": "Criar langostinos gigantes para que resistan las enfermedades y el cambio climático",
-    "url": "https://www.nature.com/articles/d41586-025-02477-y",
-    "date": "2025-08-06",
-    "source": "Nature",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Criar langostinos gigantes para que resistan las enfermedades y el cambio climático\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "breed",
-      "giant",
-      "prawns"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Conserve marine migratory species to protect ecological links between land and sea",
-    "title_es": "Conservar las especies migratorias marinas para proteger los vínculos ecológicos entre la tierra y el mar",
-    "url": "https://www.nature.com/articles/d41586-025-02475-0",
-    "date": "2025-08-06",
-    "source": "Nature",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Conservar las especies migratorias marinas para proteger los vínculos ecológicos entre la tierra y el mar\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "conserve",
-      "marine",
-      "migratory"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Tackle fake citations generated by AI",
-    "title_es": "Hacer frente a las citas falsas generadas por la IA",
-    "url": "https://www.nature.com/articles/d41586-025-02482-1",
-    "date": "2025-08-06",
-    "source": "Nature",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Hacer frente a las citas falsas generadas por la IA\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "tackle",
-      "fake",
-      "citations"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Mystery of billions of sea-star deaths solved at last",
-    "title_es": "Por fin se resuelve el misterio de la muerte de miles de millones de estrellas de mar",
-    "url": "https://www.nature.com/articles/d41586-025-02442-9",
-    "date": "2025-08-06",
-    "source": "Nature",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Por fin se resuelve el misterio de la muerte de miles de millones de estrellas de mar\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "mystery",
-      "of",
-      "billions"
-    ],
-    "category": "noticia"
-  },
-  {
-    "title": "Plan-B careers can be a force for good in science",
-    "title_es": "Las carreras del Plan B pueden ser una fuerza positiva para la ciencia",
-    "url": "https://www.nature.com/articles/d41586-025-02478-x",
-    "date": "2025-08-06",
-    "source": "Nature",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Las carreras del Plan B pueden ser una fuerza positiva para la ciencia\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "planb",
-      "careers",
-      "can"
     ],
     "category": "noticia"
   },
@@ -285,13 +120,148 @@
     "category": "noticia"
   },
   {
+    "title": "ReVise: A Human-AI Interface for Incremental Algorithmic Recourse",
+    "title_es": "ReVise: Una interfaz humano-inteligencia artificial para el recurso algorítmico incremental",
+    "url": "https://arxiv.org/abs/2508.00002",
+    "date": "2025-08-05",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"ReVise: Una interfaz humano-inteligencia artificial para el recurso algorítmico incremental\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "revise",
+      "a",
+      "humanai"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Building Bigraphs of the real world",
+    "title_es": "Construir Bigraphs del mundo real",
+    "url": "https://arxiv.org/abs/2508.00003",
+    "date": "2025-08-05",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Construir Bigraphs del mundo real\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "building",
+      "bigraphs",
+      "of"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Reasoning under uncertainty in the game of Cops and Robbers",
+    "title_es": "Razonamiento bajo incertidumbre en el juego de Policías y Ladrones",
+    "url": "https://arxiv.org/abs/2508.00004",
+    "date": "2025-08-05",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Razonamiento bajo incertidumbre en el juego de Policías y Ladrones\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "reasoning",
+      "under",
+      "uncertainty"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Modelling Program Spaces in Program Synthesis with Constraints",
+    "title_es": "Modelización de espacios de programa en la síntesis de programas con restricciones",
+    "url": "https://arxiv.org/abs/2508.00005",
+    "date": "2025-08-05",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Modelización de espacios de programa en la síntesis de programas con restricciones\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "modelling",
+      "program",
+      "spaces"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Agent Network Protocol Technical White Paper",
+    "title_es": "Protocolo de red de agentes Libro Blanco técnico",
+    "url": "https://arxiv.org/abs/2508.00007",
+    "date": "2025-08-05",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Protocolo de red de agentes Libro Blanco técnico\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "agent",
+      "network",
+      "protocol"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Dead in Banaras: An Ethnography of Funeral Travelling",
+    "title_es": "Muertos en Banaras: Una etnografía de los viajes funerarios",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aea4215?af=R",
+    "date": "2025-08-05",
+    "source": "Science.org",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Muertos en Banaras: Una etnografía de los viajes funerarios\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "dead",
+      "in",
+      "banaras"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "An American energy experiment",
+    "title_es": "An American energy experiment",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adz6514?af=R",
+    "date": "2025-08-05",
+    "source": "Science.org",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"An American energy experiment\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "an",
+      "american",
+      "energy"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Altered translation elongation contributes to key hallmarks of aging in the killifish brain",
+    "title_es": "Las alteraciones en la elongación de la traducción contribuyen a las principales características del envejecimiento en el cerebro de los killis",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adk3079?af=R",
+    "date": "2025-08-05",
+    "source": "Science.org",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Las alteraciones en la elongación de la traducción contribuyen a las principales características del envejecimiento en el cerebro de los killis\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "altered",
+      "translation",
+      "elongation"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "High-field superconducting halo in UTe2",
+    "title_es": "Halo superconductor de alto campo en UTe2",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adn7673?af=R",
+    "date": "2025-08-05",
+    "source": "Science.org",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Halo superconductor de alto campo en UTe2\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "highfield",
+      "superconducting",
+      "halo"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "Claudia Monaco: “We think we know a lot about cardiovascular disease, but in reality, we don't”",
-    "title_es": "Claudia Monaco: “We think we know a lot about cardiovascular disease, but in reality, we don't”",
+    "title_es": "Claudia Monaco: \"Creemos que sabemos mucho sobre las enfermedades cardiovasculares, pero en realidad no es así\"",
     "url": "https://www.cnic.es/es/node/235736",
     "date": "2025-08-01",
     "source": "CNIC",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Claudia Monaco: “We think we know a lot about cardiovascular disease, but in reality, we don't”\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Claudia Monaco: \"Creemos que sabemos mucho sobre las enfermedades cardiovasculares, pero en realidad no es así\"\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
       "claudia",
       "monaco",
