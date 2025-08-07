@@ -32,7 +32,7 @@ pnpm install
 pnpm dev        # Desarrollo local
 pnpm build      # Compilación para producción
 
-🔄 Automatizaciones destacadas
+## 🔄 Automatizaciones destacadas
 
 scripts/eduflash_pipeline.py → Noticias educativas automáticas (eduflash.json)
 
@@ -40,16 +40,16 @@ scripts/enrich-articles.js → Mejora de artículos científicos (articles_enric
 
 Workflows: daily-update.yml, eduflash.yml
 
-📄 Licencias
+## 📄 Licencias
 
 Código fuente: MIT License
 
 Contenido educativo y artículos: Creative Commons BY-NC-SA 4.0
 
-🌐 Sitio en producción
+## 🌐 Sitio en producción
 
 https://futurocientifico.vercel.app
 
-☕ Apóyanos
+## ☕ Apóyanos
 
 https://buymeacoffee.com/futurociene
