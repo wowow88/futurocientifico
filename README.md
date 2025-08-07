@@ -31,7 +31,7 @@
 pnpm install
 pnpm dev        # Desarrollo local
 pnpm build      # Compilación para producción
-´´´
+```
 
 ## 🔄 Automatizaciones destacadas
 
