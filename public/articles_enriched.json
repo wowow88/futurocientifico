@@ -1,31 +1,46 @@
 [
   {
-    "title": "These genes can have the opposite effects depending on which parent they came from",
-    "title_es": "Estos genes pueden tener efectos opuestos según el progenitor del que procedan",
-    "url": "https://www.nature.com/articles/d41586-025-02499-6",
-    "date": "2025-08-07",
-    "source": "Nature",
+    "title": "Augmented Question-guided Retrieval (AQgR) of Indian Case Law with LLM, RAG, and Structured Summaries",
+    "title_es": "Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados",
+    "url": "https://arxiv.org/abs/2508.04710",
+    "date": "2025-08-08",
+    "source": "arXiv",
     "content_es": "",
-    "description": "Este artículo trata sobre \"Estos genes pueden tener efectos opuestos según el progenitor del que procedan\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "these",
-      "genes",
-      "can"
+      "augmented",
+      "questionguided",
+      "retrieval"
     ],
     "category": "noticia"
   },
   {
-    "title": "PLA: Prompt Learning Attack against Text-to-Image Generative Models",
-    "title_es": "PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen",
-    "url": "https://arxiv.org/abs/2508.03696",
-    "date": "2025-08-07",
-    "source": "arXiv",
+    "title": "Roxie Laybourne, the first forensic ornithologist",
+    "title_es": "Roxie Laybourne, la primera ornitóloga forense",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adx2662?af=R",
+    "date": "2025-08-08",
+    "source": "Science.org",
     "content_es": "",
-    "description": "Este artículo trata sobre \"PLA: Ataque de aprendizaje inducido contra modelos generativos de texto a imagen\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Roxie Laybourne, la primera ornitóloga forense\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "pla",
-      "prompt",
-      "learning"
+      "roxie",
+      "laybourne",
+      "the"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Globally recognized island is losing its trademark glaciers",
+    "title_es": "La isla mundialmente reconocida está perdiendo sus característicos glaciares",
+    "url": "https://www.nature.com/articles/d41586-025-02473-2",
+    "date": "2025-08-08",
+    "source": "Nature",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"La isla mundialmente reconocida está perdiendo sus característicos glaciares\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "globally",
+      "recognized",
+      "island"
     ],
     "category": "noticia"
   },
