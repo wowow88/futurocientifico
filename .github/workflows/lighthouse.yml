@@ -38,7 +38,7 @@ jobs:
         run: pnpm run build
 
       - name: Servir build estático
-        run: npx http-server dist -p 4173 &
+        run: npx sirv-cli dist --single --port 4173 --quiet --gzip --brotli --maxage 31536000 &
 
       # Si ya creaste lighthouserc.json, esta orden lo detecta automáticamente.
       # Si NO lo tienes, descomenta la línea con --collect.url
