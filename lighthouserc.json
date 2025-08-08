@@ -1,23 +1,12 @@
 {
   "ci": {
     "collect": {
+      "staticDistDir": "dist",
       "numberOfRuns": 3,
-      "url": [
-        "http://localhost:4173/",
-        "http://localhost:4173/recursos",
-        "http://localhost:4173/revistas",
-        "http://localhost:4173/eduflash",
-        "http://localhost:4173/formacion"
-      ],
+      "url": ["/", "/recursos", "/revistas", "/eduflash", "/formacion"],
       "settings": {
         "formFactor": "desktop",
-        "screenEmulation": {
-          "mobile": false,
-          "width": 1366,
-          "height": 768,
-          "deviceScaleFactor": 1,
-          "disabled": false
-        },
+        "screenEmulation": { "mobile": false, "width": 1366, "height": 768, "deviceScaleFactor": 1, "disabled": false },
         "throttlingMethod": "provided"
       }
     },
@@ -32,8 +21,7 @@
         "csp-xss": "warn"
       }
     },
-    "upload": {
-      "target": "temporary-public-storage"
-    }
+    "upload": { "target": "temporary-public-storage" }
   }
 }
+
