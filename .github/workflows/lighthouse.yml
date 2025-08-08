@@ -34,20 +34,24 @@ jobs:
       - name: Instalar deps
         run: pnpm install --frozen-lockfile
 
-      - name: Build (Astro)
+      - name: Build (Astro) sin Ads/Analytics/SW
         run: pnpm run build
         env:
           PUBLIC_DISABLE_TRACKING: "true"
-  
-      - name: Servir build estático
-        run: npx sirv-cli dist --single --port 4173 --quiet --gzip --brotli --maxage 31536000 &
 
-      # Si ya creaste lighthouserc.json, esta orden lo detecta automáticamente.
-      # Si NO lo tienes, descomenta la línea con --collect.url
+      - name: Servir build estático (gzip/brotli + caché)
+        run: npx sirv-cli dist --single --host 127.0.0.1 --port 4173 --quiet --gzip --brotli --maxage 31536000 &
+
+      - name: Esperar a que el server esté listo
+        run: npx wait-on http://127.0.0.1:4173
+
       - name: Ejecutar Lighthouse CI
+        env:
+          # Evita interstitial en Chrome dentro de GitHub Runner
+          LHCI_CHROME_FLAGS: "--no-sandbox --disable-dev-shm-usage --headless=new"
+          # Opcional: que LHCI publique status en el PR
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx @lhci/cli autorun --upload.target=temporary-public-storage
-        # Alternativa sin lighthouserc.json:
-        # run: npx @lhci/cli autorun --collect.url=http://127.0.0.1:4173 --upload.target=temporary-public-storage --collect.numberOfRuns=3
 
       - name: Guardar reportes como artefacto
         if: always()
@@ -55,4 +59,3 @@ jobs:
         with:
           name: lhci-reports
           path: .lighthouseci
-
