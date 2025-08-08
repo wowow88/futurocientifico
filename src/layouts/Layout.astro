@@ -64,11 +64,19 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
     <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#1e3a8a" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-    <script>
+
+{!disableTracking && (
+  <script>
+    {`
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => navigator.serviceWorker.register('/service-worker.js'));
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
       }
-    </script>
+    `}
+  </script>
+)}
+
 
     <!-- Cookie Consent -->
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" defer></script>
