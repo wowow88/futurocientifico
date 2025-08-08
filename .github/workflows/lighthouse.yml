@@ -1,0 +1,50 @@
+name: Lighthouse CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  lhci:
+    name: Auditar con Lighthouse
+    runs-on: ubuntu-latest
+    concurrency:
+      group: lhci-${{ github.ref }}
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Instalar deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Build (Astro)
+        run: pnpm run build
+
+      - name: Servir build estático
+        run: npx http-server dist -p 4173 &
+      
+      - name: Ejecutar Lighthouse CI
+        run: npx @lhci/cli autorun --collect.url=http://127.0.0.1:4173 --upload.target=temporary-public-storage --collect.numberOfRuns=3
+
+      - name: Guardar reportes como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lhci-reports
+          path: .lighthouseci
