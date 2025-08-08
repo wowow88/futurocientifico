@@ -1,2 +1,2 @@
-feedparser
-beautifulsoup4
+feedparser>=6.0.11
+beautifulsoup4>=4.12.2
