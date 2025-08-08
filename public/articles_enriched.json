@@ -1,20 +1,5 @@
 [
   {
-    "title": "Augmented Question-guided Retrieval (AQgR) of Indian Case Law with LLM, RAG, and Structured Summaries",
-    "title_es": "Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados",
-    "url": "https://arxiv.org/abs/2508.04710",
-    "date": "2025-08-08",
-    "source": "arXiv",
-    "content_es": "",
-    "description": "Este artículo trata sobre \"Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados\". Se exploran los aspectos clave relacionados con la ciencia actual.",
-    "tags": [
-      "augmented",
-      "questionguided",
-      "retrieval"
-    ],
-    "category": "noticia"
-  },
-  {
     "title": "Roxie Laybourne, the first forensic ornithologist",
     "title_es": "Roxie Laybourne, la primera ornitóloga forense",
     "url": "https://www.science.org/doi/abs/10.1126/science.adx2662?af=R",
@@ -26,6 +11,21 @@
       "roxie",
       "laybourne",
       "the"
+    ],
+    "category": "noticia"
+  },
+    {
+    "title": "Augmented Question-guided Retrieval (AQgR) of Indian Case Law with LLM, RAG, and Structured Summaries",
+    "title_es": "Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados",
+    "url": "https://arxiv.org/abs/2508.04710",
+    "date": "2025-08-08",
+    "source": "arXiv",
+    "content_es": "",
+    "description": "Este artículo trata sobre \"Recuperación aumentada guiada por preguntas (AQgR) de jurisprudencia india con LLM, RAG y resúmenes estructurados\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "augmented",
+      "questionguided",
+      "retrieval"
     ],
     "category": "noticia"
   },
