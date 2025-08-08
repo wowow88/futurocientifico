@@ -11,6 +11,7 @@ jobs:
   lhci:
     name: Auditar con Lighthouse
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     concurrency:
       group: lhci-${{ github.ref }}
       cancel-in-progress: true
@@ -19,16 +20,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Instalar PNPM
+      - name: Setup PNPM 9
         uses: pnpm/action-setup@v4
         with:
           version: 9
 
-      - name: Configurar Node
+      - name: Setup Node 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: pnpm
 
       - name: Instalar deps
         run: pnpm install --frozen-lockfile
@@ -38,9 +39,13 @@ jobs:
 
       - name: Servir build estático
         run: npx http-server dist -p 4173 &
-      
+
+      # Si ya creaste lighthouserc.json, esta orden lo detecta automáticamente.
+      # Si NO lo tienes, descomenta la línea con --collect.url
       - name: Ejecutar Lighthouse CI
-        run: npx @lhci/cli autorun --collect.url=http://127.0.0.1:4173 --upload.target=temporary-public-storage --collect.numberOfRuns=3
+        run: npx @lhci/cli autorun --upload.target=temporary-public-storage
+        # Alternativa sin lighthouserc.json:
+        # run: npx @lhci/cli autorun --collect.url=http://127.0.0.1:4173 --upload.target=temporary-public-storage --collect.numberOfRuns=3
 
       - name: Guardar reportes como artefacto
         if: always()
@@ -48,3 +53,4 @@ jobs:
         with:
           name: lhci-reports
           path: .lighthouseci
+
