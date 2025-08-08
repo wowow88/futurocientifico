@@ -77,16 +77,65 @@ import Seo from '../../components/Seo.astro';
   </section>
   <!-- Grid de bloques informativos -->
   <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
-      <h2 class="text-2xl font-bold text-purple-900 mb-4">📰 Revistas científicas en quioscos y bibliotecas</h2>
-      <ul class="list-disc pl-6 text-purple-700">
-        <li><a href="https://www.investigacionyciencia.es/" class="underline font-semibold" target="_blank">Investigación y Ciencia</a></li>
-        <li><a href="https://www.muyinteresante.es/" class="underline font-semibold" target="_blank">Muy Interesante</a></li>
-        <li><a href="https://www.nationalgeographicla.com/espana" class="underline font-semibold" target="_blank">National Geographic (España)</a></li>
-        <li><a href="https://quo.eldiario.es/" class="underline font-semibold" target="_blank">Quo</a></li>
-        <li><a href="https://principia.io/" class="underline font-semibold" target="_blank">Principia</a></li>
-      </ul>
-    </div>
+<div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+  <h2 class="text-2xl font-bold text-purple-900 mb-4">
+    📰 Revistas científicas en quioscos y bibliotecas
+  </h2>
+  <ul class="list-disc pl-6 text-purple-700 space-y-2">
+    <!-- Sustituye a 'Investigación y Ciencia' (cesó en 2023) -->
+    <li>
+      <a
+        href="https://metode.es/"
+        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Revista Mètode, Universidad de València (abre en pestaña nueva)"
+      >Mètode (Universitat de València) – trimestral</a>
+    </li>
+
+    <li>
+      <a
+        href="https://www.muyinteresante.com/"
+        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Muy Interesante, sitio oficial (abre en pestaña nueva)"
+      >Muy Interesante</a>
+    </li>
+
+    <li>
+      <a
+        href="https://www.nationalgeographic.com.es/"
+        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="National Geographic España (abre en pestaña nueva)"
+      >National Geographic (España)</a>
+      <span class="ml-1 text-sm text-purple-600">(suscripción/venta en quiosco vía RBA)</span>
+    </li>
+
+    <li>
+      <a
+        href="https://quo.eldiario.es/"
+        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Quo en eldiario.es (abre en pestaña nueva)"
+      >Quo (edición digital)</a>
+    </li>
+
+    <li>
+      <a
+        href="https://principia.io/"
+        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+        target="_blank" rel="noopener noreferrer"
+        aria-label="Principia, ciencia y arte (abre en pestaña nueva)"
+      >Principia (magazine + online)</a>
+    </li>
+  </ul>
+
+  <!-- Nota de contexto, opcional -->
+  <p class="mt-3 text-sm text-purple-600">
+    Nota: <em>Investigación y Ciencia</em> dejó de publicarse en 2023; por eso proponemos Mètode como alternativa en papel.
+  </p>
+</div>
+
 <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
   <h2 class="text-2xl font-bold text-purple-900 mb-4">
     🏛️ Publicaciones de centros de investigación
@@ -227,5 +276,26 @@ import Seo from '../../components/Seo.astro';
       </div>
     </div>
   </section>
+  <!-- Adsense -->
+  <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2163450732409344"
+     data-ad-slot="6134548917"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
+    }
+  </script>
 </Layout>
 
