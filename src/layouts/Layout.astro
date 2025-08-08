@@ -1,6 +1,8 @@
 ---
 const canonical = Astro.url?.href ?? "https://futurocientifico.vercel.app";
+const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
 ---
+
 <html lang="es">
   <head>
     <meta charset="utf-8" />
