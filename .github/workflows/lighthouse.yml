@@ -36,7 +36,9 @@ jobs:
 
       - name: Build (Astro)
         run: pnpm run build
-
+        env:
+          PUBLIC_DISABLE_TRACKING: "true"
+  
       - name: Servir build estático
         run: npx sirv-cli dist --single --port 4173 --quiet --gzip --brotli --maxage 31536000 &
 
