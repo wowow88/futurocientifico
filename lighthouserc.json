@@ -1,22 +1,25 @@
 {
   "ci": {
-"collect": {
-  "numberOfRuns": 3,
-  "url": [
-    "http://127.0.0.1:4173/",
-    "http://127.0.0.1:4173/recursos",
-    "http://127.0.0.1:4173/revistas",
-    "http://127.0.0.1:4173/eduflash",
-    "http://127.0.0.1:4173/formacion"
-  ],
-  "settings": {
-    "formFactor": "desktop",
-    "screenEmulation": { "mobile": false, "width": 1366, "height": 768, "deviceScaleFactor": 1, "disabled": false },
-    "throttlingMethod": "provided"
-  }
-}
-
-      ]
+    "collect": {
+      "numberOfRuns": 3,
+      "url": [
+        "http://127.0.0.1:4173/",
+        "http://127.0.0.1:4173/recursos",
+        "http://127.0.0.1:4173/revistas",
+        "http://127.0.0.1:4173/eduflash",
+        "http://127.0.0.1:4173/formacion"
+      ],
+      "settings": {
+        "formFactor": "desktop",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1366,
+          "height": 768,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "throttlingMethod": "provided"
+      }
     },
     "assert": {
       "assertions": {
@@ -28,6 +31,10 @@
         "uses-long-cache-ttl": "warn",
         "csp-xss": "warn"
       }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
     }
   }
 }
+
