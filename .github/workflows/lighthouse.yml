@@ -1,4 +1,4 @@
-name: Lighthouse CI (staticDistDir)
+name: Lighthouse CI (staticDistDir, debug)
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
   lhci:
     name: Auditar con Lighthouse
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     concurrency:
       group: lhci-${{ github.ref }}
       cancel-in-progress: true
@@ -39,14 +39,32 @@ jobs:
         env:
           PUBLIC_DISABLE_TRACKING: "true"
 
-      - name: Validar lighthouserc.json
-        run: node -e "JSON.parse(require('fs').readFileSync('lighthouserc.json','utf8')); console.log('lighthouserc OK')"
+      - name: Ver dist y validar config
+        run: |
+          echo "== DIST files (primeros 200) =="
+          find dist -type f | sort | head -n 200
+          echo "== Validate lighthouserc.json =="
+          node -e "JSON.parse(require('fs').readFileSync('lighthouserc.json','utf8')); console.log('lighthouserc OK')"
 
-      - name: Ejecutar Lighthouse CI (staticDistDir)
+      - name: LHCI healthcheck
+        run: npx @lhci/cli healthcheck
+
+      - name: LHCI collect (staticDistDir)
         env:
+          DEBUG: "lhci:*"
           LHCI_CHROME_FLAGS: "--no-sandbox --disable-dev-shm-usage --headless=new"
+        run: |
+          npx @lhci/cli collect \
+            --config=lighthouserc.json \
+            --collect.staticDistDir=dist
+
+      - name: LHCI assert
+        run: npx @lhci/cli assert --config=lighthouserc.json
+
+      - name: LHCI upload
+        env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx @lhci/cli autorun
+        run: npx @lhci/cli upload --config=lighthouserc.json
 
       - name: Subir reportes como artefacto
         if: always()
