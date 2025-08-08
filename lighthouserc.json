@@ -3,12 +3,12 @@
     "collect": {
       "numberOfRuns": 3,
       "url": [
-  "http://localhost:4173/",
-  "http://localhost:4173/recursos",
-  "http://localhost:4173/revistas",
-  "http://localhost:4173/eduflash",
-  "http://localhost:4173/formacion"
-]
+        "http://localhost:4173/",
+        "http://localhost:4173/recursos",
+        "http://localhost:4173/revistas",
+        "http://localhost:4173/eduflash",
+        "http://localhost:4173/formacion"
+      ],
       "settings": {
         "formFactor": "desktop",
         "screenEmulation": {
@@ -37,4 +37,3 @@
     }
   }
 }
-
