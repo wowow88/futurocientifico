@@ -1,35 +1,77 @@
 ---
+/**
+ * src/components/Seo.astro
+ * Uso:
+ *   <Seo title="Revistas" description="Selección curada..." slot="head" />
+ *   <Seo title="..." description="..." alternates={{ es: Astro.url.href, en: "https://futurocientifico.vercel.app/en/revistas" }} slot="head" />
+ */
+
+export interface Alternates {
+  es?: string;
+  en?: string;
+}
+
 export interface Props {
-  title: string;
-  description: string;
-  site: string;
-  image?: string;
-  twitter?: string;
-  lang?: 'es' | 'en';
+  title?: string;
+  description?: string;
+  site?: string; // base del sitio, p. ej. "https://futurocientifico.vercel.app"
+  image?: string; // puede ser relativa o absoluta
+  twitter?: string; // @handle
+  lang?: "es" | "en";
+  robots?: string; // "index, follow" etc.
+  alternates?: Alternates; // { es?: URL, en?: URL }
 }
 
 const {
-  title,
-  description,
-  site,
-  image = '/avatar-cientifico.png',
-  twitter = '@futurocientifico',
-  lang = 'es'
-} = Astro.props;
+  title = "FuturoCientífico",
+  description = "Divulgación científica para todas las edades.",
+  site = "https://futurocientifico.vercel.app",
+  image = "/avatar-cientifico.webp",
+  twitter = "@futurocientifico",
+  lang = "es",
+  robots = "index, follow",
+  alternates = {} as Alternates
+} = Astro.props as Props;
+
+// Canonical: usa la URL de la página actual; si no, fallback a 'site'
+const canonical = Astro.url?.href ?? site;
+
+// og:image absoluto
+const absImage = image.startsWith("http") ? image : new URL(image, site).href;
+
+// Locale de OG según idioma
+const ogLocale = lang === "en" ? "en_US" : "es_ES";
 ---
 
 <title>{title}</title>
+
+<!-- Canonical y robots -->
+<link rel="canonical" href={canonical} />
+<meta name="robots" content={robots} />
+
+<!-- Básicas -->
 <meta name="description" content={description} />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="FuturoCientífico" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={image} />
-<meta property="og:url" content={site} />
+<meta property="og:image" content={absImage} />
+<meta property="og:url" content={canonical} />
+<meta property="og:locale" content={ogLocale} />
+
+<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={image} />
+<meta name="twitter:image" content={absImage} />
 <meta name="twitter:site" content={twitter} />
-<link rel="canonical" href={site} />
-<link rel="alternate" hreflang="es" href={site.replace('/en', '')} />
-<link rel="alternate" hreflang="en" href={site.includes('/en') ? site : site + '/en'} />
+
+<!-- Hreflang SOLO si se proporcionan -->
+{alternates.es && <link rel="alternate" hrefLang="es" href={alternates.es} />}
+{alternates.en && <link rel="alternate" hrefLang="en" href={alternates.en} />}
+
+<!-- Idioma del documento (ayuda a algunos parsers) -->
+<meta http-equiv="content-language" content={lang} />
 
