@@ -44,6 +44,9 @@ jobs:
 
       - name: Esperar a que el server esté listo
         run: npx wait-on http://127.0.0.1:4173
+        
+      - name: Validar lighthouserc.json
+        run: node -e "JSON.parse(require('fs').readFileSync('lighthouserc.json','utf8')); console.log('lighthouserc OK')"
 
       - name: Ejecutar Lighthouse CI
         env:
