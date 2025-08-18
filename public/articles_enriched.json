@@ -1,5 +1,50 @@
 [
   {
+    "title": "How do Data Journalists Design Maps to Tell Stories?",
+    "title_es": "How do Data Journalists Design Maps to Tell Stories?",
+    "url": "https://arxiv.org/abs/2508.10903",
+    "published": "2025-08-18T04:00:00.000Z",
+    "date": "2025-08-18",
+    "source": "arXiv",
+    "description": "Este artículo trata sobre \"How do Data Journalists Design Maps to Tell Stories?\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "how",
+      "do",
+      "data"
+    ],
+    "category": "revista"
+  },
+  {
+    "title": "Scientists just found a hidden factor behind Earth’s methane surge",
+    "title_es": "Los científicos acaban de encontrar un factor oculto detrás del aumento de metano de la Tierra",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250816113528.htm",
+    "date": "2025-08-18",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Los científicos acaban de encontrar un factor oculto detrás del aumento de metano de la Tierra\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "scientists",
+      "just",
+      "found"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Q&A: What do you do if your dog ingests cocaine?",
+    "title_es": "Preguntas y respuestas: ¿Qué haces si tu perro ingiere cocaína?",
+    "url": "https://phys.org/news/2025-08-qa-dog-ingests-cocaine.html",
+    "date": "2025-08-18",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Preguntas y respuestas: ¿Qué haces si tu perro ingiere cocaína?\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "qa",
+      "what",
+      "do"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "Scientists stunned by record-breaking, watermelon-shaped nucleus",
     "title_es": "Científicos aturdidos por el núcleo récord en forma de sandía",
     "url": "https://www.sciencedaily.com/releases/2025/08/250816113512.htm",
@@ -11182,6 +11227,21 @@
       "clinical",
       "manifestations",
       "and"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Is ChatGPT-5 Ready for Mammogram VQA?",
+    "title_es": "¿Chatgpt-5 está listo para la mamografía VQA?",
+    "url": "http://arxiv.org/abs/2508.11628v1",
+    "date": "2025-08-15",
+    "source": "arXiv",
+    "published": "2025-08-15T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"¿Chatgpt-5 está listo para la mamografía VQA?\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "is",
+      "chatgpt",
+      "ready"
     ],
     "category": "noticia"
   },
