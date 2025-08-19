@@ -1,5 +1,35 @@
 [
   {
+    "title": "Prediction of Spotify Chart Success Using Audio and Streaming Features",
+    "title_es": "Prediction of Spotify Chart Success Using Audio and Streaming Features",
+    "url": "https://arxiv.org/abs/2508.11632",
+    "published": "2025-08-19T04:00:00.000Z",
+    "date": "2025-08-19",
+    "source": "arXiv",
+    "description": "Este artículo trata sobre \"Prediction of Spotify Chart Success Using Audio and Streaming Features\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "prediction",
+      "of",
+      "spotify"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Midlife adults are overextended with multiple roles",
+    "title_es": "Los adultos de la mediana edad están demasiado extendidos con múltiples roles",
+    "url": "https://phys.org/news/2025-08-midlife-adults-overextended-multiple-roles.html",
+    "date": "2025-08-19",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-19T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Los adultos de la mediana edad están demasiado extendidos con múltiples roles\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "midlife",
+      "adults",
+      "are"
+    ],
+    "category": "noticia"
+  },
+  {
     "title": "How do Data Journalists Design Maps to Tell Stories?",
     "title_es": "How do Data Journalists Design Maps to Tell Stories?",
     "url": "https://arxiv.org/abs/2508.10903",
@@ -41,6 +71,111 @@
       "qa",
       "what",
       "do"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "RepreGuard: Detecting LLM-Generated Text by Revealing Hidden Representation Patterns",
+    "title_es": "Repregue: Detección de texto generado por LLM revelando patrones de representación ocultos",
+    "url": "http://arxiv.org/abs/2508.13152v1",
+    "date": "2025-08-18",
+    "source": "arXiv",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Repregue: Detección de texto generado por LLM revelando patrones de representación ocultos\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "repreguard",
+      "detecting",
+      "llmgenerated"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Ancient coins unveil web of trade across southeast Asia",
+    "title_es": "Las monedas antiguas revelan la red de comercio en todo el sudeste asiático",
+    "url": "https://www.nature.com/articles/d41586-025-02563-1",
+    "date": "2025-08-18",
+    "source": "Nature",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Las monedas antiguas revelan la red de comercio en todo el sudeste asiático\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "ancient",
+      "coins",
+      "unveil"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Nueva convocatoria del Programa de Contratos “Amigos/as del CNIO”",
+    "title_es": "Nueva convocatoria del Programa de Contratos “Amigos/as del CNIO”",
+    "url": "https://www.cnio.es/noticias/convocatoria-programa-de-contratos-amigos-as-del-cnio/",
+    "date": "2025-08-18",
+    "source": "CNIO",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Nueva convocatoria del Programa de Contratos “Amigos/as del CNIO”\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "nueva",
+      "convocatoria",
+      "del"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Where the Wild Things Are: Wildlife Management with Johnson’s Matt Strausser",
+    "title_es": "Dónde están las cosas salvajes: gestión de la vida silvestre con Matt Strausser de Johnson",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/where-the-wild-things-are-wildlife-management-with-johnsons-matt-strausser/",
+    "date": "2025-08-18",
+    "source": "NASA (Top News)",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Dónde están las cosas salvajes: gestión de la vida silvestre con Matt Strausser de Johnson\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "where",
+      "the",
+      "wild"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "These female divers spend more time underwater than any other humans",
+    "title_es": "Estas buzos femeninas pasan más tiempo bajo el agua que cualquier otro humano",
+    "url": "https://www.sciencenews.org/article/female-divers-underwater-haenyeo-korea",
+    "date": "2025-08-18",
+    "source": "Science News",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Estas buzos femeninas pasan más tiempo bajo el agua que cualquier otro humano\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "these",
+      "female",
+      "divers"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Scientists Say: Steppe",
+    "title_es": "Los científicos dicen: estepa",
+    "url": "https://www.snexplores.org/article/scientists-say-steppe-definition-pronunciation",
+    "date": "2025-08-18",
+    "source": "Science News Explores",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Los científicos dicen: estepa\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "scientists",
+      "say",
+      "steppe"
+    ],
+    "category": "noticia"
+  },
+  {
+    "title": "Forget LASIK: Safer, cheaper vision correction could be coming soon",
+    "title_es": "Olvídese de Lasik: la corrección de visión más segura y barata podría llegar pronto",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250818102941.htm",
+    "date": "2025-08-18",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-18T00:00:00.000Z",
+    "description": "Este artículo trata sobre \"Olvídese de Lasik: la corrección de visión más segura y barata podría llegar pronto\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "tags": [
+      "forget",
+      "lasik",
+      "safer"
     ],
     "category": "noticia"
   },
@@ -11216,17 +11351,17 @@
     "category": "noticia"
   },
   {
-    "title": "Clinical manifestations and immune correlations in anti-centromere antibody-positive and anti-SSA/Ro antibody-positive primary Sjögren’s syndrome: A retrospective analysis",
-    "title_es": "Manifestaciones clínicas y correlaciones inmunes en el síndrome primario de Sjögren positivo para anticuerpos anti-centrómero y anti-SSA/RO positivo para anticuerpos positivos: un análisis retrospectivo",
+    "title": "Impact of technological turbulence and competitive intensity on employee job performance: The role of workplace digitalization and job crafting",
+    "title_es": "Impacto de la turbulencia tecnológica e intensidad competitiva en el desempeño laboral de los empleados: el papel de la digitalización laboral y la elaboración de empleo",
     "url": "https://journals.plos.org/plosone/article",
     "date": "2025-08-15",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
-    "description": "Este artículo trata sobre \"Manifestaciones clínicas y correlaciones inmunes en el síndrome primario de Sjögren positivo para anticuerpos anti-centrómero y anti-SSA/RO positivo para anticuerpos positivos: un análisis retrospectivo\". Se exploran los aspectos clave relacionados con la ciencia actual.",
+    "description": "Este artículo trata sobre \"Impacto de la turbulencia tecnológica e intensidad competitiva en el desempeño laboral de los empleados: el papel de la digitalización laboral y la elaboración de empleo\". Se exploran los aspectos clave relacionados con la ciencia actual.",
     "tags": [
-      "clinical",
-      "manifestations",
-      "and"
+      "impact",
+      "of",
+      "technological"
     ],
     "category": "noticia"
   },
