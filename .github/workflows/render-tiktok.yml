@@ -17,11 +17,11 @@ on:
         default: "Un dato científico al día"
       text3:
         description: "Texto 3 (CTA)"
-        required: false
+        required: true
         default: "Síguenos @futurocientifico"
       text4:
         description: "Texto 4 (URL)"
-        required: false
+        required: true
         default: "futurocientifico.vercel.app"
       duration:
         description: "Duración del vídeo (segundos)"
