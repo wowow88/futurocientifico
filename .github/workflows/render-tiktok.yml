@@ -1,4 +1,4 @@
-name: Render TikTok (auto título_es + prompt + cover)
+name: Render TikTok (auto titulo_es + prompt + cover)
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ permissions:
 env:
   TZ: Europe/Madrid
   IMAGE_PATH: public/avatar-cientifico.png
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
+  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"   # CC0
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
@@ -42,12 +42,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq, ImageMagick y fuentes
+      - name: Instalar ffmpeg, jq y fuentes
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
+          sudo apt-get install -y ffmpeg jq fonts-dejavu-core imagemagick
 
-      - name: Preparar rutas y carpeta de salida por fecha
+      - name: Preparar carpeta fecha
         id: prep
         run: |
           set -euo pipefail
@@ -62,10 +62,10 @@ jobs:
       - name: Verificar enriched e imagen
         run: |
           set -euo pipefail
-          test -s public/articles_enriched.json || { echo "❌ Falta public/articles_enriched.json"; exit 1; }
-          test -s "$IMAGE_PATH" || { echo "❌ Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
+          test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
+          test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
 
-      - name: Obtener último artículo y su title_es (obligatorio)
+      - name: Extraer ultimo article (title_es obligatorio)
         id: pick
         run: |
           set -euo pipefail
@@ -77,7 +77,7 @@ jobs:
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
-            echo "❌ El último artículo no tiene title_es. Corrige/enriquece primero."
+            echo "El último artículo no tiene title_es. Aborto."
             exit 1
           fi
           {
@@ -87,7 +87,7 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-      - name: Preparar audio (local si existe; si no, FreePD; si falla, silencio)
+      - name: Preparar audio (local o FreePD; si falla, silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
@@ -105,7 +105,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: Crear archivos de texto (branding, title_es, CTA, redes)
+      - name: Crear textos (branding, title_es, CTA, redes)
         run: |
           set -euo pipefail
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
@@ -113,7 +113,7 @@ jobs:
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
           printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-      - name: Renderizar vídeo 1080x1920 (letras más pequeñas)
+      - name: Renderizar video 1080x1920
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -126,7 +126,7 @@ jobs:
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: Generar imagen de portada (cover.png) con los mismos textos
+      - name: Generar cover.png (mismos textos)
         run: |
           set -euo pipefail
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
@@ -137,42 +137,62 @@ jobs:
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
 
-      - name: Construir prompt (plantilla en archivo o fallback sin here-doc)
-        run: |
-          set -euo pipefail
-          if [ -s "$PROMPT_TEMPLATE_FILE" ]; then
-            cp "$PROMPT_TEMPLATE_FILE" prompt.tpl
-          else
-            printf "%s\n" \
-"Ilustración científica minimalista y moderna sobre: \"{{title_es}}\"." \
-"Requisitos:" \
-"- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG." \
-"- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación." \
-"- Fondo claro y formas geométricas abstractas sutiles." \
-"- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico." \
-"- Orientación cuadrada o 4:5; dejar margen de seguridad." \
-"Contexto (no dibujar texto, solo orientar la escena):" \
-"- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}" \
-> prompt.tpl
-          fi
-          esc() { printf '%s' "$1" | sed -e 's/[\/&|]/\\&/g'; }
-          T_ESC="$(esc "${AUTO_TITLE_ES}")"
-          S_ESC="$(esc "${AUTO_SOURCE}")"
-          D_ESC="$(esc "${AUTO_DATE}")"
-          U_ESC="$(esc "${AUTO_URL}")"
-          sed -e "s|{{title_es}}|$T_ESC|g" \
-              -e "s|{{source}}|$S_ESC|g" \
-              -e "s|{{date}}|$D_ESC|g" \
-              -e "s|{{url}}|$U_ESC|g" \
-              prompt.tpl > "$OUTDIR/prompt.txt"
+      - name: Construir prompt (github-script)
+        uses: actions/github-script@v7
+        env:
+          OUTDIR: ${{ env.OUTDIR }}
+          PROMPT_TEMPLATE_FILE: ${{ env.PROMPT_TEMPLATE_FILE }}
+          AUTO_TITLE_ES: ${{ env.AUTO_TITLE_ES }}
+          AUTO_SOURCE: ${{ env.AUTO_SOURCE }}
+          AUTO_DATE: ${{ env.AUTO_DATE }}
+          AUTO_URL: ${{ env.AUTO_URL }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
 
-      - name: Subir vídeo como artifact
+            const outdir = process.env.OUTDIR;
+            const tplFile = process.env.PROMPT_TEMPLATE_FILE;
+
+            let template;
+            if (tplFile && fs.existsSync(tplFile)) {
+              template = fs.readFileSync(tplFile, 'utf8');
+            } else {
+              template =
+                'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n' +
+                'Requisitos:\n' +
+                '- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.\n' +
+                '- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.\n' +
+                '- Fondo claro y formas geométricas abstractas sutiles.\n' +
+                '- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.\n' +
+                '- Orientación cuadrada o 4:5; dejar margen de seguridad.\n' +
+                'Contexto (no dibujar texto, solo orientar la escena):\n' +
+                '- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}\n';
+            }
+
+            const vars = {
+              '{{title_es}}': process.env.AUTO_TITLE_ES || '',
+              '{{source}}': process.env.AUTO_SOURCE || '',
+              '{{date}}': process.env.AUTO_DATE || '',
+              '{{url}}': process.env.AUTO_URL || '',
+            };
+
+            let prompt = template;
+            for (const [k, v] of Object.entries(vars)) {
+              prompt = prompt.split(k).join(v);
+            }
+
+            const outFile = path.join(outdir, 'prompt.txt');
+            fs.writeFileSync(outFile, prompt, 'utf8');
+            core.info(`Prompt escrito en: ${outFile}`);
+
+      - name: Subir video como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
           path: ${{ env.OUTDIR }}/*.mp4
 
-      - name: Commit & push media del día (vídeo + cover + prompt)
+      - name: Commit & push media del dia
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
