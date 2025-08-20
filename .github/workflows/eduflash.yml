@@ -80,6 +80,20 @@ jobs:
         working-directory: futurocientifico
         run: |
           jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' public/articles_enriched.json
+    
+      - name: "🔍 Comprobar LIBRE_ENDPOINT (solo host)"
+        working-directory: futurocientifico
+        env:
+          LIBRE_ENDPOINT: ${{ vars.LIBRE_ENDPOINT }}
+        run: |
+          set -euo pipefail
+          if [ -n "${LIBRE_ENDPOINT:-}" ]; then
+            echo "LIBRE_ENDPOINT bruto: ${LIBRE_ENDPOINT}"
+            # mostrar sólo el host/origin para evitar datos sensibles
+            node -e "try{const u=new URL('${LIBRE_ENDPOINT}'.replace(/^['\"]|['\"]$/g,'')); console.log('Host saneado:', u.origin)}catch(e){console.log('Endpoint inválido')}"
+          else
+            echo "LIBRE_ENDPOINT no definido (se usará solo MyMemory)"
+          fi
 
       - name: "Asegurar títulos en ES (gratis: MyMemory/Libre)"
         working-directory: futurocientifico
