@@ -15,7 +15,7 @@ on:
         required: true
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
       text2:
-        description: "Texto 2 (descripción)"
+        description: "Texto 2 (titulo)"
         required: true
       text3:
         description: "Texto 3 (hashtags)"
