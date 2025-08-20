@@ -1,11 +1,8 @@
-name: Render TikTok Video
+name: "Render TikTok Video"
 
 on:
   workflow_dispatch:
     inputs:
-      image_url:
-        description: "public/avatar-cientifico.png"
-        required: true
       out_name:
         description: "Nombre del archivo de salida"
         required: true
@@ -15,47 +12,108 @@ on:
         required: true
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
       text2:
-        description: "Texto 2 (titulo)"
-        required: true
+        description: "Texto 2 (principal)"
+        required: false
+        default: "Un dato científico al día"
       text3:
-        description: "Texto 3 (hashtags)"
-        required: true
-        default: "#Ciencia #Curiosidades #FuturoCientífico"
+        description: "Texto 3 (CTA)"
+        required: false
+        default: "Síguenos @futurocientifico"
       text4:
-        description: "Texto 4 (redes)"
-        required: true
-        default: "IG: @futurocientifico2025 • TikTok: @futurocientifico • X: @futuro100tico • YouTube: @futurocientifico"
+        description: "Texto 4 (URL)"
+        required: false
+        default: "futurocientifico.vercel.app"
       music_url:
-        description: "URL de música (opcional)"
+        description: "URL de música (opcional, MP3/M4A)"
         required: false
         default: ""
       duration:
-        description: "Duración en segundos"
+        description: "Duración del vídeo (segundos)"
         required: true
-        default: "15"
+        default: "59"
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Madrid
+  # Imagen FIJA para TikTok
+  IMAGE_PATH: public/avatar-cientifico.png
 
 jobs:
-  build:
+  render:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Ensure ffmpeg
+      - name: Instalar ffmpeg y fuente
         run: |
-          ffmpeg -version || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
 
-      - name: Render with FFmpeg
+      - name: Verificar imagen fija
         run: |
-          bash scripts/render.sh \
-            "${{ github.event.inputs.image_url }}" \
-            "${{ github.event.inputs.out_name }}" \
-            "${{ github.event.inputs.text1 }}" \
-            "${{ github.event.inputs.text2 }}" \
-            "${{ github.event.inputs.text3 }}" \
-            "${{ github.event.inputs.text4 }}" \
-            "${{ github.event.inputs.music_url }}" \
-            "${{ github.event.inputs.duration }}"
+          set -euo pipefail
+          if [ ! -s "$IMAGE_PATH" ]; then
+            echo "❌ No existe $IMAGE_PATH"
+            echo "Contenido de public/:"
+            ls -la public || true
+            exit 1
+          fi
+          echo "✅ Usando imagen: $IMAGE_PATH"
+
+      - name: Preparar audio (descargar o generar silencio)
+        run: |
+          set -euo pipefail
+          DUR="${{ github.event.inputs.duration }}"
+          MUSIC_URL="${{ github.event.inputs.music_url }}"
+          if [ -n "$MUSIC_URL" ]; then
+            echo "🔊 Descargando música: $MUSIC_URL"
+            curl -L --fail -o music_in  "$MUSIC_URL" || { echo "⚠️ No se pudo descargar música. Generando silencio..."; MUSIC_URL=""; }
+          fi
+
+          if [ -z "$MUSIC_URL" ]; then
+            echo "🎚️ Generando audio silencioso ${DUR}s"
+            ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
+          fi
+
+          # Normalizamos a AAC estéreo 44.1k
+          if [ ! -f music_in.m4a ]; then
+            ffmpeg -y -i music_in -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
+          fi
+
+      - name: Crear archivos de texto (evita problemas de escapado)
+        run: |
+          set -euo pipefail
+          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
+          printf "%s" "${{ github.event.inputs.text2 }}" > t2.txt
+          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
+          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
+
+      - name: Renderizar vídeo 1080x1920 con ffmpeg
+        run: |
+          set -euo pipefail
+          OUT="${{ github.event.inputs.out_name }}"
+          DUR="${{ github.event.inputs.duration }}"
+
+          # Filtro de video: escala a 1080 de ancho, rellena alto a 1920, y superpone 4 textos
+          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
+          # drawtext: usa familia DejaVu Sans (instalada por el paquete fonts-dejavu-core)
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=56:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=120"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=64:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=360"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=52:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=1520"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=40:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1700"
+
+          # Creamos el vídeo a partir de una imagen fija (-loop 1) + audio normalizado
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a \
+            -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
+            -c:a aac -b:a 128k -shortest "$OUT"
+
+          echo "✅ Render listo: $OUT"
+          ls -lh "$OUT"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -63,7 +121,7 @@ jobs:
           name: video
           path: ${{ github.workspace }}/${{ github.event.inputs.out_name }}
 
-      # (Opcional) Publicar en un Release para URL pública directa
+      # (Opcional) Publicar en un Release para URL directa
       - name: Create Release
         if: always()
         uses: softprops/action-gh-release@v2
