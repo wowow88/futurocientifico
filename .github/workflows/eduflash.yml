@@ -20,9 +20,6 @@ concurrency:
 env:
   TZ: Europe/Madrid
   USER_AGENT: "curioscience-bot/1.0 (+https://futurocientifico.vercel.app)"
-  # Rutas dentro del checkout del repo actual (carpeta ./futurocientifico)
-  ARTICLES_JSON: "futurocientifico/public/articles.json"
-  ENRICHED_JSON: "futurocientifico/public/articles_enriched.json"
 
 jobs:
   articles:
@@ -64,31 +61,33 @@ jobs:
             ls -la curioscience/workspace/astro/public || true
             exit 1
           fi
-          cp "$SRC" "$ARTICLES_JSON"
-          echo "✅ Copiado a $ARTICLES_JSON"
-          jq length "$ARTICLES_JSON"
+          cp "$SRC" "futurocientifico/public/articles.json"
+          echo "✅ Copiado a futurocientifico/public/articles.json"
+          jq length "futurocientifico/public/articles.json"
 
+      # A partir de aquí trabajamos SIEMPRE dentro de ./futurocientifico y con rutas relativas
       - name: "Enriquecer (ordenar + limpiar campos pesados)"
         working-directory: futurocientifico
         env:
-          ARTICLES_IN:  ${{ env.ARTICLES_JSON }}
-          ARTICLES_OUT: ${{ env.ENRICHED_JSON }}
+          ARTICLES_IN:  public/articles.json
+          ARTICLES_OUT: public/articles_enriched.json
         run: |
           set -euo pipefail
           test -f scripts/enrich-articles.js || (echo "❌ Falta scripts/enrich-articles.js" && exit 1)
           node scripts/enrich-articles.js
-          test -s "${{ env.ENRICHED_JSON }}" || (echo "❌ No se generó ${{ env.ENRICHED_JSON }}" && exit 1)
-          echo "Total enriched: $(jq length "${{ env.ENRICHED_JSON }}")"
+          test -s "public/articles_enriched.json" || (echo "❌ No se generó public/articles_enriched.json" && exit 1)
+          echo "Total enriched: $(jq length public/articles_enriched.json)"
 
       - name: "Diagnóstico antes (title_es faltante/igual)"
+        working-directory: futurocientifico
         run: |
-          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' public/articles_enriched.json
 
       - name: "Asegurar títulos en ES (gratis: MyMemory/Libre)"
         working-directory: futurocientifico
         env:
-          ARTICLES_IN:        ${{ env.ENRICHED_JSON }}
-          ARTICLES_OUT:       ${{ env.ENRICHED_JSON }}
+          ARTICLES_IN:        public/articles_enriched.json
+          ARTICLES_OUT:       public/articles_enriched.json
           TITLES_PER_RUN:     ${{ github.event.inputs.limit || '200' }}
           SLEEP_MS:           "800"
           USER_AGENT:         ${{ env.USER_AGENT }}
@@ -100,8 +99,9 @@ jobs:
           node scripts/ensure-title-es-free.mjs
 
       - name: "Diagnóstico después (title_es faltante/igual)"
+        working-directory: futurocientifico
         run: |
-          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' public/articles_enriched.json
 
       - name: "Commit & push (solo enriched)"
         working-directory: futurocientifico
@@ -151,3 +151,4 @@ jobs:
           git add public/eduflash.json
           git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "No changes"
           git push
+
