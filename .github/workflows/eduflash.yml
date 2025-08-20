@@ -1,13 +1,14 @@
-name: 🔄 Actualizaciones diarias y semanales
+name: "🔄 Actualizaciones diarias y semanales"
+
 on:
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Máximo de títulos a procesar'
+        description: "Máximo de títulos a procesar"
         required: false
-        default: '200'
+        default: "200"
   schedule:
-    - cron: '20 06 * * *'  # 06:20 UTC ≈ 08:20 Europe/Madrid
+    - cron: "20 06 * * *"  # 06:20 UTC ≈ 08:20 Europe/Madrid
 
 permissions:
   contents: write
@@ -25,17 +26,22 @@ jobs:
     steps:
       - name: 🧰 Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 🔧 Setup Node 20
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: 📦 Instalar jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - name: ✅ Verificar entrada
         run: |
+          set -euo pipefail
           test -s "$ARTICLES_JSON" || (echo "No existe $ARTICLES_JSON" && exit 1)
           jq length "$ARTICLES_JSON"
 
@@ -44,6 +50,7 @@ jobs:
           ARTICLES_IN:  ${{ env.ARTICLES_JSON }}
           ARTICLES_OUT: ${{ env.ENRICHED_JSON }}
         run: |
+          set -euo pipefail
           node scripts/enrich-articles.js
           test -s "$ENRICHED_JSON" || (echo "No se generó $ENRICHED_JSON" && exit 1)
           echo "Total enriched: $(jq length "$ENRICHED_JSON")"
@@ -59,11 +66,12 @@ jobs:
           ARTICLES_IN:        ${{ env.ENRICHED_JSON }}
           ARTICLES_OUT:       ${{ env.ENRICHED_JSON }}
           TITLES_PER_RUN:     ${{ github.event.inputs.limit || '200' }}
-          SLEEP_MS:           '800'
+          SLEEP_MS:           "800"
           USER_AGENT:         ${{ env.USER_AGENT }}
-          MYMEMORY_EMAIL:     ${{ secrets.MYMEMORY_EMAIL }}    # opcional (si lo configuras, mejora cuota)
-          LIBRE_ENDPOINT:     ${{ vars.LIBRE_ENDPOINT }}        # opcional (p.ej. https://libretranslate.de)
+          MYMEMORY_EMAIL:     ${{ secrets.MYMEMORY_EMAIL }}  # opcional
+          LIBRE_ENDPOINT:     ${{ vars.LIBRE_ENDPOINT }}     # opcional, ej: https://libretranslate.de
         run: |
+          set -euo pipefail
           node scripts/ensure-title-es-free.mjs
 
       - name: 🔎 Diagnóstico después (title_es faltante/igual)
@@ -74,6 +82,7 @@ jobs:
 
       - name: ⬆️ Commit & push cambios
         run: |
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$ENRICHED_JSON"
@@ -81,33 +90,35 @@ jobs:
           git push
 
   update-eduflash:
+    needs: enrich_and_ensure
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout FuturoCientífico
-        uses: actions/checkout@v3
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
         with:
-          path: futurocientifico
-          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
-      - name: Instalar dependencias Python
-        working-directory: futurocientifico
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Instalar dependencias Python
         run: |
           python -m pip install --upgrade pip
           pip install feedparser beautifulsoup4
 
-      - name: Ejecutar EduFlash
-        working-directory: futurocientifico
-        run: python scripts/eduflash_pipeline.py
-
-      - name: Commit y push de EduFlash
-        working-directory: futurocientifico
+      - name: ▶️ Ejecutar EduFlash
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          set -euo pipefail
+          python scripts/eduflash_pipeline.py
+
+      - name: 📝 Commit y push de EduFlash
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/eduflash.json
           git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "Sin cambios"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || echo "Nada que aplicar"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push
+
