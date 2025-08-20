@@ -1,4 +1,4 @@
-name: "Render TikTok Video (auto título)"
+name: "Render TikTok Video (auto título desde ENRICH)"
 
 on:
   workflow_dispatch:
@@ -12,9 +12,9 @@ on:
         required: false
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
       text2:
-        description: "Título (si lo dejas vacío o con el default, se toma del último artículo)"
+        description: "Título (se ignorará si hay enriched; usaremos el último)"
         required: false
-        default: "Un dato científico al día"
+        default: ""
       text3:
         description: "Texto 3 (CTA)"
         required: false
@@ -61,29 +61,22 @@ jobs:
           fi
           echo "✅ Usando imagen: $IMAGE_PATH"
 
-      - name: Obtener título del último artículo (enriched o fallback)
+      - name: Obtener SIEMPRE el último título de ENRICH
         id: lasttitle
         run: |
           set -euo pipefail
-          FILE=""
-          if [ -s public/articles_enriched.json ]; then
-            FILE=public/articles_enriched.json
-          elif [ -s public/articles.json ]; then
-            FILE=public/articles.json
-          else
-            echo "❌ No hay public/articles_enriched.json ni public/articles.json"
+          FILE="public/articles_enriched.json"
+          if [ ! -s "$FILE" ]; then
+            echo "❌ Falta $FILE. Ejecuta antes el workflow que genera el enriched."
             exit 1
           fi
           echo "Leyendo de: $FILE"
-
-          # Tomamos el último por fecha (published o date), priorizando title_es
           TITLE=$(jq -r 'sort_by(.published // .date) | reverse | .[0] | (.title_es // .title // "")' "$FILE")
           if [ -z "$TITLE" ] || [ "$TITLE" = "null" ]; then
-            echo "❌ No se pudo extraer un título"
+            echo "❌ No se pudo extraer un título válido del enriched"
             exit 1
           fi
-
-          # Guardamos en GITHUB_ENV para usarlo después
+          # Guarda en env para los siguientes pasos
           echo "AUTO_TITLE=$TITLE" >> "$GITHUB_ENV"
           echo "Título detectado: $TITLE"
 
@@ -91,7 +84,6 @@ jobs:
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
-
           if [ -s "public/audio/default.mp3" ]; then
             echo "🎵 Usando audio local public/audio/default.mp3"
             IN=public/audio/default.mp3
@@ -100,7 +92,6 @@ jobs:
             curl -L --fail -o default_music.mp3 "$DEFAULT_MUSIC_URL" || { echo "⚠️ Falló la descarga, genero silencio"; IN=""; }
             [ -f default_music.mp3 ] && IN=default_music.mp3 || IN=""
           fi
-
           if [ -z "$IN" ]; then
             echo "🔇 Genero audio silencioso ${DUR}s"
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
@@ -109,38 +100,31 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: Crear archivos de texto (usa input o auto-título si aplica)
+      - name: Crear archivos de texto (usa título auto de ENRICH)
         run: |
           set -euo pipefail
           T1="${{ github.event.inputs.text1 }}"
-          # Si text2 viene vacío o con el default, usamos el auto-título detectado
-          IN_T2="${{ github.event.inputs.text2 }}"
-          if [ -z "$IN_T2" ] || [ "$IN_T2" = "Un dato científico al día" ]; then
-            T2="${AUTO_TITLE}"
-          else
-            T2="$IN_T2"
-          fi
+          T2="${AUTO_TITLE}"  # siempre el de enriched
           T3="${{ github.event.inputs.text3 }}"
           T4="${{ github.event.inputs.text4 }}"
-
           printf "%s" "$T1" > t1.txt
           printf "%s" "$T2" > t2.txt
           printf "%s" "$T3" > t3.txt
           printf "%s" "$T4" > t4.txt
-
           echo "✔️ text2 usado: $T2"
 
-      - name: Renderizar vídeo 1080x1920 con ffmpeg
+      - name: Renderizar vídeo 1080x1920 con ffmpeg (letras más pequeñas)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
 
+          # ↓↓↓ Fuentes más pequeñas que antes
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=56:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=120"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=64:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=360"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=52:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=40:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1700"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
 
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a \
             -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
