@@ -38,8 +38,7 @@ jobs:
           repository: wowow88/curioscience
           fetch-depth: 0
           path: curioscience
-          # Si es privado, define GH_TOKEN en Secrets:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}  # si es privado
 
       - name: "Instalar jq"
         run: |
@@ -65,7 +64,6 @@ jobs:
           echo "✅ Copiado a futurocientifico/public/articles.json"
           jq length "futurocientifico/public/articles.json"
 
-      # A partir de aquí trabajamos SIEMPRE dentro de ./futurocientifico y con rutas relativas
       - name: "Enriquecer (ordenar + limpiar campos pesados)"
         working-directory: futurocientifico
         env:
@@ -133,7 +131,7 @@ jobs:
         working-directory: futurocientifico
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser beautifulsoup4
+          pip install feedparser beautifulsoup4 requests
 
       - name: "Ejecutar EduFlash"
         working-directory: futurocientifico
@@ -151,4 +149,3 @@ jobs:
           git add public/eduflash.json
           git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "No changes"
           git push
-
