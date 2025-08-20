@@ -9,20 +9,20 @@ on:
         default: "futurocientifico.mp4"
       text1:
         description: "Texto 1 (branding)"
-        required: true
+        required: false
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
       text2:
-        description: "Texto 2 (principal)"
+        description: "Título"
         required: true
         default: "Un dato científico al día"
       text3:
         description: "Texto 3 (CTA)"
-        required: true
-        default: "Síguenos @futurocientifico"
+        required: false
+        default: "#Ciencia #Curiosidades #FuturoCientífico"
       text4:
         description: "Texto 4 (URL)"
-        required: true
-        default: "futurocientifico.vercel.app"
+        required: false
+        default: "IG:@futurocientifico2025 • TikTok:@futurocientifico • X:@futuro100tico • YouTube:@futurocientifico"
       duration:
         description: "Duración del vídeo (segundos)"
         required: true
