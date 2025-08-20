@@ -1,4 +1,4 @@
-name: Render TikTok (auto titulo_es + prompt + cover)
+name: Render TikTok (title_es + cover + prompt + IG/X + Drive)
 
 on:
   workflow_dispatch:
@@ -19,6 +19,14 @@ on:
         description: Texto 4 (URL / redes)
         required: false
         default: "IG:@futurocientifico2025 • TikTok:@futurocientifico • X:@futuro100tico • YouTube:@futurocientifico"
+      hashtags_ig:
+        description: Hashtags para Instagram
+        required: false
+        default: "#Ciencia #Divulgación #FuturoCientífico"
+      hashtags_x:
+        description: Hashtags para X
+        required: false
+        default: "#Ciencia #FuturoCientífico"
       duration:
         description: Duración del vídeo (segundos)
         required: true
@@ -34,20 +42,21 @@ env:
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
-  render_and_prompt:
+  render_and_publish:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: ⬇️ Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq y fuentes
+      - name: 🔧 Instalar ffmpeg, jq, ImageMagick, fuentes y rclone
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq fonts-dejavu-core imagemagick
+          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core rclone
 
-      - name: Preparar carpeta fecha
+      - name: 🗂️ Preparar carpeta por fecha
         id: prep
         run: |
           set -euo pipefail
@@ -59,13 +68,13 @@ jobs:
           echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
           echo "outdir=${OUTDIR}" >> "$GITHUB_OUTPUT"
 
-      - name: Verificar enriched e imagen
+      - name: ✅ Verificar enriched e imagen
         run: |
           set -euo pipefail
-          test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
-          test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
+          test -s public/articles_enriched.json || { echo "❌ Falta public/articles_enriched.json"; exit 1; }
+          test -s "$IMAGE_PATH" || { echo "❌ Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
 
-      - name: Extraer ultimo article (title_es obligatorio)
+      - name: 🔎 Elegir último artículo (title_es obligatorio)
         id: pick
         run: |
           set -euo pipefail
@@ -77,7 +86,7 @@ jobs:
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
-            echo "El último artículo no tiene title_es. Aborto."
+            echo "❌ El último artículo no tiene title_es. Aborta."
             exit 1
           fi
           {
@@ -86,8 +95,9 @@ jobs:
             echo "AUTO_DATE=$DATE"
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
+          echo "✅ title_es: $TITLE_ES"
 
-      - name: Preparar audio (local o FreePD; si falla, silencio)
+      - name: 🎵 Preparar audio (local → FreePD → silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
@@ -105,7 +115,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: Crear textos (branding, title_es, CTA, redes)
+      - name: 📝 Crear textos para el vídeo
         run: |
           set -euo pipefail
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
@@ -113,7 +123,7 @@ jobs:
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
           printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-      - name: Renderizar video 1080x1920
+      - name: 🎬 Renderizar vídeo 1080x1920
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -125,8 +135,9 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
+          echo "🎥 $OUTDIR/$OUT"
 
-      - name: Generar cover.png (mismos textos)
+      - name: 🖼️ Generar cover.png (mismos textos)
         run: |
           set -euo pipefail
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
@@ -136,8 +147,9 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
+          echo "🖼️ $OUTDIR/cover.png"
 
-      - name: Construir prompt (github-script)
+      - name: ✍️ Construir prompt y textos IG/X (github-script)
         uses: actions/github-script@v7
         env:
           OUTDIR: ${{ env.OUTDIR }}
@@ -146,14 +158,16 @@ jobs:
           AUTO_SOURCE: ${{ env.AUTO_SOURCE }}
           AUTO_DATE: ${{ env.AUTO_DATE }}
           AUTO_URL: ${{ env.AUTO_URL }}
+          IG_HASHTAGS: ${{ github.event.inputs.hashtags_ig }}
+          X_HASHTAGS: ${{ github.event.inputs.hashtags_x }}
         with:
           script: |
             const fs = require('fs');
             const path = require('path');
-
             const outdir = process.env.OUTDIR;
-            const tplFile = process.env.PROMPT_TEMPLATE_FILE;
 
+            // 1) Prompt
+            const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
               template = fs.readFileSync(tplFile, 'utf8');
@@ -169,36 +183,79 @@ jobs:
                 'Contexto (no dibujar texto, solo orientar la escena):\n' +
                 '- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}\n';
             }
-
             const vars = {
               '{{title_es}}': process.env.AUTO_TITLE_ES || '',
               '{{source}}': process.env.AUTO_SOURCE || '',
               '{{date}}': process.env.AUTO_DATE || '',
               '{{url}}': process.env.AUTO_URL || '',
             };
-
             let prompt = template;
-            for (const [k, v] of Object.entries(vars)) {
-              prompt = prompt.split(k).join(v);
-            }
+            for (const [k, v] of Object.entries(vars)) prompt = prompt.split(k).join(v);
+            fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt, 'utf8');
+            core.info(`✅ Prompt: ${path.join(outdir, 'prompt.txt')}`);
 
-            const outFile = path.join(outdir, 'prompt.txt');
-            fs.writeFileSync(outFile, prompt, 'utf8');
-            core.info(`Prompt escrito en: ${outFile}`);
+            // 2) IG / X texts
+            const title = (process.env.AUTO_TITLE_ES || '').trim();
+            if (!title) core.setFailed('title_es vacío; no puedo crear textos IG/X');
+            const igTags = (process.env.IG_HASHTAGS || '#Ciencia #Divulgación #FuturoCientífico').trim();
+            const xTags  = (process.env.X_HASHTAGS  || '#Ciencia #FuturoCientífico').trim();
 
-      - name: Subir video como artifact
+            const igTplPath = 'scripts/ig-template.txt';
+            const xTplPath  = 'scripts/x-template.txt';
+            const igDefault = '💡 {{title_es}}\n\n{{hashtags}}';
+            const xDefault  = '{{title_es}} — #FuturoCientífico\n\n{{hashtags}}';
+
+            const igTpl = fs.existsSync(igTplPath) ? fs.readFileSync(igTplPath, 'utf8') : igDefault;
+            const xTpl  = fs.existsSync(xTplPath)  ? fs.readFileSync(xTplPath,  'utf8') : xDefault;
+
+            const fill = (tpl, dict) => Object.entries(dict).reduce((s,[k,v]) => s.split(k).join(v), tpl);
+            const igText = fill(igTpl, { '{{title_es}}': title, '{{hashtags}}': igTags });
+            const xText  = fill(xTpl,  { '{{title_es}}': title, '{{hashtags}}': xTags  });
+
+            fs.writeFileSync(path.join(outdir, 'instagram.txt'), igText, 'utf8');
+            fs.writeFileSync(path.join(outdir, 'x.txt'),         xText,  'utf8');
+            core.info(`✅ IG/X: ${path.join(outdir, 'instagram.txt')} | ${path.join(outdir, 'x.txt')}`);
+
+      - name: 📤 Subir vídeo como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
           path: ${{ env.OUTDIR }}/*.mp4
 
-      - name: Commit & push media del dia
+      - name: 📝 Commit & push media del día
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${OUTDIR}"
-          git commit -m "chore: TikTok + cover + prompt (${TODAY}) [skip ci]" || echo "No changes"
+          git commit -m "chore: TikTok + cover + prompt + IG/X (${TODAY}) [skip ci]" || echo "No changes"
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
+
+      - name: ☁️ Subir carpeta del día a Google Drive (rclone + SA)
+        if: always()
+        env:
+          GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          set -euo pipefail
+          echo "$GDRIVE_SA_JSON" > sa.json
+          cat > rclone.conf <<RC
+[gdrive]
+type = drive
+scope = drive
+service_account_file = ${PWD}/sa.json
+root_folder_id = ${GDRIVE_FOLDER_ID}
+RC
+          export RCLONE_CONFIG=${PWD}/rclone.conf
+
+          OUTDIR="${OUTDIR:-media/$(date +%F)}"
+          TODAY="${TODAY:-$(date +%F)}"
+          test -d "$OUTDIR" || { echo "❌ No existe $OUTDIR"; ls -la || true; exit 1; }
+
+          echo "🚀 Subiendo ${OUTDIR} → Google Drive/${TODAY}"
+          rclone mkdir gdrive:"${TODAY}" || true
+          rclone -v copy "${OUTDIR}" gdrive:"${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4 --drive-stop-on-upload-limit
+          echo "✅ Listado en Drive/${TODAY}:"
+          rclone lsf gdrive:"${TODAY}" | sed 's/^/  - /'
