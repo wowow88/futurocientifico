@@ -1,4 +1,4 @@
-name: "Render TikTok Video (auto título desde ENRICH)"
+name: "Render TikTok (auto título_es + prompt + cover)"
 
 on:
   workflow_dispatch:
@@ -11,10 +11,6 @@ on:
         description: "Texto 1 (branding)"
         required: false
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
-      text2:
-        description: "Título (se ignorará si hay enriched; usaremos el último)"
-        required: false
-        default: ""
       text3:
         description: "Texto 3 (CTA)"
         required: false
@@ -34,53 +30,68 @@ permissions:
 env:
   TZ: Europe/Madrid
   IMAGE_PATH: public/avatar-cientifico.png
-  # Música libre (CC0) de FreePD:
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
+  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"   # CC0
+  PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
-  render:
+  render_and_prompt:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: ⬇️ Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq y fuentes
+      - name: 🔧 Instalar ffmpeg, jq, ImageMagick y fuentes
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq fonts-dejavu-core
+          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
 
-      - name: Verificar imagen fija
+      - name: 🗂️ Preparar rutas y carpeta de salida por fecha
+        id: prep
         run: |
           set -euo pipefail
-          if [ ! -s "$IMAGE_PATH" ]; then
-            echo "❌ No existe $IMAGE_PATH"
-            ls -la public || true
-            exit 1
-          fi
-          echo "✅ Usando imagen: $IMAGE_PATH"
+          TODAY="$(date +%F)"
+          echo "TODAY=$TODAY" >> "$GITHUB_ENV"
+          OUTDIR="media/$TODAY"
+          mkdir -p "$OUTDIR"
+          echo "OUTDIR=$OUTDIR" >> "$GITHUB_ENV"
+          echo "Carpeta de salida: $OUTDIR"
 
-      - name: Obtener SIEMPRE el último título de ENRICH
-        id: lasttitle
+      - name: ✅ Verificar enriched e imagen
+        run: |
+          set -euo pipefail
+          test -s public/articles_enriched.json || (echo "❌ Falta public/articles_enriched.json" && exit 1)
+          test -s "$IMAGE_PATH" || (echo "❌ Falta $IMAGE_PATH" && ls -la public || true && exit 1)
+
+      - name: 🔎 Obtener último artículo y su title_es (obligatorio)
+        id: pick
         run: |
           set -euo pipefail
           FILE="public/articles_enriched.json"
-          if [ ! -s "$FILE" ]; then
-            echo "❌ Falta $FILE. Ejecuta antes el workflow que genera el enriched."
-            exit 1
-          fi
-          echo "Leyendo de: $FILE"
-          TITLE=$(jq -r 'sort_by(.published // .date) | reverse | .[0] | (.title_es // .title // "")' "$FILE")
-          if [ -z "$TITLE" ] || [ "$TITLE" = "null" ]; then
-            echo "❌ No se pudo extraer un título válido del enriched"
-            exit 1
-          fi
-          # Guarda en env para los siguientes pasos
-          echo "AUTO_TITLE=$TITLE" >> "$GITHUB_ENV"
-          echo "Título detectado: $TITLE"
+          # Elegimos SIEMPRE el más reciente por published/date
+          SEL=$(jq -r 'sort_by(.published // .date) | reverse | .[0]' "$FILE")
+          TITLE_ES=$(jq -r '(.title_es // "")' <<<"$SEL")
+          SOURCE=$(jq -r '(.source // "")' <<<"$SEL")
+          PUBL=$(jq -r '(.published // .date // "")' <<<"$SEL")
+          DATE="${PUBL%%T*}"
+          URL=$(jq -r '(.url // "")' <<<"$SEL")
 
-      - name: Preparar audio (por defecto FreePD, o archivo local si existe)
+          if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
+            echo "❌ El último artículo no tiene title_es. Corrige/enriquece primero."; exit 1
+          fi
+
+          echo "AUTO_TITLE_ES=$TITLE_ES" >> "$GITHUB_ENV"
+          echo "AUTO_SOURCE=$SOURCE"   >> "$GITHUB_ENV"
+          echo "AUTO_DATE=$DATE"       >> "$GITHUB_ENV"
+          echo "AUTO_URL=$URL"         >> "$GITHUB_ENV"
+
+          echo "title_es: $TITLE_ES"
+          echo "Fuente:   $SOURCE"
+          echo "Fecha:    $DATE"
+          echo "URL:      $URL"
+
+      - name: 🎵 Preparar audio (local si existe; si no, FreePD; si falla, silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
@@ -100,26 +111,20 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: Crear archivos de texto (usa título auto de ENRICH)
+      - name: 📝 Crear archivos de texto (branding, title_es, CTA, redes)
         run: |
           set -euo pipefail
-          T1="${{ github.event.inputs.text1 }}"
-          T2="${AUTO_TITLE}"  # siempre el de enriched
-          T3="${{ github.event.inputs.text3 }}"
-          T4="${{ github.event.inputs.text4 }}"
-          printf "%s" "$T1" > t1.txt
-          printf "%s" "$T2" > t2.txt
-          printf "%s" "$T3" > t3.txt
-          printf "%s" "$T4" > t4.txt
-          echo "✔️ text2 usado: $T2"
+          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
+          printf "%s" "${AUTO_TITLE_ES}" > t2.txt   # <- SOLO title_es
+          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
+          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-      - name: Renderizar vídeo 1080x1920 con ffmpeg (letras más pequeñas)
+      - name: 🎬 Renderizar vídeo 1080x1920 (letras más pequeñas)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
 
-          # ↓↓↓ Fuentes más pequeñas que antes
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
@@ -130,11 +135,72 @@ jobs:
             -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
             -c:a aac -b:a 128k -shortest "$OUT"
 
-          echo "✅ Render listo: $OUT"
-          ls -lh "$OUT"
+          mv "$OUT" "$OUTDIR/$OUT"
+          echo "✅ Vídeo: $OUTDIR/$OUT"
+          ls -lh "$OUTDIR/$OUT"
 
-      - name: Upload artifact
+      - name: 🖼️ Generar imagen de portada (cover.png) con los mismos textos
+        run: |
+          set -euo pipefail
+          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
+          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
+
+          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
+          mv cover.png "$OUTDIR/cover.png"
+          echo "✅ Portada: $OUTDIR/cover.png"
+          ls -lh "$OUTDIR/cover.png"
+
+      - name: ✍️ Construir prompt (plantilla en archivo o fallback)
+        run: |
+          set -euo pipefail
+          if [ -s "$PROMPT_TEMPLATE_FILE" ]; then
+            TEMPLATE="$(cat "$PROMPT_TEMPLATE_FILE")"
+          else
+read -r -d '' TEMPLATE <<'EOF'
+Ilustración científica minimalista y moderna sobre: "{{title_es}}".
+Requisitos:
+- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
+- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
+- Fondo claro y formas geométricas abstractas sutiles.
+- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
+- Orientación cuadrada o 4:5; dejar margen de seguridad.
+Contexto (no dibujar texto, solo orientar la escena):
+- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}
+EOF
+          fi
+
+          esc() { printf '%s' "$1" | sed -e 's/[\/&]/\\&/g'; }
+          T_ESC="$(esc "${AUTO_TITLE_ES}")"
+          S_ESC="$(esc "${AUTO_SOURCE}")"
+          D_ESC="$(esc "${AUTO_DATE}")"
+          U_ESC="$(esc "${AUTO_URL}")"
+
+          PROMPT="$(printf "%s" "$TEMPLATE" \
+            | sed -e "s/{{title_es}}/$T_ESC/g" \
+                  -e "s/{{source}}/$S_ESC/g" \
+                  -e "s/{{date}}/$D_ESC/g" \
+                  -e "s/{{url}}/$U_ESC/g")"
+
+          printf "%s\n" "$PROMPT" > "$OUTDIR/prompt.txt"
+          echo "✅ Prompt: $OUTDIR/prompt.txt"
+
+      - name: 📤 Subir el vídeo como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
-          path: ${{ github.workspace }}/${{ github.event.inputs.out_name }}
+          path: ${{ env.OUTDIR }}/*.mp4
+
+      - name: 📝 Commit & push media del día (vídeo + cover + prompt)
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${OUTDIR}"
+          git commit -m "chore: TikTok + cover + prompt (${TODAY}) [skip ci]" || echo "No changes"
+          git fetch origin main
+          git pull --rebase origin main || true
+          git push || (git pull --rebase origin main && git push)
+
