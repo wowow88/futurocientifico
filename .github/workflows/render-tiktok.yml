@@ -13,7 +13,7 @@ on:
         default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
       text2:
         description: "Texto 2 (principal)"
-        required: false
+        required: true
         default: "Un dato científico al día"
       text3:
         description: "Texto 3 (CTA)"
@@ -23,10 +23,6 @@ on:
         description: "Texto 4 (URL)"
         required: false
         default: "futurocientifico.vercel.app"
-      music_url:
-        description: "URL de música (opcional, MP3/M4A)"
-        required: false
-        default: ""
       duration:
         description: "Duración del vídeo (segundos)"
         required: true
@@ -37,8 +33,9 @@ permissions:
 
 env:
   TZ: Europe/Madrid
-  # Imagen FIJA para TikTok
   IMAGE_PATH: public/avatar-cientifico.png
+  # Música por defecto (CC0 – FreePD). Puedes cambiarla por otra URL directa a MP3.
+  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
 
 jobs:
   render:
@@ -49,7 +46,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg y fuente
+      - name: Instalar ffmpeg y fuentes
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg fonts-dejavu-core
@@ -65,24 +62,27 @@ jobs:
           fi
           echo "✅ Usando imagen: $IMAGE_PATH"
 
-      - name: Preparar audio (descargar o generar silencio)
+      - name: Preparar audio (por defecto FreePD, o archivo local si existe)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
-          MUSIC_URL="${{ github.event.inputs.music_url }}"
-          if [ -n "$MUSIC_URL" ]; then
-            echo "🔊 Descargando música: $MUSIC_URL"
-            curl -L --fail -o music_in  "$MUSIC_URL" || { echo "⚠️ No se pudo descargar música. Generando silencio..."; MUSIC_URL=""; }
+
+          # Si existe un audio local en el repo, se usa preferentemente
+          if [ -s "public/audio/default.mp3" ]; then
+            echo "🎵 Usando audio local public/audio/default.mp3"
+            IN=public/audio/default.mp3
+          else
+            echo "🌐 Descargando música por defecto: $DEFAULT_MUSIC_URL"
+            curl -L --fail -o default_music.mp3 "$DEFAULT_MUSIC_URL" || { echo "⚠️ Falló la descarga, genero silencio"; IN=""; }
+            [ -f default_music.mp3 ] && IN=default_music.mp3 || IN=""
           fi
 
-          if [ -z "$MUSIC_URL" ]; then
-            echo "🎚️ Generando audio silencioso ${DUR}s"
+          if [ -z "$IN" ]; then
+            echo "🔇 Genero audio silencioso ${DUR}s"
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
-          fi
-
-          # Normalizamos a AAC estéreo 44.1k
-          if [ ! -f music_in.m4a ]; then
-            ffmpeg -y -i music_in -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
+          else
+            echo "🎚️ Normalizo a AAC estéreo 44.1k"
+            ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
       - name: Crear archivos de texto (evita problemas de escapado)
@@ -99,15 +99,12 @@ jobs:
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
 
-          # Filtro de video: escala a 1080 de ancho, rellena alto a 1920, y superpone 4 textos
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-          # drawtext: usa familia DejaVu Sans (instalada por el paquete fonts-dejavu-core)
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=56:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=120"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=64:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=360"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=52:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=1520"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=40:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1700"
 
-          # Creamos el vídeo a partir de una imagen fija (-loop 1) + audio normalizado
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a \
             -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
             -c:a aac -b:a 128k -shortest "$OUT"
@@ -120,16 +117,3 @@ jobs:
         with:
           name: video
           path: ${{ github.workspace }}/${{ github.event.inputs.out_name }}
-
-      # (Opcional) Publicar en un Release para URL directa
-      - name: Create Release
-        if: always()
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: auto-video-${{ github.run_id }}
-          name: Auto Video ${{ github.run_id }}
-          draft: false
-          prerelease: false
-          files: ${{ github.workspace }}/${{ github.event.inputs.out_name }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
