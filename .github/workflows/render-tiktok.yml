@@ -30,13 +30,12 @@ permissions:
 env:
   TZ: Europe/Madrid
   IMAGE_PATH: public/avatar-cientifico.png
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"   # CC0
+  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
   render_and_prompt:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,7 +58,6 @@ jobs:
           echo "OUTDIR=${OUTDIR}" >> "$GITHUB_ENV"
           echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
           echo "outdir=${OUTDIR}" >> "$GITHUB_OUTPUT"
-          echo "Carpeta de salida: ${OUTDIR}"
 
       - name: Verificar enriched e imagen
         run: |
@@ -78,12 +76,10 @@ jobs:
           PUBL="$(printf '%s' "$SEL" | jq -r '(.published // .date // "")')"
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
-
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
             echo "❌ El último artículo no tiene title_es. Corrige/enriquece primero."
             exit 1
           fi
-
           {
             echo "AUTO_TITLE_ES=$TITLE_ES"
             echo "AUTO_SOURCE=$SOURCE"
@@ -91,28 +87,18 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          echo "title_es: $TITLE_ES"
-          echo "Fuente:   $SOURCE"
-          echo "Fecha:    $DATE"
-          echo "URL:      $URL"
-
       - name: Preparar audio (local si existe; si no, FreePD; si falla, silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
           IN=""
           if [ -s "public/audio/default.mp3" ]; then
-            echo "🎵 Usando audio local public/audio/default.mp3"
             IN="public/audio/default.mp3"
           else
-            echo "🌐 Descargando música por defecto: ${DEFAULT_MUSIC_URL}"
             if curl -L --fail -o default_music.mp3 "${DEFAULT_MUSIC_URL}"; then
               IN="default_music.mp3"
-            else
-              echo "⚠️ Falló la descarga; se generará silencio."
             fi
           fi
-
           if [ -z "$IN" ]; then
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
           else
@@ -132,20 +118,13 @@ jobs:
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
-
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
-
-          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a \
-            -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
-            -c:a aac -b:a 128k -shortest "$OUT"
-
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
-          echo "✅ Vídeo: $OUTDIR/$OUT"
-          ls -lh "$OUTDIR/$OUT"
 
       - name: Generar imagen de portada (cover.png) con los mismos textos
         run: |
@@ -155,50 +134,43 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
-
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
-          echo "✅ Portada: $OUTDIR/cover.png"
-          ls -lh "$OUTDIR/cover.png"
 
-      - name: Construir prompt (plantilla en archivo o fallback)
+      - name: Construir prompt (plantilla en archivo o fallback sin here-doc)
         run: |
           set -euo pipefail
           if [ -s "$PROMPT_TEMPLATE_FILE" ]; then
             cp "$PROMPT_TEMPLATE_FILE" prompt.tpl
           else
-            cat > prompt.tpl <<'EOF'
-Ilustración científica minimalista y moderna sobre: "{{title_es}}".
-Requisitos:
-- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
-- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
-- Fondo claro y formas geométricas abstractas sutiles.
-- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
-- Orientación cuadrada o 4:5; dejar margen de seguridad.
-Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}
-EOF
+            printf "%s\n" \
+"Ilustración científica minimalista y moderna sobre: \"{{title_es}}\"." \
+"Requisitos:" \
+"- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG." \
+"- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación." \
+"- Fondo claro y formas geométricas abstractas sutiles." \
+"- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico." \
+"- Orientación cuadrada o 4:5; dejar margen de seguridad." \
+"Contexto (no dibujar texto, solo orientar la escena):" \
+"- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}" \
+> prompt.tpl
           fi
-
           esc() { printf '%s' "$1" | sed -e 's/[\/&|]/\\&/g'; }
           T_ESC="$(esc "${AUTO_TITLE_ES}")"
           S_ESC="$(esc "${AUTO_SOURCE}")"
           D_ESC="$(esc "${AUTO_DATE}")"
           U_ESC="$(esc "${AUTO_URL}")"
-
           sed -e "s|{{title_es}}|$T_ESC|g" \
               -e "s|{{source}}|$S_ESC|g" \
               -e "s|{{date}}|$D_ESC|g" \
               -e "s|{{url}}|$U_ESC|g" \
               prompt.tpl > "$OUTDIR/prompt.txt"
 
-          echo "✅ Prompt: $OUTDIR/prompt.txt"
-
       - name: Subir vídeo como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
-          path: ${{ steps.prep.outputs.outdir }}/*.mp4
+          path: ${{ env.OUTDIR }}/*.mp4
 
       - name: Commit & push media del día (vídeo + cover + prompt)
         run: |
