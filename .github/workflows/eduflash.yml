@@ -1,4 +1,4 @@
-name: "🔄 Actualizaciones diarias y semanales"
+name: "Daily: Articles & EduFlash"
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         required: false
         default: "200"
   schedule:
-    - cron: "20 06 * * *"  # 06:20 UTC ≈ 08:20 Europe/Madrid
+    - cron: "20 06 * * *"  # 06:20 UTC (~08:20 Madrid)
 
 permissions:
   contents: write
@@ -19,52 +19,56 @@ concurrency:
 
 env:
   TZ: Europe/Madrid
-  USER_AGENT: curioscience-bot/1.0 (+https://futurocientifico.vercel.app)
+  USER_AGENT: "curioscience-bot/1.0 (+https://futurocientifico.vercel.app)"
   # Rutas dentro del checkout del repo actual (carpeta ./futurocientifico)
-  ARTICLES_JSON: futurocientifico/public/articles.json
-  ENRICHED_JSON: futurocientifico/public/articles_enriched.json
+  ARTICLES_JSON: "futurocientifico/public/articles.json"
+  ENRICHED_JSON: "futurocientifico/public/articles_enriched.json"
 
 jobs:
   articles:
-    name: "Artículos (enrich + ensure title_es FREE)"
+    name: "Artículos: enrich + ensure title_es (free)"
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️ Checkout FuturoCientífico (repo actual)
+      - name: "Checkout FuturoCientífico (repo actual)"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           path: futurocientifico
 
-      - name: ⬇️ Checkout CurioScience (fuente de articles.json)
+      - name: "Checkout CurioScience (fuente de articles.json)"
         uses: actions/checkout@v4
         with:
           repository: wowow88/curioscience
           fetch-depth: 0
           path: curioscience
-          # Si ese repo es privado, crea el secret GH_TOKEN y descomenta:
+          # Si es privado, define GH_TOKEN en Secrets:
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: 📦 Instalar jq
+      - name: "Instalar jq"
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: 🟦 Setup Node.js 20
+      - name: "Setup Node.js 20"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: 📁 Copiar articles.json desde CurioScience → FuturoCientífico
+      - name: "Copiar articles.json desde CurioScience → FuturoCientífico"
         run: |
           set -euo pipefail
           mkdir -p futurocientifico/public
           SRC="curioscience/workspace/astro/public/articles.json"
-          test -s "$SRC" || (echo "❌ No existe $SRC" && ls -la curioscience/workspace/astro/public || true && exit 1)
+          if [ ! -s "$SRC" ]; then
+            echo "❌ No existe $SRC"
+            ls -la curioscience/workspace/astro/public || true
+            exit 1
+          fi
           cp "$SRC" "$ARTICLES_JSON"
           echo "✅ Copiado a $ARTICLES_JSON"
           jq length "$ARTICLES_JSON"
 
-      - name: 🧪 Enriquecer (ordenar + limpiar campos pesados)
+      - name: "Enriquecer (ordenar + limpiar campos pesados)"
         working-directory: futurocientifico
         env:
           ARTICLES_IN:  ${{ env.ARTICLES_JSON }}
@@ -76,11 +80,11 @@ jobs:
           test -s "${{ env.ENRICHED_JSON }}" || (echo "❌ No se generó ${{ env.ENRICHED_JSON }}" && exit 1)
           echo "Total enriched: $(jq length "${{ env.ENRICHED_JSON }}")"
 
-      - name: 🔎 Diagnóstico antes (title_es faltante/igual)
+      - name: "Diagnóstico antes (title_es faltante/igual)"
         run: |
           jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
 
-      - name: 🌐 Asegurar títulos en ES (gratis: MyMemory/Libre)
+      - name: "Asegurar títulos en ES (gratis: MyMemory/Libre)"
         working-directory: futurocientifico
         env:
           ARTICLES_IN:        ${{ env.ENRICHED_JSON }}
@@ -95,11 +99,11 @@ jobs:
           test -f scripts/ensure-title-es-free.mjs || (echo "❌ Falta scripts/ensure-title-es-free.mjs" && exit 1)
           node scripts/ensure-title-es-free.mjs
 
-      - name: 🔎 Diagnóstico después (title_es faltante/igual)
+      - name: "Diagnóstico después (title_es faltante/igual)"
         run: |
           jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
 
-      - name: 📝 Commit & push (solo enriched)
+      - name: "Commit & push (solo enriched)"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
@@ -110,35 +114,35 @@ jobs:
           git push
 
   eduflash:
-    name: "EduFlash (JSON diario)"
+    name: "EduFlash: JSON diario"
     needs: articles
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️ Checkout FuturoCientífico (repo actual)
+      - name: "Checkout FuturoCientífico (repo actual)"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           path: futurocientifico
 
-      - name: 🐍 Setup Python 3.11
+      - name: "Setup Python 3.11"
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: 📦 Instalar dependencias Python
+      - name: "Instalar dependencias Python"
         working-directory: futurocientifico
         run: |
           python -m pip install --upgrade pip
           pip install feedparser beautifulsoup4
 
-      - name: ▶️ Ejecutar EduFlash
+      - name: "Ejecutar EduFlash"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
           test -f scripts/eduflash_pipeline.py || (echo "❌ Falta scripts/eduflash_pipeline.py" && exit 1)
           python scripts/eduflash_pipeline.py
 
-      - name: 📝 Commit y push de EduFlash
+      - name: "Commit y push de EduFlash"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
