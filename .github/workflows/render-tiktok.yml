@@ -44,6 +44,7 @@ env:
 jobs:
   render_and_publish:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -228,16 +229,21 @@ jobs:
         run: |
           set -euo pipefail
           echo "$GDRIVE_SA_JSON" > sa.json
-          cat > rclone.conf <<RC
-[gdrive]
-type = drive
-scope = drive
-service_account_file = ${PWD}/sa.json
-root_folder_id = ${GDRIVE_FOLDER_ID}
-RC
-          export RCLONE_CONFIG=${PWD}/rclone.conf
+
+          # Crear rclone.conf sin here-doc
+          {
+            echo "[gdrive]"
+            echo "type = drive"
+            echo "scope = drive"
+            echo "service_account_file = ${PWD}/sa.json"
+            echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
+          } > rclone.conf
+
+          export RCLONE_CONFIG="${PWD}/rclone.conf"
+
           OUTDIR="${OUTDIR:-media/$(date +%F)}"
           TODAY="${TODAY:-$(date +%F)}"
           test -d "$OUTDIR" || { echo "No existe $OUTDIR"; exit 1; }
-          rclone mkdir gdrive:"${TODAY}" || true
-          rclone -v copy "${OUTDIR}" gdrive:"${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4 --drive-stop-on-upload-limit
+
+          rclone mkdir "gdrive:${TODAY}" || true
+          rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4 --drive-stop-on-upload-limit
