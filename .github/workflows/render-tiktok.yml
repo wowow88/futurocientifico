@@ -30,24 +30,24 @@ permissions:
 env:
   TZ: Europe/Madrid
   IMAGE_PATH: public/avatar-cientifico.png
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"   # CC0
+  DEFAULT_MUSIC_URL: https://freepd.com/music/Adventure.mp3
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
   render_and_prompt:
     runs-on: ubuntu-latest
     steps:
-      - name: ⬇️ Checkout
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🔧 Instalar ffmpeg, jq, ImageMagick y fuentes
+      - name: Instalar ffmpeg, jq, ImageMagick y fuentes
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
 
-      - name: 🗂️ Preparar rutas y carpeta de salida por fecha
+      - name: Preparar rutas y carpeta de salida por fecha
         id: prep
         run: |
           set -euo pipefail
@@ -58,68 +58,73 @@ jobs:
           echo "OUTDIR=$OUTDIR" >> "$GITHUB_ENV"
           echo "Carpeta de salida: $OUTDIR"
 
-      - name: ✅ Verificar enriched e imagen
+      - name: Verificar enriched e imagen
         run: |
           set -euo pipefail
-          test -s public/articles_enriched.json || (echo "❌ Falta public/articles_enriched.json" && exit 1)
-          test -s "$IMAGE_PATH" || (echo "❌ Falta $IMAGE_PATH" && ls -la public || true && exit 1)
+          test -s public/articles_enriched.json || (echo "Falta public/articles_enriched.json" && exit 1)
+          test -s "$IMAGE_PATH" || (echo "Falta $IMAGE_PATH" && ls -la public || true && exit 1)
 
-      - name: 🔎 Obtener último artículo y su title_es (obligatorio)
+      - name: Obtener último artículo y su title_es (obligatorio)
         id: pick
         run: |
           set -euo pipefail
           FILE="public/articles_enriched.json"
-          # Elegimos SIEMPRE el más reciente por published/date
-          SEL=$(jq -r 'sort_by(.published // .date) | reverse | .[0]' "$FILE")
-          TITLE_ES=$(jq -r '(.title_es // "")' <<<"$SEL")
-          SOURCE=$(jq -r '(.source // "")' <<<"$SEL")
-          PUBL=$(jq -r '(.published // .date // "")' <<<"$SEL")
+          SEL="$(jq -r 'sort_by(.published // .date) | reverse | .[0]' "$FILE")"
+          TITLE_ES="$(jq -r '(.title_es // "")' <<<"$SEL")"
+          SOURCE="$(jq -r '(.source // "")' <<<"$SEL")"
+          PUBL="$(jq -r '(.published // .date // "")' <<<"$SEL")"
           DATE="${PUBL%%T*}"
-          URL=$(jq -r '(.url // "")' <<<"$SEL")
+          URL="$(jq -r '(.url // "")' <<<"$SEL")"
 
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
-            echo "❌ El último artículo no tiene title_es. Corrige/enriquece primero."; exit 1
+            echo "El último artículo no tiene title_es. Corrige/enriquece primero."
+            exit 1
           fi
 
-          echo "AUTO_TITLE_ES=$TITLE_ES" >> "$GITHUB_ENV"
-          echo "AUTO_SOURCE=$SOURCE"   >> "$GITHUB_ENV"
-          echo "AUTO_DATE=$DATE"       >> "$GITHUB_ENV"
-          echo "AUTO_URL=$URL"         >> "$GITHUB_ENV"
+          {
+            echo "AUTO_TITLE_ES=$TITLE_ES"
+            echo "AUTO_SOURCE=$SOURCE"
+            echo "AUTO_DATE=$DATE"
+            echo "AUTO_URL=$URL"
+          } >> "$GITHUB_ENV"
 
           echo "title_es: $TITLE_ES"
           echo "Fuente:   $SOURCE"
           echo "Fecha:    $DATE"
           echo "URL:      $URL"
 
-      - name: 🎵 Preparar audio (local si existe; si no, FreePD; si falla, silencio)
+      - name: Preparar audio (local si existe; si no, FreePD; si falla, silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
+          IN=""
           if [ -s "public/audio/default.mp3" ]; then
-            echo "🎵 Usando audio local public/audio/default.mp3"
-            IN=public/audio/default.mp3
+            echo "Usando audio local public/audio/default.mp3"
+            IN="public/audio/default.mp3"
           else
-            echo "🌐 Descargando música por defecto: $DEFAULT_MUSIC_URL"
-            curl -L --fail -o default_music.mp3 "$DEFAULT_MUSIC_URL" || { echo "⚠️ Falló la descarga, genero silencio"; IN=""; }
-            [ -f default_music.mp3 ] && IN=default_music.mp3 || IN=""
+            echo "Descargando música por defecto: $DEFAULT_MUSIC_URL"
+            if curl -L --fail -o default_music.mp3 "$DEFAULT_MUSIC_URL"; then
+              IN="default_music.mp3"
+            else
+              echo "Fallo descarga; se generará silencio."
+            fi
           fi
+
           if [ -z "$IN" ]; then
-            echo "🔇 Genero audio silencioso ${DUR}s"
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
           else
-            echo "🎚️ Normalizo a AAC estéreo 44.1k"
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: 📝 Crear archivos de texto (branding, title_es, CTA, redes)
+      - name: Crear archivos de texto (branding, title_es, CTA, redes)
         run: |
           set -euo pipefail
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
-          printf "%s" "${AUTO_TITLE_ES}" > t2.txt   # <- SOLO title_es
+          printf "%s" "${AUTO_TITLE_ES}" > t2.txt
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
           printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-      - name: 🎬 Renderizar vídeo 1080x1920 (letras más pequeñas)
+      - name: Renderizar vídeo 1080x1920 (letras más pequeñas)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -136,10 +141,10 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
 
           mv "$OUT" "$OUTDIR/$OUT"
-          echo "✅ Vídeo: $OUTDIR/$OUT"
+          echo "Vídeo: $OUTDIR/$OUT"
           ls -lh "$OUTDIR/$OUT"
 
-      - name: 🖼️ Generar imagen de portada (cover.png) con los mismos textos
+      - name: Generar imagen de portada (cover.png) con los mismos textos
         run: |
           set -euo pipefail
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
@@ -150,17 +155,17 @@ jobs:
 
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
-          echo "✅ Portada: $OUTDIR/cover.png"
+          echo "Portada: $OUTDIR/cover.png"
           ls -lh "$OUTDIR/cover.png"
 
-      - name: ✍️ Construir prompt (plantilla en archivo o fallback)
+      - name: Construir prompt (plantilla en archivo o fallback)
         run: |
           set -euo pipefail
+          # Si hay plantilla en scripts/prompt-template.txt la usamos; si no, fallback embebido
           if [ -s "$PROMPT_TEMPLATE_FILE" ]; then
             TEMPLATE="$(cat "$PROMPT_TEMPLATE_FILE")"
           else
-read -r -d '' TEMPLATE <<'EOF'
-Ilustración científica minimalista y moderna sobre: "{{title_es}}".
+            TEMPLATE="Ilustración científica minimalista y moderna sobre: \"{{title_es}}\".
 Requisitos:
 - Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
 - Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
@@ -168,10 +173,10 @@ Requisitos:
 - Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
 - Orientación cuadrada o 4:5; dejar margen de seguridad.
 Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}
-EOF
+- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}"
           fi
 
+          # Reemplazos seguros sin here-doc problemáticos
           esc() { printf '%s' "$1" | sed -e 's/[\/&]/\\&/g'; }
           T_ESC="$(esc "${AUTO_TITLE_ES}")"
           S_ESC="$(esc "${AUTO_SOURCE}")"
@@ -185,15 +190,15 @@ EOF
                   -e "s/{{url}}/$U_ESC/g")"
 
           printf "%s\n" "$PROMPT" > "$OUTDIR/prompt.txt"
-          echo "✅ Prompt: $OUTDIR/prompt.txt"
+          echo "Prompt: $OUTDIR/prompt.txt"
 
-      - name: 📤 Subir el vídeo como artifact
+      - name: Subir vídeo como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
           path: ${{ env.OUTDIR }}/*.mp4
 
-      - name: 📝 Commit & push media del día (vídeo + cover + prompt)
+      - name: Commit & push media del día (vídeo + cover + prompt)
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
@@ -203,4 +208,3 @@ EOF
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
-
