@@ -1,119 +1,56 @@
-name: "Render TikTok Video"
-
-on:
-  workflow_dispatch:
-    inputs:
-      out_name:
-        description: "Nombre del archivo de salida"
-        required: true
-        default: "futurocientifico.mp4"
-      text1:
-        description: "Texto 1 (branding)"
-        required: false
-        default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
-      text2:
-        description: "Título"
-        required: true
-        default: "Un dato científico al día"
-      text3:
-        description: "Texto 3 (CTA)"
-        required: false
-        default: "#Ciencia #Curiosidades #FuturoCientífico"
-      text4:
-        description: "Texto 4 (URL)"
-        required: false
-        default: "IG:@futurocientifico2025 • TikTok:@futurocientifico • X:@futuro100tico • YouTube:@futurocientifico"
-      duration:
-        description: "Duración del vídeo (segundos)"
-        required: true
-        default: "59"
-
-permissions:
-  contents: write
-
-env:
-  TZ: Europe/Madrid
-  IMAGE_PATH: public/avatar-cientifico.png
-  # Música por defecto (CC0 – FreePD). Puedes cambiarla por otra URL directa a MP3.
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
-
-jobs:
-  render:
+  eduflash:
+    name: "EduFlash: JSON diario"
+    needs: articles
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: "Checkout FuturoCientífico (repo actual)"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          path: futurocientifico
 
-      - name: Instalar ffmpeg y fuentes
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-dejavu-core
-
-      - name: Verificar imagen fija
+      # ⬇️ Nuevo: sincroniza la rama local con origin/main ANTES de trabajar
+      - name: "Sync con origin/main"
+        working-directory: futurocientifico
         run: |
           set -euo pipefail
-          if [ ! -s "$IMAGE_PATH" ]; then
-            echo "❌ No existe $IMAGE_PATH"
-            echo "Contenido de public/:"
-            ls -la public || true
-            exit 1
-          fi
-          echo "✅ Usando imagen: $IMAGE_PATH"
+          git fetch origin main
+          # Nos aseguramos de estar en main y rebasamos (sin merges)
+          git checkout main
+          git pull --rebase origin main
 
-      - name: Preparar audio (por defecto FreePD, o archivo local si existe)
-        run: |
-          set -euo pipefail
-          DUR="${{ github.event.inputs.duration }}"
-
-          # Si existe un audio local en el repo, se usa preferentemente
-          if [ -s "public/audio/default.mp3" ]; then
-            echo "🎵 Usando audio local public/audio/default.mp3"
-            IN=public/audio/default.mp3
-          else
-            echo "🌐 Descargando música por defecto: $DEFAULT_MUSIC_URL"
-            curl -L --fail -o default_music.mp3 "$DEFAULT_MUSIC_URL" || { echo "⚠️ Falló la descarga, genero silencio"; IN=""; }
-            [ -f default_music.mp3 ] && IN=default_music.mp3 || IN=""
-          fi
-
-          if [ -z "$IN" ]; then
-            echo "🔇 Genero audio silencioso ${DUR}s"
-            ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
-          else
-            echo "🎚️ Normalizo a AAC estéreo 44.1k"
-            ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
-          fi
-
-      - name: Crear archivos de texto (evita problemas de escapado)
-        run: |
-          set -euo pipefail
-          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
-          printf "%s" "${{ github.event.inputs.text2 }}" > t2.txt
-          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
-          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
-
-      - name: Renderizar vídeo 1080x1920 con ffmpeg
-        run: |
-          set -euo pipefail
-          OUT="${{ github.event.inputs.out_name }}"
-          DUR="${{ github.event.inputs.duration }}"
-
-          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=56:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=120"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=64:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=360"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=52:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=12:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=40:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1700"
-
-          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a \
-            -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 \
-            -c:a aac -b:a 128k -shortest "$OUT"
-
-          echo "✅ Render listo: $OUT"
-          ls -lh "$OUT"
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: "Setup Python 3.11"
+        uses: actions/setup-python@v5
         with:
-          name: video
-          path: ${{ github.workspace }}/${{ github.event.inputs.out_name }}
+          python-version: "3.11"
+
+      - name: "Instalar dependencias Python"
+        working-directory: futurocientifico
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser beautifulsoup4 requests
+
+      - name: "Ejecutar EduFlash"
+        working-directory: futurocientifico
+        run: |
+          set -euo pipefail
+          test -f scripts/eduflash_pipeline.py || (echo "❌ Falta scripts/eduflash_pipeline.py" && exit 1)
+          python scripts/eduflash_pipeline.py
+
+      # ⬇️ Opcional: re-verificamos por si la rama avanzó durante el script
+      - name: "Rebase rápido pre-push"
+        working-directory: futurocientifico
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git pull --rebase origin main
+
+      - name: "Commit y push de EduFlash"
+        working-directory: futurocientifico
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/eduflash.json
+          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "No changes"
+          git push
