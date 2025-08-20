@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       image_url:
-        description: "URL de la imagen de fondo"
+        description: "public/avatar-cientifico.png"
         required: true
       out_name:
         description: "Nombre del archivo de salida"
