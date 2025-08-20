@@ -10,15 +10,15 @@ on:
       text1:
         description: Texto 1 (branding)
         required: false
-        default: "FuturoCientífico 🚀 Ciencia en 1 minuto"
+        default: "FuturoCientífico · Ciencia en 1 minuto"
       text3:
         description: Texto 3 (CTA)
         required: false
         default: "#Ciencia #Curiosidades #FuturoCientífico"
       text4:
-        description: Texto 4 (URL / redes)
+        description: Texto 4 (redes)
         required: false
-        default: "IG:@futurocientifico2025 • TikTok:@futurocientifico • X:@futuro100tico • YouTube:@futurocientifico"
+        default: "IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico"
       hashtags_ig:
         description: Hashtags para Instagram
         required: false
@@ -38,25 +38,24 @@ permissions:
 env:
   TZ: Europe/Madrid
   IMAGE_PATH: public/avatar-cientifico.png
-  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"   # CC0
+  DEFAULT_MUSIC_URL: "https://freepd.com/music/Adventure.mp3"
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
   render_and_publish:
     runs-on: ubuntu-latest
-
     steps:
-      - name: ⬇️ Checkout
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🔧 Instalar ffmpeg, jq, ImageMagick, fuentes y rclone
+      - name: Instalar ffmpeg, jq, ImageMagick, fuentes y rclone
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core rclone
 
-      - name: 🗂️ Preparar carpeta por fecha
+      - name: Preparar carpeta por fecha
         id: prep
         run: |
           set -euo pipefail
@@ -68,13 +67,13 @@ jobs:
           echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
           echo "outdir=${OUTDIR}" >> "$GITHUB_OUTPUT"
 
-      - name: ✅ Verificar enriched e imagen
+      - name: Verificar enriched e imagen
         run: |
           set -euo pipefail
-          test -s public/articles_enriched.json || { echo "❌ Falta public/articles_enriched.json"; exit 1; }
-          test -s "$IMAGE_PATH" || { echo "❌ Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
+          test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
+          test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
 
-      - name: 🔎 Elegir último artículo (title_es obligatorio)
+      - name: Elegir último artículo (title_es obligatorio)
         id: pick
         run: |
           set -euo pipefail
@@ -86,8 +85,7 @@ jobs:
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
-            echo "❌ El último artículo no tiene title_es. Aborta."
-            exit 1
+            echo "El último artículo no tiene title_es"; exit 1
           fi
           {
             echo "AUTO_TITLE_ES=$TITLE_ES"
@@ -95,9 +93,8 @@ jobs:
             echo "AUTO_DATE=$DATE"
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
-          echo "✅ title_es: $TITLE_ES"
 
-      - name: 🎵 Preparar audio (local → FreePD → silencio)
+      - name: Preparar audio (local → FreePD → silencio)
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
@@ -115,7 +112,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
           fi
 
-      - name: 📝 Crear textos para el vídeo
+      - name: Crear textos para el vídeo
         run: |
           set -euo pipefail
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
@@ -123,7 +120,7 @@ jobs:
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
           printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-      - name: 🎬 Renderizar vídeo 1080x1920
+      - name: Renderizar vídeo 1080x1920
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -135,9 +132,8 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
-          echo "🎥 $OUTDIR/$OUT"
 
-      - name: 🖼️ Generar cover.png (mismos textos)
+      - name: Generar cover.png
         run: |
           set -euo pipefail
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
@@ -147,9 +143,8 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
-          echo "🖼️ $OUTDIR/cover.png"
 
-      - name: ✍️ Construir prompt y textos IG/X (github-script)
+      - name: Construir prompt y textos IG/X
         uses: actions/github-script@v7
         env:
           OUTDIR: ${{ env.OUTDIR }}
@@ -166,22 +161,21 @@ jobs:
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
-            // 1) Prompt
+            // Prompt
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
               template = fs.readFileSync(tplFile, 'utf8');
             } else {
-              template =
-                'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n' +
-                'Requisitos:\n' +
-                '- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.\n' +
-                '- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.\n' +
-                '- Fondo claro y formas geométricas abstractas sutiles.\n' +
-                '- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.\n' +
-                '- Orientación cuadrada o 4:5; dejar margen de seguridad.\n' +
-                'Contexto (no dibujar texto, solo orientar la escena):\n' +
-                '- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}\n';
+              template = 'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n'
+                       + 'Requisitos:\n'
+                       + '- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.\n'
+                       + '- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.\n'
+                       + '- Fondo claro y formas geométricas abstractas sutiles.\n'
+                       + '- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.\n'
+                       + '- Orientación cuadrada o 4:5; dejar margen de seguridad.\n'
+                       + 'Contexto (no dibujar texto, solo orientar la escena):\n'
+                       + '- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}\n';
             }
             const vars = {
               '{{title_es}}': process.env.AUTO_TITLE_ES || '',
@@ -192,37 +186,30 @@ jobs:
             let prompt = template;
             for (const [k, v] of Object.entries(vars)) prompt = prompt.split(k).join(v);
             fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt, 'utf8');
-            core.info(`✅ Prompt: ${path.join(outdir, 'prompt.txt')}`);
 
-            // 2) IG / X texts
+            // IG / X
             const title = (process.env.AUTO_TITLE_ES || '').trim();
-            if (!title) core.setFailed('title_es vacío; no puedo crear textos IG/X');
             const igTags = (process.env.IG_HASHTAGS || '#Ciencia #Divulgación #FuturoCientífico').trim();
             const xTags  = (process.env.X_HASHTAGS  || '#Ciencia #FuturoCientífico').trim();
 
-            const igTplPath = 'scripts/ig-template.txt';
-            const xTplPath  = 'scripts/x-template.txt';
-            const igDefault = '💡 {{title_es}}\n\n{{hashtags}}';
-            const xDefault  = '{{title_es}} — #FuturoCientífico\n\n{{hashtags}}';
+            const readOr = (p, def) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : def);
+            const igTpl = readOr('scripts/ig-template.txt', '💡 {{title_es}}\n\n{{hashtags}}');
+            const xTpl  = readOr('scripts/x-template.txt',  '{{title_es}} — #FuturoCientífico\n\n{{hashtags}}');
 
-            const igTpl = fs.existsSync(igTplPath) ? fs.readFileSync(igTplPath, 'utf8') : igDefault;
-            const xTpl  = fs.existsSync(xTplPath)  ? fs.readFileSync(xTplPath,  'utf8') : xDefault;
-
-            const fill = (tpl, dict) => Object.entries(dict).reduce((s,[k,v]) => s.split(k).join(v), tpl);
+            const fill = (tpl, map) => Object.entries(map).reduce((s,[k,v]) => s.split(k).join(v), tpl);
             const igText = fill(igTpl, { '{{title_es}}': title, '{{hashtags}}': igTags });
             const xText  = fill(xTpl,  { '{{title_es}}': title, '{{hashtags}}': xTags  });
 
             fs.writeFileSync(path.join(outdir, 'instagram.txt'), igText, 'utf8');
-            fs.writeFileSync(path.join(outdir, 'x.txt'),         xText,  'utf8');
-            core.info(`✅ IG/X: ${path.join(outdir, 'instagram.txt')} | ${path.join(outdir, 'x.txt')}`);
+            fs.writeFileSync(path.join(outdir, 'x.txt'), xText, 'utf8');
 
-      - name: 📤 Subir vídeo como artifact
+      - name: Subir vídeo como artifact
         uses: actions/upload-artifact@v4
         with:
           name: tiktok-video
           path: ${{ env.OUTDIR }}/*.mp4
 
-      - name: 📝 Commit & push media del día
+      - name: Commit & push media del día
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
@@ -233,7 +220,7 @@ jobs:
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
 
-      - name: ☁️ Subir carpeta del día a Google Drive (rclone + SA)
+      - name: Subir carpeta del día a Google Drive (rclone + SA)
         if: always()
         env:
           GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
@@ -249,13 +236,8 @@ service_account_file = ${PWD}/sa.json
 root_folder_id = ${GDRIVE_FOLDER_ID}
 RC
           export RCLONE_CONFIG=${PWD}/rclone.conf
-
           OUTDIR="${OUTDIR:-media/$(date +%F)}"
           TODAY="${TODAY:-$(date +%F)}"
-          test -d "$OUTDIR" || { echo "❌ No existe $OUTDIR"; ls -la || true; exit 1; }
-
-          echo "🚀 Subiendo ${OUTDIR} → Google Drive/${TODAY}"
+          test -d "$OUTDIR" || { echo "No existe $OUTDIR"; exit 1; }
           rclone mkdir gdrive:"${TODAY}" || true
           rclone -v copy "${OUTDIR}" gdrive:"${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4 --drive-stop-on-upload-limit
-          echo "✅ Listado en Drive/${TODAY}:"
-          rclone lsf gdrive:"${TODAY}" | sed 's/^/  - /'
