@@ -1,57 +1,84 @@
 name: 🔄 Actualizaciones diarias y semanales
-
 on:
-  schedule:
-    - cron: "0 6 * * *"  # Todos los días a las 06:00 UTC    
   workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Máximo de títulos a procesar'
+        required: false
+        default: '200'
+  schedule:
+    - cron: '20 06 * * *'  # 06:20 UTC ≈ 08:20 Europe/Madrid
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Madrid
+  USER_AGENT: curioscience-bot/1.0 (+https://futurocientifico.vercel.app)
+  # Rutas de trabajo
+  ARTICLES_JSON: workspace/astro/public/articles.json
+  ENRICHED_JSON: workspace/astro/public/articles_enriched.json
 
 jobs:
-  update-articles:
+  enrich_and_ensure:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout FuturoCientífico
-        uses: actions/checkout@v3
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔧 Setup Node 20
+        uses: actions/setup-node@v4
         with:
-          path: futurocientifico
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
+          node-version: '20'
 
-      - name: Checkout CurioScience
-        uses: actions/checkout@v3
-        with:
-          repository: wowow88/curioscience
-          path: curioscience
-          token: ${{ secrets.GH_TOKEN }}
-          fetch-depth: 0
+      - name: 📦 Instalar jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Copiar archivo desde CurioScience
-        run: cp curioscience/workspace/astro/public/articles.json futurocientifico/public/articles.json
-
-      - name: Enriquecer artículos
-        working-directory: futurocientifico
-        run: node scripts/enrich-articles.js
-
-      - name: Instalar dependencias
-        working-directory: futurocientifico
-        run: npm install --legacy-peer-deps
-
-      - name: Build del sitio
-        working-directory: futurocientifico
-        run: npm run build
-
-      - name: Commit y push de artículos
-        working-directory: futurocientifico
+      - name: ✅ Verificar entrada
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add public/articles_enriched.json
-          git commit -m "📰 Actualización diaria desde CurioScience [skip ci]" || echo "No hay cambios"
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || echo "Nada que aplicar"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          test -s "$ARTICLES_JSON" || (echo "No existe $ARTICLES_JSON" && exit 1)
+          jq length "$ARTICLES_JSON"
 
+      - name: 🧪 Enriquecer (ordenar + limpiar campos pesados)
+        env:
+          ARTICLES_IN:  ${{ env.ARTICLES_JSON }}
+          ARTICLES_OUT: ${{ env.ENRICHED_JSON }}
+        run: |
+          node scripts/enrich-articles.js
+          test -s "$ENRICHED_JSON" || (echo "No se generó $ENRICHED_JSON" && exit 1)
+          echo "Total enriched: $(jq length "$ENRICHED_JSON")"
+
+      - name: 🔎 Diagnóstico antes (title_es faltante/igual)
+        env:
+          FILE: ${{ env.ENRICHED_JSON }}
+        run: |
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$FILE"
+
+      - name: 🌐 Asegurar títulos en ES (gratis)
+        env:
+          ARTICLES_IN:        ${{ env.ENRICHED_JSON }}
+          ARTICLES_OUT:       ${{ env.ENRICHED_JSON }}
+          TITLES_PER_RUN:     ${{ github.event.inputs.limit || '200' }}
+          SLEEP_MS:           '800'
+          USER_AGENT:         ${{ env.USER_AGENT }}
+          MYMEMORY_EMAIL:     ${{ secrets.MYMEMORY_EMAIL }}    # opcional (si lo configuras, mejora cuota)
+          LIBRE_ENDPOINT:     ${{ vars.LIBRE_ENDPOINT }}        # opcional (p.ej. https://libretranslate.de)
+        run: |
+          node scripts/ensure-title-es-free.mjs
+
+      - name: 🔎 Diagnóstico después (title_es faltante/igual)
+        env:
+          FILE: ${{ env.ENRICHED_JSON }}
+        run: |
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$FILE"
+
+      - name: ⬆️ Commit & push cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$ENRICHED_JSON"
+          git commit -m "chore: ensure title_es (free)" || echo "No changes"
+          git push
 
   update-eduflash:
     runs-on: ubuntu-latest
