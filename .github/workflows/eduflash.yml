@@ -16,77 +16,92 @@ permissions:
 env:
   TZ: Europe/Madrid
   USER_AGENT: curioscience-bot/1.0 (+https://futurocientifico.vercel.app)
-  # Rutas de trabajo
-  ARTICLES_JSON: workspace/astro/public/articles.json
-  ENRICHED_JSON: workspace/astro/public/articles_enriched.json
+  # Rutas de trabajo DENTRO del repo actual (checkout en ./futurocientifico)
+  ARTICLES_JSON: futurocientifico/public/articles.json
+  ENRICHED_JSON: futurocientifico/public/articles_enriched.json
 
 jobs:
   enrich_and_ensure:
     runs-on: ubuntu-latest
     steps:
-      - name: 🧰 Checkout
+      - name: ⬇️ Checkout FuturoCientífico (repo actual)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          path: futurocientifico
 
-      - name: 🔧 Setup Node 20
-        uses: actions/setup-node@v4
+      - name: ⬇️ Checkout CurioScience (fuente de articles.json)
+        uses: actions/checkout@v4
         with:
-          node-version: "20"
+          repository: wowow88/curioscience
+          fetch-depth: 0
+          path: curioscience
+          # Si el repo es privado, define GH_TOKEN en Secrets y descomenta:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: 📦 Instalar jq
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: ✅ Verificar entrada
+      - name: 🟦 Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 📁 Copiar articles.json desde CurioScience → FuturoCientífico
         run: |
           set -euo pipefail
-          test -s "$ARTICLES_JSON" || (echo "No existe $ARTICLES_JSON" && exit 1)
+          mkdir -p futurocientifico/public
+          SRC="curioscience/workspace/astro/public/articles.json"
+          test -s "$SRC" || (echo "❌ No existe $SRC" && ls -la curioscience/workspace/astro/public || true && exit 1)
+          cp "$SRC" "$ARTICLES_JSON"
+          echo "✅ Copiado a $ARTICLES_JSON"
           jq length "$ARTICLES_JSON"
 
       - name: 🧪 Enriquecer (ordenar + limpiar campos pesados)
+        working-directory: futurocientifico
         env:
           ARTICLES_IN:  ${{ env.ARTICLES_JSON }}
           ARTICLES_OUT: ${{ env.ENRICHED_JSON }}
         run: |
           set -euo pipefail
+          test -f scripts/enrich-articles.js || (echo "❌ Falta scripts/enrich-articles.js" && exit 1)
           node scripts/enrich-articles.js
-          test -s "$ENRICHED_JSON" || (echo "No se generó $ENRICHED_JSON" && exit 1)
-          echo "Total enriched: $(jq length "$ENRICHED_JSON")"
+          test -s "${{ env.ENRICHED_JSON }}" || (echo "❌ No se generó ${{ env.ENRICHED_JSON }}" && exit 1)
+          echo "Total enriched: $(jq length "${{ env.ENRICHED_JSON }}")"
 
       - name: 🔎 Diagnóstico antes (title_es faltante/igual)
-        env:
-          FILE: ${{ env.ENRICHED_JSON }}
         run: |
-          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$FILE"
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
 
-      - name: 🌐 Asegurar títulos en ES (gratis)
+      - name: 🌐 Asegurar títulos en ES (gratis: MyMemory/Libre)
+        working-directory: futurocientifico
         env:
           ARTICLES_IN:        ${{ env.ENRICHED_JSON }}
           ARTICLES_OUT:       ${{ env.ENRICHED_JSON }}
           TITLES_PER_RUN:     ${{ github.event.inputs.limit || '200' }}
           SLEEP_MS:           "800"
           USER_AGENT:         ${{ env.USER_AGENT }}
-          MYMEMORY_EMAIL:     ${{ secrets.MYMEMORY_EMAIL }}  # opcional
-          LIBRE_ENDPOINT:     ${{ vars.LIBRE_ENDPOINT }}     # opcional, ej: https://libretranslate.de
+          MYMEMORY_EMAIL:     ${{ secrets.MYMEMORY_EMAIL }}   # opcional (mejora cuota)
+          LIBRE_ENDPOINT:     ${{ vars.LIBRE_ENDPOINT }}      # opcional (ej: https://libretranslate.de)
         run: |
           set -euo pipefail
+          test -f scripts/ensure-title-es-free.mjs || (echo "❌ Falta scripts/ensure-title-es-free.mjs" && exit 1)
           node scripts/ensure-title-es-free.mjs
 
       - name: 🔎 Diagnóstico después (title_es faltante/igual)
-        env:
-          FILE: ${{ env.ENRICHED_JSON }}
         run: |
-          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$FILE"
+          jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' "$ENRICHED_JSON"
 
-      - name: ⬆️ Commit & push cambios
+      - name: 📝 Commit & push cambios (solo enriched)
+        working-directory: futurocientifico
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$ENRICHED_JSON"
-          git commit -m "chore: ensure title_es (free)" || echo "No changes"
+          git add public/articles_enriched.json
+          git commit -m "chore: ensure title_es (free) desde CurioScience [skip ci]" || echo "No changes"
           git push
 
   update-eduflash:
@@ -120,5 +135,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/eduflash.json
           git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "Sin cambios"
-          git push
-
