@@ -44,7 +44,6 @@ env:
 jobs:
   render_and_publish:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -54,7 +53,7 @@ jobs:
       - name: Instalar ffmpeg, jq, ImageMagick, fuentes y rclone
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core rclone
+          sudo apt-get install -y ffmpeg jq imagemagick rclone fonts-dejavu-core
 
       - name: Preparar carpeta por fecha
         id: prep
@@ -65,14 +64,12 @@ jobs:
           mkdir -p "${OUTDIR}"
           echo "TODAY=${TODAY}" >> "$GITHUB_ENV"
           echo "OUTDIR=${OUTDIR}" >> "$GITHUB_ENV"
-          echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
-          echo "outdir=${OUTDIR}" >> "$GITHUB_OUTPUT"
 
       - name: Verificar enriched e imagen
         run: |
           set -euo pipefail
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
-          test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; ls -la public || true; exit 1; }
+          test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
       - name: Elegir último artículo (title_es obligatorio)
         id: pick
@@ -131,7 +128,7 @@ jobs:
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
           VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
-          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 20 -c:a aac -b:a 128k -shortest "$OUT"
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
       - name: Generar cover.png
@@ -162,53 +159,40 @@ jobs:
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
-            // Prompt
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
               template = fs.readFileSync(tplFile, 'utf8');
             } else {
               template = 'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n'
-                       + 'Requisitos:\n'
-                       + '- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.\n'
-                       + '- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.\n'
-                       + '- Fondo claro y formas geométricas abstractas sutiles.\n'
-                       + '- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.\n'
-                       + '- Orientación cuadrada o 4:5; dejar margen de seguridad.\n'
-                       + 'Contexto (no dibujar texto, solo orientar la escena):\n'
-                       + '- Fuente: {{source}} | Fecha: {{date}} | URL: {{url}}\n';
+                       + 'Estilo: vector flat, accesible, alto contraste; sin texto ni logos.\n'
+                       + 'Contexto (no dibujar texto): Fuente {{source}} · Fecha {{date}} · URL {{url}}\n';
             }
-            const vars = {
+            const map = {
               '{{title_es}}': process.env.AUTO_TITLE_ES || '',
               '{{source}}': process.env.AUTO_SOURCE || '',
               '{{date}}': process.env.AUTO_DATE || '',
               '{{url}}': process.env.AUTO_URL || '',
             };
             let prompt = template;
-            for (const [k, v] of Object.entries(vars)) prompt = prompt.split(k).join(v);
-            fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt, 'utf8');
+            for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
+            fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
 
-            // IG / X
             const title = (process.env.AUTO_TITLE_ES || '').trim();
-            const igTags = (process.env.IG_HASHTAGS || '#Ciencia #Divulgación #FuturoCientífico').trim();
-            const xTags  = (process.env.X_HASHTAGS  || '#Ciencia #FuturoCientífico').trim();
+            const igTags = (process.env.IG_HASHTAGS || '').trim();
+            const xTags  = (process.env.X_HASHTAGS  || '').trim();
 
-            const readOr = (p, def) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : def);
-            const igTpl = readOr('scripts/ig-template.txt', '💡 {{title_es}}\n\n{{hashtags}}');
-            const xTpl  = readOr('scripts/x-template.txt',  '{{title_es}} — #FuturoCientífico\n\n{{hashtags}}');
+            const igText = `💡 ${title}\n\n${igTags}`;
+            const xText  = `${title} — #FuturoCientífico\n\n${xTags}`;
 
-            const fill = (tpl, map) => Object.entries(map).reduce((s,[k,v]) => s.split(k).join(v), tpl);
-            const igText = fill(igTpl, { '{{title_es}}': title, '{{hashtags}}': igTags });
-            const xText  = fill(xTpl,  { '{{title_es}}': title, '{{hashtags}}': xTags  });
+            fs.writeFileSync(path.join(outdir, 'instagram.txt'), igText);
+            fs.writeFileSync(path.join(outdir, 'x.txt'), xText);
 
-            fs.writeFileSync(path.join(outdir, 'instagram.txt'), igText, 'utf8');
-            fs.writeFileSync(path.join(outdir, 'x.txt'), xText, 'utf8');
-
-      - name: Subir vídeo como artifact
+      - name: Subir artefactos
         uses: actions/upload-artifact@v4
         with:
-          name: tiktok-video
-          path: ${{ env.OUTDIR }}/*.mp4
+          name: tiktok-media
+          path: ${{ env.OUTDIR }}/*
 
       - name: Commit & push media del día
         run: |
@@ -216,56 +200,52 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${OUTDIR}"
-          git commit -m "chore: TikTok + cover + prompt + IG/X (${TODAY}) [skip ci]" || echo "No changes"
+          git commit -m "chore: TikTok media ${TODAY} [skip ci]" || echo "No changes"
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
+
       - name: Diagnóstico rclone (lsd raíz)
-  env:
-    RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
-    RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
-    RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
-    GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-  run: |
-    set -euo pipefail
-    {
-      echo "[gdrive]"
-      echo "type = drive"
-      echo "scope = drive"
-      echo "client_id = ${RCLONE_CLIENT_ID}"
-      echo "client_secret = ${RCLONE_CLIENT_SECRET}"
-      echo "token = ${RCLONE_TOKEN}"
-      [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
-    } > rclone.conf
-    export RCLONE_CONFIG="${PWD}/rclone.conf"
-    echo "🔎 Listando raíz de Drive..."
-    rclone lsd gdrive: || (echo "❌ Token inválido o sin permisos" && exit 1)
+        env:
+          RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
+          RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
+          RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update && sudo apt-get install -y rclone
+          {
+            echo "[gdrive]"
+            echo "type = drive"
+            echo "scope = drive"
+            echo "client_id = ${RCLONE_CLIENT_ID}"
+            echo "client_secret = ${RCLONE_CLIENT_SECRET}"
+            echo "token = ${RCLONE_TOKEN}"
+            [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
+          } > rclone.conf
+          export RCLONE_CONFIG="${PWD}/rclone.conf"
+          echo "🔎 Probando acceso…"
+          rclone lsd gdrive: || (echo "❌ Token inválido o sin permisos" && exit 1)
 
-      - name: Subir carpeta del día a Google Drive (OAuth con tu cuenta)
-  if: always()
-  env:
-    RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
-    RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
-    RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
-    GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }} # opcional
-  run: |
-    set -euo pipefail
-    sudo apt-get update && sudo apt-get install -y rclone
-    {
-      echo "[gdrive]"
-      echo "type = drive"
-      echo "scope = drive"
-      echo "client_id = ${RCLONE_CLIENT_ID}"
-      echo "client_secret = ${RCLONE_CLIENT_SECRET}"
-      echo "token = ${RCLONE_TOKEN}"
-      [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
-    } > rclone.conf
-    export RCLONE_CONFIG="${PWD}/rclone.conf"
-
-    OUTDIR="${OUTDIR:-media/$(date +%F)}"
-    TODAY="${TODAY:-$(date +%F)}"
-    test -d "$OUTDIR" || { echo "❌ No existe $OUTDIR"; exit 1; }
-
-    rclone mkdir "gdrive:${TODAY}" || true
-    rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4
-
+      - name: Subir a Google Drive (OAuth usuario)
+        if: always()
+        env:
+          RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
+          RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
+          RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update && sudo apt-get install -y rclone
+          {
+            echo "[gdrive]"
+            echo "type = drive"
+            echo "scope = drive"
+            echo "client_id = ${RCLONE_CLIENT_ID}"
+            echo "client_secret = ${RCLONE_CLIENT_SECRET}"
+            echo "token = ${RCLONE_TOKEN}"
+            [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
+          } > rclone.conf
+          export RCLONE_CONFIG="${PWD}/rclone.conf"
+          rclone mkdir "gdrive:${TODAY}" || true
+          rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4
