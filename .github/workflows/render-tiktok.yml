@@ -1,18 +1,18 @@
-name: Render TikTok (sin bandas, chip texto, cover XL)
+name: Render TikTok (centrado, chip y título destacado)
 
 on:
   workflow_dispatch:
     inputs:
       out_name:
-        description: "Nombre del archivo de salida"
+        description: Nombre del archivo de salida
         required: true
-        default: "futurocientifico.mp4"
+        default: futurocientifico.mp4
       text1:
-        description: "Texto 1 (branding)"
+        description: Texto 1 (branding)
         required: false
         default: "FuturoCientífico · Ciencia en 1 minuto"
       text3:
-        description: "Texto 3 (CTA)"
+        description: Texto 3 (CTA)
         required: false
         default: "#Ciencia #Curiosidades #FuturoCientífico"
       text4:
@@ -20,7 +20,7 @@ on:
         required: false
         default: "IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico"
       duration:
-        description: "Duración del vídeo (segundos)"
+        description: Duración del vídeo (segundos)
         required: true
         default: "59"
       title_style:
@@ -41,17 +41,17 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-      - name: 🧰 Checkout
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 🛠️ Instalar ffmpeg, jq e ImageMagick (fuentes)
+      - name: Instalar ffmpeg, jq e ImageMagick (fuentes)
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
 
-      - name: 📂 Preparar carpeta por fecha
+      - name: Preparar carpeta por fecha
         run: |
           set -euo pipefail
           TODAY="$(date +%F)"
@@ -60,15 +60,235 @@ jobs:
           echo "TODAY=${TODAY}" >> "$GITHUB_ENV"
           echo "OUTDIR=${OUTDIR}" >> "$GITHUB_ENV"
 
-      - name: ✅ Verificar enriched e imagen
+      - name: Verificar enriched e imagen
         run: |
           set -euo pipefail
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: 📰 Elegir último artículo y preparar textos (wrap + tamaños + redes 2 líneas + chip)
+      - name: Elegir último artículo y preparar textos (wrap + tamaño + redes 2 líneas + chip)
         id: pick
         run: |
           set -euo pipefail
           FILE="public/articles_enriched.json"
-          SEL="$(jq -c 'sort_by(.
+          SEL="$(jq -c 'sort_by(.published // .date) | reverse | .[0]' "$FILE")"
+          TITLE_ES="$(printf '%s' "$SEL" | jq -r '(.title_es // "")')"
+          SOURCE="$(printf '%s' "$SEL" | jq -r '(.source // "")')"
+          PUBL="$(printf '%s' "$SEL" | jq -r '(.published // .date // "")')"
+          DATE="${PUBL%%T*}"
+          URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
+
+          [ -n "$TITLE_ES" ] && [ "$TITLE_ES" != "null" ] || { echo "El último artículo no tiene title_es"; exit 1; }
+
+          {
+            echo "AUTO_TITLE_ES=$TITLE_ES"
+            echo "AUTO_SOURCE=$SOURCE"
+            echo "AUTO_DATE=$DATE"
+            echo "AUTO_URL=$URL"
+          } >> "$GITHUB_ENV"
+
+          # Tamaño/ajuste del título
+          LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
+          if   [ "$LEN" -le 60  ]; then FONT_T2=38; WRAP=28
+          elif [ "$LEN" -le 100 ]; then FONT_T2=32; WRAP=24
+          elif [ "$LEN" -le 140 ]; then FONT_T2=28; WRAP=20
+          else                         FONT_T2=24; WRAP=18
+          fi
+          echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
+
+          # Versión para COVER (más grande, con tope)
+          COVER_T2=$((FONT_T2 + 6))
+          if [ "$COVER_T2" -gt 48 ]; then COVER_T2=48; fi
+          echo "FONT_T2_COVER=${COVER_T2}" >> "$GITHUB_ENV"
+
+          # Textos base
+          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
+          printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
+          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
+
+          # Redes en dos líneas
+          T4_IN="${{ github.event.inputs.text4 }}"
+          printf "%s\n" "$T4_IN" | awk -F "·" '{
+            n=split($0,a,"·");
+            mid=int((n+1)/2);
+            for(i=1;i<=mid;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<mid?" · ":"")}
+            print "";
+            for(i=mid+1;i<=n;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<n?" · ":"")}
+            print "";
+          }' > t4_split.txt
+          sed -n '1p' t4_split.txt > t4a.txt
+          sed -n '2p' t4_split.txt > t4b.txt
+
+          # Chip fijo (gancho)
+          echo "Hoy en #FuturoCientífico" > t2chip.txt
+
+          # Estilo
+          STYLE="${{ github.event.inputs.title_style }}"
+          case "$STYLE" in
+            strip|card|glow) echo "TITLE_STYLE=$STYLE" >> "$GITHUB_ENV" ;;
+            *) echo "TITLE_STYLE=strip" >> "$GITHUB_ENV" ;;
+          esac
+
+      - name: Preparar audio
+        run: |
+          set -euo pipefail
+          DUR="${{ github.event.inputs.duration }}"
+          IN=""
+          if [ -s "public/audio/default.mp3" ]; then
+            IN="public/audio/default.mp3"
+          else
+            if curl -L --fail -o default_music.mp3 "${DEFAULT_MUSIC_URL}"; then
+              IN="default_music.mp3"
+            fi
+          fi
+          if [ -z "$IN" ]; then
+            ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
+          else
+            ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
+          fi
+
+      - name: Renderizar vídeo (título centrado + chip + negrita/contorno/sombra)
+        run: |
+          set -euo pipefail
+          OUT="${{ github.event.inputs.out_name }}"
+          DUR="${{ github.event.inputs.duration }}"
+          FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+          FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
+
+          # Fondo del título según estilo (más opaco)
+          case "$TITLE_STYLE" in
+            strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000CC:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000CC:t=fill" ;;
+            glow)  : ;;
+          esac
+
+          # Branding arriba
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
+
+          # Chip encima del título
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
+
+          # Título centrado (negrita + contorno + sombra)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:line_spacing=8:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
+
+          # CTA y redes (dos líneas)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
+
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
+            -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
+            -c:a aac -b:a 128k -shortest "$OUT"
+          mv "$OUT" "$OUTDIR/$OUT"
+
+      - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji)
+        run: |
+          set -euo pipefail
+          FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+          FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+          # Rellenar y recortar exacto a 1080x1920 (sin letterboxing)
+          VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
+
+          # Plantilla del bloque del título (bandas translúcidas más altas)
+          case "$TITLE_STYLE" in
+            strip) VF="$VF,drawbox=x=0:y=(h/2-380):w=iw:h=820:color=0x000000CC:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-1080)/2:y=(h/2-400):w=1080:h=820:color=0x000000CC:t=fill" ;;
+            glow)  : ;;  # sin caja, solo sombra/contorno del texto
+          esac
+
+          # Branding (arriba, grande)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:box=1:boxcolor=0x000000B0:boxborderw=10:x=(w-text_w)/2:y=70"
+
+          # Chip de contexto (solo texto, SIN emoji)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=12:x=(w-text_w)/2:y=(h/2-360)"
+
+          # Título centrado, muy visible (negrita + contorno + sombra)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
+
+          # CTA y redes (dos líneas, grandes)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1440"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1600"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+
+          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
+          mkdir -p "$OUTDIR"
+          mv cover.png "$OUTDIR/cover.png"
+
+      - name: Construir prompt y textos IG/X
+        uses: actions/github-script@v7
+        env:
+          OUTDIR: ${{ env.OUTDIR }}
+          PROMPT_TEMPLATE_FILE: ${{ env.PROMPT_TEMPLATE_FILE }}
+          AUTO_TITLE_ES: ${{ env.AUTO_TITLE_ES }}
+          AUTO_SOURCE: ${{ env.AUTO_SOURCE }}
+          AUTO_DATE: ${{ env.AUTO_DATE }}
+          AUTO_URL: ${{ env.AUTO_URL }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const outdir = process.env.OUTDIR;
+
+            // Prompt
+            const tplFile = process.env.PROMPT_TEMPLATE_FILE;
+            let template;
+            if (tplFile && fs.existsSync(tplFile)) {
+              template = fs.readFileSync(tplFile, 'utf8');
+            } else {
+              template =
+                'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n' +
+                'Estilo: vector flat, accesible, alto contraste; sin texto ni logos.\n' +
+                'Contexto (no dibujar texto): Fuente {{source}} · Fecha {{date}} · URL {{url}}\n';
+            }
+            const map = {
+              '{{title_es}}': process.env.AUTO_TITLE_ES || '',
+              '{{source}}': process.env.AUTO_SOURCE || '',
+              '{{date}}': process.env.AUTO_DATE || '',
+              '{{url}}': process.env.AUTO_URL || '',
+            };
+            let prompt = template;
+            for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
+            fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
+
+            // Instagram
+            const ig = [
+              '🧠 Nueva cápsula de #FuturoCientífico',
+              '',
+              `Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.`,
+              '🔍 ¿Te imaginabas esto?',
+              '',
+              '🌐https://futurocientifico.vercel.app/revistas',
+              '#Ciencia #Educación #Descubre #Curiosidades'
+            ].join('\n');
+            fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
+
+            // X
+            const x = [
+              '🧠 Hoy en #FuturoCientífico:',
+              '',
+              `«Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.»`,
+              '🌐https://futurocientifico.vercel.app/revistas',
+              '#Ciencia #Curiosidades #Educación'
+            ].join('\n');
+            fs.writeFileSync(path.join(outdir, 'x.txt'), x);
+
+      - name: Subir artefactos
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-media
+          path: ${{ env.OUTDIR }}/*
+
+      - name: Commit & push media del día
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${OUTDIR}"
+          git commit -m "chore: TikTok media ${TODAY} [skip ci]" || echo "No changes"
+          git fetch origin main
+          git pull --rebase origin main || true
+          git push || (git pull --rebase origin main && git push)
+
