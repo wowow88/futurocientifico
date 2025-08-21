@@ -147,7 +147,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (mismas fuentes que cover)
+      - name: 🎬 Renderizar vídeo (sin bandas · sin rellenos)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -163,29 +163,23 @@ jobs:
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Sin bandas negras (fill/crop a 1080x1920)
+          # Sin bandas negras (rellenar y recortar a 1080x1920)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
 
-          # Misma plantilla de caja que en cover (más alta para títulos XL)
-          case "$TITLE_STYLE" in
-            strip) VF="$VF,drawbox=x=0:y=(h/2-380):w=iw:h=820:color=0x000000CC:t=fill" ;;
-            card)  VF="$VF,drawbox=x=(w-1080)/2:y=(h/2-400):w=1080:h=820:color=0x000000CC:t=fill" ;;
-            glow)  : ;;
-          esac
+          # 🔤 Sin cajas de fondo (solo texto con contorno+sombra)
+          # Branding
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
 
-          # Branding (mismo tamaño que cover)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=70"
+          # Chip (sin emoji)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-360)"
 
-          # Chip (solo texto; sin emoji) – mismo tamaño que cover
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=12:x=(w-text_w)/2:y=(h/2-360)"
+          # Título centrado
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # Título centrado – mismo tamaño que cover
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
-
-          # CTA y redes (dos líneas) – mismos tamaños que cover
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1440"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1600"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+          # CTA y redes (dos líneas)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
 
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
             -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
@@ -193,38 +187,32 @@ jobs:
           mv "$OUT" "$OUTDIR/$OUT"
 
 
-      - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji · safe)
+      - name: 🖼️ Generar cover.png (sin bandas · sin rellenos)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar que existe el chip (por si el paso previo no lo generó)
+          # Asegurar chip por si no existe
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Rellenar y recortar exacto a 1080x1920 (sin letterboxing)
+          # Sin bandas negras (rellenar y recortar a 1080x1920)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
 
-          # Plantilla del bloque del título (bandas translúcidas más altas)
-          case "$TITLE_STYLE" in
-            strip) VF="$VF,drawbox=x=0:y=(h/2-380):w=iw:h=820:color=0x000000CC:t=fill" ;;
-            card)  VF="$VF,drawbox=x=(w-1080)/2:y=(h/2-400):w=1080:h=820:color=0x000000CC:t=fill" ;;
-            glow)  : ;;  # sin caja, solo sombra/contorno del texto
-          esac
+          # 🔤 Sin drawbox/boxcolor: solo texto con contorno+sombra
+          # Branding
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
 
-          # Branding (arriba, grande)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:box=1:boxcolor=0x000000B0:boxborderw=10:x=(w-text_w)/2:y=70"
+          # Chip (sin emoji)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-360)"
 
-          # Chip de contexto (solo texto, SIN emoji)
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=12:x=(w-text_w)/2:y=(h/2-360)"
+          # Título centrado (más grande)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # Título centrado, muy visible (negrita + contorno + sombra)
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
-
-          # CTA y redes (dos líneas, grandes)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1440"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1600"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+          # CTA y redes (dos líneas)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
 
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mkdir -p "$OUTDIR"
