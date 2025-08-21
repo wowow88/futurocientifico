@@ -220,30 +220,52 @@ jobs:
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
+      - name: Diagnóstico rclone (lsd raíz)
+  env:
+    RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
+    RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
+    RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
+    GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+  run: |
+    set -euo pipefail
+    {
+      echo "[gdrive]"
+      echo "type = drive"
+      echo "scope = drive"
+      echo "client_id = ${RCLONE_CLIENT_ID}"
+      echo "client_secret = ${RCLONE_CLIENT_SECRET}"
+      echo "token = ${RCLONE_TOKEN}"
+      [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
+    } > rclone.conf
+    export RCLONE_CONFIG="${PWD}/rclone.conf"
+    echo "🔎 Listando raíz de Drive..."
+    rclone lsd gdrive: || (echo "❌ Token inválido o sin permisos" && exit 1)
 
-      - name: Subir carpeta del día a Google Drive (rclone + SA)
-        if: always()
-        env:
-          GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-        run: |
-          set -euo pipefail
-          echo "$GDRIVE_SA_JSON" > sa.json
+      - name: Subir carpeta del día a Google Drive (OAuth con tu cuenta)
+  if: always()
+  env:
+    RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
+    RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
+    RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
+    GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }} # opcional
+  run: |
+    set -euo pipefail
+    sudo apt-get update && sudo apt-get install -y rclone
+    {
+      echo "[gdrive]"
+      echo "type = drive"
+      echo "scope = drive"
+      echo "client_id = ${RCLONE_CLIENT_ID}"
+      echo "client_secret = ${RCLONE_CLIENT_SECRET}"
+      echo "token = ${RCLONE_TOKEN}"
+      [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
+    } > rclone.conf
+    export RCLONE_CONFIG="${PWD}/rclone.conf"
 
-          # Crear rclone.conf sin here-doc
-          {
-            echo "[gdrive]"
-            echo "type = drive"
-            echo "scope = drive"
-            echo "service_account_file = ${PWD}/sa.json"
-            echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
-          } > rclone.conf
+    OUTDIR="${OUTDIR:-media/$(date +%F)}"
+    TODAY="${TODAY:-$(date +%F)}"
+    test -d "$OUTDIR" || { echo "❌ No existe $OUTDIR"; exit 1; }
 
-          export RCLONE_CONFIG="${PWD}/rclone.conf"
+    rclone mkdir "gdrive:${TODAY}" || true
+    rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4
 
-          OUTDIR="${OUTDIR:-media/$(date +%F)}"
-          TODAY="${TODAY:-$(date +%F)}"
-          test -d "$OUTDIR" || { echo "No existe $OUTDIR"; exit 1; }
-
-          rclone mkdir "gdrive:${TODAY}" || true
-          rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4 --drive-stop-on-upload-limit
