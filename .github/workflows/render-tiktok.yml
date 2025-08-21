@@ -1,4 +1,4 @@
-name: Render TikTok (centrado, plantillas y redes 2 líneas)
+name: Render TikTok (centrado, chip y título destacado)
 
 on:
   workflow_dispatch:
@@ -66,7 +66,7 @@ jobs:
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: Elegir último artículo y preparar textos (wrap + tamaño dinámico + split redes)
+      - name: Elegir último artículo y preparar textos (wrap + tamaño + redes 2 líneas + chip)
         id: pick
         run: |
           set -euo pipefail
@@ -78,11 +78,8 @@ jobs:
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
 
-          if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
-            echo "El último artículo no tiene title_es"; exit 1
-          fi
+          [ -n "$TITLE_ES" ] && [ "$TITLE_ES" != "null" ] || { echo "El último artículo no tiene title_es"; exit 1; }
 
-          # Variables globales
           {
             echo "AUTO_TITLE_ES=$TITLE_ES"
             echo "AUTO_SOURCE=$SOURCE"
@@ -90,7 +87,7 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          # ---- Ajuste del título: tamaño + ancho de plegado (para que quepa) ----
+          # Tamaño/ajuste del título
           LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
           if   [ "$LEN" -le 60  ]; then FONT_T2=38; WRAP=28
           elif [ "$LEN" -le 100 ]; then FONT_T2=32; WRAP=24
@@ -99,34 +96,35 @@ jobs:
           fi
           echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
-          # t1 (branding), t2 (título plegado), t3 (CTA)
+          # Textos base
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
           printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
 
-          # Redes en dos líneas (split por ' · ')
+          # Redes en dos líneas
           T4_IN="${{ github.event.inputs.text4 }}"
           printf "%s\n" "$T4_IN" | awk -F "·" '{
             n=split($0,a,"·");
             mid=int((n+1)/2);
-            # línea 1
             for(i=1;i<=mid;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<mid?" · ":"")}
             print "";
-            # línea 2
             for(i=mid+1;i<=n;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<n?" · ":"")}
             print "";
           }' > t4_split.txt
           sed -n '1p' t4_split.txt > t4a.txt
           sed -n '2p' t4_split.txt > t4b.txt
 
-          # Estilo del título
+          # Chip fijo (gancho)
+          echo "📢 Hoy en #FuturoCientífico" > t2chip.txt
+
+          # Estilo
           STYLE="${{ github.event.inputs.title_style }}"
           case "$STYLE" in
             strip|card|glow) echo "TITLE_STYLE=$STYLE" >> "$GITHUB_ENV" ;;
-            *) echo "TITLE_STYLE=strip" >> "$GITHUB_ENV" ;; # por defecto
+            *) echo "TITLE_STYLE=strip" >> "$GITHUB_ENV" ;;
           esac
 
-      - name: Preparar audio (local → FreePD → silencio)
+      - name: Preparar audio
         run: |
           set -euo pipefail
           DUR="${{ github.event.inputs.duration }}"
@@ -144,76 +142,58 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: Renderizar vídeo 1080x1920 (título centrado + plantilla + redes en 2 líneas)
+      - name: Renderizar vídeo (título centrado + chip + negrita/contorno/sombra)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+          FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Layout base
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
 
-          # --- Banda/Cartel para el título según estilo ---
+          # Fondo del título según estilo (más opaco)
           case "$TITLE_STYLE" in
-            strip)
-              # Cinta horizontal a lo ancho
-              VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000AA:t=fill"
-              ;;
-            card)
-              # Tarjeta centrada (más estrecha)
-              VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000AA:t=fill"
-              ;;
-            glow)
-              # Sin caja (solo glow/shadow en el texto)
-              :
-              ;;
+            strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000CC:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000CC:t=fill" ;;
+            glow)  : ;;
           esac
 
-          # --- Textos ---
-          # t1 arriba
+          # Branding arriba
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
 
-          # t2 (título) centrado total; shadow si glow
-          if [ "$TITLE_STYLE" = "glow" ]; then
-            T2_OPTS="shadowcolor=black@0.8:shadowx=2:shadowy=2:box=0"
-          else
-            T2_OPTS="box=0" # ya tienen caja strip/card
-          fi
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:${T2_OPTS}:line_spacing=8:x=(w-text_w)/2:y=(h-text_h)/2"
+          # Chip encima del título
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
 
-          # t3 CTA abajo
+          # Título centrado (negrita + contorno + sombra)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:line_spacing=8:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
+
+          # CTA y redes (dos líneas)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
-
-          # t4 redes en dos líneas (más abajo)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
 
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
             -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
             -c:a aac -b:a 128k -shortest "$OUT"
-
           mv "$OUT" "$OUTDIR/$OUT"
 
       - name: Generar cover.png (mismo diseño)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+          FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
           case "$TITLE_STYLE" in
-            strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000AA:t=fill" ;;
-            card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000AA:t=fill" ;;
+            strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000CC:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000CC:t=fill" ;;
             glow)  : ;;
           esac
 
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
-          if [ "$TITLE_STYLE" = "glow" ]; then
-            T2_OPTS="shadowcolor=black@0.8:shadowx=2:shadowy=2:box=0"
-          else
-            T2_OPTS="box=0"
-          fi
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:${T2_OPTS}:line_spacing=8:x=(w-text_w)/2:y=(h-text_h)/2"
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:line_spacing=8:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
@@ -236,7 +216,7 @@ jobs:
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
-            // Prompt (igual)
+            // Prompt
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
@@ -257,7 +237,7 @@ jobs:
             for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
             fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
 
-            // Instagram (nuevo)
+            // Instagram
             const ig = [
               '🧠 Nueva cápsula de #FuturoCientífico',
               '',
@@ -269,7 +249,7 @@ jobs:
             ].join('\n');
             fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
 
-            // X (nuevo)
+            // X
             const x = [
               '🧠 Hoy en #FuturoCientífico:',
               '',
