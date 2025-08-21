@@ -1,4 +1,4 @@
-name: Render TikTok (title_es + cover + prompt + IG/X + Drive)
+name: Render TikTok (title_es + cover + IG/X)
 
 on:
   workflow_dispatch:
@@ -19,14 +19,6 @@ on:
         description: Texto 4 (redes)
         required: false
         default: "IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico"
-      hashtags_ig:
-        description: Hashtags para Instagram
-        required: false
-        default: "#Ciencia #Divulgación #FuturoCientífico"
-      hashtags_x:
-        description: Hashtags para X
-        required: false
-        default: "#Ciencia #FuturoCientífico"
       duration:
         description: Duración del vídeo (segundos)
         required: true
@@ -42,7 +34,7 @@ env:
   PROMPT_TEMPLATE_FILE: scripts/prompt-template.txt
 
 jobs:
-  render_and_publish:
+  render:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -50,13 +42,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq, ImageMagick, fuentes y rclone
+      - name: Instalar ffmpeg, jq e ImageMagick (fuentes incluidas)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq imagemagick rclone fonts-dejavu-core
+          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
 
       - name: Preparar carpeta por fecha
-        id: prep
         run: |
           set -euo pipefail
           TODAY="$(date +%F)"
@@ -71,7 +62,7 @@ jobs:
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: Elegir último artículo (title_es obligatorio)
+      - name: Elegir último artículo y preparar textos (wrap + tamaño dinámico)
         id: pick
         run: |
           set -euo pipefail
@@ -82,15 +73,38 @@ jobs:
           PUBL="$(printf '%s' "$SEL" | jq -r '(.published // .date // "")')"
           DATE="${PUBL%%T*}"
           URL="$(printf '%s' "$SEL" | jq -r '(.url // "")')"
+
           if [ -z "$TITLE_ES" ] || [ "$TITLE_ES" = "null" ]; then
             echo "El último artículo no tiene title_es"; exit 1
           fi
+
+          # Guardar variables globales
           {
             echo "AUTO_TITLE_ES=$TITLE_ES"
             echo "AUTO_SOURCE=$SOURCE"
             echo "AUTO_DATE=$DATE"
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
+
+          # ---- Ajuste automático para que quepa en 1080x1920 ----
+          # Longitud de título -> tamaño de fuente y ancho de plegado (aprox.)
+          LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
+          if [ "$LEN" -le 60 ]; then
+            FONT_T2=40; WRAP=28
+          elif [ "$LEN" -le 100 ]; then
+            FONT_T2=34; WRAP=24
+          else
+            FONT_T2=28; WRAP=20
+          fi
+
+          # Escribir t1..t4 y plegar t2 (aquí reducimos tamaño visual)
+          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
+          printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
+          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
+          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
+
+          # Exportar el tamaño calculado para ffmpeg
+          echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
       - name: Preparar audio (local → FreePD → silencio)
         run: |
@@ -107,38 +121,38 @@ jobs:
           if [ -z "$IN" ]; then
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
           else
-            ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k music_in.m4a
+            ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: Crear textos para el vídeo
-        run: |
-          set -euo pipefail
-          printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
-          printf "%s" "${AUTO_TITLE_ES}" > t2.txt
-          printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
-          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
-
-      - name: Renderizar vídeo 1080x1920
+      - name: Renderizar vídeo 1080x1920 (tipografías más pequeñas)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
+          FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+
+          # Capas: fondo estático + t1 (28px) + t2 env (28–40px) + t3 (28px) + t4 (24px)
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
-          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 -c:a aac -b:a 128k -shortest "$OUT"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=110"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:line_spacing=8:x=(w-text_w)/2:y=400"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1520"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
+            -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
+            -c:a aac -b:a 128k -shortest "$OUT"
+
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: Generar cover.png
+      - name: Generar cover.png (mismo estilo/medidas)
         run: |
           set -euo pipefail
+          FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t1.txt:reload=1:fontsize=42:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=110"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t2.txt:reload=1:fontsize=50:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=360"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t3.txt:reload=1:fontsize=38:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=10:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=font='DejaVu Sans':textfile=t4.txt:reload=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x00000088:boxborderw=8:x=(w-text_w)/2:y=1700"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=110"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:line_spacing=8:x=(w-text_w)/2:y=400"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1520"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
 
@@ -151,22 +165,22 @@ jobs:
           AUTO_SOURCE: ${{ env.AUTO_SOURCE }}
           AUTO_DATE: ${{ env.AUTO_DATE }}
           AUTO_URL: ${{ env.AUTO_URL }}
-          IG_HASHTAGS: ${{ github.event.inputs.hashtags_ig }}
-          X_HASHTAGS: ${{ github.event.inputs.hashtags_x }}
         with:
           script: |
             const fs = require('fs');
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
+            // Prompt (mantener tal cual si no hay plantilla)
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
               template = fs.readFileSync(tplFile, 'utf8');
             } else {
-              template = 'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n'
-                       + 'Estilo: vector flat, accesible, alto contraste; sin texto ni logos.\n'
-                       + 'Contexto (no dibujar texto): Fuente {{source}} · Fecha {{date}} · URL {{url}}\n';
+              template =
+                'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n' +
+                'Estilo: vector flat, accesible, alto contraste; sin texto ni logos.\n' +
+                'Contexto (no dibujar texto): Fuente {{source}} · Fecha {{date}} · URL {{url}}\n';
             }
             const map = {
               '{{title_es}}': process.env.AUTO_TITLE_ES || '',
@@ -178,15 +192,27 @@ jobs:
             for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
             fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
 
-            const title = (process.env.AUTO_TITLE_ES || '').trim();
-            const igTags = (process.env.IG_HASHTAGS || '').trim();
-            const xTags  = (process.env.X_HASHTAGS  || '').trim();
+            // Instagram (nuevo texto)
+            const ig = [
+              '🧠 Nueva cápsula de #FuturoCientífico',
+              '',
+              `Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.`,
+              '🔍 ¿Te imaginabas esto?',
+              '',
+              '🌐https://futurocientifico.vercel.app/revistas',
+              '#Ciencia #Educación #Descubre #Curiosidades'
+            ].join('\n');
+            fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
 
-            const igText = `💡 ${title}\n\n${igTags}`;
-            const xText  = `${title} — #FuturoCientífico\n\n${xTags}`;
-
-            fs.writeFileSync(path.join(outdir, 'instagram.txt'), igText);
-            fs.writeFileSync(path.join(outdir, 'x.txt'), xText);
+            // X (nuevo texto)
+            const x = [
+              '🧠 Hoy en #FuturoCientífico:',
+              '',
+              `«Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.»`,
+              '🌐https://futurocientifico.vercel.app/revistas',
+              '#Ciencia #Curiosidades #Educación'
+            ].join('\n');
+            fs.writeFileSync(path.join(outdir, 'x.txt'), x);
 
       - name: Subir artefactos
         uses: actions/upload-artifact@v4
@@ -204,48 +230,3 @@ jobs:
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
-
-      - name: Diagnóstico rclone (lsd raíz)
-        env:
-          RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
-          RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
-          RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-        run: |
-          set -euo pipefail
-          sudo apt-get update && sudo apt-get install -y rclone
-          {
-            echo "[gdrive]"
-            echo "type = drive"
-            echo "scope = drive"
-            echo "client_id = ${RCLONE_CLIENT_ID}"
-            echo "client_secret = ${RCLONE_CLIENT_SECRET}"
-            echo "token = ${RCLONE_TOKEN}"
-            [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
-          } > rclone.conf
-          export RCLONE_CONFIG="${PWD}/rclone.conf"
-          echo "🔎 Probando acceso…"
-          rclone lsd gdrive: || (echo "❌ Token inválido o sin permisos" && exit 1)
-
-      - name: Subir a Google Drive (OAuth usuario)
-        if: always()
-        env:
-          RCLONE_TOKEN: ${{ secrets.RCLONE_TOKEN }}
-          RCLONE_CLIENT_ID: ${{ secrets.RCLONE_CLIENT_ID }}
-          RCLONE_CLIENT_SECRET: ${{ secrets.RCLONE_CLIENT_SECRET }}
-          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-        run: |
-          set -euo pipefail
-          sudo apt-get update && sudo apt-get install -y rclone
-          {
-            echo "[gdrive]"
-            echo "type = drive"
-            echo "scope = drive"
-            echo "client_id = ${RCLONE_CLIENT_ID}"
-            echo "client_secret = ${RCLONE_CLIENT_SECRET}"
-            echo "token = ${RCLONE_TOKEN}"
-            [ -n "${GDRIVE_FOLDER_ID:-}" ] && echo "root_folder_id = ${GDRIVE_FOLDER_ID}"
-          } > rclone.conf
-          export RCLONE_CONFIG="${PWD}/rclone.conf"
-          rclone mkdir "gdrive:${TODAY}" || true
-          rclone -v copy "${OUTDIR}" "gdrive:${TODAY}" --create-empty-src-dirs --checkers=8 --transfers=4
