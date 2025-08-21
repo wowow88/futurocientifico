@@ -157,7 +157,7 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
+              VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
 
           # Fondo del título (vídeo)
           case "$TITLE_STYLE" in
@@ -191,7 +191,7 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
+          VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
           case "$TITLE_STYLE" in
             strip) VF="$VF,drawbox=x=0:y=(h/2-340):w=iw:h=760:color=0x000000CC:t=fill" ;;
             card)  VF="$VF,drawbox=x=(w-1040)/2:y=(h/2-360):w=1040:h=760:color=0x000000CC:t=fill" ;;
