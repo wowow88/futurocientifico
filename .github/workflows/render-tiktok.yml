@@ -1,4 +1,4 @@
-name: Render TikTok (centrado, chip y título destacado)
+name: Render TikTok (centrado, chip visible y cover XL)
 
 on:
   workflow_dispatch:
@@ -66,7 +66,7 @@ jobs:
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: Elegir último artículo y preparar textos (wrap + tamaño + redes 2 líneas + chip)
+      - name: Elegir último artículo y preparar textos (wrap + tamaños + redes 2 líneas + chip)
         id: pick
         run: |
           set -euo pipefail
@@ -97,9 +97,15 @@ jobs:
           echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
           # Versión para COVER (más grande, con tope)
-          COVER_T2=$((FONT_T2 + 14))
-          if [ "$COVER_T2" -gt 60 ]; then COVER_T2=60; fi
+          COVER_T2=$((FONT_T2 + 18)); if [ "$COVER_T2" -gt 68 ]; then COVER_T2=68; fi
           echo "FONT_T2_COVER=${COVER_T2}" >> "$GITHUB_ENV"
+
+          # Fuentes más grandes en cover
+          echo "FONT_T1_COVER=42"   >> "$GITHUB_ENV"   # branding
+          echo "FONT_CHIP_TEXT=42"  >> "$GITHUB_ENV"   # chip texto
+          echo "FONT_CHIP_EMOJI=72" >> "$GITHUB_ENV"   # chip emoji
+          echo "FONT_T3_COVER=36"   >> "$GITHUB_ENV"   # CTA
+          echo "FONT_T4_COVER=34"   >> "$GITHUB_ENV"   # redes
 
           # Textos base
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
@@ -109,8 +115,7 @@ jobs:
           # Redes en dos líneas
           T4_IN="${{ github.event.inputs.text4 }}"
           printf "%s\n" "$T4_IN" | awk -F "·" '{
-            n=split($0,a,"·");
-            mid=int((n+1)/2);
+            n=split($0,a,"·"); mid=int((n+1)/2);
             for(i=1;i<=mid;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<mid?" · ":"")}
             print "";
             for(i=mid+1;i<=n;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<n?" · ":"")}
@@ -119,7 +124,7 @@ jobs:
           sed -n '1p' t4_split.txt > t4a.txt
           sed -n '2p' t4_split.txt > t4b.txt
 
-          # Chip (emoji y texto por separado para garantizar visibilidad)
+          # Chip (emoji y texto separados)
           echo "📢" > t2chip_emoji.txt
           echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
@@ -138,9 +143,7 @@ jobs:
           if [ -s "public/audio/default.mp3" ]; then
             IN="public/audio/default.mp3"
           else
-            if curl -L --fail -o default_music.mp3 "${DEFAULT_MUSIC_URL}"; then
-              IN="default_music.mp3"
-            fi
+            if curl -L --fail -o default_music.mp3 "${DEFAULT_MUSIC_URL}"; then IN="default_music.mp3"; fi
           fi
           if [ -z "$IN" ]; then
             ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
@@ -148,7 +151,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: Renderizar vídeo (título centrado + chip + negrita/contorno/sombra)
+      - name: Renderizar vídeo (igual que antes)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -157,24 +160,14 @@ jobs:
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-
-          # Fondo del título (vídeo)
           case "$TITLE_STYLE" in
             strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000CC:t=fill" ;;
             card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000CC:t=fill" ;;
             glow)  : ;;
           esac
-
-          # Branding
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
-
-          # Chip vídeo (texto completo; sin emoji separado para no desplazar)
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
-
-          # Título centrado
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:line_spacing=8:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
-
-          # CTA y redes
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
@@ -184,107 +177,34 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: Generar cover.png (emoji visible + fuentes más grandes)
+      - name: Generar emoji PNG para cover
+        run: |
+          set -euo pipefail
+          # Intento con Noto Color Emoji (emoji real)
+          if convert -size 256x256 xc:none -gravity center \
+               -font 'Noto Color Emoji' -pointsize ${FONT_CHIP_EMOJI} \
+               -fill white -annotate 0 '📢' chip_emoji.png 2>/dev/null; then
+            echo "Emoji 📢 generado con Noto Color Emoji"
+          else
+            # Fallback: usa '!' en negrita si no renderiza color emoji
+            convert -size 256x256 xc:none -gravity center \
+               -font '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf' -pointsize ${FONT_CHIP_EMOJI} \
+               -fill white -annotate 0 '!' chip_emoji.png
+            echo "Fallback usando '!'"
+          fi
+
+      - name: Generar cover.png (emoji overlay + fuentes XL)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-
-          VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
+          BOX_FILTER=""
           case "$TITLE_STYLE" in
-            strip) VF="$VF,drawbox=x=0:y=(h/2-300):w=iw:h=640:color=0x000000CC:t=fill" ;;
-            card)  VF="$VF,drawbox=x=(w-980)/2:y=(h/2-320):w=980:h=680:color=0x000000CC:t=fill" ;;
-            glow)  : ;;
+            strip) BOX_FILTER=",drawbox=x=0:y=(h/2-320):w=iw:h=720:color=0x000000CC:t=fill" ;;
+            card)  BOX_FILTER=",drawbox=x=(w-1000)/2:y=(h/2-340):w=1000:h=720:color=0x000000CC:t=fill" ;;
+            glow)  BOX_FILTER="" ;;
           esac
 
-          # Branding más grande
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=36:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=80"
-
-          # CHIP EMOJI (con fuente emoji)
-          VF="$VF,drawtext=font='Noto Color Emoji':textfile=t2chip_emoji.txt:reload=1:text_shaping=1:fontsize=56:fontcolor=white:box=0:x=(w-text_w)/2:y=(h/2-380)"
-
-          # CHIP TEXTO reforzado
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=36:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=10:x=(w-text_w)/2:y=(h/2-320)"
-
-          # TÍTULO grande (auto) con contorno+sombra
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER}:fontcolor=white:borderw=5:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=10:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
-
-          # CTA y redes más grandes
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1460"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=30:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1610"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=30:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
-
-          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
-          mv cover.png "$OUTDIR/cover.png"
-
-      - name: Construir prompt y textos IG/X
-        uses: actions/github-script@v7
-        env:
-          OUTDIR: ${{ env.OUTDIR }}
-          PROMPT_TEMPLATE_FILE: ${{ env.PROMPT_TEMPLATE_FILE }}
-          AUTO_TITLE_ES: ${{ env.AUTO_TITLE_ES }}
-          AUTO_SOURCE: ${{ env.AUTO_SOURCE }}
-          AUTO_DATE: ${{ env.AUTO_DATE }}
-          AUTO_URL: ${{ env.AUTO_URL }}
-        with:
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const outdir = process.env.OUTDIR;
-
-            const tplFile = process.env.PROMPT_TEMPLATE_FILE;
-            let template;
-            if (tplFile && fs.existsSync(tplFile)) {
-              template = fs.readFileSync(tplFile, 'utf8');
-            } else {
-              template =
-                'Ilustración científica minimalista y moderna sobre: "{{title_es}}".\n' +
-                'Estilo: vector flat, accesible, alto contraste; sin texto ni logos.\n' +
-                'Contexto (no dibujar texto): Fuente {{source}} · Fecha {{date}} · URL {{url}}\n';
-            }
-            const map = {
-              '{{title_es}}': process.env.AUTO_TITLE_ES || '',
-              '{{source}}': process.env.AUTO_SOURCE || '',
-              '{{date}}': process.env.AUTO_DATE || '',
-              '{{url}}': process.env.AUTO_URL || '',
-            };
-            let prompt = template;
-            for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
-            fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
-
-            const ig = [
-              '🧠 Nueva cápsula de #FuturoCientífico',
-              '',
-              `Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.`,
-              '🔍 ¿Te imaginabas esto?',
-              '',
-              '🌐https://futurocientifico.vercel.app/revistas',
-              '#Ciencia #Educación #Descubre #Curiosidades'
-            ].join('\n');
-            fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
-
-            const x = [
-              '🧠 Hoy en #FuturoCientífico:',
-              '',
-              `«Este artículo trata sobre "${process.env.AUTO_TITLE_ES}". Se exploran los aspectos clave relacionados con la ciencia actual.»`,
-              '🌐https://futurocientifico.vercel.app/revistas',
-              '#Ciencia #Curiosidades #Educación'
-            ].join('\n');
-            fs.writeFileSync(path.join(outdir, 'x.txt'), x);
-
-      - name: Subir artefactos
-        uses: actions/upload-artifact@v4
-        with:
-          name: tiktok-media
-          path: ${{ env.OUTDIR }}/*
-
-      - name: Commit & push media del día
-        run: |
-          set -euo pipefail
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${OUTDIR}"
-          git commit -m "chore: TikTok media ${TODAY} [skip ci]" || echo "No changes"
-          git fetch origin main
-          git pull --rebase origin main || true
-          git push || (git pull --rebase origin main && git push)
+          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -i chip_emoji.png -frames:v 1 \
+            -filter_complex "[0:v]scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba${BOX_FILTER},\
+drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${
