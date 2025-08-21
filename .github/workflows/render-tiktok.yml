@@ -1,4 +1,4 @@
-name: Render TikTok (title_es + cover + IG/X)
+name: Render TikTok (centrado, plantillas y redes 2 líneas)
 
 on:
   workflow_dispatch:
@@ -16,13 +16,17 @@ on:
         required: false
         default: "#Ciencia #Curiosidades #FuturoCientífico"
       text4:
-        description: Texto 4 (redes)
+        description: "Redes (separadas por ' · ')"
         required: false
         default: "IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico"
       duration:
         description: Duración del vídeo (segundos)
         required: true
         default: "59"
+      title_style:
+        description: "Plantilla del título: strip | card | glow"
+        required: false
+        default: "strip"
 
 permissions:
   contents: write
@@ -42,7 +46,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq e ImageMagick (fuentes incluidas)
+      - name: Instalar ffmpeg, jq e ImageMagick (fuentes)
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
@@ -62,7 +66,7 @@ jobs:
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: Elegir último artículo y preparar textos (wrap + tamaño dinámico)
+      - name: Elegir último artículo y preparar textos (wrap + tamaño dinámico + split redes)
         id: pick
         run: |
           set -euo pipefail
@@ -78,7 +82,7 @@ jobs:
             echo "El último artículo no tiene title_es"; exit 1
           fi
 
-          # Guardar variables globales
+          # Variables globales
           {
             echo "AUTO_TITLE_ES=$TITLE_ES"
             echo "AUTO_SOURCE=$SOURCE"
@@ -86,25 +90,41 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          # ---- Ajuste automático para que quepa en 1080x1920 ----
-          # Longitud de título -> tamaño de fuente y ancho de plegado (aprox.)
+          # ---- Ajuste del título: tamaño + ancho de plegado (para que quepa) ----
           LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
-          if [ "$LEN" -le 60 ]; then
-            FONT_T2=40; WRAP=28
-          elif [ "$LEN" -le 100 ]; then
-            FONT_T2=34; WRAP=24
-          else
-            FONT_T2=28; WRAP=20
+          if   [ "$LEN" -le 60  ]; then FONT_T2=38; WRAP=28
+          elif [ "$LEN" -le 100 ]; then FONT_T2=32; WRAP=24
+          elif [ "$LEN" -le 140 ]; then FONT_T2=28; WRAP=20
+          else                         FONT_T2=24; WRAP=18
           fi
+          echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
-          # Escribir t1..t4 y plegar t2 (aquí reducimos tamaño visual)
+          # t1 (branding), t2 (título plegado), t3 (CTA)
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
           printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
-          printf "%s" "${{ github.event.inputs.text4 }}" > t4.txt
 
-          # Exportar el tamaño calculado para ffmpeg
-          echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
+          # Redes en dos líneas (split por ' · ')
+          T4_IN="${{ github.event.inputs.text4 }}"
+          printf "%s\n" "$T4_IN" | awk -F "·" '{
+            n=split($0,a,"·");
+            mid=int((n+1)/2);
+            # línea 1
+            for(i=1;i<=mid;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<mid?" · ":"")}
+            print "";
+            # línea 2
+            for(i=mid+1;i<=n;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<n?" · ":"")}
+            print "";
+          }' > t4_split.txt
+          sed -n '1p' t4_split.txt > t4a.txt
+          sed -n '2p' t4_split.txt > t4b.txt
+
+          # Estilo del título
+          STYLE="${{ github.event.inputs.title_style }}"
+          case "$STYLE" in
+            strip|card|glow) echo "TITLE_STYLE=$STYLE" >> "$GITHUB_ENV" ;;
+            *) echo "TITLE_STYLE=strip" >> "$GITHUB_ENV" ;; # por defecto
+          esac
 
       - name: Preparar audio (local → FreePD → silencio)
         run: |
@@ -124,19 +144,50 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: Renderizar vídeo 1080x1920 (tipografías más pequeñas)
+      - name: Renderizar vídeo 1080x1920 (título centrado + plantilla + redes en 2 líneas)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
           DUR="${{ github.event.inputs.duration }}"
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
-          # Capas: fondo estático + t1 (28px) + t2 env (28–40px) + t3 (28px) + t4 (24px)
+          # Layout base
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=110"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:line_spacing=8:x=(w-text_w)/2:y=400"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+
+          # --- Banda/Cartel para el título según estilo ---
+          case "$TITLE_STYLE" in
+            strip)
+              # Cinta horizontal a lo ancho
+              VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000AA:t=fill"
+              ;;
+            card)
+              # Tarjeta centrada (más estrecha)
+              VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000AA:t=fill"
+              ;;
+            glow)
+              # Sin caja (solo glow/shadow en el texto)
+              :
+              ;;
+          esac
+
+          # --- Textos ---
+          # t1 arriba
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
+
+          # t2 (título) centrado total; shadow si glow
+          if [ "$TITLE_STYLE" = "glow" ]; then
+            T2_OPTS="shadowcolor=black@0.8:shadowx=2:shadowy=2:box=0"
+          else
+            T2_OPTS="box=0" # ya tienen caja strip/card
+          fi
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:${T2_OPTS}:line_spacing=8:x=(w-text_w)/2:y=(h-text_h)/2"
+
+          # t3 CTA abajo
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
+
+          # t4 redes en dos líneas (más abajo)
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
 
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
             -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
@@ -144,15 +195,29 @@ jobs:
 
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: Generar cover.png (mismo estilo/medidas)
+      - name: Generar cover.png (mismo diseño)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=110"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:line_spacing=8:x=(w-text_w)/2:y=400"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1520"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
+          case "$TITLE_STYLE" in
+            strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000AA:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000AA:t=fill" ;;
+            glow)  : ;;
+          esac
+
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
+          if [ "$TITLE_STYLE" = "glow" ]; then
+            T2_OPTS="shadowcolor=black@0.8:shadowx=2:shadowy=2:box=0"
+          else
+            T2_OPTS="box=0"
+          fi
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:${T2_OPTS}:line_spacing=8:x=(w-text_w)/2:y=(h-text_h)/2"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
+
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
 
@@ -171,7 +236,7 @@ jobs:
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
-            // Prompt (mantener tal cual si no hay plantilla)
+            // Prompt (igual)
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
@@ -192,7 +257,7 @@ jobs:
             for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
             fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
 
-            // Instagram (nuevo texto)
+            // Instagram (nuevo)
             const ig = [
               '🧠 Nueva cápsula de #FuturoCientífico',
               '',
@@ -204,7 +269,7 @@ jobs:
             ].join('\n');
             fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
 
-            // X (nuevo texto)
+            // X (nuevo)
             const x = [
               '🧠 Hoy en #FuturoCientífico:',
               '',
