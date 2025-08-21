@@ -183,7 +183,7 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-            - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji · safe)
+      - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji · safe)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
