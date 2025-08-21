@@ -183,11 +183,14 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji)
+            - name: 🖼️ Generar cover.png (sin bandas · fuentes grandes · sin emoji · safe)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+
+          # Asegurar que existe el chip (por si el paso previo no lo generó)
+          [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
           # Rellenar y recortar exacto a 1080x1920 (sin letterboxing)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
