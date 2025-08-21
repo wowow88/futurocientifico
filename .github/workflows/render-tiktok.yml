@@ -1,18 +1,18 @@
-name: Render TikTok (chip sin emoji y cover XL v2)
+name: Render TikTok (sin bandas, chip sin emoji y cover XL)
 
 on:
   workflow_dispatch:
     inputs:
       out_name:
-        description: Nombre del archivo de salida
+        description: "Nombre del archivo de salida"
         required: true
-        default: futurocientifico.mp4
+        default: "futurocientifico.mp4"
       text1:
-        description: Texto 1 (branding)
+        description: "Texto 1 (branding)"
         required: false
         default: "FuturoCientífico · Ciencia en 1 minuto"
       text3:
-        description: Texto 3 (CTA)
+        description: "Texto 3 (CTA)"
         required: false
         default: "#Ciencia #Curiosidades #FuturoCientífico"
       text4:
@@ -20,7 +20,7 @@ on:
         required: false
         default: "IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico"
       duration:
-        description: Duración del vídeo (segundos)
+        description: "Duración del vídeo (segundos)"
         required: true
         default: "59"
       title_style:
@@ -126,7 +126,7 @@ jobs:
           # Chip (solo texto; sin emoji)
           echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Estilo del bloque del título
+          # Plantilla del bloque del título
           STYLE="${{ github.event.inputs.title_style }}"
           case "$STYLE" in
             strip|card|glow) echo "TITLE_STYLE=$STYLE" >> "$GITHUB_ENV" ;;
@@ -149,7 +149,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (título centrado + chip texto + contorno y sombra)
+      - name: 🎬 Renderizar vídeo (sin bandas: fill/crop)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -157,7 +157,8 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-              VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
+          # ⬇️ Cambio clave: rellenar y recortar a 1080x1920 (sin letterboxing)
+          VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
 
           # Fondo del título (vídeo)
           case "$TITLE_STYLE" in
@@ -185,13 +186,15 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: 🖼️ Generar cover.png (sin emoji, fuentes XL)
+      - name: 🖼️ Generar cover.png (sin bandas: fill/crop)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
+          # ⬇️ Cambio clave: rellenar y recortar a 1080x1920 (sin letterboxing)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
+
           case "$TITLE_STYLE" in
             strip) VF="$VF,drawbox=x=0:y=(h/2-340):w=iw:h=760:color=0x000000CC:t=fill" ;;
             card)  VF="$VF,drawbox=x=(w-1040)/2:y=(h/2-360):w=1040:h=760:color=0x000000CC:t=fill" ;;
