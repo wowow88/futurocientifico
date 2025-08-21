@@ -46,10 +46,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Instalar ffmpeg, jq e ImageMagick (fuentes)
+      - name: Instalar ffmpeg, jq e ImageMagick (fuentes + emoji)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core
+          sudo apt-get install -y ffmpeg jq imagemagick fonts-dejavu-core fonts-noto-color-emoji
 
       - name: Preparar carpeta por fecha
         run: |
@@ -87,7 +87,7 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          # Tamaño/ajuste del título
+          # Tamaño/ajuste del título (vídeo)
           LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
           if   [ "$LEN" -le 60  ]; then FONT_T2=38; WRAP=28
           elif [ "$LEN" -le 100 ]; then FONT_T2=32; WRAP=24
@@ -97,8 +97,8 @@ jobs:
           echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
           # Versión para COVER (más grande, con tope)
-          COVER_T2=$((FONT_T2 + 6))
-          if [ "$COVER_T2" -gt 48 ]; then COVER_T2=48; fi
+          COVER_T2=$((FONT_T2 + 14))
+          if [ "$COVER_T2" -gt 60 ]; then COVER_T2=60; fi
           echo "FONT_T2_COVER=${COVER_T2}" >> "$GITHUB_ENV"
 
           # Textos base
@@ -119,8 +119,9 @@ jobs:
           sed -n '1p' t4_split.txt > t4a.txt
           sed -n '2p' t4_split.txt > t4b.txt
 
-          # Chip fijo (gancho)
-          echo "📢 Hoy en #FuturoCientífico" > t2chip.txt
+          # Chip (emoji y texto por separado para garantizar visibilidad)
+          echo "📢" > t2chip_emoji.txt
+          echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
           # Estilo
           STYLE="${{ github.event.inputs.title_style }}"
@@ -157,23 +158,23 @@ jobs:
 
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=yuv420p"
 
-          # Fondo del título según estilo (más opaco)
+          # Fondo del título (vídeo)
           case "$TITLE_STYLE" in
             strip) VF="$VF,drawbox=x=0:y=(h/2-230):w=iw:h=460:color=0x000000CC:t=fill" ;;
             card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-260):w=960:h=520:color=0x000000CC:t=fill" ;;
             glow)  : ;;
           esac
 
-          # Branding arriba
+          # Branding
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
 
-          # Chip encima del título
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
+          # Chip vídeo (texto completo; sin emoji separado para no desplazar)
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=(h/2-300)"
 
-          # Título centrado (negrita + contorno + sombra)
+          # Título centrado
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2}:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:line_spacing=8:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # CTA y redes (dos líneas)
+          # CTA y redes
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=26:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1500"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1650"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=24:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1740"
@@ -183,7 +184,7 @@ jobs:
             -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: Generar cover.png (más grande + chip visible)
+      - name: Generar cover.png (emoji visible + fuentes más grandes)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -191,25 +192,27 @@ jobs:
 
           VF="scale=1080:-2,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,format=rgba"
           case "$TITLE_STYLE" in
-            # cajas más altas para cubrir el título grande
-            strip) VF="$VF,drawbox=x=0:y=(h/2-270):w=iw:h=540:color=0x000000CC:t=fill" ;;
-            card)  VF="$VF,drawbox=x=(w-980)/2:y=(h/2-300):w=980:h=600:color=0x000000CC:t=fill" ;;
+            strip) VF="$VF,drawbox=x=0:y=(h/2-300):w=iw:h=640:color=0x000000CC:t=fill" ;;
+            card)  VF="$VF,drawbox=x=(w-980)/2:y=(h/2-320):w=980:h=680:color=0x000000CC:t=fill" ;;
             glow)  : ;;
           esac
 
-          # Branding (más grande)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=80"
+          # Branding más grande
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=36:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=80"
 
-          # CHIP reforzado: negrita + contorno + sombra + caja
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip.txt:reload=1:text_shaping=1:fontsize=32:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=10:x=(w-text_w)/2:y=(h/2-360)"
+          # CHIP EMOJI (con fuente emoji)
+          VF="$VF,drawtext=font='Noto Color Emoji':textfile=t2chip_emoji.txt:reload=1:text_shaping=1:fontsize=56:fontcolor=white:box=0:x=(w-text_w)/2:y=(h/2-380)"
 
-          # TÍTULO más grande en cover (auto) + efectos
+          # CHIP TEXTO reforzado
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=36:fontcolor=white:borderw=4:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=10:x=(w-text_w)/2:y=(h/2-320)"
+
+          # TÍTULO grande (auto) con contorno+sombra
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER}:fontcolor=white:borderw=5:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=10:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
 
           # CTA y redes más grandes
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=30:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1480"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1630"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1720"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=32:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1460"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=30:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1610"
+          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=30:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
 
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mv cover.png "$OUTDIR/cover.png"
@@ -229,7 +232,6 @@ jobs:
             const path = require('path');
             const outdir = process.env.OUTDIR;
 
-            // Prompt
             const tplFile = process.env.PROMPT_TEMPLATE_FILE;
             let template;
             if (tplFile && fs.existsSync(tplFile)) {
@@ -250,7 +252,6 @@ jobs:
             for (const [k,v] of Object.entries(map)) prompt = prompt.split(k).join(v);
             fs.writeFileSync(path.join(outdir, 'prompt.txt'), prompt);
 
-            // Instagram
             const ig = [
               '🧠 Nueva cápsula de #FuturoCientífico',
               '',
@@ -262,7 +263,6 @@ jobs:
             ].join('\n');
             fs.writeFileSync(path.join(outdir, 'instagram.txt'), ig);
 
-            // X
             const x = [
               '🧠 Hoy en #FuturoCientífico:',
               '',
@@ -288,4 +288,3 @@ jobs:
           git fetch origin main
           git pull --rebase origin main || true
           git push || (git pull --rebase origin main && git push)
-
