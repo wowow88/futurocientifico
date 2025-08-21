@@ -1,4 +1,4 @@
-name: Render TikTok (sin bandas, chip sin emoji y cover XL)
+name: Render TikTok (sin bandas, chip texto, cover XL)
 
 on:
   workflow_dispatch:
@@ -87,7 +87,7 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          # Tamaño/ajuste del título (vídeo)
+          # Tamaño base del título (vídeo) y ajuste por longitud
           LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
           if   [ "$LEN" -le 60  ]; then FONT_T2=40; WRAP=30
           elif [ "$LEN" -le 100 ]; then FONT_T2=34; WRAP=26
@@ -96,7 +96,7 @@ jobs:
           fi
           echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
-          # Versión para COVER (más grande, con tope alto)
+          # Para la cover (más grande, con tope)
           COVER_T2=$((FONT_T2 + 22)); if [ "$COVER_T2" -gt 72 ]; then COVER_T2=72; fi
           echo "FONT_T2_COVER=${COVER_T2}" >> "$GITHUB_ENV"
 
@@ -106,12 +106,12 @@ jobs:
           echo "FONT_T3_COVER=38"   >> "$GITHUB_ENV"   # CTA
           echo "FONT_T4_COVER=36"   >> "$GITHUB_ENV"   # redes
 
-          # Textos base
+          # Textos base (se escriben a archivos para drawtext)
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
           printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
 
-          # Redes en dos líneas
+          # Redes en dos líneas equilibradas
           T4_IN="${{ github.event.inputs.text4 }}"
           printf "%s\n" "$T4_IN" | awk -F "·" '{
             n=split($0,a,"·"); mid=int((n+1)/2);
@@ -157,17 +157,17 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # ⬇️ Cambio clave: rellenar y recortar a 1080x1920 (sin letterboxing)
+          # Rellenar y recortar a 1080x1920 (sin letterboxing)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
 
-          # Fondo del título (vídeo)
+          # Fondo para el título
           case "$TITLE_STYLE" in
             strip) VF="$VF,drawbox=x=0:y=(h/2-240):w=iw:h=480:color=0x000000CC:t=fill" ;;
             card)  VF="$VF,drawbox=x=(w-960)/2:y=(h/2-270):w=960:h=540:color=0x000000CC:t=fill" ;;
             glow)  : ;;
           esac
 
-          # Branding
+          # Branding superior
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=28:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=90"
 
           # Chip vídeo (solo texto)
@@ -192,7 +192,7 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # ⬇️ Cambio clave: rellenar y recortar a 1080x1920 (sin letterboxing)
+          # Rellenar y recortar a 1080x1920 (sin letterboxing)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
 
           case "$TITLE_STYLE" in
@@ -201,16 +201,16 @@ jobs:
             glow)  : ;;
           esac
 
-          # Branding grande
+          # Branding
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER}:fontcolor=white:box=1:boxcolor=0x000000B0:boxborderw=10:x=(w-text_w)/2:y=70"
 
-          # Chip texto reforzado (sin emoji)
+          # Chip texto (sin emoji)
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:box=1:boxcolor=0x000000CC:boxborderw=12:x=(w-text_w)/2:y=(h/2-340)"
 
-          # Título grande
+          # Título grande centrado
           VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:box=0:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # CTA y redes grandes
+          # CTA y redes (dos líneas)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=10:x=(w-text_w)/2:y=1440"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1600"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER}:fontcolor=white:box=1:boxcolor=0x000000AA:boxborderw=8:x=(w-text_w)/2:y=1700"
