@@ -151,7 +151,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (title_es ancho fijo grande)
+      - name: 🎬 Renderizar vídeo (centrado + sombra suave)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name || 'futurocientifico.mp4' }}"
@@ -161,33 +161,37 @@ jobs:
 
           # Textos requeridos
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
-          [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
+          [ -s t2.txt ] || { echo "Falta t2.txt (title_es)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
           [ -s t4a.txt ] || echo "" > t4a.txt
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
           [ -s music_in.m4a ] || ffmpeg -y -f lavfi -t "${DUR}" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
 
-          CHIP_PT="${FONT_CHIP_TEXT:-72}"
-          TITLE_PT="${FONT_T2_COVER:-96}"
-          TITLE_W="${TITLE_WIDTH:-960}"  # 👉 ancho fijo del título (ocupa casi todo)
+          CHIP_PT="${FONT_CHIP_TEXT:-76}"
+          TITLE_PT="${FONT_T2_COVER:-100}"
+          TITLE_W="${TITLE_WIDTH:-960}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
-          # Escapar textos (evita policy IM)
+          # Escapar
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
-          # PNG del chip (gancho) y medidas
-          convert -background none -fill white -stroke black -strokewidth 7 \
+          # --- CHIP (centrado) con sombra ---
+          convert -background none -fill white -stroke black -strokewidth 8 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
-                  label:"$CHIP_ESC" chip_label.png
+                  -gravity center label:"$CHIP_ESC" chip_label_base.png
+          convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
+                  -background none -layers merge +repage chip_label.png
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # PNG del título con ANCHO FIJO grande
-          convert -background none -fill white -stroke black -strokewidth 8 \
+          # --- TÍTULO (centrado, ancho fijo) con sombra ---
+          convert -background none -fill white -stroke black -strokewidth 10 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
-                  -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label.png
+                  -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
+          convert title_label_base.png \( +clone -background black -shadow 80x8+0+0 \) +swap \
+                  -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
           # Coordenadas
@@ -205,9 +209,9 @@ jobs:
           [bg][1:v]overlay=${X_CHIP}:${Y_CHIP}[bg1]; \
           [bg1][2:v]overlay=${X_TITLE}:${Y_TITLE}[bg2]; \
           [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
-          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
-          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
-          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
+          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-42}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
+          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
+          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
             -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
             -c:a aac -b:a 128k -shortest "$TMP_OUT"
 
@@ -217,36 +221,42 @@ jobs:
           mv "$OUT" "$OUTDIR/$OUT"
 
 
-      - name: 🖼️ Generar cover.png (title_es ancho fijo grande)
+      - name: 🖼️ Generar cover.png (centrado + sombra suave)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
-          [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
+          [ -s t2.txt ] || { echo "Falta t2.txt (title_es)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
           [ -s t4a.txt ] || echo "" > t4a.txt
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          CHIP_PT="${FONT_CHIP_TEXT:-72}"
-          TITLE_PT="${FONT_T2_COVER:-96}"
+          CHIP_PT="${FONT_CHIP_TEXT:-76}"
+          TITLE_PT="${FONT_T2_COVER:-100}"
           TITLE_W="${TITLE_WIDTH:-960}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
-          convert -background none -fill white -stroke black -strokewidth 7 \
+          # CHIP centrado con sombra
+          convert -background none -fill white -stroke black -strokewidth 8 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
-                  label:"$CHIP_ESC" chip_label.png
+                  -gravity center label:"$CHIP_ESC" chip_label_base.png
+          convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
+                  -background none -layers merge +repage chip_label.png
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          convert -background none -fill white -stroke black -strokewidth 8 \
+          # TÍTULO centrado con ancho fijo y sombra
+          convert -background none -fill white -stroke black -strokewidth 10 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
-                  -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label.png
+                  -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
+          convert title_label_base.png \( +clone -background black -shadow 80x8+0+0 \) +swap \
+                  -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
           X_CHIP=$(( (1080 - CHIP_W) / 2 ))
@@ -262,15 +272,14 @@ jobs:
           [bg][1:v]overlay=${X_CHIP}:${Y_CHIP}[bg1]; \
           [bg1][2:v]overlay=${X_TITLE}:${Y_TITLE}[bg2]; \
           [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
-          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
-          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
-          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
+          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-42}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
+          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
+          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
             -frames:v 1 "$TMP_COVER"
 
           [ -s "$TMP_COVER" ] || { echo "❌ No se generó la cover"; ls -la; exit 1; }
           mkdir -p "$OUTDIR"
           mv "$TMP_COVER" "$OUTDIR/cover.png"
-
 
       - name: Construir prompt y textos IG/X
         uses: actions/github-script@v7
