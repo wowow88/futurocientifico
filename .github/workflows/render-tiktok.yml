@@ -147,82 +147,78 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (robusto · sin bandas · sin rellenos · chip=title ancho igual)
+      - name: 🎬 Renderizar vídeo (chip y título alineados)
         run: |
           set -euo pipefail
-          set -x
           OUT="${{ github.event.inputs.out_name || 'futurocientifico.mp4' }}"
           DUR="${{ github.event.inputs.duration || '59' }}"
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar textos
+          # Archivos de texto requeridos
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
           [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
           [ -s t4a.txt ] || echo "" > t4a.txt
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
-
-          # Audio: si no existe, generamos silencio
-          if [ ! -s music_in.m4a ]; then
-            ffmpeg -y -f lavfi -t "$DUR" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
-          fi
+          [ -s music_in.m4a ] || ffmpeg -y -f lavfi -t "${DUR}" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
 
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # Escapar textos (evita policy IM)
+          # Textos escapados para ImageMagick (evita policy)
           CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
           CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
-
           TITLE_TEXT="$(cat t2.txt)"
           TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
 
-          # PNG del chip y ancho real
+          # PNG del gancho (chip) y medidas
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   label:"$CHIP_ESC" chip_label.png
           CHIP_W="$(identify -format "%w" chip_label.png)"
+          CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # PNG del título con el mismo ancho (wrap automático)
+          # PNG del título con el MISMO ancho que el chip
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
 
+          # Coordenadas NUMÉRICAS:
+          # 1080x1920 → centro vertical = 960; elevamos chip 380 px respecto al centro
+          X_CHIP=$(( (1080 - CHIP_W) / 2 ))
+          Y_CHIP=$(( 960 - 380 ))         # = 580
+          MARGIN=28
+          Y_TITLE=$(( Y_CHIP + CHIP_H + MARGIN ))
+
           TMP_OUT="__tmp_video__.mp4"
           ffmpeg -y -hide_banner -loglevel error \
-                 -loop 1 -framerate 30 -i "$IMAGE_PATH" \
-                 -i chip_label.png -i title_label.png \
-                 -i music_in.m4a -t "$DUR" \
-                 -filter_complex "\
+            -loop 1 -framerate 30 -i "$IMAGE_PATH" \
+            -i chip_label.png -i title_label.png -i music_in.m4a -t "$DUR" \
+            -filter_complex "\
           [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p[bg]; \
-          [bg][1:v]overlay=x='(main_w-overlay_w)/2':y='(main_h/2-380)'[bg1]; \
-          [bg1][2:v]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'[bg2]; \
+          [bg][1:v]overlay=${X_CHIP}:${Y_CHIP}[bg1]; \
+          [bg1][2:v]overlay=${X_CHIP}:${Y_TITLE}[bg2]; \
           [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
           [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
           [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
           [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
-                 -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
-                 -c:a aac -b:a 128k -shortest "$TMP_OUT"
+            -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
+            -c:a aac -b:a 128k -shortest "$TMP_OUT"
 
-          # Comprobar y mover
-          if [ ! -s "$TMP_OUT" ]; then
-            echo "❌ FFmpeg no generó el vídeo. Listado de archivos para diagnóstico:"; ls -la
-            exit 1
-          fi
+          [ -s "$TMP_OUT" ] || { echo "❌ No se generó el vídeo"; ls -la; exit 1; }
           mv "$TMP_OUT" "$OUT"
           mkdir -p "$OUTDIR"
           mv "$OUT" "$OUTDIR/$OUT"
 
-      - name: 🖼️ Generar cover.png (robusto · sin bandas · sin rellenos · chip=title ancho igual)
+      - name: 🖼️ Generar cover.png (chip y título alineados)
         run: |
           set -euo pipefail
-          set -x
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar textos
+          # Textos
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
           [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
@@ -233,42 +229,40 @@ jobs:
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # Escapar textos (evita policy IM)
           CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
           CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
-
           TITLE_TEXT="$(cat t2.txt)"
           TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
 
-          # PNG del chip y ancho
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   label:"$CHIP_ESC" chip_label.png
           CHIP_W="$(identify -format "%w" chip_label.png)"
+          CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # PNG del título al mismo ancho
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
 
+          X_CHIP=$(( (1080 - CHIP_W) / 2 ))
+          Y_CHIP=$(( 960 - 380 ))
+          MARGIN=28
+          Y_TITLE=$(( Y_CHIP + CHIP_H + MARGIN ))
+
           TMP_COVER="__tmp_cover__.png"
           ffmpeg -y -hide_banner -loglevel error \
-                 -i "$IMAGE_PATH" -i chip_label.png -i title_label.png \
-                 -filter_complex "\
-          [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba[bg]; \
-          [bg][1:v]overlay=x='(main_w-overlay_w)/2':y='(main_h/2-380)'[bg1]; \
-          [bg1][2:v]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'[bg2]; \
-          [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
-          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
-          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
-          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
-                 -frames:v 1 "$TMP_COVER"
+            -i "$IMAGE_PATH" -i chip_label.png -i title_label.png \
+            -filter_complex "\
+            [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba[bg]; \
+            [bg][1:v]overlay=${X_CHIP}:${Y_CHIP}[bg1]; \
+            [bg1][2:v]overlay=${X_CHIP}:${Y_TITLE}[bg2]; \
+            [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
+            [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
+            [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
+            [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
+            -frames:v 1 "$TMP_COVER"
 
-          # Comprobar y mover
-          if [ ! -s "$TMP_COVER" ]; then
-            echo "❌ FFmpeg no generó la cover. Listado de archivos:"; ls -la
-            exit 1
-          fi
+          [ -s "$TMP_COVER" ] || { echo "❌ No se generó la cover"; ls -la; exit 1; }
           mkdir -p "$OUTDIR"
           mv "$TMP_COVER" "$OUTDIR/cover.png"
 
