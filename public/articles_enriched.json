@@ -1,16 +1,58 @@
 [
   {
-    "title": "Plastics: All around us and inside us",
-    "title_es": "Plásticos: a nuestro alrededor y dentro de nosotros",
-    "url": "https://phys.org/news/2025-08-plastics.html",
-    "source": "Phys.org (Latest)",
-    "published": "2025-08-21T05:00:00.000Z",
-    "date": "2025-08-21",
+    "title": "Accelerating GenAI Workloads by Enabling RISC-V Microkernel Support in IREE",
+    "title_es": "Aceleración de las cargas de trabajo GenAI al habilitar el soporte de micronúcleo RISC-V en IREE",
+    "url": "https://arxiv.org/abs/2508.14899",
+    "source": "arXiv",
+    "published": "2025-08-22T04:00:00.000Z",
+    "date": "2025-08-22",
     "category": "noticia",
     "tags": [
-      "plásticos",
-      "a",
-      "nuestro"
+      "accelerating",
+      "genai",
+      "workloads"
+    ]
+  },
+  {
+    "title": "RFK Jr demanded a vaccine study be retracted — the journal said no",
+    "title_es": "RFK JR exigió que se retirara un estudio de vacuna: el Journal dijo que no",
+    "url": "https://www.nature.com/articles/d41586-025-02682-9",
+    "source": "Nature",
+    "published": "2025-08-22T00:00:00.000Z",
+    "date": "2025-08-22",
+    "category": "revista",
+    "tags": [
+      "rfk",
+      "jr",
+      "exigió"
+    ]
+  },
+  {
+    "title": "Ancient fossil discovery in Ethiopia rewrites human origins",
+    "title_es": "El descubrimiento fósil antiguo en Etiopía reescribe orígenes humanos",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250821094506.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-22T00:00:00.000Z",
+    "date": "2025-08-22",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "descubrimiento",
+      "fósil"
+    ]
+  },
+  {
+    "title": "Wildfire raised local death rate by 67%, shows study on 2023 Hawaiʻi fires",
+    "title_es": "El incendio forestal aumentó la tasa de mortalidad local en un 67%, muestra el estudio en los incendios de 2023 Hawaiʻi",
+    "url": "https://phys.org/news/2025-08-wildfire-local-death-hawaii.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-22T00:00:00.000Z",
+    "date": "2025-08-22",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "incendio",
+      "forestal"
     ]
   },
   {
@@ -41,7 +83,104 @@
       "curiosity"
     ]
   },
-
+  {
+    "title": "Plastics: All around us and inside us",
+    "title_es": "Plásticos: a nuestro alrededor y dentro de nosotros",
+    "url": "https://phys.org/news/2025-08-plastics.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "plásticos",
+      "a",
+      "nuestro"
+    ]
+  },
+  {
+    "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+    "title_es": "Escenagen: generación de escena 3D de imagen única en un pase de feedforward",
+    "url": "http://arxiv.org/abs/2508.15769v1",
+    "source": "arXiv",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "escenagen",
+      "generación",
+      "de"
+    ]
+  },
+  {
+    "title": "Mutualism—here, there, and everywhere",
+    "title_es": "Mutualismo: aquí, allí, y en todas partes",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adz6497",
+    "source": "Science.org",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "mutualismo",
+      "aquí",
+      "allí"
+    ]
+  },
+  {
+    "title": "NASA’s SpaceX 33rd Commercial Resupply Mission Overview",
+    "title_es": "Descripción general de la misión de reabastecimiento de reabastecimiento SpaceX de la NASA",
+    "url": "https://www.nasa.gov/missions/station/commercial-resupply/spacex-crs/nasas-spacex-33rd-commercial-resupply-mission-overview/",
+    "source": "NASA (Top News)",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "descripción",
+      "general",
+      "de"
+    ]
+  },
+  {
+    "title": "Frilly bug feet inspire a water-striding robot",
+    "title_es": "Los pies de insecto con frilly inspiran un robot que se extiende por el agua",
+    "url": "https://www.sciencenews.org/article/ripple-bug-feet-water-robots",
+    "source": "Science News",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "pies",
+      "de"
+    ]
+  },
+  {
+    "title": "35 years on, Hubble continues to revolutionize astronomy",
+    "title_es": "35 años después, Hubble continúa revolucionando la astronomía",
+    "url": "https://www.snexplores.org/article/35-years-on-hubble-continues-to-revolutionize-astronomy",
+    "source": "Science News Explores",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "35",
+      "años",
+      "después"
+    ]
+  },
+  {
+    "title": "The brain’s map of the body is surprisingly stable — even after a limb is lost",
+    "title_es": "El mapa cerebral del cuerpo es sorprendentemente estable, incluso después de perder una extremidad",
+    "url": "https://www.nature.com/articles/d41586-025-02686-5",
+    "source": "Nature",
+    "published": "2025-08-21T00:00:00.000Z",
+    "date": "2025-08-21",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "brains",
+      "map"
+    ]
+  },
   {
     "title": "EvoVerilog: Large Langugage Model Assisted Evolution of Verilog Code",
     "title_es": "EvoVerilog: Evolución asistida por el modelo de Langugage grande del código Verilog",
@@ -166,6 +305,20 @@
       "what",
       "counts",
       "as"
+    ]
+  },
+  {
+    "title": "Accelerator Report: A summer of hot spells for the LHC",
+    "title_es": "Informe del acelerador: un verano de hechizos calientes para el LHC",
+    "url": "https://home.cern/news/news/accelerators/accelerator-report-summer-hot-spells-lhc",
+    "source": "CERN News",
+    "published": "2025-08-20T00:00:00.000Z",
+    "date": "2025-08-20",
+    "category": "noticia",
+    "tags": [
+      "informe",
+      "del",
+      "acelerador"
     ]
   },
   {
@@ -7293,7 +7446,7 @@
   },
   {
     "title": "Mitigating Exponential Mixed Frequency Growth through Frequency Selection and Dimensional Separation in Quantum Machine Learning",
-    "title_es": "Mitigación del crecimiento exponencial de frecuencias mixtas a través de la selección de frecuencias y la separación dimensional en el aprendizaje automático cuántico",
+    "title_es": "Mitigating Exponential Mixed Frequency Growth through Frequency Selection and Dimensional Separation in Quantum Machine Learning",
     "url": "https://arxiv.org/abs/2508.10533",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -7307,7 +7460,7 @@
   },
   {
     "title": "Physics-Informed Deep Contrast Source Inversion: A Unified Framework for Inverse Scattering Problems",
-    "title_es": "Inversión de fuente de contraste profundo informada por la física: un marco unificado para problemas de dispersión inversa",
+    "title_es": "Physics-Informed Deep Contrast Source Inversion: A Unified Framework for Inverse Scattering Problems",
     "url": "https://arxiv.org/abs/2508.10555",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10847,17 +11000,17 @@
     ]
   },
   {
-    "title": "Effects of Pilates combined with breathing exercise on lung function, body posture and postural stability among female college students: A randomized controlled trial",
-    "title_es": "Efectos de Pilates combinados con el ejercicio de respiración sobre la función pulmonar, la postura corporal y la estabilidad postural entre las estudiantes universitarias: un ensayo controlado aleatorio",
+    "title": "Analysis of blood screening strategies and their efficacy among voluntary blood donors in a region of East China",
+    "title_es": "Análisis de estrategias de detección de sangre y su eficacia entre los donantes voluntarios de sangre en una región del este de China",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efectos",
+      "análisis",
       "de",
-      "pilates"
+      "estrategias"
     ]
   },
   {
