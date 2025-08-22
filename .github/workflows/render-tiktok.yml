@@ -151,7 +151,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (centrado + sombra suave)
+      - name: 🎬 Renderizar vídeo (chip limitado + título largo y legible)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name || 'futurocientifico.mp4' }}"
@@ -168,29 +168,42 @@ jobs:
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
           [ -s music_in.m4a ] || ffmpeg -y -f lavfi -t "${DUR}" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
 
-          CHIP_PT="${FONT_CHIP_TEXT:-76}"
+          # Tamaños
+          CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-100}"
-          TITLE_W="${TITLE_WIDTH:-960}"
+
+          # 👉 Más largo (ocupa casi todo el ancho)
+          TITLE_W="${TITLE_WIDTH:-1000}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
-          # Escapar
+          # Escapar textos
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
-          # --- CHIP (centrado) con sombra ---
+          # --- CHIP centrado ---
           convert -background none -fill white -stroke black -strokewidth 8 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   -gravity center label:"$CHIP_ESC" chip_label_base.png
+          # Sombra suave
           convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
-                  -background none -layers merge +repage chip_label.png
+                  -background none -layers merge +repage chip_label_shadow.png
+          # ⛔ Limitar ancho del chip a 1000 px
+          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1000}"
+          CHIP_W="$(identify -format "%w" chip_label_shadow.png)"
+          if [ "$CHIP_W" -gt "$CHIP_MAX_W" ]; then
+            convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
+          else
+            mv chip_label_shadow.png chip_label.png
+          fi
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # --- TÍTULO (centrado, ancho fijo) con sombra ---
-          convert -background none -fill white -stroke black -strokewidth 10 -kerning 2 \
+          # --- TÍTULO centrado, ancho fijo grande, MUY legible ---
+          convert -background none -fill white -stroke black -strokewidth 12 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
-          convert title_label_base.png \( +clone -background black -shadow 80x8+0+0 \) +swap \
+          # Sombra más marcada para fondos oscuros
+          convert title_label_base.png \( +clone -background black -shadow 100x12+0+0 \) +swap \
                   -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
@@ -220,8 +233,7 @@ jobs:
           mkdir -p "$OUTDIR"
           mv "$OUT" "$OUTDIR/$OUT"
 
-
-      - name: 🖼️ Generar cover.png (centrado + sombra suave)
+      - name: 🖼️ Generar cover.png (chip limitado + título largo y legible)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -234,28 +246,35 @@ jobs:
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          CHIP_PT="${FONT_CHIP_TEXT:-76}"
+          CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-100}"
-          TITLE_W="${TITLE_WIDTH:-960}"
+          TITLE_W="${TITLE_WIDTH:-1000}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
-          # CHIP centrado con sombra
+          # CHIP centrado + sombra + limitador de ancho
           convert -background none -fill white -stroke black -strokewidth 8 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   -gravity center label:"$CHIP_ESC" chip_label_base.png
           convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
-                  -background none -layers merge +repage chip_label.png
+                  -background none -layers merge +repage chip_label_shadow.png
+          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1000}"
+          CHIP_W="$(identify -format "%w" chip_label_shadow.png)"
+          if [ "$CHIP_W" -gt "$CHIP_MAX_W" ]; then
+            convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
+          else
+            mv chip_label_shadow.png chip_label.png
+          fi
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # TÍTULO centrado con ancho fijo y sombra
-          convert -background none -fill white -stroke black -strokewidth 10 -kerning 2 \
+          # TÍTULO centrado, ancho fijo 1000 px, contorno + sombra potentes
+          convert -background none -fill white -stroke black -strokewidth 12 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
-          convert title_label_base.png \( +clone -background black -shadow 80x8+0+0 \) +swap \
+          convert title_label_base.png \( +clone -background black -shadow 100x12+0+0 \) +swap \
                   -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
@@ -280,6 +299,7 @@ jobs:
           [ -s "$TMP_COVER" ] || { echo "❌ No se generó la cover"; ls -la; exit 1; }
           mkdir -p "$OUTDIR"
           mv "$TMP_COVER" "$OUTDIR/cover.png"
+
 
       - name: Construir prompt y textos IG/X
         uses: actions/github-script@v7
