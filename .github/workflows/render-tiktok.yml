@@ -147,7 +147,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (sin bandas · sin rellenos)
+      - name: 🎬 Renderizar vídeo (sin bandas · sin rellenos · chip/título grandes)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -157,7 +157,7 @@ jobs:
 
           # Asegurar archivos de texto
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
-          [ -s t2.txt ] || { echo "Falta t2.txt"; exit 1; }
+          [ -s t2.txt ] || { echo "Falta t2.txt"; exit 1; }   # título envuelto
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
           [ -s t4a.txt ] || echo "" > t4a.txt
           [ -s t4b.txt ] || echo "" > t4b.txt
@@ -166,17 +166,17 @@ jobs:
           # Sin bandas negras (rellenar y recortar a 1080x1920)
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
 
-          # 🔤 Sin cajas de fondo (solo texto con contorno+sombra)
-          # Branding
+          # 🔤 Sin cajas de fondo: solo texto con contorno+sombra
+          # Branding (mismo tamaño que tenías)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
 
-          # Chip (sin emoji)
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-360)"
+          # CHIP (gancho) MÁS GRANDE
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-64}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-380)"
 
-          # Título centrado
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
+          # TÍTULO MÁS GRANDE y centrado
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-88}:fontcolor=white:borderw=8:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # CTA y redes (dos líneas)
+          # CTA y redes (igual que antes)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
@@ -187,7 +187,7 @@ jobs:
           mv "$OUT" "$OUTDIR/$OUT"
 
 
-      - name: 🖼️ Generar cover.png (sin bandas · sin rellenos)
+      - name: 🖼️ Generar cover.png (sin bandas · sin rellenos · chip/título grandes)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -200,16 +200,16 @@ jobs:
           VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
 
           # 🔤 Sin drawbox/boxcolor: solo texto con contorno+sombra
-          # Branding
+          # Branding (igual que antes)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
 
-          # Chip (sin emoji)
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-52}:fontcolor=white:borderw=6:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-360)"
+          # CHIP (gancho) MÁS GRANDE
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-64}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-380)"
 
-          # Título centrado (más grande)
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-76}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
+          # TÍTULO MÁS GRANDE y centrado
+          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-88}:fontcolor=white:borderw=8:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
 
-          # CTA y redes (dos líneas)
+          # CTA y redes (igual que antes)
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
           VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
@@ -217,6 +217,7 @@ jobs:
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mkdir -p "$OUTDIR"
           mv cover.png "$OUTDIR/cover.png"
+
 
       - name: Construir prompt y textos IG/X
         uses: actions/github-script@v7
