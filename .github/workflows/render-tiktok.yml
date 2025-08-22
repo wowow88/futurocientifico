@@ -155,7 +155,7 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar archivos de texto generados antes
+          # Asegurar textos básicos
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
           [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
@@ -166,24 +166,31 @@ jobs:
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
+          # Leer textos y ESCAPAR para ImageMagick (sin usar @archivo)
+          CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
+          CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
+
+          TITLE_TEXT="$(cat t2.txt)"
+          TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
+
           # PNG del chip (ancho natural del texto del gancho)
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
-                  label:@t2chip_text.txt chip_label.png
+                  label:"$CHIP_ESC" chip_label.png
 
-          CHIP_W=$(identify -format "%w" chip_label.png)
+          CHIP_W="$(identify -format "%w" chip_label.png)"
 
-          # PNG del título ajustado EXACTO al ancho del chip (se envuelve)
+          # PNG del título ajustado EXACTO al ancho del chip (envuelve automáticamente)
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
-                  -size "${CHIP_W}x" caption:@t2.txt title_label.png
+                  -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
 
           ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" \
                  -i chip_label.png -i title_label.png -i music_in.m4a -t "$DUR" \
                  -filter_complex "\
           [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p[bg]; \
-          [bg][1:v]overlay=x=(W-w)/2:y=(H/2-380)[bg1]; \
-          [bg1][2:v]overlay=x=(W-w)/2:y=(H-h)/2[bg2]; \
+          [bg][1:v]overlay=x='(main_w-overlay_w)/2':y='(main_h/2-380)'[bg1]; \
+          [bg1][2:v]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'[bg2]; \
           [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
           [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
           [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
@@ -210,24 +217,31 @@ jobs:
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
+          # Leer textos y ESCAPAR (evita policy de IM)
+          CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
+          CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
+
+          TITLE_TEXT="$(cat t2.txt)"
+          TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
+
           # PNG del chip
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
-                  label:@t2chip_text.txt chip_label.png
+                  label:"$CHIP_ESC" chip_label.png
 
-          CHIP_W=$(identify -format "%w" chip_label.png)
+          CHIP_W="$(identify -format "%w" chip_label.png)"
 
-          # PNG del título ajustado EXACTO al ancho del chip
+          # PNG del título con el MISMO ancho
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
-                  -size "${CHIP_W}x" caption:@t2.txt title_label.png
+                  -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
 
           ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 \
                  -i chip_label.png -i title_label.png \
                  -filter_complex "\
           [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba[bg]; \
-          [bg][1:v]overlay=x=(W-w)/2:y=(H/2-380)[bg1]; \
-          [bg1][2:v]overlay=x=(W-w)/2:y=(H-h)/2[bg2]; \
+          [bg][1:v]overlay=x='(main_w-overlay_w)/2':y='(main_h/2-380)'[bg1]; \
+          [bg1][2:v]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'[bg2]; \
           [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
           [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
           [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
