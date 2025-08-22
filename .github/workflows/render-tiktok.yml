@@ -66,7 +66,7 @@ jobs:
           test -s public/articles_enriched.json || { echo "Falta public/articles_enriched.json"; exit 1; }
           test -s "$IMAGE_PATH" || { echo "Falta $IMAGE_PATH"; exit 1; }
 
-      - name: Elegir último artículo y preparar textos (wrap + tamaño + redes 2 líneas + chip)
+      - name: Elegir último artículo y preparar textos (wrap por píxel + redes 2 líneas + chip)
         id: pick
         run: |
           set -euo pipefail
@@ -87,23 +87,27 @@ jobs:
             echo "AUTO_URL=$URL"
           } >> "$GITHUB_ENV"
 
-          # Tamaño/ajuste del título
+          # Tamaño dinámico por longitud (solo como guía)
           LEN=$(printf "%s" "$TITLE_ES" | wc -m | awk '{print $1}')
-          if   [ "$LEN" -le 60  ]; then FONT_T2=38; WRAP=28
-          elif [ "$LEN" -le 100 ]; then FONT_T2=32; WRAP=24
-          elif [ "$LEN" -le 140 ]; then FONT_T2=28; WRAP=20
-          else                         FONT_T2=24; WRAP=18
+          if   [ "$LEN" -le 60  ]; then FONT_T2=40
+          elif [ "$LEN" -le 100 ]; then FONT_T2=36
+          elif [ "$LEN" -le 140 ]; then FONT_T2=32
+          else                         FONT_T2=28
           fi
           echo "FONT_T2=${FONT_T2}" >> "$GITHUB_ENV"
 
-          # Versión para COVER (más grande, con tope)
-          COVER_T2=$((FONT_T2 + 6))
-          if [ "$COVER_T2" -gt 48 ]; then COVER_T2=48; fi
+          # Versión COVER (más grande, sin tope tan bajo)
+          COVER_T2=$((FONT_T2 + 12))
+          # límite alto razonable para 1080px de ancho:
+          if [ "$COVER_T2" -gt 90 ]; then COVER_T2=90; fi
           echo "FONT_T2_COVER=${COVER_T2}" >> "$GITHUB_ENV"
 
-          # Textos base
+          # 👇 ANCHO EN PÍXELES PARA caption:, no pre-envolver por caracteres
+          echo "TITLE_WIDTH=${TITLE_WIDTH:-960}" >> "$GITHUB_ENV"
+
+          # Textos base (sin fold; que envuelva ImageMagick por píxel)
           printf "%s" "${{ github.event.inputs.text1 }}" > t1.txt
-          printf "%s" "$TITLE_ES" | fold -s -w ${WRAP} > t2.txt
+          printf "%s" "$TITLE_ES" > t2.txt
           printf "%s" "${{ github.event.inputs.text3 }}" > t3.txt
 
           # Redes en dos líneas
@@ -119,10 +123,10 @@ jobs:
           sed -n '1p' t4_split.txt > t4a.txt
           sed -n '2p' t4_split.txt > t4b.txt
 
-          # Chip fijo (gancho)
-          echo "Hoy en #FuturoCientífico" > t2chip.txt
+          # Chip (gancho)
+          echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Estilo
+          # Estilo permitido
           STYLE="${{ github.event.inputs.title_style }}"
           case "$STYLE" in
             strip|card|glow) echo "TITLE_STYLE=$STYLE" >> "$GITHUB_ENV" ;;
