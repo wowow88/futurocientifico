@@ -155,7 +155,7 @@ jobs:
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name || 'futurocientifico.mp4' }}"
-          DUR="${{ github.event.inputs.duration || '59' }}"
+          DUR="${{ github.event.inputs.duration || '10' }}"
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -185,7 +185,7 @@ jobs:
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   -gravity center label:"$CHIP_ESC" chip_label_base.png
           # Sombra suave
-          convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
+          convert chip_label_base.png \( +clone -background black -shadow 10x2+0+0 \) +swap \
                   -background none -layers merge +repage chip_label_shadow.png
           # ⛔ Limitar ancho del chip a 1040 px
           CHIP_MAX_W="${CHIP_MAX_WIDTH:-1040}"
