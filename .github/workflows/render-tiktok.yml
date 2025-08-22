@@ -155,7 +155,7 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar textos básicos
+          # Asegurar textos
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
           [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
@@ -166,21 +166,20 @@ jobs:
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # Leer textos y ESCAPAR para ImageMagick (sin usar @archivo)
+          # Escapar textos (sin usar @archivo por política IM)
           CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
           CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
 
           TITLE_TEXT="$(cat t2.txt)"
           TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
 
-          # PNG del chip (ancho natural del texto del gancho)
+          # PNG del chip → obtener ancho real
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   label:"$CHIP_ESC" chip_label.png
-
           CHIP_W="$(identify -format "%w" chip_label.png)"
 
-          # PNG del título ajustado EXACTO al ancho del chip (envuelve automáticamente)
+          # PNG del título con EXACTO el mismo ancho
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
@@ -197,6 +196,8 @@ jobs:
           [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
                  -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
                  -c:a aac -b:a 128k -shortest "$OUT"
+
+          mv "$OUT" "$OUTDIR/$OUT"
 
           mv "$OUT" "$OUTDIR/$OUT"
 
@@ -217,27 +218,25 @@ jobs:
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # Leer textos y ESCAPAR (evita policy de IM)
+          # Escapar textos para IM (sin @archivo)
           CHIP_TEXT="$(tr -d '\r' < t2chip_text.txt)"
           CHIP_ESC="$(printf "%s" "$CHIP_TEXT" | sed 's/\\/\\\\/g; s/"/\\"/g')"
 
           TITLE_TEXT="$(cat t2.txt)"
           TITLE_ESC="$(printf "%s" "$TITLE_TEXT" | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\n/\\n/g')"
 
-          # PNG del chip
+          # PNG del chip y ancho
           convert -background none -fill white -stroke black -strokewidth 7 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   label:"$CHIP_ESC" chip_label.png
-
           CHIP_W="$(identify -format "%w" chip_label.png)"
 
-          # PNG del título con el MISMO ancho
+          # PNG del título con el mismo ancho
           convert -background none -fill white -stroke black -strokewidth 8 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -size "${CHIP_W}x" caption:"$TITLE_ESC" title_label.png
 
-          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 \
-                 -i chip_label.png -i title_label.png \
+          ffmpeg -y -i "$IMAGE_PATH" -i chip_label.png -i title_label.png \
                  -filter_complex "\
           [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba[bg]; \
           [bg][1:v]overlay=x='(main_w-overlay_w)/2':y='(main_h/2-380)'[bg1]; \
@@ -246,7 +245,7 @@ jobs:
           [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
           [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
           [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
-                 cover.png
+                 -frames:v 1 cover.png
 
           mkdir -p "$OUTDIR"
           mv cover.png "$OUTDIR/cover.png"
