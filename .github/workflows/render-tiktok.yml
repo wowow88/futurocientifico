@@ -173,7 +173,7 @@ jobs:
           TITLE_PT="${FONT_T2_COVER:-100}"
 
           # 👉 Más largo (ocupa casi todo el ancho)
-          TITLE_W="${TITLE_WIDTH:-1000}"
+          TITLE_W="${TITLE_WIDTH:-1040}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
           # Escapar textos
@@ -187,8 +187,8 @@ jobs:
           # Sombra suave
           convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
                   -background none -layers merge +repage chip_label_shadow.png
-          # ⛔ Limitar ancho del chip a 1000 px
-          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1000}"
+          # ⛔ Limitar ancho del chip a 1040 px
+          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1040}"
           CHIP_W="$(identify -format "%w" chip_label_shadow.png)"
           if [ "$CHIP_W" -gt "$CHIP_MAX_W" ]; then
             convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
@@ -199,11 +199,11 @@ jobs:
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
           # --- TÍTULO centrado, ancho fijo grande, MUY legible ---
-          convert -background none -fill white -stroke black -strokewidth 12 -kerning 2 \
+          convert -background none -fill white -stroke black -strokewidth 6 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
           # Sombra más marcada para fondos oscuros
-          convert title_label_base.png \( +clone -background black -shadow 100x12+0+0 \) +swap \
+          convert title_label_base.png \( +clone -background black -shadow 100x6+0+0 \) +swap \
                   -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
@@ -248,19 +248,19 @@ jobs:
 
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-100}"
-          TITLE_W="${TITLE_WIDTH:-1000}"
+          TITLE_W="${TITLE_WIDTH:-1040}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
           # CHIP centrado + sombra + limitador de ancho
-          convert -background none -fill white -stroke black -strokewidth 8 -kerning 2 \
+          convert -background none -fill white -stroke black -strokewidth 6 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
                   -gravity center label:"$CHIP_ESC" chip_label_base.png
           convert chip_label_base.png \( +clone -background black -shadow 80x6+0+0 \) +swap \
                   -background none -layers merge +repage chip_label_shadow.png
-          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1000}"
+          CHIP_MAX_W="${CHIP_MAX_WIDTH:-1040}"
           CHIP_W="$(identify -format "%w" chip_label_shadow.png)"
           if [ "$CHIP_W" -gt "$CHIP_MAX_W" ]; then
             convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
@@ -270,11 +270,11 @@ jobs:
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # TÍTULO centrado, ancho fijo 1000 px, contorno + sombra potentes
-          convert -background none -fill white -stroke black -strokewidth 12 -kerning 2 \
+          # TÍTULO centrado, ancho fijo 1040 px, contorno + sombra potentes
+          convert -background none -fill white -stroke black -strokewidth 6 -kerning 2 \
                   -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
                   -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
-          convert title_label_base.png \( +clone -background black -shadow 100x12+0+0 \) +swap \
+          convert title_label_base.png \( +clone -background black -shadow 100x6+0+0 \) +swap \
                   -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
