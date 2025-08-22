@@ -147,7 +147,7 @@ jobs:
             ffmpeg -y -i "$IN" -vn -ac 2 -ar 44100 -c:a aac -b:a 128k -filter:a "volume=0.9" music_in.m4a
           fi
 
-      - name: 🎬 Renderizar vídeo (sin bandas · sin rellenos · chip/título grandes)
+      - name: 🎬 Renderizar vídeo (sin bandas · sin rellenos · chip=title ancho igual)
         run: |
           set -euo pipefail
           OUT="${{ github.event.inputs.out_name }}"
@@ -155,69 +155,87 @@ jobs:
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar archivos de texto
+          # Asegurar archivos de texto generados antes
           [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
-          [ -s t2.txt ] || { echo "Falta t2.txt"; exit 1; }   # título envuelto
+          [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
           [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
           [ -s t4a.txt ] || echo "" > t4a.txt
           [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Sin bandas negras (rellenar y recortar a 1080x1920)
-          VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p"
+          CHIP_PT="${FONT_CHIP_TEXT:-72}"
+          TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # 🔤 Sin cajas de fondo: solo texto con contorno+sombra
-          # Branding (mismo tamaño que tenías)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
+          # PNG del chip (ancho natural del texto del gancho)
+          convert -background none -fill white -stroke black -strokewidth 7 \
+                  -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
+                  label:@t2chip_text.txt chip_label.png
 
-          # CHIP (gancho) MÁS GRANDE
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-64}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-380)"
+          CHIP_W=$(identify -format "%w" chip_label.png)
 
-          # TÍTULO MÁS GRANDE y centrado
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-88}:fontcolor=white:borderw=8:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
+          # PNG del título ajustado EXACTO al ancho del chip (se envuelve)
+          convert -background none -fill white -stroke black -strokewidth 8 \
+                  -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
+                  -size "${CHIP_W}x" caption:@t2.txt title_label.png
 
-          # CTA y redes (igual que antes)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
+          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" \
+                 -i chip_label.png -i title_label.png -i music_in.m4a -t "$DUR" \
+                 -filter_complex "\
+          [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p[bg]; \
+          [bg][1:v]overlay=x=(W-w)/2:y=(H/2-380)[bg1]; \
+          [bg1][2:v]overlay=x=(W-w)/2:y=(H-h)/2[bg2]; \
+          [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
+          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
+          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
+          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
+                 -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
+                 -c:a aac -b:a 128k -shortest "$OUT"
 
-          ffmpeg -y -loop 1 -framerate 30 -i "$IMAGE_PATH" -i music_in.m4a -t "$DUR" \
-            -filter:v "$VF" -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
-            -c:a aac -b:a 128k -shortest "$OUT"
           mv "$OUT" "$OUTDIR/$OUT"
 
-
-      - name: 🖼️ Generar cover.png (sin bandas · sin rellenos · chip/título grandes)
+      - name: 🖼️ Generar cover.png (sin bandas · sin rellenos · chip=title ancho igual)
         run: |
           set -euo pipefail
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-          # Asegurar chip por si no existe
+          # Asegurar textos
+          [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
+          [ -s t2.txt ] || { echo "Falta t2.txt (title_es envuelto)"; exit 1; }
+          [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
+          [ -s t4a.txt ] || echo "" > t4a.txt
+          [ -s t4b.txt ] || echo "" > t4b.txt
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
 
-          # Sin bandas negras (rellenar y recortar a 1080x1920)
-          VF="scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba"
+          CHIP_PT="${FONT_CHIP_TEXT:-72}"
+          TITLE_PT="${FONT_T2_COVER:-96}"
 
-          # 🔤 Sin drawbox/boxcolor: solo texto con contorno+sombra
-          # Branding (igual que antes)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70"
+          # PNG del chip
+          convert -background none -fill white -stroke black -strokewidth 7 \
+                  -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
+                  label:@t2chip_text.txt chip_label.png
 
-          # CHIP (gancho) MÁS GRANDE
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2chip_text.txt:reload=1:text_shaping=1:fontsize=${FONT_CHIP_TEXT:-64}:fontcolor=white:borderw=7:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:x=(w-text_w)/2:y=(h/2-380)"
+          CHIP_W=$(identify -format "%w" chip_label.png)
 
-          # TÍTULO MÁS GRANDE y centrado
-          VF="$VF,drawtext=fontfile=${FONT_BOLD}:textfile=t2.txt:reload=1:text_shaping=1:fontsize=${FONT_T2_COVER:-88}:fontcolor=white:borderw=8:bordercolor=black@1.0:shadowcolor=black@0.9:shadowx=2:shadowy=2:line_spacing=14:x=(w-text_w)/2:y=(h-text_h)/2"
+          # PNG del título ajustado EXACTO al ancho del chip
+          convert -background none -fill white -stroke black -strokewidth 8 \
+                  -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
+                  -size "${CHIP_W}x" caption:@t2.txt title_label.png
 
-          # CTA y redes (igual que antes)
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600"
-          VF="$VF,drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700"
+          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 \
+                 -i chip_label.png -i title_label.png \
+                 -filter_complex "\
+          [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=rgba[bg]; \
+          [bg][1:v]overlay=x=(W-w)/2:y=(H/2-380)[bg1]; \
+          [bg1][2:v]overlay=x=(W-w)/2:y=(H-h)/2[bg2]; \
+          [bg2]drawtext=fontfile=${FONT}:textfile=t1.txt:reload=1:text_shaping=1:fontsize=${FONT_T1_COVER:-52}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=70[bg3]; \
+          [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
+          [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
+          [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-38}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
+                 cover.png
 
-          ffmpeg -y -loop 1 -i "$IMAGE_PATH" -frames:v 1 -filter:v "$VF" cover.png
           mkdir -p "$OUTDIR"
           mv cover.png "$OUTDIR/cover.png"
-
 
       - name: Construir prompt y textos IG/X
         uses: actions/github-script@v7
