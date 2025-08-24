@@ -184,12 +184,40 @@ jobs:
           python scripts/eduflash_pipeline.py
 
       # ⬇️ Opcional: re-verificamos por si la rama avanzó durante el script
-      - name: "Rebase rápido pre-push"
+      - name: "Rebase rápido pre-push (autostash real)"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
+
+          # ¿Hay cambios sin preparar? (tracked, staged o untracked)
+            NEED_STASH=0
+          git diff --quiet || NEED_STASH=1
+          git diff --cached --quiet || NEED_STASH=1
+          if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+            NEED_STASH=1
+          fi
+
+          # Si hay cambios, stashear incluyendo untracked (-u)
+          if [ "$NEED_STASH" -eq 1 ]; then
+            echo "🔹 Working tree con cambios; aplico stash -u…"
+            STASH_MSG="ci-pre-push-$(date -u +%F-%T)"
+            git stash push -u -m "$STASH_MSG" || true
+            STASHED=1
+          else
+            STASHED=0
+          fi
+
+          # Rebase contra main
           git fetch origin main
           git pull --rebase origin main
+
+          # Reaplicar stash si lo hubo (no fallar si hay conflictos)
+          if [ "$STASHED" -eq 1 ]; then
+            echo "🔹 Reaplicando stash…"
+            if ! git stash pop; then
+              echo "::warning:: Conflictos al aplicar el stash; se mantiene en la pila para revisión manual"
+            fi
+          fi
 
       - name: "Commit y push de EduFlash (seguro)"
         working-directory: futurocientifico
