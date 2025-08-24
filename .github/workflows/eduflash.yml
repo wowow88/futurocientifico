@@ -115,15 +115,34 @@ jobs:
         run: |
           jq -r '[ .[] | select((.title_es|not) or (.title_es=="") or ((.title_es|ascii_downcase)==(.title|ascii_downcase))) ] | length' public/articles_enriched.json
 
-      - name: "Commit & push (solo enriched)"
+      - name: "Commit & push (solo enriched) — seguro"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Validar y preparar cambios
+          if [ -s public/articles_enriched.json ]; then
+          jq . public/articles_enriched.json >/dev/null 2>&1 || { echo "❌ JSON inválido"; exit 1; }
           git add public/articles_enriched.json
-          git commit -m "chore: ensure title_es (free) desde CurioScience [skip ci]" || echo "No changes"
-          git push
+          else
+          echo "❌ No existe public/articles_enriched.json"; exit 1
+          fi
+
+          # Commit solo si hay algo en el index
+          if ! git diff --cached --quiet; then
+          git commit -m "chore: ensure title_es (free) desde CurioScience [skip ci]"
+          else
+          echo "No changes to commit"
+          fi
+
+          # Sincronizar con remoto evitando 'unstaged changes'
+          git fetch origin main
+          git -c rebase.autoStash=true pull --rebase origin main
+
+          # Push
+          git push origin HEAD:main
 
   eduflash:
       name: "EduFlash: JSON diario"
