@@ -172,12 +172,28 @@ jobs:
           git fetch origin main
           git pull --rebase origin main
 
-      - name: "Commit y push de EduFlash"
+      - name: "Commit y push de EduFlash (seguro)"
         working-directory: futurocientifico
         run: |
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 1) Preparar cambios (solo si existe el JSON)
+          if [ -f public/eduflash.json ]; then
           git add public/eduflash.json
-          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]" || echo "No changes"
-          git push
+          fi
+
+          # 2) Commit solo si hay algo staged
+          if ! git diff --cached --quiet; then
+          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]"
+          else
+          echo "No changes to commit"
+          fi
+
+          # 3) Sincronizar con remoto evitando 'unstaged changes'
+          git fetch origin main
+          git -c rebase.autoStash=true pull --rebase origin main
+
+          # 4) Push
+          git push origin HEAD:main
