@@ -159,17 +159,60 @@ jobs:
           DUR="${{ github.event.inputs.duration || '10' }}"
           FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
           FONT_BOLD="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+          IMAGE_PATH="${IMAGE_PATH:-public/avatar-cientifico.png}"
+          OUTDIR="${OUTDIR:-out/$(date +%F)}"
 
-          # Textos requeridos
-          [ -s t1.txt ] || { echo "Falta t1.txt"; exit 1; }
-          [ -s t2.txt ] || { echo "Falta t2.txt (title_es)"; exit 1; }
-          [ -s t3.txt ] || { echo "Falta t3.txt"; exit 1; }
-          [ -s t4a.txt ] || echo "" > t4a.txt
-          [ -s t4b.txt ] || echo "" > t4b.txt
+          # Asegurar imagen de fondo
+          [ -s "$IMAGE_PATH" ] || { echo "❌ No existe imagen base en $IMAGE_PATH"; exit 1; }
+
+          # -------- Fallbacks: crear textos si faltan --------
+          # t1 (branding)
+          if [ ! -s t1.txt ]; then
+          printf "%s" "${{ github.event.inputs.text1 || 'FuturoCientífico 🚀 Ciencia en 1 minuto' }}" > t1.txt
+          fi
+
+          # t2 (title_es). Prioridad: AUTO_TITLE_ES > enriched.json > fallback
+          if [ ! -s t2.txt ]; then
+          if [ -n "${AUTO_TITLE_ES:-}" ]; then
+            printf "%s" "$AUTO_TITLE_ES" > t2.txt
+          elif [ -s public/articles_enriched.json ]; then
+          T_ES="$(jq -r 'sort_by(.published // .date) | reverse | .[0].title_es // empty' public/articles_enriched.json)"
+          if [ -z "$T_ES" ]; then
+          T_ES="$(jq -r 'sort_by(.published // .date) | reverse | .[0].title // "Nuevo artículo de FuturoCientífico"' public/articles_enriched.json)"
+          fi
+          printf "%s" "$T_ES" > t2.txt
+          else
+          printf "%s" "Nuevo artículo de FuturoCientífico" > t2.txt
+          fi
+          fi
+
+          # t3 (CTA / hashtags)
+            if [ ! -s t3.txt ]; then
+            printf "%s" "${{ github.event.inputs.text3 || '#Ciencia #Curiosidades #FuturoCientífico' }}" > t3.txt
+            fi
+
+          # t4 (redes en dos líneas)
+          if [ ! -s t4a.txt ] || [ ! -s t4b.txt ]; then
+          T4_IN="${{ github.event.inputs.text4 || 'IG:@futurocientifico2025 · TikTok:@futurocientifico · X:@futuro100tico · YouTube:@futurocientifico' }}"
+          printf "%s\n" "$T4_IN" | awk -F "·" '{
+          n=split($0,a,"·");
+          mid=int((n+1)/2);
+          for(i=1;i<=mid;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<mid?" · ":"")}
+          print "";
+          for(i=mid+1;i<=n;i++){gsub(/^ +| +$/,"",a[i]); printf "%s%s", a[i], (i<n?" · ":"")}
+          print "";
+          }' > t4_split.txt
+          sed -n '1p' t4_split.txt > t4a.txt
+          sed -n '2p' t4_split.txt > t4b.txt
+          fi
+
+          # Chip (gancho)
           [ -s t2chip_text.txt ] || echo "Hoy en #FuturoCientífico" > t2chip_text.txt
+
+          # Audio (si no hay pista, genera silencio)
           [ -s music_in.m4a ] || ffmpeg -y -f lavfi -t "${DUR}" -i anullsrc=r=44100:cl=stereo -c:a aac -b:a 128k music_in.m4a
 
-          # Tamaños
+          # -------- Estilos / tamaños --------
           CHIP_PT="${FONT_CHIP_TEXT:-72}"
           TITLE_PT="${FONT_T2_COVER:-72}"
 
@@ -177,38 +220,35 @@ jobs:
           TITLE_W="${TITLE_WIDTH:-1040}"
           X_TITLE=$(( (1080 - TITLE_W) / 2 ))
 
-          # Escapar textos
+          # -------- Escapar textos para IM --------
           CHIP_ESC="$(tr -d '\r' < t2chip_text.txt | sed 's/\\/\\\\/g; s/"/\\"/g')"
           TITLE_ESC="$(cat t2.txt | sed ':a;N;$!ba;s/\\/\\\\/g; s/"/\\"/g; s/\r//g; s/\n/\\n/g')"
 
-          # --- CHIP centrado ---
+          # -------- CHIP centrado + sombra + limitador --------
           convert -background none -fill white -stroke black -strokewidth 4 -kerning 2 \
-                  -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
-                  -gravity center label:"$CHIP_ESC" chip_label_base.png
-          # Sombra suave
+            -font "$FONT_BOLD" -pointsize "$CHIP_PT" \
+            -gravity center label:"$CHIP_ESC" chip_label_base.png
           convert chip_label_base.png \( +clone -background black -shadow 10x2+0+0 \) +swap \
-                  -background none -layers merge +repage chip_label_shadow.png
-          # ⛔ Limitar ancho del chip a 1040 px
+            -background none -layers merge +repage chip_label_shadow.png
           CHIP_MAX_W="${CHIP_MAX_WIDTH:-1040}"
           CHIP_W="$(identify -format "%w" chip_label_shadow.png)"
           if [ "$CHIP_W" -gt "$CHIP_MAX_W" ]; then
-            convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
+          convert chip_label_shadow.png -resize "${CHIP_MAX_W}x" chip_label.png
           else
-            mv chip_label_shadow.png chip_label.png
+          mv chip_label_shadow.png chip_label.png
           fi
           CHIP_W="$(identify -format "%w" chip_label.png)"
           CHIP_H="$(identify -format "%h" chip_label.png)"
 
-          # --- TÍTULO centrado, ancho fijo grande, MUY legible ---
+          # -------- TÍTULO centrado, ancho fijo, sombra --------
           convert -background none -fill white -stroke black -strokewidth 3 -kerning 2 \
-                  -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
-                  -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
-          # Sombra más marcada para fondos oscuros
+            -font "$FONT_BOLD" -pointsize "$TITLE_PT" \
+            -gravity center -size "${TITLE_W}x" caption:"$TITLE_ESC" title_label_base.png
           convert title_label_base.png \( +clone -background black -shadow 10x3+0+0 \) +swap \
-                  -background none -layers merge +repage title_label.png
+            -background none -layers merge +repage title_label.png
           TITLE_H="$(identify -format "%h" title_label.png)"
 
-          # Coordenadas
+          # -------- Overlay --------
           X_CHIP=$(( (1080 - CHIP_W) / 2 ))
           Y_CHIP=$(( 960 - 380 ))
           MARGIN=28
@@ -216,9 +256,9 @@ jobs:
 
           TMP_OUT="__tmp_video__.mp4"
           ffmpeg -y -hide_banner -loglevel error \
-            -loop 1 -framerate 30 -i "$IMAGE_PATH" \
-            -i chip_label.png -i title_label.png -i music_in.m4a -t "$DUR" \
-            -filter_complex "\
+          -loop 1 -framerate 30 -i "$IMAGE_PATH" \
+          -i chip_label.png -i title_label.png -i music_in.m4a -t "$DUR" \
+          -filter_complex "\
           [0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,format=yuv420p[bg]; \
           [bg][1:v]overlay=${X_CHIP}:${Y_CHIP}[bg1]; \
           [bg1][2:v]overlay=${X_TITLE}:${Y_TITLE}[bg2]; \
@@ -226,13 +266,12 @@ jobs:
           [bg3]drawtext=fontfile=${FONT}:textfile=t3.txt:reload=1:text_shaping=1:fontsize=${FONT_T3_COVER:-42}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1440[bg4]; \
           [bg4]drawtext=fontfile=${FONT}:textfile=t4a.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1600[bg5]; \
           [bg5]drawtext=fontfile=${FONT}:textfile=t4b.txt:reload=1:text_shaping=1:fontsize=${FONT_T4_COVER:-40}:fontcolor=white:borderw=3:bordercolor=black@1.0:shadowcolor=black@0.85:shadowx=2:shadowy=2:x=(w-text_w)/2:y=1700" \
-            -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
-            -c:a aac -b:a 128k -shortest "$TMP_OUT"
+          -c:v libx264 -pix_fmt yuv420p -profile:v high -preset veryfast -crf 23 \
+          -c:a aac -b:a 128k -shortest "$TMP_OUT"
 
           [ -s "$TMP_OUT" ] || { echo "❌ No se generó el vídeo"; ls -la; exit 1; }
-          mv "$TMP_OUT" "$OUT"
           mkdir -p "$OUTDIR"
-          mv "$OUT" "$OUTDIR/$OUT"
+          mv "$TMP_OUT" "$OUTDIR/$OUT"
 
       - name: 🖼️ Generar cover.png (chip limitado + título largo y legible)
         run: |
