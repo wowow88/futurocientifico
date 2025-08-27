@@ -1,5 +1,61 @@
 [
   {
+    "title": "Reasoning Steps as Curriculum: Using Depth of Thought as a Difficulty Signal for Tuning LLMs",
+    "title_es": "Pasos de razonamiento como plan de estudios: uso de la profundidad de pensamiento como una señal de dificultad para sintonizar LLM",
+    "url": "https://arxiv.org/abs/2508.18279",
+    "source": "arXiv",
+    "published": "2025-08-27T04:00:00.000Z",
+    "date": "2025-08-27",
+    "category": "noticia",
+    "tags": [
+      "reasoning",
+      "steps",
+      "as"
+    ]
+  },
+  {
+    "title": "Bright city lights make birds around the world sing longer",
+    "title_es": "Las luces de la ciudad brillantes hacen que los pájaros en todo el mundo cantan más",
+    "url": "https://www.nature.com/articles/d41586-025-02726-0",
+    "source": "Nature",
+    "published": "2025-08-27T00:00:00.000Z",
+    "date": "2025-08-27",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "luces",
+      "de"
+    ]
+  },
+  {
+    "title": "Scientists finally pinpoint Jupiter’s birth using “molten rock raindrops”",
+    "title_es": "Los científicos finalmente identifican el nacimiento de Júpiter usando \"gotas de lluvia de roca fundida\"",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250826005233.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-27T00:00:00.000Z",
+    "date": "2025-08-27",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "finalmente"
+    ]
+  },
+  {
+    "title": "Sharks may be losing deadly teeth to ocean acidification",
+    "title_es": "Los tiburones pueden estar perdiendo dientes mortales por la acidificación del océano",
+    "url": "https://phys.org/news/2025-08-sharks-deadly-teeth-ocean-acidification.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-27T00:00:00.000Z",
+    "date": "2025-08-27",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "tiburones",
+      "pueden"
+    ]
+  },
+  {
     "title": "Curiosity Blog, Sols 4638-4640: Imaging Extravaganza Atop a Ridge",
     "title_es": "Blog de curiosidad, Sols 4638-4640: Extravaganza de imágenes en lo alto de una cresta",
     "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4638-4640-imaging-extravaganza-atop-a-ridge/",
@@ -53,6 +109,90 @@
       "los",
       "incendios",
       "de"
+    ]
+  },
+  {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "title_es": "Protocolos de contexto modelo en sistemas de transporte adaptativo: una encuesta",
+    "url": "http://arxiv.org/abs/2508.19239v1",
+    "source": "arXiv",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "protocolos",
+      "de",
+      "contexto"
+    ]
+  },
+  {
+    "title": "The CNIC at the European Cardiology Congress 2025",
+    "title_es": "El CNIC en el Congreso Europeo de Cardiología 2025",
+    "url": "https://www.cnic.es/es/node/236064",
+    "source": "CNIC",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "cnic",
+      "at"
+    ]
+  },
+  {
+    "title": "Inside NASA’s New Orion Mission Evaluation Room for Artemis II",
+    "title_es": "Dentro de la nueva sala de evaluación de la misión de Orión de la NASA para Artemis II",
+    "url": "https://www.nasa.gov/missions/artemis/orion/inside-nasas-new-orion-mission-evaluation-room-for-artemis-ii/",
+    "source": "NASA (Top News)",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "dentro",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "CERN and Pro Helvetia extend “Connect” collaboration and launch Connect Argentina residency",
+    "title_es": "CERN y Pro Helvetia extienden la colaboración \"Connect\" y el lanzamiento de la residencia de Connect Argentina",
+    "url": "https://home.cern/news/news/cern/cern-and-pro-helvetia-extend-connect-collaboration-and-launch-connect-argentina",
+    "source": "CERN News",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "cern",
+      "y",
+      "pro"
+    ]
+  },
+  {
+    "title": "Useful metals get unearthed in U.S. mines, then they’re tossed",
+    "title_es": "Los metales útiles se desenterran en las minas estadounidenses, luego son arrojados",
+    "url": "https://www.sciencenews.org/article/useful-metals-tossed-us-mines",
+    "source": "Science News",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "metales",
+      "útiles"
+    ]
+  },
+  {
+    "title": "This astronomer searches for alien chemistry and tech",
+    "title_es": "Este astrónomo busca química y tecnología alienígena",
+    "url": "https://www.snexplores.org/article/astronomer-seti-search-alien-life",
+    "source": "Science News Explores",
+    "published": "2025-08-26T00:00:00.000Z",
+    "date": "2025-08-26",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "astrónomo",
+      "busca"
     ]
   },
   {
@@ -658,7 +798,7 @@
     ]
   },
   {
-    "title": "Accelerator Report: A summer of hot spells for the LHC",
+    "title": "Accelerator Report:  A summer of hot spells for the LHC",
     "title_es": "Informe del acelerador: un verano de hechizos calientes para el LHC",
     "url": "https://home.cern/news/news/accelerators/accelerator-report-summer-hot-spells-lhc",
     "source": "CERN News",
@@ -7698,7 +7838,7 @@
   },
   {
     "title": "DINOMotion: advanced robust tissue motion tracking with DINOv2 in 2D-Cine MRI-guided radiotherapy",
-    "title_es": "DINOMotion: seguimiento avanzado y robusto del movimiento de los tejidos con DINOv2 en radioterapia guiada por resonancia magnética 2D-Cine",
+    "title_es": "DINOMotion: advanced robust tissue motion tracking with DINOv2 in 2D-Cine MRI-guided radiotherapy",
     "url": "https://arxiv.org/abs/2508.10260",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -7712,7 +7852,7 @@
   },
   {
     "title": "Efficient Image Denoising Using Global and Local Circulant Representation",
-    "title_es": "Reducción eficiente de la imagen utilizando la representación circulante global y local",
+    "title_es": "Efficient Image Denoising Using Global and Local Circulant Representation",
     "url": "https://arxiv.org/abs/2508.10307",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11350,17 +11490,17 @@
     ]
   },
   {
-    "title": "Comprehensive genomic analysis of Xenorhabdus bovienii strain MEL2.2",
-    "title_es": "Análisis genómico integral de <i> xenorhabdus bovienii </i> cepa mel2.2",
+    "title": "Comparison of the ABC/2 formula with computer-assisted volumetry of ischemic cerebellar stroke",
+    "title_es": "Comparación de la fórmula ABC/2 con volumetría asistida por computadora de accidente cerebrovascular cerebeloso isquémico",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "análisis",
-      "genómico",
-      "integral"
+      "comparación",
+      "de",
+      "la"
     ]
   },
   {
