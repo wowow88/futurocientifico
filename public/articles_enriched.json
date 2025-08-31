@@ -1,7 +1,21 @@
 [
   {
+    "title": "NASA’s Webb Telescope just found 300 galaxies that defy explanation",
+    "title_es": "El telescopio Webb de la NASA acaba de encontrar 300 galaxias que desafían la explicación",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250830001153.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-31T00:00:00.000Z",
+    "date": "2025-08-31",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "telescopio",
+      "webb"
+    ]
+  },
+  {
     "title": "Our solar system has a new interstellar visitor: Meet 3I/ATLAS",
-    "title_es": "Nuestro sistema solar tiene un nuevo visitante interestelar: 3I/ATLAS",
+    "title_es": "Nuestro sistema solar tiene un nuevo visitante interestelar: conocer 3i/atlas",
     "url": "https://www.sciencedaily.com/releases/2025/08/250829235726.htm",
     "source": "ScienceDaily (Top)",
     "published": "2025-08-30T00:00:00.000Z",
@@ -11,6 +25,33 @@
       "nuestro",
       "sistema",
       "solar"
+    ]
+  },
+  {
+    "title": "NEJM & The Lancet: El ensayo REBOOT, liderado por el CNIC, modifica una práctica médica vigente desde hace más de 40 años en el manejo del infarto",
+    "title_es": "NEJM & The Lancet: El ensayo REBOOT, liderado por el CNIC, modifica una práctica médica vigente desde hace más de 40 años en el manejo del infarto",
+    "url": "https://www.cnic.es/es/noticias/nejm-lancet-ensayo-reboot-liderado-por-cnic-modifica-practica-medica-vigente-desde-hace-mas",
+    "source": "CNIC",
+    "published": "2025-08-30T00:00:00.000Z",
+    "date": "2025-08-30",
+    "category": "noticia",
+    "tags": [
+      "nejm",
+      "the"
+    ]
+  },
+  {
+    "title": "Defendants in sexual assault cases are just as likely to misremember the event as alleged victims—new study",
+    "title_es": "Los acusados ​​en casos de agresión sexual tienen la misma probabilidad de recordar mal el evento como las presuntas víctimas: nuevas estudios",
+    "url": "https://phys.org/news/2025-08-defendants-sexual-assault-cases-misremember.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-08-30T00:00:00.000Z",
+    "date": "2025-08-30",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "acusados",
+      "en"
     ]
   },
   {
@@ -8146,7 +8187,7 @@
   },
   {
     "title": "Incorporating Taxonomies of Cyber Incidents Into Detection Networks for Improved Detection Performance",
-    "title_es": "Incorporación de taxonomías de incidentes cibernéticos en las redes de detección para mejorar el rendimiento de la detección",
+    "title_es": "Incorporating Taxonomies of Cyber Incidents Into Detection Networks for Improved Detection Performance",
     "url": "https://arxiv.org/abs/2508.10187",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
