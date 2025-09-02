@@ -1,16 +1,30 @@
 [
   {
-    "title": "NASA’s Webb Telescope just found 300 galaxies that defy explanation",
-    "title_es": "El telescopio Webb de la NASA encuentra 300 galaxias sin explicación",
-    "url": "https://www.sciencedaily.com/releases/2025/08/250830001153.htm",
+    "title": "The next Ozempic: A 4-in-1 breakthrough for lasting weight loss",
+    "title_es": "El próximo Ozempic: un avance 4 en 1 para perder peso duradero",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250901104645.htm",
     "source": "ScienceDaily (Top)",
-    "published": "2025-09-01T05:00:00.000Z",
-    "date": "2025-09-01",
+    "published": "2025-09-02T00:00:00.000Z",
+    "date": "2025-09-02",
     "category": "noticia",
     "tags": [
       "el",
-      "telescopio",
-      "webb"
+      "próximo",
+      "ozempic"
+    ]
+  },
+  {
+    "title": "'Greetings from 51 Pegasi b': How NASA made exoplanets into tourist destinations",
+    "title_es": "'Saludos de 51 Pegasi B': Cómo la NASA convirtió exoplanetas en destinos turísticos",
+    "url": "https://phys.org/news/2025-08-pegasi-nasa-exoplanets-tourist-destinations.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-02T00:00:00.000Z",
+    "date": "2025-09-02",
+    "category": "noticia",
+    "tags": [
+      "saludos",
+      "de",
+      "51"
     ]
   },
   {
@@ -53,6 +67,62 @@
       "círculo",
       "versus",
       "rectángulo"
+    ]
+  },
+  {
+    "title": "Who is afraid of quantum mechanics? Books in brief",
+    "title_es": "¿Quién tiene miedo de la mecánica cuántica? Libros en breve",
+    "url": "https://www.nature.com/articles/d41586-025-02755-9",
+    "source": "Nature",
+    "published": "2025-09-01T00:00:00.000Z",
+    "date": "2025-09-01",
+    "category": "noticia",
+    "tags": [
+      "quién",
+      "tiene",
+      "miedo"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival\" hreflang=\"es\">El IAC vuelve a acercar el Universo al público del Phe Festival</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival\" hreflang=\"es\">Festival El IAC vuelve a acercar el Universo al público del Phe</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival",
+    "source": "IAC",
+    "published": "2025-09-01T00:00:00.000Z",
+    "date": "2025-09-01",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "New study links chemical in plastics to fatal heart disease",
+    "title_es": "Un nuevo estudio vincula químicos en plásticos con enfermedades cardíacas fatales",
+    "url": "https://www.snexplores.org/article/plastic-chemical-heart-disease-dehp",
+    "source": "Science News Explores",
+    "published": "2025-09-01T00:00:00.000Z",
+    "date": "2025-09-01",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "nuevo",
+      "estudio"
+    ]
+  },
+  {
+    "title": "NASA’s Webb Telescope just found 300 galaxies that defy explanation",
+    "title_es": "El telescopio Webb de la NASA acaba de encontrar 300 galaxias que desafían la explicación",
+    "url": "https://www.sciencedaily.com/releases/2025/08/250830001153.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-08-31T00:00:00.000Z",
+    "date": "2025-08-31",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "telescopio",
+      "webb"
     ]
   },
   {
@@ -8215,7 +8285,7 @@
   },
   {
     "title": "Prediction-Powered Inference with Inverse Probability Weighting",
-    "title_es": "Inferencia potenciada por predicción con ponderación de probabilidad inversa",
+    "title_es": "Prediction-Powered Inference with Inverse Probability Weighting",
     "url": "https://arxiv.org/abs/2508.10149",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
