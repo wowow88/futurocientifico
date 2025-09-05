@@ -1,16 +1,44 @@
 [
-{
-    "title": "Thinning Arctic Sea Ice",
-    "title_es": "El hielo marino en el Ártico se adelgaza",
-    "url": "https://www.nasa.gov/image-article/thinning-arctic-sea-ice/",
-    "source": "NASA (Top News)",
-    "published": "2025-09-04T05:00:00.000Z",
-    "date": "2025-09-04",
+  {
+    "title": "Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies",
+    "title_es": "Detección cognitiva basada en el habla: una evaluación sistemática de las estrategias de adaptación de LLM",
+    "url": "https://arxiv.org/abs/2509.03525",
+    "source": "arXiv",
+    "published": "2025-09-05T04:00:00.000Z",
+    "date": "2025-09-05",
     "category": "noticia",
     "tags": [
-      "adelgazamiento",
-      "del",
-      "hielo"
+      "speech-based",
+      "cognitive",
+      "screening"
+    ]
+  },
+  {
+    "title": "Scientists watch Parkinson’s protein drill holes in brain cells",
+    "title_es": "Los científicos observan los agujeros de perforación de proteínas de Parkinson en las células cerebrales",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250904103922.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "observan"
+    ]
+  },
+  {
+    "title": "Gold quantum needles could sharpen imaging resolution and boost energy conversion",
+    "title_es": "Las agujas cuánticas de oro podrían agudizar la resolución de imágenes y aumentar la conversión de energía",
+    "url": "https://phys.org/news/2025-09-gold-quantum-needles-sharpen-imaging.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "agujas",
+      "cuánticas"
     ]
   },
   {
@@ -25,6 +53,104 @@
       "use",
       "of",
       "physicochemical"
+    ]
+  },
+  {
+    "title": "ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset",
+    "title_es": "Cronógrafo: un conjunto de datos de series de tiempo multivariados basado en gráficos en el mundo real",
+    "url": "http://arxiv.org/abs/2509.04449v1",
+    "source": "arXiv",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "cronógrafo",
+      "un",
+      "conjunto"
+    ]
+  },
+  {
+    "title": "The end of human exceptionalism",
+    "title_es": "El fin del excepcionalismo humano",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ady5473",
+    "source": "Science.org",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "fin",
+      "del"
+    ]
+  },
+  {
+    "title": "Will a child survive? Older siblings have a powerful influence",
+    "title_es": "¿Sobrevivirá un niño? Los hermanos mayores tienen una poderosa influencia",
+    "url": "https://www.nature.com/articles/d41586-025-02836-9",
+    "source": "Nature",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "sobrevivirá",
+      "un",
+      "niño"
+    ]
+  },
+  {
+    "title": "Dr Héctor Bueno presents the ESC consensus document on mental health and CVD",
+    "title_es": "El Dr. Héctor Bueno presenta el documento de consenso de la ESC sobre salud mental y ECV",
+    "url": "https://www.cnic.es/es/node/236338",
+    "source": "CNIC",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "dr",
+      "héctor",
+      "bueno"
+    ]
+  },
+  {
+    "title": "Curiosity Blog, Sols 4641-4648: Thinking Outside and Inside the ‘Boxwork’",
+    "title_es": "Blog de Curiosity, Sols 4641-4648: Pensar afuera y dentro de la \"Cajonización\"",
+    "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4641-4648-thinking-outside-and-inside-the-boxwork/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "blog",
+      "de",
+      "curiosity"
+    ]
+  },
+  {
+    "title": "A sixth mass extinction? Not so fast, some scientists say",
+    "title_es": "¿Una sexta extinción masiva? No tan rápido, dicen algunos científicos",
+    "url": "https://www.sciencenews.org/article/sixth-mass-extinction-scientists-debate",
+    "source": "Science News",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "sexta",
+      "extinción"
+    ]
+  },
+  {
+    "title": "Get a sneak peek at the tech you may use in the future",
+    "title_es": "Eche un vistazo a la tecnología que puede usar en el futuro",
+    "url": "https://www.snexplores.org/article/future-lifestyle-tech-home-robots",
+    "source": "Science News Explores",
+    "published": "2025-09-04T00:00:00.000Z",
+    "date": "2025-09-04",
+    "category": "noticia",
+    "tags": [
+      "eche",
+      "un",
+      "vistazo"
     ]
   },
   {
@@ -125,7 +251,20 @@
       "journal"
     ]
   },
-
+  {
+    "title": "Thinning Arctic Sea Ice",
+    "title_es": "Adelgazamiento del hielo marino del Ártico",
+    "url": "https://www.nasa.gov/image-article/thinning-arctic-sea-ice/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-03T00:00:00.000Z",
+    "date": "2025-09-03",
+    "category": "noticia",
+    "tags": [
+      "adelgazamiento",
+      "del",
+      "hielo"
+    ]
+  },
   {
     "title": "Accelerator Report: The accelerator complex, between precision repairs and future-facing studies",
     "title_es": "Informe del acelerador: el complejo acelerador, entre reparaciones de precisión y estudios de orientación futura",
@@ -8454,7 +8593,7 @@
   },
   {
     "title": "Bayesian Models for Joint Selection of Features and Auto-Regressive Lags: Theory and Applications in Environmental and Financial Forecasting",
-    "title_es": "Modelos bayesianos para la selección conjunta de características y retrasos autorregresivos: teoría y aplicaciones en la previsión ambiental y financiera",
+    "title_es": "Bayesian Models for Joint Selection of Features and Auto-Regressive Lags: Theory and Applications in Environmental and Financial Forecasting",
     "url": "https://arxiv.org/abs/2508.10055",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -8468,7 +8607,7 @@
   },
   {
     "title": "Approximating Entanglement Based on Abstract Interpretation",
-    "title_es": "Aproximación del entrelazamiento basada en la interpretación abstracta",
+    "title_es": "Approximating Entanglement Based on Abstract Interpretation",
     "url": "https://arxiv.org/abs/2508.10056",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -12302,17 +12441,17 @@
     ]
   },
   {
-    "title": "Exploring the coupling dynamics between accessibility of tourist attractions and tourism demand in Anhui Province",
-    "title_es": "Explorando la dinámica de acoplamiento entre la accesibilidad de las atracciones turísticas y la demanda turística en la provincia de Anhui",
+    "title": "Benefits and challenges: Qualitative exploration of women’s experiences during the COVID-19 pandemic in Fiji",
+    "title_es": "Beneficios y desafíos: exploración cualitativa de las experiencias de las mujeres durante la pandemia Covid-19 en Fiji",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "explorando",
-      "la",
-      "dinámica"
+      "beneficios",
+      "y",
+      "desafíos"
     ]
   },
   {
