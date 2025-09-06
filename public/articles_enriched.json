@@ -1,19 +1,5 @@
 [
   {
-    "title": "Scientists watch Parkinson’s protein drill holes in brain cells",
-    "title_es": "El párkinson abre agujeros en las neuronas",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250904103922.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-09-05T05:00:00.000Z",
-    "date": "2025-09-05",
-    "category": "noticia",
-    "tags": [
-      "los",
-      "científicos",
-      "observan"
-    ]
-  },
-  {
     "title": "Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies",
     "title_es": "Detección cognitiva basada en el habla: una evaluación sistemática de las estrategias de adaptación de LLM",
     "url": "https://arxiv.org/abs/2509.03525",
@@ -28,6 +14,20 @@
     ]
   },
   {
+    "title": "Scientists watch Parkinson’s protein drill holes in brain cells",
+    "title_es": "Los científicos observan los agujeros de perforación de proteínas de Parkinson en las células cerebrales",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250904103922.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "observan"
+    ]
+  },
+  {
     "title": "Gold quantum needles could sharpen imaging resolution and boost energy conversion",
     "title_es": "Las agujas cuánticas de oro podrían agudizar la resolución de imágenes y aumentar la conversión de energía",
     "url": "https://phys.org/news/2025-09-gold-quantum-needles-sharpen-imaging.html",
@@ -39,6 +39,104 @@
       "las",
       "agujas",
       "cuánticas"
+    ]
+  },
+  {
+    "title": "Publisher Correction: In situ light-field imaging of octopus locomotion reveals simplified control",
+    "title_es": "Corrección del editor: la imagen de campo de luz in situ de la locomoción de pulpo revela un control simplificado",
+    "url": "https://www.nature.com/articles/s41586-025-09512-y",
+    "source": "Nature",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "editor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-organiza-un-congreso-internacional-que-conmemora-el-30-aniversario-del-descubrimiento-de-las\" hreflang=\"es\">El IAC organiza un congreso internacional que conmemora el 30 aniversario del descubrimiento de las primeras enanas marrones</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-organiza-un-congreso-internacional-que-conmemora-el-30-aniversario-del-descubrimiento-de-las\" hreflang=\"es\">El IAC organiza un congreso internacional que conmemora el 30 aniversario del descubrimiento de las primeras enanas marrones</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-organiza-un-congreso-internacional-que-conmemora-el-30-aniversario-del-descubrimiento-de-las",
+    "source": "IAC",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-organiza-un-congreso-internacional-que-conmemora-el-30-aniversario-del-descubrimiento-de-las",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "NASA Seeks Industry Input on Next Phase of Commercial Space Stations",
+    "title_es": "La NASA busca aportes de la industria en la próxima fase de las estaciones espaciales comerciales",
+    "url": "https://www.nasa.gov/humans-in-space/commercial-space/leo-economy/nasa-seeks-industry-input-on-next-phase-of-commercial-space-stations/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "busca"
+    ]
+  },
+  {
+    "title": "Young pterosaurs probably died in violent Jurassic storms",
+    "title_es": "Los jóvenes pterosaurios probablemente murieron en violentas tormentas jurásicas",
+    "url": "https://www.sciencenews.org/article/young-pterosaurs-died-storms-jurassic",
+    "source": "Science News",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "jóvenes",
+      "pterosaurios"
+    ]
+  },
+  {
+    "title": "Here’s a spider whose barf is worse than its bite",
+    "title_es": "Aquí hay una araña cuyo barf es peor que su mordida",
+    "url": "https://www.snexplores.org/article/spider-vomit-toxic-barf",
+    "source": "Science News Explores",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "aquí",
+      "hay",
+      "una"
+    ]
+  },
+  {
+    "title": "Ghost sharks grow teeth on their heads to mate",
+    "title_es": "Los tiburones fantasmas cultivan dientes en sus cabezas para aparecer",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250905180732.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "tiburones",
+      "fantasmas"
+    ]
+  },
+  {
+    "title": "Asia will get a prime view of this weekend's total lunar eclipse",
+    "title_es": "Asia obtendrá una visión principal del eclipse lunar total de este fin de semana",
+    "url": "https://phys.org/news/2025-09-asia-prime-view-weekend-total.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "asia",
+      "obtendrá",
+      "una"
     ]
   },
   {
@@ -8579,7 +8677,7 @@
   },
   {
     "title": "An Intelligent Infrastructure as a Foundation for Modern Science",
-    "title_es": "Una infraestructura inteligente como base para la ciencia moderna",
+    "title_es": "An Intelligent Infrastructure as a Foundation for Modern Science",
     "url": "https://arxiv.org/abs/2508.10051",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -12441,17 +12539,17 @@
     ]
   },
   {
-    "title": "Benefits and challenges: Qualitative exploration of women’s experiences during the COVID-19 pandemic in Fiji",
-    "title_es": "Beneficios y desafíos: exploración cualitativa de las experiencias de las mujeres durante la pandemia Covid-19 en Fiji",
+    "title": "Optimizing diesel engine performance and emissions with mahua biodiesel blends using taguchi methodology",
+    "title_es": "Optimización del rendimiento del motor diesel y las emisiones con mezclas de biodiesel Mahua utilizando la metodología Taguchi",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "beneficios",
-      "y",
-      "desafíos"
+      "optimización",
+      "del",
+      "rendimiento"
     ]
   },
   {
