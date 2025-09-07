@@ -1,16 +1,30 @@
 [
   {
-    "title": "Here’s a spider whose barf is worse than its bite",
-    "title_es": "La araña que mata vomitando",
-    "url": "https://www.snexplores.org/article/spider-vomit-toxic-barf",
-    "source": "Science News Explores",
-    "published": "2025-09-05T05:00:00.000Z",
-    "date": "2025-09-05",
+    "title": "Strange new bacteria found in Amazon sand flies. Could it spread to humans?",
+    "title_es": "Extrañas bacterias nuevas que se encuentran en las moscas de arena de Amazon. ¿Podría extenderse a los humanos?",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250906155049.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-06T00:00:00.000Z",
+    "date": "2025-09-06",
     "category": "noticia",
     "tags": [
-      "aquí",
+      "extrañas",
+      "bacterias",
+      "nuevas"
+    ]
+  },
+  {
+    "title": "Study: There is less room to store carbon dioxide, driver of climate change, than previously thought",
+    "title_es": "Estudio: hay menos espacio para almacenar dióxido de carbono, conductor del cambio climático, de lo que se pensaba anteriormente",
+    "url": "https://phys.org/news/2025-09-room-carbon-dioxide-driver-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-06T00:00:00.000Z",
+    "date": "2025-09-06",
+    "category": "noticia",
+    "tags": [
+      "estudio",
       "hay",
-      "una"
+      "menos"
     ]
   },
   {
@@ -109,6 +123,20 @@
       "los",
       "jóvenes",
       "pterosaurios"
+    ]
+  },
+  {
+    "title": "Here’s a spider whose barf is worse than its bite",
+    "title_es": "Aquí hay una araña cuyo barf es peor que su mordida",
+    "url": "https://www.snexplores.org/article/spider-vomit-toxic-barf",
+    "source": "Science News Explores",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "aquí",
+      "hay",
+      "una"
     ]
   },
   {
