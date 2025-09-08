@@ -1,5 +1,61 @@
 [
   {
+    "title": "PRREACH: Probabilistic Risk Assessment Using Reachability for UAV Control",
+    "title_es": "PRREACH: Evaluación probabilística de riesgos utilizando la accesibilidad para el control de UAV",
+    "url": "https://arxiv.org/abs/2509.04451",
+    "source": "arXiv",
+    "published": "2025-09-08T04:00:00.000Z",
+    "date": "2025-09-08",
+    "category": "noticia",
+    "tags": [
+      "prreach",
+      "probabilistic",
+      "risk"
+    ]
+  },
+  {
+    "title": "AI has no idea what it’s doing, but it’s threatening us all",
+    "title_es": "Ai no tiene idea de lo que está haciendo, pero nos está amenazando a todos",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250907172635.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-08T00:00:00.000Z",
+    "date": "2025-09-08",
+    "category": "noticia",
+    "tags": [
+      "ai",
+      "no",
+      "tiene"
+    ]
+  },
+  {
+    "title": "Jeni Morrison Continues a Family Legacy of Service at NASA",
+    "title_es": "Jeni Morrison continúa un legado familiar de servicio en la NASA",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/jeni-morrison-continues-a-family-legacy-of-service-at-nasa/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-07T00:00:00.000Z",
+    "date": "2025-09-07",
+    "category": "noticia",
+    "tags": [
+      "jeni",
+      "morrison",
+      "continúa"
+    ]
+  },
+  {
+    "title": "Insurers have detailed data on your home's flood risk. So why don't you?",
+    "title_es": "Las aseguradoras tienen datos detallados sobre el riesgo de inundación de su hogar. Entonces, ¿por qué no?",
+    "url": "https://phys.org/news/2025-09-home-dont.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-07T00:00:00.000Z",
+    "date": "2025-09-07",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "aseguradoras",
+      "tienen"
+    ]
+  },
+  {
     "title": "Strange new bacteria found in Amazon sand flies. Could it spread to humans?",
     "title_es": "Extrañas bacterias nuevas que se encuentran en las moscas de arena de Amazon. ¿Podría extenderse a los humanos?",
     "url": "https://www.sciencedaily.com/releases/2025/09/250906155049.htm",
@@ -165,6 +221,20 @@
       "asia",
       "obtendrá",
       "una"
+    ]
+  },
+  {
+    "title": "WinT3R: Window-Based Streaming Reconstruction with Camera Token Pool",
+    "title_es": "WINT3R: Reconstrucción de transmisión basada en ventanas con piscina de tokens de cámara",
+    "url": "http://arxiv.org/abs/2509.05296v1",
+    "source": "arXiv",
+    "published": "2025-09-05T00:00:00.000Z",
+    "date": "2025-09-05",
+    "category": "noticia",
+    "tags": [
+      "wint3r",
+      "reconstrucción",
+      "de"
     ]
   },
   {
@@ -8691,7 +8761,7 @@
   },
   {
     "title": "Jet Image Tagging Using Deep Learning: An Ensemble Model",
-    "title_es": "Etiquetado de imágenes en jet mediante aprendizaje profundo: un modelo de conjunto",
+    "title_es": "Jet Image Tagging Using Deep Learning: An Ensemble Model",
     "url": "https://arxiv.org/abs/2508.10034",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
