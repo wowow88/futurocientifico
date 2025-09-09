@@ -1,4 +1,4 @@
-Ilustración científica minimalista y moderna sobre: "Livia: una compañera de realidad aumentada consciente de las emociones impulsada por agentes modulares de inteligencia artificial y compresión progresiva de la memoria".
+Ilustración científica minimalista y moderna sobre: "Aire contaminado = Acelera el Alzheimer".
 Requisitos:
 - Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
 - Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
@@ -6,4 +6,4 @@ Requisitos:
 - Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
 - Orientación cuadrada o 4:5; dejar margen de seguridad.
 Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: arXiv | Fecha: 2025-09-09
+- Fuente: ScienceDaily (Top) | Fecha: 2025-09-09
