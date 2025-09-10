@@ -1,6 +1,6 @@
 🧠 Nueva cápsula de #FuturoCientífico
 
-Este artículo trata sobre "Prototipo: un SoC de audio inteligente basado en detección de palabras clave para IoT". Se exploran los aspectos clave relacionados con la ciencia actual.
+Este artículo trata sobre "La huella más antigua del mundo está en Segovia". Se exploran los aspectos clave relacionados con la ciencia actual.
 🔍 ¿Te imaginabas esto?
 
 🌐https://futurocientifico.vercel.app/revistas
