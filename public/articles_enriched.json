@@ -1,16 +1,30 @@
 [
   {
-    "title": "Smog in the brain: Dirty air speeds Alzheimer’s decline",
-    "title_es": "Aire contaminado = Acelera el Alzheimer",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250908175450.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-09-09T05:00:00.000Z",
-    "date": "2025-09-09",
+    "title": "Prototype: A Keyword Spotting-Based Intelligent Audio SoC for IoT",
+    "title_es": "Prototipo: un SoC de audio inteligente basado en detección de palabras clave para IoT",
+    "url": "https://arxiv.org/abs/2509.06964",
+    "source": "arXiv",
+    "published": "2025-09-10T04:00:00.000Z",
+    "date": "2025-09-10",
     "category": "noticia",
     "tags": [
-      "smog",
-      "en",
-      "el"
+      "prototype",
+      "a",
+      "keyword"
+    ]
+  },
+  {
+    "title": "'Corporate capture' strategies harming environmental protection efforts, warn scientists",
+    "title_es": "Estrategias de 'captura corporativa' que dañan los esfuerzos de protección del medio ambiente, advierten los científicos",
+    "url": "https://phys.org/news/2025-09-corporate-capture-strategies-environmental-efforts.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-10T00:00:00.000Z",
+    "date": "2025-09-10",
+    "category": "noticia",
+    "tags": [
+      "estrategias",
+      "de",
+      "captura"
     ]
   },
   {
@@ -41,7 +55,20 @@
       "están"
     ]
   },
-
+  {
+    "title": "Smog in the brain: Dirty air speeds Alzheimer’s decline",
+    "title_es": "Smog en el cerebro: el aire sucio acelera el declive de Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250908175450.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "smog",
+      "en",
+      "el"
+    ]
+  },
   {
     "title": "How evolution explains autism rates in humans",
     "title_es": "Cómo la evolución explica las tasas de autismo en humanos",
@@ -54,6 +81,104 @@
       "cómo",
       "la",
       "evolución"
+    ]
+  },
+  {
+    "title": "Mini-o3: Scaling Up Reasoning Patterns and Interaction Turns for Visual Search",
+    "title_es": "Mini-O3: ampliar los patrones de razonamiento y los giros de interacción para la búsqueda visual",
+    "url": "http://arxiv.org/abs/2509.07969v1",
+    "source": "arXiv",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "mini-o3",
+      "ampliar",
+      "los"
+    ]
+  },
+  {
+    "title": "Creativity is essential to the ethos of universities",
+    "title_es": "La creatividad es esencial para el ethos de las universidades",
+    "url": "https://www.nature.com/articles/d41586-025-02892-1",
+    "source": "Nature",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "creatividad",
+      "es"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/un-estudiante-de-la-ull-y-del-iac-participa-en-el-programa-internacional-de-estudiantes-de-verano\" hreflang=\"es\">Un estudiante de la ULL y del IAC participa en el Programa Internacional de Estudiantes de Verano vinculado al Observatorio Vera C. Rubin</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/un-estudiante-de-la-ull-y-del-iac-participa-en-el-programa-internacional-de-estudiantes-de-verano\" hreflang=\"es\">Un estudiante de la ULL y del IAC participa en el Programa Internacional de Estudiantes de Verano vinculado al Observatorio Vera C. Rubin</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-estudiante-de-la-ull-y-del-iac-participa-en-el-programa-internacional-de-estudiantes-de-verano",
+    "source": "IAC",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasun-estudiante-de-la-ull-y-del-iac-participa-en-el-programa-internacional-de-estudiantes-de-verano",
+      "hreflangesun"
+    ]
+  },
+  {
+    "title": "NASA Partnerships Allow Artificial Intelligence to Predict Solar Events",
+    "title_es": "Las asociaciones de la NASA permiten la inteligencia artificial para predecir eventos solares",
+    "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-partnerships-allow-artificial-intelligence-to-predict-solar-events/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "asociaciones",
+      "de"
+    ]
+  },
+  {
+    "title": "Chemicals in marijuana may affect women’s fertility",
+    "title_es": "Los productos químicos en la marihuana pueden afectar la fertilidad de las mujeres",
+    "url": "https://www.sciencenews.org/article/marijuana-womens-fertility-thc",
+    "source": "Science News",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "productos",
+      "químicos"
+    ]
+  },
+  {
+    "title": "This may be the oldest, most complete Neandertal fingerprint ever seen",
+    "title_es": "Esta puede ser la huella digital neandertal más antigua y completa jamás vista",
+    "url": "https://www.snexplores.org/article/neandertal-oldest-fingerprint",
+    "source": "Science News Explores",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "puede",
+      "ser"
+    ]
+  },
+  {
+    "title": "Hungry flathead catfish are changing everything in the Susquehanna",
+    "title_es": "El bagre de cabeza plana hambrienta está cambiando todo en el Susquehanna",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250909031516.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-09T00:00:00.000Z",
+    "date": "2025-09-09",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "bagre",
+      "de"
     ]
   },
   {
@@ -97,7 +222,7 @@
     ]
   },
   {
-    "title": "Los últimos avances en la investigación del cáncer de páncreas, en un congreso organizado por investigadores del CNIO en la Fundación Ramón Areces",
+    "title": "Los últimos avances en la investigación del cáncer de páncreas, en un congreso organizado por la Fundación Ramón Areces con investigadores del CNIO",
     "title_es": "Los últimos avances en la investigación del cáncer de páncreas, en un congreso organizado por investigadores del CNIO en la Fundación Ramón Areces",
     "url": "https://www.cnio.es/noticias/los-ultimos-avances-en-la-investigacion-del-cancer-de-pancreas-en-un-congreso-organizado-por-investigadores-del-cnio-en-la-fundacion-ramon-areces/",
     "source": "CNIO",
@@ -8858,7 +8983,7 @@
   },
   {
     "title": "A Dataset for Distilling Knowledge Priors from Literature for Therapeutic Design",
-    "title_es": "Un conjunto de datos para destilar conocimientos previos de la literatura para el diseño terapéutico",
+    "title_es": "A Dataset for Distilling Knowledge Priors from Literature for Therapeutic Design",
     "url": "https://arxiv.org/abs/2508.10899",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -12776,17 +12901,17 @@
     ]
   },
   {
-    "title": "Prospects for silvicultural enhancement of fire resistance in mesic westside forests of the Pacific Northwest",
-    "title_es": "Perspectivas para la mejora silvicultural de la resistencia al fuego en los bosques de mesices del lado oeste del noroeste del Pacífico",
+    "title": "A volumetric modulated arc therapy-based dynamic conformal arc technique with limited monitor units (VMAT liMU ) to reduce multileaf collimator interplay effects: A computational phantom study for stage I non-small-cell lung cancer",
+    "title_es": "Una técnica de arco dinámico de arco de arco modulado volumétrico con unidades de monitor limitadas (VMAT <Sub> Limu </sub>) para reducir",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "perspectivas",
-      "para",
-      "la"
+      "una",
+      "técnica",
+      "de"
     ]
   },
   {
