@@ -1,4 +1,4 @@
-Ilustración científica minimalista y moderna sobre: "Revisando la detección de deepfakes: aprendizaje continuo cronológico y los límites de la generalización".
+Ilustración científica minimalista y moderna sobre: "Lo que tu perro ve en la tele depende de su carácter".
 Requisitos:
 - Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
 - Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
@@ -6,4 +6,4 @@ Requisitos:
 - Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
 - Orientación cuadrada o 4:5; dejar margen de seguridad.
 Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: arXiv | Fecha: 2025-09-11
+- Fuente: Science News Explores | Fecha: 2025-09-11

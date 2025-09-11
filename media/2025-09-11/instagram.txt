@@ -1,6 +1,6 @@
 🧠 Nueva cápsula de #FuturoCientífico
 
-Este artículo trata sobre "Revisando la detección de deepfakes: aprendizaje continuo cronológico y los límites de la generalización". Se exploran los aspectos clave relacionados con la ciencia actual.
+Este artículo trata sobre "Lo que tu perro ve en la tele depende de su carácter". Se exploran los aspectos clave relacionados con la ciencia actual.
 🔍 ¿Te imaginabas esto?
 
 🌐https://futurocientifico.vercel.app/revistas
