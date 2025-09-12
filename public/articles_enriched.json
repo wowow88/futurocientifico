@@ -1,16 +1,16 @@
 [
   {
-    "title": "What dogs see on TV depends on their temperament",
-    "title_es": "Lo que tu perro ve en la tele depende de su carácter",
-    "url": "https://www.snexplores.org/article/dogs-watching-tv-temperament",
-    "source": "Science News Explores",
-    "published": "2025-09-11T05:00:00.000Z",
-    "date": "2025-09-11",
+    "title": "PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations?",
+    "title_es": "PerFairX: ¿Existe un equilibrio entre la imparcialidad y la personalidad en las recomendaciones del modelo de lenguaje grande?",
+    "url": "https://arxiv.org/abs/2509.08829",
+    "source": "arXiv",
+    "published": "2025-09-12T04:00:00.000Z",
+    "date": "2025-09-12",
     "category": "noticia",
     "tags": [
-      "lo",
-      "que",
-      "los"
+      "perfairx",
+      "is",
+      "there"
     ]
   },
   {
@@ -67,6 +67,146 @@
       "los",
       "huevos",
       "de"
+    ]
+  },
+  {
+    "title": "ButterflyQuant: Ultra-low-bit LLM Quantization through Learnable Orthogonal Butterfly Transforms",
+    "title_es": "Butterflyquant: cuantificación LLM ultra-bit a través de transformaciones de mariposas ortogonales aprendibles",
+    "url": "http://arxiv.org/abs/2509.09679v1",
+    "source": "arXiv",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "butterflyquant",
+      "cuantificación",
+      "llm"
+    ]
+  },
+  {
+    "title": "Restoring trust in science",
+    "title_es": "Restaurando la confianza en la ciencia",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adz8298",
+    "source": "Science.org",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "restaurando",
+      "la",
+      "confianza"
+    ]
+  },
+  {
+    "title": "Author Correction: A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome",
+    "title_es": "Corrección del autor: un antibiótico de péptido lásso de amplio espectro dirigido al ribosoma bacteriano",
+    "url": "https://www.nature.com/articles/s41586-025-09597-5",
+    "source": "Nature",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Firmado el preacuerdo del primer convenio colectivo del que se beneficiarán los más de 400 profesionales del CNIC",
+    "title_es": "Firmado el preacuerdo del primer convenio colectivo del que se beneficiarán los más de 400 profesionales del CNIC",
+    "url": "https://www.cnic.es/es/noticias/firmado-preacuerdo-primer-convenio-colectivo-que-se-beneficiaran-mas-400-profesionales-cnic",
+    "source": "CNIC",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "firmado",
+      "el",
+      "preacuerdo"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-lehendakari-imanol-pradales-y-el-presidente-de-canarias-fernando-clavijo-visitan-el-observatorio-del\" hreflang=\"es\">El Lehendakari, Imanol Pradales, y el presidente de Canarias, Fernando Clavijo, visitan el Observatorio del Teide, del Instituto de Astrofísica de Canarias</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-lehendakari-imanol-pradales-y-el-presidente-de-canarias-fernando-clavijo-visitan-el-observatorio-del\" hreflang=\"es\">El Lehendakari, Imanol Pradales, y el presidente de Canarias, Fernando Clavijo, visitan el Observatorio del Teide, del Instituto de Astrofísica de Canarias</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-lehendakari-imanol-pradales-y-el-presidente-de-canarias-fernando-clavijo-visitan-el-observatorio-del",
+    "source": "IAC",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-lehendakari-imanol-pradales-y-el-presidente-de-canarias-fernando-clavijo-visitan-el-observatorio-del",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "NASA Armstrong to Host Partnership Day Oct. 21-22",
+    "title_es": "NASA Armstrong organizará el Día de la Asociación del 21 al 22 de octubre",
+    "url": "https://www.nasa.gov/news-release/nasa-armstrong-to-host-partnership-day-oct-21-22/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "armstrong",
+      "organizará"
+    ]
+  },
+  {
+    "title": "Future Martians will need to breathe. It won’t be easy",
+    "title_es": "Los futuros marcianos deberán respirar. No será fácil",
+    "url": "https://www.sciencenews.org/article/future-martians-breathe-atmosphere-mars",
+    "source": "Science News",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "futuros",
+      "marcianos"
+    ]
+  },
+  {
+    "title": "Quashing the spotted lanternfly may require help from other species",
+    "title_es": "Retirar la mosca manchada puede requerir ayuda de otras especies",
+    "url": "https://www.snexplores.org/article/spotted-lanternfly-invasive-control",
+    "source": "Science News Explores",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "retirar",
+      "la",
+      "mosca"
+    ]
+  },
+  {
+    "title": "Your morning coffee could secretly be weakening antibiotics",
+    "title_es": "Tu café de la mañana podría debilitar en secreto los antibióticos",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "tu",
+      "café",
+      "de"
+    ]
+  },
+  {
+    "title": "Independent palm oil farmers excluded from sustainable market, finds study",
+    "title_es": "Los agricultores independientes de aceite de palma excluidos del mercado sostenible, encuentra estudio",
+    "url": "https://phys.org/news/2025-09-independent-palm-oil-farmers-excluded.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "agricultores",
+      "independientes"
     ]
   },
   {
@@ -179,6 +319,20 @@
       "la",
       "nasa",
       "utiliza"
+    ]
+  },
+  {
+    "title": "What dogs see on TV depends on their temperament",
+    "title_es": "Lo que los perros ven en la televisión depende de su temperamento",
+    "url": "https://www.snexplores.org/article/dogs-watching-tv-temperament",
+    "source": "Science News Explores",
+    "published": "2025-09-10T00:00:00.000Z",
+    "date": "2025-09-10",
+    "category": "noticia",
+    "tags": [
+      "lo",
+      "que",
+      "los"
     ]
   },
   {
@@ -9039,7 +9193,7 @@
   },
   {
     "title": "Empirical Investigation into Configuring Echo State Networks for Representative Benchmark Problem Domains",
-    "title_es": "Investigación empírica sobre la configuración de redes estatales de eco para dominios de problemas de referencia representativos",
+    "title_es": "Empirical Investigation into Configuring Echo State Networks for Representative Benchmark Problem Domains",
     "url": "https://arxiv.org/abs/2508.10887",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9053,7 +9207,7 @@
   },
   {
     "title": "Fuel Consumption in Platoons: A Literature Review",
-    "title_es": "Consumo de combustible en pelotones: una revisión de la literatura",
+    "title_es": "Fuel Consumption in Platoons: A Literature Review",
     "url": "https://arxiv.org/abs/2508.10891",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9067,7 +9221,7 @@
   },
   {
     "title": "STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer",
-    "title_es": "STream3R: Reconstrucción 3D secuencial escalable con transformador causal",
+    "title_es": "STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer",
     "url": "https://arxiv.org/abs/2508.10893",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13055,17 +13209,17 @@
     ]
   },
   {
-    "title": "Time-restricted feeding leads to sex- and organ-specific responses in the murine digestive system",
-    "title_es": "La alimentación restringida en el tiempo conduce a respuestas específicas de sexo y órganos en el sistema digestivo murino",
+    "title": "Correction: Knowledge and perception of mHealth medication adherence applications among pharmacists and pharmacy students in Jazan, Kingdom of Saudi Arabia",
+    "title_es": "Corrección: Conocimiento y percepción de las aplicaciones de adherencia a la medicación MHealth entre farmacéuticos y estudiantes de farmacia en Jazan, Reino de Arabia Saudita",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "la",
-      "alimentación",
-      "restringida"
+      "corrección",
+      "conocimiento",
+      "y"
     ]
   },
   {
