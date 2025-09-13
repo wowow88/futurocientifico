@@ -1,16 +1,16 @@
 [
   {
-    "title": "Your morning coffee could secretly be weakening antibiotics",
-    "title_es": "Café vs. antibióticos: ¿enemigos inesperados?",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm",
+    "title": "Hidden gut molecule found to wreck kidneys",
+    "title_es": "Molécula intestinal oculta que se encuentra a los riñones",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250912195133.htm",
     "source": "ScienceDaily (Top)",
-    "published": "2025-09-12T05:00:00.000Z",
-    "date": "2025-09-12",
+    "published": "2025-09-13T00:00:00.000Z",
+    "date": "2025-09-13",
     "category": "noticia",
     "tags": [
-      "tu",
-      "café",
-      "de"
+      "molécula",
+      "intestinal",
+      "oculta"
     ]
   },
   {
@@ -25,6 +25,90 @@
       "perfairx",
       "is",
       "there"
+    ]
+  },
+  {
+    "title": "How to help refugees thrive: have local families host them",
+    "title_es": "Cómo ayudar a los refugiados a prosperar: las familias locales los organicen",
+    "url": "https://www.nature.com/articles/d41586-025-02873-4",
+    "source": "Nature",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "ayudar",
+      "a"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-colabora-un-ano-mas-con-el-festival-hispanoamericano-de-escritores-de-la-palma\" hreflang=\"es\">El IAC colabora un año más con el Festival Hispanoamericano de Escritores de La Palma</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-colabora-un-ano-mas-con-el-festival-hispanoamericano-de-escritores-de-la-palma\" hreflang=\"es\">El IAC colabora un año más con el Festival Hispanoamericano de Escritores de La Palma</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-colabora-un-ano-mas-con-el-festival-hispanoamericano-de-escritores-de-la-palma",
+    "source": "IAC",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-colabora-un-ano-mas-con-el-festival-hispanoamericano-de-escritores-de-la-palma",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Curiosity Blog, Sols 4649-4654: Ridges, Hollows and Nodules, Oh My",
+    "title_es": "Blog de curiosidad, sols 4649-4654: crestas, huecos y nódulos, oh mi",
+    "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4649-4654-ridges-hollows-and-nodules-oh-my/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "blog",
+      "de",
+      "curiosidad"
+    ]
+  },
+  {
+    "title": "Recycled glass could help fend off coastal erosion",
+    "title_es": "El vidrio reciclado podría ayudar a defenderse de la erosión costera",
+    "url": "https://www.sciencenews.org/article/recycled-glass-fend-off-coastal-erosion",
+    "source": "Science News",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "vidrio",
+      "reciclado"
+    ]
+  },
+  {
+    "title": "Forget droplets. Here’s how sweat really forms",
+    "title_es": "Olvídese de las gotas. Así es como se forma realmente el sudor",
+    "url": "https://www.snexplores.org/article/how-sweat-forms-skin",
+    "source": "Science News Explores",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "olvídese",
+      "de",
+      "las"
+    ]
+  },
+  {
+    "title": "Ancient DNA reveals deeply complex Mastodon family and repeated migrations driven by climate change",
+    "title_es": "El ADN antiguo revela una familia de Mastodon profundamente compleja y migraciones repetidas impulsadas por el cambio climático",
+    "url": "https://phys.org/news/2025-09-ancient-dna-reveals-deeply-complex.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-12T00:00:00.000Z",
+    "date": "2025-09-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "adn",
+      "antiguo"
     ]
   },
   {
@@ -193,6 +277,20 @@
       "retirar",
       "la",
       "mosca"
+    ]
+  },
+  {
+    "title": "Your morning coffee could secretly be weakening antibiotics",
+    "title_es": "Tu café de la mañana podría debilitar en secreto los antibióticos",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "tu",
+      "café",
+      "de"
     ]
   },
   {
@@ -9179,7 +9277,7 @@
   },
   {
     "title": "ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing",
-    "title_es": "ToonComposer: Optimización de la producción de dibujos animados con post-encuadre generativo",
+    "title_es": "ToonComposer: Streamlining Cartoon Production with Generative Post-Keyframing",
     "url": "https://arxiv.org/abs/2508.10881",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13209,17 +13307,17 @@
     ]
   },
   {
-    "title": "Correction: Knowledge and perception of mHealth medication adherence applications among pharmacists and pharmacy students in Jazan, Kingdom of Saudi Arabia",
-    "title_es": "Corrección: Conocimiento y percepción de las aplicaciones de adherencia a la medicación MHealth entre farmacéuticos y estudiantes de farmacia en Jazan, Reino de Arabia Saudita",
+    "title": "Comparative outcomes of laparoscopic lateral suspension, sacrocolpopexy, and transvaginal mesh for advanced apical prolapse: A retrospective cohort study",
+    "title_es": "Resultados comparativos de la suspensión lateral laparoscópica, sacrocolpopexia y malla transvaginal para prolapso apical avanzado: un estudio de cohorte retrospectivo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "conocimiento",
-      "y"
+      "resultados",
+      "comparativos",
+      "de"
     ]
   },
   {
