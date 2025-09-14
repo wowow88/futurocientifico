@@ -1,19 +1,5 @@
 [
   {
-    "title": "Future Martians will need to breathe. It won’t be easy",
-    "title_es": "¿Cómo respiraríamos en Marte? No es tan fácil",
-    "url": "https://www.sciencenews.org/article/future-martians-breathe-atmosphere-mars",
-    "source": "Science News",
-    "published": "2025-09-13T05:00:00.000Z",
-    "date": "2025-09-13",
-    "category": "noticia",
-    "tags": [
-      "los",
-      "futuros",
-      "marcianos"
-    ]
-  },
-  {
     "title": "Hidden gut molecule found to wreck kidneys",
     "title_es": "Molécula intestinal oculta que se encuentra a los riñones",
     "url": "https://www.sciencedaily.com/releases/2025/09/250912195133.htm",
@@ -25,6 +11,20 @@
       "molécula",
       "intestinal",
       "oculta"
+    ]
+  },
+  {
+    "title": "How the US became a science superpower",
+    "title_es": "Cómo Estados Unidos se convirtió en una superpotencia científica",
+    "url": "https://phys.org/news/2025-09-science-superpower.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-13T00:00:00.000Z",
+    "date": "2025-09-13",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "estados",
+      "unidos"
     ]
   },
   {
@@ -265,7 +265,20 @@
       "organizará"
     ]
   },
-
+  {
+    "title": "Future Martians will need to breathe. It won’t be easy",
+    "title_es": "Los futuros marcianos deberán respirar. No será fácil",
+    "url": "https://www.sciencenews.org/article/future-martians-breathe-atmosphere-mars",
+    "source": "Science News",
+    "published": "2025-09-11T00:00:00.000Z",
+    "date": "2025-09-11",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "futuros",
+      "marcianos"
+    ]
+  },
   {
     "title": "Quashing the spotted lanternfly may require help from other species",
     "title_es": "Retirar la mosca manchada puede requerir ayuda de otras especies",
