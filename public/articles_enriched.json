@@ -1,16 +1,30 @@
 [
   {
-    "title": "Cannabis use may quadruple diabetes risk",
-    "title_es": "Cannabis: el lado dulce y peligroso",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250914205803.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-09-15T05:00:00.000Z",
-    "date": "2025-09-15",
+    "title": "Energy-Aware Data Center Management: A Sustainable Approach to Reducing Carbon Footprint",
+    "title_es": "Gestión del centro de datos consciente de la energía: un enfoque sostenible para reducir la huella de carbono",
+    "url": "https://arxiv.org/abs/2509.10462",
+    "source": "arXiv",
+    "published": "2025-09-16T04:00:00.000Z",
+    "date": "2025-09-16",
     "category": "noticia",
     "tags": [
-      "el",
-      "uso",
-      "de"
+      "energy-aware",
+      "data",
+      "center"
+    ]
+  },
+  {
+    "title": "Mapping the universe, faster and with the same accuracy",
+    "title_es": "Mapeo del universo, más rápido y con la misma precisión",
+    "url": "https://phys.org/news/2025-09-universe-faster-accuracy.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "mapeo",
+      "del",
+      "universo"
     ]
   },
   {
@@ -28,6 +42,20 @@
     ]
   },
   {
+    "title": "Cannabis use may quadruple diabetes risk",
+    "title_es": "El uso de cannabis puede cuadruplicar el riesgo de diabetes",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250914205803.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "uso",
+      "de"
+    ]
+  },
+  {
     "title": "Research as reconciliation: Oil sands and health",
     "title_es": "Investigación como reconciliación: arenas petrolíferas y salud",
     "url": "https://phys.org/news/2025-09-reconciliation-oil-sands-health.html",
@@ -39,6 +67,118 @@
       "investigación",
       "como",
       "reconciliación"
+    ]
+  },
+  {
+    "title": "Dynamic Relational Priming Improves Transformer in Multivariate Time Series",
+    "title_es": "El cebado relacional dinámico mejora el transformador en series de tiempo multivariadas",
+    "url": "http://arxiv.org/abs/2509.12196v1",
+    "source": "arXiv",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cebado",
+      "relacional"
+    ]
+  },
+  {
+    "title": "Publisher Correction: Experimental determination of partial charges with electron diffraction",
+    "title_es": "Corrección del editor: determinación experimental de cargas parciales con difracción de electrones",
+    "url": "https://www.nature.com/articles/s41586-025-09608-5",
+    "source": "Nature",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "editor"
+    ]
+  },
+  {
+    "title": "El CNIC recibe una donación para investigar el síndrome de progeria de Hutchinson-Gilford",
+    "title_es": "El CNIC recibe una donación para investigar el síndrome de progeria de Hutchinson-Gilford",
+    "url": "https://www.cnic.es/es/noticias/cnic-recibe-donacion-para-investigar-sindrome-progeria-hutchinson-gilford-0",
+    "source": "CNIC",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnic",
+      "recibe"
+    ]
+  },
+  {
+    "title": "Un algoritmo que predice si un cáncer de páncreas se ha extendido a otros órganos podrá ayudar a evitar cirugías innecesarias",
+    "title_es": "Un algoritmo que predice si un cáncer de páncreas se ha extendido a otros órganos podrá ayudar a evitar cirugías innecesarias",
+    "url": "https://www.cnio.es/noticias/un-algoritmo-que-predice-si-un-cancer-de-pancreas-se-ha-extendido-a-otros-organos-podra-ayudar-a-evitar-cirugias-innecesarias/",
+    "source": "CNIO",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "algoritmo",
+      "que"
+    ]
+  },
+  {
+    "title": "NASA Sets Launch Coverage for Space Weather Missions",
+    "title_es": "NASA establece cobertura de lanzamiento para misiones meteorológicas espaciales",
+    "url": "https://www.nasa.gov/news-release/nasa-sets-launch-coverage-for-space-weather-missions/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "establece",
+      "cobertura"
+    ]
+  },
+  {
+    "title": "The oldest known mummies have been found — in Southeast Asia",
+    "title_es": "Se han encontrado las momias más antiguas conocidas: en el sudeste asiático",
+    "url": "https://www.sciencenews.org/article/oldest-mummies-found-southeast-asia",
+    "source": "Science News",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "han",
+      "encontrado"
+    ]
+  },
+  {
+    "title": "Scientists Say: Quantitative and Qualitative",
+    "title_es": "Los científicos dicen: cuantitativo y cualitativo",
+    "url": "https://www.snexplores.org/article/scientists-say-quantitative-and-qualitative-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
+    ]
+  },
+  {
+    "title": "Scientists are closing in on Leonardo da Vinci’s DNA",
+    "title_es": "Los científicos se están acercando al ADN de Leonardo da Vinci",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250915085344.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "se"
     ]
   },
   {
@@ -9305,7 +9445,7 @@
   },
   {
     "title": "TLE-Based A2C Agent for Terrestrial Coverage Orbital Path Planning",
-    "title_es": "Agente A2C basado en TLE para la planificación de la ruta orbital de cobertura terrestre",
+    "title_es": "TLE-Based A2C Agent for Terrestrial Coverage Orbital Path Planning",
     "url": "https://arxiv.org/abs/2508.10872",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9319,7 +9459,7 @@
   },
   {
     "title": "SSRL: Self-Search Reinforcement Learning",
-    "title_es": "SSRL: Aprendizaje de refuerzo de autobúsqueda",
+    "title_es": "SSRL: Self-Search Reinforcement Learning",
     "url": "https://arxiv.org/abs/2508.10874",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9333,7 +9473,7 @@
   },
   {
     "title": "A Survey on Diffusion Language Models",
-    "title_es": "Una encuesta sobre modelos de lenguaje de difusión",
+    "title_es": "A Survey on Diffusion Language Models",
     "url": "https://arxiv.org/abs/2508.10875",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13391,17 +13531,17 @@
     ]
   },
   {
-    "title": "Comparative outcomes of laparoscopic lateral suspension, sacrocolpopexy, and transvaginal mesh for advanced apical prolapse: A retrospective cohort study",
-    "title_es": "Resultados comparativos de la suspensión lateral laparoscópica, sacrocolpopexia y malla transvaginal para prolapso apical avanzado: un estudio de cohorte retrospectivo",
+    "title": "Enhancing security in instant messaging systems with a hybrid SM2, SM3, and SM4 encryption framework",
+    "title_es": "Mejora de la seguridad en sistemas de mensajería instantánea con un marco de cifrado Hybrid SM2, SM3 y SM4",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "resultados",
-      "comparativos",
-      "de"
+      "mejora",
+      "de",
+      "la"
     ]
   },
   {
