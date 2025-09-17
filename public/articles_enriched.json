@@ -1,16 +1,30 @@
 [
   {
-    "title": "Scientists are closing in on Leonardo da Vinci’s DNA",
-    "title_es": "El ADN de Leonardo da Vinci, más cerca que nunca",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250915085344.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-09-16T05:00:00.000Z",
-    "date": "2025-09-16",
+    "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
+    "title_es": "UrgenGo: Lanzamiento del núcleo de GPU transparente consciente de la urgencia para la conducción autónoma",
+    "url": "https://arxiv.org/abs/2509.12207",
+    "source": "arXiv",
+    "published": "2025-09-17T04:00:00.000Z",
+    "date": "2025-09-17",
     "category": "noticia",
     "tags": [
-      "los",
-      "científicos",
-      "se"
+      "urgengo",
+      "urgency-aware",
+      "transparent"
+    ]
+  },
+  {
+    "title": "Ozempic, Wegovy and Mounjaro makes food taste sweeter and saltier, and that may quiet cravings",
+    "title_es": "Ozempic, Wogovy y Mounjaro hacen que la comida tenga un sabor más dulce y salado, y eso puede tener antojos tranquilos",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250915202848.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-17T00:00:00.000Z",
+    "date": "2025-09-17",
+    "category": "noticia",
+    "tags": [
+      "ozempic",
+      "wogovy",
+      "y"
     ]
   },
   {
@@ -39,6 +53,118 @@
       "mapeo",
       "del",
       "universo"
+    ]
+  },
+  {
+    "title": "Shapes of Cognition for Computational Cognitive Modeling",
+    "title_es": "Formas de cognición para modelado cognitivo computacional",
+    "url": "http://arxiv.org/abs/2509.13288v1",
+    "source": "arXiv",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "formas",
+      "de",
+      "cognición"
+    ]
+  },
+  {
+    "title": "Delta-type glutamate receptors are ligand-gated ion channels",
+    "title_es": "Los receptores de glutamato de tipo Delta son canales de iones activados por ligando",
+    "url": "https://www.nature.com/articles/s41586-025-09610-x",
+    "source": "Nature",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "receptores",
+      "de"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-una-escuela-avanzada-sobre-simulaciones-astrofisicas-en-durham-organizada-por-el\" hreflang=\"es\">El IAC participa en una escuela avanzada sobre simulaciones astrofísicas en Durham organizada por el proyecto ExGal-Twin</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-una-escuela-avanzada-sobre-simulaciones-astrofisicas-en-durham-organizada-por-el\" hreflang=\"es\">El IAC participa en una escuela avanzada sobre simulaciones astrofísicas en Durham organizada por el proyecto ExGal-Twin</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-una-escuela-avanzada-sobre-simulaciones-astrofisicas-en-durham-organizada-por-el",
+    "source": "IAC",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-participa-en-una-escuela-avanzada-sobre-simulaciones-astrofisicas-en-durham-organizada-por-el",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "NASA, Partners Push Forward with Remotely Piloted Airspace Integration",
+    "title_es": "La NASA, los socios avanzan con integración de espacio aéreo a pilotos remotos",
+    "url": "https://www.nasa.gov/aeronautics/nasa-partners-push-forward-with-remotely-piloted-airspace-integration/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "los"
+    ]
+  },
+  {
+    "title": "CERN and fusion energy, advancing together",
+    "title_es": "Energía de CERN y Fusión, avanzando juntos",
+    "url": "https://home.cern/news/news/knowledge-sharing/cern-and-fusion-energy-advancing-together",
+    "source": "CERN News",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "energía",
+      "de",
+      "cern"
+    ]
+  },
+  {
+    "title": "COVID-19 is still a threat, but getting a vaccine is harder for many people",
+    "title_es": "Covid-19 sigue siendo una amenaza, pero obtener una vacuna es más difícil para muchas personas",
+    "url": "https://www.sciencenews.org/article/covid-19-coronavirus-vaccine-access",
+    "source": "Science News",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "covid-19",
+      "sigue",
+      "siendo"
+    ]
+  },
+  {
+    "title": "Looking for aliens from the far side of the moon [COMIC]",
+    "title_es": "Buscando extraterrestres desde el lado lejano de la luna [cómic]",
+    "url": "https://www.snexplores.org/article/telescopes-far-side-moon-comic",
+    "source": "Science News Explores",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "buscando",
+      "extraterrestres",
+      "desde"
+    ]
+  },
+  {
+    "title": "When smoke signals danger: How Australian lizards evolved to escape fire",
+    "title_es": "Cuando el humo señala peligro: cómo evolucionaron los lagartos australianos para escapar del fuego",
+    "url": "https://phys.org/news/2025-09-danger-australian-lizards-evolved.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-16T00:00:00.000Z",
+    "date": "2025-09-16",
+    "category": "noticia",
+    "tags": [
+      "cuando",
+      "el",
+      "humo"
     ]
   },
   {
@@ -179,6 +305,20 @@
       "los",
       "científicos",
       "dicen"
+    ]
+  },
+  {
+    "title": "Scientists are closing in on Leonardo da Vinci’s DNA",
+    "title_es": "Los científicos se están acercando al ADN de Leonardo da Vinci",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250915085344.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-15T00:00:00.000Z",
+    "date": "2025-09-15",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "se"
     ]
   },
   {
@@ -9417,7 +9557,7 @@
   },
   {
     "title": "TexVerse: A Universe of 3D Objects with High-Resolution Textures",
-    "title_es": "TexVerse: Un universo de objetos 3D con texturas de alta resolución",
+    "title_es": "TexVerse: A Universe of 3D Objects with High-Resolution Textures",
     "url": "https://arxiv.org/abs/2508.10868",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9431,7 +9571,7 @@
   },
   {
     "title": "Medico 2025: Visual Question Answering for Gastrointestinal Imaging",
-    "title_es": "Medico 2025: respuesta a preguntas visuales para imágenes gastrointestinales",
+    "title_es": "Medico 2025: Visual Question Answering for Gastrointestinal Imaging",
     "url": "https://arxiv.org/abs/2508.10869",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13531,17 +13671,17 @@
     ]
   },
   {
-    "title": "Enhancing security in instant messaging systems with a hybrid SM2, SM3, and SM4 encryption framework",
-    "title_es": "Mejora de la seguridad en sistemas de mensajería instantánea con un marco de cifrado Hybrid SM2, SM3 y SM4",
+    "title": "Development of a prostate cancer biochemical recurrence risk signature using machine learning and motor protein-related genes",
+    "title_es": "Desarrollo de una firma de riesgo de recurrencia bioquímica de cáncer de próstata utilizando el aprendizaje automático y los genes relacionados con las proteínas motoras",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "mejora",
+      "desarrollo",
       "de",
-      "la"
+      "una"
     ]
   },
   {
