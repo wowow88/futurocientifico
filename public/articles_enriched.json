@@ -1,16 +1,44 @@
 [
   {
-    "title": "A plant-forward menu is linked to lower diabetes risk",
-    "title_es": "Dieta verde: tu escudo contra la diabetes",
-    "url": "https://www.nature.com/articles/d41586-025-02992-y",
-    "source": "Nature",
-    "published": "2025-09-18T05:00:00.000Z",
-    "date": "2025-09-18",
+    "title": "Tokenization Strategies for Low-Resource Agglutinative Languages in Word2Vec: Case Study on Turkish and Finnish",
+    "title_es": "Estrategias de tokenización para idiomas aglutinantes de bajos recursos en Word2Vec: estudio de caso sobre turco y finlandés",
+    "url": "https://arxiv.org/abs/2509.14238",
+    "source": "arXiv",
+    "published": "2025-09-19T04:00:00.000Z",
+    "date": "2025-09-19",
     "category": "noticia",
     "tags": [
-      "un",
-      "menú",
-      "de"
+      "tokenization",
+      "strategies",
+      "for"
+    ]
+  },
+  {
+    "title": "Scientists just found the hidden cosmic fingerprints of dark matter",
+    "title_es": "Los científicos acaban de encontrar las huellas dactilares cósmicas ocultas de la materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250918225004.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "acaban"
+    ]
+  },
+  {
+    "title": "Chemists create light-switchable magnets that remain active for hours",
+    "title_es": "Los químicos crean imanes de luz que permanecen activos durante horas",
+    "url": "https://phys.org/news/2025-09-chemists-switchable-magnets-hours.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "químicos",
+      "crean"
     ]
   },
   {
@@ -56,6 +84,118 @@
     ]
   },
   {
+    "title": "Generalizable Geometric Image Caption Synthesis",
+    "title_es": "Síntesis de subtítulos de imágenes geométricas generalizables",
+    "url": "http://arxiv.org/abs/2509.15217v1",
+    "source": "arXiv",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "síntesis",
+      "de",
+      "subtítulos"
+    ]
+  },
+  {
+    "title": "Fall Books 2025",
+    "title_es": "Libros de otoño 2025",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeb4192",
+    "source": "Science.org",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "libros",
+      "de",
+      "otoño"
+    ]
+  },
+  {
+    "title": "Global warming amplifies wildfire health burden and reshapes inequality",
+    "title_es": "El calentamiento global amplifica la carga de la salud de los incendios forestales y la desigualdad",
+    "url": "https://www.nature.com/articles/s41586-025-09612-9",
+    "source": "Nature",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "calentamiento",
+      "global"
+    ]
+  },
+  {
+    "title": "Nuevos resultados explican por qué una mutación en un gen implicado en cáncer produce fibrosis pulmonar",
+    "title_es": "Nuevos resultados explican por qué una mutación en un gen implicado en cáncer produce fibrosis pulmonar",
+    "url": "https://www.cnio.es/noticias/nuevos-resultados-explican-por-que-una-mutacion-en-un-gen-implicado-en-cancer-produce-fibrosis-pulmonar/",
+    "source": "CNIO",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "nuevos",
+      "resultados",
+      "explican"
+    ]
+  },
+  {
+    "title": "From Supercomputers to Wind Tunnels: NASA’s Road to Artemis II",
+    "title_es": "Desde las supercomputadoras hasta los túneles de viento: el camino de la NASA a Artemis II",
+    "url": "https://www.nasa.gov/directorates/esdmd/common-exploration-systems-development-division/space-launch-system/from-supercomputers-to-wind-tunnels-nasas-road-to-artemis-ii/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "desde",
+      "las",
+      "supercomputadoras"
+    ]
+  },
+  {
+    "title": "Shape-shifting collisions probe secrets of early Universe",
+    "title_es": "Las colisiones que cambian de forma sondean secretos del universo temprano",
+    "url": "https://home.cern/news/news/physics/shape-shifting-collisions-probe-secrets-early-universe",
+    "source": "CERN News",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "colisiones",
+      "que"
+    ]
+  },
+  {
+    "title": "A handheld ‘bone printer’ shows promise in animal tests",
+    "title_es": "Una \"impresora ósea\" de la mano se muestra prometedora en las pruebas de animales",
+    "url": "https://www.sciencenews.org/article/handheld-bone-printer",
+    "source": "Science News",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "impresora",
+      "ósea"
+    ]
+  },
+  {
+    "title": "How to make a pitched ball curve to your will",
+    "title_es": "Cómo hacer una curva de pelota lanzada para tu testamento",
+    "url": "https://www.snexplores.org/article/pitch-physics-curve-baseball-softball-cricket",
+    "source": "Science News Explores",
+    "published": "2025-09-18T00:00:00.000Z",
+    "date": "2025-09-18",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "hacer",
+      "una"
+    ]
+  },
+  {
     "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
     "title_es": "UrgenGo: Lanzamiento del núcleo de GPU transparente consciente de la urgencia para la conducción autónoma",
     "url": "https://arxiv.org/abs/2509.12207",
@@ -95,6 +235,20 @@
       "apertus",
       "democratizando",
       "llm"
+    ]
+  },
+  {
+    "title": "A plant-forward menu is linked to lower diabetes risk",
+    "title_es": "Un menú de planta se relaciona con un riesgo de diabetes inferior",
+    "url": "https://www.nature.com/articles/d41586-025-02992-y",
+    "source": "Nature",
+    "published": "2025-09-17T00:00:00.000Z",
+    "date": "2025-09-17",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "menú",
+      "de"
     ]
   },
   {
@@ -165,6 +319,20 @@
       "este",
       "megaflash",
       "es"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/observaciones-del-grantecan-confirman-que-el-asteroide-de-la-mision-hayabusa2-es-mas-pequeno-y-rapido\" hreflang=\"es\">Observaciones del Grantecan confirman que el asteroide de la misión Hayabusa2 es más pequeño y rápido de lo esperado</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/observaciones-del-grantecan-confirman-que-el-asteroide-de-la-mision-hayabusa2-es-mas-pequeno-y-rapido\" hreflang=\"es\">Observaciones del Grantecan confirman que el asteroide de la misión Hayabusa2 es más pequeño y rápido de lo esperado</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/observaciones-del-grantecan-confirman-que-el-asteroide-de-la-mision-hayabusa2-es-mas-pequeno-y-rapido",
+    "source": "IAC",
+    "published": "2025-09-17T00:00:00.000Z",
+    "date": "2025-09-17",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasobservaciones-del-grantecan-confirman-que-el-asteroide-de-la-mision-hayabusa2-es-mas-pequeno-y-rapido",
+      "hreflangesobservaciones"
     ]
   },
   {
@@ -9613,7 +9781,7 @@
   },
   {
     "title": "Hierarchical Fine-grained Preference Optimization for Physically Plausible Video Generation",
-    "title_es": "Optimización jerárquica de preferencias de grano fino para la generación de videos físicamente plausibles",
+    "title_es": "Hierarchical Fine-grained Preference Optimization for Physically Plausible Video Generation",
     "url": "https://arxiv.org/abs/2508.10858",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9627,7 +9795,7 @@
   },
   {
     "title": "From Black Box to Transparency: Enhancing Automated Interpreting Assessment with Explainable AI in College Classrooms",
-    "title_es": "De la caja negra a la transparencia: mejora de la evaluación de interpretación automatizada con IA explicable en las aulas universitarias",
+    "title_es": "From Black Box to Transparency: Enhancing Automated Interpreting Assessment with Explainable AI in College Classrooms",
     "url": "https://arxiv.org/abs/2508.10860",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -9641,7 +9809,7 @@
   },
   {
     "title": "Minimmit: Fast Finality with Even Faster Blocks",
-    "title_es": "Minimizar: Finalidad rápida con bloques aún más rápidos",
+    "title_es": "Minimmit: Fast Finality with Even Faster Blocks",
     "url": "https://arxiv.org/abs/2508.10862",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13811,17 +13979,17 @@
     ]
   },
   {
-    "title": "The relationship between agility and vertical jump performance in male handball players: A cross-sectional analysis on the role of developmental characteristics",
-    "title_es": "La relación entre la agilidad y el rendimiento de salto vertical en jugadores de balonmano masculino: un análisis transversal sobre el papel de las características del desarrollo",
+    "title": "β-sitosterol alleviated HFD-induced atherosclerosis by regulating the MAPK/Nrf2/NLRP3 pathway in ApoE −/− mice",
+    "title_es": "El β-sitosterol alivió la aterosclerosis inducida por HFD regulando la vía MAPK/NRF2/NLRP3 en ratones ApoE <up>-/-</up>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "la",
-      "relación",
-      "entre"
+      "el",
+      "-sitosterol",
+      "alivió"
     ]
   },
   {
