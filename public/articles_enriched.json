@@ -1,16 +1,30 @@
 [
   {
-    "title": "Chemists create light-switchable magnets that remain active for hours",
-    "title_es": "El imán que se activa con luz y dura horas",
-    "url": "https://phys.org/news/2025-09-chemists-switchable-magnets-hours.html",
-    "source": "Phys.org (Latest)",
-    "published": "2025-09-19T05:00:00.000Z",
-    "date": "2025-09-19",
+    "title": "Hotly anticipated US vaccine meeting ends with confusion — and a few decisions",
+    "title_es": "La reunión de vacunas estadounidense muy anticipada termina con confusión, y algunas decisiones",
+    "url": "https://www.nature.com/articles/d41586-025-03054-z",
+    "source": "Nature",
+    "published": "2025-09-20T00:00:00.000Z",
+    "date": "2025-09-20",
     "category": "noticia",
     "tags": [
-      "los",
-      "químicos",
-      "crean"
+      "la",
+      "reunión",
+      "de"
+    ]
+  },
+  {
+    "title": "Forgotten royal warship sunk 500 years ago reveals surprising secrets",
+    "title_es": "Olvidó el buque de guerra real hundido hace 500 años revela secretos sorprendentes",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250919085232.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-20T00:00:00.000Z",
+    "date": "2025-09-20",
+    "category": "noticia",
+    "tags": [
+      "olvidó",
+      "el",
+      "buque"
     ]
   },
   {
@@ -41,7 +55,90 @@
       "acaban"
     ]
   },
-
+  {
+    "title": "Chemists create light-switchable magnets that remain active for hours",
+    "title_es": "Los químicos crean imanes de luz que permanecen activos durante horas",
+    "url": "https://phys.org/news/2025-09-chemists-switchable-magnets-hours.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "químicos",
+      "crean"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/astronomy-tap-llega-espana-primera-edicion-en-canarias\" hreflang=\"es\">'Astronomy on Tap' llega a España: primera edición en Canarias</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/astronomy-tap-llega-espana-primera-edicion-en-canarias\" hreflang=\"es\">'Astronomy on Tap' llega a España: primera edición en Canarias</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/astronomy-tap-llega-espana-primera-edicion-en-canarias",
+    "source": "IAC",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasastronomy-tap-llega-espana-primera-edicion-en-canarias",
+      "hreflangesastronomy"
+    ]
+  },
+  {
+    "title": "The Ancient Mars Variety Show",
+    "title_es": "El antiguo programa de variedades de Marte",
+    "url": "https://science.nasa.gov/blog/the-ancient-mars-variety-show/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "antiguo",
+      "programa"
+    ]
+  },
+  {
+    "title": "Staying on the keto diet long term could carry health risks",
+    "title_es": "Permanecer en la dieta ceto a largo plazo podría llevar riesgos para la salud",
+    "url": "https://www.sciencenews.org/article/keto-diet-health-risk-glucose-high-fat",
+    "source": "Science News",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "permanecer",
+      "en",
+      "la"
+    ]
+  },
+  {
+    "title": "These Korean women spend more time underwater than any other humans",
+    "title_es": "Estas mujeres coreanas pasan más tiempo bajo el agua que cualquier otro humano",
+    "url": "https://www.snexplores.org/article/korean-women-divers-haenyeo-physiology",
+    "source": "Science News Explores",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "estas",
+      "mujeres",
+      "coreanas"
+    ]
+  },
+  {
+    "title": "How a plant hormone helps roots bend and grow downward toward gravity",
+    "title_es": "Cómo una hormona vegetal ayuda a que las raíces se doblen y crecen hacia abajo hacia la gravedad",
+    "url": "https://phys.org/news/2025-09-hormone-roots-downward-gravity.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "una",
+      "hormona"
+    ]
+  },
   {
     "title": "AI Behavioral Science",
     "title_es": "Ciencias de la Conducta",
@@ -9768,7 +9865,7 @@
   },
   {
     "title": "Introducing CQ: A C-like API for Quantum Accelerated HPC",
-    "title_es": "Presentamos CQ: una API similar a C para Quantum Accelerated HPC",
+    "title_es": "Introducing CQ: A C-like API for Quantum Accelerated HPC",
     "url": "https://arxiv.org/abs/2508.10854",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13980,17 +14077,17 @@
     ]
   },
   {
-    "title": "β-sitosterol alleviated HFD-induced atherosclerosis by regulating the MAPK/Nrf2/NLRP3 pathway in ApoE −/− mice",
-    "title_es": "El β-sitosterol alivió la aterosclerosis inducida por HFD regulando la vía MAPK/NRF2/NLRP3 en ratones ApoE <up>-/-</up>",
+    "title": "Correction: Political participation among deaf youth in Great Britain",
+    "title_es": "Corrección: participación política entre jóvenes sordos en Gran Bretaña",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "el",
-      "-sitosterol",
-      "alivió"
+      "corrección",
+      "participación",
+      "política"
     ]
   },
   {
