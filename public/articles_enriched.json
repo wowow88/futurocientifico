@@ -1,5 +1,47 @@
 [
   {
+    "title": "Pre-Forgettable Models: Prompt Learning as a Native Mechanism for Unlearning",
+    "title_es": "Modelos preolvidables: el aprendizaje rápido como mecanismo nativo para el desaprendizaje",
+    "url": "https://arxiv.org/abs/2509.15230",
+    "source": "arXiv",
+    "published": "2025-09-22T04:00:00.000Z",
+    "date": "2025-09-22",
+    "category": "noticia",
+    "tags": [
+      "pre-forgettable",
+      "models",
+      "prompt"
+    ]
+  },
+  {
+    "title": "Ordinary ice found to have shocking electrical powers",
+    "title_es": "Se descubre que el hielo ordinario tiene poderes eléctricos impactantes",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250921090846.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-22T00:00:00.000Z",
+    "date": "2025-09-22",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "descubre",
+      "que"
+    ]
+  },
+  {
+    "title": "Science journalists as brokers of trust",
+    "title_es": "Periodistas científicos como corredores de confianza",
+    "url": "https://phys.org/news/2025-09-science-journalists-brokers.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-22T00:00:00.000Z",
+    "date": "2025-09-22",
+    "category": "noticia",
+    "tags": [
+      "periodistas",
+      "científicos",
+      "como"
+    ]
+  },
+  {
     "title": "Strange new hybrid bird spotted in Texas backyard",
     "title_es": "Strange nuevo pájaro híbrido visto en el patio trasero de Texas",
     "url": "https://www.sciencedaily.com/releases/2025/09/250920214309.htm",
@@ -179,6 +221,20 @@
       "cómo",
       "una",
       "hormona"
+    ]
+  },
+  {
+    "title": "RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation",
+    "title_es": "RPG: un gráfico de planificación de repositorio para la generación de bases de código unificable y escalable",
+    "url": "http://arxiv.org/abs/2509.16198v1",
+    "source": "arXiv",
+    "published": "2025-09-19T00:00:00.000Z",
+    "date": "2025-09-19",
+    "category": "noticia",
+    "tags": [
+      "rpg",
+      "un",
+      "gráfico"
     ]
   },
   {
@@ -9893,7 +9949,7 @@
   },
   {
     "title": "EVOSCAT: Exploring Software Change Dynamics in Large-Scale Historical Datasets",
-    "title_es": "EVOSCAT: Explorando la dinámica del cambio de software en conjuntos de datos históricos a gran escala",
+    "title_es": "EVOSCAT: Exploring Software Change Dynamics in Large-Scale Historical Datasets",
     "url": "https://arxiv.org/abs/2508.10852",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
