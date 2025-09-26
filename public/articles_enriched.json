@@ -1,16 +1,44 @@
 [
   {
-    "title": "Brain fat, not just plaques, may be the hidden driver of Alzheimer’s",
-    "title_es": "Microglía grasienta: el cómplice inesperado del Alzheimer",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250924012257.htm",
+    "title": "An Approach to Checking Correctness for Agentic Systems",
+    "title_es": "Un enfoque para verificar la corrección de los sistemas genéticos",
+    "url": "https://arxiv.org/abs/2509.20364",
+    "source": "arXiv",
+    "published": "2025-09-26T04:00:00.000Z",
+    "date": "2025-09-26",
+    "category": "noticia",
+    "tags": [
+      "an",
+      "approach",
+      "to"
+    ]
+  },
+  {
+    "title": "Common air pollutant has a secret weapon: bacterial toxins",
+    "title_es": "El contaminante del aire común tiene un arma secreta: toxinas bacterianas",
+    "url": "https://www.nature.com/articles/d41586-025-03052-1",
+    "source": "Nature",
+    "published": "2025-09-26T00:00:00.000Z",
+    "date": "2025-09-26",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "contaminante",
+      "del"
+    ]
+  },
+  {
+    "title": "The surprising new particle that could finally explain dark matter",
+    "title_es": "La sorprendente nueva partícula que finalmente podría explicar la materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250925025403.htm",
     "source": "ScienceDaily (Top)",
-    "published": "2025-09-25T05:00:00.000Z",
-    "date": "2025-09-25",
+    "published": "2025-09-26T00:00:00.000Z",
+    "date": "2025-09-26",
     "category": "noticia",
     "tags": [
       "la",
-      "grasa",
-      "cerebral"
+      "sorprendente",
+      "nueva"
     ]
   },
   {
@@ -25,6 +53,146 @@
       "wavelet",
       "fourier",
       "diffuser"
+    ]
+  },
+  {
+    "title": "Brain fat, not just plaques, may be the hidden driver of Alzheimer’s",
+    "title_es": "La grasa cerebral, no solo las placas, puede ser el conductor oculto de Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250924012257.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "grasa",
+      "cerebral"
+    ]
+  },
+  {
+    "title": "RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards",
+    "title_es": "RLBFF: retroalimentación flexible binaria para unir entre retroalimentación humana y recompensas verificables",
+    "url": "http://arxiv.org/abs/2509.21319v1",
+    "source": "arXiv",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "rlbff",
+      "retroalimentación",
+      "flexible"
+    ]
+  },
+  {
+    "title": "The vitality of old age",
+    "title_es": "La vitalidad de la vejez",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adz7694",
+    "source": "Science.org",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vitalidad",
+      "de"
+    ]
+  },
+  {
+    "title": "Jorge Alegre-Cebollada receive 2026 Michael and Kate Bárány Award",
+    "title_es": "Jorge Alegre-Cebollada recibe el Premio Michael y Kate Bárány 2026",
+    "url": "https://www.cnic.es/es/node/236798",
+    "source": "CNIC",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "jorge",
+      "alegre-cebollada",
+      "receive"
+    ]
+  },
+  {
+    "title": "Ángel Carracedo: “Los cribados genéticos para prevenir el cáncer nos permitirán salvar muchas vidas»",
+    "title_es": "Ángel Carracedo: “Los cribados genéticos para prevenir el cáncer nos permitirán salvar muchas vidas»",
+    "url": "https://www.cnio.es/noticias/angel-carracedo-los-cribados-geneticos-para-prevenir-el-cancer-nos-permitiran-salvar-muchas-vidas/",
+    "source": "CNIO",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "ángel",
+      "carracedo",
+      "los"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/robert-p-kirshner-director-ejecutivo-del-observatorio-internacional-del-tmt-visita-el-iac-y-ofrece-un\" hreflang=\"es\">Robert P. Kirshner, director ejecutivo del Observatorio Internacional del TMT, visita el IAC y ofrece un coloquio sobre el Telescopio de Treinta Metros</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/robert-p-kirshner-director-ejecutivo-del-observatorio-internacional-del-tmt-visita-el-iac-y-ofrece-un\" hreflang=\"es\">Robert P. Kirshner, director ejecutivo del Observatorio Internacional del TMT, visita el IAC y ofrece un coloquio sobre el Telescopio de Treinta Metros</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/robert-p-kirshner-director-ejecutivo-del-observatorio-internacional-del-tmt-visita-el-iac-y-ofrece-un",
+    "source": "IAC",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasrobert-p-kirshner-director-ejecutivo-del-observatorio-internacional-del-tmt-visita-el-iac-y-ofrece-un",
+      "hreflangesrobert"
+    ]
+  },
+  {
+    "title": "NASA Flights Study Cosmic Ray Effects for Air, Future Space Travelers",
+    "title_es": "Los vuelos de la NASA estudian efectos de rayos cósmicos para el aire, futuros viajeros espaciales",
+    "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-flights-study-cosmic-ray-effects-for-air-future-space-travelers/",
+    "source": "NASA (Top News)",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "vuelos",
+      "de"
+    ]
+  },
+  {
+    "title": "Is camouflage better than warning colors? For insects, it depends",
+    "title_es": "¿El camuflaje es mejor que los colores de advertencia? Para insectos, depende",
+    "url": "https://www.sciencenews.org/article/insect-camouflage-warning-colors",
+    "source": "Science News",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "camuflaje",
+      "es"
+    ]
+  },
+  {
+    "title": "What’s so noble about the Nobel Prize?",
+    "title_es": "¿Qué tiene de noble del Premio Nobel?",
+    "url": "https://www.snexplores.org/article/nobel-prize-science-history",
+    "source": "Science News Explores",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "tiene",
+      "de"
+    ]
+  },
+  {
+    "title": "Super-resistant bacteria found in wild birds at a rehabilitation center on the coast of São Paulo state, Brazil",
+    "title_es": "Bacterias súper resistentes encontradas en aves silvestres en un centro de rehabilitación en la costa del estado de São Paulo, Brasil",
+    "url": "https://phys.org/news/2025-09-super-resistant-bacteria-wild-birds.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-25T00:00:00.000Z",
+    "date": "2025-09-25",
+    "category": "noticia",
+    "tags": [
+      "bacterias",
+      "súper",
+      "resistentes"
     ]
   },
   {
@@ -179,6 +347,20 @@
       "una",
       "forma",
       "más"
+    ]
+  },
+  {
+    "title": "Preserving particle physics data",
+    "title_es": "Preservar datos de física de partículas",
+    "url": "https://home.cern/news/news/experiments/preserving-particle-physics-data",
+    "source": "CERN News",
+    "published": "2025-09-24T00:00:00.000Z",
+    "date": "2025-09-24",
+    "category": "noticia",
+    "tags": [
+      "preservar",
+      "datos",
+      "de"
     ]
   },
   {
@@ -10215,7 +10397,7 @@
   },
   {
     "title": "Advances in Speech Separation: Techniques, Challenges, and Future Trends",
-    "title_es": "Avances en la separación del habla: técnicas, desafíos y tendencias futuras",
+    "title_es": "Advances in Speech Separation: Techniques, Challenges, and Future Trends",
     "url": "https://arxiv.org/abs/2508.10830",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10229,7 +10411,7 @@
   },
   {
     "title": "UI-Venus Technical Report: Building High-performance UI Agents with RFT",
-    "title_es": "Informe técnico de UI-Venus: Creación de agentes de interfaz de usuario de alto rendimiento con RFT",
+    "title_es": "UI-Venus Technical Report: Building High-performance UI Agents with RFT",
     "url": "https://arxiv.org/abs/2508.10833",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10243,7 +10425,7 @@
   },
   {
     "title": "SoK: Data Minimization in Machine Learning",
-    "title_es": "SoK: Minimización de datos en el aprendizaje automático",
+    "title_es": "SoK: Data Minimization in Machine Learning",
     "url": "https://arxiv.org/abs/2508.10836",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10257,7 +10439,7 @@
   },
   {
     "title": "Self-Supervised Stereo Matching with Multi-Baseline Contrastive Learning",
-    "title_es": "Emparejamiento estéreo auto-supervisado con aprendizaje contrastivo de múltiples líneas de base",
+    "title_es": "Self-Supervised Stereo Matching with Multi-Baseline Contrastive Learning",
     "url": "https://arxiv.org/abs/2508.10838",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14567,17 +14749,17 @@
     ]
   },
   {
-    "title": "Correction: A plaque recognition algorithm for coronary OCT images by Dense Atrous Convolution and attention mechanism",
-    "title_es": "Corrección: un algoritmo de reconocimiento de placa para imágenes coronarias de OCT por una convolución atuada densa y mecanismo de atención",
+    "title": "A human-relevant alternative infection model for mucormycosis using the silkworm Bombyx mori",
+    "title_es": "Un modelo de infección alternativa relevante humano para la mucormicosis que usa el gusano de seda <i> Bombyx Mori </i>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
       "un",
-      "algoritmo"
+      "modelo",
+      "de"
     ]
   },
   {
