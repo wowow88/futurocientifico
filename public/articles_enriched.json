@@ -1,5 +1,33 @@
 [
   {
+    "title": "Cocoa supplements show surprising anti-aging potential",
+    "title_es": "Los suplementos de cacao muestran un potencial antienvejecimiento sorprendente sorprendente",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250927031221.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-27T00:00:00.000Z",
+    "date": "2025-09-27",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "suplementos",
+      "de"
+    ]
+  },
+  {
+    "title": "Alaska's Fat Bear week is more than a bit of fun—for the animals, size is a matter of survival",
+    "title_es": "La Semana del Bear Fat Bear de Alaska es más que un poco divertido: para los animales, el tamaño es una cuestión de supervivencia",
+    "url": "https://phys.org/news/2025-09-alaska-fat-week-bit-fun.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-27T00:00:00.000Z",
+    "date": "2025-09-27",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "semana",
+      "del"
+    ]
+  },
+  {
     "title": "An Approach to Checking Correctness for Agentic Systems",
     "title_es": "Un enfoque para verificar la corrección de los sistemas genéticos",
     "url": "https://arxiv.org/abs/2509.20364",
@@ -925,7 +953,7 @@
   },
   {
     "title": "AI Behavioral Science",
-    "title_es": "Ciencias del comportamiento de la IA",
+    "title_es": "Ciencias de la Conducta",
     "url": "https://arxiv.org/abs/2509.13323",
     "source": "arXiv",
     "published": "2025-09-18T04:00:00.000Z",
