@@ -1,6 +1,6 @@
 🧠 Nueva cápsula de #FuturoCientífico
 
-Este artículo trata sobre "QUBOLite: un kit de herramientas ligero de Python para QUBO". Se exploran los aspectos clave relacionados con la ciencia actual.
+Este artículo trata sobre "Cacao diario, corazón más fuerte ❤️🍫". Se exploran los aspectos clave relacionados con la ciencia actual.
 🔍 ¿Te imaginabas esto?
 
 🌐https://futurocientifico.vercel.app/revistas
