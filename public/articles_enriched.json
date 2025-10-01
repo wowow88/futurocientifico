@@ -1,16 +1,30 @@
 [
   {
-    "title": "This tiny butterfly has the most chromosomes of any animal on Earth",
-    "title_es": "Este insecto tiene más cromosomas que nadie en la Tierra",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250929054931.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-09-30T05:00:00.000Z",
-    "date": "2025-09-30",
+    "title": "WARP -- Web-Augmented Real-time Program Repairer: A Real-Time Compilation Error Resolution using LLMs and Web-Augmented Synthesis",
+    "title_es": "WARP -- Web-Augmented Real-time Program Repairer: A Real-Time Compilation Error Resolution using LLMs and Web-Augmented Synthesis",
+    "url": "https://arxiv.org/abs/2509.25192",
+    "source": "arXiv",
+    "published": "2025-10-01T04:00:00.000Z",
+    "date": "2025-10-01",
     "category": "noticia",
     "tags": [
-      "esta",
-      "pequeña",
-      "mariposa"
+      "warp",
+      "--",
+      "web-augmented"
+    ]
+  },
+  {
+    "title": "October’s Night Sky Notes: Let’s Go, LIGO!",
+    "title_es": "Notas del cielo nocturno de octubre: ¡vamos, Ligo!",
+    "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/octobers-night-sky-notes-lets-go-ligo/",
+    "source": "NASA (Top News)",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "notas",
+      "del",
+      "cielo"
     ]
   },
   {
@@ -41,7 +55,20 @@
       "curiosity"
     ]
   },
-
+  {
+    "title": "This tiny butterfly has the most chromosomes of any animal on Earth",
+    "title_es": "Esta pequeña mariposa tiene la mayoría de los cromosomas de cualquier animal en la tierra.",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250929054931.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "pequeña",
+      "mariposa"
+    ]
+  },
   {
     "title": "Natural antimicrobial drugs found in pollen could help protect bee colonies from infection",
     "title_es": "Los medicamentos antimicrobianos naturales que se encuentran en el polen podrían ayudar a proteger las colonias de abejas de la infección",
@@ -54,6 +81,118 @@
       "los",
       "medicamentos",
       "antimicrobianos"
+    ]
+  },
+  {
+    "title": "Stitch: Training-Free Position Control in Multimodal Diffusion Transformers",
+    "title_es": "Puntada: control de posición sin entrenamiento en transformadores de difusión multimodal",
+    "url": "http://arxiv.org/abs/2509.26644v1",
+    "source": "arXiv",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "puntada",
+      "control",
+      "de"
+    ]
+  },
+  {
+    "title": "Author Correction: Crystal structure of heliorhodopsin",
+    "title_es": "Corrección del autor: Estructura cristalina de Heliorhodopsin",
+    "url": "https://www.nature.com/articles/s41586-025-09669-6",
+    "source": "Nature",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El CNIC participa en la XVI Carrera Popular del Corazón para impulsar la prevención cardiovascular",
+    "title_es": "El CNIC participa en la XVI Carrera Popular del Corazón para impulsar la prevención cardiovascular",
+    "url": "https://www.cnic.es/es/noticias/cnic-participa-xvi-carrera-popular-corazon-para-impulsar-prevencion-cardiovascular",
+    "source": "CNIC",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnic",
+      "participa"
+    ]
+  },
+  {
+    "title": "María Casanova investigará el cáncer de ovario avanzado con una ayuda de la Fundación BBVA",
+    "title_es": "María Casanova investigará el cáncer de ovario avanzado con una ayuda de la Fundación BBVA",
+    "url": "https://www.cnio.es/noticias/maria-casanova-investigara-el-cancer-de-ovario-avanzado-con-una-ayuda-de-la-fundacion-bbva/",
+    "source": "CNIO",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "maría",
+      "casanova",
+      "investigará"
+    ]
+  },
+  {
+    "title": "Can AI spot harmful health side effects on social media?",
+    "title_es": "¿Puede la IA detectar efectos secundarios de salud dañinos en las redes sociales?",
+    "url": "https://www.sciencenews.org/article/ai-health-side-effects-social-media",
+    "source": "Science News",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "la",
+      "ia"
+    ]
+  },
+  {
+    "title": "A shark encounter inspired this researcher’s career in marine biology",
+    "title_es": "Un encuentro de tiburones inspiró la carrera de este investigador en biología marina",
+    "url": "https://www.snexplores.org/article/shark-marine-biology",
+    "source": "Science News Explores",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "encuentro",
+      "de"
+    ]
+  },
+  {
+    "title": "Pollen holds a secret that could save honeybees",
+    "title_es": "El polen sostiene un secreto que podría salvar las abejas",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250930034200.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "polen",
+      "sostiene"
+    ]
+  },
+  {
+    "title": "Seal's sensitive whiskers hold key to foiling fish escapes",
+    "title_es": "Los bigotes sensibles de Seal sostienen la llave para frustrar pescado escapa",
+    "url": "https://phys.org/news/2025-09-sensitive-whiskers-key-foiling-fish.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "bigotes",
+      "sensibles"
     ]
   },
   {
@@ -390,6 +529,20 @@
       "voiceassistant-eval",
       "asistentes",
       "de"
+    ]
+  },
+  {
+    "title": "Writing with style? There’s a guide for that",
+    "title_es": "Escribiendo con estilo? Hay una guía para eso",
+    "url": "https://home.cern/news/news/knowledge-sharing/writing-style-theres-guide",
+    "source": "CERN News",
+    "published": "2025-09-26T00:00:00.000Z",
+    "date": "2025-09-26",
+    "category": "noticia",
+    "tags": [
+      "escribiendo",
+      "con",
+      "estilo"
     ]
   },
   {
@@ -10608,7 +10761,7 @@
   },
   {
     "title": "The SET Perceptual Factors Framework: Towards Assured Perception for Autonomous Systems",
-    "title_es": "El Marco de Factores de Percepción SET: Hacia una Percepción Asegurada de los Sistemas Autónomos",
+    "title_es": "The SET Perceptual Factors Framework: Towards Assured Perception for Autonomous Systems",
     "url": "https://arxiv.org/abs/2508.10798",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10622,7 +10775,7 @@
   },
   {
     "title": "Competitively Consistent Clustering",
-    "title_es": "Clustering Competitivamente Consistente",
+    "title_es": "Competitively Consistent Clustering",
     "url": "https://arxiv.org/abs/2508.10800",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10636,7 +10789,7 @@
   },
   {
     "title": "Object Fidelity Diffusion for Remote Sensing Image Generation",
-    "title_es": "Difusión de fidelidad de objetos para la generación de imágenes por teledetección",
+    "title_es": "Object Fidelity Diffusion for Remote Sensing Image Generation",
     "url": "https://arxiv.org/abs/2508.10801",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15100,17 +15253,17 @@
     ]
   },
   {
-    "title": "Uncovering biomarkers and molecular pathways linking NAFLD and AIS: Insights from bioinformatic analysis and experiment",
-    "title_es": "Descubrimiento de biomarcadores y vías moleculares que vinculan NAFLD y AIS: ideas del análisis y experimento bioinformáticos",
+    "title": "Influence of gestational weight gain and maternal depression on offspring BMI trajectory from birth to 3 years: A longitudinal mother-infant study",
+    "title_es": "Influencia del aumento de peso gestacional y la depresión materna en la trayectoria del IMC de la descendencia desde el nacimiento hasta los 3 años: un estudio longitudinal de la madre infantil",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "descubrimiento",
-      "de",
-      "biomarcadores"
+      "influencia",
+      "del",
+      "aumento"
     ]
   },
   {
