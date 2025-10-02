@@ -1,16 +1,30 @@
 [
   {
-    "title": "This tiny butterfly has the most chromosomes of any animal on Earth",
-    "title_es": "El polen lleva el antídoto secreto de la naturaleza",
-    "url": "https://www.sciencedaily.com/releases/2025/09/250929054931.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-10-01T05:00:00.000Z",
-    "date": "2025-10-01",
+    "title": "Methodological Framework for Quantifying Semantic Test Coverage in RAG Systems",
+    "title_es": "Marco metodológico para cuantificar la cobertura de pruebas semánticas en sistemas RAG",
+    "url": "https://arxiv.org/abs/2510.00001",
+    "source": "arXiv",
+    "published": "2025-10-02T04:00:00.000Z",
+    "date": "2025-10-02",
     "category": "noticia",
     "tags": [
-      "esta",
-      "pequeña",
-      "mariposa"
+      "methodological",
+      "framework",
+      "for"
+    ]
+  },
+  {
+    "title": "Viral apple cider vinegar weight loss study retracted for flawed science",
+    "title_es": "Estudio de pérdida de peso de vinagre de manzana viral para la ciencia defectuosa",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251001092216.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "de",
+      "pérdida"
     ]
   },
   {
@@ -42,6 +56,76 @@
     ]
   },
   {
+    "title": "Author Correction: Prophylactic TNF blockade uncouples efficacy and toxicity in dual CTLA-4 and PD-1 immunotherapy",
+    "title_es": "Corrección del autor: bloqueo de TNF profiláctico desacopla la eficacia y la toxicidad en inmunoterapia Dual CTLA-4 y PD-1",
+    "url": "https://www.nature.com/articles/s41586-025-09672-x",
+    "source": "Nature",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El CNIO celebra la curiosidad con ciencia para ver, tocar y jugar",
+    "title_es": "El CNIO celebra la curiosidad con ciencia para ver, tocar y jugar",
+    "url": "https://www.cnio.es/noticias/el-cnio-celebra-la-curiosidad-con-ciencia-para-ver-tocar-y-jugar/",
+    "source": "CNIO",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnio",
+      "celebra"
+    ]
+  },
+  {
+    "title": "A grapevine bacteria may help douse wildfire-tainted wine’s ashy aftertaste",
+    "title_es": "Una bacteria de la vid puede ayudar a mojar el regusto cenicero del vino contaminado con incendios forestales",
+    "url": "https://www.sciencenews.org/article/bacteria-douse-wildfire-wine-aftertaste",
+    "source": "Science News",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "bacteria",
+      "de"
+    ]
+  },
+  {
+    "title": "Scientists transform pee into a golden opportunity",
+    "title_es": "Los científicos transforman PEE en una oportunidad de oro",
+    "url": "https://www.snexplores.org/article/yeast-transform-pee-valuable-mineral",
+    "source": "Science News Explores",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "transforman"
+    ]
+  },
+  {
+    "title": "Soil fungus forms durable hydrogels with potential for biomedical materials",
+    "title_es": "El hongo del suelo forma hidrogeles duraderos con potencial para materiales biomédicos",
+    "url": "https://phys.org/news/2025-10-soil-fungus-durable-hydrogels-potential.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "hongo",
+      "del"
+    ]
+  },
+  {
     "title": "Sparse-Up: Learnable Sparse Upsampling for 3D Generation with High-Fidelity Textures",
     "title_es": "Dispersión: muestreo ascendente disperso aprendible para la generación 3D con texturas de alta fidelidad",
     "url": "https://arxiv.org/abs/2509.23646",
@@ -69,7 +153,20 @@
       "curiosity"
     ]
   },
-
+  {
+    "title": "This tiny butterfly has the most chromosomes of any animal on Earth",
+    "title_es": "Esta pequeña mariposa tiene la mayoría de los cromosomas de cualquier animal en la tierra.",
+    "url": "https://www.sciencedaily.com/releases/2025/09/250929054931.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "pequeña",
+      "mariposa"
+    ]
+  },
   {
     "title": "Natural antimicrobial drugs found in pollen could help protect bee colonies from infection",
     "title_es": "Los medicamentos antimicrobianos naturales que se encuentran en el polen podrían ayudar a proteger las colonias de abejas de la infección",
@@ -194,6 +291,20 @@
       "los",
       "bigotes",
       "sensibles"
+    ]
+  },
+  {
+    "title": "2025 Beamline for Schools winners at CERN, DESY and the University of Bonn",
+    "title_es": "2025 Línea de luz para ganadores de escuelas en CERN, Desy y la Universidad de Bonn",
+    "url": "https://home.cern/news/news/cern/2025-beamline-schools-winners-cern-desy-and-university-bonn",
+    "source": "CERN News",
+    "published": "2025-09-30T00:00:00.000Z",
+    "date": "2025-09-30",
+    "category": "noticia",
+    "tags": [
+      "2025",
+      "línea",
+      "de"
     ]
   },
   {
@@ -10734,7 +10845,7 @@
   },
   {
     "title": "VasoMIM: Vascular Anatomy-Aware Masked Image Modeling for Vessel Segmentation",
-    "title_es": "VasoMIM: Modelado de imágenes enmascaradas conscientes de la anatomía vascular para la segmentación de vasos",
+    "title_es": "VasoMIM: Vascular Anatomy-Aware Masked Image Modeling for Vessel Segmentation",
     "url": "https://arxiv.org/abs/2508.10794",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15254,17 +15365,17 @@
     ]
   },
   {
-    "title": "Influence of gestational weight gain and maternal depression on offspring BMI trajectory from birth to 3 years: A longitudinal mother-infant study",
-    "title_es": "Influencia del aumento de peso gestacional y la depresión materna en la trayectoria del IMC de la descendencia desde el nacimiento hasta los 3 años: un estudio longitudinal de la madre infantil",
+    "title": "Withdrawal: Astragaloside IV combined with quercetin attenuates silica-induced pulmonary fibrosis by promoting autophagy and suppressing pyroptosis",
+    "title_es": "Retirada: Astragalósido IV combinado con quercetina atenúa la fibrosis pulmonar inducida por sílice mediante la promoción de la autofagia y suprimiendo la piroptosis",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "influencia",
-      "del",
-      "aumento"
+      "retirada",
+      "astragalósido",
+      "iv"
     ]
   },
   {
