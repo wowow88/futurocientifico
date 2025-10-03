@@ -1,16 +1,30 @@
 [
   {
-    "title": "Scientists transform pee into a golden opportunity",
-    "title_es": "Levaduras que reciclan orina para fertilizar campos",
-    "url": "https://www.snexplores.org/article/yeast-transform-pee-valuable-mineral",
-    "source": "Science News Explores",
-    "published": "2025-10-02T05:00:00.000Z",
-    "date": "2025-10-02",
+    "title": "Manim for STEM Education: Visualizing Complex Problems Through Animation",
+    "title_es": "Manim para la educación STEM: visualización de problemas complejos a través de la animación",
+    "url": "https://arxiv.org/abs/2510.01187",
+    "source": "arXiv",
+    "published": "2025-10-03T04:00:00.000Z",
+    "date": "2025-10-03",
+    "category": "noticia",
+    "tags": [
+      "manim",
+      "for",
+      "stem"
+    ]
+  },
+  {
+    "title": "Scientists just recreated a wildfire that made its own weather",
+    "title_es": "Los científicos acaban de recrear un incendio forestal que hizo su propio clima",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251002074001.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-03T00:00:00.000Z",
+    "date": "2025-10-03",
     "category": "noticia",
     "tags": [
       "los",
       "científicos",
-      "transforman"
+      "acaban"
     ]
   },
   {
@@ -39,6 +53,146 @@
       "estudio",
       "de",
       "pérdida"
+    ]
+  },
+  {
+    "title": "NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generation",
+    "title_es": "Noiseshift: recalibración de ruido de resolución para una mejor generación de imágenes de baja resolución",
+    "url": "http://arxiv.org/abs/2510.02307v1",
+    "source": "arXiv",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "noiseshift",
+      "recalibración",
+      "de"
+    ]
+  },
+  {
+    "title": "A computer scientist’s technological gamble",
+    "title_es": "La apuesta tecnológica de un científico informático",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeb1091",
+    "source": "Science.org",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "apuesta",
+      "tecnológica"
+    ]
+  },
+  {
+    "title": "Author Correction: EBI2 augments Tfh cell fate by promoting interaction with IL-2-quenching dendritic cells",
+    "title_es": "Corrección del autor: EBI2 aumenta el destino de las células TFH al promover la interacción con las células dendríticas que calculan IL-2",
+    "url": "https://www.nature.com/articles/s41586-025-09691-8",
+    "source": "Nature",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Abierta la 2ª convocatoria 2025 para el Acceso Abierto Competitivo (AAC) de ReDib",
+    "title_es": "Abierta la 2ª convocatoria 2025 para el Acceso Abierto Competitivo (AAC) de ReDib",
+    "url": "https://www.cnic.es/es/noticias/abierta-2a-convocatoria-2025-para-acceso-abierto-competitivo-aac-redib",
+    "source": "CNIC",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "abierta",
+      "la",
+      "2"
+    ]
+  },
+  {
+    "title": "Felipe Cortés: “Entender los mecanismos de reparación de roturas en el ADN tiene implicaciones directas muy relevantes para la salud”",
+    "title_es": "Felipe Cortés: “Entender los mecanismos de reparación de roturas en el ADN tiene implicaciones directas muy relevantes para la salud”",
+    "url": "https://www.cnio.es/noticias/felipe-cortes-entender-los-mecanismos-de-reparacion-de-roturas-en-el-adn-tiene-implicaciones-directas-muy-relevantes-para-la-salud/",
+    "source": "CNIO",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "felipe",
+      "cortés",
+      "entender"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-acercara-el-cosmos-le-good-market-con-actividades-de-divulgacion-en-el-parque-garcia-sanabria\" hreflang=\"es\">El IAC acercará el Cosmos a Le Good Market con actividades de divulgación en el Parque García Sanabria con motivo de Plenilunio</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-acercara-el-cosmos-le-good-market-con-actividades-de-divulgacion-en-el-parque-garcia-sanabria\" hreflang=\"es\">El IAC se acercará al Cosmos a Le Good Market con actividades de divulgación en el Parque García Sanabria con motivo de Plenilunio</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acercara-el-cosmos-le-good-market-con-actividades-de-divulgacion-en-el-parque-garcia-sanabria",
+    "source": "IAC",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-acercara-el-cosmos-le-good-market-con-actividades-de-divulgacion-en-el-parque-garcia-sanabria",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Computer Security: CERN, beautified",
+    "title_es": "Seguridad informática: CERN, embellecido",
+    "url": "https://home.cern/news/news/computing/computer-security-cern-beautified",
+    "source": "CERN News",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "informática",
+      "cern"
+    ]
+  },
+  {
+    "title": "AI-designed proteins test biosecurity safeguards",
+    "title_es": "Proteínas diseñadas por IA Prueba de salvaguardas",
+    "url": "https://www.sciencenews.org/article/ai-proteins-biosecurity-safeguards",
+    "source": "Science News",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "proteínas",
+      "diseñadas",
+      "por"
+    ]
+  },
+  {
+    "title": "Explainer: What is a shark?",
+    "title_es": "Explicador: ¿Qué es un tiburón?",
+    "url": "https://www.snexplores.org/article/explainer-what-is-a-shark",
+    "source": "Science News Explores",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "explicador",
+      "qué",
+      "es"
+    ]
+  },
+  {
+    "title": "New approach to gravitational wave detection opens the milli-Hz frontier",
+    "title_es": "El nuevo enfoque para la detección de ondas gravitacionales abre la frontera de Milli-Hz",
+    "url": "https://phys.org/news/2025-10-approach-gravitational-milli-hz-frontier.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "nuevo",
+      "enfoque"
     ]
   },
   {
@@ -111,7 +265,20 @@
       "de"
     ]
   },
-
+  {
+    "title": "Scientists transform pee into a golden opportunity",
+    "title_es": "Los científicos transforman PEE en una oportunidad de oro",
+    "url": "https://www.snexplores.org/article/yeast-transform-pee-valuable-mineral",
+    "source": "Science News Explores",
+    "published": "2025-10-01T00:00:00.000Z",
+    "date": "2025-10-01",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "transforman"
+    ]
+  },
   {
     "title": "Soil fungus forms durable hydrogels with potential for biomedical materials",
     "title_es": "El hongo del suelo forma hidrogeles duraderos con potencial para materiales biomédicos",
@@ -10790,7 +10957,7 @@
   },
   {
     "title": "Enhancing Fairness in Autoencoders for Node-Level Graph Anomaly Detection",
-    "title_es": "Mejora de la imparcialidad en los autocodificadores para la detección de anomalías en los gráficos a nivel de nodo",
+    "title_es": "Enhancing Fairness in Autoencoders for Node-Level Graph Anomaly Detection",
     "url": "https://arxiv.org/abs/2508.10785",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10804,7 +10971,7 @@
   },
   {
     "title": "Cooperative Face Liveness Detection from Optical Flow",
-    "title_es": "Detección cooperativa de la vida de la cara a partir del flujo óptico",
+    "title_es": "Cooperative Face Liveness Detection from Optical Flow",
     "url": "https://arxiv.org/abs/2508.10786",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10818,7 +10985,7 @@
   },
   {
     "title": "MapLibre Tile: A Next Generation Vector Tile Format",
-    "title_es": "Mosaico MapLibre: un formato de mosaico vectorial de próxima generación",
+    "title_es": "MapLibre Tile: A Next Generation Vector Tile Format",
     "url": "https://arxiv.org/abs/2508.10791",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -10832,7 +10999,7 @@
   },
   {
     "title": "Spirals and Beyond: Competitive Plane Search with Multi-Speed Agents",
-    "title_es": "Espirales y más allá: búsqueda de planos competitivos con agentes de varias velocidades",
+    "title_es": "Spirals and Beyond: Competitive Plane Search with Multi-Speed Agents",
     "url": "https://arxiv.org/abs/2508.10793",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
