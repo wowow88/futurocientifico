@@ -1,19 +1,5 @@
 [
   {
-    "title": "Author Correction: Ribonucleotide incorporation into mitochondrial DNA drives inflammation",
-    "title_es": "El error genético que enciende la inflamación",
-    "url": "https://www.nature.com/articles/s41586-025-09682-9",
-    "source": "Nature",
-    "published": "2025-10-04T05:00:00.000Z",
-    "date": "2025-10-04",
-    "category": "noticia",
-    "tags": [
-      "corrección",
-      "del",
-      "autor"
-    ]
-  },
-  {
     "title": "Doctors stunned by a cheap drug’s power against colon cancer",
     "title_es": "Médicos aturdidos por el poder de un medicamento barato contra el cáncer de colon",
     "url": "https://www.sciencedaily.com/releases/2025/10/251003033921.htm",
@@ -25,6 +11,34 @@
       "médicos",
       "aturdidos",
       "por"
+    ]
+  },
+  {
+    "title": "Scientists finally found the “dark matter” of electronics",
+    "title_es": "Los científicos finalmente encontraron la \"materia oscura\" de la electrónica",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251003033928.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-04T00:00:00.000Z",
+    "date": "2025-10-04",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "finalmente"
+    ]
+  },
+  {
+    "title": "Undergrad students deploy applications to geosynchronous satellite 22,236 miles above Earth",
+    "title_es": "Los estudiantes de pregrado implementan solicitudes en satélite geosíncrono 22,236 millas sobre la Tierra",
+    "url": "https://phys.org/news/2025-10-undergrad-students-deploy-applications-geosynchronous.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-04T00:00:00.000Z",
+    "date": "2025-10-04",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "estudiantes",
+      "de"
     ]
   },
   {
@@ -55,7 +69,20 @@
       "acaban"
     ]
   },
-
+  {
+    "title": "Author Correction: Ribonucleotide incorporation into mitochondrial DNA drives inflammation",
+    "title_es": "Corrección del autor: incorporación de ribonucleótidos en el ADN mitocondrial impulsa la inflamación",
+    "url": "https://www.nature.com/articles/s41586-025-09682-9",
+    "source": "Nature",
+    "published": "2025-10-03T00:00:00.000Z",
+    "date": "2025-10-03",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
   {
     "title": "Accelerator Report: LHC performance stays on track and is cruising towards the target",
     "title_es": "Informe del acelerador: el rendimiento de LHC se mantiene en el camino y está navegando hacia el objetivo",
