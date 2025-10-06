@@ -1,5 +1,47 @@
 [
   {
+    "title": "Hybrid Horizons: Policy for Post-Quantum Security",
+    "title_es": "Horizontes híbridos: política de seguridad postcuántica",
+    "url": "https://arxiv.org/abs/2510.02317",
+    "source": "arXiv",
+    "published": "2025-10-06T04:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "hybrid",
+      "horizons",
+      "policy"
+    ]
+  },
+  {
+    "title": "October’s sky comes alive with a supermoon and shooting stars",
+    "title_es": "El cielo de octubre cobra vida con una superluna y estrellas fugaces",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251005085754.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cielo",
+      "de"
+    ]
+  },
+  {
+    "title": "Americans, Canadians unite in battling 'eating machine' carp",
+    "title_es": "Los estadounidenses, los canadienses se unen en la lucha contra la carpa 'Machine'",
+    "url": "https://phys.org/news/2025-10-americans-canadians-machine-carp.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-05T00:00:00.000Z",
+    "date": "2025-10-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "estadounidenses",
+      "los"
+    ]
+  },
+  {
     "title": "Doctors stunned by a cheap drug’s power against colon cancer",
     "title_es": "Médicos aturdidos por el poder de un medicamento barato contra el cáncer de colon",
     "url": "https://www.sciencedaily.com/releases/2025/10/251003033921.htm",
@@ -137,6 +179,20 @@
       "el",
       "revestimiento",
       "molecular"
+    ]
+  },
+  {
+    "title": "Reward Models are Metrics in a Trench Coat",
+    "title_es": "Los modelos de recompensa son métricas en una gabardina",
+    "url": "http://arxiv.org/abs/2510.03231v1",
+    "source": "arXiv",
+    "published": "2025-10-03T00:00:00.000Z",
+    "date": "2025-10-03",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "modelos",
+      "de"
     ]
   },
   {
@@ -11055,7 +11111,7 @@
   },
   {
     "title": "Generating Compilers for Qubit Mapping and Routing",
-    "title_es": "Generación de compiladores para mapeo y enrutamiento de Qubit",
+    "title_es": "Generating Compilers for Qubit Mapping and Routing",
     "url": "https://arxiv.org/abs/2508.10781",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
