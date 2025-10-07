@@ -1,16 +1,30 @@
 [
   {
-    "title": "AI-designed proteins test biosecurity safeguards",
-    "title_es": "IA biológica: ¿avance científico o amenaza invisible?",
-    "url": "https://www.sciencenews.org/article/ai-proteins-biosecurity-safeguards",
-    "source": "Science News",
-    "published": "2025-10-06T05:00:00.000Z",
-    "date": "2025-10-06",
+    "title": "Generalization and the Rise of System-level Creativity in Science",
+    "title_es": "La generalización y el aumento de la creatividad a nivel de sistema en la ciencia",
+    "url": "https://arxiv.org/abs/2510.03240",
+    "source": "arXiv",
+    "published": "2025-10-07T04:00:00.000Z",
+    "date": "2025-10-07",
     "category": "noticia",
     "tags": [
-      "proteínas",
-      "diseñadas",
-      "por"
+      "generalization",
+      "and",
+      "the"
+    ]
+  },
+  {
+    "title": "Birds around the world share a mysterious warning cry",
+    "title_es": "Los pájaros de todo el mundo comparten un misterioso grito de advertencia",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251006051113.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "pájaros",
+      "de"
     ]
   },
   {
@@ -38,6 +52,76 @@
     "tags": [
       "el",
       "cielo",
+      "de"
+    ]
+  },
+  {
+    "title": "TopInG: Topologically Interpretable Graph Learning via Persistent Rationale Filtration",
+    "title_es": "Toping: aprendizaje de gráficos topológicamente interpretables a través de la filtración de justificación persistente",
+    "url": "http://arxiv.org/abs/2510.05102v1",
+    "source": "arXiv",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "toping",
+      "aprendizaje",
+      "de"
+    ]
+  },
+  {
+    "title": "Connecting the dots: I trace the history of the East Kolkata Wetlands",
+    "title_es": "Conectando los puntos: Trace la historia de los humedales de Kolkata East",
+    "url": "https://www.nature.com/articles/d41586-025-03231-0",
+    "source": "Nature",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "conectando",
+      "los",
+      "puntos"
+    ]
+  },
+  {
+    "title": "Finding immune cells that stop a body from attacking itself wins medicine Nobel",
+    "title_es": "Encontrar células inmunes que impiden que un cuerpo se ataque a sí mismo gana la medicina Nobel",
+    "url": "https://www.sciencenews.org/article/immune-cells-medicine-nobel-prize-t-reg",
+    "source": "Science News",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "encontrar",
+      "células",
+      "inmunes"
+    ]
+  },
+  {
+    "title": "During heat waves, trees spew chemicals that worsen air pollution",
+    "title_es": "Durante las ondas de calor, los árboles arrojan productos químicos que empeoran la contaminación del aire",
+    "url": "https://www.snexplores.org/article/heat-waves-trees-worsen-air-pollution",
+    "source": "Science News Explores",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "durante",
+      "las",
+      "ondas"
+    ]
+  },
+  {
+    "title": "Waste management workers have gone from hero to zero in the public's eyes since the pandemic, UK research says",
+    "title_es": "Los trabajadores de gestión de residuos han ido de héroe a cero a los ojos del público desde la pandemia, dice la investigación del Reino Unido",
+    "url": "https://phys.org/news/2025-10-workers-hero-eyes-pandemic-uk.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "trabajadores",
       "de"
     ]
   },
@@ -335,7 +419,20 @@
       "cern"
     ]
   },
-
+  {
+    "title": "AI-designed proteins test biosecurity safeguards",
+    "title_es": "Proteínas diseñadas por IA Prueba de salvaguardas",
+    "url": "https://www.sciencenews.org/article/ai-proteins-biosecurity-safeguards",
+    "source": "Science News",
+    "published": "2025-10-02T00:00:00.000Z",
+    "date": "2025-10-02",
+    "category": "noticia",
+    "tags": [
+      "proteínas",
+      "diseñadas",
+      "por"
+    ]
+  },
   {
     "title": "Explainer: What is a shark?",
     "title_es": "Explicador: ¿Qué es un tiburón?",
@@ -11098,7 +11195,7 @@
   },
   {
     "title": "Learning Task Execution Hierarchies for Redundant Robots",
-    "title_es": "Jerarquías de ejecución de tareas de aprendizaje para robots redundantes",
+    "title_es": "Learning Task Execution Hierarchies for Redundant Robots",
     "url": "https://arxiv.org/abs/2508.10780",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15702,17 +15799,17 @@
     ]
   },
   {
-    "title": "Gardenia jasminoides fruit extract ameliorates non-alcoholic steatohepatitis with fibrosis by modulating inflammatory and fibrogenic pathways",
-    "title_es": "<i> Gardenia jasminoides </i> El extracto de fruta mejora la esteatohepatitis no alcohólica con fibrosis al modular las vías inflamatorias y fibrogénicas",
+    "title": "Nutrient synergy in wheat: Impacts of nitrogen and boron on productivity, accumulation, and soil nutrient retention",
+    "title_es": "Sinergia de nutrientes en el trigo: impactos del nitrógeno y el boro en la productividad, la acumulación y la retención de nutrientes del suelo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "i",
-      "gardenia",
-      "jasminoides"
+      "sinergia",
+      "de",
+      "nutrientes"
     ]
   },
   {
