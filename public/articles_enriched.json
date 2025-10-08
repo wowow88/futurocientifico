@@ -1,16 +1,44 @@
 [
   {
-    "title": "Finding immune cells that stop a body from attacking itself wins medicine Nobel",
-    "title_es": "El premio Nobel revela las células que frenan al sistema inmunitario",
-    "url": "https://www.sciencenews.org/article/immune-cells-medicine-nobel-prize-t-reg",
-    "source": "Science News",
-    "published": "2025-10-07T05:00:00.000Z",
-    "date": "2025-10-07",
+    "title": "A note on a paper by Hashemi and Kapur",
+    "title_es": "Una nota en un papel de Hashemi y Kapur",
+    "url": "https://arxiv.org/abs/2510.05103",
+    "source": "arXiv",
+    "published": "2025-10-08T04:00:00.000Z",
+    "date": "2025-10-08",
     "category": "noticia",
     "tags": [
-      "encontrar",
-      "células",
-      "inmunes"
+      "a",
+      "note",
+      "on"
+    ]
+  },
+  {
+    "title": "Hubble captures a galaxy that glows in blue and gold",
+    "title_es": "Hubble capta una galaxia que brilla en azul y oro",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251007234522.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "capta",
+      "una"
+    ]
+  },
+  {
+    "title": "Tree swallows thrive despite pollution from forever chemicals",
+    "title_es": "Las golondrinas arbóreas prosperan a pesar de la contaminación causada por productos químicos permanentes",
+    "url": "https://phys.org/news/2025-10-tree-swallows-pollution-chemicals.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "golondrinas",
+      "arbóreas"
     ]
   },
   {
@@ -39,6 +67,76 @@
       "los",
       "pájaros",
       "de"
+    ]
+  },
+  {
+    "title": "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark",
+    "title_es": "EGONIGHT: Hacia la comprensión de la visión egocéntrica por la noche con un punto de referencia desafiante",
+    "url": "http://arxiv.org/abs/2510.06218v1",
+    "source": "arXiv",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "egonight",
+      "hacia",
+      "la"
+    ]
+  },
+  {
+    "title": "Insect biodiversity monitoring must be expanded",
+    "title_es": "Se debe ampliar el monitoreo de la biodiversidad de los insectos",
+    "url": "https://www.nature.com/articles/d41586-025-03107-3",
+    "source": "Nature",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "debe",
+      "ampliar"
+    ]
+  },
+  {
+    "title": "De un descubrimiento de Nobel, a anticuerpos que generan millones a un centro público de investigación español",
+    "title_es": "De un descubrimiento de Nobel, a anticuerpos que generan millones a un centro público de investigación español",
+    "url": "https://www.cnio.es/noticias/de-un-descubrimiento-de-nobel-a-anticuerpos-que-generan-millones-a-un-centro-publico-de-investigacion-espanol/",
+    "source": "CNIO",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "de",
+      "un",
+      "descubrimiento"
+    ]
+  },
+  {
+    "title": "Antarctic krill eject more food when it’s contaminated with plastic",
+    "title_es": "Antártico Krill expulsa más alimentos cuando está contaminado con plástico",
+    "url": "https://www.sciencenews.org/article/antarctic-krill-eject-more-food-plastic",
+    "source": "Science News",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "antártico",
+      "krill",
+      "expulsa"
+    ]
+  },
+  {
+    "title": "Finding cells that stop our body from attacking itself lands a Nobel",
+    "title_es": "Encontrar células que impiden que nuestro cuerpo se ataque a sí mismo aterriza a un Nobel",
+    "url": "https://www.snexplores.org/article/regulatory-immune-cells-medicine-nobel",
+    "source": "Science News Explores",
+    "published": "2025-10-07T00:00:00.000Z",
+    "date": "2025-10-07",
+    "category": "noticia",
+    "tags": [
+      "encontrar",
+      "células",
+      "que"
     ]
   },
   {
@@ -97,7 +195,20 @@
       "puntos"
     ]
   },
-
+  {
+    "title": "Finding immune cells that stop a body from attacking itself wins medicine Nobel",
+    "title_es": "Encontrar células inmunes que impiden que un cuerpo se ataque a sí mismo gana la medicina Nobel",
+    "url": "https://www.sciencenews.org/article/immune-cells-medicine-nobel-prize-t-reg",
+    "source": "Science News",
+    "published": "2025-10-06T00:00:00.000Z",
+    "date": "2025-10-06",
+    "category": "noticia",
+    "tags": [
+      "encontrar",
+      "células",
+      "inmunes"
+    ]
+  },
   {
     "title": "During heat waves, trees spew chemicals that worsen air pollution",
     "title_es": "Durante las ondas de calor, los árboles arrojan productos químicos que empeoran la contaminación del aire",
@@ -226,7 +337,7 @@
   },
   {
     "title": "Accelerator Report: LHC performance stays on track and is cruising towards the target",
-    "title_es": "Informe del acelerador: el rendimiento de LHC se mantiene en el camino y está navegando hacia el objetivo",
+    "title_es": "Informe del acelerador: el rendimiento del LHC se mantiene encaminado y avanza hacia el objetivo",
     "url": "https://home.cern/news/news/accelerators/accelerator-report-lhc-performance-stays-track-and-cruising-towards-target",
     "source": "CERN News",
     "published": "2025-10-03T00:00:00.000Z",
@@ -338,7 +449,7 @@
   },
   {
     "title": "A computer scientist’s technological gamble",
-    "title_es": "La apuesta tecnológica de un científico informático",
+    "title_es": "La apuesta tecnológica de un informático",
     "url": "https://www.science.org/doi/abs/10.1126/science.aeb1091",
     "source": "Science.org",
     "published": "2025-10-02T00:00:00.000Z",
@@ -478,7 +589,7 @@
   },
   {
     "title": "October’s Night Sky Notes: Let’s Go, LIGO!",
-    "title_es": "Notas del cielo nocturno de octubre: ¡vamos, Ligo!",
+    "title_es": "Notas del cielo nocturno de octubre: ¡Vamos, LIGO!",
     "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/octobers-night-sky-notes-lets-go-ligo/",
     "source": "NASA (Top News)",
     "published": "2025-10-01T00:00:00.000Z",
@@ -11168,7 +11279,7 @@
   },
   {
     "title": "The Knowledge-Reasoning Dissociation: Fundamental Limitations of LLMs in Clinical Natural Language Inference",
-    "title_es": "La disociación del razonamiento del conocimiento: limitaciones fundamentales de los LLM en la inferencia clínica del lenguaje natural",
+    "title_es": "The Knowledge-Reasoning Dissociation: Fundamental Limitations of LLMs in Clinical Natural Language Inference",
     "url": "https://arxiv.org/abs/2508.10777",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11182,7 +11293,7 @@
   },
   {
     "title": "Ultra-High-Definition Reference-Based Landmark Image Super-Resolution with Generative Diffusion Prior",
-    "title_es": "Superresolución de imagen de punto de referencia basada en referencia de ultra alta definición con difusión generativa previa",
+    "title_es": "Ultra-High-Definition Reference-Based Landmark Image Super-Resolution with Generative Diffusion Prior",
     "url": "https://arxiv.org/abs/2508.10779",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15800,17 +15911,17 @@
     ]
   },
   {
-    "title": "Nutrient synergy in wheat: Impacts of nitrogen and boron on productivity, accumulation, and soil nutrient retention",
-    "title_es": "Sinergia de nutrientes en el trigo: impactos del nitrógeno y el boro en la productividad, la acumulación y la retención de nutrientes del suelo",
+    "title": "Prospective associations of COVID-related stress with vaping nicotine and cannabis among high school students: Mediated by vaping susceptibility",
+    "title_es": "Asociaciones prospectivas del estrés relacionado con COVID con el vapeo de nicotina y cannabis entre estudiantes de secundaria: mediado por la susceptibilidad al vapeo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "sinergia",
-      "de",
-      "nutrientes"
+      "asociaciones",
+      "prospectivas",
+      "del"
     ]
   },
   {
@@ -73421,7 +73532,7 @@
   },
   {
     "title": "Students from Belgium, Canada, Mexico, Türkiye and the USA win the 12th edition of Beamline for Schools",
-    "title_es": "Estudiantes de Bélgica, Canadá, México, Türkiye y los Estados Unidos ganan la duodécima edición de Beamline para escuelas",
+    "title_es": "Estudiantes de Bélgica, Canadá, México, Turquía y Estados Unidos ganan la 12ª edición de Beamline for Schools",
     "url": "https://home.cern/news/press-release/cern/students-belgium-canada-mexico-turkiye-and-usa-win-12th-edition-beamline",
     "source": "CERN Press",
     "published": "2025-07-09T00:00:00.000Z",
