@@ -1,16 +1,30 @@
 [
   {
-    "title": "Hubble captures a galaxy that glows in blue and gold",
-    "title_es": "Hubble capta una galaxia que brilla en azul y oro",
-    "url": "https://www.sciencedaily.com/releases/2025/10/251007234522.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-10-08T05:00:00.000Z",
-    "date": "2025-10-08",
+    "title": "Inducing State Anxiety in LLM Agents Reproduces Human-Like Biases in Consumer Decision-Making",
+    "title_es": "La inducción de ansiedad de estado en agentes de LLM reproduce sesgos similares a los humanos en la toma de decisiones del consumidor",
+    "url": "https://arxiv.org/abs/2510.06222",
+    "source": "arXiv",
+    "published": "2025-10-09T04:00:00.000Z",
+    "date": "2025-10-09",
     "category": "noticia",
     "tags": [
-      "hubble",
-      "capta",
-      "una"
+      "inducing",
+      "state",
+      "anxiety"
+    ]
+  },
+  {
+    "title": "Scientists suggest the brain may work best with 7 senses, not just 5",
+    "title_es": "Los científicos sugieren que el cerebro puede funcionar mejor con 7 sentidos, no solo con 5",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251008030955.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "sugieren"
     ]
   },
   {
@@ -27,7 +41,20 @@
       "on"
     ]
   },
-
+  {
+    "title": "Hubble captures a galaxy that glows in blue and gold",
+    "title_es": "Hubble capta una galaxia que brilla en azul y oro",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251007234522.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "capta",
+      "una"
+    ]
+  },
   {
     "title": "Tree swallows thrive despite pollution from forever chemicals",
     "title_es": "Las golondrinas arbóreas prosperan a pesar de la contaminación causada por productos químicos permanentes",
@@ -40,6 +67,90 @@
       "las",
       "golondrinas",
       "arbóreas"
+    ]
+  },
+  {
+    "title": "Artificial Hippocampus Networks for Efficient Long-Context Modeling",
+    "title_es": "Redes artificiales de hipocampo para un modelado eficiente de contexto largo",
+    "url": "http://arxiv.org/abs/2510.07318v1",
+    "source": "arXiv",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "redes",
+      "artificiales",
+      "de"
+    ]
+  },
+  {
+    "title": "Enzyme specificity prediction using cross attention graph neural networks",
+    "title_es": "Predicción de la especificidad enzimática mediante redes neuronales de gráficos de atención cruzada",
+    "url": "https://www.nature.com/articles/s41586-025-09697-2",
+    "source": "Nature",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "predicción",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "CNIC recibe el distintivo ‘Igualdad en la Empresa’",
+    "title_es": "CNIC recibe el distintivo ‘Igualdad en la Empresa’",
+    "url": "https://www.cnic.es/es/noticias/cnic-recibe-distintivo-igualdad-empresa",
+    "source": "CNIC",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "recibe",
+      "el"
+    ]
+  },
+  {
+    "title": "Chemistry that works like Hermione’s magic handbag wins a 2025 chemistry Nobel",
+    "title_es": "La química que funciona como el bolso mágico de Hermione gana el Nobel de química en 2025",
+    "url": "https://www.sciencenews.org/article/2025-chemistry-nobel-prize-hermione",
+    "source": "Science News",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "química",
+      "que"
+    ]
+  },
+  {
+    "title": "Discoveries behind quantum computers win the Nobel Prize in physics",
+    "title_es": "Los descubrimientos detrás de las computadoras cuánticas ganan el Premio Nobel de Física",
+    "url": "https://www.snexplores.org/article/quantum-computers-circuits-physics-nobel",
+    "source": "Science News Explores",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "descubrimientos",
+      "detrás"
+    ]
+  },
+  {
+    "title": "Antarctic Ocean of the last ice age reveals how a critical process of CO&#8322; storage may slow again",
+    "title_es": "El Océano Antártico de la última glaciación revela cómo un proceso crítico de CO&#8322; el almacenamiento puede volver a ralentizarse",
+    "url": "https://phys.org/news/2025-10-antarctic-ocean-ice-age-reveals.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-08T00:00:00.000Z",
+    "date": "2025-10-08",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "océano",
+      "antártico"
     ]
   },
   {
@@ -11252,7 +11363,7 @@
   },
   {
     "title": "Video-BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation",
-    "title_es": "Video-BLADE: La atención dispersa en bloques se encuentra con la destilación escalonada para una generación de video eficiente",
+    "title_es": "Video-BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation",
     "url": "https://arxiv.org/abs/2508.10774",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11266,7 +11377,7 @@
   },
   {
     "title": "IBEX: Information-Bottleneck-EXplored Coarse-to-Fine Molecular Generation under Limited Data",
-    "title_es": "IBEX: Generación molecular de grueso a fino explorada con cuello de botella de información bajo datos limitados",
+    "title_es": "IBEX: Information-Bottleneck-EXplored Coarse-to-Fine Molecular Generation under Limited Data",
     "url": "https://arxiv.org/abs/2508.10775",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15912,17 +16023,17 @@
     ]
   },
   {
-    "title": "Prospective associations of COVID-related stress with vaping nicotine and cannabis among high school students: Mediated by vaping susceptibility",
-    "title_es": "Asociaciones prospectivas del estrés relacionado con COVID con el vapeo de nicotina y cannabis entre estudiantes de secundaria: mediado por la susceptibilidad al vapeo",
+    "title": "Machine learning-based forecasting of air quality index under long-term environmental patterns: A comparative approach with XGBoost, LightGBM, and SVM",
+    "title_es": "Pronóstico basado en aprendizaje automático del índice de calidad del aire bajo patrones ambientales a largo plazo: un enfoque comparativo con XGBoost, LightGBM y SVM",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "asociaciones",
-      "prospectivas",
-      "del"
+      "pronóstico",
+      "basado",
+      "en"
     ]
   },
   {
