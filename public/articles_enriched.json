@@ -1,5 +1,33 @@
 [
   {
+    "title": "Deep Learning Based Approach to Enhanced Recognition of Emotions and Behavioral Patterns of Autistic Children",
+    "title_es": "Enfoque basado en el aprendizaje profundo para mejorar el reconocimiento de las emociones y los patrones de comportamiento de los niños autistas",
+    "url": "https://arxiv.org/abs/2510.07320",
+    "source": "arXiv",
+    "published": "2025-10-10T04:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "deep",
+      "learning",
+      "based"
+    ]
+  },
+  {
+    "title": "Lessons from Ascension Island's shark troubles could help boost conservation",
+    "title_es": "Las lecciones de los problemas de los tiburones de la Isla Ascensión podrían ayudar a impulsar la conservación",
+    "url": "https://phys.org/news/2025-10-lessons-ascension-island-shark-boost.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "lecciones",
+      "de"
+    ]
+  },
+  {
     "title": "Inducing State Anxiety in LLM Agents Reproduces Human-Like Biases in Consumer Decision-Making",
     "title_es": "La inducción de ansiedad de estado en agentes de LLM reproduce sesgos similares a los humanos en la toma de decisiones del consumidor",
     "url": "https://arxiv.org/abs/2510.06222",
@@ -25,6 +53,118 @@
       "los",
       "científicos",
       "sugieren"
+    ]
+  },
+  {
+    "title": "BLAZER: Bootstrapping LLM-based Manipulation Agents with Zero-Shot Data Generation",
+    "title_es": "BLAZER: Arranque de agentes de manipulación basados ​​en LLM con generación de datos Zero-Shot",
+    "url": "http://arxiv.org/abs/2510.08572v1",
+    "source": "arXiv",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "blazer",
+      "arranque",
+      "de"
+    ]
+  },
+  {
+    "title": "The complicated legacy of antibiotics",
+    "title_es": "El complicado legado de los antibióticos",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aea3949",
+    "source": "Science.org",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "complicado",
+      "legado"
+    ]
+  },
+  {
+    "title": "Naked mole rats live for decades — genetic tweaks reveal insights into ageing",
+    "title_es": "Las ratas topo desnudas viven durante décadas: los ajustes genéticos revelan información sobre el envejecimiento",
+    "url": "https://www.nature.com/articles/d41586-025-03279-y",
+    "source": "Nature",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "ratas",
+      "topo"
+    ]
+  },
+  {
+    "title": "Ven al CNIC a celebrar la Semana de la Ciencia y la Innovación 2025",
+    "title_es": "Ven al CNIC a celebrar la Semana de la Ciencia y la Innovación 2025",
+    "url": "https://www.cnic.es/es/noticias/ven-al-cnic-celebrar-semana-ciencia-innovacion-2025",
+    "source": "CNIC",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "ven",
+      "al",
+      "cnic"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-observatorio-del-teide-acoge-la-presentacion-de-los-telescopios-ttt\" hreflang=\"es\">El Observatorio del Teide acoge la presentación de los telescopios TTT</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-observatorio-del-teide-acoge-la-presentacion-de-los-telescopios-ttt\" hreflang=\"es\">El Observatorio del Teide acoge la presentación de los telescopios TTT</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-observatorio-del-teide-acoge-la-presentacion-de-los-telescopios-ttt",
+    "source": "IAC",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-observatorio-del-teide-acoge-la-presentacion-de-los-telescopios-ttt",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Mic’d bats reveal midnight songbird attacks",
+    "title_es": "Los murciélagos microfoneados revelan ataques de pájaros cantores a medianoche",
+    "url": "https://www.sciencenews.org/article/bats-attack-birds-halloween-night",
+    "source": "Science News",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "murciélagos",
+      "microfoneados"
+    ]
+  },
+  {
+    "title": "The Vera Rubin Observatory is set to revolutionize astronomy",
+    "title_es": "El Observatorio Vera Rubin está llamado a revolucionar la astronomía",
+    "url": "https://www.snexplores.org/article/vera-rubin-observatory-telescope",
+    "source": "Science News Explores",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "observatorio",
+      "vera"
+    ]
+  },
+  {
+    "title": "Tiny asteroid flew right over Antarctica, and no one saw it coming",
+    "title_es": "Un pequeño asteroide pasó sobre la Antártida y nadie lo vio venir",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251009033240.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "pequeño",
+      "asteroide"
     ]
   },
   {
@@ -11321,7 +11461,7 @@
   },
   {
     "title": "Modeling Human Responses to Multimodal AI Content",
-    "title_es": "Modelado de respuestas humanas al contenido de IA multimodal",
+    "title_es": "Modeling Human Responses to Multimodal AI Content",
     "url": "https://arxiv.org/abs/2508.10769",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11335,7 +11475,7 @@
   },
   {
     "title": "From Diagnosis to Improvement: Probing Spatio-Physical Reasoning in Vision Language Models",
-    "title_es": "Del diagnóstico a la mejora: sondeo del razonamiento físico-espacial en los modelos de lenguaje visual",
+    "title_es": "From Diagnosis to Improvement: Probing Spatio-Physical Reasoning in Vision Language Models",
     "url": "https://arxiv.org/abs/2508.10770",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11349,7 +11489,7 @@
   },
   {
     "title": "AEGIS: Authenticity Evaluation Benchmark for AI-Generated Video Sequences",
-    "title_es": "AEGIS: punto de referencia de evaluación de autenticidad para secuencias de video generadas por IA",
+    "title_es": "AEGIS: Authenticity Evaluation Benchmark for AI-Generated Video Sequences",
     "url": "https://arxiv.org/abs/2508.10771",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -16023,17 +16163,17 @@
     ]
   },
   {
-    "title": "Machine learning-based forecasting of air quality index under long-term environmental patterns: A comparative approach with XGBoost, LightGBM, and SVM",
-    "title_es": "Pronóstico basado en aprendizaje automático del índice de calidad del aire bajo patrones ambientales a largo plazo: un enfoque comparativo con XGBoost, LightGBM y SVM",
+    "title": "Analysis of factors impacting electoral integrity in Africa between 2006–2023 - Examining the association between free and fair election and rule of law",
+    "title_es": "Análisis de los factores que influyen en la integridad electoral en África entre 2006 y 2023: examen de la asociación entre elecciones libres y justas y el estado de derecho",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "pronóstico",
-      "basado",
-      "en"
+      "análisis",
+      "de",
+      "los"
     ]
   },
   {
