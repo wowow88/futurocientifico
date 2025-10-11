@@ -1,19 +1,5 @@
 [
   {
-    "title": "Lessons from Ascension Island's shark troubles could help boost conservation",
-    "title_es": "El dilema de una isla: convivir con tiburones o perder el mar",
-    "url": "https://phys.org/news/2025-10-lessons-ascension-island-shark-boost.html",
-    "source": "Phys.org (Latest)",
-    "published": "2025-10-10T05:00:00.000Z",
-    "date": "2025-10-10",
-    "category": "noticia",
-    "tags": [
-      "las",
-      "lecciones",
-      "de"
-    ]
-  },
-  {
     "title": "Deep Learning Based Approach to Enhanced Recognition of Emotions and Behavioral Patterns of Autistic Children",
     "title_es": "Enfoque basado en el aprendizaje profundo para mejorar el reconocimiento de las emociones y los patrones de comportamiento de los niños autistas",
     "url": "https://arxiv.org/abs/2510.07320",
@@ -27,7 +13,118 @@
       "based"
     ]
   },
-
+  {
+    "title": "Lessons from Ascension Island's shark troubles could help boost conservation",
+    "title_es": "Las lecciones de los problemas de los tiburones de la Isla Ascensión podrían ayudar a impulsar la conservación",
+    "url": "https://phys.org/news/2025-10-lessons-ascension-island-shark-boost.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "lecciones",
+      "de"
+    ]
+  },
+  {
+    "title": "Author Correction: Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus",
+    "title_es": "Corrección del autor: las mutaciones de pérdida de función en PLD4 conducen al lupus eritematoso sistémico",
+    "url": "https://www.nature.com/articles/s41586-025-09692-7",
+    "source": "Nature",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El máster que ha impulsado la bioinformática en España se enfoca en la medicina personalizada",
+    "title_es": "El máster que ha impulsado la bioinformática en España se enfoca en la medicina personalizada",
+    "url": "https://www.cnio.es/noticias/el-master-que-ha-impulsado-la-bioinformatica-en-espana-se-enfoca-en-la-medicina-personalizada/",
+    "source": "CNIO",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "máster",
+      "que"
+    ]
+  },
+  {
+    "title": "LHC inducted into TIME’s Best Inventions Hall of Fame",
+    "title_es": "LHC incluido en el Salón de la Fama de los Mejores Inventos de TIME",
+    "url": "https://home.cern/news/news/knowledge-sharing/lhc-inducted-times-best-inventions-hall-fame",
+    "source": "CERN News",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "lhc",
+      "incluido",
+      "en"
+    ]
+  },
+  {
+    "title": "Astronomers saw a rogue planet going through a rapid growth spurt",
+    "title_es": "Los astrónomos vieron un planeta rebelde atravesando un rápido crecimiento",
+    "url": "https://www.sciencenews.org/article/rogue-planet-rapid-growth-spurt",
+    "source": "Science News",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "astrónomos",
+      "vieron"
+    ]
+  },
+  {
+    "title": "Structures that work like Hermione’s magic handbag land a chemistry Nobel",
+    "title_es": "Las estructuras que funcionan como el bolso mágico de Hermione obtienen el Nobel de química",
+    "url": "https://www.snexplores.org/article/mof-metal-organic-chemistry-nobel",
+    "source": "Science News Explores",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "estructuras",
+      "que"
+    ]
+  },
+  {
+    "title": "MIT’s new precision gene editing tool could transform medicine",
+    "title_es": "La nueva herramienta de edición genética de precisión del MIT podría transformar la medicina",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251010091553.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nueva",
+      "herramienta"
+    ]
+  },
+  {
+    "title": "Unified model explains extreme jet streams on all giant planets",
+    "title_es": "Un modelo unificado explica las corrientes en chorro extremas en todos los planetas gigantes",
+    "url": "https://phys.org/news/2025-10-extreme-jet-streams-giant-planets.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-10T00:00:00.000Z",
+    "date": "2025-10-10",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "modelo",
+      "unificado"
+    ]
+  },
   {
     "title": "Inducing State Anxiety in LLM Agents Reproduces Human-Like Biases in Consumer Decision-Making",
     "title_es": "La inducción de ansiedad de estado en agentes de LLM reproduce sesgos similares a los humanos en la toma de decisiones del consumidor",
@@ -166,6 +263,20 @@
       "un",
       "pequeño",
       "asteroide"
+    ]
+  },
+  {
+    "title": "Luca Scorrano: \"Mi fascinación por las mitocondrias ha sido como un primer amor”",
+    "title_es": "Luca Scorrano: “Mi fascinación por las mitocondrias ha sido como un primer amor”",
+    "url": "https://www.cnic.es/es/noticias/luca-scorrano-mi-fascinacion-por-mitocondrias-ha-sido-como-un-primer-amor",
+    "source": "CNIC",
+    "published": "2025-10-09T00:00:00.000Z",
+    "date": "2025-10-09",
+    "category": "noticia",
+    "tags": [
+      "luca",
+      "scorrano",
+      "mi"
     ]
   },
   {
@@ -11434,7 +11545,7 @@
   },
   {
     "title": "\"I Want My Chart to Be Just for Me\": Community-Engaged Design to Support Outpatient Healthcare for Resettled Communities",
-    "title_es": "\"Quiero que mi gráfico sea solo para mí\": diseño comprometido con la comunidad para apoyar la atención médica ambulatoria para comunidades reasentadas",
+    "title_es": "\"I Want My Chart to Be Just for Me\": Community-Engaged Design to Support Outpatient Healthcare for Resettled Communities",
     "url": "https://arxiv.org/abs/2508.10757",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11448,7 +11559,7 @@
   },
   {
     "title": "Natively Trainable Sparse Attention for Hierarchical Point Cloud Datasets",
-    "title_es": "Atención dispersa entrenable de forma nativa para conjuntos de datos de nube de puntos jerárquicos",
+    "title_es": "Natively Trainable Sparse Attention for Hierarchical Point Cloud Datasets",
     "url": "https://arxiv.org/abs/2508.10758",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -16164,17 +16275,17 @@
     ]
   },
   {
-    "title": "Analysis of factors impacting electoral integrity in Africa between 2006–2023 - Examining the association between free and fair election and rule of law",
-    "title_es": "Análisis de los factores que influyen en la integridad electoral en África entre 2006 y 2023: examen de la asociación entre elecciones libres y justas y el estado de derecho",
+    "title": "Antimicrobial and quorum sensing interference of a cysteine- and arginine-deleted linear Tachyplesin analog (CRDT) against Staphylococcus aureus and Pseudomonas aeruginosa",
+    "title_es": "Interferencia antimicrobiana y de detección de quórum de un análogo de taquiplesina lineal (CRDT) con eliminación de cisteína y arginina contra <i>Staphylococcus aureus</i> y <i>Pseudomonas aeruginosa</i>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "análisis",
-      "de",
-      "los"
+      "interferencia",
+      "antimicrobiana",
+      "y"
     ]
   },
   {
