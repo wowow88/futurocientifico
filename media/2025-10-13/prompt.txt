@@ -1,4 +1,4 @@
-Ilustración científica minimalista y moderna sobre: "Análisis comparativo de grandes modelos de lenguaje para la resolución asistida por máquina de las intenciones del usuario".
+Ilustración científica minimalista y moderna sobre: "La extinción de corales marca el primer “punto de inflexión” climático de la Tierra, dicen los científicos".
 Requisitos:
 - Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
 - Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
@@ -6,4 +6,4 @@ Requisitos:
 - Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
 - Orientación cuadrada o 4:5; dejar margen de seguridad.
 Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: arXiv | Fecha: 2025-10-13
+- Fuente: Nature | Fecha: 2025-10-13
