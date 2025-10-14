@@ -1,6 +1,6 @@
 🧠 Nueva cápsula de #FuturoCientífico
 
-Este artículo trata sobre "Programación convexa secuencial para guía de descenso impulsada por 6-DoF con restricciones activadas por estado compuesto en tiempo continuo". Se exploran los aspectos clave relacionados con la ciencia actual.
+Este artículo trata sobre "Los científicos construyen neuronas artificiales que funcionan como las reales". Se exploran los aspectos clave relacionados con la ciencia actual.
 🔍 ¿Te imaginabas esto?
 
 🌐https://futurocientifico.vercel.app/revistas
