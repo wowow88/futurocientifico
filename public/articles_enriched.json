@@ -1,16 +1,44 @@
 [
   {
-    "title": "Fossil teeth reveal some dinos were fussy eaters",
-    "title_es": "Dientes fósiles revelan el menú secreto de los dinosaurios",
-    "url": "https://www.snexplores.org/article/fossil-teeth-calcium-dinos-fussy-eaters",
-    "source": "Science News Explores",
-    "published": "2025-10-15T05:00:00.000Z",
-    "date": "2025-10-15",
+    "title": "The Beautiful Deception: How 256 Bits Pretend to be Infinity",
+    "title_es": "El bello engaño: cómo 256 bits pretenden ser infinitos",
+    "url": "https://arxiv.org/abs/2510.12802",
+    "source": "arXiv",
+    "published": "2025-10-16T04:00:00.000Z",
+    "date": "2025-10-16",
     "category": "noticia",
     "tags": [
-      "los",
-      "dientes",
-      "fósiles"
+      "the",
+      "beautiful",
+      "deception"
+    ]
+  },
+  {
+    "title": "Who or what dug Mars’ mysterious gullies? The answer is explosive",
+    "title_es": "¿Quién o qué excavó los misteriosos barrancos de Marte? La respuesta es explosiva",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251015230949.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "quién",
+      "o",
+      "qué"
+    ]
+  },
+  {
+    "title": "DNA signaling cascades offer a better way to monitor drug therapy at home",
+    "title_es": "Las cascadas de señalización de ADN ofrecen una mejor manera de controlar la terapia farmacológica en casa",
+    "url": "https://phys.org/news/2025-10-dna-cascades-drug-therapy-home.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "cascadas",
+      "de"
     ]
   },
   {
@@ -53,6 +81,76 @@
       "las",
       "rayas",
       "más"
+    ]
+  },
+  {
+    "title": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+    "title_es": "Verificador universal generativo como meta-razonador multimodal",
+    "url": "http://arxiv.org/abs/2510.13804v1",
+    "source": "arXiv",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "verificador",
+      "universal",
+      "generativo"
+    ]
+  },
+  {
+    "title": "Deaminative cross-coupling of amines by boryl radical β-scission",
+    "title_es": "Acoplamiento cruzado desaminado de aminas mediante escisión β del radical borilo",
+    "url": "https://www.nature.com/articles/s41586-025-09725-1",
+    "source": "Nature",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "acoplamiento",
+      "cruzado",
+      "desaminado"
+    ]
+  },
+  {
+    "title": "Fusing forces – accelerating open science through collaboration",
+    "title_es": "Fusionando fuerzas: acelerando la ciencia abierta a través de la colaboración",
+    "url": "https://home.cern/news/news/cern/fusing-forces-accelerating-open-science-through-collaboration",
+    "source": "CERN News",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "fusionando",
+      "fuerzas",
+      "acelerando"
+    ]
+  },
+  {
+    "title": "These ancient bumblebees were found with their pollen source",
+    "title_es": "Estos antiguos abejorros fueron encontrados con su fuente de polen.",
+    "url": "https://www.sciencenews.org/article/ancient-bumblebees-found-pollen",
+    "source": "Science News",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "antiguos",
+      "abejorros"
+    ]
+  },
+  {
+    "title": "Connections at school could limit bullying’s harm to mental health",
+    "title_es": "Las conexiones en la escuela podrían limitar el daño del acoso a la salud mental",
+    "url": "https://www.snexplores.org/article/school-bullying-teen-mental-health",
+    "source": "Science News Explores",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "conexiones",
+      "en"
     ]
   },
   {
@@ -125,7 +223,20 @@
       "seguro"
     ]
   },
-
+  {
+    "title": "Fossil teeth reveal some dinos were fussy eaters",
+    "title_es": "Los dientes fósiles revelan que algunos dinosaurios eran quisquillosos con la comida",
+    "url": "https://www.snexplores.org/article/fossil-teeth-calcium-dinos-fussy-eaters",
+    "source": "Science News Explores",
+    "published": "2025-10-14T00:00:00.000Z",
+    "date": "2025-10-14",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "dientes",
+      "fósiles"
+    ]
+  },
   {
     "title": "The Sun’s hidden poles could finally reveal its greatest secrets",
     "title_es": "Los polos ocultos del Sol finalmente podrían revelar sus mayores secretos",
@@ -11798,7 +11909,7 @@
   },
   {
     "title": "Agentic Design Review System",
-    "title_es": "Sistema de Revisión de Diseño Agentic",
+    "title_es": "Agentic Design Review System",
     "url": "https://arxiv.org/abs/2508.10745",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -16584,17 +16695,17 @@
     ]
   },
   {
-    "title": "Correction: The relationship between teacher commitment, teacher self-efficacy, and work-related quality of life among science teachers",
-    "title_es": "Corrección: La relación entre el compromiso docente, la autoeficacia docente y la calidad de vida relacionada con el trabajo entre los profesores de ciencias.",
+    "title": "Functions of coastal feeder bluff systems: Implications for prioritizing protection and restoration",
+    "title_es": "Funciones de los sistemas de acantilados alimentadores costeros: implicaciones para priorizar la protección y restauración",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "la",
-      "relación"
+      "funciones",
+      "de",
+      "los"
     ]
   },
   {
