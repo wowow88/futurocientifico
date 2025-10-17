@@ -1,16 +1,30 @@
 [
   {
-    "title": "Who or what dug Mars’ mysterious gullies? The answer is explosive",
-    "title_es": "Marte tallado por CO₂: misterio resuelto",
-    "url": "https://www.sciencedaily.com/releases/2025/10/251015230949.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-10-16T05:00:00.000Z",
-    "date": "2025-10-16",
+    "title": "Choreographing Trash Cans: On Speculative Futures of Weak Robots in Public Spaces",
+    "title_es": "Coreografía de botes de basura: sobre el futuro especulativo de robots débiles en espacios públicos",
+    "url": "https://arxiv.org/abs/2510.13810",
+    "source": "arXiv",
+    "published": "2025-10-17T04:00:00.000Z",
+    "date": "2025-10-17",
     "category": "noticia",
     "tags": [
-      "quién",
-      "o",
-      "qué"
+      "choreographing",
+      "trash",
+      "cans"
+    ]
+  },
+  {
+    "title": "Rogue black hole shocks astronomers with record radio blast",
+    "title_es": "Un agujero negro rebelde sorprende a los astrónomos con una explosión de radio récord",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251016223026.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-17T00:00:00.000Z",
+    "date": "2025-10-17",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "agujero",
+      "negro"
     ]
   },
   {
@@ -27,7 +41,20 @@
       "deception"
     ]
   },
-
+  {
+    "title": "Who or what dug Mars’ mysterious gullies? The answer is explosive",
+    "title_es": "¿Quién o qué excavó los misteriosos barrancos de Marte? La respuesta es explosiva",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251015230949.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "quién",
+      "o",
+      "qué"
+    ]
+  },
   {
     "title": "DNA signaling cascades offer a better way to monitor drug therapy at home",
     "title_es": "Las cascadas de señalización de ADN ofrecen una mejor manera de controlar la terapia farmacológica en casa",
@@ -39,6 +66,118 @@
     "tags": [
       "las",
       "cascadas",
+      "de"
+    ]
+  },
+  {
+    "title": "Coupled Diffusion Sampling for Training-Free Multi-View Image Editing",
+    "title_es": "Muestreo de difusión acoplado para edición de imágenes de vista múltiple sin capacitación",
+    "url": "http://arxiv.org/abs/2510.14981v1",
+    "source": "arXiv",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "muestreo",
+      "de",
+      "difusión"
+    ]
+  },
+  {
+    "title": "A radically organic worldview turns 100",
+    "title_es": "Una cosmovisión radicalmente orgánica cumple 100 años",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adz5359",
+    "source": "Science.org",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "cosmovisión",
+      "radicalmente"
+    ]
+  },
+  {
+    "title": "This gene causes obesity — and shields against heart disease",
+    "title_es": "Este gen causa obesidad y protege contra las enfermedades cardíacas",
+    "url": "https://www.nature.com/articles/d41586-025-03387-9",
+    "source": "Nature",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "gen",
+      "causa"
+    ]
+  },
+  {
+    "title": "Fármaco en ensayo contra el principal oncogén en cáncer de páncreas: pequeño paso para pacientes, gran salto para la investigación",
+    "title_es": "Fármaco en ensayo contra el principal oncogén en cáncer de páncreas: pequeño paso para pacientes, gran salto para la investigación",
+    "url": "https://www.cnio.es/noticias/farmaco-en-ensayo-contra-el-principal-oncogen-en-cancer-de-pancreas-pequeno-paso-para-pacientes-gran-salto-para-la-investigacion/",
+    "source": "CNIO",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "fármaco",
+      "en",
+      "ensayo"
+    ]
+  },
+  {
+    "title": "Leadership handover at HL-LHC",
+    "title_es": "Traspaso de liderazgo en HL-LHC",
+    "url": "https://home.cern/news/news/accelerators/leadership-handover-hl-lhc",
+    "source": "CERN News",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "traspaso",
+      "de",
+      "liderazgo"
+    ]
+  },
+  {
+    "title": "An estimated 54,600 young children are malnourished in Gaza",
+    "title_es": "Se estima que 54.600 niños pequeños están desnutridos en Gaza",
+    "url": "https://www.sciencenews.org/article/gaza-children-malnourished-palestine",
+    "source": "Science News",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "estima",
+      "que"
+    ]
+  },
+  {
+    "title": "Cities across the world are sinking. Here’s how they might rebound",
+    "title_es": "Las ciudades de todo el mundo se están hundiendo. Así es como podrían recuperarse",
+    "url": "https://www.snexplores.org/article/cities-sinking-floods-groundwater",
+    "source": "Science News Explores",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "ciudades",
+      "de"
+    ]
+  },
+  {
+    "title": "Surprising bacteria discovery links Hawaiʻi's groundwater to the ocean",
+    "title_es": "Sorprendente descubrimiento de bacterias vincula el agua subterránea de Hawái con el océano",
+    "url": "https://phys.org/news/2025-10-bacteria-discovery-links-hawaii-groundwater.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-16T00:00:00.000Z",
+    "date": "2025-10-16",
+    "category": "noticia",
+    "tags": [
+      "sorprendente",
+      "descubrimiento",
       "de"
     ]
   },
@@ -11882,7 +12021,7 @@
   },
   {
     "title": "Forgery Guided Learning Strategy with Dual Perception Network for Deepfake Cross-domain Detection",
-    "title_es": "Estrategia de aprendizaje guiado de falsificación con red de percepción dual para la detección de deepfakes entre dominios",
+    "title_es": "Forgery Guided Learning Strategy with Dual Perception Network for Deepfake Cross-domain Detection",
     "url": "https://arxiv.org/abs/2508.10741",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -11896,7 +12035,7 @@
   },
   {
     "title": "An Efficient Model-Driven Groupwise Approach for Atlas Construction",
-    "title_es": "Un enfoque grupal eficiente basado en modelos para la construcción de Atlas",
+    "title_es": "An Efficient Model-Driven Groupwise Approach for Atlas Construction",
     "url": "https://arxiv.org/abs/2508.10743",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -16696,17 +16835,17 @@
     ]
   },
   {
-    "title": "Functions of coastal feeder bluff systems: Implications for prioritizing protection and restoration",
-    "title_es": "Funciones de los sistemas de acantilados alimentadores costeros: implicaciones para priorizar la protección y restauración",
+    "title": "Performance and carcass characteristics of Nellore cattle fed a high-concentrate diet with a phytogenic additive blend",
+    "title_es": "Rendimiento y características de la canal de ganado Nellore alimentado con una dieta alta en concentrado con una mezcla de aditivos fitógenos",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "funciones",
-      "de",
-      "los"
+      "rendimiento",
+      "y",
+      "características"
     ]
   },
   {
