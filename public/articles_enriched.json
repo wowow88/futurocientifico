@@ -1,5 +1,19 @@
 [
   {
+    "title": "Design and Analysis of Parallel Artificial Protozoa Optimizer (P-APO) using CUDA Architecture",
+    "title_es": "Diseño y análisis de Parallel Artificial Protozoa Optimizer (P-APO) utilizando la arquitectura CUDA",
+    "url": "https://arxiv.org/abs/2510.14982",
+    "source": "arXiv",
+    "published": "2025-10-20T04:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "design",
+      "and",
+      "analysis"
+    ]
+  },
+  {
     "title": "Einstein’s overlooked idea could explain how the Universe really began",
     "title_es": "La idea pasada por alto de Einstein podría explicar cómo comenzó realmente el Universo",
     "url": "https://www.sciencedaily.com/releases/2025/10/251018102132.htm",
@@ -11,6 +25,34 @@
       "la",
       "idea",
       "pasada"
+    ]
+  },
+  {
+    "title": "This powerful drug combo cuts prostate cancer deaths by 40%",
+    "title_es": "Esta poderosa combinación de medicamentos reduce las muertes por cáncer de próstata en un 40%",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251019120507.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-19T00:00:00.000Z",
+    "date": "2025-10-19",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "poderosa",
+      "combinación"
+    ]
+  },
+  {
+    "title": "Marriage is hard, but it's even harder when you immigrate together",
+    "title_es": "El matrimonio es difícil, pero lo es aún más cuando inmigran juntos",
+    "url": "https://phys.org/news/2025-10-marriage-hard-harder-immigrate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-19T00:00:00.000Z",
+    "date": "2025-10-19",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "matrimonio",
+      "es"
     ]
   },
   {
@@ -165,6 +207,20 @@
       "las",
       "instantáneas",
       "con"
+    ]
+  },
+  {
+    "title": "OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM",
+    "title_es": "OmniVinci: mejora de la arquitectura y los datos para la comprensión omnimodal LLM",
+    "url": "http://arxiv.org/abs/2510.15870v1",
+    "source": "arXiv",
+    "published": "2025-10-17T00:00:00.000Z",
+    "date": "2025-10-17",
+    "category": "noticia",
+    "tags": [
+      "omnivinci",
+      "mejora",
+      "de"
     ]
   },
   {
@@ -12133,7 +12189,7 @@
   },
   {
     "title": "Privacy-enhancing Sclera Segmentation Benchmarking Competition: SSBC 2025",
-    "title_es": "Competencia de evaluación comparativa de segmentación de esclerótica que mejora la privacidad: SSBC 2025",
+    "title_es": "Privacy-enhancing Sclera Segmentation Benchmarking Competition: SSBC 2025",
     "url": "https://arxiv.org/abs/2508.10737",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
