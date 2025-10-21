@@ -1,5 +1,47 @@
 [
   {
+    "title": "A Semantic Generalization of Shannon's Information Theory and Applications",
+    "title_es": "Una generalización semántica de la teoría y las aplicaciones de la información de Shannon",
+    "url": "https://arxiv.org/abs/2510.15871",
+    "source": "arXiv",
+    "published": "2025-10-21T04:00:00.000Z",
+    "date": "2025-10-21",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "semantic",
+      "generalization"
+    ]
+  },
+  {
+    "title": "Feeling stressed? Science finds a simple way to take back control",
+    "title_es": "¿Te sientes estresado? La ciencia encuentra una forma sencilla de recuperar el control",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251020092833.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-21T00:00:00.000Z",
+    "date": "2025-10-21",
+    "category": "noticia",
+    "tags": [
+      "te",
+      "sientes",
+      "estresado"
+    ]
+  },
+  {
+    "title": "Life in the fast (and slow) lanes for salmon",
+    "title_es": "La vida en las vías rápidas (y lentas) del salmón",
+    "url": "https://phys.org/news/2025-10-life-fast-lanes-salmon.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-21T00:00:00.000Z",
+    "date": "2025-10-21",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vida",
+      "en"
+    ]
+  },
+  {
     "title": "Design and Analysis of Parallel Artificial Protozoa Optimizer (P-APO) using CUDA Architecture",
     "title_es": "Diseño y análisis de Parallel Artificial Protozoa Optimizer (P-APO) utilizando la arquitectura CUDA",
     "url": "https://arxiv.org/abs/2510.14982",
@@ -11,6 +53,76 @@
       "design",
       "and",
       "analysis"
+    ]
+  },
+  {
+    "title": "Unbiased Gradient Low-Rank Projection",
+    "title_es": "Proyección de gradiente imparcial de bajo rango",
+    "url": "http://arxiv.org/abs/2510.17802v1",
+    "source": "arXiv",
+    "published": "2025-10-20T00:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "proyección",
+      "de",
+      "gradiente"
+    ]
+  },
+  {
+    "title": "Selective Methylene Oxidation in α,β-Unsaturated Carbonyl Natural Products",
+    "title_es": "Oxidación selectiva de metileno en productos naturales de carbonilo α,β-insaturados",
+    "url": "https://www.nature.com/articles/s41586-025-09742-0",
+    "source": "Nature",
+    "published": "2025-10-20T00:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "oxidación",
+      "selectiva",
+      "de"
+    ]
+  },
+  {
+    "title": "Cardiovascular health with a gender perspective: Experts from 21 European countries gather in Madrid for the JACARDI General Assembly",
+    "title_es": "Salud cardiovascular con perspectiva de género: Expertos de 21 países europeos se reúnen en Madrid para la Asamblea General de JACARDI",
+    "url": "https://www.cnic.es/es/node/237512",
+    "source": "CNIC",
+    "published": "2025-10-20T00:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "cardiovascular",
+      "health",
+      "with"
+    ]
+  },
+  {
+    "title": "Guppies fall for a classic optical illusion. Doves, usually, do too",
+    "title_es": "Los guppies se enamoran de una ilusión óptica clásica. Las palomas, por lo general, también lo hacen.",
+    "url": "https://www.sciencenews.org/article/guppies-optical-illusion-doves",
+    "source": "Science News",
+    "published": "2025-10-20T00:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "guppies",
+      "se"
+    ]
+  },
+  {
+    "title": "Ripple bugs’ frilly feet inspired a water-striding robot",
+    "title_es": "Los pies con volantes de los insectos ondulados inspiraron un robot que caminaba sobre el agua",
+    "url": "https://www.snexplores.org/article/ripple-bug-robot-feet-walk-on-water",
+    "source": "Science News Explores",
+    "published": "2025-10-20T00:00:00.000Z",
+    "date": "2025-10-20",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "pies",
+      "con"
     ]
   },
   {
@@ -487,6 +599,20 @@
       "las",
       "conexiones",
       "en"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-inteligencia-artificial-y-los-agujeros-negros-protagonizan-una-nueva-sesion-del-ciclo-del-cielo-la\" hreflang=\"es\">La inteligencia artificial y los agujeros negros protagonizan una nueva sesión del ciclo “Del cielo a la tesis” en el Museo de la Ciencia y el Cosmos</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-inteligencia-artificial-y-los-agujeros-negros-protagonizan-una-nueva-sesion-del-ciclo-del-cielo-la\" hreflang=\"es\">La inteligencia artificial y los agujeros negros protagonizan una nueva sesión del ciclo “Del cielo a la tesis” en el Museo de la Ciencia y el Cosmos</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-inteligencia-artificial-y-los-agujeros-negros-protagonizan-una-nueva-sesion-del-ciclo-del-cielo-la",
+    "source": "IAC",
+    "published": "2025-10-15T00:00:00.000Z",
+    "date": "2025-10-15",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-inteligencia-artificial-y-los-agujeros-negros-protagonizan-una-nueva-sesion-del-ciclo-del-cielo-la",
+      "hreflangesla"
     ]
   },
   {
@@ -12147,7 +12273,7 @@
   },
   {
     "title": "APFL: Analytic Personalized Federated Learning via Dual-Stream Least Squares",
-    "title_es": "APFL: Aprendizaje Federado Personalizado Analítico a través de Mínimos Cuadrados de Doble Corriente",
+    "title_es": "APFL: Analytic Personalized Federated Learning via Dual-Stream Least Squares",
     "url": "https://arxiv.org/abs/2508.10732",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -12161,7 +12287,7 @@
   },
   {
     "title": "Traffic Intersection Simulation Using Turning Movement Count Data in SUMO: A Case Study of Toronto Intersections",
-    "title_es": "Simulación de intersecciones de tráfico utilizando datos de recuento de movimiento de giro en SUMO: un estudio de caso de intersecciones de Toronto",
+    "title_es": "Traffic Intersection Simulation Using Turning Movement Count Data in SUMO: A Case Study of Toronto Intersections",
     "url": "https://arxiv.org/abs/2508.10733",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -17031,17 +17157,17 @@
     ]
   },
   {
-    "title": "Effects of a loaded change of direction training program on physical performance in U-19 elite soccer players",
-    "title_es": "Efectos de un programa de entrenamiento cargado de cambios de dirección sobre el rendimiento físico en jugadores de fútbol de élite sub-19",
+    "title": "Correction: Occupational and geographical differentials in financial protection against healthcare out-of-pocket payments in Nepal: Evidence for universal health coverage",
+    "title_es": "Corrección: Diferenciales ocupacionales y geográficos en la protección financiera contra los pagos directos de atención médica en Nepal: evidencia de la cobertura sanitaria universal",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efectos",
-      "de",
-      "un"
+      "corrección",
+      "diferenciales",
+      "ocupacionales"
     ]
   },
   {
