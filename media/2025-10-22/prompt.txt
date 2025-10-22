@@ -1,0 +1,9 @@
+Ilustración científica minimalista y moderna sobre: "LLM Assisted Alpha Fairness for 6 GHz WiFi and NR_U Coexistence: An Agentic Orchestrator for Throughput, Energy, and SLA".
+Requisitos:
+- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
+- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
+- Fondo claro y formas geométricas abstractas sutiles.
+- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
+- Orientación cuadrada o 4:5; dejar margen de seguridad.
+Contexto (no dibujar texto, solo orientar la escena):
+- Fuente: arXiv | Fecha: 2025-10-22
