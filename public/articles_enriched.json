@@ -1,16 +1,44 @@
 [
   {
-    "title": "Scientists just solved the mystery of perfect spaghetti",
-    "title_es": "El secreto del espagueti perfecto: gluten (y sal)",
-    "url": "https://www.sciencedaily.com/releases/2025/10/251027224848.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-10-28T05:00:00.000Z",
-    "date": "2025-10-28",
+    "title": "How to see the forest for the trees",
+    "title_es": "Cómo ver el bosque por los árboles",
+    "url": "https://arxiv.org/abs/2510.23614",
+    "source": "arXiv",
+    "published": "2025-10-29T04:00:00.000Z",
+    "date": "2025-10-29",
     "category": "noticia",
     "tags": [
-      "los",
-      "científicos",
-      "acaban"
+      "how",
+      "to",
+      "see"
+    ]
+  },
+  {
+    "title": "Deep Antarctic waters hold geometric communities of fish nests",
+    "title_es": "Las aguas profundas de la Antártida albergan comunidades geométricas de nidos de peces",
+    "url": "https://www.sciencenews.org/article/antarctic-waters-geometric-fish-nests",
+    "source": "Science News",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "aguas",
+      "profundas"
+    ]
+  },
+  {
+    "title": "Nigeria's government is using digital technology to repress citizens. A researcher explains how",
+    "title_es": "El gobierno de Nigeria está utilizando la tecnología digital para reprimir a los ciudadanos. Un investigador explica cómo",
+    "url": "https://phys.org/news/2025-10-nigeria-digital-technology-repress-citizens.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "gobierno",
+      "de"
     ]
   },
   {
@@ -27,7 +55,20 @@
       "engineering"
     ]
   },
-
+  {
+    "title": "Scientists just solved the mystery of perfect spaghetti",
+    "title_es": "Los científicos acaban de resolver el misterio de los espaguetis perfectos",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251027224848.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-28T00:00:00.000Z",
+    "date": "2025-10-28",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "acaban"
+    ]
+  },
   {
     "title": "China's Zhuque-3 reusable rocket passes key milestone",
     "title_es": "El cohete reutilizable Zhuque-3 de China supera un hito clave",
@@ -40,6 +81,48 @@
       "el",
       "cohete",
       "reutilizable"
+    ]
+  },
+  {
+    "title": "Does Object Binding Naturally Emerge in Large Pretrained Vision Transformers?",
+    "title_es": "¿La unión de objetos surge naturalmente en grandes transformadores de visión previamente entrenados?",
+    "url": "http://arxiv.org/abs/2510.24709v1",
+    "source": "arXiv",
+    "published": "2025-10-28T00:00:00.000Z",
+    "date": "2025-10-28",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "unión",
+      "de"
+    ]
+  },
+  {
+    "title": "Don’t overlook the plastic footprint of fireworks",
+    "title_es": "No pases por alto la huella plástica de los fuegos artificiales",
+    "url": "https://www.nature.com/articles/d41586-025-03500-y",
+    "source": "Nature",
+    "published": "2025-10-28T00:00:00.000Z",
+    "date": "2025-10-28",
+    "category": "noticia",
+    "tags": [
+      "no",
+      "pases",
+      "por"
+    ]
+  },
+  {
+    "title": "Thank microbes for chocolate’s tasty flavors",
+    "title_es": "Gracias a los microbios por los sabrosos sabores del chocolate",
+    "url": "https://www.snexplores.org/article/chocolate-flavor-bacteria-yeast",
+    "source": "Science News Explores",
+    "published": "2025-10-28T00:00:00.000Z",
+    "date": "2025-10-28",
+    "category": "noticia",
+    "tags": [
+      "gracias",
+      "a",
+      "los"
     ]
   },
   {
@@ -71,7 +154,7 @@
     ]
   },
   {
-    "title": "Direct deaminative functionalization with N -nitroamines",
+    "title": "Direct deaminative functionalization with <i>N</i>-nitroamines",
     "title_es": "Funcionalización desaminativa directa con <i>N</i>-nitroaminas",
     "url": "https://www.nature.com/articles/s41586-025-09791-5",
     "source": "Nature",
@@ -502,6 +585,20 @@
       "los",
       "copos",
       "de"
+    ]
+  },
+  {
+    "title": "Correcting the record on race and medicine",
+    "title_es": "Corrección del historial sobre raza y medicina.",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aea8984",
+    "source": "Science.org",
+    "published": "2025-10-23T00:00:00.000Z",
+    "date": "2025-10-23",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "historial"
     ]
   },
   {
@@ -12778,7 +12875,7 @@
   },
   {
     "title": "Chem3DLLM: 3D Multimodal Large Language Models for Chemistry",
-    "title_es": "Chem3DLLM: Modelos de lenguaje grande multimodal 3D para química",
+    "title_es": "Chem3DLLM: 3D Multimodal Large Language Models for Chemistry",
     "url": "https://arxiv.org/abs/2508.10696",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -17886,17 +17983,17 @@
     ]
   },
   {
-    "title": "Standardized protocol for laboratory rearing and breeding of the Lymnaeidae snail, Radix natalensis (Krauss, 1848)",
-    "title_es": "Protocolo estandarizado para la cría y reproducción en laboratorio del caracol Lymnaeidae, <i>Radix natalensis</i> (Krauss, 1848)",
+    "title": "Development of a risk predictive score for intraoperative hypothermia in pediatric patients: A retrospective cohort study",
+    "title_es": "Desarrollo de una puntuación predictiva de riesgo de hipotermia intraoperatoria en pacientes pediátricos: un estudio de cohorte retrospectivo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "protocolo",
-      "estandarizado",
-      "para"
+      "desarrollo",
+      "de",
+      "una"
     ]
   },
   {
