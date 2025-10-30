@@ -1,16 +1,44 @@
 [
   {
-    "title": "Thank microbes for chocolate’s tasty flavors",
-    "title_es": "Microbios que diseñan el sabor del chocolate",
-    "url": "https://www.snexplores.org/article/chocolate-flavor-bacteria-yeast",
-    "source": "Science News Explores",
-    "published": "2025-10-29T05:00:00.000Z",
-    "date": "2025-10-29",
+    "title": "Iti-Validator: A Guardrail Framework for Validating and Correcting LLM-Generated Itineraries",
+    "title_es": "Iti-Validator: un marco de barandas para validar y corregir itinerarios generados por LLM",
+    "url": "https://arxiv.org/abs/2510.24719",
+    "source": "arXiv",
+    "published": "2025-10-30T04:00:00.000Z",
+    "date": "2025-10-30",
     "category": "noticia",
     "tags": [
-      "gracias",
+      "iti-validator",
       "a",
-      "los"
+      "guardrail"
+    ]
+  },
+  {
+    "title": "Gum disease may quietly damage the brain, scientists warn",
+    "title_es": "La enfermedad de las encías puede dañar silenciosamente el cerebro, advierten los científicos",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251029100147.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-10-30T00:00:00.000Z",
+    "date": "2025-10-30",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "enfermedad",
+      "de"
+    ]
+  },
+  {
+    "title": "What made the moon?",
+    "title_es": "¿Qué hizo la luna?",
+    "url": "https://phys.org/news/2025-10-moon.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-10-30T00:00:00.000Z",
+    "date": "2025-10-30",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "hizo",
+      "la"
     ]
   },
   {
@@ -53,6 +81,62 @@
       "el",
       "gobierno",
       "de"
+    ]
+  },
+  {
+    "title": "Gaperon: A Peppered English-French Generative Language Model Suite",
+    "title_es": "Gaperon: un conjunto de modelos de lenguaje generativo inglés-francés salpicado",
+    "url": "http://arxiv.org/abs/2510.25771v1",
+    "source": "arXiv",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "gaperon",
+      "un",
+      "conjunto"
+    ]
+  },
+  {
+    "title": "Reply to: On anisotropy in cubic Cu 2 O photoelectrodes",
+    "title_es": "Responder a: Sobre la anisotropía en fotoelectrodos cúbicos de Cu<sub>2</sub>O",
+    "url": "https://www.nature.com/articles/s41586-025-09629-0",
+    "source": "Nature",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "responder",
+      "a",
+      "sobre"
+    ]
+  },
+  {
+    "title": "Some planets might home brew their own water",
+    "title_es": "Algunos planetas podrían producir en casa su propia agua",
+    "url": "https://www.sciencenews.org/article/planets-make-own-water",
+    "source": "Science News",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "algunos",
+      "planetas",
+      "podrían"
+    ]
+  },
+  {
+    "title": "Analyze This: Some bats feast on songbirds midflight",
+    "title_es": "Analice esto: algunos murciélagos se alimentan de pájaros cantores en pleno vuelo",
+    "url": "https://www.snexplores.org/article/bats-midflight-bird-feast",
+    "source": "Science News Explores",
+    "published": "2025-10-29T00:00:00.000Z",
+    "date": "2025-10-29",
+    "category": "noticia",
+    "tags": [
+      "analice",
+      "esto",
+      "algunos"
     ]
   },
   {
@@ -125,7 +209,20 @@
       "por"
     ]
   },
-
+  {
+    "title": "Thank microbes for chocolate’s tasty flavors",
+    "title_es": "Gracias a los microbios por los sabrosos sabores del chocolate",
+    "url": "https://www.snexplores.org/article/chocolate-flavor-bacteria-yeast",
+    "source": "Science News Explores",
+    "published": "2025-10-28T00:00:00.000Z",
+    "date": "2025-10-28",
+    "category": "noticia",
+    "tags": [
+      "gracias",
+      "a",
+      "los"
+    ]
+  },
   {
     "title": "Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM",
     "title_es": "Sketch2BIM: un canal colaborativo de IA humana multiagente para convertir planos de planta dibujados a mano en BIM 3D",
@@ -12862,7 +12959,7 @@
   },
   {
     "title": "Learning from Natural Language Feedback for Personalized Question Answering",
-    "title_es": "Aprendizaje de comentarios en lenguaje natural para respuestas personalizadas a preguntas",
+    "title_es": "Learning from Natural Language Feedback for Personalized Question Answering",
     "url": "https://arxiv.org/abs/2508.10695",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -17984,17 +18081,17 @@
     ]
   },
   {
-    "title": "Development of a risk predictive score for intraoperative hypothermia in pediatric patients: A retrospective cohort study",
-    "title_es": "Desarrollo de una puntuación predictiva de riesgo de hipotermia intraoperatoria en pacientes pediátricos: un estudio de cohorte retrospectivo",
+    "title": "Correction: Environmental Response and Genomic Regions Correlated with Rice Root Growth and Yield under Drought in the OryzaSNP Panel across Multiple Study Systems",
+    "title_es": "Corrección: Respuesta ambiental y regiones genómicas correlacionadas con el crecimiento y el rendimiento de las raíces del arroz en condiciones de sequía en el panel OryzaSNP en múltiples sistemas de estudio",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "desarrollo",
-      "de",
-      "una"
+      "corrección",
+      "respuesta",
+      "ambiental"
     ]
   },
   {
