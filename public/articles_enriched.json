@@ -1,5 +1,47 @@
 [
   {
+    "title": "Oral Tradition-Encoded NanyinHGNN: Integrating Nanyin Music Preservation and Generation through a Pipa-Centric Dataset",
+    "title_es": "Oral Tradition-Encoded NanyinHGNN: Integrating Nanyin Music Preservation and Generation through a pipa-Centric Dataset",
+    "url": "https://arxiv.org/abs/2510.26817",
+    "source": "arXiv",
+    "published": "2025-11-03T05:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "oral",
+      "tradition-encoded",
+      "nanyinhgnn"
+    ]
+  },
+  {
+    "title": "Scientists stunned as island spider loses half its genome",
+    "title_es": "Los científicos quedan atónitos cuando la araña isleña pierde la mitad de su genoma",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251102205006.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "quedan"
+    ]
+  },
+  {
+    "title": "Orcas seen killing young great white sharks by flipping them upside-down",
+    "title_es": "Se ve a orcas matando tiburones blancos jóvenes volteándolos boca abajo",
+    "url": "https://phys.org/news/2025-10-orcas-young-great-white-sharks.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "ve",
+      "a"
+    ]
+  },
+  {
     "title": "By the time you hear these bats, it’s too late",
     "title_es": "Cuando escuchas a estos murciélagos, ya es demasiado tarde.",
     "url": "https://www.nature.com/articles/d41586-025-03515-5",
@@ -137,6 +179,20 @@
       "los",
       "científicos",
       "se"
+    ]
+  },
+  {
+    "title": "Continuous Autoregressive Language Models",
+    "title_es": "Modelos de lenguaje autorregresivos continuos",
+    "url": "http://arxiv.org/abs/2510.27688v1",
+    "source": "arXiv",
+    "published": "2025-10-31T00:00:00.000Z",
+    "date": "2025-10-31",
+    "category": "noticia",
+    "tags": [
+      "modelos",
+      "de",
+      "lenguaje"
     ]
   },
   {
@@ -13155,7 +13211,7 @@
   },
   {
     "title": "MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control",
-    "title_es": "MDNS: Muestreador neural de difusión enmascarada a través del control óptimo estocástico",
+    "title_es": "MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control",
     "url": "https://arxiv.org/abs/2508.10684",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
