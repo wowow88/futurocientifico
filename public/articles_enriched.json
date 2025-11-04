@@ -1,16 +1,44 @@
 [
   {
-    "title": "Scientists stunned as island spider loses half its genome",
-    "title_es": "La araña isleña que perdió medio genoma",
-    "url": "https://www.sciencedaily.com/releases/2025/11/251102205006.htm",
-    "source": "ScienceDaily (Top)",
-    "published": "2025-11-03T06:00:00.000Z",
-    "date": "2025-11-03",
+    "title": "VRScout: Towards Real-Time, Autonomous Testing of Virtual Reality Games",
+    "title_es": "VRScout: Hacia las pruebas autónomas en tiempo real de los juegos de realidad virtual",
+    "url": "https://arxiv.org/abs/2511.00002",
+    "source": "arXiv",
+    "published": "2025-11-04T05:00:00.000Z",
+    "date": "2025-11-04",
     "category": "noticia",
     "tags": [
-      "los",
-      "científicos",
-      "quedan"
+      "vrscout",
+      "towards",
+      "real-time"
+    ]
+  },
+  {
+    "title": "Ancient fish with human-like hearing stuns scientists",
+    "title_es": "Un pez antiguo con audición humana sorprende a los científicos",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251103093434.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "pez",
+      "antiguo"
+    ]
+  },
+  {
+    "title": "Unexpectedly high concentrations of forever chemicals found in dead sea otters",
+    "title_es": "Se encuentran concentraciones inesperadamente altas de sustancias químicas permanentes en las nutrias marinas muertas",
+    "url": "https://phys.org/news/2025-11-unexpectedly-high-chemicals-dead-sea.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "encuentran",
+      "concentraciones"
     ]
   },
   {
@@ -27,7 +55,20 @@
       "nanyinhgnn"
     ]
   },
-
+  {
+    "title": "Scientists stunned as island spider loses half its genome",
+    "title_es": "Los científicos quedan atónitos cuando la araña isleña pierde la mitad de su genoma",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251102205006.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "quedan"
+    ]
+  },
   {
     "title": "Orcas seen killing young great white sharks by flipping them upside-down",
     "title_es": "Se ve a orcas matando tiburones blancos jóvenes volteándolos boca abajo",
@@ -40,6 +81,90 @@
       "se",
       "ve",
       "a"
+    ]
+  },
+  {
+    "title": "Independent mechanisms of inflammation and myeloid bias in VEXAS syndrome",
+    "title_es": "Mecanismos independientes de inflamación y sesgo mieloide en el síndrome VEXAS",
+    "url": "https://www.nature.com/articles/s41586-025-09815-0",
+    "source": "Nature",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "mecanismos",
+      "independientes",
+      "de"
+    ]
+  },
+  {
+    "title": "El investigador del CNIC Agustín Clemente Moragón recibe el Premio Tesis Doctoral Relevante del CSIC",
+    "title_es": "El investigador del CNIC Agustín Clemente Moragón recibe el Premio Tesis Doctoral Relevante del CSIC",
+    "url": "https://www.cnic.es/es/noticias/investigador-cnic-agustin-clemente-moragon-recibe-premio-tesis-doctoral-relevante-csic",
+    "source": "CNIC",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "investigador",
+      "del"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/eslovaquia-espana-y-la-republica-checa-lideran-el-telescopio-solar-europeo-de-proxima-generacion\" hreflang=\"es\">Eslovaquia, España y la República Checa lideran el Telescopio Solar Europeo de Próxima Generación</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/eslovaquia-espana-y-la-republica-checa-lideran-el-telescopio-solar-europeo-de-proxima-generacion\" hreflang=\"es\">Eslovaquia, España y la República Checa lideran el Telescopio Solar Europeo de Próxima Generación</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/eslovaquia-espana-y-la-republica-checa-lideran-el-telescopio-solar-europeo-de-proxima-generacion",
+    "source": "IAC",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiaseslovaquia-espana-y-la-republica-checa-lideran-el-telescopio-solar-europeo-de-proxima-generacion",
+      "hreflangeseslovaquia"
+    ]
+  },
+  {
+    "title": "First observation of single top quark production with W and Z bosons",
+    "title_es": "Primera observación de la producción de un solo quark top con los bosones W y Z",
+    "url": "https://home.cern/news/news/physics/first-observation-single-top-quark-production-w-and-z-bosons",
+    "source": "CERN News",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "primera",
+      "observación",
+      "de"
+    ]
+  },
+  {
+    "title": "Mosquitoes infiltrated Iceland. Will they survive the winter?",
+    "title_es": "Los mosquitos se infiltraron en Islandia. ¿Sobrevivirán al invierno?",
+    "url": "https://www.sciencenews.org/article/mosquitoes-iceland-survive-winter",
+    "source": "Science News",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "mosquitos",
+      "se"
+    ]
+  },
+  {
+    "title": "Please take our website survey!",
+    "title_es": "¡Por favor responda nuestra encuesta sobre el sitio web!",
+    "url": "https://www.snexplores.org/article/please-take-our-website-survey",
+    "source": "Science News Explores",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "favor",
+      "responda"
     ]
   },
   {
@@ -13170,7 +13295,7 @@
   },
   {
     "title": "Physics-Informed Joint Multi-TE Super-Resolution with Implicit Neural Representation for Robust Fetal T2 Mapping",
-    "title_es": "Super-resolución Multi-TE conjunta informada por la física con representación neuronal implícita para un mapeo T2 fetal robusto",
+    "title_es": "Physics-Informed Joint Multi-TE Super-Resolution with Implicit Neural Representation for Robust Fetal T2 Mapping",
     "url": "https://arxiv.org/abs/2508.10680",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13184,7 +13309,7 @@
   },
   {
     "title": "IADGPT: Unified LVLM for Few-Shot Industrial Anomaly Detection, Localization, and Reasoning via In-Context Learning",
-    "title_es": "IADGPT: LVLM unificado para la detección, localización y razonamiento de anomalías industriales de pocos disparos a través del aprendizaje en contexto",
+    "title_es": "IADGPT: Unified LVLM for Few-Shot Industrial Anomaly Detection, Localization, and Reasoning via In-Context Learning",
     "url": "https://arxiv.org/abs/2508.10681",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13198,7 +13323,7 @@
   },
   {
     "title": "Neural Machine Translation for Coptic-French: Strategies for Low-Resource Ancient Languages",
-    "title_es": "Traducción automática neuronal para copto-francés: estrategias para lenguas antiguas de bajos recursos",
+    "title_es": "Neural Machine Translation for Coptic-French: Strategies for Low-Resource Ancient Languages",
     "url": "https://arxiv.org/abs/2508.10683",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -18418,17 +18543,17 @@
     ]
   },
   {
-    "title": "Vocalization behaviors in captive bottlenose dolphins ( Tursiops truncatus ) and rough-toothed dolphins ( Steno bredanensis )",
-    "title_es": "Comportamientos de vocalización en delfines mulares (<i>Tursiops truncatus</i>) y delfines de dientes rugosos (<i>Steno bredanensis</i>) en cautiverio.",
+    "title": "New perspectives on stress and negative emotions: Positive effects on adolescent learning, memory, and mental health",
+    "title_es": "Nuevas perspectivas sobre el estrés y las emociones negativas: efectos positivos en el aprendizaje, la memoria y la salud mental de los adolescentes",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "comportamientos",
-      "de",
-      "vocalización"
+      "nuevas",
+      "perspectivas",
+      "sobre"
     ]
   },
   {
