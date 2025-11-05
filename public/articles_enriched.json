@@ -1,5 +1,75 @@
 [
   {
+    "title": "A Taxonomy of Schedulers -- Operating Systems, Clusters and Big Data Frameworks",
+    "title_es": "Una taxonomía de programadores: sistemas operativos, clústeres y marcos de Big Data",
+    "url": "https://arxiv.org/abs/2511.01860",
+    "source": "arXiv",
+    "published": "2025-11-05T05:00:00.000Z",
+    "date": "2025-11-05",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "taxonomy",
+      "of"
+    ]
+  },
+  {
+    "title": "Antibody drugs show promise for treating bird flu and HIV",
+    "title_es": "Los medicamentos con anticuerpos son prometedores para tratar la gripe aviar y el VIH",
+    "url": "https://www.nature.com/articles/d41586-025-03540-4",
+    "source": "Nature",
+    "published": "2025-11-05T00:00:00.000Z",
+    "date": "2025-11-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "medicamentos",
+      "con"
+    ]
+  },
+  {
+    "title": "There’s math behind this maddening golf mishap",
+    "title_es": "Hay matemáticas detrás de este enloquecedor accidente de golf",
+    "url": "https://www.sciencenews.org/article/math-golf-physics",
+    "source": "Science News",
+    "published": "2025-11-05T00:00:00.000Z",
+    "date": "2025-11-05",
+    "category": "noticia",
+    "tags": [
+      "hay",
+      "matemáticas",
+      "detrás"
+    ]
+  },
+  {
+    "title": "Cockroaches are secretly poisoning indoor air",
+    "title_es": "Las cucarachas envenenan secretamente el aire interior",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251104094154.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-05T00:00:00.000Z",
+    "date": "2025-11-05",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "cucarachas",
+      "envenenan"
+    ]
+  },
+  {
+    "title": "How hops produce chiral α-bitter acids that give beer its signature taste",
+    "title_es": "Cómo el lúpulo produce ácidos quirales α-amargos que le dan a la cerveza su sabor característico",
+    "url": "https://phys.org/news/2025-11-chiral-bitter-acids-beer-signature.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-05T00:00:00.000Z",
+    "date": "2025-11-05",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "el",
+      "lúpulo"
+    ]
+  },
+  {
     "title": "VRScout: Towards Real-Time, Autonomous Testing of Virtual Reality Games",
     "title_es": "VRScout: Hacia las pruebas autónomas en tiempo real de los juegos de realidad virtual",
     "url": "https://arxiv.org/abs/2511.00002",
@@ -39,6 +109,62 @@
       "se",
       "encuentran",
       "concentraciones"
+    ]
+  },
+  {
+    "title": "Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything",
+    "title_es": "Agent-Omni: razonamiento multimodal en tiempo de prueba mediante coordinación de modelos para comprender cualquier cosa",
+    "url": "http://arxiv.org/abs/2511.02834v1",
+    "source": "arXiv",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "agent-omni",
+      "razonamiento",
+      "multimodal"
+    ]
+  },
+  {
+    "title": "Disponible la grabación de las conferencias de Ángel Carracedo, Mercedes Robledo y María Currás",
+    "title_es": "Disponible la grabación de las conferencias de Ángel Carracedo, Mercedes Robledo y María Currás",
+    "url": "https://www.cnio.es/noticias/disponible-la-grabacion-de-las-conferencias-de-angel-carracedo-mercedes-robledo-y-maria-curras/",
+    "source": "CNIO",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "disponible",
+      "la",
+      "grabación"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-ciclo-del-cielo-la-tesis-vuelve-para-explorar-nebulosas-y-exoplanetas\" hreflang=\"es\">El ciclo ‘Del Cielo a la Tesis’ vuelve para explorar nebulosas y exoplanetas</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-ciclo-del-cielo-la-tesis-vuelve-para-explorar-nebulosas-y-exoplanetas\" hreflang=\"es\">El ciclo ‘Del Cielo a la Tesis’ vuelve a explorar nebulosas y exoplanetas</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-ciclo-del-cielo-la-tesis-vuelve-para-explorar-nebulosas-y-exoplanetas",
+    "source": "IAC",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-ciclo-del-cielo-la-tesis-vuelve-para-explorar-nebulosas-y-exoplanetas",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "New materials yank ‘forever chemicals’ from water",
+    "title_es": "Nuevos materiales extraen del agua “sustancias químicas eternas”",
+    "url": "https://www.snexplores.org/article/mof-filter-pfas-forever-chemicals-water",
+    "source": "Science News Explores",
+    "published": "2025-11-04T00:00:00.000Z",
+    "date": "2025-11-04",
+    "category": "noticia",
+    "tags": [
+      "nuevos",
+      "materiales",
+      "extraen"
     ]
   },
   {
@@ -165,6 +291,20 @@
       "por",
       "favor",
       "responda"
+    ]
+  },
+  {
+    "title": "Biodiversity project takes flight",
+    "title_es": "El proyecto de biodiversidad toma vuelo",
+    "url": "https://home.cern/news/news/cern/biodiversity-project-takes-flight",
+    "source": "CERN News",
+    "published": "2025-11-03T00:00:00.000Z",
+    "date": "2025-11-03",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "proyecto",
+      "de"
     ]
   },
   {
@@ -13253,7 +13393,7 @@
   },
   {
     "title": "Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence",
-    "title_es": "Avanzar en la respuesta autónoma a incidentes: aprovechar los LLM y la inteligencia de amenazas cibernéticas",
+    "title_es": "Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence",
     "url": "https://arxiv.org/abs/2508.10677",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13267,7 +13407,7 @@
   },
   {
     "title": "HyperTea: A Hypergraph-based Temporal Enhancement and Alignment Network for Moving Infrared Small Target Detection",
-    "title_es": "HyperTea: una red de alineación y mejora temporal basada en hipergrafía para la detección de objetivos pequeños por infrarrojos en movimiento",
+    "title_es": "HyperTea: A Hypergraph-based Temporal Enhancement and Alignment Network for Moving Infrared Small Target Detection",
     "url": "https://arxiv.org/abs/2508.10678",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13281,7 +13421,7 @@
   },
   {
     "title": "A Robust Optimization Approach for Demand Response Participation of Fixed-Frequency Air Conditioners",
-    "title_es": "Un enfoque de optimización sólido para la participación en la respuesta a la demanda de acondicionadores de aire de frecuencia fija",
+    "title_es": "A Robust Optimization Approach for Demand Response Participation of Fixed-Frequency Air Conditioners",
     "url": "https://arxiv.org/abs/2508.10679",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -18543,17 +18683,17 @@
     ]
   },
   {
-    "title": "New perspectives on stress and negative emotions: Positive effects on adolescent learning, memory, and mental health",
-    "title_es": "Nuevas perspectivas sobre el estrés y las emociones negativas: efectos positivos en el aprendizaje, la memoria y la salud mental de los adolescentes",
+    "title": "Correction: Socio-demographic influence of food additives acceptance and avoidance among the Lebanese population: A cross-sectional study",
+    "title_es": "Corrección: Influencia sociodemográfica de la aceptación y evitación de aditivos alimentarios entre la población libanesa: un estudio transversal",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "nuevas",
-      "perspectivas",
-      "sobre"
+      "corrección",
+      "influencia",
+      "sociodemográfica"
     ]
   },
   {
