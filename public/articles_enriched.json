@@ -1,5 +1,47 @@
 [
   {
+    "title": "MazeMate: An LLM-Powered Chatbot to Support Computational Thinking in Gamified Programming Learning",
+    "title_es": "MazeMate: un chatbot impulsado por LLM para apoyar el pensamiento computacional en el aprendizaje de programación gamificada",
+    "url": "https://arxiv.org/abs/2511.03727",
+    "source": "arXiv",
+    "published": "2025-11-07T05:00:00.000Z",
+    "date": "2025-11-07",
+    "category": "noticia",
+    "tags": [
+      "mazemate",
+      "an",
+      "llm-powered"
+    ]
+  },
+  {
+    "title": "Mini llama proteins show promise for Alzheimer’s treatment",
+    "title_es": "Las proteínas de mini llama son prometedoras para el tratamiento del Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251106213557.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-07T00:00:00.000Z",
+    "date": "2025-11-07",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "proteínas",
+      "de"
+    ]
+  },
+  {
+    "title": "Agriculture in Brazil: How land-use choices affect biodiversity and the global climate",
+    "title_es": "Agricultura en Brasil: cómo las elecciones de uso de la tierra afectan la biodiversidad y el clima global",
+    "url": "https://phys.org/news/2025-11-agriculture-brazil-choices-affect-biodiversity.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-07T00:00:00.000Z",
+    "date": "2025-11-07",
+    "category": "noticia",
+    "tags": [
+      "agricultura",
+      "en",
+      "brasil"
+    ]
+  },
+  {
     "title": "Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation",
     "title_es": "Marco de cifrado híbrido cuántico-clásico basado en BB84 y AES-256 simulados: diseño y evaluación experimental",
     "url": "https://arxiv.org/abs/2511.02836",
@@ -39,6 +81,104 @@
       "las",
       "pistas",
       "del"
+    ]
+  },
+  {
+    "title": "X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations",
+    "title_es": "X-Diffusion: Políticas de difusión de formación sobre manifestaciones humanas transcorporales",
+    "url": "http://arxiv.org/abs/2511.04671v1",
+    "source": "arXiv",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "x-diffusion",
+      "políticas",
+      "de"
+    ]
+  },
+  {
+    "title": "Platforms of power",
+    "title_es": "Plataformas de poder",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aea3088",
+    "source": "Science.org",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "plataformas",
+      "de",
+      "poder"
+    ]
+  },
+  {
+    "title": "Author Correction: The emergence of transcriptional identity in somatosensory neurons",
+    "title_es": "Corrección del autor: El surgimiento de la identidad transcripcional en las neuronas somatosensoriales",
+    "url": "https://www.nature.com/articles/s41586-025-09817-y",
+    "source": "Nature",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El CNIO lidera un proyecto europeo de 10 millones de euros para descifrar cómo la grasa controla la salud de nuestro cuerpo",
+    "title_es": "El CNIO lidera un proyecto europeo de 10 millones de euros para descifrar cómo la grasa controla la salud de nuestro cuerpo",
+    "url": "https://www.cnio.es/noticias/el-cnio-lidera-un-proyecto-europeo-de-10-millones-de-euros-para-descifrar-como-la-grasa-controla-la-salud-de-nuestro-cuerpo/",
+    "source": "CNIO",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnio",
+      "lidera"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-impulsa-la-divulgacion-con-su-participacion-en-la-feria-de-la-ciencia-de-la-orotava\" hreflang=\"es\">El IAC impulsa la divulgación con su participación en la Feria de La Ciencia de La Orotava </a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-impulsa-la-divulgacion-con-su-participacion-en-la-feria-de-la-ciencia-de-la-orotava\" hreflang=\"es\">El IAC impulsa la divulgación con su participación en la Feria de La Ciencia de La Orotava </a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-impulsa-la-divulgacion-con-su-participacion-en-la-feria-de-la-ciencia-de-la-orotava",
+    "source": "IAC",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-impulsa-la-divulgacion-con-su-participacion-en-la-feria-de-la-ciencia-de-la-orotava",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Woodpecker hammering is a full-body affair",
+    "title_es": "El martilleo del pájaro carpintero es un asunto de todo el cuerpo",
+    "url": "https://www.sciencenews.org/article/woodpecker-hammering-full-body-muscles",
+    "source": "Science News",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "martilleo",
+      "del"
+    ]
+  },
+  {
+    "title": "These ultra-long experiments outlive their scientists — on purpose",
+    "title_es": "Estos experimentos ultralargos sobreviven a sus científicos, a propósito",
+    "url": "https://www.snexplores.org/article/long-term-experiments-outlive-scientists",
+    "source": "Science News Explores",
+    "published": "2025-11-06T00:00:00.000Z",
+    "date": "2025-11-06",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "experimentos",
+      "ultralargos"
     ]
   },
   {
@@ -13435,7 +13575,7 @@
   },
   {
     "title": "Serial Over Parallel: Learning Continual Unification for Multi-Modal Visual Object Tracking and Benchmarking",
-    "title_es": "Serie sobre paralelo: aprendizaje de la unificación continua para el seguimiento de objetos visuales multimodales y la evaluación comparativa",
+    "title_es": "Serial Over Parallel: Learning Continual Unification for Multi-Modal Visual Object Tracking and Benchmarking",
     "url": "https://arxiv.org/abs/2508.10655",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13449,7 +13589,7 @@
   },
   {
     "title": "AddressVLM: Cross-view Alignment Tuning for Image Address Localization using Large Vision-Language Models",
-    "title_es": "AddressVLM: ajuste de alineación de vista cruzada para la localización de direcciones de imagen utilizando modelos de lenguaje de visión grande",
+    "title_es": "AddressVLM: Cross-view Alignment Tuning for Image Address Localization using Large Vision-Language Models",
     "url": "https://arxiv.org/abs/2508.10667",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -13463,7 +13603,7 @@
   },
   {
     "title": "STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational Recommendation",
-    "title_es": "PASO: Aprendizaje curricular paso a paso para la fusión de contexto y conocimiento en la recomendación conversacional",
+    "title_es": "STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion in Conversational Recommendation",
     "url": "https://arxiv.org/abs/2508.10669",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -18795,17 +18935,17 @@
     ]
   },
   {
-    "title": "Correction: Counterintuitive relationship between the triglyceride glucose index and diabetic foot in diabetes patients: A cross-sectional study",
-    "title_es": "Corrección: Relación contraintuitiva entre el índice de glucosa triglicéridos y el pie diabético en pacientes diabéticos: un estudio transversal",
+    "title": "Substituted cysteine modification and protection indicates selective interactions of the anesthetic photolabel pTFD-di-iPr-BnOH with α+/β– and α+/γ– transmembrane subunit interfaces of synaptic GABA A receptors",
+    "title_es": "La modificación y protección de la cisteína sustituida indica interacciones selectivas del fotomarcador anestésico pTFD-di-iPr-BnOH con las interfaces de las subunidades transmembrana α+/β– y α+/γ– de los receptores sinápticos GABA<sub>A</sub>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "relación",
-      "contraintuitiva"
+      "la",
+      "modificación",
+      "y"
     ]
   },
   {
