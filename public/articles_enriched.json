@@ -1,5 +1,47 @@
 [
   {
+    "title": "Conversational Agents for Building Energy Efficiency -- Advising Housing Cooperatives in Stockholm on Reducing Energy Consumption",
+    "title_es": "Agentes conversacionales para la construcción de eficiencia energética - Asesoramiento a cooperativas de vivienda en Estocolmo sobre la reducción del consumo de energía",
+    "url": "https://arxiv.org/abs/2511.08587",
+    "source": "arXiv",
+    "published": "2025-11-13T05:00:00.000Z",
+    "date": "2025-11-13",
+    "category": "noticia",
+    "tags": [
+      "conversational",
+      "agents",
+      "for"
+    ]
+  },
+  {
+    "title": "A fierce crocodile ancestor that hunted before dinosaurs has been found",
+    "title_es": "Se ha encontrado un feroz ancestro de cocodrilo que cazaba antes que los dinosaurios.",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251112220239.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-13T00:00:00.000Z",
+    "date": "2025-11-13",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "ha",
+      "encontrado"
+    ]
+  },
+  {
+    "title": "How campus climate affects students' attitudes to people of different religions",
+    "title_es": "Cómo el clima del campus afecta las actitudes de los estudiantes hacia personas de diferentes religiones",
+    "url": "https://phys.org/news/2025-11-campus-climate-affects-students-attitudes.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-13T00:00:00.000Z",
+    "date": "2025-11-13",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "el",
+      "clima"
+    ]
+  },
+  {
     "title": "Towards Affordable, Adaptive and Automatic GNN Training on CPU-GPU Heterogeneous Platforms",
     "title_es": "Hacia una formación GNN asequible, adaptativa y automática en plataformas heterogéneas CPU-GPU",
     "url": "https://arxiv.org/abs/2511.07421",
@@ -25,6 +67,62 @@
       "los",
       "investigadores",
       "validan"
+    ]
+  },
+  {
+    "title": "Author Correction: Learning the natural history of human disease with generative transformers",
+    "title_es": "Corrección del autor: aprender la historia natural de las enfermedades humanas con transformadores generativos",
+    "url": "https://www.nature.com/articles/s41586-025-09879-y",
+    "source": "Nature",
+    "published": "2025-11-12T00:00:00.000Z",
+    "date": "2025-11-12",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "CERN is the guest of honour at the Cité des métiers in Geneva",
+    "title_es": "El CERN es el invitado de honor de la Cité des métiers de Ginebra",
+    "url": "https://home.cern/news/news/cern/cern-guest-honour-cite-des-metiers-geneva",
+    "source": "CERN News",
+    "published": "2025-11-12T00:00:00.000Z",
+    "date": "2025-11-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cern",
+      "es"
+    ]
+  },
+  {
+    "title": "Early views of a supernova’s first moments reveal a lopsided blast",
+    "title_es": "Las primeras vistas de los primeros momentos de una supernova revelan una explosión desequilibrada",
+    "url": "https://www.sciencenews.org/article/supernova-first-moments-lopsided-blast",
+    "source": "Science News",
+    "published": "2025-11-12T00:00:00.000Z",
+    "date": "2025-11-12",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "primeras",
+      "vistas"
+    ]
+  },
+  {
+    "title": "A little shape-up helps these pimple patches get a grip",
+    "title_es": "Un poco de forma ayuda a que estos parches de granos se controlen",
+    "url": "https://www.snexplores.org/article/a-little-shape-up-helps-these-pimple-patches-get-a-grip",
+    "source": "Science News Explores",
+    "published": "2025-11-12T00:00:00.000Z",
+    "date": "2025-11-12",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "poco",
+      "de"
     ]
   },
   {
@@ -13869,7 +13967,7 @@
   },
   {
     "title": "Lameness detection in dairy cows using pose estimation and bidirectional LSTMs",
-    "title_es": "Detección de cojera en vacas lecheras utilizando estimación de postura y LSTM bidireccionales",
+    "title_es": "Lameness detection in dairy cows using pose estimation and bidirectional LSTMs",
     "url": "https://arxiv.org/abs/2508.10643",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -19341,17 +19439,17 @@
     ]
   },
   {
-    "title": "Correction: Risk factors and incidence of surgical wound infection after stoma reversal: A systematic review and meta-analysis",
-    "title_es": "Corrección: factores de riesgo e incidencia de infección de la herida quirúrgica después de la reversión del estoma: una revisión sistemática y un metanálisis",
+    "title": "Safety of penicillamine and trientine in the treatment of Wilson’s disease: An analysis of the FDA Adverse Event Reporting System (FAERS) database",
+    "title_es": "Seguridad de la penicilamina y la trientina en el tratamiento de la enfermedad de Wilson: un análisis de la base de datos del Sistema de notificación de eventos adversos (FAERS) de la FDA",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "factores",
-      "de"
+      "seguridad",
+      "de",
+      "la"
     ]
   },
   {
