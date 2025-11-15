@@ -1,5 +1,33 @@
 [
   {
+    "title": "6 Things to Know From NASA About New US, European Sea Satellite",
+    "title_es": "Seis cosas que la NASA debe saber sobre el nuevo satélite marino europeo y estadounidense",
+    "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6b/6-things-to-know-from-nasa-about-new-us-european-sea-satellite/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-15T00:00:00.000Z",
+    "date": "2025-11-15",
+    "category": "noticia",
+    "tags": [
+      "seis",
+      "cosas",
+      "que"
+    ]
+  },
+  {
+    "title": "Tourists give restaurants higher ratings than locals, new study finds",
+    "title_es": "Los turistas dan a los restaurantes calificaciones más altas que los locales, según un nuevo estudio",
+    "url": "https://phys.org/news/2025-11-tourists-restaurants-higher-locals.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-15T00:00:00.000Z",
+    "date": "2025-11-15",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "turistas",
+      "dan"
+    ]
+  },
+  {
     "title": "Probability-Biased Attention over Directed Bipartite Graphs for Long-Tail ICD Coding",
     "title_es": "Atención sesgada por la probabilidad sobre los gráficos bipartitos dirigidos para la codificación ICD de cola larga",
     "url": "https://arxiv.org/abs/2511.09559",
@@ -53,6 +81,76 @@
       "100",
       "años",
       "de"
+    ]
+  },
+  {
+    "title": "Author Correction: Mechanisms of stretch-mediated skin expansion at single-cell resolution",
+    "title_es": "Corrección del autor: Mecanismos de expansión de la piel mediada por estiramiento con resolución unicelular",
+    "url": "https://www.nature.com/articles/s41586-025-09878-z",
+    "source": "Nature",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/de-la-fotonica-al-machine-learning-la-xxxvi-winter-school-se-centra-en-tecnologias-opticas-clave-para\" hreflang=\"es\">De la Fotónica al Machine Learning: La XXXVI Winter School se centra en tecnologías ópticas clave para la astrofísica</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/de-la-fotonica-al-machine-learning-la-xxxvi-winter-school-se-centra-en-tecnologias-opticas-clave-para\" hreflang=\"es\">De la Fotónica al Machine Learning: La XXXVI Winter School se centra en tecnologías ópticas clave para la astrofísica</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/de-la-fotonica-al-machine-learning-la-xxxvi-winter-school-se-centra-en-tecnologias-opticas-clave-para",
+    "source": "IAC",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasde-la-fotonica-al-machine-learning-la-xxxvi-winter-school-se-centra-en-tecnologias-opticas-clave-para",
+      "hreflangesde"
+    ]
+  },
+  {
+    "title": "40,000-year-old woolly mammoth RNA offers a peek into its last moments",
+    "title_es": "El ARN de un mamut lanudo de 40.000 años ofrece un vistazo a sus últimos momentos",
+    "url": "https://www.sciencenews.org/article/woolly-mammoth-ancient-rna-ice-age",
+    "source": "Science News",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "arn",
+      "de"
+    ]
+  },
+  {
+    "title": "Birds are singing longer, thanks to light pollution",
+    "title_es": "Los pájaros cantan más tiempo gracias a la contaminación lumínica",
+    "url": "https://www.snexplores.org/article/birds-singing-longer-light-pollution",
+    "source": "Science News Explores",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "pájaros",
+      "cantan"
+    ]
+  },
+  {
+    "title": "Science finally solves a 700-year-old royal murder",
+    "title_es": "La ciencia finalmente resuelve un asesinato real de hace 700 años",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251114041217.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ciencia",
+      "finalmente"
     ]
   },
   {
@@ -193,6 +291,20 @@
       "5",
       "cosas",
       "para"
+    ]
+  },
+  {
+    "title": "Black-Box On-Policy Distillation of Large Language Models",
+    "title_es": "Destilación basada en políticas de caja negra de modelos de lenguaje grandes",
+    "url": "http://arxiv.org/abs/2511.10643v1",
+    "source": "arXiv",
+    "published": "2025-11-13T00:00:00.000Z",
+    "date": "2025-11-13",
+    "category": "noticia",
+    "tags": [
+      "destilación",
+      "basada",
+      "en"
     ]
   },
   {
@@ -14065,7 +14177,7 @@
   },
   {
     "title": "ChatENV: An Interactive Vision-Language Model for Sensor-Guided Environmental Monitoring and Scenario Simulation",
-    "title_es": "ChatENV: un modelo interactivo de visión y lenguaje para el monitoreo ambiental guiado por sensores y la simulación de escenarios",
+    "title_es": "ChatENV: An Interactive Vision-Language Model for Sensor-Guided Environmental Monitoring and Scenario Simulation",
     "url": "https://arxiv.org/abs/2508.10635",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -19593,7 +19705,7 @@
     ]
   },
   {
-    "title": "Mass spectrometry-based metabolomics uncovers distinct metabolic signatures and potential therapeutic targets in Plasmodium knowlesi",
+    "title": "Mass spectrometry-based metabolomics uncovers distinct metabolic signatures and potential therapeutic targets in <i>Plasmodium knowlesi</i>",
     "title_es": "La metabolómica basada en espectrometría de masas descubre firmas metabólicas distintas y objetivos terapéuticos potenciales en <i>Plasmodium knowlesi</i>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
