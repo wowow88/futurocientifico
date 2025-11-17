@@ -1,5 +1,33 @@
 [
   {
+    "title": "Towards Assume-Guarantee Verification of Abilities in Stochastic Multi-Agent Systems",
+    "title_es": "Hacia la verificación de supuestos y garantías de habilidades en sistemas multiagentes estocásticos",
+    "url": "https://arxiv.org/abs/2511.10649",
+    "source": "arXiv",
+    "published": "2025-11-17T05:00:00.000Z",
+    "date": "2025-11-17",
+    "category": "noticia",
+    "tags": [
+      "towards",
+      "assume-guarantee",
+      "verification"
+    ]
+  },
+  {
+    "title": "Astronomers unveil the surprising hidden geometry of a supernova",
+    "title_es": "Los astrónomos revelan la sorprendente geometría oculta de una supernova",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251116231854.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-17T00:00:00.000Z",
+    "date": "2025-11-17",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "astrónomos",
+      "revelan"
+    ]
+  },
+  {
     "title": "NASA, European Partners Set to Launch Sentinel-6B Earth Satellite",
     "title_es": "La NASA y sus socios europeos se preparan para lanzar el satélite terrestre Sentinel-6B",
     "url": "https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6b/nasa-european-partners-set-to-launch-sentinel-6b-earth-satellite/",
@@ -39,6 +67,20 @@
       "más",
       "allá",
       "del"
+    ]
+  },
+  {
+    "title": "Ukraine's farms once fed billions, but now its soil is starving",
+    "title_es": "Las granjas de Ucrania alguna vez alimentaron a miles de millones, pero ahora su suelo está muriendo de hambre",
+    "url": "https://phys.org/news/2025-11-ukraine-farms-fed-billions-soil.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-16T00:00:00.000Z",
+    "date": "2025-11-16",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "granjas",
+      "de"
     ]
   },
   {
@@ -193,6 +235,20 @@
       "la",
       "ciencia",
       "finalmente"
+    ]
+  },
+  {
+    "title": "Private Frequency Estimation Via Residue Number Systems",
+    "title_es": "Estimación de frecuencia privada mediante sistemas de números de residuos",
+    "url": "http://arxiv.org/abs/2511.11569v1",
+    "source": "arXiv",
+    "published": "2025-11-14T00:00:00.000Z",
+    "date": "2025-11-14",
+    "category": "noticia",
+    "tags": [
+      "estimación",
+      "de",
+      "frecuencia"
     ]
   },
   {
@@ -14205,7 +14261,7 @@
   },
   {
     "title": "Synthesis of Deep Neural Networks with Safe Robust Adaptive Control for Reliable Operation of Wheeled Mobile Robots",
-    "title_es": "Síntesis de redes neuronales profundas con control adaptativo robusto y seguro para un funcionamiento fiable de robots móviles con ruedas",
+    "title_es": "Synthesis of Deep Neural Networks with Safe Robust Adaptive Control for Reliable Operation of Wheeled Mobile Robots",
     "url": "https://arxiv.org/abs/2508.10634",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
