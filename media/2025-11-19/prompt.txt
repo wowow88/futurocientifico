@@ -1,0 +1,9 @@
+Ilustración científica minimalista y moderna sobre: "Signature vs. Substance: Evaluating the Balance of Adversarial Resistance and Linguistic Quality in Watermarking Large Language Models".
+Requisitos:
+- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
+- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
+- Fondo claro y formas geométricas abstractas sutiles.
+- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
+- Orientación cuadrada o 4:5; dejar margen de seguridad.
+Contexto (no dibujar texto, solo orientar la escena):
+- Fuente: arXiv | Fecha: 2025-11-19
