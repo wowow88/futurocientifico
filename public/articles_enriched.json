@@ -1,5 +1,33 @@
 [
   {
+    "title": "Castle: Causal Cascade Updates in Relational Databases with Large Language Models",
+    "title_es": "Castle: Actualizaciones causales en cascada en bases de datos relacionales con grandes modelos de lenguaje",
+    "url": "https://arxiv.org/abs/2511.14762",
+    "source": "arXiv",
+    "published": "2025-11-20T05:00:00.000Z",
+    "date": "2025-11-20",
+    "category": "noticia",
+    "tags": [
+      "castle",
+      "causal",
+      "cascade"
+    ]
+  },
+  {
+    "title": "Broad support for lethal control of wild deer among nature organization subscribers",
+    "title_es": "Amplio apoyo al control letal de los ciervos salvajes entre los suscriptores de organizaciones ecologistas",
+    "url": "https://phys.org/news/2025-11-broad-lethal-wild-deer-nature.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-20T00:00:00.000Z",
+    "date": "2025-11-20",
+    "category": "noticia",
+    "tags": [
+      "amplio",
+      "apoyo",
+      "al"
+    ]
+  },
+  {
     "title": "Signature vs. Substance: Evaluating the Balance of Adversarial Resistance and Linguistic Quality in Watermarking Large Language Models",
     "title_es": "Signature vs. Substance: Evaluating the Balance of Adversarial Resistance and Linguistic Quality in Watermarking Large Language Models",
     "url": "https://arxiv.org/abs/2511.13722",
@@ -39,6 +67,118 @@
       "trabajar",
       "con",
       "las"
+    ]
+  },
+  {
+    "title": "In-N-On: Scaling Egocentric Manipulation with in-the-wild and on-task Data",
+    "title_es": "In-N-On: Ampliación de la manipulación egocéntrica con datos naturales y centrados en la tarea",
+    "url": "http://arxiv.org/abs/2511.15704v1",
+    "source": "arXiv",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "in-n-on",
+      "ampliación",
+      "de"
+    ]
+  },
+  {
+    "title": "Author Correction: A metallic p -wave magnet with commensurate spin helix",
+    "title_es": "Corrección del autor: Un imán metálico de onda <i>p</i> con hélice de espín proporcional",
+    "url": "https://www.nature.com/articles/s41586-025-09861-8",
+    "source": "Nature",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El CNIC celebra la Semana de la Ciencia y la Innovación 2025 con más de 20 actividades para todas las edades",
+    "title_es": "El CNIC celebra la Semana de la Ciencia y la Innovación 2025 con más de 20 actividades para todas las edades",
+    "url": "https://www.cnic.es/es/noticias/cnic-celebra-semana-ciencia-innovacion-2025-con-mas-20-actividades-para-todas-edades",
+    "source": "CNIC",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnic",
+      "celebra"
+    ]
+  },
+  {
+    "title": "Francisco X. Real: «Es el momento menos amargo de la historia del cáncer de páncreas»",
+    "title_es": "Francisco X. Real: «Es el momento menos amargo de la historia del cáncer de páncreas»",
+    "url": "https://www.cnio.es/noticias/francisco-x-real-es-el-momento-menos-amargo-de-la-historia-del-cancer-de-pancreas/",
+    "source": "CNIO",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "francisco",
+      "x",
+      "real"
+    ]
+  },
+  {
+    "title": "Celebrating 25 Years of Humanity in Space",
+    "title_es": "Celebrando 25 años de la humanidad en el espacio",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/celebrating-25-years-of-humanity-in-space/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "celebrando",
+      "25",
+      "años"
+    ]
+  },
+  {
+    "title": "mRNA flu vaccines are making their way through clinical trials",
+    "title_es": "Las vacunas contra la gripe de ARNm se están abriendo camino en los ensayos clínicos",
+    "url": "https://www.sciencenews.org/article/mrna-flu-vaccines-influenza-virus",
+    "source": "Science News",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "vacunas",
+      "contra"
+    ]
+  },
+  {
+    "title": "This microphone picks up sounds by watching them",
+    "title_es": "Este micrófono capta sonidos mirándolos",
+    "url": "https://www.snexplores.org/article/visual-microphone-sees-sounds",
+    "source": "Science News Explores",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "micrófono",
+      "capta"
+    ]
+  },
+  {
+    "title": "A 2,000-year mystery in chameleon eyes is finally solved",
+    "title_es": "Finalmente se resuelve un misterio de 2.000 años en los ojos de un camaleón",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251118220056.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "finalmente",
+      "se",
+      "resuelve"
     ]
   },
   {
@@ -165,6 +305,20 @@
       "los",
       "grandes",
       "momentos"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/premio-azul-zero-para-antonia-varela-investigadora-del-iac-y-directora-de-la-fundacion-starlight-por-su\" hreflang=\"es\">Premio Azul Zero para Antonia Varela, investigadora del IAC y directora de la Fundación Starlight, por su liderazgo en la protección del cielo nocturno</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/premio-azul-zero-para-antonia-varela-investigadora-del-iac-y-directora-de-la-fundacion-starlight-por-su\" hreflang=\"es\">Premio Azul Zero para Antonia Varela, investigadora del IAC y directora de la Fundación Starlight, por su liderazgo en la protección del cielo nocturno</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/premio-azul-zero-para-antonia-varela-investigadora-del-iac-y-directora-de-la-fundacion-starlight-por-su",
+    "source": "IAC",
+    "published": "2025-11-18T00:00:00.000Z",
+    "date": "2025-11-18",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiaspremio-azul-zero-para-antonia-varela-investigadora-del-iac-y-directora-de-la-fundacion-starlight-por-su",
+      "hreflangespremio"
     ]
   },
   {
@@ -14415,7 +14569,7 @@
   },
   {
     "title": "Fourier-Guided Attention Upsampling for Image Super-Resolution",
-    "title_es": "Muestreo ascendente de atención guiado por Fourier para superresolución de imágenes",
+    "title_es": "Fourier-Guided Attention Upsampling for Image Super-Resolution",
     "url": "https://arxiv.org/abs/2508.10616",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14429,7 +14583,7 @@
   },
   {
     "title": "FIND-Net -- Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction",
-    "title_es": "FIND-Net: red integrada de Fourier con núcleos de diccionario para la reducción de artefactos metálicos",
+    "title_es": "FIND-Net -- Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction",
     "url": "https://arxiv.org/abs/2508.10617",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14443,7 +14597,7 @@
   },
   {
     "title": "DEV: A Driver-Environment-Vehicle Closed-Loop Framework for Risk-Aware Adaptive Automation of Driving",
-    "title_es": "DESARROLLO: un marco de circuito cerrado de conductor-entorno-vehículo para la automatización adaptativa de la conducción consciente del riesgo",
+    "title_es": "DEV: A Driver-Environment-Vehicle Closed-Loop Framework for Risk-Aware Adaptive Automation of Driving",
     "url": "https://arxiv.org/abs/2508.10618",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14457,7 +14611,7 @@
   },
   {
     "title": "Are Electrodermal Activity-Based Indicators of Driver Cognitive Distraction Robust to Varying Traffic Conditions and Adaptive Cruise Control Use?",
-    "title_es": "¿Los indicadores basados en la actividad electrodérmica de la distracción cognitiva del conductor son robustos para variar las condiciones del tráfico y el uso del control de crucero adaptativo?",
+    "title_es": "Are Electrodermal Activity-Based Indicators of Driver Cognitive Distraction Robust to Varying Traffic Conditions and Adaptive Cruise Control Use?",
     "url": "https://arxiv.org/abs/2508.10620",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -20083,17 +20237,17 @@
     ]
   },
   {
-    "title": "Antitumor and cytotoxic activities of endophytic Enterobacter hormaechei derived secondary metabolites: In-vitro and In-silico study",
-    "title_es": "Actividades antitumorales y citotóxicas de metabolitos secundarios derivados de <i>Enterobacter hormaechei</i> endofíticos: estudio <i>in vitro</i> e <i>in-silico</i>",
+    "title": "Temporal dynamics of emotional face processing in social anxiety",
+    "title_es": "Dinámica temporal del procesamiento emocional del rostro en la ansiedad social.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "actividades",
-      "antitumorales",
-      "y"
+      "dinámica",
+      "temporal",
+      "del"
     ]
   },
   {
