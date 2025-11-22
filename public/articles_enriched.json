@@ -1,5 +1,19 @@
 [
   {
+    "title": "Scientists reveal a hidden hormone switch for learning",
+    "title_es": "Los científicos revelan un interruptor hormonal oculto para el aprendizaje",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251121090740.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-22T00:00:00.000Z",
+    "date": "2025-11-22",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "revelan"
+    ]
+  },
+  {
     "title": "Improving Resiliency of Vital Services in Flood-Affected Regions of Bangladesh Using Next-Generation Opportunistic DTN Edge Ad Hoc Networks",
     "title_es": "Mejora de la resiliencia de los servicios vitales en las regiones afectadas por inundaciones de Bangladesh utilizando redes ad hoc de borde DTN oportunistas de próxima generación",
     "url": "https://arxiv.org/abs/2511.15710",
@@ -53,6 +67,90 @@
       "las",
       "élites",
       "ejercen"
+    ]
+  },
+  {
+    "title": "Of masks and Mayans: Books in brief",
+    "title_es": "De máscaras y mayas: Libros breves",
+    "url": "https://www.nature.com/articles/d41586-025-03868-x",
+    "source": "Nature",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "de",
+      "máscaras",
+      "y"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-universidad-de-almeria-inviste-doctor-honoris-causa-al-astrofisico-john-beckman\" hreflang=\"es\">La Universidad de Almería inviste Doctor Honoris Causa al astrofísico John Beckman</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-universidad-de-almeria-inviste-doctor-honoris-causa-al-astrofisico-john-beckman\" hreflang=\"es\">La Universidad de Almería inviste Doctor Honoris Causa al astrofísico John Beckman</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-universidad-de-almeria-inviste-doctor-honoris-causa-al-astrofisico-john-beckman",
+    "source": "IAC",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-universidad-de-almeria-inviste-doctor-honoris-causa-al-astrofisico-john-beckman",
+      "hreflangesla"
+    ]
+  },
+  {
+    "title": "NASA Awards Liquid Hydrogen Supply Contracts",
+    "title_es": "La NASA adjudica contratos de suministro de hidrógeno líquido",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-liquid-hydrogen-supply-contracts/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "adjudica"
+    ]
+  },
+  {
+    "title": "Meet 5 scientists reshaping the way we understand the world",
+    "title_es": "Conozca a 5 científicos que están remodelando la forma en que entendemos el mundo",
+    "url": "https://www.sciencenews.org/article/scientists-to-watch-career-researchers",
+    "source": "Science News",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "conozca",
+      "a",
+      "5"
+    ]
+  },
+  {
+    "title": "Scientists shrink 3-D printing so it can work inside cells",
+    "title_es": "Los científicos reducen la impresión 3D para que pueda funcionar dentro de las células",
+    "url": "https://www.snexplores.org/article/3-d-printing-inside-living-cells",
+    "source": "Science News Explores",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "reducen"
+    ]
+  },
+  {
+    "title": "First-ever full Earth system simulation provides new tool to understand climate change",
+    "title_es": "La primera simulación completa del sistema terrestre proporciona una nueva herramienta para comprender el cambio climático",
+    "url": "https://phys.org/news/2025-11-full-earth-simulation-tool-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "primera",
+      "simulación"
     ]
   },
   {
@@ -347,6 +445,20 @@
       "a",
       "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-presenta-en-space-tech-expo-europe-los-avances-de-iactec-espacio-y-otros-laboratorios-de-celeste",
       "hreflangesel"
+    ]
+  },
+  {
+    "title": "FameLab international final 2025 at CERN",
+    "title_es": "Final internacional FameLab 2025 en el CERN",
+    "url": "https://home.cern/news/news/cern/famelab-international-final-2025-cern",
+    "source": "CERN News",
+    "published": "2025-11-19T00:00:00.000Z",
+    "date": "2025-11-19",
+    "category": "noticia",
+    "tags": [
+      "final",
+      "internacional",
+      "famelab"
     ]
   },
   {
@@ -14667,7 +14779,7 @@
   },
   {
     "title": "Towards Powerful and Practical Patch Attacks for 2D Object Detection in Autonomous Driving",
-    "title_es": "Hacia ataques de parches potentes y prácticos para la detección de objetos 2D en la conducción autónoma",
+    "title_es": "Towards Powerful and Practical Patch Attacks for 2D Object Detection in Autonomous Driving",
     "url": "https://arxiv.org/abs/2508.10600",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -20405,17 +20517,17 @@
     ]
   },
   {
-    "title": "Reproduction of porcine ear necrosis (ear-tip necrosis) following intradermal inoculation of pigs with Fusobacterium necrophorum",
-    "title_es": "Reproducción de la necrosis de la oreja porcina (necrosis de la punta de la oreja) tras la inoculación intradérmica de cerdos con <i>Fusobacterium necrophorum</i>",
+    "title": "Development of flipped classroom module fcm for music theory instruction: An innovative approach to music education",
+    "title_es": "Desarrollo del módulo fcm de aula invertida para la enseñanza de teoría musical: un enfoque innovador para la educación musical",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "reproducción",
-      "de",
-      "la"
+      "desarrollo",
+      "del",
+      "módulo"
     ]
   },
   {
