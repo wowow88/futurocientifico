@@ -1,5 +1,33 @@
 [
   {
+    "title": "Joint Design of Protein Surface and Structure Using a Diffusion Bridge Model",
+    "title_es": "Diseño conjunto de superficie y estructura de proteínas utilizando un modelo de puente de difusión",
+    "url": "https://arxiv.org/abs/2511.16675",
+    "source": "arXiv",
+    "published": "2025-11-24T05:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "joint",
+      "design",
+      "of"
+    ]
+  },
+  {
+    "title": "Endings and beginnings: Atacama Cosmology Telescope releases its final data, shaping the future of cosmology",
+    "title_es": "Finales y comienzos: el Telescopio de Cosmología de Atacama publica sus datos finales, dando forma al futuro de la cosmología",
+    "url": "https://phys.org/news/2025-11-atacama-cosmology-telescope-future.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "finales",
+      "y",
+      "comienzos"
+    ]
+  },
+  {
     "title": "Climate change and inequality are connected. Policies need to reflect this",
     "title_es": "El cambio climático y la desigualdad están conectados. Las políticas deben reflejar esto",
     "url": "https://phys.org/news/2025-11-climate-inequality-policies.html",
@@ -11,6 +39,34 @@
       "el",
       "cambio",
       "climático"
+    ]
+  },
+  {
+    "title": "The Overview Effect: Astronaut Perspectives from 25 Years in Low Earth Orbit",
+    "title_es": "El efecto general: perspectivas de los astronautas durante 25 años en la órbita terrestre baja",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/the-overview-effect-astronaut-perspectives-from-25-years-in-low-earth-orbit/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-23T00:00:00.000Z",
+    "date": "2025-11-23",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "efecto",
+      "general"
+    ]
+  },
+  {
+    "title": "A mysterious metal find in Sweden is rewriting Iron Age history",
+    "title_es": "Un misterioso hallazgo de metal en Suecia está reescribiendo la historia de la Edad del Hierro",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251123115658.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-23T00:00:00.000Z",
+    "date": "2025-11-23",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "misterioso",
+      "hallazgo"
     ]
   },
   {
@@ -193,6 +249,20 @@
       "la",
       "primera",
       "simulación"
+    ]
+  },
+  {
+    "title": "Enhancing Quranic Learning: A Multimodal Deep Learning Approach for Arabic Phoneme Recognition",
+    "title_es": "Mejora del aprendizaje coránico: un enfoque de aprendizaje profundo multimodal para el reconocimiento de fonemas árabes",
+    "url": "http://arxiv.org/abs/2511.17477v1",
+    "source": "arXiv",
+    "published": "2025-11-21T00:00:00.000Z",
+    "date": "2025-11-21",
+    "category": "noticia",
+    "tags": [
+      "mejora",
+      "del",
+      "aprendizaje"
     ]
   },
   {
@@ -14807,7 +14877,7 @@
   },
   {
     "title": "MSRS: Adaptive Multi-Subspace Representation Steering for Attribute Alignment in Large Language Models",
-    "title_es": "MSRS: Dirección adaptativa de representación multisubespacio para la alineación de atributos en modelos de lenguaje grandes",
+    "title_es": "MSRS: Adaptive Multi-Subspace Representation Steering for Attribute Alignment in Large Language Models",
     "url": "https://arxiv.org/abs/2508.10599",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
