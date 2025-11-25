@@ -1,5 +1,33 @@
 [
   {
+    "title": "How to Expand a Self-orthogonal Code",
+    "title_es": "Cómo expandir un código autoortogonal",
+    "url": "https://arxiv.org/abs/2511.17503",
+    "source": "arXiv",
+    "published": "2025-11-25T05:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "to",
+      "expand"
+    ]
+  },
+  {
+    "title": "Urban natives: Plants evolve to live in cities",
+    "title_es": "Nativos urbanos: las plantas evolucionan para vivir en las ciudades",
+    "url": "https://phys.org/news/2025-11-urban-natives-evolve-cities.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "nativos",
+      "urbanos",
+      "las"
+    ]
+  },
+  {
     "title": "Joint Design of Protein Surface and Structure Using a Diffusion Bridge Model",
     "title_es": "Diseño conjunto de superficie y estructura de proteínas utilizando un modelo de puente de difusión",
     "url": "https://arxiv.org/abs/2511.16675",
@@ -25,6 +53,118 @@
       "finales",
       "y",
       "comienzos"
+    ]
+  },
+  {
+    "title": "VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection",
+    "title_es": "VDC-Agent: cuando los subtítulos detallados de vídeo evolucionan a través de la autorreflexión agente",
+    "url": "http://arxiv.org/abs/2511.19436v1",
+    "source": "arXiv",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "vdc-agent",
+      "cuando",
+      "los"
+    ]
+  },
+  {
+    "title": "MAPK-driven epithelial cell plasticity drives colorectal cancer therapeutic resistance",
+    "title_es": "La plasticidad de las células epiteliales impulsada por MAPK impulsa la resistencia terapéutica al cáncer colorrectal",
+    "url": "https://www.nature.com/articles/s41586-025-09916-w",
+    "source": "Nature",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "plasticidad",
+      "de"
+    ]
+  },
+  {
+    "title": "El Dr. Valentín Fuster recibe el título de Doctor Honoris Causa y el Premio Presidencial de Honor en Chipre",
+    "title_es": "El Dr. Valentín Fuster recibe el título de Doctor Honoris Causa y el Premio Presidencial de Honor en Chipre",
+    "url": "https://www.cnic.es/es/noticias/dr-valentin-fuster-recibe-titulo-doctor-honoris-causa-premio-presidencial-honor-chipre",
+    "source": "CNIC",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "dr",
+      "valentín"
+    ]
+  },
+  {
+    "title": "NASA’s 2025 Astronaut Candidates: Shaping Artemis Exploration",
+    "title_es": "Candidatos a astronauta de la NASA para 2025: dando forma a la exploración de Artemisa",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-2025-astronaut-candidates-shaping-artemis-exploration/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "candidatos",
+      "a",
+      "astronauta"
+    ]
+  },
+  {
+    "title": "Computer Security: Password evolutions",
+    "title_es": "Seguridad informática: evoluciones de contraseñas",
+    "url": "https://home.cern/news/news/computing/computer-security-password-evolutions",
+    "source": "CERN News",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "informática",
+      "evoluciones"
+    ]
+  },
+  {
+    "title": "‘Butt breathing’ could help people who can’t get oxygen the regular way",
+    "title_es": "La 'respiración a tope' podría ayudar a las personas que no pueden recibir oxígeno de forma habitual",
+    "url": "https://www.sciencenews.org/article/butt-breathing-gut-oxygen-bloodstream",
+    "source": "Science News",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "respiración",
+      "a"
+    ]
+  },
+  {
+    "title": "Scientists Say: Blue whirl",
+    "title_es": "Los científicos dicen: remolino azul",
+    "url": "https://www.snexplores.org/article/scientists-say-blue-whirl-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
+    ]
+  },
+  {
+    "title": "Scientists find hidden switch that lets tumors shapeshift and evade treatment",
+    "title_es": "Los científicos encuentran un interruptor oculto que permite que los tumores cambien de forma y evadan el tratamiento",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251124094314.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-24T00:00:00.000Z",
+    "date": "2025-11-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "encuentran"
     ]
   },
   {
@@ -14849,7 +14989,7 @@
   },
   {
     "title": "On Spectral Properties of Gradient-based Explanation Methods",
-    "title_es": "Sobre las propiedades espectrales de los métodos de explicación basados en gradientes",
+    "title_es": "On Spectral Properties of Gradient-based Explanation Methods",
     "url": "https://arxiv.org/abs/2508.10595",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14863,7 +15003,7 @@
   },
   {
     "title": "Oops!... They Stole it Again: Attacks on Split Learning",
-    "title_es": "¡Vaya!... Lo robaron de nuevo: Ataques al aprendizaje dividido",
+    "title_es": "Oops!... They Stole it Again: Attacks on Split Learning",
     "url": "https://arxiv.org/abs/2508.10598",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -20629,17 +20769,17 @@
     ]
   },
   {
-    "title": "Development of flipped classroom module fcm for music theory instruction: An innovative approach to music education",
-    "title_es": "Desarrollo del módulo fcm de aula invertida para la enseñanza de teoría musical: un enfoque innovador para la educación musical",
+    "title": "Effect of congenital color vision deficiency on the ability of optometrists to correctly identify lesions in ocular fundus photographs",
+    "title_es": "Efecto de la deficiencia congénita de la visión de los colores sobre la capacidad de los optometristas para identificar correctamente las lesiones en fotografías del fondo de ojo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "desarrollo",
-      "del",
-      "módulo"
+      "efecto",
+      "de",
+      "la"
     ]
   },
   {
