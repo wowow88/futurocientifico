@@ -1,5 +1,33 @@
 [
   {
+    "title": "Opt4GPTQ: Co-Optimizing Memory and Computation for 4-bit GPTQ Quantized LLM Inference on Heterogeneous Platforms",
+    "title_es": "Opt4GPTQ: Co-optimización de la memoria y el cálculo para la inferencia LLM cuantificada GPTQ de 4 bits en plataformas heterogéneas",
+    "url": "https://arxiv.org/abs/2511.19438",
+    "source": "arXiv",
+    "published": "2025-11-26T05:00:00.000Z",
+    "date": "2025-11-26",
+    "category": "noticia",
+    "tags": [
+      "opt4gptq",
+      "co-optimizing",
+      "memory"
+    ]
+  },
+  {
+    "title": "New deep-learning tool can tell if salmon is wild or farmed",
+    "title_es": "Una nueva herramienta de aprendizaje profundo puede determinar si el salmón es silvestre o de piscifactoría",
+    "url": "https://phys.org/news/2025-11-deep-tool-salmon-wild-farmed.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-26T00:00:00.000Z",
+    "date": "2025-11-26",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "nueva",
+      "herramienta"
+    ]
+  },
+  {
     "title": "How to Expand a Self-orthogonal Code",
     "title_es": "Cómo expandir un código autoortogonal",
     "url": "https://arxiv.org/abs/2511.17503",
@@ -25,6 +53,117 @@
       "nativos",
       "urbanos",
       "las"
+    ]
+  },
+  {
+    "title": "MedROV: Towards Real-Time Open-Vocabulary Detection Across Diverse Medical Imaging Modalities",
+    "title_es": "MedROV: hacia la detección de vocabulario abierto en tiempo real a través de diversas modalidades de imágenes médicas",
+    "url": "http://arxiv.org/abs/2511.20650v1",
+    "source": "arXiv",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "medrov",
+      "hacia",
+      "la"
+    ]
+  },
+  {
+    "title": "Author Correction: Spatial fibroblast niches define Crohn’s fistulae",
+    "title_es": "Corrección del autor: Los nichos espaciales de fibroblastos definen las fístulas de Crohn",
+    "url": "https://www.nature.com/articles/s41586-025-09956-2",
+    "source": "Nature",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "El Patronato del CNIO celebrado en el día de hoy, informa:",
+    "title_es": "El Patronato del CNIO celebrado en el día de hoy, informa:",
+    "url": "https://www.cnio.es/noticias/el-patronato-del-cnio-celebrado-en-el-dia-de-hoy-informa/",
+    "source": "CNIO",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "patronato",
+      "del"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-la-conferencia-internacional-china-spain-astronomical-collaboration-high-resolution\" hreflang=\"es\">El IAC acoge la conferencia internacional “China–Spain Astronomical Collaboration on High-Resolution Spectroscopy 2025”</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-la-conferencia-internacional-china-spain-astronomical-collaboration-high-resolution\" hreflang=\"es\">El IAC acoge la conferencia internacional “China–Spain Astronomical Collaboration on High-Resolution Spectroscopy 2025”</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-la-conferencia-internacional-china-spain-astronomical-collaboration-high-resolution",
+    "source": "IAC",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-acoge-la-conferencia-internacional-china-spain-astronomical-collaboration-high-resolution",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "LSAH Newsletter",
+    "title_es": "Boletín LSAH",
+    "url": "https://www.nasa.gov/directorates/esdmd/hhp/treat/lsah-newsletter/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "boletín",
+      "lsah"
+    ]
+  },
+  {
+    "title": "Cuddly koalas had a brutal, blade-toothed close cousin",
+    "title_es": "Los adorables koalas tenían un primo cercano brutal y con dientes afilados",
+    "url": "https://www.sciencenews.org/article/koalas-marsupials-evolution-extinct",
+    "source": "Science News",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "adorables",
+      "koalas"
+    ]
+  },
+  {
+    "title": "Let’s learn about autumn leaves",
+    "title_es": "Aprendamos sobre las hojas de otoño.",
+    "url": "https://www.snexplores.org/article/lets-learn-about-autumn-leaves",
+    "source": "Science News Explores",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "las"
+    ]
+  },
+  {
+    "title": "The body trait that helps keep your brain young",
+    "title_es": "El rasgo corporal que ayuda a mantener tu cerebro joven",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251125112506.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-25T00:00:00.000Z",
+    "date": "2025-11-25",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "rasgo",
+      "corporal"
     ]
   },
   {
@@ -14947,7 +15086,7 @@
   },
   {
     "title": "Self-Supervised Temporal Super-Resolution of Energy Data using Generative Adversarial Transformer",
-    "title_es": "Superresolución temporal auto-supervisada de datos de energía mediante transformador adversario generativo",
+    "title_es": "Self-Supervised Temporal Super-Resolution of Energy Data using Generative Adversarial Transformer",
     "url": "https://arxiv.org/abs/2508.10587",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14961,7 +15100,7 @@
   },
   {
     "title": "Balancing the Energy Consumption and Latency of Over-the-Air Firmware Updates in LoRaWAN",
-    "title_es": "Equilibrio entre el consumo de energía y la latencia de las actualizaciones de firmware por aire en LoRaWAN",
+    "title_es": "Balancing the Energy Consumption and Latency of Over-the-Air Firmware Updates in LoRaWAN",
     "url": "https://arxiv.org/abs/2508.10588",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -14975,7 +15114,7 @@
   },
   {
     "title": "FreeGAD: A Training-Free yet Effective Approach for Graph Anomaly Detection",
-    "title_es": "FreeGAD: un enfoque sin capacitación pero efectivo para la detección de anomalías gráficas",
+    "title_es": "FreeGAD: A Training-Free yet Effective Approach for Graph Anomaly Detection",
     "url": "https://arxiv.org/abs/2508.10594",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -20769,17 +20908,17 @@
     ]
   },
   {
-    "title": "Effect of congenital color vision deficiency on the ability of optometrists to correctly identify lesions in ocular fundus photographs",
-    "title_es": "Efecto de la deficiencia congénita de la visión de los colores sobre la capacidad de los optometristas para identificar correctamente las lesiones en fotografías del fondo de ojo",
+    "title": "Correction: MT-MAG: Accurate and interpretable machine learning for complete or partial taxonomic assignments of metagenomeassembled genomes",
+    "title_es": "Corrección: MT-MAG: aprendizaje automático preciso e interpretable para asignaciones taxonómicas completas o parciales de genomas ensamblados en metagenomas",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efecto",
-      "de",
-      "la"
+      "corrección",
+      "mt-mag",
+      "aprendizaje"
     ]
   },
   {
