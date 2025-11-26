@@ -1,0 +1,5 @@
+🧠 Hoy en #FuturoCientífico:
+
+«Este artículo trata sobre "Opt4GPTQ: Co-optimización de la memoria y el cálculo para la inferencia LLM cuantificada GPTQ de 4 bits en plataformas heterogéneas". Se exploran los aspectos clave relacionados con la ciencia actual.»
+🌐https://futurocientifico.vercel.app/revistas
+#Ciencia #Curiosidades #Educación
