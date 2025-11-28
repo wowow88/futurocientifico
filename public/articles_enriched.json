@@ -1,5 +1,19 @@
 [
   {
+    "title": "CBD supplements may make dogs less aggressive over time",
+    "title_es": "Los suplementos de CBD pueden hacer que los perros sean menos agresivos con el tiempo",
+    "url": "https://phys.org/news/2025-11-cbd-supplements-dogs-aggressive.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-11-28T00:00:00.000Z",
+    "date": "2025-11-28",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "suplementos",
+      "de"
+    ]
+  },
+  {
     "title": "When LLMs Can't Help: Real-World Evaluation of LLMs in Nutrition",
     "title_es": "Cuando los LLM no pueden ayudar: evaluación en el mundo real de los LLM en nutrición",
     "url": "https://arxiv.org/abs/2511.20652",
@@ -25,6 +39,104 @@
       "los",
       "productores",
       "de"
+    ]
+  },
+  {
+    "title": "A human history of machines",
+    "title_es": "Una historia humana de las máquinas.",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aec4179",
+    "source": "Science.org",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "historia",
+      "humana"
+    ]
+  },
+  {
+    "title": "Author Correction: Nasal delivery of an IgM offers broad protection from SARS-CoV-2 variants",
+    "title_es": "Corrección del autor: La administración nasal de una IgM ofrece una amplia protección contra las variantes del SARS-CoV-2",
+    "url": "https://www.nature.com/articles/s41586-025-09953-5",
+    "source": "Nature",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "La Universidad Alfonso X el Sabio y el CNIC firman un convenio marco para impulsar la investigación en ciencias de la salud y biomedicina",
+    "title_es": "La Universidad Alfonso X el Sabio y el CNIC firman un convenio marco para impulsar la investigación en ciencias de la salud y biomedicina",
+    "url": "https://www.cnic.es/es/noticias/universidad-alfonso-x-sabio-cnic-firman-un-convenio-marco-para-impulsar-investigacion",
+    "source": "CNIC",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "universidad",
+      "alfonso"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-comite-cientifico-internacional-de-los-observatorios-de-canarias-celebra-en-la-palma-su-reunion\" hreflang=\"es\">El Comité Científico Internacional de los Observatorios de Canarias celebra en La Palma su reunión anual</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-comite-cientifico-internacional-de-los-observatorios-de-canarias-celebra-en-la-palma-su-reunion\" hreflang=\"es\">El Comité Científico Internacional de los Observatorios de Canarias celebra en La Palma su reunión anual</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-comite-cientifico-internacional-de-los-observatorios-de-canarias-celebra-en-la-palma-su-reunion",
+    "source": "IAC",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-comite-cientifico-internacional-de-los-observatorios-de-canarias-celebra-en-la-palma-su-reunion",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "NASA Astronaut Chris Williams, Crewmates Arrive at Space Station",
+    "title_es": "El astronauta de la NASA Chris Williams y sus compañeros de tripulación llegan a la estación espacial",
+    "url": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-arrive-at-space-station/",
+    "source": "NASA (Top News)",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "astronauta",
+      "de"
+    ]
+  },
+  {
+    "title": "Superconductivity for addressing global challenges",
+    "title_es": "Superconductividad para abordar desafíos globales",
+    "url": "https://home.cern/news/news/knowledge-sharing/superconductivity-addressing-global-challenges",
+    "source": "CERN News",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "superconductividad",
+      "para",
+      "abordar"
+    ]
+  },
+  {
+    "title": "Study finds untreated sleep apnea doubles Parkinson’s risk",
+    "title_es": "Un estudio encuentra que la apnea del sueño no tratada duplica el riesgo de Parkinson",
+    "url": "https://www.sciencedaily.com/releases/2025/11/251127010322.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-11-27T00:00:00.000Z",
+    "date": "2025-11-27",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "estudio",
+      "encuentra"
     ]
   },
   {
@@ -15170,7 +15282,7 @@
   },
   {
     "title": "EvTurb: Event Camera Guided Turbulence Removal",
-    "title_es": "EvTurb: Eliminación de turbulencias guiada por cámara de eventos",
+    "title_es": "EvTurb: Event Camera Guided Turbulence Removal",
     "url": "https://arxiv.org/abs/2508.10582",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15184,7 +15296,7 @@
   },
   {
     "title": "GNN-based Unified Deep Learning",
-    "title_es": "Aprendizaje profundo unificado basado en GNN",
+    "title_es": "GNN-based Unified Deep Learning",
     "url": "https://arxiv.org/abs/2508.10583",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
