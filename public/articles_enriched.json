@@ -1,5 +1,33 @@
 [
   {
+    "title": "Entropy-Based Measurement of Value Drift and Alignment Work in Large Language Models",
+    "title_es": "Medición basada en entropía de la deriva de valor y el trabajo de alineación en modelos de lenguaje grandes",
+    "url": "https://arxiv.org/abs/2512.03047",
+    "source": "arXiv",
+    "published": "2025-12-04T05:00:00.000Z",
+    "date": "2025-12-04",
+    "category": "noticia",
+    "tags": [
+      "entropy-based",
+      "measurement",
+      "of"
+    ]
+  },
+  {
+    "title": "Camera traps snap nearly three times more images of endangered Sumatran tigers than before",
+    "title_es": "Las cámaras trampa capturan casi tres veces más imágenes de tigres de Sumatra en peligro de extinción que antes",
+    "url": "https://phys.org/news/2025-12-camera-snap-images-endangered-sumatran.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-04T00:00:00.000Z",
+    "date": "2025-12-04",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "cámaras",
+      "trampa"
+    ]
+  },
+  {
     "title": "FCDB (Functorial-Categorical Database): A Compositional Framework for Information Preservation and Anti-Commutativity Reduction",
     "title_es": "FCDB (Functorial-Categorical Database): A Compositional Framework for Information Preservation and Anti-Commutativity Reduction",
     "url": "https://arxiv.org/abs/2512.02021",
@@ -39,6 +67,104 @@
       "la",
       "biodiversidad",
       "terrestre"
+    ]
+  },
+  {
+    "title": "SkillFactory: Self-Distillation For Learning Cognitive Behaviors",
+    "title_es": "SkillFactory: autodestilación para aprender comportamientos cognitivos",
+    "url": "http://arxiv.org/abs/2512.04072v1",
+    "source": "arXiv",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "skillfactory",
+      "autodestilación",
+      "para"
+    ]
+  },
+  {
+    "title": "Retraction Note: The economic commitment of climate change",
+    "title_es": "Nota de retractación: El compromiso económico del cambio climático",
+    "url": "https://www.nature.com/articles/s41586-025-09726-0",
+    "source": "Nature",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "nota",
+      "de",
+      "retractación"
+    ]
+  },
+  {
+    "title": "Nature: NeuMap, un mapa pionero de los neutrófilos que redefine su papel en la salud, infección e inflamación",
+    "title_es": "Naturaleza: NeuMap, un mapa pionero de los neutrófilos que redefinen su papel en la salud, infección e inflamación",
+    "url": "https://www.cnic.es/es/noticias/nature-neumap-un-mapa-pionero-neutrofilos-que-redefine-su-papel-salud-infeccion-e",
+    "source": "CNIC",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "neumap",
+      "un"
+    ]
+  },
+  {
+    "title": "Student Art Murals at Johnson Celebrate 25 Years of Humanity in Space",
+    "title_es": "Los murales de arte estudiantil en Johnson celebran los 25 años de la humanidad en el espacio",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/student-art-murals-at-johnson-celebrate-25-years-of-humanity-in-space/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "murales",
+      "de"
+    ]
+  },
+  {
+    "title": "Ancient DNA reveals China’s first ‘pet’ cat wasn’t the house cat",
+    "title_es": "ADN antiguo revela que el primer gato 'mascota' de China no era el gato doméstico",
+    "url": "https://www.sciencenews.org/article/dna-china-first-cat-leopard-rodent",
+    "source": "Science News",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "adn",
+      "antiguo",
+      "revela"
+    ]
+  },
+  {
+    "title": "Rudolph’s red nose could glow through bioluminescence",
+    "title_es": "La nariz roja de Rudolph podría brillar mediante bioluminiscencia",
+    "url": "https://www.snexplores.org/article/rudolph-red-nose-glow-bioluminescence",
+    "source": "Science News Explores",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nariz",
+      "roja"
+    ]
+  },
+  {
+    "title": "The solar mission that survived disaster and found 5,000 comets",
+    "title_es": "La misión solar que sobrevivió al desastre y encontró 5.000 cometas",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251203084928.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-03T00:00:00.000Z",
+    "date": "2025-12-03",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "misión",
+      "solar"
     ]
   },
   {
@@ -15604,7 +15730,7 @@
   },
   {
     "title": "SpaRC-AD: A Baseline for Radar-Camera Fusion in End-to-End Autonomous Driving",
-    "title_es": "SpaRC-AD: Una línea de base para la fusión de radar y cámara en la conducción autónoma de extremo a extremo",
+    "title_es": "SpaRC-AD: A Baseline for Radar-Camera Fusion in End-to-End Autonomous Driving",
     "url": "https://arxiv.org/abs/2508.10567",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15618,7 +15744,7 @@
   },
   {
     "title": "Adapting SAM via Cross-Entropy Masking for Class Imbalance in Remote Sensing Change Detection",
-    "title_es": "Adaptación de SAM a través del enmascaramiento de entropía cruzada para el desequilibrio de clase en la detección de cambios por teledetección",
+    "title_es": "Adapting SAM via Cross-Entropy Masking for Class Imbalance in Remote Sensing Change Detection",
     "url": "https://arxiv.org/abs/2508.10568",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -21608,17 +21734,17 @@
     ]
   },
   {
-    "title": "The effects of ideology and cognitive reflection on evidence gathering behavior in the political domain",
-    "title_es": "Los efectos de la ideología y la reflexión cognitiva sobre el comportamiento de recopilación de evidencia en el ámbito político",
+    "title": "Immune transcriptomic changes in Australian Gulf War veterans",
+    "title_es": "Cambios transcriptómicos inmunológicos en veteranos australianos de la Guerra del Golfo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "los",
-      "efectos",
-      "de"
+      "cambios",
+      "transcriptómicos",
+      "inmunológicos"
     ]
   },
   {
