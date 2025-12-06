@@ -1,5 +1,19 @@
 [
   {
+    "title": "Invention Challenge Brings Student Engineers to NASA JPL",
+    "title_es": "Invention Challenge lleva a estudiantes de ingeniería al JPL de la NASA",
+    "url": "https://www.nasa.gov/centers-and-facilities/jpl/invention-challenge-brings-student-engineers-to-nasa-jpl/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-06T00:00:00.000Z",
+    "date": "2025-12-06",
+    "category": "noticia",
+    "tags": [
+      "invention",
+      "challenge",
+      "lleva"
+    ]
+  },
+  {
     "title": "Energy Profiling of Data-Sharing Pipelines: Modeling, Estimation, and Reuse Strategies",
     "title_es": "Elaboración de perfiles de energía de tuberías de intercambio de datos: modelado, estimación y estrategias de reutilización",
     "url": "https://arxiv.org/abs/2512.04086",
@@ -53,6 +67,104 @@
       "la",
       "cosmografía",
       "con"
+    ]
+  },
+  {
+    "title": "These are a few of my favourite sounds: Books in brief",
+    "title_es": "Estos son algunos de mis sonidos favoritos: Libros breves",
+    "url": "https://www.nature.com/articles/d41586-025-03996-4",
+    "source": "Nature",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "son",
+      "algunos"
+    ]
+  },
+  {
+    "title": "Dr. Casey Gifford: \"Se supone que todos vamos a tener nuestro genoma secuenciado\"",
+    "title_es": "Dr. Casey Gifford: “Se supone que todos vamos a tener nuestro genoma secuenciado”",
+    "url": "https://www.cnic.es/es/noticias/dr-casey-gifford-se-supone-que-todos-vamos-tener-nuestro-genoma-secuenciado",
+    "source": "CNIC",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "dr",
+      "casey",
+      "gifford"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-palma-homenajea-francisco-sanchez-martinez-el-hombre-que-impulso-el-mayor-telescopio-optico-del\" hreflang=\"es\">La Palma homenajea a Francisco Sánchez Martínez, el hombre que impulsó el mayor telescopio óptico del mundo: el GTC</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-palma-homenajea-francisco-sanchez-martinez-el-hombre-que-impulso-el-mayor-telescopio-optico-del\" hreflang=\"es\">La Palma homenajea a Francisco Sánchez Martínez, el hombre que impulsó el mayor telescopio óptico del mundo: el GTC</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-palma-homenajea-francisco-sanchez-martinez-el-hombre-que-impulso-el-mayor-telescopio-optico-del",
+    "source": "IAC",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-palma-homenajea-francisco-sanchez-martinez-el-hombre-que-impulso-el-mayor-telescopio-optico-del",
+      "hreflangesla"
+    ]
+  },
+  {
+    "title": "A CDC panel has struck down universal newborn hepatitis B vaccination",
+    "title_es": "Un panel de los CDC ha anulado la vacunación universal contra la hepatitis B en recién nacidos",
+    "url": "https://www.sciencenews.org/article/hepatitis-b-vaccination-newborns-cdc-acip",
+    "source": "Science News",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "panel",
+      "de"
+    ]
+  },
+  {
+    "title": "Beware the vipers: These snakes appear to strike the fastest",
+    "title_es": "Cuidado con las víboras: estas serpientes parecen atacar más rápido",
+    "url": "https://www.snexplores.org/article/vipers-fastest-strikes-snakes",
+    "source": "Science News Explores",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "cuidado",
+      "con",
+      "las"
+    ]
+  },
+  {
+    "title": "Next gen cancer drug shows surprising anti aging power",
+    "title_es": "El fármaco contra el cáncer de próxima generación muestra un sorprendente poder antienvejecimiento",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251205054729.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "fármaco",
+      "contra"
+    ]
+  },
+  {
+    "title": "AI can dramatically speed up digitizing natural history collections",
+    "title_es": "La IA puede acelerar drásticamente la digitalización de colecciones de historia natural",
+    "url": "https://phys.org/news/2025-12-ai-digitizing-natural-history.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-05T00:00:00.000Z",
+    "date": "2025-12-05",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ia",
+      "puede"
     ]
   },
   {
@@ -15814,7 +15926,7 @@
   },
   {
     "title": "RBF-FD Method for Some Dispersive Wave Equations and Their Eventual Periodicity",
-    "title_es": "Método RBF-FD para algunas ecuaciones de onda dispersiva y su periodicidad eventual",
+    "title_es": "RBF-FD Method for Some Dispersive Wave Equations and Their Eventual Periodicity",
     "url": "https://arxiv.org/abs/2508.10558",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -15828,7 +15940,7 @@
   },
   {
     "title": "Fake Speech Wild: Detecting Deepfake Speech on Social Media Platform",
-    "title_es": "Fake Speech Wild: Detección de Deepfake Speech en la plataforma de redes sociales",
+    "title_es": "Fake Speech Wild: Detecting Deepfake Speech on Social Media Platform",
     "url": "https://arxiv.org/abs/2508.10559",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -21888,17 +22000,17 @@
     ]
   },
   {
-    "title": "CRE-Ter enhances murine bone differentiation, improves muscle cell atrophy, and increases irisin expression",
-    "title_es": "CRE-Ter mejora la diferenciación ósea murina, mejora la atrofia de las células musculares y aumenta la expresión de irisina",
+    "title": "Development and evaluation of a self-generated foam–resin composite sand consolidation system for offshore oil reservoirs",
+    "title_es": "Desarrollo y evaluación de un sistema de consolidación de arena compuesto de espuma y resina autogenerado para yacimientos de petróleo marinos",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "cre-ter",
-      "mejora",
-      "la"
+      "desarrollo",
+      "y",
+      "evaluación"
     ]
   },
   {
