@@ -1,5 +1,61 @@
 [
   {
+    "title": "Detection of Cyberbullying in GIF using AI",
+    "title_es": "Detección de ciberacoso en GIF mediante IA",
+    "url": "https://arxiv.org/abs/2512.07838",
+    "source": "arXiv",
+    "published": "2025-12-10T05:00:00.000Z",
+    "date": "2025-12-10",
+    "category": "noticia",
+    "tags": [
+      "detection",
+      "of",
+      "cyberbullying"
+    ]
+  },
+  {
+    "title": "Trucked-in honeybees may edge out bigger bumblebee foragers",
+    "title_es": "Las abejas transportadas en camiones pueden superar a los abejorros recolectores más grandes",
+    "url": "https://www.sciencenews.org/article/honeybees-outcompete-bumblebees-hives",
+    "source": "Science News",
+    "published": "2025-12-10T00:00:00.000Z",
+    "date": "2025-12-10",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "abejas",
+      "transportadas"
+    ]
+  },
+  {
+    "title": "Scientists reveal a tiny brain chip that streams thoughts in real time",
+    "title_es": "Los científicos revelan un pequeño chip cerebral que transmite pensamientos en tiempo real",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251209234139.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-10T00:00:00.000Z",
+    "date": "2025-12-10",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "revelan"
+    ]
+  },
+  {
+    "title": "Online sharing can push us apart, but when it's authentic it can bring us together",
+    "title_es": "Compartir en línea puede separarnos, pero cuando es auténtico puede unirnos",
+    "url": "https://phys.org/news/2025-12-online-authentic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-10T00:00:00.000Z",
+    "date": "2025-12-10",
+    "category": "noticia",
+    "tags": [
+      "compartir",
+      "en",
+      "línea"
+    ]
+  },
+  {
     "title": "Video Models Start to Solve Chess, Maze, Sudoku, Mental Rotation, and Raven' Matrices",
     "title_es": "Los modelos de vídeo comienzan a resolver las matrices de ajedrez, laberinto, sudoku, rotación mental y cuervo",
     "url": "https://arxiv.org/abs/2512.05969",
@@ -25,6 +81,90 @@
       "los",
       "australianos",
       "ven"
+    ]
+  },
+  {
+    "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+    "title_es": "Astra: modelo mundial interactivo general con eliminación de ruido autorregresiva",
+    "url": "http://arxiv.org/abs/2512.08931v1",
+    "source": "arXiv",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "astra",
+      "modelo",
+      "mundial"
+    ]
+  },
+  {
+    "title": "Don’t overlook the value of co-supervision in PhD training",
+    "title_es": "No pase por alto el valor de la cotutela en la formación de doctorado",
+    "url": "https://www.nature.com/articles/d41586-025-03998-2",
+    "source": "Nature",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "no",
+      "pase",
+      "por"
+    ]
+  },
+  {
+    "title": "De los telómeros a la restricción calórica: la investigación intenta encajar el puzle de los muchos procesos implicados en el envejecimiento",
+    "title_es": "De los telómeros a la restricción calórica: la investigación intenta encajar el puzle de los muchos procesos implicados en el envejecimiento",
+    "url": "https://www.cnio.es/noticias/de-los-telomeros-a-la-restriccion-calorica-la-investigacion-intenta-encajar-el-puzle-de-los-muchos-procesos-implicados-en-el-envejecimiento/",
+    "source": "CNIO",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "de",
+      "los",
+      "telómeros"
+    ]
+  },
+  {
+    "title": "NASA Demonstrates Safer Skies for Future Urban Air Travel",
+    "title_es": "La NASA demuestra cielos más seguros para los futuros viajes aéreos urbanos",
+    "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-safer-skies-for-future-urban-air-travel/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "demuestra"
+    ]
+  },
+  {
+    "title": "LHC delivers a record number of particle collisions in 2025",
+    "title_es": "El LHC producirá un número récord de colisiones de partículas en 2025",
+    "url": "https://home.cern/news/news/accelerators/lhc-delivers-record-number-particle-collisions-2025",
+    "source": "CERN News",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "lhc",
+      "producirá"
+    ]
+  },
+  {
+    "title": "Let’s learn about lab-grown meat",
+    "title_es": "Aprendamos sobre la carne cultivada en laboratorio",
+    "url": "https://www.snexplores.org/article/lets-learn-about-lab-grown-meat",
+    "source": "Science News Explores",
+    "published": "2025-12-09T00:00:00.000Z",
+    "date": "2025-12-09",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "la"
     ]
   },
   {
@@ -56,7 +196,7 @@
     ]
   },
   {
-    "title": "Publisher Correction: CRISPR activation for SCN2A -related neurodevelopmental disorders",
+    "title": "Publisher Correction: CRISPR activation for <i>SCN2A</i>-related neurodevelopmental disorders",
     "title_es": "Corrección del editor: activación CRISPR para trastornos del desarrollo neurológico relacionados con <i>SCN2A</i>",
     "url": "https://www.nature.com/articles/s41586-025-09995-9",
     "source": "Nature",
@@ -16080,7 +16220,7 @@
   },
   {
     "title": "eDIF: A European Deep Inference Fabric for Remote Interpretability of LLM",
-    "title_es": "eDIF: un tejido europeo de inferencia profunda para la interpretación remota de LLM",
+    "title_es": "eDIF: A European Deep Inference Fabric for Remote Interpretability of LLM",
     "url": "https://arxiv.org/abs/2508.10553",
     "source": "arXiv",
     "published": "2025-08-15T04:00:00.000Z",
@@ -22210,17 +22350,17 @@
     ]
   },
   {
-    "title": "Blood draw site and blood matrix influence mineral assessment",
-    "title_es": "El sitio de extracción de sangre y la matriz sanguínea influyen en la evaluación de minerales",
+    "title": "Factors impacting a patient’s selection of an otolaryngologist",
+    "title_es": "Factores que afectan la selección de un otorrinolaringólogo por parte de un paciente",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "el",
-      "sitio",
-      "de"
+      "factores",
+      "que",
+      "afectan"
     ]
   },
   {
