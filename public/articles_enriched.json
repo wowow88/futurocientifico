@@ -1,5 +1,61 @@
 [
   {
+    "title": "Benchmarking Tesla's Traffic Light and Stop Sign Control: Field Dataset and Behavior Insights",
+    "title_es": "Análisis comparativo del control de semáforos y señales de stop de Tesla: conjunto de datos de campo e información sobre el comportamiento",
+    "url": "https://arxiv.org/abs/2512.11802",
+    "source": "arXiv",
+    "published": "2025-12-16T05:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "benchmarking",
+      "teslas",
+      "traffic"
+    ]
+  },
+  {
+    "title": "A Subtle Return of La Niña",
+    "title_es": "Un sutil regreso de La Niña",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-subtle-return-of-la-nina/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-16T00:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "sutil",
+      "regreso"
+    ]
+  },
+  {
+    "title": "A hidden climate shift may have sparked epic Pacific voyages 1,000 years ago",
+    "title_es": "Un cambio climático oculto puede haber provocado viajes épicos por el Pacífico hace 1.000 años",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251215084206.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-16T00:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "cambio",
+      "climático"
+    ]
+  },
+  {
+    "title": "Scientists warn federal funding cuts could undermine walleye recovery in Minnesota",
+    "title_es": "Los científicos advierten que los recortes de fondos federales podrían socavar la recuperación de la lucioperca en Minnesota",
+    "url": "https://phys.org/news/2025-12-scientists-federal-funding-undermine-walleye.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-16T00:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "advierten"
+    ]
+  },
+  {
     "title": "Measuring skill-based uplift from AI in a real biological laboratory",
     "title_es": "Medición de la elevación basada en habilidades de la IA en un laboratorio biológico real",
     "url": "https://arxiv.org/abs/2512.10960",
@@ -39,6 +95,90 @@
       "los",
       "osos",
       "italianos"
+    ]
+  },
+  {
+    "title": "DiffusionBrowser: Interactive Diffusion Previews via Multi-Branch Decoders",
+    "title_es": "DiffusionBrowser: vistas previas interactivas de difusión a través de decodificadores de múltiples ramas",
+    "url": "http://arxiv.org/abs/2512.13690v1",
+    "source": "arXiv",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "diffusionbrowser",
+      "vistas",
+      "previas"
+    ]
+  },
+  {
+    "title": "Giving a voice to animals: Laos’s national herpetologist on her day-to-day",
+    "title_es": "Dar voz a los animales: la herpetóloga nacional de Laos en su día a día",
+    "url": "https://www.nature.com/articles/d41586-025-04054-9",
+    "source": "Nature",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "dar",
+      "voz",
+      "a"
+    ]
+  },
+  {
+    "title": "Semana de la Ciencia y la Innovación 2025: Vivir con salud cardiovascular tras el cáncer",
+    "title_es": "Semana de la Ciencia y la Innovación 2025: Vivir con salud cardiovascular tras el cáncer",
+    "url": "https://www.cnic.es/es/noticias/semana-ciencia-innovacion-2025-vivir-con-salud-cardiovascular-tras-cancer",
+    "source": "CNIC",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "semana",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "Celebrating two decades of global scientific computing",
+    "title_es": "Celebrando dos décadas de informática científica global",
+    "url": "https://home.cern/news/news/computing/celebrating-two-decades-global-scientific-computing",
+    "source": "CERN News",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "celebrando",
+      "dos",
+      "décadas"
+    ]
+  },
+  {
+    "title": "How to levitate objects sans magic",
+    "title_es": "Cómo levitar objetos sin magia",
+    "url": "https://www.sciencenews.org/article/levitate-magnets-electricity-sound",
+    "source": "Science News",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "levitar",
+      "objetos"
+    ]
+  },
+  {
+    "title": "This game designer shares neurodivergent experiences through gaming",
+    "title_es": "Este diseñador de juegos comparte experiencias neurodivergentes a través de los juegos.",
+    "url": "https://www.snexplores.org/article/game-designer-neurodivergent-gaming",
+    "source": "Science News Explores",
+    "published": "2025-12-15T00:00:00.000Z",
+    "date": "2025-12-15",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "diseñador",
+      "de"
     ]
   },
   {
@@ -12303,7 +12443,7 @@
   },
   {
     "title": "How do Data Journalists Design Maps to Tell Stories?",
-    "title_es": "¿Cómo diseñan los periodistas de datos los mapas para contar historias?",
+    "title_es": "How do Data Journalists Design Maps to Tell Stories?",
     "url": "https://arxiv.org/abs/2508.10903",
     "source": "arXiv",
     "published": "2025-08-18T04:00:00.000Z",
@@ -22868,8 +23008,8 @@
     ]
   },
   {
-    "title": "Correction: Integration of wearable devices and artificial intelligence in Alzheimer’s disease: A scoping review protocol",
-    "title_es": "Corrección: Integración de dispositivos portátiles e inteligencia artificial en la enfermedad de Alzheimer: un protocolo de revisión del alcance",
+    "title": "Correction: Targeted modulation of MMP9 and GRP78 via molecular interaction and in silico profiling of Curcuma caesia rhizome metabolites: A computational drug discovery approach for cancer therapy",
+    "title_es": "Corrección: Modulación dirigida de MMP9 y GRP78 mediante interacción molecular y perfilado <i>in silico</i> de metabolitos del rizoma de <i>Curcuma caesia</i>: un enfoque computacional de descubrimiento de fármacos para la terapia del cáncer",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -22877,8 +23017,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "integración",
-      "de"
+      "modulación",
+      "dirigida"
     ]
   },
   {
