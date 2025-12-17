@@ -8,7 +8,7 @@ const focusRing =
   "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500";
 ---
 
-<div class="relative w-full max-w-xl">
+<div class="relative w-full max-w-2xl">
   <label for="fc-search" class="sr-only">Buscar en artículos</label>
 
   <input
@@ -62,15 +62,9 @@ const focusRing =
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
 
-    function openPanel() {
-      panel.classList.remove("hidden");
-    }
-    function closePanel() {
-      panel.classList.add("hidden");
-    }
-    function setStatus(text) {
-      status.textContent = text;
-    }
+    function openPanel() { panel.classList.remove("hidden"); }
+    function closePanel() { panel.classList.add("hidden"); }
+    function setStatus(text) { status.textContent = text; }
 
     async function ensureData() {
       if (data) return data;
@@ -87,7 +81,6 @@ const focusRing =
     }
 
     function scoreItem(item, q) {
-      // Solo buscamos en fields típicos (puedes añadir content_es si quieres)
       const fields = [
         item?.title_es, item?.title,
         item?.source,
@@ -101,7 +94,6 @@ const focusRing =
 
       const title = normalize(item?.title_es ?? item?.title ?? "");
       const boost = title.includes(q) ? 50 : 0;
-
       return boost + Math.max(0, 500 - idx);
     }
 
@@ -126,7 +118,6 @@ const focusRing =
         const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
         const href = item?.pdf || item?.url || "#";
 
-        // Si prefieres que siempre abra la fuente original, deja solo item.url
         return `
           <a
             class="block px-4 py-3 hover:bg-purple-50 focus:bg-purple-50 outline-none"
@@ -184,13 +175,11 @@ const focusRing =
       }
     });
 
-    // Cerrar al clicar fuera
     document.addEventListener("click", (e) => {
       const within = panel.contains(e.target) || input.contains(e.target);
       if (!within) closePanel();
     });
 
-    // Escape para cerrar
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closePanel();
     });
