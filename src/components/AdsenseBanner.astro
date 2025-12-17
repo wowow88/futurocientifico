@@ -1,15 +1,27 @@
-
 ---
-const { adSlot } = Astro.props;
+const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === "true";
+const adClient =
+  import.meta.env.PUBLIC_ADSENSE_CLIENT ?? "ca-pub-2163450732409344";
+
+const { adSlot, class: className = "" } = Astro.props;
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
-     data-ad-slot={adSlot}
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{!disableTracking && (
+  <>
+    <ins
+      class={`adsbygoogle ${className}`}
+      style="display:block"
+      data-ad-client={adClient}
+      data-ad-slot={adSlot}
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+    ></ins>
+
+    <script is:inline>
+      if (typeof window !== "undefined") {
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.adsbygoogle.push({});
+      }
+    </script>
+  </>
+)}
