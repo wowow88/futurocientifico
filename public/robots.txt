@@ -6,9 +6,9 @@ Disallow: /eduflash.json
 Disallow: /articles.json
 Disallow: /articles_enriched.json
 
-# Archivos PWA (mejor permitirlos)
+# Archivos PWA
 Allow: /manifest.webmanifest
 Allow: /sw.js
 
-# Sitemap(s)
+# Sitemap real (Astro)
 Sitemap: https://futurocientifico.vercel.app/sitemap-index.xml
