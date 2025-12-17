@@ -1,77 +1,73 @@
 ---
-/**
- * src/components/Seo.astro
- * Uso:
- *   <Seo title="Revistas" description="Selección curada..." slot="head" />
- *   <Seo title="..." description="..." alternates={{ es: Astro.url.href, en: "https://futurocientifico.vercel.app/en/revistas" }} slot="head" />
- */
-
-export interface Alternates {
-  es?: string;
-  en?: string;
-}
-
-export interface Props {
-  title?: string;
-  description?: string;
-  site?: string; // base del sitio, p. ej. "https://futurocientifico.vercel.app"
-  image?: string; // puede ser relativa o absoluta
-  twitter?: string; // @handle
-  lang?: "es" | "en";
-  robots?: string; // "index, follow" etc.
-  alternates?: Alternates; // { es?: URL, en?: URL }
-}
+type Alternate = { hreflang: string; href: string };
 
 const {
   title = "FuturoCientífico",
   description = "Divulgación científica para todas las edades.",
-  site = "https://futurocientifico.vercel.app",
-  image = "/avatar-cientifico.webp",
-  twitter = "@futurocientifico",
+  site, // compat: en tu proyecto lo usas como canonical absoluto
+  canonical, // nuevo (opcional)
   lang = "es",
-  robots = "index, follow",
-  alternates = {} as Alternates
-} = Astro.props as Props;
+  robots = "index,follow",
+  ogImage, // opcional
+  alternates = [] as Alternate[], // opcional: [{ hreflang:"en", href:"https://..." }, ...]
+} = Astro.props;
 
-// Canonical: usa la URL de la página actual; si no, fallback a 'site'
-const canonical = Astro.url?.href ?? site;
+// Canonical final (prioridad: canonical > site > Astro.url.href)
+const canonicalUrl = canonical ?? site ?? Astro.url.href;
 
-// og:image absoluto
-const absImage = image.startsWith("http") ? image : new URL(image, site).href;
+// Imagen social: usa una existente (ajusta si tienes un og dedicado)
+const ogImageUrl = ogImage ?? "/avatar-cientifico.webp";
 
-// Locale de OG según idioma
-const ogLocale = lang === "en" ? "en_US" : "es_ES";
+// JSON-LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${new URL(canonicalUrl).origin}/#website`,
+      "url": new URL(canonicalUrl).origin,
+      "name": "FuturoCientífico",
+      "inLanguage": lang
+    },
+    {
+      "@type": "Organization",
+      "@id": `${new URL(canonicalUrl).origin}/#organization`,
+      "name": "FuturoCientífico",
+      "url": new URL(canonicalUrl).origin,
+      "logo": {
+        "@type": "ImageObject",
+        "url": new URL(ogImageUrl, new URL(canonicalUrl).origin).href
+      }
+    }
+  ]
+};
 ---
 
 <title>{title}</title>
-
-<!-- Canonical y robots -->
-<link rel="canonical" href={canonical} />
-<meta name="robots" content={robots} />
-
-<!-- Básicas -->
 <meta name="description" content={description} />
+<meta name="robots" content={robots} />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="canonical" href={canonicalUrl} />
+
+{alternates?.length > 0 && alternates.map((a) => (
+  <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+))}
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="FuturoCientífico" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={absImage} />
-<meta property="og:url" content={canonical} />
-<meta property="og:locale" content={ogLocale} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:locale" content={lang === "es" ? "es_ES" : "en_US"} />
+<meta property="og:image" content={ogImageUrl} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={absImage} />
-<meta name="twitter:site" content={twitter} />
+<meta name="twitter:image" content={ogImageUrl} />
 
-<!-- Hreflang SOLO si se proporcionan -->
-{alternates.es && <link rel="alternate" hrefLang="es" href={alternates.es} />}
-{alternates.en && <link rel="alternate" hrefLang="en" href={alternates.en} />}
-
-<!-- Idioma del documento (ayuda a algunos parsers) -->
-<meta http-equiv="content-language" content={lang} />
-
+<script type="application/ld+json" is:inline>
+  {JSON.stringify(jsonLd)}
+</script>
