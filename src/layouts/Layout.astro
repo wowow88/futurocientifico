@@ -1,4 +1,5 @@
 ---
+import InlineSearch from "../components/InlineSearch.astro";
 const canonical = Astro.url?.href ?? "https://futurocientifico.vercel.app";
 const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
 ---
@@ -150,6 +151,9 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
           </button>
         </div>
       </div>
+  <div class="max-w-7xl mx-auto px-4 pb-3">
+    <InlineSearch placeholder="Buscar en Revistas…" maxResults={8} />
+  </div>
 
       <!-- Menú móvil -->
       <div id="mobile-menu" class="hidden md:hidden px-4 pb-4" role="navigation" aria-label="Navegación móvil">
