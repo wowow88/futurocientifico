@@ -1,6 +1,27 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
+
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const PER_PAGE = 5;
+const JSON_PATH = path.join(process.cwd(), "public", "articles_enriched.json");
+
+let allArticles = [];
+try {
+  const raw = await fs.readFile(JSON_PATH, "utf-8");
+  const parsed = JSON.parse(raw);
+  allArticles = Array.isArray(parsed) ? parsed : [];
+} catch {
+  allArticles = [];
+}
+
+allArticles = allArticles
+  .filter((article) => article?.category === "noticia")
+  .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+
+const initialArticles = allArticles.slice(0, PER_PAGE);
 ---
 
 <Seo 
@@ -28,7 +49,41 @@ import Seo from '../../components/Seo.astro';
             <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong>, <strong>ISCIII</strong> e <strong>IEO</strong>.
           </p>
       </div>
+
+      <!-- Render inicial (SSG/SSR) -->
+      {initialArticles.map((article) => {
+        const title = article?.title_es ?? article?.title ?? "Artículo científico";
+        const source = article?.source ?? "Fuente";
+        const date = article?.date ? new Date(article.date).toLocaleDateString() : "";
+        const href = article?.pdf || article?.url || "#";
+        const tags = Array.isArray(article?.tags) ? article.tags : [];
+
+        return (
+          <div class="bg-white rounded-xl p-4 shadow-md">
+            <h3 class="text-xl font-semibold text-blue-900">{title}</h3>
+            <p class="text-gray-600 text-sm mb-2">{source}{date ? ` | ${date}` : ""}</p>
+
+            {tags.length > 0 ? (
+              <div class="mb-2">
+                {tags.map((tag) => (
+                  <span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">#{tag}</span>
+                ))}
+              </div>
+            ) : null}
+
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-700 hover:underline block mt-2"
+            >
+              Leer PDF
+            </a>
+          </div>
+        );
+      })}
     </div>
+
     <div class="flex justify-center mt-6">
       <button id="loadMore" class="bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800 hidden">
         Ver más noticias
@@ -38,17 +93,18 @@ import Seo from '../../components/Seo.astro';
     <script type="module">
       const grid = document.querySelector('#articles-block');
       const button = document.querySelector('#loadMore');
-      let currentPage = 1;
+
       const perPage = 5;
+      let currentPage = 2; // 👈 ya hay 1ª página renderizada en HTML
       let allArticles = [];
 
       fetch('/articles_enriched.json')
         .then(res => res.json())
         .then(data => {
-          allArticles = data
-            .filter(article => article.category === 'noticia')
-            .sort((a, b) => new Date(b.date) - new Date(a.date));
-          renderPage();
+          allArticles = (Array.isArray(data) ? data : [])
+            .filter(article => article?.category === 'noticia')
+            .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+
           if (allArticles.length > perPage) button.classList.remove('hidden');
         });
 
@@ -56,25 +112,37 @@ import Seo from '../../components/Seo.astro';
         const start = (currentPage - 1) * perPage;
         const end = start + perPage;
         const currentArticles = allArticles.slice(start, end);
-        currentArticles.forEach((article, index) => {
-          const tags = article.tags?.map(tag =>
-            `<span class='inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2'>#${tag}</span>`).join('') || '';
+
+        currentArticles.forEach(article => {
+          const tags = Array.isArray(article.tags) && article.tags.length
+            ? article.tags.map(tag =>
+                `<span class='inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2'>#${tag}</span>`
+              ).join('')
+            : '';
+
+          const title = article.title_es || article.title || 'Artículo científico';
+          const date = article.date ? new Date(article.date).toLocaleDateString() : '';
+          const href = article.pdf || article.url || '#';
+
           const html = `
             <div class='bg-white rounded-xl p-4 shadow-md'>
-              <h3 class='text-xl font-semibold text-blue-900'>${article.title_es}</h3>
-              <p class='text-gray-600 text-sm mb-2'>${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
+              <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
+              <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
               ${tags ? `<div class='mb-2'>${tags}</div>` : ''}
-              <a href='${article.pdf || article.url}' target='_blank' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
+              <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
             </div>`;
           grid.insertAdjacentHTML('beforeend', html);
         });
+
         currentPage++;
+
         if ((currentPage - 1) * perPage >= allArticles.length) button.classList.add('hidden');
       }
 
       button.addEventListener('click', renderPage);
     </script>
   </section>
+
   <!-- Grid de bloques informativos -->
   <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
@@ -198,9 +266,9 @@ import Seo from '../../components/Seo.astro';
     <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
       <h2 class="text-2xl font-bold text-purple-900 mb-4">🔍 Cómo encontrar artículos científicos fiables</h2>
       <ul class="list-disc pl-6 text-purple-700">
-        <li><a href="https://scholar.google.es" class="underline font-semibold" target="_blank">Google Scholar</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov" class="underline font-semibold" target="_blank">PubMed</a></li>
-        <li><a href="https://doaj.org" class="underline font-semibold" target="_blank">DOAJ</a></li>
+        <li><a href="https://scholar.google.es" class="underline font-semibold" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov" class="underline font-semibold" target="_blank" rel="noopener noreferrer">PubMed</a></li>
+        <li><a href="https://doaj.org" class="underline font-semibold" target="_blank" rel="noopener noreferrer">DOAJ</a></li>
         <li><strong>Repositorios universitarios</strong>: tesis y artículos en acceso abierto.</li>
         <li><strong>Evita fuentes no verificadas</strong>: busca publicaciones peer-reviewed.</li>
       </ul>
@@ -271,6 +339,7 @@ import Seo from '../../components/Seo.astro';
       </div>
     </div>
   </section>
+
   <!-- Adsense -->
   <ins class="adsbygoogle"
      style="display:block"
@@ -293,4 +362,3 @@ import Seo from '../../components/Seo.astro';
     }
   </script>
 </Layout>
-
