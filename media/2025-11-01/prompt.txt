@@ -1,9 +1,0 @@
-Ilustración científica minimalista y moderna sobre: "¿Calificar a mi profesor de IA? Las percepciones de los estudiantes sobre los chatbots influirán en su forma de aprender con IA".
-Requisitos:
-- Estilo: vector flat, limpio, accesible, alto contraste; colores amigables WCAG.
-- Nada de texto ni logotipos, sin marcas reales; composición clara y sin saturación.
-- Fondo claro y formas geométricas abstractas sutiles.
-- Enfoque divulgativo, técnico pero atractivo, sin realismo fotográfico.
-- Orientación cuadrada o 4:5; dejar margen de seguridad.
-Contexto (no dibujar texto, solo orientar la escena):
-- Fuente: Phys.org (Latest) | Fecha: 2025-11-01
