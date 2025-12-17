@@ -1,6 +1,24 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
+
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const PER_PAGE = 10;
+const JSON_PATH = path.join(process.cwd(), "public", "eduflash.json");
+
+let allArticles = [];
+try {
+  const raw = await fs.readFile(JSON_PATH, "utf-8");
+  const parsed = JSON.parse(raw);
+  allArticles = Array.isArray(parsed) ? parsed : [];
+} catch {
+  allArticles = [];
+}
+
+allArticles.sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+const initialArticles = allArticles.slice(0, PER_PAGE);
 ---
 
 <Seo 
@@ -22,13 +40,38 @@ import Seo from '../../components/Seo.astro';
   </section>
 
   <section class="bg-white py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        <h2 class="text-2xl font-bold text-yellow-900">📰 Últimas noticias educativas</h2>
-        <p class="text-yellow-800 mb-6">
-          Esta sección se actualiza automáticamente todos los días. Incluye titulares y resúmenes breves de las noticias más recientes.
-        </p>
-      </div>
-      <div id="eduflash" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+      <h2 class="text-2xl font-bold text-yellow-900">📰 Últimas noticias educativas</h2>
+      <p class="text-yellow-800 mb-6">
+        Esta sección se actualiza automáticamente todos los días. Incluye titulares y resúmenes breves de las noticias más recientes.
+      </p>
+    </div>
+
+    <!-- Render inicial (SSG/SSR) -->
+    <div id="eduflash" class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {initialArticles.map((article) => {
+        const hasContent = article?.content_es && article.content_es.trim() !== "";
+        const title = article?.title_es ?? article?.title ?? "Noticia educativa";
+        const source = article?.source ?? "Fuente";
+        const href = article?.url ?? "#";
+        const date = article?.date ? new Date(article.date).toLocaleDateString() : "";
+
+        return (
+          <article class="bg-white rounded-xl p-4 shadow-md">
+            <h3 class="text-xl font-semibold text-yellow-900">{title}</h3>
+            <p class="text-gray-600 text-sm mb-2">{source}{date ? ` | ${date}` : ""}</p>
+            {hasContent ? <p class="text-gray-800">{article.content_es}</p> : null}
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-yellow-700 hover:underline block mt-2"
+            >
+              Leer más
+            </a>
+          </article>
+        );
+      })}
     </div>
 
     <div class="flex justify-center mt-8">
@@ -41,34 +84,41 @@ import Seo from '../../components/Seo.astro';
   <script type="module">
     const container = document.querySelector('#eduflash');
     const button = document.querySelector('#loadMore');
-    let currentPage = 1;
+
     const perPage = 10;
+    let currentPage = 2; // 👈 ya hay 1ª página renderizada en HTML
     let allArticles = [];
 
     fetch('/eduflash.json')
       .then(res => res.json())
       .then(data => {
-        allArticles = data.sort((a, b) => new Date(b.date) - new Date(a.date));
-        renderPage();
-        if (data.length > perPage) button.classList.remove('hidden');
+        allArticles = (Array.isArray(data) ? data : [])
+          .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+
+        if (allArticles.length > perPage) button.classList.remove('hidden');
       });
 
     function renderPage() {
       const start = (currentPage - 1) * perPage;
       const end = start + perPage;
       const currentArticles = allArticles.slice(start, end);
+
       currentArticles.forEach(article => {
         const hasContent = article.content_es && article.content_es.trim() !== "";
+        const title = article.title_es || article.title || "Noticia educativa";
+        const date = article.date ? new Date(article.date).toLocaleDateString() : "";
         const html = `
           <article class="bg-white rounded-xl p-4 shadow-md">
-            <h3 class="text-xl font-semibold text-yellow-900">${article.title_es}</h3>
-            <p class="text-gray-600 text-sm mb-2">${article.source} | ${new Date(article.date).toLocaleDateString()}</p>
+            <h3 class="text-xl font-semibold text-yellow-900">${title}</h3>
+            <p class="text-gray-600 text-sm mb-2">${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
             ${hasContent ? `<p class="text-gray-800">${article.content_es}</p>` : ''}
-            <a href="${article.url}" target="_blank" class="text-yellow-700 hover:underline block mt-2">Leer más</a>
+            <a href="${article.url || '#'}" target="_blank" rel="noopener noreferrer" class="text-yellow-700 hover:underline block mt-2">Leer más</a>
           </article>`;
         container.insertAdjacentHTML('beforeend', html);
       });
+
       currentPage++;
+
       if ((currentPage - 1) * perPage >= allArticles.length) {
         button.classList.add('hidden');
       }
@@ -84,6 +134,7 @@ import Seo from '../../components/Seo.astro';
       <a href="/formacion" class="bg-yellow-700 hover:bg-yellow-800 text-white py-2 px-4 rounded-xl shadow">Explorar formación educativa</a>
     </div>
   </section>
+
   <!-- CTA final -->
   <section class="bg-purple-100 mt-12 py-6 rounded-xl shadow-sm">
     <div class="max-w-4xl mx-auto px-4 text-center">
@@ -96,7 +147,8 @@ import Seo from '../../components/Seo.astro';
       </div>
     </div>
   </section>
-<!-- Adsense -->
+
+  <!-- Adsense -->
   <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
