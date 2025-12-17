@@ -12,5 +12,3 @@ Allow: /sw.js
 
 # Sitemap(s)
 Sitemap: https://futurocientifico.vercel.app/sitemap-index.xml
-Sitemap: https://futurocientifico.vercel.app/sitemap.xml
-
