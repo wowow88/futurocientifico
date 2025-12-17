@@ -1,14 +1,14 @@
 User-agent: *
 Allow: /
 
-# No indexar datos internos
+# No indexar datos internos (feeds/JSON)
 Disallow: /eduflash.json
 Disallow: /articles.json
 Disallow: /articles_enriched.json
 
-# Respeta la privacidad de los recursos PWA si los sirves
-Disallow: /service-worker.js
-Disallow: /manifest.webmanifest
+# Archivos PWA (mejor permitirlos)
+Allow: /manifest.webmanifest
+Allow: /sw.js
 
-# Sitemap generado por Astro (@astrojs/sitemap)
+# Sitemap(s)
 Sitemap: https://futurocientifico.vercel.app/sitemap.xml
