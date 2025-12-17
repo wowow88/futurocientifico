@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-
+env:
+  PUBLIC_DISABLE_TRACKING: "true"
+  PUBLIC_ADSENSE_CLIENT: "ca-pub-2163450732409344"
 jobs:
   check-astro:
     runs-on: ubuntu-latest
