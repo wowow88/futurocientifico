@@ -1,0 +1,198 @@
+---
+const {
+  placeholder = "Buscar en artículos…",
+  maxResults = 8,
+} = Astro.props;
+
+const focusRing =
+  "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500";
+---
+
+<div class="relative w-full max-w-xl">
+  <label for="fc-search" class="sr-only">Buscar en artículos</label>
+
+  <input
+    id="fc-search"
+    type="search"
+    inputmode="search"
+    autocomplete="off"
+    placeholder={placeholder}
+    class={`w-full rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm ${focusRing}`}
+  />
+
+  <div
+    id="fc-search-panel"
+    class="absolute left-0 right-0 mt-2 hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/10 overflow-hidden"
+    role="listbox"
+    aria-label="Resultados de búsqueda"
+  >
+    <div id="fc-search-status" class="px-4 py-3 text-sm text-gray-600 border-b"></div>
+    <div id="fc-search-results" class="max-h-96 overflow-auto"></div>
+    <div class="px-4 py-3 text-xs text-gray-500 border-t">
+      Busca en <strong>articles_enriched.json</strong>
+    </div>
+  </div>
+
+  <script type="module" is:inline>
+    const input = document.getElementById("fc-search");
+    const panel = document.getElementById("fc-search-panel");
+    const status = document.getElementById("fc-search-status");
+    const resultsEl = document.getElementById("fc-search-results");
+
+    const MAX_RESULTS = Number({maxResults}) || 8;
+    const JSON_URL = "/articles_enriched.json";
+
+    let data = null;
+    let timer = null;
+
+    const normalize = (s) =>
+      (s ?? "")
+        .toString()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .trim();
+
+    const escapeHtml = (str) =>
+      (str ?? "")
+        .toString()
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+
+    function openPanel() {
+      panel.classList.remove("hidden");
+    }
+    function closePanel() {
+      panel.classList.add("hidden");
+    }
+    function setStatus(text) {
+      status.textContent = text;
+    }
+
+    async function ensureData() {
+      if (data) return data;
+      setStatus("Cargando artículos…");
+      openPanel();
+      try {
+        const res = await fetch(JSON_URL, { cache: "no-store" });
+        const json = await res.json();
+        data = Array.isArray(json) ? json : [];
+      } catch {
+        data = [];
+      }
+      return data;
+    }
+
+    function scoreItem(item, q) {
+      // Solo buscamos en fields típicos (puedes añadir content_es si quieres)
+      const fields = [
+        item?.title_es, item?.title,
+        item?.source,
+        Array.isArray(item?.tags) ? item.tags.join(" ") : ""
+      ].map(normalize).join(" | ");
+
+      if (!fields) return -1;
+
+      const idx = fields.indexOf(q);
+      if (idx === -1) return -1;
+
+      const title = normalize(item?.title_es ?? item?.title ?? "");
+      const boost = title.includes(q) ? 50 : 0;
+
+      return boost + Math.max(0, 500 - idx);
+    }
+
+    function render(items, qRaw) {
+      resultsEl.innerHTML = "";
+
+      if (!qRaw) {
+        setStatus("Escribe para buscar.");
+        return;
+      }
+
+      if (!items.length) {
+        setStatus(`Sin resultados para “${qRaw}”.`);
+        return;
+      }
+
+      setStatus(`${items.length} resultado(s) para “${qRaw}”.`);
+
+      const html = items.slice(0, MAX_RESULTS).map((item) => {
+        const title = escapeHtml(item?.title_es ?? item?.title ?? "Artículo");
+        const source = escapeHtml(item?.source ?? "Fuente");
+        const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
+        const href = item?.pdf || item?.url || "#";
+
+        // Si prefieres que siempre abra la fuente original, deja solo item.url
+        return `
+          <a
+            class="block px-4 py-3 hover:bg-purple-50 focus:bg-purple-50 outline-none"
+            href="${href}"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="option"
+          >
+            <div class="text-sm font-semibold text-purple-900">${title}</div>
+            <div class="text-xs text-gray-600">${source}${date ? ` | ${date}` : ""}</div>
+          </a>
+        `;
+      }).join("");
+
+      resultsEl.insertAdjacentHTML("beforeend", html);
+    }
+
+    async function run() {
+      const qRaw = input.value.trim();
+      const q = normalize(qRaw);
+
+      if (!q) {
+        openPanel();
+        resultsEl.innerHTML = "";
+        setStatus("Escribe para buscar.");
+        return;
+      }
+
+      const list = await ensureData();
+
+      const scored = list
+        .map((item) => ({ item, score: scoreItem(item, q) }))
+        .filter((x) => x.score >= 0)
+        .sort((a, b) => b.score - a.score)
+        .map((x) => x.item);
+
+      openPanel();
+      render(scored, qRaw);
+    }
+
+    function debouncedRun() {
+      clearTimeout(timer);
+      timer = setTimeout(run, 150);
+    }
+
+    input.addEventListener("input", debouncedRun);
+
+    input.addEventListener("focus", () => {
+      openPanel();
+      if (!input.value.trim()) {
+        resultsEl.innerHTML = "";
+        setStatus("Escribe para buscar.");
+      } else {
+        run();
+      }
+    });
+
+    // Cerrar al clicar fuera
+    document.addEventListener("click", (e) => {
+      const within = panel.contains(e.target) || input.contains(e.target);
+      if (!within) closePanel();
+    });
+
+    // Escape para cerrar
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closePanel();
+    });
+  </script>
+</div>
