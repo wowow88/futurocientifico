@@ -334,25 +334,53 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
       const close = () => panel.classList.add("hidden");
       const setStatus = (t) => (status.textContent = t);
 
-      function score(item, q) {
-        // SOLO title_es y source (como pediste)
-        const t = normalize(item?.title_es ?? "");
-        const s = normalize(item?.source ?? "");
-        const inTitle = t.includes(q);
-        const inSource = s.includes(q);
+    function score(item, queryRaw, sourcesNorm) {
+      const tokens = normalize(queryRaw).split(/\s+/).filter(Boolean);
+      if (!tokens.length) return -1;
 
-        if (!inTitle && !inSource) return -1;
+  // Detectar si alguna palabra parece una FUENTE (arxiv, nasa, nature...)
+      let sourceToken = null;
 
-        let sc = 0;
-        if (inTitle) sc += 200;
-        if (inSource) sc += 80;
+  // Prioriza coincidencia exacta; si no, contiene
+      for (const t of tokens) {
+    const exact = sourcesNorm.find(s => s === t);
+      if (exact) { sourceToken = exact; break; }
+    }
+  if (!sourceToken) {
+    for (const t of tokens) {
+      const partial = sourcesNorm.find(s => s.includes(t) || t.includes(s));
+      if (partial) { sourceToken = partial; break; }
+    }
+  }
 
-        const idxT = inTitle ? t.indexOf(q) : 9999;
-        const idxS = inSource ? s.indexOf(q) : 9999;
-        sc += Math.max(0, 100 - Math.min(idxT, idxS));
+  const titleTokens = sourceToken ? tokens.filter(t => t !== sourceToken) : tokens;
 
-        return sc;
-      }
+  const title = normalize(item?.title_es ?? "");
+  const source = normalize(item?.source ?? "");
+
+  // Reglas:
+  // - si hay sourceToken: source debe coincidir
+  // - si hay titleTokens: TODOS deben estar en el título
+  const okSource = sourceToken ? source.includes(sourceToken) : true;
+  const okTitle = titleTokens.length ? titleTokens.every(t => title.includes(t)) : true;
+
+  if (!okSource || !okTitle) return -1;
+
+  // Scoring simple: título pesa más, y fuente suma si se usó
+  let sc = 0;
+
+  if (sourceToken) sc += 120;
+  if (titleTokens.length) sc += 200;
+
+  // Bonus por aparecer pronto en el título
+  if (titleTokens.length) {
+    const firstPos = Math.min(...titleTokens.map(t => title.indexOf(t)).filter(i => i >= 0));
+    sc += Math.max(0, 120 - firstPos);
+  }
+
+  return sc;
+}
+
 
       function render(items, qRaw) {
         resultsEl.innerHTML = "";
@@ -400,12 +428,16 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
 
         const list = await loadData(setStatus);
 
+        // Normalizamos las fuentes disponibles 1 vez por búsqueda
+        const sourcesNorm = Array.from(
+        new Set(list.map(a => a?.source).filter(Boolean).map(s => normalize(s)))
+        );
+
         const scored = list
-          .map((item) => ({ item, sc: score(item, q) }))
+          .map((item) => ({ item, sc: score(item, qRaw, sourcesNorm) }))
           .filter((x) => x.sc >= 0)
           .sort((a, b) => b.sc - a.sc)
           .map((x) => x.item);
-
         render(scored, qRaw);
       }
 
