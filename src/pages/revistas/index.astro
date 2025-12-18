@@ -56,20 +56,11 @@ const initialArticles = allArticles.slice(0, PER_PAGE);
         const source = article?.source ?? "Fuente";
         const date = article?.date ? new Date(article.date).toLocaleDateString() : "";
         const href = article?.pdf || article?.url || "#";
-        const tags = Array.isArray(article?.tags) ? article.tags : [];
 
         return (
           <div class="bg-white rounded-xl p-4 shadow-md">
             <h3 class="text-xl font-semibold text-blue-900">{title}</h3>
             <p class="text-gray-600 text-sm mb-2">{source}{date ? ` | ${date}` : ""}</p>
-
-            {tags.length > 0 ? (
-              <div class="mb-2">
-                {tags.map((tag) => (
-                  <span class="inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2">#{tag}</span>
-                ))}
-              </div>
-            ) : null}
 
             <a
               href={href}
@@ -114,11 +105,7 @@ const initialArticles = allArticles.slice(0, PER_PAGE);
         const currentArticles = allArticles.slice(start, end);
 
         currentArticles.forEach(article => {
-          const tags = Array.isArray(article.tags) && article.tags.length
-            ? article.tags.map(tag =>
-                `<span class='inline-block bg-green-200 text-green-800 text-xs px-2 py-1 rounded mr-2'>#${tag}</span>`
-              ).join('')
-            : '';
+          ;
 
           const title = article.title_es || article.title || 'Artículo científico';
           const date = article.date ? new Date(article.date).toLocaleDateString() : '';
@@ -127,8 +114,7 @@ const initialArticles = allArticles.slice(0, PER_PAGE);
           const html = `
             <div class='bg-white rounded-xl p-4 shadow-md'>
               <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
-              <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
-              ${tags ? `<div class='mb-2'>${tags}</div>` : ''}
+              <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>    
               <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
             </div>`;
           grid.insertAdjacentHTML('beforeend', html);
