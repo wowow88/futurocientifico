@@ -5,10 +5,7 @@ const focusRing =
   "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500";
 ---
 
-<div
-  class="fc-search-root relative w-full max-w-2xl"
-  data-max-results={maxResults}
->
+<div class="fc-search-root relative w-full max-w-2xl" data-max-results={maxResults}>
   <form role="search" class="w-full" onsubmit="return false">
     <label class="sr-only">Buscar en artículos</label>
 
@@ -31,8 +28,7 @@ const focusRing =
     </div>
     <div class="fc-search-results max-h-96 overflow-auto"></div>
     <div class="px-4 py-3 text-xs text-gray-500 border-t">
-      Busca en <strong>title_es</strong> y <strong>source</strong> —
-      <a href="/articles_enriched.json" class="underline" target="_blank" rel="noopener noreferrer">ver JSON</a>
+      Busca en <strong>title_es</strong> y <strong>source</strong>
     </div>
   </div>
 </div>
