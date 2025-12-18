@@ -1,5 +1,5 @@
 ---
-const { placeholder = "Buscar en artículos…", maxResults = 8 } = Astro.props;
+const { placeholder = "Buscar en artículos…", maxResults = 0 } = Astro.props;
 
 const focusRing =
   "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500";
@@ -30,7 +30,7 @@ const focusRing =
     <div class="fc-search-results max-h-96 overflow-auto"></div>
 
     <div class="px-4 py-3 text-xs text-gray-500 border-t">
-      Busca en <strong>title_es</strong> y <strong>source</strong>
+      Busca en <strong>Título</strong> y <strong>Fuente</strong>
     </div>
   </div>
 </div>
