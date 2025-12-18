@@ -1,45 +1,46 @@
 ---
-const {
-  placeholder = "Buscar en artículos…",
-  maxResults = 8,
-} = Astro.props;
+const { placeholder = "Buscar en artículos…", maxResults = 8 } = Astro.props;
 
 const focusRing =
   "focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500";
 ---
 
-<div class="relative w-full max-w-2xl">
-  <label for="fc-search" class="sr-only">Buscar en artículos</label>
+<div data-fc-search class="relative w-full max-w-2xl">
+  <form role="search" class="w-full" onsubmit="return false">
+    <label class="sr-only">Buscar en artículos</label>
 
-  <input
-    id="fc-search"
-    type="search"
-    inputmode="search"
-    autocomplete="off"
-    placeholder={placeholder}
-    class={`w-full rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm ${focusRing}`}
-  />
+    <input
+      type="search"
+      inputmode="search"
+      autocomplete="off"
+      placeholder={placeholder}
+      class={`w-full rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm ${focusRing}`}
+    />
+  </form>
 
   <div
-    id="fc-search-panel"
-    class="absolute left-0 right-0 mt-2 hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/10 overflow-hidden z-50"
+    class="fc-panel absolute left-0 right-0 mt-2 hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/10 overflow-hidden z-50"
     role="listbox"
     aria-label="Resultados de búsqueda"
   >
-    <div id="fc-search-status" class="px-4 py-3 text-sm text-gray-600 border-b"></div>
-    <div id="fc-search-results" class="max-h-96 overflow-auto"></div>
+    <div class="fc-status px-4 py-3 text-sm text-gray-600 border-b"></div>
+    <div class="fc-results max-h-96 overflow-auto"></div>
     <div class="px-4 py-3 text-xs text-gray-500 border-t">
-      Busca en <strong>title_es</strong> y <strong>source</strong>
+      Busca en <strong>title_es</strong> y <strong>source</strong> —
+      <a href="/articles_enriched.json" class="underline" target="_blank" rel="noopener noreferrer">ver JSON</a>
     </div>
   </div>
 
   <script is:inline>
     {`
       (() => {
-        const input = document.getElementById("fc-search");
-        const panel = document.getElementById("fc-search-panel");
-        const status = document.getElementById("fc-search-status");
-        const resultsEl = document.getElementById("fc-search-results");
+        const root = document.currentScript?.closest('[data-fc-search]');
+        if (!root) return;
+
+        const input = root.querySelector('input[type="search"]');
+        const panel = root.querySelector('.fc-panel');
+        const status = root.querySelector('.fc-status');
+        const resultsEl = root.querySelector('.fc-results');
 
         if (!input || !panel || !status || !resultsEl) return;
 
@@ -76,30 +77,28 @@ const focusRing =
           openPanel();
           try {
             const res = await fetch(JSON_URL, { cache: "no-store" });
+            if (!res.ok) throw new Error("HTTP " + res.status);
             const json = await res.json();
             data = Array.isArray(json) ? json : [];
           } catch (e) {
             data = [];
+            setStatus("No se pudo cargar articles_enriched.json (mira el enlace ‘ver JSON’).");
           }
           return data;
         }
 
         function scoreItem(item, q) {
-          // SOLO title_es y source (como pides)
           const t = normalize(item?.title_es ?? "");
           const s = normalize(item?.source ?? "");
 
           const inTitle = t.includes(q);
           const inSource = s.includes(q);
-
           if (!inTitle && !inSource) return -1;
 
-          // ranking simple: title pesa más que source
           let score = 0;
           if (inTitle) score += 200;
           if (inSource) score += 80;
 
-          // cuanto antes aparezca, un poquito mejor
           const idxT = inTitle ? t.indexOf(q) : 9999;
           const idxS = inSource ? s.indexOf(q) : 9999;
           score += Math.max(0, 100 - Math.min(idxT, idxS));
@@ -158,7 +157,6 @@ const focusRing =
           }
 
           const list = await ensureData();
-
           const scored = list
             .map((item) => ({ item, score: scoreItem(item, q) }))
             .filter((x) => x.score >= 0)
@@ -175,6 +173,13 @@ const focusRing =
 
         input.addEventListener("input", debouncedRun);
 
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            run();
+          }
+        });
+
         input.addEventListener("focus", () => {
           openPanel();
           if (!input.value.trim()) {
@@ -186,7 +191,7 @@ const focusRing =
         });
 
         document.addEventListener("click", (e) => {
-          const within = panel.contains(e.target) || input.contains(e.target);
+          const within = root.contains(e.target);
           if (!within) closePanel();
         });
 
