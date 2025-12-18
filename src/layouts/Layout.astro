@@ -325,7 +325,7 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
       const panel = root.querySelector(".fc-search-panel");
       const status = root.querySelector(".fc-search-status");
       const resultsEl = root.querySelector(".fc-search-results");
-      const max = parseInt(root.getAttribute("data-max-results") || "8", 10);
+      const max = parseInt(root.getAttribute("data-max-results") || "0", 10);
 
       if (!input || !panel || !status || !resultsEl) return;
 
