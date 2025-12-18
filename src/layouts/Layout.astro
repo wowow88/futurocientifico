@@ -325,7 +325,8 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
       const panel = root.querySelector(".fc-search-panel");
       const status = root.querySelector(".fc-search-status");
       const resultsEl = root.querySelector(".fc-search-results");
-      const max = parseInt(root.getAttribute("data-max-results") || "0", 10);
+      const rawMax = parseInt(root.getAttribute("data-max-results") || "0", 10);
+      const max = Number.isFinite(rawMax) && rawMax > 0 ? rawMax : Infinity;
 
       if (!input || !panel || !status || !resultsEl) return;
 
@@ -367,8 +368,9 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
 
         setStatus(`${items.length} resultado(s) para “${qRaw}”.`);
 
-        const html = items.slice(0, max).map((item) => {
-          const title = escapeHtml(item?.title_es ?? "Artículo");
+        const shown = Number.isFinite(max) ? items.slice(0, max) : items;
+        const html = shown.map((item) => {
+          const title = escapeHtml(item?.title_es ?? "Título");
           const source = escapeHtml(item?.source ?? "Fuente");
           const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
           const href = item?.url || "#";
