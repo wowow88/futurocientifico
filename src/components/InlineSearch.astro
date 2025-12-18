@@ -22,166 +22,178 @@ const focusRing =
 
   <div
     id="fc-search-panel"
-    class="absolute left-0 right-0 mt-2 hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/10 overflow-hidden"
+    class="absolute left-0 right-0 mt-2 hidden rounded-2xl bg-white shadow-lg ring-1 ring-black/10 overflow-hidden z-50"
     role="listbox"
     aria-label="Resultados de búsqueda"
   >
     <div id="fc-search-status" class="px-4 py-3 text-sm text-gray-600 border-b"></div>
     <div id="fc-search-results" class="max-h-96 overflow-auto"></div>
     <div class="px-4 py-3 text-xs text-gray-500 border-t">
-      Busca en <strong>articles_enriched.json</strong>
+      Busca en <strong>title_es</strong> y <strong>source</strong>
     </div>
   </div>
 
-  <script type="module" is:inline>
-    const input = document.getElementById("fc-search");
-    const panel = document.getElementById("fc-search-panel");
-    const status = document.getElementById("fc-search-status");
-    const resultsEl = document.getElementById("fc-search-results");
+  <script is:inline>
+    {`
+      (() => {
+        const input = document.getElementById("fc-search");
+        const panel = document.getElementById("fc-search-panel");
+        const status = document.getElementById("fc-search-status");
+        const resultsEl = document.getElementById("fc-search-results");
 
-    const MAX_RESULTS = Number({maxResults}) || 8;
-    const JSON_URL = "/articles_enriched.json";
+        if (!input || !panel || !status || !resultsEl) return;
 
-    let data = null;
-    let timer = null;
+        const MAX_RESULTS = ${Number(maxResults) || 8};
+        const JSON_URL = "/articles_enriched.json";
 
-    const normalize = (s) =>
-      (s ?? "")
-        .toString()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .trim();
+        let data = null;
+        let timer = null;
 
-    const escapeHtml = (str) =>
-      (str ?? "")
-        .toString()
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+        const normalize = (s) =>
+          (s ?? "")
+            .toString()
+            .normalize("NFD")
+            .replace(/[\\u0300-\\u036f]/g, "")
+            .toLowerCase()
+            .trim();
 
-    function openPanel() { panel.classList.remove("hidden"); }
-    function closePanel() { panel.classList.add("hidden"); }
-    function setStatus(text) { status.textContent = text; }
+        const escapeHtml = (str) =>
+          (str ?? "")
+            .toString()
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;")
+            .replaceAll("'", "&#039;");
 
-    async function ensureData() {
-      if (data) return data;
-      setStatus("Cargando artículos…");
-      openPanel();
-      try {
-        const res = await fetch(JSON_URL, { cache: "no-store" });
-        const json = await res.json();
-        data = Array.isArray(json) ? json : [];
-      } catch {
-        data = [];
-      }
-      return data;
-    }
+        function openPanel() { panel.classList.remove("hidden"); }
+        function closePanel() { panel.classList.add("hidden"); }
+        function setStatus(text) { status.textContent = text; }
 
-    function scoreItem(item, q) {
-      const fields = [
-        item?.title_es, item?.title,
-        item?.source,
-        Array.isArray(item?.tags) ? item.tags.join(" ") : ""
-      ].map(normalize).join(" | ");
+        async function ensureData() {
+          if (data) return data;
+          setStatus("Cargando artículos…");
+          openPanel();
+          try {
+            const res = await fetch(JSON_URL, { cache: "no-store" });
+            const json = await res.json();
+            data = Array.isArray(json) ? json : [];
+          } catch (e) {
+            data = [];
+          }
+          return data;
+        }
 
-      if (!fields) return -1;
+        function scoreItem(item, q) {
+          // SOLO title_es y source (como pides)
+          const t = normalize(item?.title_es ?? "");
+          const s = normalize(item?.source ?? "");
 
-      const idx = fields.indexOf(q);
-      if (idx === -1) return -1;
+          const inTitle = t.includes(q);
+          const inSource = s.includes(q);
 
-      const title = normalize(item?.title_es ?? item?.title ?? "");
-      const boost = title.includes(q) ? 50 : 0;
-      return boost + Math.max(0, 500 - idx);
-    }
+          if (!inTitle && !inSource) return -1;
 
-    function render(items, qRaw) {
-      resultsEl.innerHTML = "";
+          // ranking simple: title pesa más que source
+          let score = 0;
+          if (inTitle) score += 200;
+          if (inSource) score += 80;
 
-      if (!qRaw) {
-        setStatus("Escribe para buscar.");
-        return;
-      }
+          // cuanto antes aparezca, un poquito mejor
+          const idxT = inTitle ? t.indexOf(q) : 9999;
+          const idxS = inSource ? s.indexOf(q) : 9999;
+          score += Math.max(0, 100 - Math.min(idxT, idxS));
 
-      if (!items.length) {
-        setStatus(`Sin resultados para “${qRaw}”.`);
-        return;
-      }
+          return score;
+        }
 
-      setStatus(`${items.length} resultado(s) para “${qRaw}”.`);
+        function render(items, qRaw) {
+          resultsEl.innerHTML = "";
 
-      const html = items.slice(0, MAX_RESULTS).map((item) => {
-        const title = escapeHtml(item?.title_es ?? item?.title ?? "Artículo");
-        const source = escapeHtml(item?.source ?? "Fuente");
-        const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
-        const href = item?.pdf || item?.url || "#";
+          if (!qRaw) {
+            setStatus("Escribe para buscar.");
+            return;
+          }
 
-        return `
-          <a
-            class="block px-4 py-3 hover:bg-purple-50 focus:bg-purple-50 outline-none"
-            href="${href}"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="option"
-          >
-            <div class="text-sm font-semibold text-purple-900">${title}</div>
-            <div class="text-xs text-gray-600">${source}${date ? ` | ${date}` : ""}</div>
-          </a>
-        `;
-      }).join("");
+          if (!items.length) {
+            setStatus(\`Sin resultados para “\${qRaw}”.\`);
+            return;
+          }
 
-      resultsEl.insertAdjacentHTML("beforeend", html);
-    }
+          setStatus(\`\${items.length} resultado(s) para “\${qRaw}”.\`);
 
-    async function run() {
-      const qRaw = input.value.trim();
-      const q = normalize(qRaw);
+          const html = items.slice(0, MAX_RESULTS).map((item) => {
+            const title = escapeHtml(item?.title_es ?? "Artículo");
+            const source = escapeHtml(item?.source ?? "Fuente");
+            const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
+            const href = item?.url || "#";
 
-      if (!q) {
-        openPanel();
-        resultsEl.innerHTML = "";
-        setStatus("Escribe para buscar.");
-        return;
-      }
+            return \`
+              <a
+                class="block px-4 py-3 hover:bg-purple-50 focus:bg-purple-50 outline-none"
+                href="\${href}"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="option"
+              >
+                <div class="text-sm font-semibold text-purple-900">\${title}</div>
+                <div class="text-xs text-gray-600">\${source}\${date ? \` | \${date}\` : ""}</div>
+              </a>
+            \`;
+          }).join("");
 
-      const list = await ensureData();
+          resultsEl.insertAdjacentHTML("beforeend", html);
+        }
 
-      const scored = list
-        .map((item) => ({ item, score: scoreItem(item, q) }))
-        .filter((x) => x.score >= 0)
-        .sort((a, b) => b.score - a.score)
-        .map((x) => x.item);
+        async function run() {
+          const qRaw = input.value.trim();
+          const q = normalize(qRaw);
 
-      openPanel();
-      render(scored, qRaw);
-    }
+          openPanel();
 
-    function debouncedRun() {
-      clearTimeout(timer);
-      timer = setTimeout(run, 150);
-    }
+          if (!q) {
+            resultsEl.innerHTML = "";
+            setStatus("Escribe para buscar.");
+            return;
+          }
 
-    input.addEventListener("input", debouncedRun);
+          const list = await ensureData();
 
-    input.addEventListener("focus", () => {
-      openPanel();
-      if (!input.value.trim()) {
-        resultsEl.innerHTML = "";
-        setStatus("Escribe para buscar.");
-      } else {
-        run();
-      }
-    });
+          const scored = list
+            .map((item) => ({ item, score: scoreItem(item, q) }))
+            .filter((x) => x.score >= 0)
+            .sort((a, b) => b.score - a.score)
+            .map((x) => x.item);
 
-    document.addEventListener("click", (e) => {
-      const within = panel.contains(e.target) || input.contains(e.target);
-      if (!within) closePanel();
-    });
+          render(scored, qRaw);
+        }
 
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closePanel();
-    });
+        function debouncedRun() {
+          clearTimeout(timer);
+          timer = setTimeout(run, 150);
+        }
+
+        input.addEventListener("input", debouncedRun);
+
+        input.addEventListener("focus", () => {
+          openPanel();
+          if (!input.value.trim()) {
+            resultsEl.innerHTML = "";
+            setStatus("Escribe para buscar.");
+          } else {
+            run();
+          }
+        });
+
+        document.addEventListener("click", (e) => {
+          const within = panel.contains(e.target) || input.contains(e.target);
+          if (!within) closePanel();
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") closePanel();
+        });
+      })();
+    `}
   </script>
 </div>
