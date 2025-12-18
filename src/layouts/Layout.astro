@@ -283,5 +283,150 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
         });
       });
     </script>
+<script is:inline>
+  {`
+    (() => {
+      const JSON_URL = "/articles_enriched.json";
+      let cache = null;
+
+      const normalize = (s) =>
+        (s ?? "")
+          .toString()
+          .normalize("NFD")
+          .replace(/[\\u0300-\\u036f]/g, "")
+          .toLowerCase()
+          .trim();
+
+      const escapeHtml = (str) =>
+        (str ?? "")
+          .toString()
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+
+      async function loadData(setStatus) {
+        if (cache) return cache;
+        setStatus("Cargando artículos…");
+        try {
+          const res = await fetch(JSON_URL, { cache: "no-store" });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const json = await res.json();
+          cache = Array.isArray(json) ? json : [];
+        } catch (e) {
+          cache = [];
+          setStatus("No se pudo cargar el JSON.");
+        }
+        return cache;
+      }
+
+      function init(root) {
+        const input = root.querySelector(".fc-search-input");
+        const panel = root.querySelector(".fc-search-panel");
+        const status = root.querySelector(".fc-search-status");
+        const resultsEl = root.querySelector(".fc-search-results");
+        const max = Number(root.dataset.maxResults || "8");
+
+        if (!input || !panel || !status || !resultsEl) return;
+
+        const open = () => panel.classList.remove("hidden");
+        const close = () => panel.classList.add("hidden");
+        const setStatus = (t) => (status.textContent = t);
+
+        function score(item, q) {
+          const t = normalize(item?.title_es ?? "");
+          const s = normalize(item?.source ?? "");
+          const inTitle = t.includes(q);
+          const inSource = s.includes(q);
+          if (!inTitle && !inSource) return -1;
+          let sc = 0;
+          if (inTitle) sc += 200;
+          if (inSource) sc += 80;
+          const idxT = inTitle ? t.indexOf(q) : 9999;
+          const idxS = inSource ? s.indexOf(q) : 9999;
+          sc += Math.max(0, 100 - Math.min(idxT, idxS));
+          return sc;
+        }
+
+        function render(items, qRaw) {
+          resultsEl.innerHTML = "";
+
+          if (!qRaw) {
+            setStatus("Escribe para buscar.");
+            return;
+          }
+          if (!items.length) {
+            setStatus(\`Sin resultados para “\${qRaw}”.\`);
+            return;
+          }
+
+          setStatus(\`\${items.length} resultado(s) para “\${qRaw}”.\`);
+
+          const html = items.slice(0, max).map((item) => {
+            const title = escapeHtml(item?.title_es ?? "Artículo");
+            const source = escapeHtml(item?.source ?? "Fuente");
+            const date = item?.date ? new Date(item.date).toLocaleDateString() : "";
+            const href = item?.url || "#";
+
+            return \`
+              <a class="block px-4 py-3 hover:bg-purple-50 focus:bg-purple-50 outline-none"
+                 href="\${href}" target="_blank" rel="noopener noreferrer" role="option">
+                <div class="text-sm font-semibold text-purple-900">\${title}</div>
+                <div class="text-xs text-gray-600">\${source}\${date ? \` | \${date}\` : ""}</div>
+              </a>
+            \`;
+          }).join("");
+
+          resultsEl.insertAdjacentHTML("beforeend", html);
+        }
+
+        async function run() {
+          const qRaw = input.value.trim();
+          const q = normalize(qRaw);
+          open();
+
+          if (!q) {
+            render([], "");
+            return;
+          }
+
+          const list = await loadData(setStatus);
+
+          const scored = list
+            .map((item) => ({ item, sc: score(item, q) }))
+            .filter((x) => x.sc >= 0)
+            .sort((a, b) => b.sc - a.sc)
+            .map((x) => x.item);
+
+          render(scored, qRaw);
+        }
+
+        let t = null;
+        const debounced = () => {
+          clearTimeout(t);
+          t = setTimeout(run, 150);
+        };
+
+        input.addEventListener("focus", () => { open(); });
+        input.addEventListener("input", debounced);
+        input.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            run();
+          }
+          if (e.key === "Escape") close();
+        });
+
+        document.addEventListener("click", (e) => {
+          if (!root.contains(e.target)) close();
+        });
+      }
+
+      document.querySelectorAll(".fc-search-root").forEach(init);
+    })();
+  `}
+</script>
+
   </body>
 </html>
