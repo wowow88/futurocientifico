@@ -1,5 +1,47 @@
 [
   {
+    "title": "A Fast Volumetric Capture and Reconstruction Pipeline for Dynamic Point Clouds and Gaussian Splats",
+    "title_es": "Una canalización de captura y reconstrucción volumétrica rápida para nubes de puntos dinámicas y salpicaduras gaussianas",
+    "url": "https://arxiv.org/abs/2512.15719",
+    "source": "arXiv",
+    "published": "2025-12-19T05:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "fast",
+      "volumetric"
+    ]
+  },
+  {
+    "title": "Space Station Research Supports New FDA-Approved Cancer Therapy",
+    "title_es": "La investigación de la estación espacial respalda una nueva terapia contra el cáncer aprobada por la FDA",
+    "url": "https://www.nasa.gov/missions/station/iss-research/space-station-research-supports-new-fda-approved-cancer-therapy/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "investigación",
+      "de"
+    ]
+  },
+  {
+    "title": "Early testing of schoolchildren has absolutely zero effect, researchers say",
+    "title_es": "Los investigadores afirman que las pruebas tempranas a los escolares no tienen ningún efecto",
+    "url": "https://phys.org/news/2025-12-early-schoolchildren-absolutely-effect.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "investigadores",
+      "afirman"
+    ]
+  },
+  {
     "title": "Effectively Detecting and Responding to Online Harassment with Large Language Models",
     "title_es": "Detectar y responder eficazmente al acoso en línea con modelos de lenguaje grandes",
     "url": "https://arxiv.org/abs/2512.14700",
@@ -52,6 +94,104 @@
       "por",
       "qué",
       "la"
+    ]
+  },
+  {
+    "title": "EasyV2V: A High-quality Instruction-based Video Editing Framework",
+    "title_es": "EasyV2V: un marco de edición de vídeo basado en instrucciones de alta calidad",
+    "url": "http://arxiv.org/abs/2512.16920v1",
+    "source": "arXiv",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "easyv2v",
+      "un",
+      "marco"
+    ]
+  },
+  {
+    "title": "Listening to the languages of nature",
+    "title_es": "Escuchando los lenguajes de la naturaleza",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aec6091",
+    "source": "Science.org",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "escuchando",
+      "los",
+      "lenguajes"
+    ]
+  },
+  {
+    "title": "Publisher Correction: Covalent targeted radioligands potentiate radionuclide therapy",
+    "title_es": "Corrección del editor: los radioligandos covalentes dirigidos potencian la terapia con radionúclidos",
+    "url": "https://www.nature.com/articles/s41586-025-09982-0",
+    "source": "Nature",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "editor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-premio-cosmos-anuncia-las-obras-finalistas-y-refuerza-su-apuesta-por-la-lectura-cientifica-entre-la\" hreflang=\"es\">El Premio Cosmos anuncia las obras finalistas y refuerza su apuesta por la lectura científica entre la juventud canaria</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-premio-cosmos-anuncia-las-obras-finalistas-y-refuerza-su-apuesta-por-la-lectura-cientifica-entre-la\" hreflang=\"es\">El Premio Cosmos anuncia las obras finalistas y refuerza su apuesta por la lectura científica entre la juventud canaria</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-premio-cosmos-anuncia-las-obras-finalistas-y-refuerza-su-apuesta-por-la-lectura-cientifica-entre-la",
+    "source": "IAC",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-premio-cosmos-anuncia-las-obras-finalistas-y-refuerza-su-apuesta-por-la-lectura-cientifica-entre-la",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "This newfound cascade of events may explain some female gut pain",
+    "title_es": "Esta nueva cascada de eventos puede explicar algunos dolores intestinales femeninos",
+    "url": "https://www.sciencenews.org/article/female-gut-pain-estrogen-ibs-bacteria",
+    "source": "Science News",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "nueva",
+      "cascada"
+    ]
+  },
+  {
+    "title": "Fractals describe patterns hidden all around us",
+    "title_es": "Los fractales describen patrones ocultos a nuestro alrededor",
+    "url": "https://www.snexplores.org/article/fractals-patterns-all-around",
+    "source": "Science News Explores",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "fractales",
+      "describen"
+    ]
+  },
+  {
+    "title": "A hidden T cell switch could make cancer immunotherapy work for more people",
+    "title_es": "Un interruptor oculto de células T podría hacer que la inmunoterapia contra el cáncer funcione para más personas",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251218074429.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-18T00:00:00.000Z",
+    "date": "2025-12-18",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "interruptor",
+      "oculto"
     ]
   },
   {
@@ -332,6 +472,20 @@
       "la",
       "fórmula",
       "pi"
+    ]
+  },
+  {
+    "title": "Private donors pledge 860 million euros for CERN’s Future Circular Collider",
+    "title_es": "Donantes privados prometen 860 millones de euros para el futuro colisionador circular del CERN",
+    "url": "https://home.cern/news/press-release/cern/private-donors-pledge-860-million-euros-cerns-future-circular-collider",
+    "source": "CERN Press",
+    "published": "2025-12-16T00:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "donantes",
+      "privados",
+      "prometen"
     ]
   },
   {
@@ -23301,17 +23455,17 @@
     ]
   },
   {
-    "title": "Correction: Examining oxyhydrogen gas generation experimentally using wet cell design",
-    "title_es": "Corrección: examen experimental de la generación de gas oxihidrógeno utilizando un diseño de celda húmeda",
+    "title": "Contrasting effects of DNA demethylation on cancer-germline gene expression in breast cancer and leukemia cells",
+    "title_es": "Efectos contrastantes de la desmetilación del ADN sobre la expresión de genes de la línea germinal del cáncer en células de cáncer de mama y leucemia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "examen",
-      "experimental"
+      "efectos",
+      "contrastantes",
+      "de"
     ]
   },
   {
