@@ -22,6 +22,17 @@ allArticles = allArticles
   .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
 
 const initialArticles = allArticles.slice(0, PER_PAGE);
+const formatDateES = (value) => {
+  if (!value) return "";
+  const iso = String(value).slice(0, 10); // "YYYY-MM-DD"
+  const parts = iso.split("-");
+  if (parts.length === 3) {
+    const [y, m, d] = parts;
+    return `${d}/${m}/${y}`;
+  }
+  return "";
+};
+
 ---
 
 <Seo 
@@ -54,7 +65,7 @@ const initialArticles = allArticles.slice(0, PER_PAGE);
       {initialArticles.map((article) => {
         const title = article?.title_es ?? article?.title ?? "Artículo científico";
         const source = article?.source ?? "Fuente";
-        const date = article?.date ? new Date(article.date).toLocaleDateString() : "";
+        const date = formatDateES(article?.date);
         const href = article?.pdf || article?.url || "#";
 
         return (
@@ -108,7 +119,11 @@ const initialArticles = allArticles.slice(0, PER_PAGE);
           ;
 
           const title = article.title_es || article.title || 'Artículo científico';
-          const date = article.date ? new Date(article.date).toLocaleDateString() : '';
+          const date = article.date ? (() => {
+            const iso = String(article.date).slice(0, 10);
+            const [y, m, d] = iso.split("-");
+            return (y && m && d) ? `${d}/${m}/${y}` : '';
+          })() : '';
           const href = article.pdf || article.url || '#';
 
           const html = `
