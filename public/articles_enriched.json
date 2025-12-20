@@ -1,5 +1,33 @@
 [
   {
+    "title": "Wind-Sculpted Landscapes: Investigating the Martian Megaripple ‘Hazyview’",
+    "title_es": "Paisajes esculpidos por el viento: investigando la megaripple marciana 'Hazyview'",
+    "url": "https://science.nasa.gov/blog/wind-sculpted-landscapes-investigating-the-martian-megaripple-hazyview/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "paisajes",
+      "esculpidos",
+      "por"
+    ]
+  },
+  {
+    "title": "Lapland's next hotspot after Santa? Torne Valley seeks sustainable tourism",
+    "title_es": "¿El próximo punto de acceso de Laponia después de Papá Noel? El Valle del Torne busca el turismo sostenible",
+    "url": "https://phys.org/news/2025-12-lapland-hotspot-santa-torne-valley.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "próximo",
+      "punto"
+    ]
+  },
+  {
     "title": "A Fast Volumetric Capture and Reconstruction Pipeline for Dynamic Point Clouds and Gaussian Splats",
     "title_es": "Una canalización de captura y reconstrucción volumétrica rápida para nubes de puntos dinámicas y salpicaduras gaussianas",
     "url": "https://arxiv.org/abs/2512.15719",
@@ -39,6 +67,104 @@
       "los",
       "investigadores",
       "afirman"
+    ]
+  },
+  {
+    "title": "Author Correction: Cryo-EM structure of a natural RNA nanocage",
+    "title_es": "Corrección del autor: Estructura crio-EM de una nanojaula de ARN natural",
+    "url": "https://www.nature.com/articles/s41586-025-10022-0",
+    "source": "Nature",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Belenes, árboles y talento musical para crear Navidad en el CNIO",
+    "title_es": "Belenes, árboles y talento musical para crear Navidad en el CNIO",
+    "url": "https://www.cnio.es/noticias/galerias-es/belenes-arboles-y-talento-musical-para-crear-navidad-en-el-cnio/",
+    "source": "CNIO",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "belenes",
+      "árboles",
+      "y"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-lenta-expansion-de-los-halos-de-materia-oscura-produce-de-manera-natural-distribuciones-estelares\" hreflang=\"es\">La lenta expansión de los halos de materia oscura produce de manera natural distribuciones estelares tan extendidas como las observadas</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-lenta-expansion-de-los-halos-de-materia-oscura-produce-de-manera-natural-distribuciones-estelares\" hreflang=\"es\">La lenta expansión de los halos de materia oscura produce de manera natural distribuciones estelares tan extendidas como las observadas</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-lenta-expansion-de-los-halos-de-materia-oscura-produce-de-manera-natural-distribuciones-estelares",
+    "source": "IAC",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-lenta-expansion-de-los-halos-de-materia-oscura-produce-de-manera-natural-distribuciones-estelares",
+      "hreflangesla"
+    ]
+  },
+  {
+    "title": "CERN highlights in 2025",
+    "title_es": "Lo más destacado del CERN en 2025",
+    "url": "https://home.cern/news/news/cern/cern-highlights-2025",
+    "source": "CERN News",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "lo",
+      "más",
+      "destacado"
+    ]
+  },
+  {
+    "title": "An asteroid could hit the moon in 2032, scattering debris toward Earth",
+    "title_es": "Un asteroide podría chocar contra la luna en 2032, dispersando escombros hacia la Tierra",
+    "url": "https://www.sciencenews.org/article/asteroid-moon-impact-2032-2024-yr4",
+    "source": "Science News",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "asteroide",
+      "podría"
+    ]
+  },
+  {
+    "title": "Brain scans reveal where taste and smell combine to become flavor",
+    "title_es": "Los escáneres cerebrales revelan dónde se combinan el gusto y el olfato para convertirse en sabor",
+    "url": "https://www.snexplores.org/article/brain-combine-taste-smell-flavor",
+    "source": "Science News Explores",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "escáneres",
+      "cerebrales"
+    ]
+  },
+  {
+    "title": "The 98% mystery: Scientists just cracked the code on “junk DNA” linked to Alzheimer’s",
+    "title_es": "El misterio del 98%: los científicos acaban de descifrar el código del \"ADN basura\" vinculado al Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251219093315.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "misterio",
+      "del"
     ]
   },
   {
@@ -12148,7 +12274,7 @@
   },
   {
     "title": "Implementing Zero Trust Architecture to Enhance Security and Resilience in the Pharmaceutical Supply Chain",
-    "title_es": "Implementación de una arquitectura de confianza cero para mejorar la seguridad y la resiliencia en la cadena de suministro farmacéutica",
+    "title_es": "Implementing Zero Trust Architecture to Enhance Security and Resilience in the Pharmaceutical Supply Chain",
     "url": "https://arxiv.org/abs/2508.15776",
     "source": "arXiv",
     "published": "2025-08-25T04:00:00.000Z",
@@ -12330,7 +12456,7 @@
   },
   {
     "title": "Accelerating GenAI Workloads by Enabling RISC-V Microkernel Support in IREE",
-    "title_es": "Aceleración de las cargas de trabajo GenAI al habilitar el soporte de micronúcleo RISC-V en IREE",
+    "title_es": "Accelerating GenAI Workloads by Enabling RISC-V Microkernel Support in IREE",
     "url": "https://arxiv.org/abs/2508.14899",
     "source": "arXiv",
     "published": "2025-08-22T04:00:00.000Z",
@@ -23455,16 +23581,16 @@
     ]
   },
   {
-    "title": "Contrasting effects of DNA demethylation on cancer-germline gene expression in breast cancer and leukemia cells",
-    "title_es": "Efectos contrastantes de la desmetilación del ADN sobre la expresión de genes de la línea germinal del cáncer en células de cáncer de mama y leucemia",
+    "title": "Correction: Demand structure prediction and adaptation path of rural teachers in western China under population change",
+    "title_es": "Corrección: Predicción de la estructura de la demanda y trayectoria de adaptación de los docentes rurales en el oeste de China ante el cambio poblacional",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efectos",
-      "contrastantes",
+      "corrección",
+      "predicción",
       "de"
     ]
   },
