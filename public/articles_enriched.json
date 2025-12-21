@@ -28,6 +28,62 @@
     ]
   },
   {
+    "title": "Artemis II Crew Rehearse Launch Day Demonstration",
+    "title_es": "Demostración del día del lanzamiento del ensayo del equipo Artemis II",
+    "url": "https://www.nasa.gov/image-article/artemis-ii-crew-rehearse-launch-day-demonstration/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "demostración",
+      "del",
+      "día"
+    ]
+  },
+  {
+    "title": "Life in all of its complexity",
+    "title_es": "La vida en toda su complejidad.",
+    "url": "https://www.sciencenews.org/article/ed-note-january-2026-life-complexity",
+    "source": "Science News",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vida",
+      "en"
+    ]
+  },
+  {
+    "title": "What scientists found inside Titan was not what anyone expected",
+    "title_es": "Lo que los científicos encontraron dentro de Titán no fue lo que nadie esperaba",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251220104621.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "lo",
+      "que",
+      "los"
+    ]
+  },
+  {
+    "title": "Inequality alone doesn't cause civil unrest—but internet access adds the crucial spark",
+    "title_es": "La desigualdad por sí sola no causa disturbios civiles, pero el acceso a Internet añade la chispa crucial",
+    "url": "https://phys.org/news/2025-12-inequality-doesnt-civil-unrest-internet.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-20T00:00:00.000Z",
+    "date": "2025-12-20",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "desigualdad",
+      "por"
+    ]
+  },
+  {
     "title": "A Fast Volumetric Capture and Reconstruction Pipeline for Dynamic Point Clouds and Gaussian Splats",
     "title_es": "Una canalización de captura y reconstrucción volumétrica rápida para nubes de puntos dinámicas y salpicaduras gaussianas",
     "url": "https://arxiv.org/abs/2512.15719",
