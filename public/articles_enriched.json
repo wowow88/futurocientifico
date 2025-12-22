@@ -1,5 +1,47 @@
 [
   {
+    "title": "V-Agent: An Interactive Video Search System Using Vision-Language Models",
+    "title_es": "V-Agent: un sistema de búsqueda de vídeo interactivo que utiliza modelos de visión y lenguaje",
+    "url": "https://arxiv.org/abs/2512.16925",
+    "source": "arXiv",
+    "published": "2025-12-22T05:00:00.000Z",
+    "date": "2025-12-22",
+    "category": "noticia",
+    "tags": [
+      "v-agent",
+      "an",
+      "interactive"
+    ]
+  },
+  {
+    "title": "Study links full-fat cheese to lower dementia risk",
+    "title_es": "Un estudio vincula el queso entero con un menor riesgo de demencia",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251221091246.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-22T00:00:00.000Z",
+    "date": "2025-12-22",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "estudio",
+      "vincula"
+    ]
+  },
+  {
+    "title": "'Lifting and shifting' workers is not always the best answer",
+    "title_es": "'Levantar y mover trabajadores' no siempre es la mejor respuesta",
+    "url": "https://phys.org/news/2025-12-shifting-workers.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-21T00:00:00.000Z",
+    "date": "2025-12-21",
+    "category": "noticia",
+    "tags": [
+      "levantar",
+      "y",
+      "mover"
+    ]
+  },
+  {
     "title": "Wind-Sculpted Landscapes: Investigating the Martian Megaripple ‘Hazyview’",
     "title_es": "Paisajes esculpidos por el viento: investigando la megaripple marciana 'Hazyview'",
     "url": "https://science.nasa.gov/blog/wind-sculpted-landscapes-investigating-the-martian-megaripple-hazyview/",
@@ -221,6 +263,20 @@
       "el",
       "misterio",
       "del"
+    ]
+  },
+  {
+    "title": "Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting",
+    "title_es": "Vuelva a profundizar cualquier cosa: refinamiento de la profundidad en el momento de la prueba mediante reencendido autosupervisado",
+    "url": "http://arxiv.org/abs/2512.17908v1",
+    "source": "arXiv",
+    "published": "2025-12-19T00:00:00.000Z",
+    "date": "2025-12-19",
+    "category": "noticia",
+    "tags": [
+      "vuelva",
+      "a",
+      "profundizar"
     ]
   },
   {
@@ -12246,7 +12302,7 @@
   },
   {
     "title": "The CNIC at the European Cardiology Congress 2025",
-    "title_es": "El CNIC en el Congreso Europeo de Cardiología 2025",
+    "title_es": "The CNIC at the European Cardiology Congress 2025",
     "url": "https://www.cnic.es/es/node/236064",
     "source": "CNIC",
     "published": "2025-08-26T00:00:00.000Z",
