@@ -1,5 +1,47 @@
 [
   {
+    "title": "QoS-Aware Dynamic CU Selection in O-RAN with Graph-Based Reinforcement Learning",
+    "title_es": "Selección dinámica de CU consciente de QoS en O-RAN con aprendizaje de refuerzo basado en gráficos",
+    "url": "https://arxiv.org/abs/2512.19696",
+    "source": "arXiv",
+    "published": "2025-12-24T05:00:00.000Z",
+    "date": "2025-12-24",
+    "category": "noticia",
+    "tags": [
+      "qos-aware",
+      "dynamic",
+      "cu"
+    ]
+  },
+  {
+    "title": "Your roommate’s genes may be shaping your gut bacteria",
+    "title_es": "Los genes de tu compañero de cuarto pueden estar dando forma a tus bacterias intestinales",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251223043938.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-24T00:00:00.000Z",
+    "date": "2025-12-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "genes",
+      "de"
+    ]
+  },
+  {
+    "title": "Should we smoke salmon using traditional techniques, or should we simply add the flavor?",
+    "title_es": "¿Deberíamos ahumar el salmón utilizando técnicas tradicionales o simplemente añadirle el sabor?",
+    "url": "https://phys.org/news/2025-12-salmon-traditional-techniques-simply-flavor.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-24T00:00:00.000Z",
+    "date": "2025-12-24",
+    "category": "noticia",
+    "tags": [
+      "deberíamos",
+      "ahumar",
+      "el"
+    ]
+  },
+  {
     "title": "Efficient Multi-Adapter LLM Serving via Cross-Model KV-Cache Reuse with Activated LoRA",
     "title_es": "Servidor LLM multiadaptador eficiente a través de la reutilización de caché KV de modelo cruzado con LoRA activado",
     "url": "https://arxiv.org/abs/2512.17910",
@@ -39,6 +81,76 @@
       "por",
       "qué",
       "los"
+    ]
+  },
+  {
+    "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+    "title_es": "LongVideoAgent: razonamiento multiagente con vídeos largos",
+    "url": "http://arxiv.org/abs/2512.20618v1",
+    "source": "arXiv",
+    "published": "2025-12-23T00:00:00.000Z",
+    "date": "2025-12-23",
+    "category": "noticia",
+    "tags": [
+      "longvideoagent",
+      "razonamiento",
+      "multiagente"
+    ]
+  },
+  {
+    "title": "Author Correction: Rolling back human pluripotent stem cells to an eight-cell embryo-like stage",
+    "title_es": "Corrección del autor: Revertir las células madre pluripotentes humanas a una etapa similar a la de un embrión de ocho células",
+    "url": "https://www.nature.com/articles/s41586-025-10044-8",
+    "source": "Nature",
+    "published": "2025-12-23T00:00:00.000Z",
+    "date": "2025-12-23",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/investigadores-del-iac-desarrollan-un-metodo-preciso-para-medir-los-halos-de-materia-oscura-partir-del\" hreflang=\"es\">Investigadores del IAC desarrollan un método preciso para medir los halos de materia oscura a partir del tamaño de las galaxias</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/investigadores-del-iac-desarrollan-un-metodo-preciso-para-medir-los-halos-de-materia-oscura-partir-del\" hreflang=\"es\">Investigadores del IAC desarrollan un método preciso para medir los halos de materia oscura a partir del tamaño de las galaxias</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/investigadores-del-iac-desarrollan-un-metodo-preciso-para-medir-los-halos-de-materia-oscura-partir-del",
+    "source": "IAC",
+    "published": "2025-12-23T00:00:00.000Z",
+    "date": "2025-12-23",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasinvestigadores-del-iac-desarrollan-un-metodo-preciso-para-medir-los-halos-de-materia-oscura-partir-del",
+      "hreflangesinvestigadores"
+    ]
+  },
+  {
+    "title": "OPERA: Addressing Societal Needs with Satellite Data",
+    "title_es": "OPERA: Abordar las necesidades sociales con datos satelitales",
+    "url": "https://science.nasa.gov/science-research/earth-science/opera-addressing-societal-needs-with-satellite-data/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-23T00:00:00.000Z",
+    "date": "2025-12-23",
+    "category": "noticia",
+    "tags": [
+      "opera",
+      "abordar",
+      "las"
+    ]
+  },
+  {
+    "title": "Research hailing the benefits of the COVID-19 shot keeps coming",
+    "title_es": "Siguen llegando investigaciones que elogian los beneficios de la vacuna contra el COVID-19",
+    "url": "https://www.sciencenews.org/article/benefits-covid-19-shot-vaccine",
+    "source": "Science News",
+    "published": "2025-12-23T00:00:00.000Z",
+    "date": "2025-12-23",
+    "category": "noticia",
+    "tags": [
+      "siguen",
+      "llegando",
+      "investigaciones"
     ]
   },
   {
@@ -12218,7 +12330,7 @@
   },
   {
     "title": "Reasoning Steps as Curriculum: Using Depth of Thought as a Difficulty Signal for Tuning LLMs",
-    "title_es": "Pasos de razonamiento como plan de estudios: uso de la profundidad de pensamiento como una señal de dificultad para sintonizar LLM",
+    "title_es": "Reasoning Steps as Curriculum: Using Depth of Thought as a Difficulty Signal for Tuning LLMs",
     "url": "https://arxiv.org/abs/2508.18279",
     "source": "arXiv",
     "published": "2025-08-27T04:00:00.000Z",
@@ -12344,7 +12456,7 @@
   },
   {
     "title": "Curiosity Blog, Sols 4638-4640: Imaging Extravaganza Atop a Ridge",
-    "title_es": "Blog de curiosidad, Sols 4638-4640: Extravaganza de imágenes en lo alto de una cresta",
+    "title_es": "Curiosity Blog, Sols 4638-4640: Imaging Extravaganza Atop a Ridge",
     "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4638-4640-imaging-extravaganza-atop-a-ridge/",
     "source": "NASA (Top News)",
     "published": "2025-08-26T04:38:45.000Z",
@@ -23805,17 +23917,17 @@
     ]
   },
   {
-    "title": "Socazolimab combined with carboplatin and etoposide as first-line treatment for extensive-stage small-cell lung cancer: A cost-effectiveness analysis in China",
-    "title_es": "Socazolimab combinado con carboplatino y etopósido como tratamiento de primera línea para el cáncer de pulmón de células pequeñas en estadio extenso: un análisis de rentabilidad en China",
+    "title": "Correction: Similarity and dissimilarity in alterations of the gene expression profile associated with inhalational anesthesia between sevoflurane and desflurane",
+    "title_es": "Corrección: Similitud y disimilitud en las alteraciones del perfil de expresión genética asociada con la anestesia inhalatoria entre sevoflurano y desflurano.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "socazolimab",
-      "combinado",
-      "con"
+      "corrección",
+      "similitud",
+      "y"
     ]
   },
   {
