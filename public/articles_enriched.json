@@ -28,6 +28,34 @@
     ]
   },
   {
+    "title": "A Christmas tree 80 light-years wide appears in space",
+    "title_es": "Aparece en el espacio un árbol de Navidad de 80 años luz de ancho",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251225085728.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-25T00:00:00.000Z",
+    "date": "2025-12-25",
+    "category": "noticia",
+    "tags": [
+      "aparece",
+      "en",
+      "el"
+    ]
+  },
+  {
+    "title": "Supernova from the dawn of the universe captured by James Webb Space Telescope",
+    "title_es": "Supernova de los albores del universo captada por el telescopio espacial James Webb",
+    "url": "https://phys.org/news/2025-12-supernova-dawn-universe-captured-james.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-25T00:00:00.000Z",
+    "date": "2025-12-25",
+    "category": "noticia",
+    "tags": [
+      "supernova",
+      "de",
+      "los"
+    ]
+  },
+  {
     "title": "QoS-Aware Dynamic CU Selection in O-RAN with Graph-Based Reinforcement Learning",
     "title_es": "Selección dinámica de CU consciente de QoS en O-RAN con aprendizaje de refuerzo basado en gráficos",
     "url": "https://arxiv.org/abs/2512.19696",
@@ -71,7 +99,7 @@
   },
   {
     "title": "Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty",
-    "title_es": "Optimización de rutas de decodificación en modelos de difusión enmascarada cuantificando la incertidumbre",
+    "title_es": "Optimización de rutas de decodificación en modelos de difusión enmascarada mediante la cuantificación de la incertidumbre",
     "url": "http://arxiv.org/abs/2512.21336v1",
     "source": "arXiv",
     "published": "2025-12-24T00:00:00.000Z",
