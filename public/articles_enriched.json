@@ -1,5 +1,117 @@
 [
   {
+    "title": "Detecting the hidden magnetism of altermagnets",
+    "title_es": "Detectando el magnetismo oculto de los alterimanes",
+    "url": "https://phys.org/news/2025-12-hidden-magnetism-altermagnets.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-26T20:00:01.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "detectando",
+      "el",
+      "magnetismo"
+    ]
+  },
+  {
+    "title": "Mathematicians spent 2025 exploring the edge of mathematics",
+    "title_es": "Los matemáticos pasaron 2025 explorando los límites de las matemáticas",
+    "url": "https://www.newscientist.com/article/2507465-mathematicians-spent-2025-exploring-the-edge-of-mathematics/",
+    "source": "New Scientist",
+    "published": "2025-12-26T17:00:04.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "mathematicians",
+      "spent",
+      "2025"
+    ]
+  },
+  {
+    "title": "Studying Physics in Microgravity",
+    "title_es": "Estudiar física en microgravedad",
+    "url": "https://www.nasa.gov/image-article/studying-physics-in-microgravity/",
+    "source": "NASA (Top News)",
+    "published": "2025-12-26T16:27:18.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "estudiar",
+      "física",
+      "en"
+    ]
+  },
+  {
+    "title": "These medical breakthroughs and advances gave patients new hope in 2025",
+    "title_es": "Estos avances y avances médicos dieron a los pacientes nuevas esperanzas en 2025",
+    "url": "https://www.sciencenews.org/article/medical-miracle-breakthroughs-hope-2025",
+    "source": "Science News",
+    "published": "2025-12-26T15:00:00.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "avances",
+      "y"
+    ]
+  },
+  {
+    "title": "Book Review: How Evolution Is Driving Us Further Into Space",
+    "title_es": "Reseña del libro: Cómo la evolución nos está llevando más lejos en el espacio",
+    "url": "https://undark.org/2025/12/26/book-review-giant-leap/",
+    "source": "Undark Magazine",
+    "published": "2025-12-26T08:59:00.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "how"
+    ]
+  },
+  {
+    "title": "This common food ingredient may shape a child’s health for life",
+    "title_es": "Este ingrediente alimentario común puede influir en la salud de un niño de por vida",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251225080732.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-26T08:57:30.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "ingrediente",
+      "alimentario"
+    ]
+  },
+  {
+    "title": "18,000-Year-Old Circular Dwellings Made of Mammoth Bones Unearthed in Ukraine",
+    "title_es": "Viviendas circulares de 18.000 años hechas de huesos de mamut desenterradas en Ucrania",
+    "url": "https://www.sci.news/archaeology/mammoth-bone-structures-ukraine-14448.html",
+    "source": "Sci.News",
+    "published": "2025-12-26T00:07:03.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "18000-year-old",
+      "circular",
+      "dwellings"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en\" hreflang=\"es\">El programa Soñando Estrellas viaja a la cronología de la Vía Láctea y explora el auge del astroturismo en Canarias</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en\" hreflang=\"es\">El programa Soñando Estrellas viaja a la cronología de la Vía Láctea y explora el auge del astroturismo en Canarias</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en",
+    "source": "IAC",
+    "published": "2025-12-26T00:00:00.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en",
+      "hreflangesel"
+    ]
+  },
+  {
     "title": "Uncovering Patterns of Brain Activity from EEG Data Consistently Associated with Cybersickness Using Neural Network Interpretability Maps",
     "title_es": "Descubrimiento de patrones de actividad cerebral a partir de datos de EEG consistentemente asociados con el mareo cibernético utilizando mapas de interpretabilidad de redes neuronales",
     "url": "https://arxiv.org/abs/2512.20620",
@@ -53,6 +165,20 @@
       "supernova",
       "de",
       "los"
+    ]
+  },
+  {
+    "title": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+    "title_es": "HiStream: generación eficiente de vídeo de alta resolución mediante streaming sin redundancia",
+    "url": "http://arxiv.org/abs/2512.21338v1",
+    "source": "arXiv",
+    "published": "2025-12-24T18:59:58.000Z",
+    "date": "2025-12-24",
+    "category": "noticia",
+    "tags": [
+      "histream",
+      "generación",
+      "eficiente"
     ]
   },
   {
@@ -12121,7 +12247,7 @@
   },
   {
     "title": "El Dr. Valentín Fuster pronuncia la Conferencia Inaugural de la World Heart Federation en el Congreso Europeo de Cardiología en Madrid",
-    "title_es": "El Dr. Valentín Fuster pronuncia la Conferencia Inaugural de la Federación Mundial del Corazón en el Congreso Europeo de Cardiología en Madrid",
+    "title_es": "El Dr. Valentín Fuster pronuncia la Conferencia Inaugural de la World Heart Federation en el Congreso Europeo de Cardiología en Madrid",
     "url": "https://www.cnic.es/es/noticias/dr-valentin-fuster-pronuncia-conferencia-inaugural-world-heart-federation-congreso-europeo",
     "source": "CNIC",
     "published": "2025-08-31T00:00:00.000Z",
@@ -12176,7 +12302,7 @@
   },
   {
     "title": "A Hierarchical Signal Coordination and Control System Using a Hybrid Model-based and Reinforcement Learning Approach",
-    "title_es": "Un sistema jerárquico de coordinación y control de señales que utiliza un enfoque de aprendizaje híbrido basado en modelos y de refuerzo",
+    "title_es": "A Hierarchical Signal Coordination and Control System Using a Hybrid Model-based and Reinforcement Learning Approach",
     "url": "https://arxiv.org/abs/2508.20102",
     "source": "arXiv",
     "published": "2025-08-29T04:00:00.000Z",
@@ -24043,17 +24169,17 @@
     ]
   },
   {
-    "title": "Correction: Similarity and dissimilarity in alterations of the gene expression profile associated with inhalational anesthesia between sevoflurane and desflurane",
-    "title_es": "Corrección: Similitud y disimilitud en las alteraciones del perfil de expresión genética asociada con la anestesia inhalatoria entre sevoflurano y desflurano.",
+    "title": "Retraction: Can artificial intelligence and face recognition using deep learning detect emotions in children with autism?",
+    "title_es": "Retracción: ¿Pueden la inteligencia artificial y el reconocimiento facial mediante aprendizaje profundo detectar emociones en niños con autismo?",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "similitud",
-      "y"
+      "retracción",
+      "pueden",
+      "la"
     ]
   },
   {
@@ -81870,6 +81996,34 @@
       "saltar",
       "al",
       "contenido"
+    ]
+  },
+  {
+    "title": "Doubling Down on Diamond",
+    "title_es": "Doubling Down on Diamond",
+    "url": "https://scipost.org/roadmap",
+    "source": "SciPost News",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "doubling",
+      "down",
+      "on"
+    ]
+  },
+  {
+    "title": "Tensorization of neural networks for improved privacy and interpretability, by José Ramón Pareja Monturiol, Alejandro Pozas-Kerstjens, David Pérez-García",
+    "title_es": "Tensorization of neural networks for improved privacy and interpretability, by José Ramón Pareja Monturiol, Alejandro Pozas-Kerstjens, David Pérez-García",
+    "url": "https://scipost.org/scipostphyscore.8.4.095",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "tensorization",
+      "of",
+      "neural"
     ]
   }
 ]
