@@ -1,5 +1,19 @@
 [
   {
+    "title": "160-Million-Year-Old Dinosaur Footprints Discovered in Chile",
+    "title_es": "Huellas de dinosaurio de 160 millones de años descubiertas en Chile",
+    "url": "https://www.sci.news/paleontology/dinosaur-footprints-chile-14449.html",
+    "source": "Sci.News",
+    "published": "2025-12-27T00:10:50.000Z",
+    "date": "2025-12-27",
+    "category": "noticia",
+    "tags": [
+      "160-million-year-old",
+      "dinosaur",
+      "footprints"
+    ]
+  },
+  {
     "title": "Detecting the hidden magnetism of altermagnets",
     "title_es": "Detectando el magnetismo oculto de los alterimanes",
     "url": "https://phys.org/news/2025-12-hidden-magnetism-altermagnets.html",
@@ -225,7 +239,7 @@
   },
   {
     "title": "Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty",
-    "title_es": "Optimización de rutas de decodificación en modelos de difusión enmascarada mediante la cuantificación de la incertidumbre",
+    "title_es": "Optimización de rutas de decodificación en modelos de difusión enmascarada cuantificando la incertidumbre",
     "url": "http://arxiv.org/abs/2512.21336v1",
     "source": "arXiv",
     "published": "2025-12-24T00:00:00.000Z",
@@ -12205,7 +12219,7 @@
   },
   {
     "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival\" hreflang=\"es\">El IAC vuelve a acercar el Universo al público del Phe Festival</a>",
-    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival\" hreflang=\"es\">Festival El IAC vuelve a acercar el Universo al público del Phe</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival\" hreflang=\"es\">El IAC vuelve a acercar el Universo al público del Phe Festival</a>",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-vuelve-acercar-el-universo-al-publico-del-phe-festival",
     "source": "IAC",
     "published": "2025-09-01T00:00:00.000Z",
