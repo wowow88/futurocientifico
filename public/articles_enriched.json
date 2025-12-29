@@ -1,5 +1,47 @@
 [
   {
+    "title": "Inter-seasonal and multi-objective optimization of a sustainable hydrogen supply chain in Corsica integrating water availability constraints",
+    "title_es": "Optimización interestacional y multiobjetivo de una cadena de suministro de hidrógeno sostenible en Córcega que integre las limitaciones de disponibilidad de agua",
+    "url": "https://arxiv.org/abs/2512.21339",
+    "source": "arXiv",
+    "published": "2025-12-29T05:00:00.000Z",
+    "date": "2025-12-29",
+    "category": "noticia",
+    "tags": [
+      "inter-seasonal",
+      "and",
+      "multi-objective"
+    ]
+  },
+  {
+    "title": "The deep ocean has a missing link and scientists finally found it",
+    "title_es": "A las profundidades del océano le falta un eslabón y los científicos finalmente lo encontraron",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251228074505.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2025-12-28T00:00:00.000Z",
+    "date": "2025-12-28",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "las",
+      "profundidades"
+    ]
+  },
+  {
+    "title": "Ancient bone arrow points reveal organized craft production in prehistoric Argentina",
+    "title_es": "Las antiguas puntas de flecha de hueso revelan la producción artesanal organizada en la Argentina prehistórica",
+    "url": "https://phys.org/news/2025-12-ancient-bone-arrow-reveal-craft.html",
+    "source": "Phys.org (Latest)",
+    "published": "2025-12-28T00:00:00.000Z",
+    "date": "2025-12-28",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "antiguas",
+      "puntas"
+    ]
+  },
+  {
     "title": "160-Million-Year-Old Dinosaur Footprints Discovered in Chile",
     "title_es": "Huellas de dinosaurio de 160 millones de años descubiertas en Chile",
     "url": "https://www.sci.news/paleontology/dinosaur-footprints-chile-14449.html",
@@ -151,6 +193,20 @@
       "a",
       "hrefhttpswwwiacesesdivulgacionnoticiasel-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en",
       "hreflangesel"
+    ]
+  },
+  {
+    "title": "Agentic Structured Graph Traversal for Root Cause Analysis of Code-related Incidents in Cloud Applications",
+    "title_es": "Recorrido de gráficos estructurados agentes para el análisis de la causa raíz de incidentes relacionados con el código en aplicaciones en la nube",
+    "url": "http://arxiv.org/abs/2512.22113v1",
+    "source": "arXiv",
+    "published": "2025-12-26T00:00:00.000Z",
+    "date": "2025-12-26",
+    "category": "noticia",
+    "tags": [
+      "recorrido",
+      "de",
+      "gráficos"
     ]
   },
   {
@@ -12191,7 +12247,7 @@
   },
   {
     "title": "2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving",
-    "title_es": "2COOOL: 2º Taller sobre el Desafío de los Peligros Fuera de Etiqueta en la Conducción Autónoma",
+    "title_es": "2COOOL: 2nd Workshop on the Challenge Of Out-Of-Label Hazards in Autonomous Driving",
     "url": "https://arxiv.org/abs/2508.21080",
     "source": "arXiv",
     "published": "2025-09-01T04:00:00.000Z",
