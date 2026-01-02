@@ -1,5 +1,47 @@
 [
   {
+    "title": "This tiny plant is helping solve crimes",
+    "title_es": "Esta pequeña planta está ayudando a resolver crímenes.",
+    "url": "https://www.sciencedaily.com/releases/2025/12/251225080738.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "pequeña",
+      "planta"
+    ]
+  },
+  {
+    "title": "Rare Saturn-sized rogue planet is first to have its mass measured",
+    "title_es": "El raro planeta pícaro del tamaño de Saturno es el primero en medir su masa",
+    "url": "https://www.newscientist.com/article/2509858-rare-saturn-sized-rogue-planet-is-first-to-have-its-mass-measured/",
+    "source": "New Scientist",
+    "published": "2026-01-01T19:00:40.000Z",
+    "date": "2026-01-01",
+    "category": "noticia",
+    "tags": [
+      "rare",
+      "saturn-sized",
+      "rogue"
+    ]
+  },
+  {
+    "title": "The Uncertain Future of International Scientific Collaboration",
+    "title_es": "El futuro incierto de la colaboración científica internacional",
+    "url": "https://undark.org/2026/01/01/opinion-international-collaboration-trump/",
+    "source": "Undark Magazine",
+    "published": "2026-01-01T08:47:00.000Z",
+    "date": "2026-01-01",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "uncertain",
+      "future"
+    ]
+  },
+  {
     "title": "Enriching Historical Records: An OCR and AI-Driven Approach for Database Integration",
     "title_es": "Enriquecimiento de los registros históricos: un enfoque basado en OCR e IA para la integración de bases de datos",
     "url": "https://arxiv.org/abs/2512.23710",
@@ -25,6 +67,48 @@
       "los",
       "astrónomos",
       "reciben"
+    ]
+  },
+  {
+    "title": "Rethinking intersex interventions",
+    "title_es": "Repensar las intervenciones intersexuales",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeb5814",
+    "source": "Science.org",
+    "published": "2026-01-01T00:00:00.000Z",
+    "date": "2026-01-01",
+    "category": "noticia",
+    "tags": [
+      "repensar",
+      "las",
+      "intervenciones"
+    ]
+  },
+  {
+    "title": "Science in 2026: what to expect this year",
+    "title_es": "Ciencia en 2026: que esperar este año",
+    "url": "https://www.nature.com/articles/d41586-025-04114-0",
+    "source": "Nature",
+    "published": "2026-01-01T00:00:00.000Z",
+    "date": "2026-01-01",
+    "category": "noticia",
+    "tags": [
+      "ciencia",
+      "en",
+      "2026"
+    ]
+  },
+  {
+    "title": "Tokamak experiments exceed plasma density limit, offering new approach to fusion ignition",
+    "title_es": "Los experimentos de Tokamak superan el límite de densidad del plasma y ofrecen un nuevo enfoque para la ignición por fusión",
+    "url": "https://phys.org/news/2025-12-tokamak-exceed-plasma-density-limit.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-01T00:00:00.000Z",
+    "date": "2026-01-01",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "experimentos",
+      "de"
     ]
   },
   {
@@ -11703,7 +11787,7 @@
   },
   {
     "title": "European Heart Journal: CNIC scientists report the first use of CRISPR activation to treat a cardiac disease in mice",
-    "title_es": "European Heart Journal: Científicos del CNIC informan del primer uso de la activación de CRISPR para tratar una enfermedad cardíaca en ratones",
+    "title_es": "European Heart Journal: CNIC scientists report the first use of CRISPR activation to treat a cardiac disease in mice",
     "url": "https://www.cnic.es/es/node/236428",
     "source": "CNIC",
     "published": "2025-09-10T00:00:00.000Z",
@@ -24646,16 +24730,16 @@
   },
   {
     "title": "How much is too much? A medication use evaluation of VA ICU sedation practice during the COVID-19 pandemic",
-    "title_es": "Anatomía e histología inicial de la cápsula de la pezuña, el corion y la almohadilla digital en una jirafa del sur en libertad (<i>Giraffa giraffa</i>)",
+    "title_es": "¿Cuánto es demasiado? Una evaluación del uso de medicamentos de la práctica de sedación en la UCI de VA durante la pandemia de COVID-19",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "anatomía",
-      "e",
-      "histología"
+      "cuánto",
+      "es",
+      "demasiado"
     ]
   },
   {
