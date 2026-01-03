@@ -1,5 +1,47 @@
 [
   {
+    "title": "Researchers Sequence Genome of 200,000-Year-Old Denisovan",
+    "title_es": "Investigadores secuencian el genoma de un denisovano de 200.000 años",
+    "url": "https://www.sci.news/genetics/denisova-25-genome-14459.html",
+    "source": "Sci.News",
+    "published": "2026-01-02T20:32:20.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "researchers",
+      "sequence",
+      "genome"
+    ]
+  },
+  {
+    "title": "Was our earliest ancestor a knuckle-dragger, or did it walk upright?",
+    "title_es": "¿Nuestro antepasado más antiguo era un arrancador de nudillos, o caminaba erguido?",
+    "url": "https://www.newscientist.com/article/2509929-was-our-earliest-ancestor-a-knuckle-dragger-or-did-it-walk-upright/",
+    "source": "New Scientist",
+    "published": "2026-01-02T19:00:36.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "was",
+      "our",
+      "earliest"
+    ]
+  },
+  {
+    "title": "Excerpt: When the Ethics of Animal Research Hit Home",
+    "title_es": "Extracto: Cuando la ética de la investigación con animales golpea el hogar",
+    "url": "https://undark.org/2026/01/02/excerpt-lab-dog/",
+    "source": "Undark Magazine",
+    "published": "2026-01-02T08:58:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "excerpt",
+      "when",
+      "the"
+    ]
+  },
+  {
     "title": "This tiny plant is helping solve crimes",
     "title_es": "Esta pequeña planta está ayudando a resolver crímenes.",
     "url": "https://www.sciencedaily.com/releases/2025/12/251225080738.htm",
@@ -11,6 +53,76 @@
       "esta",
       "pequeña",
       "planta"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/telecomunicaciones-publica-los-datos-del-espectro-radioelectrico-para-proteger-la-calidad-del-cielo-en\" hreflang=\"es\">Telecomunicaciones publica los datos del espectro radioeléctrico para proteger la calidad del cielo en los Observatorios de Canarias</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/telecomunicaciones-publica-los-datos-del-espectro-radioelectrico-para-proteger-la-calidad-del-cielo-en\" hreflang=\"es\">Telecomunicaciones publica los datos del espectro radioeléctrico para proteger la calidad del cielo en los Observatorios de Canarias</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/telecomunicaciones-publica-los-datos-del-espectro-radioelectrico-para-proteger-la-calidad-del-cielo-en",
+    "source": "IAC",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiastelecomunicaciones-publica-los-datos-del-espectro-radioelectrico-para-proteger-la-calidad-del-cielo-en",
+      "hreflangestelecomunicaciones"
+    ]
+  },
+  {
+    "title": "Hubble Glimpses Galactic Gas Making a Getaway",
+    "title_es": "Hubble vislumbra gas galáctico haciendo una escapada",
+    "url": "https://www.nasa.gov/image-article/hubble-glimpses-galactic-gas-making-a-getaway/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "vislumbra",
+      "gas"
+    ]
+  },
+  {
+    "title": "These scientific discoveries brought us joy in 2025",
+    "title_es": "Estos descubrimientos científicos nos traerán alegría en 2025",
+    "url": "https://www.sciencenews.org/article/scientific-discoveries-joy-2025",
+    "source": "Science News",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "descubrimientos",
+      "científicos"
+    ]
+  },
+  {
+    "title": "Big goals can feel overwhelming. Here’s how to stay on track",
+    "title_es": "Los grandes objetivos pueden resultar abrumadores. He aquí cómo mantener el rumbo",
+    "url": "https://www.snexplores.org/article/how-to-set-achieve-goals",
+    "source": "Science News Explores",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "grandes",
+      "objetivos"
+    ]
+  },
+  {
+    "title": "Bacteria reveal second 'shutdown mode' for surviving antibiotic treatment",
+    "title_es": "Las bacterias revelan un segundo 'modo de apagado' para sobrevivir al tratamiento con antibióticos",
+    "url": "https://phys.org/news/2026-01-bacteria-reveal-shutdown-mode-surviving.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "bacterias",
+      "revelan"
     ]
   },
   {
@@ -11535,7 +11647,7 @@
   },
   {
     "title": "Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization",
-    "title_es": "Revisando la detección de deepfakes: aprendizaje continuo cronológico y los límites de la generalización",
+    "title_es": "Revisiting Deepfake Detection: Chronological Continual Learning and the Limits of Generalization",
     "url": "https://arxiv.org/abs/2509.07993",
     "source": "arXiv",
     "published": "2025-09-11T04:00:00.000Z",
@@ -11731,7 +11843,7 @@
   },
   {
     "title": "Prototype: A Keyword Spotting-Based Intelligent Audio SoC for IoT",
-    "title_es": "Prototipo: un SoC de audio inteligente basado en detección de palabras clave para IoT",
+    "title_es": "Prototype: A Keyword Spotting-Based Intelligent Audio SoC for IoT",
     "url": "https://arxiv.org/abs/2509.06964",
     "source": "arXiv",
     "published": "2025-09-10T04:00:00.000Z",
@@ -24729,17 +24841,17 @@
     ]
   },
   {
-    "title": "How much is too much? A medication use evaluation of VA ICU sedation practice during the COVID-19 pandemic",
-    "title_es": "¿Cuánto es demasiado? Una evaluación del uso de medicamentos de la práctica de sedación en la UCI de VA durante la pandemia de COVID-19",
+    "title": "Research on the relationship between work-family conflict and burnout among civil aviation pilots after the COVID-19 pandemic",
+    "title_es": "Investigación sobre la relación entre el conflicto trabajo-familia y el burnout entre pilotos de aviación civil tras la pandemia de COVID-19",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "cuánto",
-      "es",
-      "demasiado"
+      "investigación",
+      "sobre",
+      "la"
     ]
   },
   {
