@@ -1,5 +1,19 @@
 [
   {
+    "title": "Augmented Reality Indoor Wayfinding in Hospital Environments An Empirical Study on Navigation Efficiency, User Experience, and Cognitive Load",
+    "title_es": "Localización de caminos en interiores de realidad aumentada en entornos hospitalarios: un estudio empírico sobre la eficiencia de la navegación, la experiencia del usuario y la carga cognitiva",
+    "url": "https://arxiv.org/abs/2601.00001",
+    "source": "arXiv",
+    "published": "2026-01-05T05:00:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "augmented",
+      "reality",
+      "indoor"
+    ]
+  },
+  {
     "title": "Scientists found a way to help aging guts heal themselves",
     "title_es": "Los científicos encontraron una manera de ayudar a los intestinos envejecidos a curarse a sí mismos",
     "url": "https://www.sciencedaily.com/releases/2026/01/260103155028.htm",
@@ -11,6 +25,48 @@
       "los",
       "científicos",
       "encontraron"
+    ]
+  },
+  {
+    "title": "Author Correction: Repulsions instruct synaptic partner matching in an olfactory circuit",
+    "title_es": "Corrección del autor: las repulsiones instruyen a la pareja sináptica a coincidir en un circuito olfativo",
+    "url": "https://www.nature.com/articles/s41586-025-10089-9",
+    "source": "Nature",
+    "published": "2026-01-04T00:00:00.000Z",
+    "date": "2026-01-04",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "A simple chemistry trick could end forever plastic",
+    "title_es": "Un simple truco de química podría acabar para siempre con el plástico",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260103155038.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-04T00:00:00.000Z",
+    "date": "2026-01-04",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "simple",
+      "truco"
+    ]
+  },
+  {
+    "title": "Filamentous algae blooms alter river ecosystems without disrupting overall function",
+    "title_es": "La proliferación de algas filamentosas altera los ecosistemas fluviales sin alterar su función general",
+    "url": "https://phys.org/news/2026-01-filamentous-algae-blooms-river-ecosystems.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-04T00:00:00.000Z",
+    "date": "2026-01-04",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "proliferación",
+      "de"
     ]
   },
   {
@@ -151,6 +207,20 @@
       "las",
       "bacterias",
       "revelan"
+    ]
+  },
+  {
+    "title": "Geometry of Reason: Spectral Signatures of Valid Mathematical Reasoning",
+    "title_es": "Geometría de la razón: firmas espectrales de razonamiento matemático válido",
+    "url": "http://arxiv.org/abs/2601.00791v1",
+    "source": "arXiv",
+    "published": "2026-01-02T00:00:00.000Z",
+    "date": "2026-01-02",
+    "category": "noticia",
+    "tags": [
+      "geometría",
+      "de",
+      "la"
     ]
   },
   {
