@@ -1,5 +1,117 @@
 [
   {
+    "title": "The Qualitative Laboratory: Theory Prototyping and Hypothesis Generation with Large Language Models",
+    "title_es": "El Laboratorio Cualitativo: Prototipado Teórico y Generación de Hipótesis con Grandes Modelos de Lenguaje",
+    "url": "https://arxiv.org/abs/2601.00797",
+    "source": "arXiv",
+    "published": "2026-01-06T05:00:00.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "qualitative",
+      "laboratory"
+    ]
+  },
+  {
+    "title": "New Songbird Species Discovered in Bolivia",
+    "title_es": "Descubren una nueva especie de pájaro cantor en Bolivia",
+    "url": "https://www.sci.news/biology/beni-greenlet-hylophilus-moxensis-14464.html",
+    "source": "Sci.News",
+    "published": "2026-01-06T01:23:44.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "songbird",
+      "species"
+    ]
+  },
+  {
+    "title": "Reaching the Precipice in Angola",
+    "title_es": "Alcanzando el precipicio en Angola",
+    "url": "https://science.nasa.gov/earth/earth-observatory/reaching-the-precipice-in-angola/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-06T00:00:00.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "alcanzando",
+      "el",
+      "precipicio"
+    ]
+  },
+  {
+    "title": "Sometimes the best way to reach a goal may be to quit an old one",
+    "title_es": "A veces la mejor manera de alcanzar una meta puede ser abandonar una antigua",
+    "url": "https://www.snexplores.org/article/quit-to-reach-goal",
+    "source": "Science News Explores",
+    "published": "2026-01-06T00:00:00.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "veces",
+      "la"
+    ]
+  },
+  {
+    "title": "Scientists discover “migrions,” a viral shortcut that supercharges infection",
+    "title_es": "Los científicos descubren “migriones”, un atajo viral que potencia la infección",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260105165820.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-06T00:00:00.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubren"
+    ]
+  },
+  {
+    "title": "The (metabolic) 'cost of life': New method quantifies hidden energy costs of maintaining metabolic pathways",
+    "title_es": "El 'costo de vida' (metabólico): un nuevo método cuantifica los costes energéticos ocultos del mantenimiento de las vías metabólicas",
+    "url": "https://phys.org/news/2025-12-metabolic-life-method-quantifies-hidden.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-06T00:00:00.000Z",
+    "date": "2026-01-06",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "costo",
+      "de"
+    ]
+  },
+  {
+    "title": "Northern Greenland ice dome melted before and could melt again",
+    "title_es": "La cúpula de hielo del norte de Groenlandia se derritió antes y podría volver a derre",
+    "url": "https://www.newscientist.com/article/2510205-northern-greenland-ice-dome-melted-before-and-could-melt-again/",
+    "source": "New Scientist",
+    "published": "2026-01-05T18:30:55.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "northern",
+      "greenland",
+      "ice"
+    ]
+  },
+  {
+    "title": "In Denmark, Sick Cows and a Lot of Questions",
+    "title_es": "En Dinamarca, vacas enfermas y muchas preguntas",
+    "url": "https://undark.org/2026/01/05/denmark-cows-bovaer/",
+    "source": "Undark Magazine",
+    "published": "2026-01-05T08:57:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "in",
+      "denmark",
+      "sick"
+    ]
+  },
+  {
     "title": "Augmented Reality Indoor Wayfinding in Hospital Environments An Empirical Study on Navigation Efficiency, User Experience, and Cognitive Load",
     "title_es": "Localización de caminos en interiores de realidad aumentada en entornos hospitalarios: un estudio empírico sobre la eficiencia de la navegación, la experiencia del usuario y la carga cognitiva",
     "url": "https://arxiv.org/abs/2601.00001",
@@ -11,6 +123,62 @@
       "augmented",
       "reality",
       "indoor"
+    ]
+  },
+  {
+    "title": "DARC: Drum accompaniment generation with fine-grained rhythm control",
+    "title_es": "DARC: generación de acompañamiento de batería con control de ritmo detallado",
+    "url": "http://arxiv.org/abs/2601.02357v1",
+    "source": "arXiv",
+    "published": "2026-01-05T00:00:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "darc",
+      "generación",
+      "de"
+    ]
+  },
+  {
+    "title": "I see Mozambique’s baboons as windows into hominid evolution",
+    "title_es": "Veo a los babuinos de Mozambique como ventanas a la evolución de los homínidos",
+    "url": "https://www.nature.com/articles/d41586-025-04153-7",
+    "source": "Nature",
+    "published": "2026-01-05T00:00:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "veo",
+      "a",
+      "los"
+    ]
+  },
+  {
+    "title": "CERN wishes you a happy 2026",
+    "title_es": "El CERN os desea un feliz 2026",
+    "url": "https://home.cern/news/news/cern/cern-wishes-you-happy-2026",
+    "source": "CERN News",
+    "published": "2026-01-05T00:00:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cern",
+      "os"
+    ]
+  },
+  {
+    "title": "First maps of the sun’s outer boundary may help predict solar storms",
+    "title_es": "Los primeros mapas del límite exterior del sol pueden ayudar a predecir tormentas solares",
+    "url": "https://www.sciencenews.org/article/sun-outer-boundary-map-nasa-solar-probe",
+    "source": "Science News",
+    "published": "2026-01-05T00:00:00.000Z",
+    "date": "2026-01-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "primeros",
+      "mapas"
     ]
   },
   {
@@ -1962,6 +2130,20 @@
     "title": "Private donors pledge 860 million euros for CERN’s Future Circular Collider",
     "title_es": "Donantes privados prometen 860 millones de euros para el futuro colisionador circular del CERN",
     "url": "https://home.cern/news/press-release/cern/private-donors-pledge-860-million-euros-cerns-future-circular-collider",
+    "source": "CERN Press",
+    "published": "2025-12-16T00:00:00.000Z",
+    "date": "2025-12-16",
+    "category": "noticia",
+    "tags": [
+      "donantes",
+      "privados",
+      "prometen"
+    ]
+  },
+  {
+    "title": "Private donors pledge 860 million euros for CERN’s Future Circular Collider",
+    "title_es": "Donantes privados prometen 860 millones de euros para el futuro colisionador circular del CERN",
+    "url": "https://home.web.cern.ch/news/press-release/cern/private-donors-pledge-860-million-euros-cerns-future-circular-collider",
     "source": "CERN Press",
     "published": "2025-12-16T00:00:00.000Z",
     "date": "2025-12-16",
@@ -11437,7 +11619,7 @@
   },
   {
     "title": "DB3 Team's Solution For Meta KDD Cup' 25",
-    "title_es": "Solución del equipo DB3 para Meta KDD Cup' 25",
+    "title_es": "DB3 Team's Solution For Meta KDD Cup' 25",
     "url": "https://arxiv.org/abs/2509.09681",
     "source": "arXiv",
     "published": "2025-09-15T04:00:00.000Z",
@@ -11633,7 +11815,7 @@
   },
   {
     "title": "PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations?",
-    "title_es": "PerFairX: ¿Existe un equilibrio entre la imparcialidad y la personalidad en las recomendaciones del modelo de lenguaje grande?",
+    "title_es": "PerFairX: Is There a Balance Between Fairness and Personality in Large Language Model Recommendations?",
     "url": "https://arxiv.org/abs/2509.08829",
     "source": "arXiv",
     "published": "2025-09-12T04:00:00.000Z",
