@@ -1,5 +1,159 @@
 [
   {
+    "title": "Red tattoo ink causes man to lose all his hair and stop sweating",
+    "title_es": "La tinta roja del tatuaje hace que el hombre pierda todo su cabello y deje de sudar",
+    "url": "https://www.newscientist.com/article/2510374-red-tattoo-ink-causes-man-to-lose-all-his-hair-and-stop-sweating/",
+    "source": "New Scientist",
+    "published": "2026-01-08T13:00:21.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "red",
+      "tattoo",
+      "ink"
+    ]
+  },
+  {
+    "title": "As Guidelines Shift, a Curious Debate Over Seed Oils Persists",
+    "title_es": "A medida que cambian las pautas, persiste un curioso debate sobre los aceites de semillas",
+    "url": "https://undark.org/2026/01/08/seed-oils-backlash-maha/",
+    "source": "Undark Magazine",
+    "published": "2026-01-08T08:18:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "as",
+      "guidelines",
+      "shift"
+    ]
+  },
+  {
+    "title": "Enhancing Retrieval-Augmented Generation with Two-Stage Retrieval: FlashRank Reranking and Query Expansion",
+    "title_es": "Mejora de la generación aumentada de recuperación con recuperación en dos etapas: jerarquización de FlashRank y expansión de consultas",
+    "url": "https://arxiv.org/abs/2601.03258",
+    "source": "arXiv",
+    "published": "2026-01-08T05:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "enhancing",
+      "retrieval-augmented",
+      "generation"
+    ]
+  },
+  {
+    "title": "Author Correction: Structural insights into BCDX2 complex function in homologous recombination",
+    "title_es": "Corrección del autor: conocimientos estructurales sobre la función del complejo BCDX2 en la recombinación homóloga",
+    "url": "https://www.nature.com/articles/s41586-025-10081-3",
+    "source": "Nature",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Meltwater Turns Iceberg A-23A Blue",
+    "title_es": "El agua de deshielo vuelve azul el Iceberg A-23A",
+    "url": "https://science.nasa.gov/earth/earth-observatory/meltwater-turns-iceberg-a-23a-blue/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "agua",
+      "de"
+    ]
+  },
+  {
+    "title": "Superconductors, an opportunity for science and society",
+    "title_es": "Superconductores, una oportunidad para la ciencia y la sociedad",
+    "url": "https://home.cern/news/news/knowledge-sharing/superconductors-opportunity-science-and-society",
+    "source": "CERN News",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "superconductores",
+      "una",
+      "oportunidad"
+    ]
+  },
+  {
+    "title": "Earth is bathed in droves of neutrinos spewed by the Milky Way’s stars",
+    "title_es": "La Tierra está bañada por manadas de neutrinos arrojados por las estrellas de la Vía Láctea",
+    "url": "https://www.sciencenews.org/article/neutrinos-milky-way-stars",
+    "source": "Science News",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "tierra",
+      "está"
+    ]
+  },
+  {
+    "title": "Hypnosis isn’t magic. It’s the brain at work",
+    "title_es": "La hipnosis no es magia. Es el cerebro en acción",
+    "url": "https://www.snexplores.org/article/hypnosis-brain-science",
+    "source": "Science News Explores",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "hipnosis",
+      "no"
+    ]
+  },
+  {
+    "title": "Scientists tried to break Einstein’s speed of light rule",
+    "title_es": "Los científicos intentaron romper la regla de la velocidad de la luz de Einstein",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260107225544.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "intentaron"
+    ]
+  },
+  {
+    "title": "Ultrasonic sensor capable enables cuffless, non-invasive blood pressure measurement",
+    "title_es": "El sensor ultrasónico permite la medición de la presión arterial no invasiva y sin manguito",
+    "url": "https://phys.org/news/2026-01-ultrasonic-sensor-capable-enables-cuffless.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-08T00:00:00.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "sensor",
+      "ultrasónico"
+    ]
+  },
+  {
+    "title": "Europa’s Ocean Floor is Surprisingly Calm, New Modeling Study Suggests",
+    "title_es": "El fondo oceánico de Europa está sorprendentemente tranquilo, sugiere un nuevo estudio de modelado",
+    "url": "https://www.sci.news/space/europa-active-faulting-14469.html",
+    "source": "Sci.News",
+    "published": "2026-01-07T23:07:53.000Z",
+    "date": "2026-01-07",
+    "category": "noticia",
+    "tags": [
+      "europas",
+      "ocean",
+      "floor"
+    ]
+  },
+  {
     "title": "GCRank: A Generative Contextual Comprehension Paradigm for Takeout Ranking Model",
     "title_es": "GCRank: un paradigma de comprensión contextual generativa para el modelo de clasificación de comida para llevar",
     "url": "https://arxiv.org/abs/2601.02361",
@@ -67,6 +221,48 @@
       "arizona",
       "considera",
       "imponer"
+    ]
+  },
+  {
+    "title": "Embedding Autonomous Agents in Resource-Constrained Robotic Platforms",
+    "title_es": "Integración de agentes autónomos en plataformas robóticas con recursos limitados",
+    "url": "http://arxiv.org/abs/2601.04191v1",
+    "source": "arXiv",
+    "published": "2026-01-07T00:00:00.000Z",
+    "date": "2026-01-07",
+    "category": "noticia",
+    "tags": [
+      "integración",
+      "de",
+      "agentes"
+    ]
+  },
+  {
+    "title": "El grupo español referente en la investigación de la metástasis cerebral augura avances a medio plazo que mejorarán la vida de los pacientes",
+    "title_es": "El grupo español referente en la investigación de la metástasis cerebral augura avances a medio plazo que mejorarán la vida de los pacientes",
+    "url": "https://www.cnio.es/noticias/el-grupo-espanol-referente-en-la-investigacion-de-la-metastasis-cerebral-augura-avances-a-medio-plazo-que-mejoraran-la-vida-de-los-pacientes/",
+    "source": "CNIO",
+    "published": "2026-01-07T00:00:00.000Z",
+    "date": "2026-01-07",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "grupo",
+      "español"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-el-hallazgo-de-un-eslabon-perdido-de-la-formacion-planetaria\" hreflang=\"es\">El IAC participa en el hallazgo de un 'eslabón perdido' de la formación planetaria</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-el-hallazgo-de-un-eslabon-perdido-de-la-formacion-planetaria\" hreflang=\"es\">El IAC participa en el hallazgo de un 'eslabón perdido' de la formación planetaria</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-el-hallazgo-de-un-eslabon-perdido-de-la-formacion-planetaria",
+    "source": "IAC",
+    "published": "2026-01-07T00:00:00.000Z",
+    "date": "2026-01-07",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-participa-en-el-hallazgo-de-un-eslabon-perdido-de-la-formacion-planetaria",
+      "hreflangesel"
     ]
   },
   {
@@ -11325,7 +11521,7 @@
   },
   {
     "title": "AI Behavioral Science",
-    "title_es": "Ciencias de la Conducta",
+    "title_es": "AI Behavioral Science",
     "url": "https://arxiv.org/abs/2509.13323",
     "source": "arXiv",
     "published": "2025-09-18T04:00:00.000Z",
@@ -11493,7 +11689,7 @@
   },
   {
     "title": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
-    "title_es": "UrgenGo: Lanzamiento del núcleo de GPU transparente consciente de la urgencia para la conducción autónoma",
+    "title_es": "UrgenGo: Urgency-Aware Transparent GPU Kernel Launching for Autonomous Driving",
     "url": "https://arxiv.org/abs/2509.12207",
     "source": "arXiv",
     "published": "2025-09-17T04:00:00.000Z",
@@ -11549,7 +11745,7 @@
   },
   {
     "title": "CNIC to host CardioTox 25, the leading international congress on cardiovascular health in cancer patients",
-    "title_es": "El CNIC acogerá CardioTox 25, el principal congreso internacional sobre salud cardiovascular en pacientes con cáncer",
+    "title_es": "CNIC to host CardioTox 25, the leading international congress on cardiovascular health in cancer patients",
     "url": "https://www.cnic.es/es/node/236571",
     "source": "CNIC",
     "published": "2025-09-17T00:00:00.000Z",
@@ -25275,17 +25471,17 @@
     ]
   },
   {
-    "title": "Economic burden of drought using the life satisfaction approach: A case study of slum dwellers in southeast Iran",
-    "title_es": "Carga económica de la sequía utilizando el enfoque de satisfacción con la vida: un estudio de caso de los habitantes de barrios marginales en el sureste de Irán",
+    "title": "A new index for frequency stability assessment in Low-Inertia Power Systems",
+    "title_es": "Un nuevo índice para la evaluación de la estabilidad de frecuencia en sistemas de energía de baja inercia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "carga",
-      "económica",
-      "de"
+      "un",
+      "nuevo",
+      "índice"
     ]
   },
   {
@@ -83143,6 +83339,20 @@
     "tags": [
       "boundary",
       "criticality",
+      "of"
+    ]
+  },
+  {
+    "title": "The fate of entanglement, by Gilles Parez, William Witczak-Krempa",
+    "title_es": "The fate of entanglement, by Gilles Parez, William Witczak-Krempa",
+    "url": "https://scipost.org/scipostphys.20.1.002",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "fate",
       "of"
     ]
   }
