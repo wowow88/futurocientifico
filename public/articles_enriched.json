@@ -1,5 +1,19 @@
 [
   {
+    "title": "A never-before-seen creature has been found in the Great Salt Lake",
+    "title_es": "Hallan una criatura nunca antes vista en el Gran Lago Salado",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260110211227.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-11T00:00:00.000Z",
+    "date": "2026-01-11",
+    "category": "noticia",
+    "tags": [
+      "hallan",
+      "una",
+      "criatura"
+    ]
+  },
+  {
     "title": "Final Steps Underway for NASA’s First Crewed Artemis Moon Mission",
     "title_es": "Pasos finales en marcha para la primera misión lunar Artemisa tripulada de la NASA",
     "url": "https://www.nasa.gov/missions/artemis/artemis-2/final-steps-underway-for-nasas-first-crewed-artemis-moon-mission/",
@@ -39,6 +53,34 @@
       "las",
       "funciones",
       "y"
+    ]
+  },
+  {
+    "title": "NASA Marshall Removes 2 Historic Test Stands",
+    "title_es": "Marshall de la NASA elimina 2 bancos de pruebas históricos",
+    "url": "https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-removes-2-historic-test-stands/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-10T00:00:00.000Z",
+    "date": "2026-01-10",
+    "category": "noticia",
+    "tags": [
+      "marshall",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "Recommendations for reintroducing charophytes for better water quality and biodiversity in lakes",
+    "title_es": "Recomendaciones para la reintroducción de carófitos para una mejor calidad del agua y biodiversidad en los lagos",
+    "url": "https://phys.org/news/2026-01-reintroducing-charophytes-quality-biodiversity-lakes.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-10T00:00:00.000Z",
+    "date": "2026-01-10",
+    "category": "noticia",
+    "tags": [
+      "recomendaciones",
+      "para",
+      "la"
     ]
   },
   {
