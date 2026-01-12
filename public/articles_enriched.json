@@ -1,5 +1,47 @@
 [
   {
+    "title": "SP-Rank: A Dataset for Ranked Preferences with Secondary Information",
+    "title_es": "SP-Rank: un conjunto de datos para preferencias clasificadas con información secundaria",
+    "url": "https://arxiv.org/abs/2601.05253",
+    "source": "arXiv",
+    "published": "2026-01-12T05:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "sp-rank",
+      "a",
+      "dataset"
+    ]
+  },
+  {
+    "title": "Susan Schuh: Supporting the Humans in Human Spaceflight",
+    "title_es": "Susan Schuh: Apoyando a los humanos en los vuelos espaciales tripulados",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/susan-schuh-supporting-the-humans-in-human-spaceflight/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "susan",
+      "schuh",
+      "apoyando"
+    ]
+  },
+  {
+    "title": "A massive gene hunt reveals how brain cells are made",
+    "title_es": "Una búsqueda masiva de genes revela cómo se forman las células cerebrales",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260111214444.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "búsqueda",
+      "masiva"
+    ]
+  },
+  {
     "title": "A never-before-seen creature has been found in the Great Salt Lake",
     "title_es": "Hallan una criatura nunca antes vista en el Gran Lago Salado",
     "url": "https://www.sciencedaily.com/releases/2026/01/260110211227.htm",
@@ -11,6 +53,48 @@
       "hallan",
       "una",
       "criatura"
+    ]
+  },
+  {
+    "title": "This wild fruit is getting a CRISPR makeover",
+    "title_es": "Esta fruta silvestre se renueva con CRISPR",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260110211240.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-11T00:00:00.000Z",
+    "date": "2026-01-11",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "fruta",
+      "silvestre"
+    ]
+  },
+  {
+    "title": "A new AI tool could dramatically speed up the discovery of life-saving medicines",
+    "title_es": "Una nueva herramienta de inteligencia artificial podría acelerar drásticamente el descubrimiento de medicamentos que salvan vidas",
+    "url": "https://phys.org/news/2026-01-ai-tool-discovery-life-medicines.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-11T00:00:00.000Z",
+    "date": "2026-01-11",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "nueva",
+      "herramienta"
+    ]
+  },
+  {
+    "title": "Scores of homes razed, one dead in Australian bushfires",
+    "title_es": "Decenas de casas arrasadas y un muerto en incendios forestales en Australia",
+    "url": "https://phys.org/news/2026-01-scores-homes-razed-dead-australian.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-11T00:00:00.000Z",
+    "date": "2026-01-11",
+    "category": "noticia",
+    "tags": [
+      "decenas",
+      "de",
+      "casas"
     ]
   },
   {
@@ -252,6 +336,20 @@
     ]
   },
   {
+    "title": "AdaFuse: Adaptive Ensemble Decoding with Test-Time Scaling for LLMs",
+    "title_es": "AdaFuse: decodificación de conjunto adaptativo con escala de tiempo de prueba para LLM",
+    "url": "http://arxiv.org/abs/2601.06022v1",
+    "source": "arXiv",
+    "published": "2026-01-09T00:00:00.000Z",
+    "date": "2026-01-09",
+    "category": "noticia",
+    "tags": [
+      "adafuse",
+      "decodificación",
+      "de"
+    ]
+  },
+  {
     "title": "Tree bark microbiome has important overlooked role in climate",
     "title_es": "El microbioma de la corteza de los árboles tiene un papel importante que se pasa por alto en el clima",
     "url": "https://www.newscientist.com/article/2510731-tree-bark-microbiome-has-important-overlooked-role-in-climate/",
@@ -459,6 +557,20 @@
       "europas",
       "ocean",
       "floor"
+    ]
+  },
+  {
+    "title": "How rethinking your relationship with time could give you more of it",
+    "title_es": "Cómo repensar tu relación con el tiempo podría darte más",
+    "url": "https://www.newscientist.com/article/2509450-how-rethinking-your-relationship-with-time-could-give-you-more-of-it/",
+    "source": "New Scientist",
+    "published": "2026-01-07T16:00:13.000Z",
+    "date": "2026-01-07",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "rethinking",
+      "your"
     ]
   },
   {
@@ -11073,7 +11185,7 @@
   },
   {
     "title": "Wavelet Fourier Diffuser: Frequency-Aware Diffusion Model for Reinforcement Learning",
-    "title_es": "Difusor de Fourier Wavelet: modelo de difusión consciente de la frecuencia para el aprendizaje por refuerzo",
+    "title_es": "Wavelet Fourier Diffuser: Frequency-Aware Diffusion Model for Reinforcement Learning",
     "url": "https://arxiv.org/abs/2509.19305",
     "source": "arXiv",
     "published": "2025-09-25T04:00:00.000Z",
@@ -83676,6 +83788,46 @@
       "one-loop",
       "calculations",
       "in"
+    ]
+  },
+  {
+    "title": "ISS Current Position",
+    "title_es": "ISS Current Position",
+    "url": "https://www.latlong.net/c/",
+    "source": "ISS Position",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "iss",
+      "current",
+      "position"
+    ]
+  },
+  {
+    "title": "Crew-5",
+    "title_es": "Crew-5",
+    "url": "https://youtu.be/5eww8zkarl4",
+    "source": "SpaceX Launches",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "crew-5"
+    ]
+  },
+  {
+    "title": "Derivada de x^2: 2 x",
+    "title_es": "Derivada de x^2: 2 x",
+    "url": "https://newton.now.sh/",
+    "source": "Newton (Derivada)",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "derivada",
+      "de",
+      "x2"
     ]
   }
 ]
