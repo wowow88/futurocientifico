@@ -4,21 +4,32 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
+  // Dominio real del sitio (IMPRESCINDIBLE para sitemap)
   site: 'https://futurocientifico.es',
+
+  // URLs limpias sin barra final
   trailingSlash: 'never',
+
   integrations: [
     tailwind(),
+
     sitemap({
-      // Excluye solo la 404 del sitemap (opcional)
-      filter: (page) => !page.endsWith('/404'),
-      // Añade metadatos útiles por URL
-      serialize: (item) => ({
-        ...item,
-        changefreq: 'weekly',
-        priority: item.url === 'https://futurocientifico.es/' ? 1.0 : 0.7,
-        lastmod: new Date().toISOString()
-      })
+      // Excluir la página 404 del sitemap
+      filter: (page) => page && !page.endsWith('/404'),
+
+      // Serialización segura (evita el error de reduce)
+      serialize: (item) => {
+        if (!item || !item.url) return item;
+
+        return {
+          ...item,
+          changefreq: 'weekly',
+          priority: item.url === 'https://futurocientifico.es/' ? 1.0 : 0.7,
+          lastmod: new Date().toISOString(),
+        };
+      },
     }),
-    mdx()
-  ]
+
+    mdx(),
+  ],
 });
