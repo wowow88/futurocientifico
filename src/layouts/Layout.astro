@@ -105,8 +105,9 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
       Saltar al contenido
     </a>
 
-    <header class="bg-white border-b sticky top-0 z-50" role="banner">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <header class="relative border-b sticky top-0 z-50 bg-cover bg-center bg-no-repeat" role="banner" style="background-image: url('/eduflash-header.webp');">
+      <div class="absolute inset-0 bg-blue-900/60 backdrop-blur-sm"></div>
+      <div class="relative z-10">
         <!-- Logo -->
         <a href="/" class="flex items-center space-x-2">
           <span class="font-bold text-lg text-blue-900">FuturoCientífico</span>
@@ -167,6 +168,7 @@ const disableTracking = import.meta.env.PUBLIC_DISABLE_TRACKING === 'true';
         <a href="/apoya" class="block py-1 text-blue-900">Apóyanos</a>
         <a href="/quienes-somos" class="block py-1 text-blue-900">Quiénes Somos</a>
       </div>
+      </div> 
     </header>
     <!-- Fondo de cabecera global -->
 <section class="relative overflow-hidden bg-[url('/eduflash-header.webp')] bg-cover bg-center bg-no-repeat">
