@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'https://futurocientifico.vercel.app',
+  site: 'https://futurocientifico.es',
   trailingSlash: 'never',
   integrations: [
     tailwind(),
@@ -15,7 +15,7 @@ export default defineConfig({
       serialize: (item) => ({
         ...item,
         changefreq: 'weekly',
-        priority: item.url === 'https://futurocientifico.vercel.app/' ? 1.0 : 0.7,
+        priority: item.url === 'https://futurocientifico.es/' ? 1.0 : 0.7,
         lastmod: new Date().toISOString()
       })
     }),
