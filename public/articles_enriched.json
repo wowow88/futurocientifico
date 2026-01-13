@@ -1,5 +1,75 @@
 [
   {
+    "title": "Data-Driven Framework Development for Public Space Quality Assessment",
+    "title_es": "Desarrollo de un marco basado en datos para la evaluación de la calidad del espacio público",
+    "url": "https://arxiv.org/abs/2601.06026",
+    "source": "arXiv",
+    "published": "2026-01-13T05:00:00.000Z",
+    "date": "2026-01-13",
+    "category": "noticia",
+    "tags": [
+      "data-driven",
+      "framework",
+      "development"
+    ]
+  },
+  {
+    "title": "Thick-Skulled Troodontid Dinosaur Unearthed in Mexico",
+    "title_es": "Dinosaurio troodóntido de cráneo grueso desenterrado en México",
+    "url": "https://www.sci.news/paleontology/xenovenator-espinosai-14477.html",
+    "source": "Sci.News",
+    "published": "2026-01-13T00:21:23.000Z",
+    "date": "2026-01-13",
+    "category": "noticia",
+    "tags": [
+      "thick-skulled",
+      "troodontid",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "A Plume of Bright Blue in Melissa’s Wake",
+    "title_es": "Un penacho de azul brillante tras la estela de Melissa",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-plume-of-bright-blue-in-melissas-wake/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-13T00:00:00.000Z",
+    "date": "2026-01-13",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "penacho",
+      "de"
+    ]
+  },
+  {
+    "title": "Racial bias is at play in overrepresentation of Black youth in Canadian child welfare systems",
+    "title_es": "El prejuicio racial influye en la sobrerrepresentación de los jóvenes negros en los sistemas de bienestar infantil canadienses",
+    "url": "https://phys.org/news/2026-01-racial-bias-play-overrepresentation-black.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-13T00:00:00.000Z",
+    "date": "2026-01-13",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "prejuicio",
+      "racial"
+    ]
+  },
+  {
+    "title": "Pompeii’s public baths were unhygienic until the Romans took over",
+    "title_es": "Los baños públicos de Pompeya eran antihigiénicos hasta que los romanos se hicieron cargo",
+    "url": "https://www.newscientist.com/article/2511036-pompeiis-public-baths-were-unhygienic-until-the-romans-took-over/",
+    "source": "New Scientist",
+    "published": "2026-01-12T20:00:26.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "pompeiis",
+      "public",
+      "baths"
+    ]
+  },
+  {
     "title": "SP-Rank: A Dataset for Ranked Preferences with Secondary Information",
     "title_es": "SP-Rank: un conjunto de datos para preferencias clasificadas con información secundaria",
     "url": "https://arxiv.org/abs/2601.05253",
@@ -39,6 +109,104 @@
       "una",
       "búsqueda",
       "masiva"
+    ]
+  },
+  {
+    "title": "MHLA: Restoring Expressivity of Linear Attention via Token-Level Multi-Head",
+    "title_es": "MHLA: Restauración de la expresividad de la atención lineal a través de múltiples cabezales a nivel de token",
+    "url": "http://arxiv.org/abs/2601.07832v1",
+    "source": "arXiv",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "mhla",
+      "restauración",
+      "de"
+    ]
+  },
+  {
+    "title": "Developing super-tortillas to address malnutrition in Latin America",
+    "title_es": "Desarrollando súper tortillas para abordar la desnutrición en América Latina",
+    "url": "https://www.nature.com/articles/d41586-026-00087-w",
+    "source": "Nature",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "desarrollando",
+      "súper",
+      "tortillas"
+    ]
+  },
+  {
+    "title": "Una investigación del CNIO halla nuevos genes que predisponen al cáncer de páncreas",
+    "title_es": "Una investigación del CNIO halla nuevos genes que predisponen al cáncer de páncreas",
+    "url": "https://www.cnio.es/noticias/una-investigacion-del-cnio-halla-nuevos-genes-que-predisponen-al-cancer-de-pancreas/",
+    "source": "CNIO",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "investigación",
+      "del"
+    ]
+  },
+  {
+    "title": "ALICE welcomes its new management",
+    "title_es": "ALICE da la bienvenida a su nueva dirección",
+    "url": "https://home.cern/news/news/experiments/alice-welcomes-its-new-management",
+    "source": "CERN News",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "alice",
+      "da",
+      "la"
+    ]
+  },
+  {
+    "title": "Queen bumblebees are poor foragers thanks to sparse tongue hair",
+    "title_es": "Los abejorros reina son pobres recolectores gracias al escaso pelo de la lengua",
+    "url": "https://www.sciencenews.org/article/queen-bumblebees-tongue-hair-foraging",
+    "source": "Science News",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "abejorros",
+      "reina"
+    ]
+  },
+  {
+    "title": "Scientists finally know why ice is so slippery",
+    "title_es": "Los científicos finalmente saben por qué el hielo es tan resbaladizo",
+    "url": "https://www.snexplores.org/article/why-ice-is-slippery",
+    "source": "Science News Explores",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "finalmente"
+    ]
+  },
+  {
+    "title": "A hidden brain signal may reveal Alzheimer’s long before diagnosis",
+    "title_es": "Una señal cerebral oculta puede revelar la enfermedad de Alzheimer mucho antes del diagnóstico",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260112001041.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-12T00:00:00.000Z",
+    "date": "2026-01-12",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "señal",
+      "cerebral"
     ]
   },
   {
@@ -10891,7 +11059,7 @@
   },
   {
     "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-el-primer-workshop-undark-para-desvelar-los-secretos-del-universo-oscuro\" hreflang=\"es\">El IAC celebra el primer Workshop UNDARK para desvelar los secretos del universo oscuro</a>",
-    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-el-primer-workshop-undark-para-desvelar-los-secretos-del-universo-oscuro\" hreflang=\"es\">El IAC celebra el primer taller UNDARK para desvelar los secretos del universo oscuro</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-el-primer-workshop-undark-para-desvelar-los-secretos-del-universo-oscuro\" hreflang=\"es\">El IAC celebra el primer Workshop UNDARK para desvelar los secretos del universo oscuro</a>",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-el-primer-workshop-undark-para-desvelar-los-secretos-del-universo-oscuro",
     "source": "IAC",
     "published": "2025-09-29T00:00:00.000Z",
@@ -10989,7 +11157,7 @@
   },
   {
     "title": "An Approach to Checking Correctness for Agentic Systems",
-    "title_es": "Un enfoque para verificar la corrección de los sistemas genéticos",
+    "title_es": "An Approach to Checking Correctness for Agentic Systems",
     "url": "https://arxiv.org/abs/2509.20364",
     "source": "arXiv",
     "published": "2025-09-26T04:00:00.000Z",
@@ -25891,17 +26059,17 @@
     ]
   },
   {
-    "title": "Machine learning analysis based on deep learning for fatigue diagnostics in carbon fiber reinforced polymers",
-    "title_es": "Análisis de aprendizaje automático basado en aprendizaje profundo para diagnóstico de fatiga en polímeros reforzados con fibra de carbono",
+    "title": "Prevalence, demographic factors, co-morbidities, and treatment types associated with acanthosis nigricans in a large cross-section of 900 + transmasculine patients: Data from a single academic center 2016–2023",
+    "title_es": "Prevalencia, factores demográficos, comorbilidades y tipos de tratamiento asociados con la acantosis nigricans en una gran muestra representativa de 900<sup>+</sup> pacientes transmasculinos: datos de un solo centro académico 2016-2023",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "análisis",
-      "de",
-      "aprendizaje"
+      "prevalencia",
+      "factores",
+      "demográficos"
     ]
   },
   {
