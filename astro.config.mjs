@@ -1,17 +1,13 @@
 import { defineConfig } from 'astro/config';
+import vercelStatic from '@astrojs/vercel-static';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
-import vercel from '@astrojs/vercel/static';
-
 
 export default defineConfig({
   site: 'https://futurocientifico.es',
   trailingSlash: 'never',
-  adapter: vercel({ split: false }), // ✅ Genera solo archivos estáticos
-
-  integrations: [
-    tailwind(),
-    mdx(),
-  ],
+  output: 'static',
+  adapter: vercelStatic(),
+  integrations: [tailwind(), mdx()],
 });
 
