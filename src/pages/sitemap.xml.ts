@@ -1,39 +1,39 @@
-import type { APIRoute } from "astro";
+import { getCollection } from 'astro:content';
 
-export const GET: APIRoute = () => {
-  const base = "https://futurocientifico.es";
-  const routes = [
-    "/",
-    "/formacion",
-    "/recursos",
-    "/revistas",
-    "/eduflash",
-    "/preguntona",
-    "/apoya",
-    "/legal/aviso-legal",
-    "/legal/privacidad",
-    "/legal/cookies",
+export async function GET() {
+  const site = 'https://futurocientifico.es';
+
+  const staticPaths = [
+    '', // home
+    'formacion',
+    'recursos',
+    'revistas',
+    'apoya',
+    'preguntona',
+    'quienes-somos',
+    'eduflash',
   ];
 
-  const body =
-    `<?xml version="1.0" encoding="UTF-8"?>` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
-    routes
-      .map(
-        (route) =>
-          `<url>` +
-          `<loc>${base}${route}</loc>` +
-          `<changefreq>weekly</changefreq>` +
-          `<priority>0.8</priority>` +
-          `</url>`
-      )
-      .join("") +
-    `</urlset>`;
+  const urls = staticPaths.map((path) => {
+    const url = `${site}/${path}`;
+    return `
+      <url>
+        <loc>${url}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>${url === site + '/' ? '1.0' : '0.7'}</priority>
+        <lastmod>${new Date().toISOString()}</lastmod>
+      </url>`;
+  });
 
-  return new Response(body, {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${urls.join('\n')}
+  </urlset>`;
+
+  return new Response(xml, {
     headers: {
-      "Content-Type": "application/xml; charset=utf-8",
+      'Content-Type': 'application/xml',
     },
   });
-};
+}
 
