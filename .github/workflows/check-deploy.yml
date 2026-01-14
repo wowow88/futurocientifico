@@ -17,10 +17,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Clean install
+      - name: Clean and install dependencies
         run: |
           rm -rf node_modules package-lock.json .astro dist
           npm install --legacy-peer-deps
 
       - name: Build with Astro
         run: npm run build
+
