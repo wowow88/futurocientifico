@@ -3,6 +3,7 @@ name: Check Deploy
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,4 +25,3 @@ jobs:
 
       - name: Build with Astro
         run: npm run build
-
