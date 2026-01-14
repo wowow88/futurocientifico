@@ -1,6 +1,13 @@
 {
   "buildCommand": "npm ci && npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/(.*)/",
+      "destination": "/$1",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
