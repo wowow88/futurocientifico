@@ -19,15 +19,16 @@ export default defineConfig({
 
       // Serialización segura (evita el error de reduce)
       serialize: (item) => {
-        if (!item || !item.url) return item;
+  if (!item || typeof item.url !== 'string') return null;
 
-        return {
-          ...item,
-          changefreq: 'weekly',
-          priority: item.url === 'https://futurocientifico.es/' ? 1.0 : 0.7,
-          lastmod: new Date().toISOString(),
-        };
-      },
+  return {
+    ...item,
+    changefreq: 'weekly',
+    priority: item.url === 'https://futurocientifico.es/' ? 1.0 : 0.7,
+    lastmod: new Date().toISOString(),
+  };
+},
+
     }),
 
     mdx(),
