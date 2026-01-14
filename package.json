@@ -7,12 +7,12 @@
     "preview": "astro preview"
   },
   "engines": {
-    "node": ">=18" // más estable que >=20
+    "node": ">=18"
   },
   "dependencies": {
     "astro": "^4.16.19",
     "@astrojs/vercel": "^8.1.2",
-    // ...
+    
   },
   "devDependencies": {
     "@astrojs/tailwind": "^x.x.x",
