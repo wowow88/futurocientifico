@@ -17,3 +17,4 @@ astro.config.mjs.LCK
 =======
 node_modules
 >>>>>>> 184b019 (Agregar .gitignore adecuado)
+pnpm-lock.yaml
