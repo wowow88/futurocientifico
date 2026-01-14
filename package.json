@@ -1,39 +1,22 @@
 {
   "name": "futurocientifico",
   "version": "1.0.0",
-  "type": "module",
-  "engines": {
-    "node": ">=20"
-  },
-  "packageManager": "pnpm@9",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "check": "astro check",
-    "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "preview": "astro preview"
+  },
+  "engines": {
+    "node": ">=18" // más estable que >=20
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.9",
-    "@astrojs/react": "^3.1.0",
-    "@astrojs/sitemap": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
+    "astro": "^4.16.19",
     "@astrojs/vercel": "^8.1.2",
-    "astro": "^4.16.18",
-    "franc": "^6.1.0",
-    "node-fetch": "^3.3.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rss-parser": "^3.12.0",
-    "tailwindcss": "^3.3.0"
+    // ...
   },
   "devDependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@types/node": "^20.0.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0",
-    "prettier": "^3.0.0",
-    "prettier-plugin-astro": "^0.14.0"
+    "@astrojs/tailwind": "^x.x.x",
+    "@astrojs/mdx": "^x.x.x"
   }
 }
+
