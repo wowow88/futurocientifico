@@ -10,25 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout código
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Usar Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Clean and install dependencies
-        run: |
-          rm -rf node_modules package-lock.json .astro dist
-          npm install --legacy-peer-deps
-          
-      - name: Clean previous builds
-        run: |
-            rm -rf node_modules
-            rm -rf dist
-            rm -rf .astro
+      - name: Instalar dependencias
+        run: npm ci
 
+      - name: Limpiar cachés anteriores
+        run: |
+          rm -rf node_modules
+          rm -rf dist
+          rm -rf .astro
 
-      - name: Build with Astro
-        run: npm run build
+      - name: Reinstalar dependencias limpias
+        run: npm install --legacy-peer-deps
+
+      - name: Build con Astro (modo estático)
+        run: npx astro build
+
+      - name: Verificar contenido del directorio dist
+        run: ls -la dist
