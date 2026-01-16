@@ -1,5 +1,103 @@
 [
   {
+    "title": "Social Determinants of Health Prediction for ICD-9 Code with Reasoning Models",
+    "title_es": "Determinantes sociales de la predicción de la salud para el código ICD-9 con modelos de razonamiento",
+    "url": "https://arxiv.org/abs/2601.09709",
+    "source": "arXiv",
+    "published": "2026-01-16T05:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "social",
+      "determinants",
+      "of"
+    ]
+  },
+  {
+    "title": "Tyrannosaurus rex Took Nearly Four Decades to Grow Up, New Research Shows",
+    "title_es": "El tiranosaurio rex tardó casi cuatro décadas en crecer, según una nueva investigación",
+    "url": "https://www.sci.news/paleontology/tyrannosaurus-rex-growth-14487.html",
+    "source": "Sci.News",
+    "published": "2026-01-16T01:00:07.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "tyrannosaurus",
+      "rex",
+      "took"
+    ]
+  },
+  {
+    "title": "Blooming Seas Around the Chatham Islands",
+    "title_es": "Mares florecientes alrededor de las islas Chatham",
+    "url": "https://science.nasa.gov/earth/earth-observatory/blooming-seas-around-the-chatham-islands/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "mares",
+      "florecientes",
+      "alrededor"
+    ]
+  },
+  {
+    "title": "Scientists found the soil secret that doubles forest regrowth",
+    "title_es": "Los científicos encontraron el secreto del suelo que duplica el recrecimiento de los bosques",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "encontraron"
+    ]
+  },
+  {
+    "title": "From freezer to fork: New thawing method could deliver 'dock-fresh' fish anywhere",
+    "title_es": "Del congelador al tenedor: un nuevo método de descongelación podría ofrecer pescado \"fresco\" en cualquier lugar",
+    "url": "https://phys.org/news/2026-01-freezer-fork-method-dock-fresh.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "del",
+      "congelador",
+      "al"
+    ]
+  },
+  {
+    "title": "Lithium-ion batteries could last longer with chemical tweak",
+    "title_es": "Las baterías de iones de litio podrían durar más tiempo con ajustes químicos",
+    "url": "https://www.newscientist.com/article/2511778-lithium-ion-batteries-could-last-longer-with-chemical-tweak/",
+    "source": "New Scientist",
+    "published": "2026-01-15T20:00:59.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "lithium-ion",
+      "batteries",
+      "could"
+    ]
+  },
+  {
+    "title": "The Ever-Shrinking Eldercare Workforce",
+    "title_es": "La fuerza laboral cada vez más reducida del cuidado de ancianos",
+    "url": "https://undark.org/2026/01/15/opinion-shrinking-eldercare-workforce/",
+    "source": "Undark Magazine",
+    "published": "2026-01-15T08:34:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "ever-shrinking",
+      "eldercare"
+    ]
+  },
+  {
     "title": "Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications",
     "title_es": "Revisión del modelo de lenguaje grande desagregado que sirve para las implicaciones de rendimiento y energía",
     "url": "https://arxiv.org/abs/2601.08833",
@@ -67,6 +165,104 @@
       "la",
       "sed",
       "de"
+    ]
+  },
+  {
+    "title": "MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching",
+    "title_es": "MatchTIR: supervisión detallada para el razonamiento integrado en herramientas mediante coincidencia bipartita",
+    "url": "http://arxiv.org/abs/2601.10712v1",
+    "source": "arXiv",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "matchtir",
+      "supervisión",
+      "detallada"
+    ]
+  },
+  {
+    "title": "The branching legacies of America’s past",
+    "title_es": "Los legados ramificados del pasado de Estados Unidos",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aec7931",
+    "source": "Science.org",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "legados",
+      "ramificados"
+    ]
+  },
+  {
+    "title": "Nationwide genetic screening proves effective at catching disease risk early",
+    "title_es": "El examen genético a nivel nacional resulta eficaz para detectar tempranamente el riesgo de enfermedad",
+    "url": "https://www.nature.com/articles/d41586-026-00035-8",
+    "source": "Nature",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "examen",
+      "genético"
+    ]
+  },
+  {
+    "title": "European Heart Journal: Study reveals how high blood pressure increases susceptibility to heart damage caused by a key cancer treatment",
+    "title_es": "European Heart Journal: Un estudio revela cómo la presión arterial alta aumenta la susceptibilidad al daño cardíaco causado por un tratamiento clave contra el cáncer",
+    "url": "https://www.cnic.es/es/node/239455",
+    "source": "CNIC",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "revista",
+    "tags": [
+      "european",
+      "heart",
+      "journal"
+    ]
+  },
+  {
+    "title": "Antonio Pérez, nuevo académico correspondiente de la Real Academia Nacional de Medicina de España",
+    "title_es": "Antonio Pérez, nuevo académico correspondiente de la Real Academia Nacional de Medicina de España",
+    "url": "https://www.cnio.es/noticias/antonio-perez-nuevo-academico-correspondiente-de-la-real-academia-nacional-de-medicina-de-espana/",
+    "source": "CNIO",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "antonio",
+      "pérez",
+      "nuevo"
+    ]
+  },
+  {
+    "title": "Animal personalities can play a big role in saving species",
+    "title_es": "Las personalidades de los animales pueden desempeñar un papel importante en la salvación de especies.",
+    "url": "https://www.sciencenews.org/article/animals-personalities-saving-species",
+    "source": "Science News",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "personalidades",
+      "de"
+    ]
+  },
+  {
+    "title": "Linking science to dance, culture and more expands who can take part",
+    "title_es": "Vincular la ciencia con la danza, la cultura y más amplía quiénes pueden participar",
+    "url": "https://www.snexplores.org/article/science-culture-dance-sound-stem",
+    "source": "Science News Explores",
+    "published": "2026-01-15T00:00:00.000Z",
+    "date": "2026-01-15",
+    "category": "noticia",
+    "tags": [
+      "vincular",
+      "la",
+      "ciencia"
     ]
   },
   {
@@ -907,6 +1103,20 @@
       "red",
       "tattoo",
       "ink"
+    ]
+  },
+  {
+    "title": "Computer Security: A final marathon for service managers",
+    "title_es": "Seguridad informática: un maratón final para los gerentes de servicio",
+    "url": "https://home.cern/news/news/computing/computer-security-final-marathon-service-managers",
+    "source": "CERN News",
+    "published": "2026-01-08T11:57:59.000Z",
+    "date": "2026-01-08",
+    "category": "noticia",
+    "tags": [
+      "computer",
+      "security",
+      "a"
     ]
   },
   {
@@ -10415,7 +10625,7 @@
   },
   {
     "title": "Luca Scorrano: \"Mi fascinación por las mitocondrias ha sido como un primer amor”",
-    "title_es": "Luca Scorrano: “Mi fascinación por las mitocondrias ha sido como un primer amor”",
+    "title_es": "Luca Scorrano: \"Mi fascinación por las mitocondrias ha sido como un primer amor”",
     "url": "https://www.cnic.es/es/noticias/luca-scorrano-mi-fascinacion-por-mitocondrias-ha-sido-como-un-primer-amor",
     "source": "CNIC",
     "published": "2025-10-09T00:00:00.000Z",
@@ -10429,7 +10639,7 @@
   },
   {
     "title": "A note on a paper by Hashemi and Kapur",
-    "title_es": "Una nota en un papel de Hashemi y Kapur",
+    "title_es": "A note on a paper by Hashemi and Kapur",
     "url": "https://arxiv.org/abs/2510.05103",
     "source": "arXiv",
     "published": "2025-10-08T04:00:00.000Z",
@@ -10555,7 +10765,7 @@
   },
   {
     "title": "Generalization and the Rise of System-level Creativity in Science",
-    "title_es": "La generalización y el aumento de la creatividad a nivel de sistema en la ciencia",
+    "title_es": "Generalization and the Rise of System-level Creativity in Science",
     "url": "https://arxiv.org/abs/2510.03240",
     "source": "arXiv",
     "published": "2025-10-07T04:00:00.000Z",
@@ -10653,7 +10863,7 @@
   },
   {
     "title": "Hybrid Horizons: Policy for Post-Quantum Security",
-    "title_es": "Horizontes híbridos: política de seguridad postcuántica",
+    "title_es": "Hybrid Horizons: Policy for Post-Quantum Security",
     "url": "https://arxiv.org/abs/2510.02317",
     "source": "arXiv",
     "published": "2025-10-06T04:00:00.000Z",
@@ -10807,7 +11017,7 @@
   },
   {
     "title": "Manim for STEM Education: Visualizing Complex Problems Through Animation",
-    "title_es": "Manim para la educación STEM: visualización de problemas complejos a través de la animación",
+    "title_es": "Manim for STEM Education: Visualizing Complex Problems Through Animation",
     "url": "https://arxiv.org/abs/2510.01187",
     "source": "arXiv",
     "published": "2025-10-03T04:00:00.000Z",
@@ -26423,17 +26633,17 @@
     ]
   },
   {
-    "title": "Sexual and reproductive health challenges among street adolescents in Sylhet city, Bangladesh: A cross-sectional study",
-    "title_es": "Desafíos de salud sexual y reproductiva entre adolescentes de la calle en la ciudad de Sylhet, Bangladesh: un estudio transversal",
+    "title": "From law enforcement to public safety: Police officer experiences of naloxone administration to reverse opioid overdose in New York City",
+    "title_es": "De la aplicación de la ley a la seguridad pública: las experiencias de los agentes de policía con la administración de naloxona para revertir la sobredosis de opioides en la ciudad de Nueva York",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "desafíos",
       "de",
-      "salud"
+      "la",
+      "aplicación"
     ]
   },
   {
@@ -84387,6 +84597,20 @@
     "tags": [
       "plato",
       "and",
+      "the"
+    ]
+  },
+  {
+    "title": "NGC 7023: The Iris Nebula",
+    "title_es": "NGC 7023: The Iris Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2601/ngc7023_falk1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "7023",
       "the"
     ]
   }
