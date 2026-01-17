@@ -1,5 +1,61 @@
 [
   {
+    "title": "First treaty to protect the high seas comes into force",
+    "title_es": "Entra en vigor el primer tratado para proteger la alta mar",
+    "url": "https://www.newscientist.com/article/2512101-first-treaty-to-protect-the-high-seas-comes-into-force/",
+    "source": "New Scientist",
+    "published": "2026-01-17T00:01:57.000Z",
+    "date": "2026-01-17",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "treaty",
+      "to"
+    ]
+  },
+  {
+    "title": "Dallas greenhouse gas emissions fall below 2015 levels, city data show",
+    "title_es": "Las emisiones de gases de efecto invernadero de Dallas caen por debajo de los niveles de 2015, según muestran datos de la ciudad",
+    "url": "https://phys.org/news/2026-01-dallas-greenhouse-gas-emissions-fall.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-17T00:00:00.000Z",
+    "date": "2026-01-17",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "emisiones",
+      "de"
+    ]
+  },
+  {
+    "title": "Astronomers Spot Surprising Iron ‘Bar’ at Heart of Ring Nebula",
+    "title_es": "Los astrónomos ven una sorprendente ‘barra‘ de hierro en el corazón de la nebulosa del Anillo",
+    "url": "https://www.sci.news/astronomy/iron-bar-ring-nebula-14488.html",
+    "source": "Sci.News",
+    "published": "2026-01-16T22:06:16.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "astronomers",
+      "spot",
+      "surprising"
+    ]
+  },
+  {
+    "title": "Book Review: A Portrait of the Arctic World in Flux",
+    "title_es": "Reseña del libro: Un retrato del mundo ártico en movimiento",
+    "url": "https://undark.org/2026/01/16/book-review-frostlines/",
+    "source": "Undark Magazine",
+    "published": "2026-01-16T08:15:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "a"
+    ]
+  },
+  {
     "title": "Social Determinants of Health Prediction for ICD-9 Code with Reasoning Models",
     "title_es": "Determinantes sociales de la predicción de la salud para el código ICD-9 con modelos de razonamiento",
     "url": "https://arxiv.org/abs/2601.09709",
@@ -67,6 +123,76 @@
       "del",
       "congelador",
       "al"
+    ]
+  },
+  {
+    "title": "HPV vaccine could help to protect the unvaccinated against cervical cancer",
+    "title_es": "La vacuna contra el VPH podría ayudar a proteger a las personas no vacunadas contra el cáncer de cuello uterino",
+    "url": "https://www.nature.com/articles/d41586-026-00128-4",
+    "source": "Nature",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vacuna",
+      "contra"
+    ]
+  },
+  {
+    "title": "What can you do with 380 million Higgs bosons?",
+    "title_es": "¿Qué se puede hacer con 380 millones de bosones de Higgs?",
+    "url": "https://home.cern/news/news/physics/what-can-you-do-380-million-higgs-bosons",
+    "source": "CERN News",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "se",
+      "puede"
+    ]
+  },
+  {
+    "title": "This fish may play a hole in its head like a drum",
+    "title_es": "Este pez puede hacer un agujero en su cabeza como un tambor",
+    "url": "https://www.sciencenews.org/article/rockhead-poacher-fish-play-hole-drum",
+    "source": "Science News",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "pez",
+      "puede"
+    ]
+  },
+  {
+    "title": "This cosmologist studies the invisible parts of the universe",
+    "title_es": "Esta cosmóloga estudia las partes invisibles del universo.",
+    "url": "https://www.snexplores.org/article/cosmologist-dark-matter-universe",
+    "source": "Science News Explores",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "cosmóloga",
+      "estudia"
+    ]
+  },
+  {
+    "title": "NASA brings Crew-11 home early in rare medical evacuation",
+    "title_es": "La NASA lleva a Crew-11 a casa temprano en una rara evacuación médica",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260116045344.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "lleva"
     ]
   },
   {
@@ -10485,7 +10611,7 @@
   },
   {
     "title": "Inducing State Anxiety in LLM Agents Reproduces Human-Like Biases in Consumer Decision-Making",
-    "title_es": "La inducción de ansiedad de estado en agentes de LLM reproduce sesgos similares a los humanos en la toma de decisiones del consumidor",
+    "title_es": "Inducing State Anxiety in LLM Agents Reproduces Human-Like Biases in Consumer Decision-Making",
     "url": "https://arxiv.org/abs/2510.06222",
     "source": "arXiv",
     "published": "2025-10-09T04:00:00.000Z",
@@ -26633,17 +26759,17 @@
     ]
   },
   {
-    "title": "From law enforcement to public safety: Police officer experiences of naloxone administration to reverse opioid overdose in New York City",
-    "title_es": "De la aplicación de la ley a la seguridad pública: las experiencias de los agentes de policía con la administración de naloxona para revertir la sobredosis de opioides en la ciudad de Nueva York",
+    "title": "Knowledge graph-based intelligent data management and information innovation service model for university library systems",
+    "title_es": "Modelo de servicio de innovación de información y gestión de datos inteligente basado en gráficos de conocimiento para sistemas de bibliotecas universitarias",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
+      "modelo",
       "de",
-      "la",
-      "aplicación"
+      "servicio"
     ]
   },
   {
@@ -84612,6 +84738,20 @@
       "ngc",
       "7023",
       "the"
+    ]
+  },
+  {
+    "title": "Apollo 14: A View from Antares",
+    "title_es": "Apollo 14: A View from Antares",
+    "url": "https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj_900.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "apollo",
+      "14",
+      "a"
     ]
   }
 ]
