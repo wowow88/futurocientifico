@@ -1,5 +1,19 @@
 [
   {
+    "title": "One cure for sour feelings about politics: Getting people to love their hometowns",
+    "title_es": "Una cura para los resentimientos sobre la política: lograr que la gente ame sus lugares de origen",
+    "url": "https://phys.org/news/2026-01-sour-politics-people-hometowns.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-18T00:00:00.000Z",
+    "date": "2026-01-18",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "cura",
+      "para"
+    ]
+  },
+  {
     "title": "First treaty to protect the high seas comes into force",
     "title_es": "Entra en vigor el primer tratado para proteger la alta mar",
     "url": "https://www.newscientist.com/article/2512101-first-treaty-to-protect-the-high-seas-comes-into-force/",
@@ -25,6 +39,34 @@
       "las",
       "emisiones",
       "de"
+    ]
+  },
+  {
+    "title": "Hubble Snaps Stellar Baby Pictures",
+    "title_es": "Hubble toma fotografías estelares de bebés",
+    "url": "https://science.nasa.gov/missions/hubble/hubble-snaps-stellar-baby-pictures/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-17T00:00:00.000Z",
+    "date": "2026-01-17",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "toma",
+      "fotografías"
+    ]
+  },
+  {
+    "title": "Tiny earthquakes are revealing a dangerous secret beneath California",
+    "title_es": "Pequeños terremotos están revelando un secreto peligroso debajo de California",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260117053529.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-17T00:00:00.000Z",
+    "date": "2026-01-17",
+    "category": "noticia",
+    "tags": [
+      "pequeños",
+      "terremotos",
+      "están"
     ]
   },
   {
@@ -403,6 +445,20 @@
       "woolly",
       "rhino",
       "genome"
+    ]
+  },
+  {
+    "title": "Three ways to become calmer this New Year that you haven't tried (yet)",
+    "title_es": "Tres formas de estar más tranquilo este Año Nuevo que no has probado (todavía)",
+    "url": "https://www.newscientist.com/article/2510000-three-ways-to-become-calmer-this-new-year-that-you-havent-tried-yet/",
+    "source": "New Scientist",
+    "published": "2026-01-14T12:00:41.000Z",
+    "date": "2026-01-14",
+    "category": "noticia",
+    "tags": [
+      "three",
+      "ways",
+      "to"
     ]
   },
   {
@@ -10485,7 +10541,7 @@
   },
   {
     "title": "Deep Learning Based Approach to Enhanced Recognition of Emotions and Behavioral Patterns of Autistic Children",
-    "title_es": "Enfoque basado en el aprendizaje profundo para mejorar el reconocimiento de las emociones y los patrones de comportamiento de los niños autistas",
+    "title_es": "Deep Learning Based Approach to Enhanced Recognition of Emotions and Behavioral Patterns of Autistic Children",
     "url": "https://arxiv.org/abs/2510.07320",
     "source": "arXiv",
     "published": "2025-10-10T04:00:00.000Z",
@@ -26760,7 +26816,7 @@
   },
   {
     "title": "Knowledge graph-based intelligent data management and information innovation service model for university library systems",
-    "title_es": "Modelo de servicio de innovación de información y gestión de datos inteligente basado en gráficos de conocimiento para sistemas de bibliotecas universitarias",
+    "title_es": "Modelo de servicio de innovación de información e gestión de datos inteligente basado en gráficos de conocimiento para sistemas de bibliotecas universitarias",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -84752,6 +84808,20 @@
       "apollo",
       "14",
       "a"
+    ]
+  },
+  {
+    "title": "Jupiter from the Webb Space Telescope",
+    "title_es": "Jupiter from the Webb Space Telescope",
+    "url": "https://apod.nasa.gov/apod/image/2601/jupiter2_webbschmidt_1080_annotated.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "jupiter",
+      "from",
+      "the"
     ]
   }
 ]
