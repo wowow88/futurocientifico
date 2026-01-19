@@ -1,5 +1,19 @@
 [
   {
+    "title": "Japanese AI Agent System on Human Papillomavirus Vaccination: System Design",
+    "title_es": "Sistema japonés de agentes de IA en la vacunación contra el virus del papiloma humano: diseño del sistema",
+    "url": "https://arxiv.org/abs/2601.10718",
+    "source": "arXiv",
+    "published": "2026-01-19T05:00:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "japanese",
+      "ai",
+      "agent"
+    ]
+  },
+  {
     "title": "One cure for sour feelings about politics: Getting people to love their hometowns",
     "title_es": "Una cura para los resentimientos sobre la política: lograr que la gente ame sus lugares de origen",
     "url": "https://phys.org/news/2026-01-sour-politics-people-hometowns.html",
@@ -11,6 +25,34 @@
       "una",
       "cura",
       "para"
+    ]
+  },
+  {
+    "title": "The real danger of Tylenol has nothing to do with autism",
+    "title_es": "El peligro real del Tylenol no tiene nada que ver con el autismo",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260118115058.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-18T00:00:00.000Z",
+    "date": "2026-01-18",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "peligro",
+      "real"
+    ]
+  },
+  {
+    "title": "German study examines why women are less likely to hold leadership positions in logistics",
+    "title_es": "Un estudio alemán examina por qué las mujeres tienen menos probabilidades de ocupar puestos de liderazgo en la logística",
+    "url": "https://phys.org/news/2026-01-german-women-leadership-positions-logistics.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-18T00:00:00.000Z",
+    "date": "2026-01-18",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "estudio",
+      "alemán"
     ]
   },
   {
@@ -238,6 +280,20 @@
     ]
   },
   {
+    "title": "Do explanations generalize across large reasoning models?",
+    "title_es": "¿Se generalizan las explicaciones a través de grandes modelos de razonamiento?",
+    "url": "http://arxiv.org/abs/2601.11517v1",
+    "source": "arXiv",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "se",
+      "generalizan",
+      "las"
+    ]
+  },
+  {
     "title": "Lithium-ion batteries could last longer with chemical tweak",
     "title_es": "Las baterías de iones de litio podrían durar más tiempo con ajustes químicos",
     "url": "https://www.newscientist.com/article/2511778-lithium-ion-batteries-could-last-longer-with-chemical-tweak/",
@@ -445,6 +501,20 @@
       "woolly",
       "rhino",
       "genome"
+    ]
+  },
+  {
+    "title": "Psychiatry has finally found an objective way to spot mental illness",
+    "title_es": "La psiquiatría finalmente ha encontrado una forma objetiva de detectar enfermedades mentales",
+    "url": "https://www.newscientist.com/article/2509966-psychiatry-has-finally-found-an-objective-way-to-spot-mental-illness/",
+    "source": "New Scientist",
+    "published": "2026-01-14T16:00:14.000Z",
+    "date": "2026-01-14",
+    "category": "noticia",
+    "tags": [
+      "psychiatry",
+      "has",
+      "finally"
     ]
   },
   {
@@ -10373,7 +10443,7 @@
   },
   {
     "title": "Comparative Analysis of Large Language Models for the Machine-Assisted Resolution of User Intentions",
-    "title_es": "Análisis comparativo de grandes modelos de lenguaje para la resolución asistida por máquina de las intenciones del usuario",
+    "title_es": "Comparative Analysis of Large Language Models for the Machine-Assisted Resolution of User Intentions",
     "url": "https://arxiv.org/abs/2510.08576",
     "source": "arXiv",
     "published": "2025-10-13T04:00:00.000Z",
@@ -84821,6 +84891,20 @@
     "tags": [
       "jupiter",
       "from",
+      "the"
+    ]
+  },
+  {
+    "title": "CTB 1: The Medulla Nebula",
+    "title_es": "CTB 1: The Medulla Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2601/ctb1_konzelmann_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ctb",
+      "1",
       "the"
     ]
   }
