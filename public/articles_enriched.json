@@ -1,5 +1,61 @@
 [
   {
+    "title": "3I/ATLAS Shows Signs of Full Cometary Awakening after Perihelion",
+    "title_es": "3I/ATLAS muestra signos de despertar cometario completo después del perihelio",
+    "url": "https://www.sci.news/astronomy/3i-atlas-cometary-awakening-14493.html",
+    "source": "Sci.News",
+    "published": "2026-01-20T04:24:20.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "3iatlas",
+      "shows",
+      "signs"
+    ]
+  },
+  {
+    "title": "A two-week leap in breeding: Antarctic penguins' striking climate adaptation",
+    "title_es": "Un salto de dos semanas en la reproducción: la sorprendente adaptación climática de los pingüinos antárticos",
+    "url": "https://phys.org/news/2026-01-week-antarctic-penguins-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "salto",
+      "de"
+    ]
+  },
+  {
+    "title": "Why a tool-using cow could change how we see farm animals",
+    "title_es": "Por qué una vaca que usa herramientas podría cambiar la forma en que vemos a los animales de granja",
+    "url": "https://www.newscientist.com/article/2511920-why-a-tool-using-cow-could-change-how-we-see-farm-animals/",
+    "source": "New Scientist",
+    "published": "2026-01-19T16:00:47.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "a",
+      "tool-using"
+    ]
+  },
+  {
+    "title": "For EPA Pollution Rules, the Value of Human Health Is Changing",
+    "title_es": "Para las normas de contaminación de la EPA, el valor de la salud humana está cambiando",
+    "url": "https://undark.org/2026/01/19/epa-pollution-human-lives/",
+    "source": "Undark Magazine",
+    "published": "2026-01-19T08:25:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "for",
+      "epa",
+      "pollution"
+    ]
+  },
+  {
     "title": "Japanese AI Agent System on Human Papillomavirus Vaccination: System Design",
     "title_es": "Sistema japonés de agentes de IA en la vacunación contra el virus del papiloma humano: diseño del sistema",
     "url": "https://arxiv.org/abs/2601.10718",
@@ -11,6 +67,62 @@
       "japanese",
       "ai",
       "agent"
+    ]
+  },
+  {
+    "title": "Collective intelligence for AI-assisted chemical synthesis",
+    "title_es": "Inteligencia colectiva para la síntesis química asistida por IA",
+    "url": "https://www.nature.com/articles/s41586-026-10131-4",
+    "source": "Nature",
+    "published": "2026-01-19T00:00:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "inteligencia",
+      "colectiva",
+      "para"
+    ]
+  },
+  {
+    "title": "This tool-using cow defies expectations for bovine braininess",
+    "title_es": "Esta vaca que utiliza herramientas desafía las expectativas de inteligencia bovina",
+    "url": "https://www.sciencenews.org/article/tool-using-cow-cognition-scratch",
+    "source": "Science News",
+    "published": "2026-01-19T00:00:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "vaca",
+      "que"
+    ]
+  },
+  {
+    "title": "Scientists Say: Taxonomy",
+    "title_es": "Los científicos dicen: taxonomía",
+    "url": "https://www.snexplores.org/article/scientists-say-taxonomy-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-01-19T00:00:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
+    ]
+  },
+  {
+    "title": "Inside the mysterious collapse of dark matter halos",
+    "title_es": "Dentro del misterioso colapso de los halos de materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260118233609.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-19T00:00:00.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "dentro",
+      "del",
+      "misterioso"
     ]
   },
   {
@@ -10219,7 +10331,7 @@
   },
   {
     "title": "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis",
-    "title_es": "eye2vec: Aprendizaje de representaciones distribuidas del movimiento ocular para el análisis de comprensión del programa",
+    "title_es": "eye2vec: Learning Distributed Representations of Eye Movement for Program Comprehension Analysis",
     "url": "https://arxiv.org/abs/2510.11722",
     "source": "arXiv",
     "published": "2025-10-15T04:00:00.000Z",
@@ -10345,7 +10457,7 @@
   },
   {
     "title": "Sequential Convex Programming for 6-DoF Powered Descent Guidance with Continuous-Time Compound State-Triggered Constraints",
-    "title_es": "Programación convexa secuencial para guía de descenso impulsada por 6-DoF con restricciones activadas por estado compuesto en tiempo continuo",
+    "title_es": "Sequential Convex Programming for 6-DoF Powered Descent Guidance with Continuous-Time Compound State-Triggered Constraints",
     "url": "https://arxiv.org/abs/2510.09610",
     "source": "arXiv",
     "published": "2025-10-14T04:00:00.000Z",
@@ -84906,6 +85018,20 @@
       "ctb",
       "1",
       "the"
+    ]
+  },
+  {
+    "title": "Io in True Color",
+    "title_es": "Io in True Color",
+    "url": "https://apod.nasa.gov/apod/image/2601/iotruecolor_galileo_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "io",
+      "in",
+      "true"
     ]
   }
 ]
