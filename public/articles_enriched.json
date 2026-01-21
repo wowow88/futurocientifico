@@ -1,5 +1,117 @@
 [
   {
+    "title": "SynQP: A Framework and Metrics for Evaluating the Quality and Privacy Risk of Synthetic Data",
+    "title_es": "SynQP: un marco y métricas para evaluar el riesgo de calidad y privacidad de los datos sintéticos",
+    "url": "https://arxiv.org/abs/2601.12124",
+    "source": "arXiv",
+    "published": "2026-01-21T05:00:00.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "synqp",
+      "a",
+      "framework"
+    ]
+  },
+  {
+    "title": "Webb Peers Deep into Iconic Helix Nebula",
+    "title_es": "Webb Peers profundiza en la icónica nebulosa Helix",
+    "url": "https://www.sci.news/astronomy/webb-helix-nebula-14498.html",
+    "source": "Sci.News",
+    "published": "2026-01-21T00:08:37.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "webb",
+      "peers",
+      "deep"
+    ]
+  },
+  {
+    "title": "Bubble feeding trick spreads through humpback whale social groups",
+    "title_es": "El truco de la alimentación con burbujas se propaga a través de los grupos sociales de ballenas jorobadas",
+    "url": "https://www.newscientist.com/article/2512344-bubble-feeding-trick-spreads-through-humpback-whale-social-groups/",
+    "source": "New Scientist",
+    "published": "2026-01-21T00:01:20.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "bubble",
+      "feeding",
+      "trick"
+    ]
+  },
+  {
+    "title": "Fires Erupt in South-Central Chile",
+    "title_es": "Estallan incendios en el centro-sur de Chile",
+    "url": "https://science.nasa.gov/earth/earth-observatory/fires-erupt-in-south-central-chile/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-21T00:00:00.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "estallan",
+      "incendios",
+      "en"
+    ]
+  },
+  {
+    "title": "Stanford scientists found a way to regrow cartilage and stop arthritis",
+    "title_es": "Los científicos de Stanford encontraron una manera de regenerar el cartílago y detener la artritis",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260120000333.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-21T00:00:00.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "de"
+    ]
+  },
+  {
+    "title": "Strategic sex: Alaska's beluga whales swap mates for long-term survival",
+    "title_es": "Sexo estratégico: las ballenas beluga de Alaska intercambian parejas para sobrevivir a largo plazo",
+    "url": "https://phys.org/news/2026-01-strategic-sex-alaska-beluga-whales.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-21T00:00:00.000Z",
+    "date": "2026-01-21",
+    "category": "noticia",
+    "tags": [
+      "sexo",
+      "estratégico",
+      "las"
+    ]
+  },
+  {
+    "title": "Scientists solve a major roadblock holding back cancer cell therapy",
+    "title_es": "Los científicos resuelven un obstáculo importante que frena la terapia con células cancerosas",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260120015654.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-20T08:27:50.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "solve",
+      "a"
+    ]
+  },
+  {
+    "title": "Deepening Environmental Crises Are Fueling Protests in Iran",
+    "title_es": "La profundización de las crisis ambientales está alimentando las protestas en Irán",
+    "url": "https://undark.org/2026/01/20/iran-protests-environmental-crises/",
+    "source": "Undark Magazine",
+    "published": "2026-01-20T08:01:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "deepening",
+      "environmental",
+      "crises"
+    ]
+  },
+  {
     "title": "3I/ATLAS Shows Signs of Full Cometary Awakening after Perihelion",
     "title_es": "3I/ATLAS muestra signos de despertar cometario completo después del perihelio",
     "url": "https://www.sci.news/astronomy/3i-atlas-cometary-awakening-14493.html",
@@ -25,6 +137,90 @@
       "un",
       "salto",
       "de"
+    ]
+  },
+  {
+    "title": "VideoMaMa: Mask-Guided Video Matting via Generative Prior",
+    "title_es": "VideoMaMa: Matting de vídeo guiado por máscaras mediante generación previa",
+    "url": "http://arxiv.org/abs/2601.14255v1",
+    "source": "arXiv",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "videomama",
+      "matting",
+      "de"
+    ]
+  },
+  {
+    "title": "Author Correction: Anthropogenic influences on major tropical cyclone events",
+    "title_es": "Corrección del autor: Influencias antropogénicas en los principales ciclones tropicales",
+    "url": "https://www.nature.com/articles/s41586-026-10109-2",
+    "source": "Nature",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Circulation Research: El reloj biológico influye en la gravedad del ictus y la respuesta a los tratamientos",
+    "title_es": "Circulation Research: El reloj biológico influye en la gravedad del ictus y la respuesta a los tratamientos",
+    "url": "https://www.cnic.es/es/noticias/circulation-research-reloj-biologico-influye-gravedad-ictus-respuesta-tratamientos",
+    "source": "CNIC",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "research",
+      "el"
+    ]
+  },
+  {
+    "title": "El CNIO presenta su Plan de Actuación para orientar su futuro a las áreas hoy más prometedoras en la investigación del cáncer",
+    "title_es": "El CNIO presenta su Plan de Actuación para orientar su futuro a las áreas hoy más prometedoras en la investigación del cáncer",
+    "url": "https://www.cnio.es/noticias/el-cnio-presenta-su-plan-de-actuacion-para-orientar-su-futuro-a-las-areas-hoy-mas-prometedoras-en-la-investigacion-del-cancer/",
+    "source": "CNIO",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnio",
+      "presenta"
+    ]
+  },
+  {
+    "title": "There’s life beneath the snow, but it’s at risk of melting away",
+    "title_es": "Hay vida debajo de la nieve, pero corre el riesgo de derretirse",
+    "url": "https://www.sciencenews.org/article/climate-change-subnivium-snow-threat",
+    "source": "Science News",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "hay",
+      "vida",
+      "debajo"
+    ]
+  },
+  {
+    "title": "Here’s why ammolite gems have a rainbow shimmer",
+    "title_es": "He aquí por qué las gemas de ammolita tienen el brillo del arcoíris",
+    "url": "https://www.snexplores.org/article/ammolite-gems-rainbow-shimmer",
+    "source": "Science News Explores",
+    "published": "2026-01-20T00:00:00.000Z",
+    "date": "2026-01-20",
+    "category": "noticia",
+    "tags": [
+      "he",
+      "aquí",
+      "por"
     ]
   },
   {
@@ -403,6 +599,20 @@
       "se",
       "generalizan",
       "las"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-participan-en-un-estudio-con-alma-sin-precedentes-que-desvela-la-etapa-de-la\" hreflang=\"es\">El IAC y la ULL participan en un estudio con ALMA sin precedentes que desvela la etapa de la \"adolescencia\" en nuevos mundos</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-participan-en-un-estudio-con-alma-sin-precedentes-que-desvela-la-etapa-de-la\" hreflang=\"es\">El IAC y la ULL participan en un estudio con ALMA sin precedentes que desvela la etapa de la \"adolescencia\" en nuevos mundos</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-participan-en-un-estudio-con-alma-sin-precedentes-que-desvela-la-etapa-de-la",
+    "source": "IAC",
+    "published": "2026-01-16T00:00:00.000Z",
+    "date": "2026-01-16",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-y-la-ull-participan-en-un-estudio-con-alma-sin-precedentes-que-desvela-la-etapa-de-la",
+      "hreflangesel"
     ]
   },
   {
@@ -9743,7 +9953,7 @@
   },
   {
     "title": "A Semantic Generalization of Shannon's Information Theory and Applications",
-    "title_es": "Una generalización semántica de la teoría y las aplicaciones de la información de Shannon",
+    "title_es": "A Semantic Generalization of Shannon's Information Theory and Applications",
     "url": "https://arxiv.org/abs/2510.15871",
     "source": "arXiv",
     "published": "2025-10-21T04:00:00.000Z",
@@ -9855,7 +10065,7 @@
   },
   {
     "title": "Design and Analysis of Parallel Artificial Protozoa Optimizer (P-APO) using CUDA Architecture",
-    "title_es": "Diseño y análisis de Parallel Artificial Protozoa Optimizer (P-APO) utilizando la arquitectura CUDA",
+    "title_es": "Design and Analysis of Parallel Artificial Protozoa Optimizer (P-APO) using CUDA Architecture",
     "url": "https://arxiv.org/abs/2510.14982",
     "source": "arXiv",
     "published": "2025-10-20T04:00:00.000Z",
@@ -9897,7 +10107,7 @@
   },
   {
     "title": "Cardiovascular health with a gender perspective: Experts from 21 European countries gather in Madrid for the JACARDI General Assembly",
-    "title_es": "Salud cardiovascular con perspectiva de género: Expertos de 21 países europeos se reúnen en Madrid para la Asamblea General de JACARDI",
+    "title_es": "Cardiovascular health with a gender perspective: Experts from 21 European countries gather in Madrid for the JACARDI General Assembly",
     "url": "https://www.cnic.es/es/node/237512",
     "source": "CNIC",
     "published": "2025-10-20T00:00:00.000Z",
@@ -10037,7 +10247,7 @@
   },
   {
     "title": "Choreographing Trash Cans: On Speculative Futures of Weak Robots in Public Spaces",
-    "title_es": "Coreografía de botes de basura: sobre el futuro especulativo de robots débiles en espacios públicos",
+    "title_es": "Choreographing Trash Cans: On Speculative Futures of Weak Robots in Public Spaces",
     "url": "https://arxiv.org/abs/2510.13810",
     "source": "arXiv",
     "published": "2025-10-17T04:00:00.000Z",
@@ -10177,7 +10387,7 @@
   },
   {
     "title": "The Beautiful Deception: How 256 Bits Pretend to be Infinity",
-    "title_es": "El bello engaño: cómo 256 bits pretenden ser infinitos",
+    "title_es": "The Beautiful Deception: How 256 Bits Pretend to be Infinity",
     "url": "https://arxiv.org/abs/2510.12802",
     "source": "arXiv",
     "published": "2025-10-16T04:00:00.000Z",
@@ -26997,17 +27207,17 @@
     ]
   },
   {
-    "title": "Knowledge graph-based intelligent data management and information innovation service model for university library systems",
-    "title_es": "Modelo de servicio de innovación de información e gestión de datos inteligente basado en gráficos de conocimiento para sistemas de bibliotecas universitarias",
+    "title": "Correction: Impact of bictegravir/emtricitabine/tenofovir alafenamide on health-related quality of life and economic outcomes in HIV care: Substudy of the BIC-NOW clinical trial",
+    "title_es": "Corrección: Impacto de bictegravir/emtricitabina/tenofovir alafenamida en la calidad de vida relacionada con la salud y los resultados económicos en la atención del VIH: subestudio del ensayo clínico BIC-NOW",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "modelo",
-      "de",
-      "servicio"
+      "corrección",
+      "impacto",
+      "de"
     ]
   },
   {
@@ -85032,6 +85242,20 @@
       "io",
       "in",
       "true"
+    ]
+  },
+  {
+    "title": "Barred Spiral Galaxy NGC 1365 from Webb",
+    "title_es": "Barred Spiral Galaxy NGC 1365 from Webb",
+    "url": "https://apod.nasa.gov/apod/image/2601/jwstmiri_ngc1365_1024.png",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "barred",
+      "spiral",
+      "galaxy"
     ]
   }
 ]
