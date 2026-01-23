@@ -1,5 +1,103 @@
 [
   {
+    "title": "Agentic Persona Control and Task State Tracking for Realistic User Simulation in Interactive Scenarios",
+    "title_es": "Control de Persona Agénica y Seguimiento de Estado de Tarea para Simulación de Usuario Realista en Escenarios Interactivos",
+    "url": "https://arxiv.org/abs/2601.15290",
+    "source": "arXiv",
+    "published": "2026-01-23T05:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "agentic",
+      "persona",
+      "control"
+    ]
+  },
+  {
+    "title": "Marvellous microbes, memory and the multiverse: Books in brief",
+    "title_es": "Microbios maravillosos, memoria y multiverso: libros breves",
+    "url": "https://www.nature.com/articles/d41586-026-00241-4",
+    "source": "Nature",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "microbios",
+      "maravillosos",
+      "memoria"
+    ]
+  },
+  {
+    "title": "Winter Grips the Michigan Mitten",
+    "title_es": "El invierno agarra la manopla de Michigan",
+    "url": "https://science.nasa.gov/earth/earth-observatory/winter-grips-the-michigan-mitten/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "invierno",
+      "agarra"
+    ]
+  },
+  {
+    "title": "Whales may divide resources to co-exist under pressures from climate change",
+    "title_es": "Las ballenas pueden dividir recursos para coexistir bajo las presiones del cambio climático",
+    "url": "https://phys.org/news/2026-01-whales-resources-pressures-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "ballenas",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Biologists ‘Resurrect’ 3.2-Billion-Year-Old Enzyme",
+    "title_es": "Biólogos ‘resucitan‘ enzima de 3.200 millones de años",
+    "url": "https://www.sci.news/biology/primordial-nitrogenase-14503.html",
+    "source": "Sci.News",
+    "published": "2026-01-22T23:52:36.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "biologists",
+      "resurrect",
+      "32-billion-year-old"
+    ]
+  },
+  {
+    "title": "Ancient bacterium discovery rewrites the origins of syphilis",
+    "title_es": "El descubrimiento de una antigua bacteria reescribe los orígenes de la sífilis",
+    "url": "https://www.newscientist.com/article/2512939-ancient-bacterium-discovery-rewrites-the-origins-of-syphilis/",
+    "source": "New Scientist",
+    "published": "2026-01-22T19:00:32.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "bacterium",
+      "discovery"
+    ]
+  },
+  {
+    "title": "USDA Researchers Instructed to Investigate Foreign Colleagues",
+    "title_es": "Investigadores del USDA instruidos para investigar a colegas extranjeros",
+    "url": "https://undark.org/2026/01/22/usda-directive-foreign-colleagues/",
+    "source": "Undark Magazine",
+    "published": "2026-01-22T08:19:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "usda",
+      "researchers",
+      "instructed"
+    ]
+  },
+  {
     "title": "SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control",
     "title_es": "SOSControl: Mejora de la generación de movimiento humano a través de la orientación simbólica y el control de tiempo conscientes de la prominencia",
     "url": "https://arxiv.org/abs/2601.14258",
@@ -67,6 +165,76 @@
       "los",
       "humanos",
       "usan"
+    ]
+  },
+  {
+    "title": "Why Can't I Open My Drawer? Mitigating Object-Driven Shortcuts in Zero-Shot Compositional Action Recognition",
+    "title_es": "¿Por qué no puedo abrir mi cajón? Mitigar los atajos basados ​​en objetos en el reconocimiento de acciones compositivas Zero-Shot",
+    "url": "http://arxiv.org/abs/2601.16211v1",
+    "source": "arXiv",
+    "published": "2026-01-22T00:00:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "no"
+    ]
+  },
+  {
+    "title": "Narratives of conflict in a warming Arctic",
+    "title_es": "Narrativas de conflicto en un Ártico que se calienta",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aed7095",
+    "source": "Science.org",
+    "published": "2026-01-22T00:00:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "narrativas",
+      "de",
+      "conflicto"
+    ]
+  },
+  {
+    "title": "Seismometers can track falling space junk",
+    "title_es": "Los sismómetros pueden rastrear la caída de basura espacial",
+    "url": "https://www.sciencenews.org/article/seismometer-track-space-junk-shock-wave",
+    "source": "Science News",
+    "published": "2026-01-22T00:00:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "sismómetros",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Nuclear weapons tests many decades ago have left a radioactive legacy",
+    "title_es": "Las pruebas de armas nucleares realizadas hace muchas décadas han dejado un legado radiactivo.",
+    "url": "https://www.snexplores.org/article/nuclear-weapons-tests-radioactive-legacy",
+    "source": "Science News Explores",
+    "published": "2026-01-22T00:00:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "pruebas",
+      "de"
+    ]
+  },
+  {
+    "title": "The genetic advantage that helps some people stay sharp for life",
+    "title_es": "La ventaja genética que ayuda a algunas personas a mantenerse alerta de por vida",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260122093435.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-22T00:00:00.000Z",
+    "date": "2026-01-22",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ventaja",
+      "genética"
     ]
   },
   {
@@ -224,7 +392,7 @@
     ]
   },
   {
-    "title": "Fernando Peláez, galardonado con el XIII Premio Nacional de Biotecnología",
+    "title": "El director científico en funciones del CNIO, Fernando Peláez, galardonado con el XIII Premio Nacional de Biotecnología",
     "title_es": "Fernando Peláez, galardonado con el XIII Premio Nacional de Biotecnología",
     "url": "https://www.cnio.es/noticias/fernando-pelaez-galardonado-con-el-xiii-premio-nacional-de-biotecnologia/",
     "source": "CNIO",
@@ -9729,7 +9897,7 @@
   },
   {
     "title": "Excitation of Looped Bistable Bands for High-Speed Linear Actuation",
-    "title_es": "Excitación de bandas biestables en bucle para accionamiento lineal de alta velocidad",
+    "title_es": "Excitation of Looped Bistable Bands for High-Speed Linear Actuation",
     "url": "https://arxiv.org/abs/2510.19834",
     "source": "arXiv",
     "published": "2025-10-24T04:00:00.000Z",
@@ -27417,8 +27585,8 @@
     ]
   },
   {
-    "title": "Correction: Associations between physical activity, physical fitness, and body composition in adults living in Germany: A cross-sectional study",
-    "title_es": "Corrección: Asociaciones entre actividad física, aptitud física y composición corporal en adultos que viven en Alemania: un estudio transversal",
+    "title": "Correction: DeltaBreed: A BrAPI-centric breeding data information system",
+    "title_es": "Corrección: DeltaBreed: un sistema de información de datos de reproducción centrado en BrAPI",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -27426,8 +27594,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "asociaciones",
-      "entre"
+      "deltabreed",
+      "un"
     ]
   },
   {
@@ -85480,6 +85648,20 @@
       "ldn",
       "1622",
       "dark"
+    ]
+  },
+  {
+    "title": "Planetary Nebula Abell 7",
+    "title_es": "Planetary Nebula Abell 7",
+    "url": "https://apod.nasa.gov/apod/image/2601/abell7pugh1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "planetary",
+      "nebula",
+      "abell"
     ]
   }
 ]
