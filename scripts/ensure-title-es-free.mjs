@@ -15,7 +15,8 @@ const SLEEP_MS       = Number(process.env.SLEEP_MS || 800);
 const FETCH_TIMEOUT  = Number(process.env.FETCH_TIMEOUT_MS || 15000);
 
 // Identificación / endpoints
-const USER_AGENT     = process.env.USER_AGENT || 'curioscience-bot/1.0 (+https://futurocientifico.vercel.app)';
+const PUBLIC_SITE = process.env.PUBLIC_SITE || 'https://futurocientifico.es';
+const USER_AGENT = process.env.USER_AGENT || `curioscience-bot/1.0 (+${PUBLIC_SITE})`;
 const MYMEMORY_EMAIL = process.env.MYMEMORY_EMAIL || '';
 const RAW_LIBRE      = (process.env.LIBRE_ENDPOINT || '').toString().trim();
 
