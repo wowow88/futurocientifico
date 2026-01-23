@@ -1,12 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Seo from "../components/Seo.astro"
+import Seo from "../components/Seo.astro";
+
+const SITE = import.meta.env.PUBLIC_SITE;
 ---
 
 <Seo 
   title="Inicio | FuturoCientífico"
   description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
-  site="https://futurocientifico.vercel.app"
+  site={SITE}
   image="/avatar-cientifico.webp"
   twitter="@futurocientifico"
 />
