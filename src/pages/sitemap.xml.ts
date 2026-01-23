@@ -1,8 +1,7 @@
 import { getCollection } from 'astro:content';
 
 export async function GET() {
-  const site = 'https://futurocientifico.es';
-
+  const site = import.meta.env.PUBLIC_SITE;
   const staticPaths = [
     '', // home
     'formacion',
