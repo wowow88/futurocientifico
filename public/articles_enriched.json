@@ -1,5 +1,75 @@
 [
   {
+    "title": "Ancient giant kangaroos could hop after all",
+    "title_es": "Los antiguos canguros gigantes podían saltar después de todo",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260123225925.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-24T00:00:00.000Z",
+    "date": "2026-01-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "antiguos",
+      "canguros"
+    ]
+  },
+  {
+    "title": "Why does it feel like dangerous ocean creatures are ruining Australia's summer?",
+    "title_es": "¿Por qué parece que peligrosas criaturas oceánicas están arruinando el verano en Australia?",
+    "url": "https://phys.org/news/2026-01-dangerous-ocean-creatures-australia-summer.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-24T00:00:00.000Z",
+    "date": "2026-01-24",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "parece"
+    ]
+  },
+  {
+    "title": "New Cosmological Simulations Shed Light on Growth of Black Holes in Early Universe",
+    "title_es": "Nuevas simulaciones cosmológicas arrojan luz sobre el crecimiento de los agujeros negros en el universo temprano",
+    "url": "https://www.sci.news/astronomy/black-hole-growth-early-universe-14505.html",
+    "source": "Sci.News",
+    "published": "2026-01-23T22:49:23.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "cosmological",
+      "simulations"
+    ]
+  },
+  {
+    "title": "Bone cancer therapy unexpectedly makes tumours less painful",
+    "title_es": "La terapia contra el cáncer de hueso hace que los tumores sean menos dolorosos de forma inesperada",
+    "url": "https://www.newscientist.com/article/2513117-bone-cancer-therapy-unexpectedly-makes-tumours-less-painful/",
+    "source": "New Scientist",
+    "published": "2026-01-23T19:00:15.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "bone",
+      "cancer",
+      "therapy"
+    ]
+  },
+  {
+    "title": "Book Review: With Friction, Resistance Is Utile",
+    "title_es": "Reseña del libro: Con la fricción, la resistencia es útil",
+    "url": "https://undark.org/2026/01/23/review-friction/",
+    "source": "Undark Magazine",
+    "published": "2026-01-23T08:50:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "with"
+    ]
+  },
+  {
     "title": "Agentic Persona Control and Task State Tracking for Realistic User Simulation in Interactive Scenarios",
     "title_es": "Control de Persona Agénica y Seguimiento de Estado de Tarea para Simulación de Usuario Realista en Escenarios Interactivos",
     "url": "https://arxiv.org/abs/2601.15290",
@@ -53,6 +123,48 @@
       "las",
       "ballenas",
       "pueden"
+    ]
+  },
+  {
+    "title": "NASA Sets Briefings for SpaceX Crew-12 Mission to Space Station",
+    "title_es": "La NASA organiza reuniones informativas para la misión SpaceX Crew-12 a la estación espacial",
+    "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-12-mission-to-space-station/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "organiza"
+    ]
+  },
+  {
+    "title": "How Greenland sharks defy aging",
+    "title_es": "Cómo los tiburones de Groenlandia desafían el envejecimiento",
+    "url": "https://www.sciencenews.org/article/greenland-sharks-aging-heart-eyes",
+    "source": "Science News",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "los",
+      "tiburones"
+    ]
+  },
+  {
+    "title": "Energy may seem to disappear, but there’s a law against that",
+    "title_es": "Puede parecer que la energía desaparece, pero hay una ley que lo prohíbe",
+    "url": "https://www.snexplores.org/article/conservation-energy-forms-law",
+    "source": "Science News Explores",
+    "published": "2026-01-23T00:00:00.000Z",
+    "date": "2026-01-23",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "parecer",
+      "que"
     ]
   },
   {
@@ -9729,7 +9841,7 @@
   },
   {
     "title": "Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM",
-    "title_es": "Sketch2BIM: un canal colaborativo de IA humana multiagente para convertir planos de planta dibujados a mano en BIM 3D",
+    "title_es": "Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM",
     "url": "https://arxiv.org/abs/2510.20838",
     "source": "arXiv",
     "published": "2025-10-27T04:00:00.000Z",
@@ -27585,8 +27697,8 @@
     ]
   },
   {
-    "title": "Correction: DeltaBreed: A BrAPI-centric breeding data information system",
-    "title_es": "Corrección: DeltaBreed: un sistema de información de datos de reproducción centrado en BrAPI",
+    "title": "Correction: Low-frequency transmission and persistence of antimicrobial-resistant bacteria and genes from livestock to agricultural soil and crops through compost application",
+    "title_es": "Corrección: Transmisión de baja frecuencia y persistencia de bacterias y genes resistentes a los antimicrobianos del ganado al suelo agrícola y a los cultivos mediante la aplicación de compost.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -27594,8 +27706,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "deltabreed",
-      "un"
+      "transmisión",
+      "de"
     ]
   },
   {
@@ -85662,6 +85774,20 @@
       "planetary",
       "nebula",
       "abell"
+    ]
+  },
+  {
+    "title": "Earthset from Orion",
+    "title_es": "Earthset from Orion",
+    "url": "https://apod.nasa.gov/apod/image/2601/earthset-snap01.png",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "earthset",
+      "from",
+      "orion"
     ]
   }
 ]
