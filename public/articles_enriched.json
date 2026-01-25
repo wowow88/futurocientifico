@@ -1,5 +1,47 @@
 [
   {
+    "title": "“Stars like the Sun don’t just stop shining,” but this one did",
+    "title_es": "\"Las estrellas como el Sol no dejan de brillar\", pero ésta sí lo hizo",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260124003813.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-25T00:00:00.000Z",
+    "date": "2026-01-25",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "estrellas",
+      "como"
+    ]
+  },
+  {
+    "title": "Cleaner air is (inadvertently) harming the Great Barrier Reef",
+    "title_es": "El aire más limpio está dañando (sin darse cuenta) la Gran Barrera de Coral",
+    "url": "https://phys.org/news/2026-01-cleaner-air-inadvertently-great-barrier.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-25T00:00:00.000Z",
+    "date": "2026-01-25",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "aire",
+      "más"
+    ]
+  },
+  {
+    "title": "This small soil upgrade cut locust damage and doubled yields",
+    "title_es": "Esta pequeña mejora del suelo redujo el daño de la langosta y duplicó los rendimientos",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260124073929.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-24T13:08:59.000Z",
+    "date": "2026-01-24",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "small",
+      "soil"
+    ]
+  },
+  {
     "title": "Ancient giant kangaroos could hop after all",
     "title_es": "Los antiguos canguros gigantes podían saltar después de todo",
     "url": "https://www.sciencedaily.com/releases/2026/01/260123225925.htm",
@@ -25,6 +67,20 @@
       "por",
       "qué",
       "parece"
+    ]
+  },
+  {
+    "title": "The inner lives of animals",
+    "title_es": "La vida interior de los animales.",
+    "url": "https://www.sciencenews.org/article/ed-note-inner-lives-of-animals",
+    "source": "Science News",
+    "published": "2026-01-24T00:00:00.000Z",
+    "date": "2026-01-24",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vida",
+      "interior"
     ]
   },
   {
@@ -725,6 +781,20 @@
       "why",
       "a",
       "tool-using"
+    ]
+  },
+  {
+    "title": "Crowdsourcing Wikipedia’s encyclopedia: Best ideas of the century",
+    "title_es": "Crowdsourcing enciclopedia de Wikipedia: Las mejores ideas del siglo",
+    "url": "https://www.newscientist.com/article/2510765-crowdsourcing-wikipedias-encyclopedia-best-ideas-of-the-century/",
+    "source": "New Scientist",
+    "published": "2026-01-19T16:00:07.000Z",
+    "date": "2026-01-19",
+    "category": "noticia",
+    "tags": [
+      "crowdsourcing",
+      "wikipedias",
+      "encyclopedia"
     ]
   },
   {
@@ -9645,7 +9715,7 @@
   },
   {
     "title": "How to see the forest for the trees",
-    "title_es": "Cómo ver el bosque por los árboles",
+    "title_es": "How to see the forest for the trees",
     "url": "https://arxiv.org/abs/2510.23614",
     "source": "arXiv",
     "published": "2025-10-29T04:00:00.000Z",
@@ -9757,7 +9827,7 @@
   },
   {
     "title": "A Feature Engineering Approach for Business Impact-Oriented Failure Detection in Distributed Instant Payment Systems",
-    "title_es": "Un enfoque de ingeniería de características para la detección de fallas orientadas al impacto comercial en sistemas de pago instantáneo distribuidos",
+    "title_es": "A Feature Engineering Approach for Business Impact-Oriented Failure Detection in Distributed Instant Payment Systems",
     "url": "https://arxiv.org/abs/2510.21710",
     "source": "arXiv",
     "published": "2025-10-28T04:00:00.000Z",
@@ -85788,6 +85858,20 @@
       "earthset",
       "from",
       "orion"
+    ]
+  },
+  {
+    "title": "Phobos: Doomed Moon of Mars",
+    "title_es": "Phobos: Doomed Moon of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2601/phobos_mro_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "phobos",
+      "doomed",
+      "moon"
     ]
   }
 ]
