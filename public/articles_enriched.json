@@ -1,5 +1,89 @@
 [
   {
+    "title": "Flexible Bit-Truncation Memory for Approximate Applications on the Edge",
+    "title_es": "Memoria flexible de truncamiento de bits para aplicaciones aproximadas en el borde",
+    "url": "https://arxiv.org/abs/2601.19900",
+    "source": "arXiv",
+    "published": "2026-01-29T05:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "flexible",
+      "bit-truncation",
+      "memory"
+    ]
+  },
+  {
+    "title": "Critical social media posts linked to retractions of scientific papers",
+    "title_es": "Publicaciones críticas en las redes sociales vinculadas a retractaciones de artículos científicos",
+    "url": "https://www.nature.com/articles/d41586-025-04146-6",
+    "source": "Nature",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "publicaciones",
+      "críticas",
+      "en"
+    ]
+  },
+  {
+    "title": "The West Faces Snow Drought",
+    "title_es": "Occidente se enfrenta a la sequía de nieve",
+    "url": "https://science.nasa.gov/earth/earth-observatory/the-west-faces-snow-drought/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "occidente",
+      "se",
+      "enfrenta"
+    ]
+  },
+  {
+    "title": "Research clarifies record-late monsoon onset, aiding northern Australian communities",
+    "title_es": "Una investigación aclara el inicio récord del monzón, lo que ayuda a las comunidades del norte de Australia",
+    "url": "https://phys.org/news/2026-01-late-monsoon-onset-aiding-northern.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "investigación",
+      "aclara"
+    ]
+  },
+  {
+    "title": "This virus infects most of us – but why do only some get very ill?",
+    "title_es": "Este virus nos infecta a la mayoría de nosotros, pero ¿por qué solo algunos se enferman mucho?",
+    "url": "https://www.newscientist.com/article/2513522-this-virus-infects-most-of-us-but-why-do-only-some-get-very-ill/",
+    "source": "New Scientist",
+    "published": "2026-01-28T16:00:25.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "virus",
+      "infects"
+    ]
+  },
+  {
+    "title": "How MAHA Exploits the Flaws of Modern Science",
+    "title_es": "Cómo MAHA explota los defectos de la ciencia moderna",
+    "url": "https://undark.org/2026/01/28/opinion-maha-science-flaws/",
+    "source": "Undark Magazine",
+    "published": "2026-01-28T08:43:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "maha",
+      "exploits"
+    ]
+  },
+  {
     "title": "Rare Cosmic Lineup Gives Hubble Close Look at 3I/ATLAS",
     "title_es": "La rara alineación cósmica le da al Hubble una mirada cercana a 3I/ATLAS",
     "url": "https://www.sci.news/astronomy/hubble-near-opposition-alignment-3i-atlas-14515.html",
@@ -14,7 +98,7 @@
     ]
   },
   {
-    "title": "Snow Buries the U.S. Interior and East",
+    "title": "Snow Buries the U.S. Interior and East",
     "title_es": "La nieve entierra el interior y el este de Estados Unidos",
     "url": "https://science.nasa.gov/earth/earth-observatory/snow-buries-the-u-s-interior-and-east/",
     "source": "NASA (Top News)",
@@ -39,6 +123,90 @@
       "los",
       "burros",
       "son"
+    ]
+  },
+  {
+    "title": "Evolutionary Strategies lead to Catastrophic Forgetting in LLMs",
+    "title_es": "Las estrategias evolutivas conducen a un olvido catastrófico en los LLM",
+    "url": "http://arxiv.org/abs/2601.20861v1",
+    "source": "arXiv",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "estrategias",
+      "evolutivas"
+    ]
+  },
+  {
+    "title": "Immunity: CNIC scientists uncover a novel mechanism involved in inflammation resolution",
+    "title_es": "Inmunidad: Científicos del CNIC descubren un novedoso mecanismo implicado en la resolución de la inflamación",
+    "url": "https://www.cnic.es/es/node/239736",
+    "source": "CNIC",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "immunity",
+      "cnic",
+      "scientists"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-colaborador-del-iac-sebastian-francisco-sanchez-nuevo-director-del-proyecto-lvm\" hreflang=\"es\">El colaborador del IAC Sebastián Francisco Sánchez, nuevo director del proyecto LVM</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-colaborador-del-iac-sebastian-francisco-sanchez-nuevo-director-del-proyecto-lvm\" hreflang=\"es\">El colaborador del IAC Sebastián Francisco Sánchez, nuevo director del proyecto LVM</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-colaborador-del-iac-sebastian-francisco-sanchez-nuevo-director-del-proyecto-lvm",
+    "source": "IAC",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-colaborador-del-iac-sebastian-francisco-sanchez-nuevo-director-del-proyecto-lvm",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Whaling may have started 1,500 years earlier than already known",
+    "title_es": "La caza de ballenas pudo haber comenzado 1.500 años antes de lo que se sabe",
+    "url": "https://www.sciencenews.org/article/whaling-brazil-1500-years-earlier",
+    "source": "Science News",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "caza",
+      "de"
+    ]
+  },
+  {
+    "title": "Chatbots may make learning feel easy — but it’s shallow",
+    "title_es": "Los chatbots pueden hacer que el aprendizaje parezca fácil, pero es superficial",
+    "url": "https://www.snexplores.org/article/chatbots-shallow-learning",
+    "source": "Science News Explores",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "chatbots",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Dark stars could solve three major mysteries of the early universe",
+    "title_es": "Las estrellas oscuras podrían resolver tres grandes misterios del universo primitivo",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260128075355.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "estrellas",
+      "oscuras"
     ]
   },
   {
@@ -252,6 +420,20 @@
     ]
   },
   {
+    "title": "Computer Security: A final dash to protect your account",
+    "title_es": "Seguridad informática: un último paso para proteger su cuenta",
+    "url": "https://home.cern/news/news/computing/computer-security-final-dash-protect-your-account",
+    "source": "CERN News",
+    "published": "2026-01-27T00:00:00.000Z",
+    "date": "2026-01-27",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "informática",
+      "un"
+    ]
+  },
+  {
     "title": "Stick shaped by ancient humans is the oldest known wooden tool",
     "title_es": "El palo moldeado por humanos antiguos es la herramienta de madera más antigua conocida",
     "url": "https://www.newscientist.com/article/2509608-stick-shaped-by-ancient-humans-is-the-oldest-known-wooden-tool/",
@@ -263,6 +445,20 @@
       "stick",
       "shaped",
       "by"
+    ]
+  },
+  {
+    "title": "Heating homes with the world’s largest particle accelerator",
+    "title_es": "Calefacción de viviendas con el acelerador de partículas más grande del mundo",
+    "url": "https://home.cern/news/news/cern/heating-homes-worlds-largest-particle-accelerator",
+    "source": "CERN News",
+    "published": "2026-01-26T08:48:35.000Z",
+    "date": "2026-01-26",
+    "category": "noticia",
+    "tags": [
+      "heating",
+      "homes",
+      "with"
     ]
   },
   {
@@ -9211,7 +9407,7 @@
   },
   {
     "title": "MazeMate: An LLM-Powered Chatbot to Support Computational Thinking in Gamified Programming Learning",
-    "title_es": "MazeMate: un chatbot impulsado por LLM para apoyar el pensamiento computacional en el aprendizaje de programación gamificada",
+    "title_es": "MazeMate: An LLM-Powered Chatbot to Support Computational Thinking in Gamified Programming Learning",
     "url": "https://arxiv.org/abs/2511.03727",
     "source": "arXiv",
     "published": "2025-11-07T05:00:00.000Z",
@@ -9253,7 +9449,7 @@
   },
   {
     "title": "Edgar Gomes: \"Los europeos del sur solemos ser muy creativos e ingeniosos; encontramos formas de resolver los problemas\"",
-    "title_es": "Edgar Gomes: “Los europeos del sur solemos ser muy creativos e ingeniosos; encontramos formas de resolver los problemas”",
+    "title_es": "Edgar Gomes: \"Los europeos del sur solemos ser muy creativos e ingeniosos; encontramos formas de resolver los problemas\"",
     "url": "https://www.cnic.es/es/noticias/edgar-gomes-europeos-sur-solemos-ser-muy-creativos-e-ingeniosos-encontramos-formas-resolver",
     "source": "CNIC",
     "published": "2025-11-07T00:00:00.000Z",
@@ -9323,7 +9519,7 @@
   },
   {
     "title": "Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation",
-    "title_es": "Marco de cifrado híbrido cuántico-clásico basado en BB84 y AES-256 simulados: diseño y evaluación experimental",
+    "title_es": "Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation",
     "url": "https://arxiv.org/abs/2511.02836",
     "source": "arXiv",
     "published": "2025-11-06T05:00:00.000Z",
@@ -28215,17 +28411,17 @@
     ]
   },
   {
-    "title": "Correction: SSNdesign—An R package for pseudo-Bayesian optimal and adaptive sampling designs on stream networks",
-    "title_es": "Corrección: SSNdesign: un paquete R para diseños de muestreo adaptativos y óptimos pseudobayesianos en redes de flujo",
+    "title": "Human movement patterns predict task-unrelated thought",
+    "title_es": "Los patrones de movimiento humano predicen el pensamiento no relacionado con la tarea",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "ssndesign",
-      "un"
+      "los",
+      "patrones",
+      "de"
     ]
   },
   {
@@ -86362,6 +86558,20 @@
       "m78",
       "reflecting",
       "blue"
+    ]
+  },
+  {
+    "title": "NGC 2442: Galaxy in Volans",
+    "title_es": "NGC 2442: Galaxy in Volans",
+    "url": "https://apod.nasa.gov/apod/image/2601/ngc-2442-rev-1-crop-18-jan-2026_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "2442",
+      "galaxy"
     ]
   }
 ]
