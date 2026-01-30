@@ -1,5 +1,89 @@
 [
   {
+    "title": "The Noncomputability of Immune Reaction Complexity: Algorithmic Information Gaps under Effective Constraints",
+    "title_es": "La no computabilidad de la complejidad de la reacción inmune: brechas de información algorítmica bajo restricciones efectivas",
+    "url": "https://arxiv.org/abs/2601.20865",
+    "source": "arXiv",
+    "published": "2026-01-30T05:00:00.000Z",
+    "date": "2026-01-30",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "noncomputability",
+      "of"
+    ]
+  },
+  {
+    "title": "TESS Observes Interstellar Comet 3I/ATLAS",
+    "title_es": "TESS observa el cometa interestelar 3I/ATLAS",
+    "url": "https://www.sci.news/astronomy/tess-interstellar-comet-3i-atlas-14520.html",
+    "source": "Sci.News",
+    "published": "2026-01-30T01:00:42.000Z",
+    "date": "2026-01-30",
+    "category": "noticia",
+    "tags": [
+      "tess",
+      "observes",
+      "interstellar"
+    ]
+  },
+  {
+    "title": "Extreme January Cold",
+    "title_es": "Frío extremo de enero",
+    "url": "https://science.nasa.gov/earth/earth-observatory/extreme-january-cold/",
+    "source": "NASA (Top News)",
+    "published": "2026-01-30T00:00:00.000Z",
+    "date": "2026-01-30",
+    "category": "noticia",
+    "tags": [
+      "frío",
+      "extremo",
+      "de"
+    ]
+  },
+  {
+    "title": "Wolves and other predators present 'a crisis,' California's environment chief says",
+    "title_es": "Los lobos y otros depredadores presentan \"una crisis\", dice el jefe de medio ambiente de California",
+    "url": "https://phys.org/news/2026-01-wolves-predators-crisis-california-environment.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-01-30T00:00:00.000Z",
+    "date": "2026-01-30",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "lobos",
+      "y"
+    ]
+  },
+  {
+    "title": "AI-assisted mammograms cut risk of developing aggressive breast cancer",
+    "title_es": "Las mamografías asistidas por IA reducen el riesgo de desarrollar cáncer de mama agresivo",
+    "url": "https://www.newscientist.com/article/2513769-ai-assisted-mammograms-cut-risk-of-developing-aggressive-breast-cancer/",
+    "source": "New Scientist",
+    "published": "2026-01-29T23:30:54.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "ai-assisted",
+      "mammograms",
+      "cut"
+    ]
+  },
+  {
+    "title": "At NIH, a Power Struggle Over Institute Directorships Deepens",
+    "title_es": "En los NIH, se profundiza la lucha por el poder en las direcciones de los institutos",
+    "url": "https://undark.org/2026/01/29/nih-institute-directorships/",
+    "source": "Undark Magazine",
+    "published": "2026-01-29T08:38:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "at",
+      "nih",
+      "a"
+    ]
+  },
+  {
     "title": "Flexible Bit-Truncation Memory for Approximate Applications on the Edge",
     "title_es": "Memoria flexible de truncamiento de bits para aplicaciones aproximadas en el borde",
     "url": "https://arxiv.org/abs/2601.19900",
@@ -53,6 +137,118 @@
       "una",
       "investigación",
       "aclara"
+    ]
+  },
+  {
+    "title": "RedSage: A Cybersecurity Generalist LLM",
+    "title_es": "RedSage: un LLM generalista en ciberseguridad",
+    "url": "http://arxiv.org/abs/2601.22159v1",
+    "source": "arXiv",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "redsage",
+      "un",
+      "llm"
+    ]
+  },
+  {
+    "title": "The essential nature of creative endeavors",
+    "title_es": "La naturaleza esencial de los esfuerzos creativos.",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aed8689",
+    "source": "Science.org",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "naturaleza",
+      "esencial"
+    ]
+  },
+  {
+    "title": "Author Correction: Hunter-gatherer sea voyages extended to remotest Mediterranean islands",
+    "title_es": "Corrección del autor: Los viajes marítimos de cazadores-recolectores se extendieron a las islas más remotas del Mediterráneo",
+    "url": "https://www.nature.com/articles/s41586-025-10024-y",
+    "source": "Nature",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-investigadora-antonia-varela-reconocida-por-forbes-como-una-de-las-mujeres-canarias-mas-influyentes\" hreflang=\"es\">La investigadora Antonia Varela, reconocida por Forbes como una de las mujeres canarias más influyentes</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-investigadora-antonia-varela-reconocida-por-forbes-como-una-de-las-mujeres-canarias-mas-influyentes\" hreflang=\"es\">La investigadora Antonia Varela, reconocida por Forbes como una de las mujeres canarias más influyentes</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-investigadora-antonia-varela-reconocida-por-forbes-como-una-de-las-mujeres-canarias-mas-influyentes",
+    "source": "IAC",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-investigadora-antonia-varela-reconocida-por-forbes-como-una-de-las-mujeres-canarias-mas-influyentes",
+      "hreflangesla"
+    ]
+  },
+  {
+    "title": "Groundbreaking CMS calorimeter for the High-Luminosity LHC",
+    "title_es": "Innovador calorímetro CMS para el LHC de alta luminosidad",
+    "url": "https://home.cern/news/news/experiments/groundbreaking-cms-calorimeter-high-luminosity-lhc",
+    "source": "CERN News",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "innovador",
+      "calorímetro",
+      "cms"
+    ]
+  },
+  {
+    "title": "Genes may shape how long we live more than once thought",
+    "title_es": "Los genes pueden determinar cuánto tiempo vivimos, más de lo que se pensaba",
+    "url": "https://www.sciencenews.org/article/genes-shape-how-long-we-live-longevity",
+    "source": "Science News",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "genes",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Everyone experiences malicious joy now and then",
+    "title_es": "Todo el mundo experimenta de vez en cuando una alegría maliciosa.",
+    "url": "https://www.snexplores.org/article/malicious-joy-schadenfreude-emotion",
+    "source": "Science News Explores",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "todo",
+      "el",
+      "mundo"
+    ]
+  },
+  {
+    "title": "A breakthrough that turns exhaust CO2 into useful materials",
+    "title_es": "Un avance que convierte el CO2 de escape en materiales útiles",
+    "url": "https://www.sciencedaily.com/releases/2026/01/260128230509.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-01-29T00:00:00.000Z",
+    "date": "2026-01-29",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "avance",
+      "que"
     ]
   },
   {
@@ -207,6 +403,20 @@
       "las",
       "estrellas",
       "oscuras"
+    ]
+  },
+  {
+    "title": "Immunity: Descubren un nuevo mecanismo implicado en el control de la inflamación",
+    "title_es": "Inmunidad: Descubren un nuevo mecanismo implicado en el control de la inflamación",
+    "url": "https://www.cnic.es/es/noticias/immunity-descubren-un-nuevo-mecanismo-implicado-control-inflamacion",
+    "source": "CNIC",
+    "published": "2026-01-28T00:00:00.000Z",
+    "date": "2026-01-28",
+    "category": "noticia",
+    "tags": [
+      "immunity",
+      "descubren",
+      "un"
     ]
   },
   {
@@ -9015,7 +9225,7 @@
   },
   {
     "title": "Towards Affordable, Adaptive and Automatic GNN Training on CPU-GPU Heterogeneous Platforms",
-    "title_es": "Hacia una formación GNN asequible, adaptativa y automática en plataformas heterogéneas CPU-GPU",
+    "title_es": "Towards Affordable, Adaptive and Automatic GNN Training on CPU-GPU Heterogeneous Platforms",
     "url": "https://arxiv.org/abs/2511.07421",
     "source": "arXiv",
     "published": "2025-11-12T05:00:00.000Z",
@@ -9099,7 +9309,7 @@
   },
   {
     "title": "GreyShot: Zeroshot and Privacy-preserving Recommender System by GM(1,1) Model",
-    "title_es": "GreyShot: Sistema de recomendación Zeroshot y preservación de la privacidad por GM(1,1) Modelo",
+    "title_es": "GreyShot: Zeroshot and Privacy-preserving Recommender System by GM(1,1) Model",
     "url": "https://arxiv.org/abs/2511.05493",
     "source": "arXiv",
     "published": "2025-11-11T05:00:00.000Z",
@@ -9155,7 +9365,7 @@
   },
   {
     "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/publicacion-rapida-de-datos-de-euclid-q1-busqueda-espectroscopica-clasificacion-y-analisis-de-enanas\" hreflang=\"es\">Publicación rápida de datos de Euclid (Q1) — Búsqueda espectroscópica, clasificación y análisis de enanas ultrafrías en los campos profundos (Deep Fields)</a>",
-    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/publicacion-rapida-de-datos-de-euclid-q1-busqueda-espectroscopica-clasificacion-y-analisis-de-enanas\" hreflang=\"es\">Publicación rápida de datos de Euclid (Q1) — Búsqueda espectroscópica, clasificación y análisis de enanas ultrafrías en los campos profundos</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/publicacion-rapida-de-datos-de-euclid-q1-busqueda-espectroscopica-clasificacion-y-analisis-de-enanas\" hreflang=\"es\">Publicación rápida de datos de Euclid (Q1) — Búsqueda espectroscópica, clasificación y análisis de enanas ultrafrías en los campos profundos (Deep Fields)</a>",
     "url": "https://www.iac.es/es/divulgacion/noticias/publicacion-rapida-de-datos-de-euclid-q1-busqueda-espectroscopica-clasificacion-y-analisis-de-enanas",
     "source": "IAC",
     "published": "2025-11-11T00:00:00.000Z",
@@ -9211,7 +9421,7 @@
   },
   {
     "title": "Efficient Deployment of CNN Models on Multiple In-Memory Computing Units",
-    "title_es": "Implementación eficiente de modelos CNN en múltiples unidades informáticas en memoria",
+    "title_es": "Efficient Deployment of CNN Models on Multiple In-Memory Computing Units",
     "url": "https://arxiv.org/abs/2511.04682",
     "source": "arXiv",
     "published": "2025-11-10T05:00:00.000Z",
@@ -28411,17 +28621,17 @@
     ]
   },
   {
-    "title": "Human movement patterns predict task-unrelated thought",
-    "title_es": "Los patrones de movimiento humano predicen el pensamiento no relacionado con la tarea",
+    "title": "Correction: Predicting hypertension and identifying most important factors among married women in Bangladesh using machine learning approach",
+    "title_es": "Corrección: predecir la hipertensión e identificar los factores más importantes entre las mujeres casadas en Bangladesh mediante un enfoque de aprendizaje automático",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "los",
-      "patrones",
-      "de"
+      "corrección",
+      "predecir",
+      "la"
     ]
   },
   {
@@ -86572,6 +86782,20 @@
       "ngc",
       "2442",
       "galaxy"
+    ]
+  },
+  {
+    "title": "NGC 1333: Stellar Nursery in Perseus",
+    "title_es": "NGC 1333: Stellar Nursery in Perseus",
+    "url": "https://apod.nasa.gov/apod/image/2601/ngc1333_robert_eder1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "1333",
+      "stellar"
     ]
   }
 ]
