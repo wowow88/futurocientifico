@@ -1,5 +1,75 @@
 [
   {
+    "title": "Unifying Adversarial Robustness and Training Across Text Scoring Models",
+    "title_es": "Unificación de la robustez adversarial y la capacitación a través de los modelos de puntuación de texto",
+    "url": "https://arxiv.org/abs/2602.00857",
+    "source": "arXiv",
+    "published": "2026-02-03T05:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "unifying",
+      "adversarial",
+      "robustness"
+    ]
+  },
+  {
+    "title": "New Nanomaterial Design Could Help Solar Tech Harness More Sunlight",
+    "title_es": "El nuevo diseño de nanomateriales podría ayudar a la tecnología solar a aprovechar más la luz solar",
+    "url": "https://www.sci.news/othersciences/nanotechnologies/gold-supraballs-14528.html",
+    "source": "Sci.News",
+    "published": "2026-02-03T02:21:33.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "nanomaterial",
+      "design"
+    ]
+  },
+  {
+    "title": "Frustration in hetero relationships has a long history—that's why today's crisis looks so familiar",
+    "title_es": "La frustración en las relaciones heterosexuales tiene una larga historia; por eso la crisis actual resulta tan familiar",
+    "url": "https://phys.org/news/2026-02-frustration-hetero-relationships-history-today.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "frustración",
+      "en"
+    ]
+  },
+  {
+    "title": "Ants attack their nest-mates because pollution changes their smell",
+    "title_es": "Las hormigas atacan a sus compañeros de nido porque la contaminación cambia su olor",
+    "url": "https://www.newscientist.com/article/2512772-ants-attack-their-nest-mates-because-pollution-changes-their-smell/",
+    "source": "New Scientist",
+    "published": "2026-02-02T20:00:07.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "ants",
+      "attack",
+      "their"
+    ]
+  },
+  {
+    "title": "Transportation Department Plans to Use AI to Write Regulations",
+    "title_es": "El Departamento de Transporte planea usar la IA para redactar regulaciones",
+    "url": "https://undark.org/2026/02/02/dept-transportation-ai-regulations/",
+    "source": "Undark Magazine",
+    "published": "2026-02-02T08:31:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "transportation",
+      "department",
+      "plans"
+    ]
+  },
+  {
     "title": "Screen, Match, and Cache: A Training-Free Causality-Consistent Reference Frame Framework for Human Animation",
     "title_es": "Pantalla, coincidencia y caché: un marco de referencia consistente sin causalidad y sin entrenamiento para la animación humana",
     "url": "https://arxiv.org/abs/2601.22160",
@@ -39,6 +109,104 @@
       "el",
       "nuevo",
       "y"
+    ]
+  },
+  {
+    "title": "Reward-free Alignment for Conflicting Objectives",
+    "title_es": "Alineación sin recompensas para objetivos en conflicto",
+    "url": "http://arxiv.org/abs/2602.02495v1",
+    "source": "arXiv",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "alineación",
+      "sin",
+      "recompensas"
+    ]
+  },
+  {
+    "title": "A broadly protective antibody targeting gammaherpesvirus gB",
+    "title_es": "Un anticuerpo ampliamente protector dirigido al gammaherpesvirus gB",
+    "url": "https://www.nature.com/articles/s41586-026-10192-5",
+    "source": "Nature",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "anticuerpo",
+      "ampliamente"
+    ]
+  },
+  {
+    "title": "Eropean Heart Journal: Pioneering technique allows the first-in-human repair of defective mechanical heart valves without surgery",
+    "title_es": "Eropean Heart Journal: La técnica pionera permite la primera reparación en humanos de válvulas cardíacas mecánicas defectuosas sin cirugía",
+    "url": "https://www.cnic.es/es/node/239816",
+    "source": "CNIC",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "revista",
+    "tags": [
+      "eropean",
+      "heart",
+      "journal"
+    ]
+  },
+  {
+    "title": "NASA Astronaut to Answer Questions from Students in Pennsylvania",
+    "title_es": "Astronauta de la NASA responderá preguntas de estudiantes en Pensilvania",
+    "url": "https://www.nasa.gov/news-release/nasa-astronaut-to-answer-questions-from-students-in-pennsylvania/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "astronauta",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "Widespread use of HPV shots could mean fewer cervical cancer screenings",
+    "title_es": "El uso generalizado de vacunas contra el VPH podría significar menos exámenes de detección de cáncer de cuello uterino",
+    "url": "https://www.sciencenews.org/article/widespread-hpv-shots-cervical-cancer",
+    "source": "Science News",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "uso",
+      "generalizado"
+    ]
+  },
+  {
+    "title": "Scientists Say: Hallucination",
+    "title_es": "Los científicos dicen: alucinaciones",
+    "url": "https://www.snexplores.org/article/scientists-say-hallucination-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
+    ]
+  },
+  {
+    "title": "Robots descend into lava tubes to prepare for future Moon bases",
+    "title_es": "Los robots descienden a tubos de lava para prepararse para futuras bases lunares",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260201231259.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-02T00:00:00.000Z",
+    "date": "2026-02-02",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "robots",
+      "descienden"
     ]
   },
   {
@@ -8833,7 +9001,7 @@
   },
   {
     "title": "A surprising CBD advance calms pain without side effects",
-    "title_es": "Un sorprendente avance del CBD calma el dolor sin efectos secundarios",
+    "title_es": "A surprising CBD advance calms pain without side effects",
     "url": "https://www.sciencedaily.com/releases/2025/11/251117095652.htm",
     "source": "ScienceDaily (Top)",
     "published": "2025-11-18T05:26:39.000Z",
@@ -8847,7 +9015,7 @@
   },
   {
     "title": "LLM Architecture, Scaling Laws, and Economics: A Quick Summary",
-    "title_es": "LLM Arquitectura, leyes de escala y economía: un resumen rápido",
+    "title_es": "LLM Architecture, Scaling Laws, and Economics: A Quick Summary",
     "url": "https://arxiv.org/abs/2511.11572",
     "source": "arXiv",
     "published": "2025-11-18T05:00:00.000Z",
@@ -28887,8 +29055,8 @@
     ]
   },
   {
-    "title": "Correction: Predicting unsafe behaviour from the objective assessment of fatigue manifestation among scaffolders: Evidence from a Quasi-experimental simulation study",
-    "title_es": "Corrección: Predicción de comportamientos inseguros a partir de la evaluación objetiva de la manifestación de fatiga entre andamios: evidencia de un estudio de simulación cuasiexperimental",
+    "title": "Correction: Diagnostic performance of eNose technology in detecting colorectal cancer recurrence: A prospective evaluation",
+    "title_es": "Corrección: Rendimiento diagnóstico de la tecnología eNose en la detección de la recurrencia del cáncer colorrectal: una evaluación prospectiva",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -28896,8 +29064,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "predicción",
-      "de"
+      "rendimiento",
+      "diagnóstico"
     ]
   },
   {
@@ -87104,6 +87272,20 @@
       "orion",
       "the",
       "running"
+    ]
+  },
+  {
+    "title": "Red Spider Planetary Nebula from Webb",
+    "title_es": "Red Spider Planetary Nebula from Webb",
+    "url": "https://apod.nasa.gov/apod/image/2602/redspider_webb_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "red",
+      "spider",
+      "planetary"
     ]
   }
 ]
