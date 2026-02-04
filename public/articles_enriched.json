@@ -1,5 +1,89 @@
 [
   {
+    "title": "The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders",
+    "title_es": "La brecha de la hipocresía: cuantificación de la divergencia entre la creencia interna y la explicación de la cadena de pensamiento a través de autocodificadores dispersos",
+    "url": "https://arxiv.org/abs/2602.02496",
+    "source": "arXiv",
+    "published": "2026-02-04T05:00:00.000Z",
+    "date": "2026-02-04",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "hypocrisy",
+      "gap"
+    ]
+  },
+  {
+    "title": "Giant Pythons Once Lived in Taiwan",
+    "title_es": "Las pitones gigantes vivieron en Taiwán",
+    "url": "https://www.sci.news/paleontology/taiwan-pythons-14533.html",
+    "source": "Sci.News",
+    "published": "2026-02-04T02:03:44.000Z",
+    "date": "2026-02-04",
+    "category": "noticia",
+    "tags": [
+      "giant",
+      "pythons",
+      "once"
+    ]
+  },
+  {
+    "title": "Chilled New York City",
+    "title_es": "Ciudad de Nueva York fría",
+    "url": "https://science.nasa.gov/earth/earth-observatory/chilled-new-york-city/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-04T00:00:00.000Z",
+    "date": "2026-02-04",
+    "category": "noticia",
+    "tags": [
+      "ciudad",
+      "de",
+      "nueva"
+    ]
+  },
+  {
+    "title": "The possible applications of olive pomace: A study reveals the most sustainable option",
+    "title_es": "Las posibles aplicaciones del orujo de oliva: Un estudio revela la opción más sostenible",
+    "url": "https://phys.org/news/2026-02-applications-olive-pomace-reveals-sustainable.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-04T00:00:00.000Z",
+    "date": "2026-02-04",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "posibles",
+      "aplicaciones"
+    ]
+  },
+  {
+    "title": "Dutch air force reads pilots' brainwaves to make training harder",
+    "title_es": "La fuerza aérea holandesa lee las ondas cerebrales de los pilotos para dificultar el entrenamiento",
+    "url": "https://www.newscientist.com/article/2510975-dutch-air-force-reads-pilots-brainwaves-to-make-training-harder/",
+    "source": "New Scientist",
+    "published": "2026-02-03T18:00:49.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "dutch",
+      "air",
+      "force"
+    ]
+  },
+  {
+    "title": "How a Croatian Lab Spawned a Buzzy Peptide Now Popular With MAHA",
+    "title_es": "Cómo un laboratorio croata generó un péptido zumbido ahora popular con MAHA",
+    "url": "https://undark.org/2026/02/03/bpc-157-peptide-fda/",
+    "source": "Undark Magazine",
+    "published": "2026-02-03T07:34:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "a",
+      "croatian"
+    ]
+  },
+  {
     "title": "Unifying Adversarial Robustness and Training Across Text Scoring Models",
     "title_es": "Unificación de la robustez adversarial y la capacitación a través de los modelos de puntuación de texto",
     "url": "https://arxiv.org/abs/2602.00857",
@@ -39,6 +123,104 @@
       "la",
       "frustración",
       "en"
+    ]
+  },
+  {
+    "title": "PLATE: Plasticity-Tunable Efficient Adapters for Geometry-Aware Continual Learning",
+    "title_es": "PLATE: Adaptadores eficientes ajustables por plasticidad para un aprendizaje continuo consciente de la geometría",
+    "url": "http://arxiv.org/abs/2602.03846v1",
+    "source": "arXiv",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "plate",
+      "adaptadores",
+      "eficientes"
+    ]
+  },
+  {
+    "title": "Ontogeny and transcriptional regulation of Thetis cells",
+    "title_es": "Ontogenia y regulación transcripcional de las células de Thetis.",
+    "url": "https://www.nature.com/articles/s41586-026-10198-z",
+    "source": "Nature",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "ontogenia",
+      "y",
+      "regulación"
+    ]
+  },
+  {
+    "title": "The CNIC launches a call for entries for the exhibition ‘Shared Discovery: Creative Works by Women in Science’",
+    "title_es": "El CNIC lanza una convocatoria para la exposición ‘Shared Discovery: Creative Works by Women in Science’",
+    "url": "https://www.cnic.es/es/node/239838",
+    "source": "CNIC",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "cnic",
+      "launches"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/un-gigantesco-sistema-de-anillos-alrededor-de-un-objeto-subestelar-provoca-un-raro-eclipse-de-su\" hreflang=\"es\">Un gigantesco sistema de anillos alrededor de un objeto subestelar provoca un raro eclipse de su estrella anfitriona durante 9 meses </a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/un-gigantesco-sistema-de-anillos-alrededor-de-un-objeto-subestelar-provoca-un-raro-eclipse-de-su\" hreflang=\"es\">Un gigantesco sistema de anillos alrededor de un objeto subestelar provoca un raro eclipse de su estrella anfitriona durante 9 meses </a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-gigantesco-sistema-de-anillos-alrededor-de-un-objeto-subestelar-provoca-un-raro-eclipse-de-su",
+    "source": "IAC",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasun-gigantesco-sistema-de-anillos-alrededor-de-un-objeto-subestelar-provoca-un-raro-eclipse-de-su",
+      "hreflangesun"
+    ]
+  },
+  {
+    "title": "These beetle larvae lure in bees by mimicking flowers",
+    "title_es": "Estas larvas de escarabajos atraen a las abejas imitando flores",
+    "url": "https://www.sciencenews.org/article/beetle-larvae-lure-bees-mimic-flowers",
+    "source": "Science News",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "estas",
+      "larvas",
+      "de"
+    ]
+  },
+  {
+    "title": "A mosquito’s mouth can ‘print’ lines thinner than a human hair",
+    "title_es": "La boca de un mosquito puede “imprimir” líneas más delgadas que un cabello humano",
+    "url": "https://www.snexplores.org/article/mosquito-mouth-3d-print-nozzle",
+    "source": "Science News Explores",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "boca",
+      "de"
+    ]
+  },
+  {
+    "title": "New catalyst turns carbon dioxide into clean fuel source",
+    "title_es": "Un nuevo catalizador convierte el dióxido de carbono en una fuente de combustible limpia",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260203030548.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-03T00:00:00.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "nuevo",
+      "catalizador"
     ]
   },
   {
@@ -8539,7 +8721,7 @@
   },
   {
     "title": "Improving Resiliency of Vital Services in Flood-Affected Regions of Bangladesh Using Next-Generation Opportunistic DTN Edge Ad Hoc Networks",
-    "title_es": "Mejora de la resiliencia de los servicios vitales en las regiones afectadas por inundaciones de Bangladesh utilizando redes ad hoc de borde DTN oportunistas de próxima generación",
+    "title_es": "Improving Resiliency of Vital Services in Flood-Affected Regions of Bangladesh Using Next-Generation Opportunistic DTN Edge Ad Hoc Networks",
     "url": "https://arxiv.org/abs/2511.15710",
     "source": "arXiv",
     "published": "2025-11-21T05:00:00.000Z",
@@ -8693,7 +8875,7 @@
   },
   {
     "title": "Castle: Causal Cascade Updates in Relational Databases with Large Language Models",
-    "title_es": "Castle: Actualizaciones causales en cascada en bases de datos relacionales con grandes modelos de lenguaje",
+    "title_es": "Castle: Causal Cascade Updates in Relational Databases with Large Language Models",
     "url": "https://arxiv.org/abs/2511.14762",
     "source": "arXiv",
     "published": "2025-11-20T05:00:00.000Z",
@@ -8777,7 +8959,7 @@
   },
   {
     "title": "Lo que trae la investigación en el cáncer más letal: desde una ‘app’ para estimar riesgo personalizado, a fármacos más eficaces",
-    "title_es": "Lo que trae la investigación en el cáncer más letal: desde una ‘app’ para estimar el riesgo personalizado, a fármacos más eficaces",
+    "title_es": "Lo que trae la investigación en el cáncer más letal: desde una ‘app’ para estimar riesgo personalizado, a fármacos más eficaces",
     "url": "https://www.cnio.es/noticias/lo-que-trae-la-investigacion-en-el-cancer-mas-letal-desde-una-app-para-estimar-riesgo-personalizado-a-farmacos-mas-eficaces/",
     "source": "CNIO",
     "published": "2025-11-20T00:00:00.000Z",
@@ -29055,17 +29237,17 @@
     ]
   },
   {
-    "title": "Correction: Diagnostic performance of eNose technology in detecting colorectal cancer recurrence: A prospective evaluation",
-    "title_es": "Corrección: Rendimiento diagnóstico de la tecnología eNose en la detección de la recurrencia del cáncer colorrectal: una evaluación prospectiva",
+    "title": "Utility of inhaled β2-agonists in reducing serum potassium levels in adult patients with hyperkalemia: A scoping review",
+    "title_es": "Utilidad de los agonistas β2 inhalados para reducir los niveles séricos de potasio en pacientes adultos con hiperpotasemia: una revisión del alcance",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "rendimiento",
-      "diagnóstico"
+      "utilidad",
+      "de",
+      "los"
     ]
   },
   {
@@ -87286,6 +87468,20 @@
       "red",
       "spider",
       "planetary"
+    ]
+  },
+  {
+    "title": "Spiral Galaxy NGC 1512: Wide Field",
+    "title_es": "Spiral Galaxy NGC 1512: Wide Field",
+    "url": "https://apod.nasa.gov/apod/image/2602/ngc1512_stern_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "spiral",
+      "galaxy",
+      "ngc"
     ]
   }
 ]
