@@ -1,18 +1,16 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
-title: "Formación · Universidad y más allá | FuturoCientífico"
-description: "Carreras científicas, másteres, doctorado y salidas para jóvenes con vocación científica. Información clara, comparativa y accesible."
-site: "https://futurocientifico.vercel.app/formacion/universidad"
 ---
 
-<Seo 
-  title="Formación · Universidad y más allá | FuturoCientífico"
-  description="Carreras científicas, másteres, doctorado y salidas para jóvenes con vocación científica. Información clara, comparativa y accesible."
-  site="https://futurocientifico.vercel.app/formacion/universidad"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="Formación · Universidad y más allá | FuturoCientífico"
+    description="Carreras científicas, másteres, doctorado y salidas para jóvenes con vocación científica. Información clara, comparativa y accesible."
+    canonical="https://futurocientifico.es/formacion/universidad"
+    ogImage="/avatar-cientifico.webp"
+  />
   <section class="mt-8 px-4 max-w-3xl mx-auto">
     <h1 class="text-3xl font-bold text-blue-800 mb-4">Universidad y más allá</h1>
     <p class="text-lg text-gray-700 mb-6">
