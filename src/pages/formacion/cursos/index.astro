@@ -1,18 +1,17 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
-title: "Formación · Cursos y Campamentos | FuturoCientífico"
-description: "Programas de verano, campus STEM y cursos online para niños, adolescentes y jóvenes con interés científico."
-site: "https://futurocientifico.vercel.app/formacion/cursos"
 ---
 
-<Seo 
-  title="Formación · Cursos y Campamentos | FuturoCientífico"
-  description="Programas de verano, campus STEM y cursos online para niños, adolescentes y jóvenes con interés científico."
-  site="https://futurocientifico.vercel.app/formacion/cursos"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="Formación · Cursos y Campamentos | FuturoCientífico"
+    description="Programas de verano, campus STEM y cursos online para niños, adolescentes y jóvenes con interés científico."
+    canonical="https://futurocientifico.es/formacion/cursos"
+    ogImage="/avatar-cientifico.webp"
+  />
+
   <section class="mt-8 px-4 max-w-3xl mx-auto">
     <h1 class="text-3xl font-bold text-purple-800 mb-4">Cursos, Campus y Campamentos</h1>
     <p class="text-lg text-gray-700 mb-6">
