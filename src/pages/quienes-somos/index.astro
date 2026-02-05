@@ -2,14 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
 ---
-
-<Seo 
-  title="Quiénes Somos | FuturoCientífico"
-  description="Conoce al creador de FuturoCientífico, su experiencia, visión educativa y el propósito de esta plataforma científica."
-  site="https://futurocientifico.vercel.app/quienes-somos"
-/>
-
 <Layout>
+<Seo
+  slot="head"
+  title="Quiénes Somos | FuturoCientífico"
+  description="Conoce al creador de FuturoCientífico, su trayectoria en educación científica, divulgación y el propósito de esta plataforma."
+  canonical="https://futurocientifico.es/quienes-somos"
+  ogImage="/avatar-cientifico.webp"
+/>
   <section class="max-w-4xl mx-auto px-4 py-10">
     <h1 class="text-3xl font-bold text-blue-900 mb-8 text-center">👥 Quiénes somos</h1>
     <div class="grid md:grid-cols-2 gap-8 items-start">
