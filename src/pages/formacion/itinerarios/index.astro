@@ -1,18 +1,17 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
-title: "Formación · Itinerarios y Puentes Científicos | FuturoCientífico"
-description: "Explora rutas entre FP, Universidad, Certificados y otras etapas formativas hacia una carrera científica. Opciones para estudiantes con trayectorias flexibles."
-site: "https://futurocientifico.vercel.app/formacion/itinerarios"
 ---
 
-<Seo 
+<Layout>
+<Seo
+  slot="head"
   title="Formación · Itinerarios y Puentes Científicos | FuturoCientífico"
   description="Explora rutas entre FP, Universidad, Certificados y otras etapas formativas hacia una carrera científica. Opciones para estudiantes con trayectorias flexibles."
-  site="https://futurocientifico.vercel.app/formacion/itinerarios"
+  canonical="https://futurocientifico.es/formacion/itinerarios"
+  ogImage="/avatar-cientifico.webp"
 />
 
-<Layout>
   <section class="mt-8 px-4 max-w-3xl mx-auto">
     <h1 class="text-3xl font-bold text-blue-800 mb-4">Itinerarios y Puentes Científicos</h1>
     <p class="text-lg text-gray-700 mb-6">
@@ -331,29 +330,4 @@ site: "https://futurocientifico.vercel.app/formacion/itinerarios"
   </div>
 </section>
 
-  <!-- Adsense -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="6134548917"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-  <script>
-    if (typeof window !== "undefined") {
-      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-        setTimeout(() => {
-          window.adsbygoogle.push({});
-        }, 1000);
-      } else {
-        const interval = setInterval(() => {
-          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-            setTimeout(() => {
-              window.adsbygoogle.push({});
-            }, 1000);
-            clearInterval(interval);
-          }
-        }, 300);
-      }
-    }
-  </script>
 </Layout>
