@@ -2,14 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
 ---
-
-<Seo 
+<Layout>
+<Seo
+  slot="head"
   title="Preguntona | FuturoCientífico"
   description="Explora las preguntas científicas más curiosas y cotidianas. Respuestas claras para jóvenes mentes inquietas."
-  site="https://futurocientifico.vercel.app/preguntona"
+  canonical="https://futurocientifico.es/preguntona"
+  ogImage="/avatar-cientifico.webp"
 />
-
-<Layout>
   <section class="bg-gradient-to-r from-orange-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-orange-800">La Preguntona</h1>
     <p class="mt-2 text-orange-700 text-sm max-w-xl mx-auto">
