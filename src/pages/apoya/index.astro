@@ -3,13 +3,15 @@ import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
 ---
 
-<Seo 
-  title="Apóyanos | FuturoCientífico"
-  description="Descubre cómo puedes apoyar este proyecto educativo y gratuito a través de donaciones, difusión o colaboración en contenido."
-  site="https://futurocientifico.vercel.app/apoya"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="Apóyanos | FuturoCientífico"
+    description="Descubre cómo puedes apoyar este proyecto educativo y gratuito a través de donaciones, difusión o colaboración en contenido."
+    canonical="https://futurocientifico.es/apoya"
+    ogImage="/avatar-cientifico.webp"
+  />
+
   <section class="bg-gradient-to-r from-pink-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-pink-800">Apóyanos</h1>
     <p class="mt-2 text-pink-700 text-sm max-w-xl mx-auto">
