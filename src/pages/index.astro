@@ -5,15 +5,18 @@ import Seo from "../components/Seo.astro";
 const SITE = import.meta.env.PUBLIC_SITE;
 ---
 
-<Seo 
-  title="Inicio | FuturoCientífico"
-  description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
-  site={SITE}
-  image="/avatar-cientifico.webp"
-  twitter="@futurocientifico"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="Inicio | FuturoCientífico"
+    description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
+    site={SITE}
+    ogImage="/avatar-cientifico.webp"
+    alternates={[
+      { hreflang: "es", href: "https://futurocientifico.es/" },
+    ]}
+  />
+
   <section class="bg-gradient-to-r from-blue-100 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <picture class="flex justify-center mb-4">
       <source srcset="/avatar-cientifica.webp" type="image/webp" />
