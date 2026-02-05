@@ -4,17 +4,13 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "futurocientifico.vercel.app" }
-      ],
+      "has": [{ "type": "host", "value": "futurocientifico.vercel.app" }],
       "destination": "https://futurocientifico.es/$1",
       "permanent": true
     },
     {
       "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "www.futurocientifico.es" }
-      ],
+      "has": [{ "type": "host", "value": "www.futurocientifico.es" }],
       "destination": "https://futurocientifico.es/$1",
       "permanent": true
     },
