@@ -35,13 +35,14 @@ const formatDateES = (value) => {
 
 ---
 
-<Seo 
-  title="Revistas Científicas | FuturoCientífico"
-  description="Explora artículos científicos recientes, revistas populares, centros de investigación y cómo entender publicaciones científicas."
-  site="https://futurocientifico.vercel.app/revistas"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="Revistas Científicas | FuturoCientífico"
+    description="Explora artículos científicos recientes, revistas populares, centros de investigación y cómo entender publicaciones científicas."
+    canonical="https://futurocientifico.es/revistas"
+    ogImage="/avatar-cientifico.webp"
+  />
   <section class="bg-purple-50 p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-purple-800">Revistas Científicas</h1>
     <p class="mt-2 text-purple-700 text-sm max-w-xl mx-auto">
