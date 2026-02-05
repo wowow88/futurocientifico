@@ -1,18 +1,16 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Seo from '../../../components/Seo.astro';
-title: "Formación · Familias y Padres | FuturoCientífico"
-description: "Consejos, recursos y herramientas para apoyar la vocación científica desde casa. Libros, juegos, apps y actividades para todas las edades."
-site: "https://futurocientifico.vercel.app/formacion/familias"
 ---
 
-<Seo 
+<Layout>
+<Seo
   title="Formación · Familias y Padres | FuturoCientífico"
-  description="Consejos, recursos y herramientas para apoyar la vocación científica desde casa. Libros, juegos, apps y actividades para todas las edades."
-  site="https://futurocientifico.vercel.app/formacion/familias"
+  description="Consejos, recursos y herramientas..."
+  site="https://futurocientifico.es"
+  canonical="https://futurocientifico.es/formacion/familias"
 />
 
-<Layout>
   <section class="mt-8 px-4 max-w-3xl mx-auto">
     <h1 class="text-3xl font-bold text-pink-800 mb-4">Familias y Padres</h1>
     <p class="text-lg text-gray-700 mb-6">
@@ -396,30 +394,4 @@ site: "https://futurocientifico.vercel.app/formacion/familias"
   </p>
 </section>
 
-
-  <!-- Adsense -->
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="6134548917"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-  <script>
-    if (typeof window !== "undefined") {
-      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-        setTimeout(() => {
-          window.adsbygoogle.push({});
-        }, 1000);
-      } else {
-        const interval = setInterval(() => {
-          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-            setTimeout(() => {
-              window.adsbygoogle.push({});
-            }, 1000);
-            clearInterval(interval);
-          }
-        }, 300);
-      }
-    }
-  </script>
 </Layout>
