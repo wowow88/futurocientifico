@@ -1,18 +1,16 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
-title: "Seguridad | FuturoCientífico"
-description: "Cómo reportar vulnerabilidades o fallos técnicos en el sitio FuturoCientífico."
-site: "https://futurocientifico.vercel.app/legal/seguridad"
 ---
-
-<Seo 
+<Layout>
+<Seo
+  slot="head"
   title="Seguridad | FuturoCientífico"
-  description="Cómo reportar vulnerabilidades o fallos técnicos en el sitio FuturoCientífico."
-  site="https://futurocientifico.vercel.app/legal/seguridad"
+  description="Cómo reportar vulnerabilidades, errores o problemas de seguridad en la plataforma FuturoCientífico."
+  canonical="https://futurocientifico.vercel.app/legal/seguridad"
+  ogImage="/avatar-cientifico.webp"
 />
 
-<Layout>
   <article class="prose lg:prose-lg mx-auto px-4 py-10">
     <h1 class="text-3xl font-bold text-gray-800 mb-6">🔐 Seguridad y vulnerabilidades</h1>
     <p>Nos tomamos muy en serio la seguridad del sitio FuturoCientífico. Si has detectado una vulnerabilidad o un problema técnico, te agradecemos que lo reportes de forma responsable.</p>
