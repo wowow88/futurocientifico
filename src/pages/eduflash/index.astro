@@ -21,13 +21,15 @@ allArticles.sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
 const initialArticles = allArticles.slice(0, PER_PAGE);
 ---
 
-<Seo 
-  title="EduFlash | Noticias Educativas Oficiales"
-  description="Noticias educativas actualizadas automáticamente desde fuentes oficiales y sindicales de España, como Andalucía, Galicia, Madrid y más."
-  site="https://futurocientifico.vercel.app/eduflash"
-/>
-
 <Layout>
+  <Seo
+    slot="head"
+    title="EduFlash | Noticias Educativas Oficiales"
+    description="Noticias educativas actualizadas automáticamente desde fuentes oficiales y sindicales de España, como Andalucía, Galicia, Madrid y más."
+    canonical="https://futurocientifico.es/eduflash"
+    ogImage="/avatar-cientifico.webp"
+  />
+
   <section class="mb-6 p-4 bg-yellow-50 rounded-xl text-sm text-yellow-800 text-center">
     <h1 class="text-3xl font-bold text-yellow-900 mb-2">⚡ EduFlash</h1>
     <p>
