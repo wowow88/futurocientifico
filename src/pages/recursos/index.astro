@@ -2,14 +2,15 @@
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
 ---
-
-<Seo 
+<Layout>
+<Seo
+  slot="head"
   title="Recursos Educativos | FuturoCientífico"
   description="Herramientas, plataformas, simuladores y materiales didácticos para aprender y enseñar ciencia de forma accesible."
-  site="https://futurocientifico.vercel.app/recursos"
+  canonical="https://futurocientifico.es/recursos"
+  ogImage="/avatar-cientifico.webp"
 />
 
-<Layout>
   <section class="bg-gradient-to-r from-yellow-50 to-white p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-yellow-800">Recursos Educativos</h1>
     <p class="mt-2 text-yellow-700 text-sm max-w-xl mx-auto">
