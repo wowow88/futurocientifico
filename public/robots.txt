@@ -11,4 +11,5 @@ Allow: /manifest.webmanifest
 Allow: /sw.js
 
 # Sitemap real (Astro)
-Sitemap: https://futurocientifico.vercel.app/sitemap-index.xml
+Sitemap: https://futurocientifico.es/sitemap.xml
+
