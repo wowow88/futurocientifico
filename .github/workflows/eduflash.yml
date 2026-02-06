@@ -134,7 +134,7 @@ jobs:
 
           # Commit solo si hay algo en el index
           if ! git diff --cached --quiet; then
-          git commit -m "chore: ensure title_es (free) desde CurioScience [skip ci]"
+          git commit -m "chore: ensure title_es (free) desde CurioScience"
           else
           echo "No changes to commit"
           fi
@@ -235,7 +235,7 @@ jobs:
 
           # 2) Commit solo si hay algo staged
           if ! git diff --cached --quiet; then
-          git commit -m "📚 EduFlash actualizado automáticamente [skip ci]"
+          git commit -m "📚 EduFlash actualizado automáticamente"
           else
           echo "No changes to commit"
           fi
