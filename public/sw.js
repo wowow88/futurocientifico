@@ -6,7 +6,7 @@
  * - JSON & static assets: stale-while-revalidate
  */
 
-const CACHE_VERSION = "v2-2025-12-17";
+const CACHE_VERSION = "v3-2026-02-06";
 const STATIC_CACHE = `fc-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `fc-runtime-${CACHE_VERSION}`;
 
