@@ -94,55 +94,71 @@ const formatDateES = (value) => {
     </div>
 
     <script type="module">
-      const grid = document.querySelector('#articles-block');
-      const button = document.querySelector('#loadMore');
+  const grid = document.querySelector('#articles-block');
+  const info = document.querySelector('#article-info');
+  const button = document.querySelector('#loadMore');
 
-      const perPage = 5;
-      let currentPage = 2; // 👈 ya hay 1ª página renderizada en HTML
-      let allArticles = [];
+  const perPage = 5;
+  let currentPage = 2; // 1ª página = 0..4
+  let allArticles = [];
 
-      fetch('/articles_enriched.json')
-        .then(res => res.json())
-        .then(data => {
-          allArticles = (Array.isArray(data) ? data : [])
-            .filter(article => article?.category === 'noticia')
-            .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+  function clearCardsKeepInfo() {
+    // Deja solo el bloque informativo (#article-info) y borra las cards SSR
+    while (grid.children.length > 1) grid.removeChild(grid.lastElementChild);
+  }
 
-          if (allArticles.length > perPage) button.classList.remove('hidden');
-        });
+  function renderCard(article) {
+    const title = article.title_es || article.title || 'Artículo científico';
+    const date = article.date ? (() => {
+      const iso = String(article.date).slice(0, 10);
+      const [y, m, d] = iso.split("-");
+      return (y && m && d) ? `${d}/${m}/${y}` : '';
+    })() : '';
+    const href = article.pdf || article.url || '#';
 
-      function renderPage() {
-        const start = (currentPage - 1) * perPage;
-        const end = start + perPage;
-        const currentArticles = allArticles.slice(start, end);
+    const html = `
+      <div class='bg-white rounded-xl p-4 shadow-md'>
+        <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
+        <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
+        <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
+      </div>`;
+    grid.insertAdjacentHTML('beforeend', html);
+  }
 
-        currentArticles.forEach(article => {
-          ;
+  function renderFirstPage() {
+    clearCardsKeepInfo();
+    allArticles.slice(0, perPage).forEach(renderCard);
+    currentPage = 2;
+  }
 
-          const title = article.title_es || article.title || 'Artículo científico';
-          const date = article.date ? (() => {
-            const iso = String(article.date).slice(0, 10);
-            const [y, m, d] = iso.split("-");
-            return (y && m && d) ? `${d}/${m}/${y}` : '';
-          })() : '';
-          const href = article.pdf || article.url || '#';
+  function renderPage() {
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    allArticles.slice(start, end).forEach(renderCard);
 
-          const html = `
-            <div class='bg-white rounded-xl p-4 shadow-md'>
-              <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
-              <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>    
-              <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
-            </div>`;
-          grid.insertAdjacentHTML('beforeend', html);
-        });
+    currentPage++;
+    if ((currentPage - 1) * perPage >= allArticles.length) button.classList.add('hidden');
+  }
 
-        currentPage++;
+  fetch('/articles_enriched.json')
+    .then(res => res.json())
+    .then(data => {
+      allArticles = (Array.isArray(data) ? data : [])
+        .filter(article => article?.category === 'noticia')
+        .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
 
-        if ((currentPage - 1) * perPage >= allArticles.length) button.classList.add('hidden');
-      }
+      renderFirstPage();
 
-      button.addEventListener('click', renderPage);
-    </script>
+      if (allArticles.length > perPage) button.classList.remove('hidden');
+      else button.classList.add('hidden');
+    })
+    .catch(() => {
+      // Si falla el fetch, dejamos el SSR tal cual.
+    });
+
+  button.addEventListener('click', renderPage);
+</script>
+
   </section>
 
   <!-- Grid de bloques informativos -->
