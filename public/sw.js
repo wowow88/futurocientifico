@@ -15,7 +15,7 @@ const PRECACHE_URLS = [
   "/",
   "/manifest.webmanifest",
   "/eduflash.json",
-  "/articles_enriched.json",
+  // "/articles_enriched.json", // no precache; se gestiona en runtime
   // Opcionales (si existen en tu public):
   // "/favicon.svg",
   // "/avatar-cientifico.webp",
