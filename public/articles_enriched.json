@@ -1,5 +1,61 @@
 [
   {
+    "title": "A Grand, Snow-Rimmed Canyon",
+    "title_es": "Un gran cañón bordeado de nieve",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-grand-snow-rimmed-canyon/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-07T00:00:00.000Z",
+    "date": "2026-02-07",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "gran",
+      "cañón"
+    ]
+  },
+  {
+    "title": "With international law at a 'breaking point', a tiny country goes after Myanmar's junta on its own",
+    "title_es": "Con el derecho internacional en un \"punto de quiebre\", un pequeño país persigue por su cuenta a la junta de Myanmar",
+    "url": "https://phys.org/news/2026-02-international-law-tiny-country-myanmar.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-07T00:00:00.000Z",
+    "date": "2026-02-07",
+    "category": "noticia",
+    "tags": [
+      "con",
+      "el",
+      "derecho"
+    ]
+  },
+  {
+    "title": "Weakening ice shelf has caused crucial Antarctic glacier to accelerate",
+    "title_es": "El debilitamiento de la plataforma de hielo ha provocado una aceleración crucial del glaciar antártico",
+    "url": "https://www.newscientist.com/article/2514697-weakening-ice-shelf-has-caused-crucial-antarctic-glacier-to-accelerate/",
+    "source": "New Scientist",
+    "published": "2026-02-06T18:00:18.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "weakening",
+      "ice",
+      "shelf"
+    ]
+  },
+  {
+    "title": "An Effort to Ease Water Pollution With Oysters Fizzled. Why?",
+    "title_es": "Un esfuerzo para aliviar la contaminación del agua con ostras fracasó. ¿Por qué?",
+    "url": "https://undark.org/2026/02/06/oysters-water-pollution-program/",
+    "source": "Undark Magazine",
+    "published": "2026-02-06T08:20:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "an",
+      "effort",
+      "to"
+    ]
+  },
+  {
     "title": "Denoising diffusion networks for normative modeling in neuroimaging",
     "title_es": "Desmantelar las redes de difusión para el modelado normativo en neuroimagen",
     "url": "https://arxiv.org/abs/2602.04886",
@@ -53,6 +109,62 @@
       "aumentar",
       "el",
       "capital"
+    ]
+  },
+  {
+    "title": "Author Correction: Environmentally driven immune imprinting protects against allergy",
+    "title_es": "Corrección del autor: la impresión inmune impulsada por el medio ambiente protege contra las alergias",
+    "url": "https://www.nature.com/articles/s41586-026-10236-w",
+    "source": "Nature",
+    "published": "2026-02-06T00:00:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Autistic Barbie reminds us stories have the power to counter misinformation",
+    "title_es": "Barbie autista nos recuerda que las historias tienen el poder de contrarrestar la información errónea",
+    "url": "https://www.sciencenews.org/article/autistic-barbie-counter-misinformation",
+    "source": "Science News",
+    "published": "2026-02-06T00:00:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "barbie",
+      "autista",
+      "nos"
+    ]
+  },
+  {
+    "title": "Lions have a second roar that scientists have only just discovered",
+    "title_es": "Los leones tienen un segundo rugido que los científicos acaban de descubrir",
+    "url": "https://www.snexplores.org/article/lion-new-second-roar-ai",
+    "source": "Science News Explores",
+    "published": "2026-02-06T00:00:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "leones",
+      "tienen"
+    ]
+  },
+  {
+    "title": "A hidden brain effect of prenatal alcohol exposure",
+    "title_es": "Un efecto cerebral oculto de la exposición prenatal al alcohol",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260206020852.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-06T00:00:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "efecto",
+      "cerebral"
     ]
   },
   {
@@ -29601,17 +29713,17 @@
     ]
   },
   {
-    "title": "Evaluation of morphological variations of mandibular bone in adult bruxers using CBCT: A cross-sectional study",
-    "title_es": "Evaluación de variaciones morfológicas del hueso mandibular en bruxistas adultos mediante CBCT: un estudio transversal",
+    "title": "Systematic review of lung function assessment among youth and young adults e-cigarette users: Current tools and emerging methods",
+    "title_es": "Revisión sistemática de la evaluación de la función pulmonar entre jóvenes y adultos jóvenes usuarios de cigarrillos electrónicos: herramientas actuales y métodos emergentes",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "evaluación",
-      "de",
-      "variaciones"
+      "revisión",
+      "sistemática",
+      "de"
     ]
   },
   {
@@ -87874,6 +87986,19 @@
       "supernova",
       "remnant",
       "cassiopeia"
+    ]
+  },
+  {
+    "title": "Crescent Enceladus",
+    "title_es": "Crescent Enceladus",
+    "url": "https://apod.nasa.gov/apod/image/2602/pia20522enceladusc.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "crescent",
+      "enceladus"
     ]
   }
 ]
