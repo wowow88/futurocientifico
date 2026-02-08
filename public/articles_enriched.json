@@ -28,6 +28,34 @@
     ]
   },
   {
+    "title": "How COVID and H1N1 swept through U.S. cities in just weeks",
+    "title_es": "Cómo el COVID y el H1N1 arrasaron las ciudades de EE. UU. en apenas unas semanas",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260207092906.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-07T00:00:00.000Z",
+    "date": "2026-02-07",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "el",
+      "covid"
+    ]
+  },
+  {
+    "title": "Why wolf control saves some caribou calves: Terrain decides which predators kill",
+    "title_es": "Por qué el control de los lobos salva a algunas crías de caribú: el terreno decide qué depredadores matan",
+    "url": "https://phys.org/news/2026-02-wolf-caribou-calves-terrain-predators.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-07T00:00:00.000Z",
+    "date": "2026-02-07",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "el"
+    ]
+  },
+  {
     "title": "Weakening ice shelf has caused crucial Antarctic glacier to accelerate",
     "title_es": "El debilitamiento de la plataforma de hielo ha provocado una aceleración crucial del glaciar antártico",
     "url": "https://www.newscientist.com/article/2514697-weakening-ice-shelf-has-caused-crucial-antarctic-glacier-to-accelerate/",
@@ -543,6 +571,20 @@
       "dutch",
       "air",
       "force"
+    ]
+  },
+  {
+    "title": "Nobel laureate says he'll build world’s most powerful quantum computer",
+    "title_es": "El premio Nobel dice que construirá el ordenador cuántico más potente del mundo",
+    "url": "https://www.newscientist.com/article/2513239-nobel-laureate-says-hell-build-worlds-most-powerful-quantum-computer/",
+    "source": "New Scientist",
+    "published": "2026-02-03T16:00:11.000Z",
+    "date": "2026-02-03",
+    "category": "noticia",
+    "tags": [
+      "nobel",
+      "laureate",
+      "says"
     ]
   },
   {
@@ -8260,7 +8302,7 @@
   },
   {
     "title": "Designing a Multimodal Viewer for Piano Performance Analysis -- a Pedagogy-First Approach",
-    "title_es": "Diseño de un visor multimodal para el análisis del rendimiento del piano: un enfoque centrado en la pedagogía",
+    "title_es": "Designing a Multimodal Viewer for Piano Performance Analysis -- a Pedagogy-First Approach",
     "url": "https://arxiv.org/abs/2511.21693",
     "source": "arXiv",
     "published": "2025-12-01T05:00:00.000Z",
@@ -87999,6 +88041,20 @@
     "tags": [
       "crescent",
       "enceladus"
+    ]
+  },
+  {
+    "title": "Active Sunspot Region 4366 Crosses the Sun",
+    "title_es": "Active Sunspot Region 4366 Crosses the Sun",
+    "url": "https://apod.nasa.gov/apod/image/2602/sunspot4366_korona_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "active",
+      "sunspot",
+      "region"
     ]
   }
 ]
