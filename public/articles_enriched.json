@@ -1,5 +1,75 @@
 [
   {
+    "title": "Asymptotically Optimal Aperiodic Doppler Resilient Complementary Sequence Sets Via Generalized Quasi-Florentine Rectangles",
+    "title_es": "Conjuntos de secuencias complementarias resistentes al Doppler aperiódicamente asintóticamente óptimas a través de rectángulos cuasiflorentinos generalizados",
+    "url": "https://arxiv.org/abs/2602.06045",
+    "source": "arXiv",
+    "published": "2026-02-09T05:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "asymptotically",
+      "optimal",
+      "aperiodic"
+    ]
+  },
+  {
+    "title": "Seafarers were visiting remote Arctic islands over 4000 years ago",
+    "title_es": "La gente de mar visitaba islas árticas remotas hace más de 4000 años",
+    "url": "https://www.newscientist.com/article/2514486-seafarers-were-visiting-remote-arctic-islands-over-4000-years-ago/",
+    "source": "New Scientist",
+    "published": "2026-02-09T00:01:45.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "seafarers",
+      "were",
+      "visiting"
+    ]
+  },
+  {
+    "title": "As the climate changes, what does the future hold for the Winter Olympic and Paralympic Games?",
+    "title_es": "A medida que cambia el clima, ¿qué depara el futuro para los Juegos Olímpicos y Paralímpicos de Invierno?",
+    "url": "https://phys.org/news/2026-02-climate-future-winter-olympic-paralympic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "medida",
+      "que"
+    ]
+  },
+  {
+    "title": "Webb Detects Unexpected Richness of Hydrocarbons in Obscured Core of Nearby Ultra-Luminous Galaxy",
+    "title_es": "Webb detecta una riqueza inesperada de hidrocarburos en el núcleo oscurecido de la galaxia ultraluminosa cercana",
+    "url": "https://www.sci.news/astronomy/webb-hydrocarbons-obscured-core-nearby-ultra-luminous-galaxy-14540.html",
+    "source": "Sci.News",
+    "published": "2026-02-08T15:44:58.000Z",
+    "date": "2026-02-08",
+    "category": "noticia",
+    "tags": [
+      "webb",
+      "detects",
+      "unexpected"
+    ]
+  },
+  {
+    "title": "New drug resets the body clock and cuts jet lag recovery nearly in half",
+    "title_es": "Un nuevo fármaco restablece el reloj biológico y reduce la recuperación del desfase horario casi a la mitad",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260208011026.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-08T00:00:00.000Z",
+    "date": "2026-02-08",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "nuevo",
+      "fármaco"
+    ]
+  },
+  {
     "title": "A Grand, Snow-Rimmed Canyon",
     "title_es": "Un gran cañón bordeado de nieve",
     "url": "https://science.nasa.gov/earth/earth-observatory/a-grand-snow-rimmed-canyon/",
@@ -193,6 +263,20 @@
       "un",
       "efecto",
       "cerebral"
+    ]
+  },
+  {
+    "title": "Learning a Generative Meta-Model of LLM Activations",
+    "title_es": "Aprendizaje de un metamodelo generativo de activaciones de LLM",
+    "url": "http://arxiv.org/abs/2602.06964v1",
+    "source": "arXiv",
+    "published": "2026-02-06T00:00:00.000Z",
+    "date": "2026-02-06",
+    "category": "noticia",
+    "tags": [
+      "aprendizaje",
+      "de",
+      "un"
     ]
   },
   {
@@ -8120,7 +8204,7 @@
   },
   {
     "title": "Nature: NeuMap, un mapa pionero de los neutrófilos que redefine su papel en la salud, infección e inflamación",
-    "title_es": "Naturaleza: NeuMap, un mapa pionero de los neutrófilos que redefinen su papel en la salud, infección e inflamación",
+    "title_es": "Nature: NeuMap, un mapa pionero de los neutrófilos que redefine su papel en la salud, infección e inflamación",
     "url": "https://www.cnic.es/es/noticias/nature-neumap-un-mapa-pionero-neutrofilos-que-redefine-su-papel-salud-infeccion-e",
     "source": "CNIC",
     "published": "2025-12-03T00:00:00.000Z",
@@ -8190,7 +8274,7 @@
   },
   {
     "title": "Identifying and extracting Data Access Statements from full-text academic articles",
-    "title_es": "Identificación y extracción de declaraciones de acceso a datos de artículos académicos de texto completo",
+    "title_es": "Identifying and extracting Data Access Statements from full-text academic articles",
     "url": "https://arxiv.org/abs/2512.00001",
     "source": "arXiv",
     "published": "2025-12-02T05:00:00.000Z",
@@ -88055,6 +88139,19 @@
       "active",
       "sunspot",
       "region"
+    ]
+  },
+  {
+    "title": "Miranda Revisited",
+    "title_es": "Miranda Revisited",
+    "url": "https://apod.nasa.gov/apod/image/2602/miranda_voyager2zelario12_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "miranda",
+      "revisited"
     ]
   }
 ]
