@@ -1,5 +1,131 @@
 [
   {
+    "title": "COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification",
+    "title_es": "COMBOOD: Un enfoque semiparamétrico para detectar datos fuera de distribución para la clasificación de imágenes",
+    "url": "https://arxiv.org/abs/2602.07042",
+    "source": "arXiv",
+    "published": "2026-02-10T05:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "combood",
+      "a",
+      "semiparametric"
+    ]
+  },
+  {
+    "title": "Paleontologists Unearth New Dinosaur Species with Never-Before-Seen Skin Structures",
+    "title_es": "Paleontólogos descubren nuevas especies de dinosaurios con estructuras de piel nunca antes vistas",
+    "url": "https://www.sci.news/paleontology/haolong-dongi-14545.html",
+    "source": "Sci.News",
+    "published": "2026-02-10T01:27:41.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "unearth",
+      "new"
+    ]
+  },
+  {
+    "title": "Is this carved rock an ancient Roman board game?",
+    "title_es": "¿Es esta roca tallada un antiguo juego de mesa romano?",
+    "url": "https://www.newscientist.com/article/2514929-is-this-carved-rock-an-ancient-roman-board-game/",
+    "source": "New Scientist",
+    "published": "2026-02-10T00:01:20.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "is",
+      "this",
+      "carved"
+    ]
+  },
+  {
+    "title": "Winter Grips Japan",
+    "title_es": "Puños de invierno Japón",
+    "url": "https://science.nasa.gov/earth/earth-observatory/winter-grips-japan/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "puños",
+      "de",
+      "invierno"
+    ]
+  },
+  {
+    "title": "AI helps archaeologists solve a Roman gaming mystery",
+    "title_es": "La IA ayuda a los arqueólogos a resolver el misterio de un juego romano",
+    "url": "https://www.sciencenews.org/article/ai-roman-board-game-limestone",
+    "source": "Science News",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ia",
+      "ayuda"
+    ]
+  },
+  {
+    "title": "New research reveals humans could have as many as 33 senses",
+    "title_es": "Una nueva investigación revela que los humanos podrían tener hasta 33 sentidos",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260208233832.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "nueva",
+      "investigación"
+    ]
+  },
+  {
+    "title": "Bison hunters abandoned long-used site 1,100 years ago to adapt to changing climate, Great Plains study finds",
+    "title_es": "Los cazadores de bisontes abandonaron un sitio utilizado durante mucho tiempo hace 1.100 años para adaptarse al cambio climático, según un estudio de las Grandes Llanuras",
+    "url": "https://phys.org/news/2026-02-bison-hunters-abandoned-site-years.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "cazadores",
+      "de"
+    ]
+  },
+  {
+    "title": "This popular diet was linked to a much lower stroke risk",
+    "title_es": "Esta dieta popular se relacionó con un riesgo de accidente cerebrovascular mucho menor",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260209064310.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-09T11:54:46.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "popular",
+      "diet"
+    ]
+  },
+  {
+    "title": "Scientists Could Help Reveal Fraud — and Get Paid For It",
+    "title_es": "Los científicos podrían ayudar a revelar el fraude y cobrar por ello",
+    "url": "https://undark.org/2026/02/09/opinion-whistleblower-university/",
+    "source": "Undark Magazine",
+    "published": "2026-02-09T08:57:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "could",
+      "help"
+    ]
+  },
+  {
     "title": "Asymptotically Optimal Aperiodic Doppler Resilient Complementary Sequence Sets Via Generalized Quasi-Florentine Rectangles",
     "title_es": "Conjuntos de secuencias complementarias resistentes al Doppler aperiódicamente asintóticamente óptimas a través de rectángulos cuasiflorentinos generalizados",
     "url": "https://arxiv.org/abs/2602.06045",
@@ -39,6 +165,76 @@
       "a",
       "medida",
       "que"
+    ]
+  },
+  {
+    "title": "Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving",
+    "title_es": "La robustez es una función, no un número: un estudio integral factorizado de la robustez de los OOD en la conducción basada en la visión",
+    "url": "http://arxiv.org/abs/2602.09018v1",
+    "source": "arXiv",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "robustez",
+      "es"
+    ]
+  },
+  {
+    "title": "Jupiter gets downsized — and squashed",
+    "title_es": "Júpiter se reduce de tamaño y es aplastado",
+    "url": "https://www.nature.com/articles/d41586-026-00336-y",
+    "source": "Nature",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "júpiter",
+      "se",
+      "reduce"
+    ]
+  },
+  {
+    "title": "Borja Ibáñez nombrado nuevo embajador de congresos de Madrid",
+    "title_es": "Borja Ibáñez nombrado nuevo embajador de congresos de Madrid",
+    "url": "https://www.cnic.es/es/noticias/borja-ibanez-nombrado-nuevo-embajador-congresos-madrid",
+    "source": "CNIC",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "borja",
+      "ibáñez",
+      "nombrado"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/cronologia-de-nuestra-galaxia-con-ajuste-de-diagramas-color-magnitude-de-gaia-chronogal-ii-desvelando\" hreflang=\"es\">Cronología de nuestra Galaxia con ajuste de diagramas color-magnitude de Gaia (ChronoGal): II. Desvelando la formación y evolución de los discos grueso y delgado seleccionados cinemáticamente</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/cronologia-de-nuestra-galaxia-con-ajuste-de-diagramas-color-magnitude-de-gaia-chronogal-ii-desvelando\" hreflang=\"es\">Cronología de nuestra Galaxia con ajuste de diagramas color-magnitud de Gaia (ChronoGal): II. Desvelando la formación y evolución de los discos gruesos y delgado seleccionados cinemáticamente</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/cronologia-de-nuestra-galaxia-con-ajuste-de-diagramas-color-magnitude-de-gaia-chronogal-ii-desvelando",
+    "source": "IAC",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiascronologia-de-nuestra-galaxia-con-ajuste-de-diagramas-color-magnitude-de-gaia-chronogal-ii-desvelando",
+      "hreflangescronología"
+    ]
+  },
+  {
+    "title": "Butt breathing might help people struggling to get enough oxygen",
+    "title_es": "La respiración a tope podría ayudar a las personas que luchan por obtener suficiente oxígeno",
+    "url": "https://www.snexplores.org/article/butt-breathing-oxygen",
+    "source": "Science News Explores",
+    "published": "2026-02-09T00:00:00.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "respiración",
+      "a"
     ]
   },
   {
@@ -7840,7 +8036,7 @@
   },
   {
     "title": "Energy Profiling of Data-Sharing Pipelines: Modeling, Estimation, and Reuse Strategies",
-    "title_es": "Elaboración de perfiles de energía de tuberías de intercambio de datos: modelado, estimación y estrategias de reutilización",
+    "title_es": "Energy Profiling of Data-Sharing Pipelines: Modeling, Estimation, and Reuse Strategies",
     "url": "https://arxiv.org/abs/2512.04086",
     "source": "arXiv",
     "published": "2025-12-05T05:00:00.000Z",
@@ -7910,7 +8106,7 @@
   },
   {
     "title": "Dr. Casey Gifford: \"Se supone que todos vamos a tener nuestro genoma secuenciado\"",
-    "title_es": "Dr. Casey Gifford: “Se supone que todos vamos a tener nuestro genoma secuenciado”",
+    "title_es": "Dr. Casey Gifford: \"Se supone que todos vamos a tener nuestro genoma secuenciado\"",
     "url": "https://www.cnic.es/es/noticias/dr-casey-gifford-se-supone-que-todos-vamos-tener-nuestro-genoma-secuenciado",
     "source": "CNIC",
     "published": "2025-12-05T00:00:00.000Z",
@@ -8008,7 +8204,7 @@
   },
   {
     "title": "Entropy-Based Measurement of Value Drift and Alignment Work in Large Language Models",
-    "title_es": "Medición basada en entropía de la deriva de valor y el trabajo de alineación en modelos de lenguaje grandes",
+    "title_es": "Entropy-Based Measurement of Value Drift and Alignment Work in Large Language Models",
     "url": "https://arxiv.org/abs/2512.03047",
     "source": "arXiv",
     "published": "2025-12-04T05:00:00.000Z",
@@ -29839,17 +30035,17 @@
     ]
   },
   {
-    "title": "Systematic review of lung function assessment among youth and young adults e-cigarette users: Current tools and emerging methods",
-    "title_es": "Revisión sistemática de la evaluación de la función pulmonar entre jóvenes y adultos jóvenes usuarios de cigarrillos electrónicos: herramientas actuales y métodos emergentes",
+    "title": "Safety population size and duration of exposure prior to approval of new medicines: A database analysis of medicines centralised approved in the European Union between 2011 and 2023",
+    "title_es": "Tamaño de la población de seguridad y duración de la exposición antes de la aprobación de nuevos medicamentos: un análisis de la base de datos de medicamentos centralizados aprobados en la Unión Europea entre 2011 y 2023",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "revisión",
-      "sistemática",
-      "de"
+      "tamaño",
+      "de",
+      "la"
     ]
   },
   {
@@ -88152,6 +88348,20 @@
     "tags": [
       "miranda",
       "revisited"
+    ]
+  },
+  {
+    "title": "In Green Company: Aurora over Norway",
+    "title_es": "In Green Company: Aurora over Norway",
+    "url": "https://apod.nasa.gov/apod/image/2602/greencompany_rive_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "in",
+      "green",
+      "company"
     ]
   }
 ]
