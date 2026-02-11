@@ -1,5 +1,117 @@
 [
   {
+    "title": "Entropy-Based Evidence for Bitcoin's Discrete Time Mechanism",
+    "title_es": "Evidencia basada en la entropía para el mecanismo de tiempo discreto de Bitcoin",
+    "url": "https://arxiv.org/abs/2602.09027",
+    "source": "arXiv",
+    "published": "2026-02-11T05:00:00.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "entropy-based",
+      "evidence",
+      "for"
+    ]
+  },
+  {
+    "title": "307-Million-Year-Old Fossil of Plant-Eating Land Vertebrate Found in Canada",
+    "title_es": "Fósil de un vertebrado terrestre herbívoro de 307 millones de años encontrado en Canadá",
+    "url": "https://www.sci.news/paleontology/tyrannoroter-heberti-14547.html",
+    "source": "Sci.News",
+    "published": "2026-02-11T02:12:29.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "307-million-year-old",
+      "fossil",
+      "of"
+    ]
+  },
+  {
+    "title": "Newborn marsupials seen crawling to mother's pouch for the first time",
+    "title_es": "Marsupiales recién nacidos vistos gateando a la bolsa de la madre por primera vez",
+    "url": "https://www.newscientist.com/article/2514915-newborn-marsupials-seen-crawling-to-mothers-pouch-for-the-first-time/",
+    "source": "New Scientist",
+    "published": "2026-02-11T00:01:16.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "newborn",
+      "marsupials",
+      "seen"
+    ]
+  },
+  {
+    "title": "Summer Heat Hits Southeastern Australia",
+    "title_es": "El calor del verano golpea el sureste de Australia",
+    "url": "https://science.nasa.gov/earth/earth-observatory/summer-heat-hits-southeastern-australia/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-11T00:00:00.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "calor",
+      "del"
+    ]
+  },
+  {
+    "title": "A bonobo’s pretend tea party is rewriting what we know about imagination",
+    "title_es": "La fiesta de té simulada de un bonobo está reescribiendo lo que sabemos sobre la imaginación",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260210040605.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-11T00:00:00.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "fiesta",
+      "de"
+    ]
+  },
+  {
+    "title": "How tech-dependency and pandemic isolation have created 'anxious generation'",
+    "title_es": "Cómo la dependencia tecnológica y el aislamiento pandémico han creado una 'generación ansiosa'",
+    "url": "https://phys.org/news/2026-02-tech-pandemic-isolation-anxious-generation.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-11T00:00:00.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "la",
+      "dependencia"
+    ]
+  },
+  {
+    "title": "Scientists find genes that existed before all life on Earth",
+    "title_es": "Los científicos encuentran genes que existían antes de toda la vida en la Tierra",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260210082913.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-10T13:42:05.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "find",
+      "genes"
+    ]
+  },
+  {
+    "title": "For the First Time, Olympics Ban PFAS Waxes in Snow Sports",
+    "title_es": "Por primera vez, los Juegos Olímpicos prohíben las ceras PFAS en los deportes de nieve",
+    "url": "https://undark.org/2026/02/10/olympics-pfas-ski-wax/",
+    "source": "Undark Magazine",
+    "published": "2026-02-10T08:02:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "for",
+      "the",
+      "first"
+    ]
+  },
+  {
     "title": "COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification",
     "title_es": "COMBOOD: Un enfoque semiparamétrico para detectar datos fuera de distribución para la clasificación de imágenes",
     "url": "https://arxiv.org/abs/2602.07042",
@@ -95,6 +207,104 @@
       "los",
       "cazadores",
       "de"
+    ]
+  },
+  {
+    "title": "Biases in the Blind Spot: Detecting What LLMs Fail to Mention",
+    "title_es": "Sesgos en el punto ciego: detectar lo que los LLM no mencionan",
+    "url": "http://arxiv.org/abs/2602.10117v1",
+    "source": "arXiv",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "sesgos",
+      "en",
+      "el"
+    ]
+  },
+  {
+    "title": "Tree rings and salt lakes give clues about ancient rainfall",
+    "title_es": "Los anillos de los árboles y los lagos salados dan pistas sobre las lluvias antiguas",
+    "url": "https://www.nature.com/articles/d41586-026-00193-9",
+    "source": "Nature",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "anillos",
+      "de"
+    ]
+  },
+  {
+    "title": "Circulation Research: Study reveals new cellular mechanisms that allow the most common chronic cardiac arrhythmia to persist in the heart",
+    "title_es": "Investigación sobre la circulación: un estudio revela nuevos mecanismos celulares que permiten que la arritmia cardíaca crónica más común persista en el corazón",
+    "url": "https://www.cnic.es/es/node/240042",
+    "source": "CNIC",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "research",
+      "study"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/habla-con-ellas-mujeres-en-astronomia-ocho-ediciones-conectando-ciencia-y-educacion\" hreflang=\"es\">“Habla con Ellas: Mujeres en Astronomía”: ocho ediciones conectando ciencia y educación</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/habla-con-ellas-mujeres-en-astronomia-ocho-ediciones-conectando-ciencia-y-educacion\" hreflang=\"es\">“Habla con Ellas: Mujeres en Astronomía”: ocho ediciones conectando ciencia y educación</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/habla-con-ellas-mujeres-en-astronomia-ocho-ediciones-conectando-ciencia-y-educacion",
+    "source": "IAC",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiashabla-con-ellas-mujeres-en-astronomia-ocho-ediciones-conectando-ciencia-y-educacion",
+      "hreflangeshabla"
+    ]
+  },
+  {
+    "title": "Computer Security: A final spurt for improved networking",
+    "title_es": "Seguridad informática: un último impulso para mejorar las redes",
+    "url": "https://home.cern/news/news/computing/computer-security-final-spurt-improved-networking",
+    "source": "CERN News",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "informática",
+      "un"
+    ]
+  },
+  {
+    "title": "Antibiotics can treat appendicitis for many patients, no surgery needed",
+    "title_es": "Los antibióticos pueden tratar la apendicitis en muchos pacientes, sin necesidad de cirugía",
+    "url": "https://www.sciencenews.org/article/antibiotics-appendicitis-no-surgery",
+    "source": "Science News",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "antibióticos",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Let’s learn about Tyrannosaurus rex",
+    "title_es": "Aprendamos sobre el Tiranosaurio rex",
+    "url": "https://www.snexplores.org/article/lets-learn-about-tyrannosaurus-rex",
+    "source": "Science News Explores",
+    "published": "2026-02-10T00:00:00.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "el"
     ]
   },
   {
@@ -7588,7 +7798,7 @@
   },
   {
     "title": "Detection of Cyberbullying in GIF using AI",
-    "title_es": "Detección de ciberacoso en GIF mediante IA",
+    "title_es": "Detection of Cyberbullying in GIF using AI",
     "url": "https://arxiv.org/abs/2512.07838",
     "source": "arXiv",
     "published": "2025-12-10T05:00:00.000Z",
@@ -7728,7 +7938,7 @@
   },
   {
     "title": "JEM: Neutrophils are less aggressive at night, explaining why nighttime heart attacks cause less damage than daytime events",
-    "title_es": "JEM: Los neutrófilos son menos agresivos por la noche, lo que explica por qué los ataques cardíacos nocturnos causan menos daño que los diurnos",
+    "title_es": "JEM: Neutrophils are less aggressive at night, explaining why nighttime heart attacks cause less damage than daytime events",
     "url": "https://www.cnic.es/es/node/238817",
     "source": "CNIC",
     "published": "2025-12-10T00:00:00.000Z",
@@ -7742,7 +7952,7 @@
   },
   {
     "title": "Video Models Start to Solve Chess, Maze, Sudoku, Mental Rotation, and Raven' Matrices",
-    "title_es": "Los modelos de vídeo comienzan a resolver las matrices de ajedrez, laberinto, sudoku, rotación mental y cuervo",
+    "title_es": "Video Models Start to Solve Chess, Maze, Sudoku, Mental Rotation, and Raven' Matrices",
     "url": "https://arxiv.org/abs/2512.05969",
     "source": "arXiv",
     "published": "2025-12-09T05:00:00.000Z",
@@ -7854,7 +8064,7 @@
   },
   {
     "title": "RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering",
-    "title_es": "RAG-IGBench: Evaluación innovadora para la generación intercalada basada en RAG en respuestas a preguntas de dominio abierto",
+    "title_es": "RAG-IGBench: Innovative Evaluation for RAG-based Interleaved Generation in Open-domain Question Answering",
     "url": "https://arxiv.org/abs/2512.05119",
     "source": "arXiv",
     "published": "2025-12-08T05:00:00.000Z",
@@ -30035,17 +30245,17 @@
     ]
   },
   {
-    "title": "Safety population size and duration of exposure prior to approval of new medicines: A database analysis of medicines centralised approved in the European Union between 2011 and 2023",
-    "title_es": "Tamaño de la población de seguridad y duración de la exposición antes de la aprobación de nuevos medicamentos: un análisis de la base de datos de medicamentos centralizados aprobados en la Unión Europea entre 2011 y 2023",
+    "title": "Correction: Effects of using standing desks for 45 minutes on the stress and executive function of elementary school students",
+    "title_es": "Corrección: Efectos del uso de escritorios de pie durante 45 minutos sobre el estrés y la función ejecutiva de estudiantes de primaria",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "tamaño",
-      "de",
-      "la"
+      "corrección",
+      "efectos",
+      "del"
     ]
   },
   {
@@ -88362,6 +88572,20 @@
       "in",
       "green",
       "company"
+    ]
+  },
+  {
+    "title": "A Year of Sunspots",
+    "title_es": "A Year of Sunspots",
+    "url": "https://apod.nasa.gov/apod/image/2602/sunspots2025_sdosanli_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "year",
+      "of"
     ]
   }
 ]
