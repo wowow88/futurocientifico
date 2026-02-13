@@ -1,5 +1,117 @@
 [
   {
+    "title": "HybridRAG: A Practical LLM-based ChatBot Framework based on Pre-Generated Q&A over Raw Unstructured Documents",
+    "title_es": "HybridRAG: un marco práctico de chatbot basado en LLM basado en preguntas y respuestas pregeneradas sobre documentos no estructurados sin procesar",
+    "url": "https://arxiv.org/abs/2602.11156",
+    "source": "arXiv",
+    "published": "2026-02-13T05:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "hybridrag",
+      "a",
+      "practical"
+    ]
+  },
+  {
+    "title": "Saturn’s Ring System, Hyperion and Titan May Have Originated in Collision of Two Proto-Moons",
+    "title_es": "El sistema de anillos de Saturno, Hiperión y Titán pueden haberse originado en la colisión de dos proto-lunas",
+    "url": "https://www.sci.news/space/ancient-collision-saturns-ring-system-hyperion-titan-14555.html",
+    "source": "Sci.News",
+    "published": "2026-02-13T01:04:35.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "saturns",
+      "ring",
+      "system"
+    ]
+  },
+  {
+    "title": "Stonebreen’s Beating Heart",
+    "title_es": "El corazón palpitante de Stonebreen",
+    "url": "https://science.nasa.gov/earth/earth-observatory/stonebreens-beating-heart/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "corazón",
+      "palpitante"
+    ]
+  },
+  {
+    "title": "Asteroid Bennu reveals a new pathway to life’s chemistry",
+    "title_es": "El asteroide Bennu revela un nuevo camino hacia la química de la vida",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260212023024.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "asteroide",
+      "bennu"
+    ]
+  },
+  {
+    "title": "Researchers develop high-resolution daily atmospheric CO₂ dataset for China",
+    "title_es": "Investigadores desarrollan un conjunto de datos atmosféricos diarios de alta resolución sobre CO₂ para China",
+    "url": "https://phys.org/news/2026-02-high-resolution-daily-atmospheric-dataset.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "investigadores",
+      "desarrollan",
+      "un"
+    ]
+  },
+  {
+    "title": "When Health and Wellness Products Aren’t ‘Worth a Try’",
+    "title_es": "Cuando los productos de salud y bienestar no \"valen la pena\"",
+    "url": "https://undark.org/2026/02/12/opinion-health-wellness-products/",
+    "source": "Undark Magazine",
+    "published": "2026-02-12T19:55:37.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "when",
+      "health",
+      "and"
+    ]
+  },
+  {
+    "title": "RNA strand that can almost self-replicate may be key to life's origins",
+    "title_es": "La cadena de ARN que casi puede autorreplicarse puede ser clave para los orígenes de la vida",
+    "url": "https://www.newscientist.com/article/2515482-rna-strand-that-can-almost-self-replicate-may-be-key-to-lifes-origins/",
+    "source": "New Scientist",
+    "published": "2026-02-12T19:00:31.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "rna",
+      "strand",
+      "that"
+    ]
+  },
+  {
+    "title": "Scientists discover protein that rejuvenates aging brain cells",
+    "title_es": "Los científicos descubren una proteína que rejuvenece las células cerebrales envejecidas",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260212025620.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-12T14:42:41.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "protein"
+    ]
+  },
+  {
     "title": "Reviewing the Reviewer: Elevating Peer Review Quality through LLM-Guided Feedback",
     "title_es": "Revisión del revisor: elevar la calidad de la revisión por pares a través de la retroalimentación guiada por LLM",
     "url": "https://arxiv.org/abs/2602.10118",
@@ -67,6 +179,90 @@
       "los",
       "cristianos",
       "medievales"
+    ]
+  },
+  {
+    "title": "Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment",
+    "title_es": "Ampliar la verificación puede ser más eficaz que ampliar el aprendizaje de políticas para la alineación visión-lenguaje-acción",
+    "url": "http://arxiv.org/abs/2602.12281v1",
+    "source": "arXiv",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "ampliar",
+      "la",
+      "verificación"
+    ]
+  },
+  {
+    "title": "Imagining the rich lives of invertebrates",
+    "title_es": "Imaginando las ricas vidas de los invertebrados",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aec2352",
+    "source": "Science.org",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "imaginando",
+      "las",
+      "ricas"
+    ]
+  },
+  {
+    "title": "Publisher Correction: Physiology and immunology of a pig-to-human decedent kidney xenotransplant",
+    "title_es": "Corrección del editor: Fisiología e inmunología de un xenotrasplante de riñón de cerdo a humano fallecido",
+    "url": "https://www.nature.com/articles/s41586-026-10252-w",
+    "source": "Nature",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "editor"
+    ]
+  },
+  {
+    "title": "El CNIC impulsa vocaciones científicas en una jornada por el Día de la Mujer y la Niña en la Ciencia",
+    "title_es": "El CNIC impulsa vocaciones científicas en una jornada por el Día de la Mujer y la Niña en la Ciencia",
+    "url": "https://www.cnic.es/es/noticias/cnic-impulsa-vocaciones-cientificas-jornada-por-dia-mujer-nina-ciencia",
+    "source": "CNIC",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "cnic",
+      "impulsa"
+    ]
+  },
+  {
+    "title": "This inside-out planetary system has astronomers scratching their heads",
+    "title_es": "Este sistema planetario al revés tiene a los astrónomos rascándose la cabeza",
+    "url": "https://www.sciencenews.org/article/inside-out-planetary-system",
+    "source": "Science News",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "sistema",
+      "planetario"
+    ]
+  },
+  {
+    "title": "You need to eat protein — but the right mix really matters",
+    "title_es": "Necesitas comer proteínas, pero la combinación adecuada realmente importa",
+    "url": "https://www.snexplores.org/article/how-much-protein-eat-quality-mix",
+    "source": "Science News Explores",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "necesitas",
+      "comer",
+      "proteínas"
     ]
   },
   {
@@ -249,6 +445,20 @@
       "explicador",
       "qué",
       "es"
+    ]
+  },
+  {
+    "title": "Love is in the air at CERN’s HEARTS facility",
+    "title_es": "El amor está en el aire en las instalaciones HEARTS del CERN",
+    "url": "https://home.cern/news/news/knowledge-sharing/love-air-cerns-hearts-facility",
+    "source": "CERN News",
+    "published": "2026-02-11T00:00:00.000Z",
+    "date": "2026-02-11",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "amor",
+      "está"
     ]
   },
   {
@@ -7294,7 +7504,7 @@
   },
   {
     "title": "Benchmarking Tesla's Traffic Light and Stop Sign Control: Field Dataset and Behavior Insights",
-    "title_es": "Análisis comparativo del control de semáforos y señales de stop de Tesla: conjunto de datos de campo e información sobre el comportamiento",
+    "title_es": "Benchmarking Tesla's Traffic Light and Stop Sign Control: Field Dataset and Behavior Insights",
     "url": "https://arxiv.org/abs/2512.11802",
     "source": "arXiv",
     "published": "2025-12-16T05:00:00.000Z",
@@ -7462,7 +7672,7 @@
   },
   {
     "title": "Measuring skill-based uplift from AI in a real biological laboratory",
-    "title_es": "Medición de la elevación basada en habilidades de la IA en un laboratorio biológico real",
+    "title_es": "Measuring skill-based uplift from AI in a real biological laboratory",
     "url": "https://arxiv.org/abs/2512.10960",
     "source": "arXiv",
     "published": "2025-12-15T05:00:00.000Z",
@@ -30427,17 +30637,17 @@
     ]
   },
   {
-    "title": "Fat reserve and body condition variation in Argentine black and white tegus: native-invasive comparisons and environmental drivers in Florida",
-    "title_es": "Reserva de grasa y variación de la condición corporal en tegus blanco y negro argentino: comparaciones nativas-invasivas e impulsores ambientales en Florida",
+    "title": "Balancing efficiency and clinical quality in dialysis centers: Insights from a nationwide DEA study in Taiwan",
+    "title_es": "Equilibrando la eficiencia y la calidad clínica en los centros de diálisis: perspectivas de un estudio nacional de la DEA en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "reserva",
-      "de",
-      "grasa"
+      "equilibrando",
+      "la",
+      "eficiencia"
     ]
   },
   {
@@ -88782,6 +88992,20 @@
       "the",
       "bay",
       "of"
+    ]
+  },
+  {
+    "title": "NGC 147 and NGC 185",
+    "title_es": "NGC 147 and NGC 185",
+    "url": "https://apod.nasa.gov/apod/image/2602/n147n1851024.png",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "147",
+      "and"
     ]
   }
 ]
