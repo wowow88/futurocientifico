@@ -1,5 +1,61 @@
 [
   {
+    "title": "Japanese Archipelago Was Once a Refuge for Cave Lions",
+    "title_es": "El archipiélago japonés fue una vez un refugio para los leones de las cavernas",
+    "url": "https://www.sci.news/paleontology/japanese-cave-lions-14557.html",
+    "source": "Sci.News",
+    "published": "2026-02-14T01:04:27.000Z",
+    "date": "2026-02-14",
+    "category": "noticia",
+    "tags": [
+      "japanese",
+      "archipelago",
+      "was"
+    ]
+  },
+  {
+    "title": "Scientists used brain stimulation to make people more generous",
+    "title_es": "Los científicos utilizaron la estimulación cerebral para hacer que las personas sean más generosas",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260213020407.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-14T00:00:00.000Z",
+    "date": "2026-02-14",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "utilizaron"
+    ]
+  },
+  {
+    "title": "New research uncovers how microbes shape ecosystem resilience",
+    "title_es": "Una nueva investigación descubre cómo los microbios dan forma a la resiliencia de los ecosistemas",
+    "url": "https://phys.org/news/2026-02-uncovers-microbes-ecosystem-resilience.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-14T00:00:00.000Z",
+    "date": "2026-02-14",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "nueva",
+      "investigación"
+    ]
+  },
+  {
+    "title": "As More Schools Turn to AI Weapons Detection, Questions Persist",
+    "title_es": "A medida que más escuelas recurren a la detección de armas de IA, persisten las preguntas",
+    "url": "https://undark.org/2026/02/13/as-more-schools-turn-to-ai-weapons-detection-questions-persist/",
+    "source": "Undark Magazine",
+    "published": "2026-02-13T08:39:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "as",
+      "more",
+      "schools"
+    ]
+  },
+  {
     "title": "HybridRAG: A Practical LLM-based ChatBot Framework based on Pre-Generated Q&A over Raw Unstructured Documents",
     "title_es": "HybridRAG: un marco práctico de chatbot basado en LLM basado en preguntas y respuestas pregeneradas sobre documentos no estructurados sin procesar",
     "url": "https://arxiv.org/abs/2602.11156",
@@ -67,6 +123,62 @@
       "investigadores",
       "desarrollan",
       "un"
+    ]
+  },
+  {
+    "title": "Briefing Chat: Caffeine slows brain ageing, suggests decades of data",
+    "title_es": "Charla informativa: la cafeína ralentiza el envejecimiento cerebral, según sugieren décadas de datos",
+    "url": "https://www.nature.com/articles/d41586-026-00476-1",
+    "source": "Nature",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "la"
+    ]
+  },
+  {
+    "title": "Crew-12 Launches",
+    "title_es": "Lanzamientos de Crew-12",
+    "url": "https://www.nasa.gov/image-article/crew-12-launches/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "lanzamientos",
+      "de",
+      "crew-12"
+    ]
+  },
+  {
+    "title": "Evolution didn’t wait long after the dinosaurs died",
+    "title_es": "La evolución no se hizo esperar mucho después de la muerte de los dinosaurios",
+    "url": "https://www.sciencenews.org/article/evolution-dinosaurs-chicxulub-asteroid",
+    "source": "Science News",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "evolución",
+      "no"
+    ]
+  },
+  {
+    "title": "Bots have their own social network, and it’s worrying experts",
+    "title_es": "Los bots tienen su propia red social y esto preocupa a los expertos",
+    "url": "https://www.snexplores.org/article/bot-social-network-moltbook-ai",
+    "source": "Science News Explores",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "bots",
+      "tienen"
     ]
   },
   {
@@ -263,6 +375,20 @@
       "necesitas",
       "comer",
       "proteínas"
+    ]
+  },
+  {
+    "title": "¿Cómo promover el acceso de las mujeres a puestos de liderazgo en ciencia? Más de 40 entidades de la biomedicina y la industria farmacéutica piensan soluciones",
+    "title_es": "¿Cómo promover el acceso de las mujeres a puestos de liderazgo en ciencia? Más de 40 entidades de la biomedicina y la industria farmacéutica piensan soluciones",
+    "url": "https://www.cnio.es/noticias/como-promover-el-acceso-de-las-mujeres-a-puestos-de-liderazgo-en-ciencia-expertas-de-la-biomedicina-y-la-industria-farmaceutica-lo-analizan-en-el-cnio/",
+    "source": "CNIO",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "promover",
+      "el"
     ]
   },
   {
@@ -697,6 +823,20 @@
       "celebrando",
       "el",
       "día"
+    ]
+  },
+  {
+    "title": "Your BMI can't tell you much about your health – here's what can",
+    "title_es": "Su IMC no puede decirle mucho sobre su salud: esto es lo que puede",
+    "url": "https://www.newscientist.com/article/2513596-your-bmi-cant-tell-you-much-about-your-health-heres-what-can/",
+    "source": "New Scientist",
+    "published": "2026-02-09T16:00:05.000Z",
+    "date": "2026-02-09",
+    "category": "noticia",
+    "tags": [
+      "your",
+      "bmi",
+      "cant"
     ]
   },
   {
@@ -7211,7 +7351,7 @@
   },
   {
     "title": "Effectively Detecting and Responding to Online Harassment with Large Language Models",
-    "title_es": "Detectar y responder eficazmente al acoso en línea con modelos de lenguaje grandes",
+    "title_es": "Effectively Detecting and Responding to Online Harassment with Large Language Models",
     "url": "https://arxiv.org/abs/2512.14700",
     "source": "arXiv",
     "published": "2025-12-18T05:00:00.000Z",
@@ -7364,7 +7504,7 @@
   },
   {
     "title": "From Framework to Practice: Designing a Real-World Telehealth Application for Palliative Care",
-    "title_es": "Del marco a la práctica: diseño de una aplicación de telesalud del mundo real para cuidados paliativos",
+    "title_es": "From Framework to Practice: Designing a Real-World Telehealth Application for Palliative Care",
     "url": "https://arxiv.org/abs/2512.13693",
     "source": "arXiv",
     "published": "2025-12-17T05:00:00.000Z",
@@ -30637,17 +30777,17 @@
     ]
   },
   {
-    "title": "Balancing efficiency and clinical quality in dialysis centers: Insights from a nationwide DEA study in Taiwan",
-    "title_es": "Equilibrando la eficiencia y la calidad clínica en los centros de diálisis: perspectivas de un estudio nacional de la DEA en Taiwán",
+    "title": "A scoping review protocol of existing body image guidelines for parents of youth",
+    "title_es": "Un protocolo de revisión del alcance de las pautas de imagen corporal existentes para padres de jóvenes",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "equilibrando",
-      "la",
-      "eficiencia"
+      "un",
+      "protocolo",
+      "de"
     ]
   },
   {
@@ -89006,6 +89146,20 @@
       "ngc",
       "147",
       "and"
+    ]
+  },
+  {
+    "title": "Roses are Red",
+    "title_es": "Roses are Red",
+    "url": "https://apod.nasa.gov/apod/image/2602/rosettecalcagno1082.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "roses",
+      "are",
+      "red"
     ]
   }
 ]
