@@ -1,5 +1,47 @@
 [
   {
+    "title": "Massive study finds most statin side effects aren’t caused by the drugs",
+    "title_es": "Un estudio masivo encuentra que la mayoría de los efectos secundarios de las estatinas no son causados ​​por los medicamentos",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260212025550.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-15T00:00:00.000Z",
+    "date": "2026-02-15",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "estudio",
+      "masivo"
+    ]
+  },
+  {
+    "title": "More than a feeling: Thinking about love as a virtue can change how we respond to hate",
+    "title_es": "Más que un sentimiento: pensar en el amor como una virtud puede cambiar la forma en que respondemos al odio",
+    "url": "https://phys.org/news/2026-02-virtue.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-15T00:00:00.000Z",
+    "date": "2026-02-15",
+    "category": "noticia",
+    "tags": [
+      "más",
+      "que",
+      "un"
+    ]
+  },
+  {
+    "title": "This breakthrough could finally unlock male birth control",
+    "title_es": "Este avance finalmente podría desbloquear el control de la natalidad masculina",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260213223918.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-14T15:47:27.000Z",
+    "date": "2026-02-14",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "breakthrough",
+      "could"
+    ]
+  },
+  {
     "title": "Japanese Archipelago Was Once a Refuge for Cave Lions",
     "title_es": "El archipiélago japonés fue una vez un refugio para los leones de las cavernas",
     "url": "https://www.sci.news/paleontology/japanese-cave-lions-14557.html",
@@ -585,6 +627,20 @@
       "el",
       "amor",
       "está"
+    ]
+  },
+  {
+    "title": "How teaching molecules to think is revealing what a 'mind' really is",
+    "title_es": "Cómo enseñar a las moléculas a pensar es revelar lo que realmente es una \"mente\"",
+    "url": "https://www.newscientist.com/article/2513815-how-teaching-molecules-to-think-is-revealing-what-a-mind-really-is/",
+    "source": "New Scientist",
+    "published": "2026-02-10T16:00:17.000Z",
+    "date": "2026-02-10",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "teaching",
+      "molecules"
     ]
   },
   {
@@ -7197,7 +7253,7 @@
   },
   {
     "title": "A Fast Volumetric Capture and Reconstruction Pipeline for Dynamic Point Clouds and Gaussian Splats",
-    "title_es": "Una canalización de captura y reconstrucción volumétrica rápida para nubes de puntos dinámicas y salpicaduras gaussianas",
+    "title_es": "A Fast Volumetric Capture and Reconstruction Pipeline for Dynamic Point Clouds and Gaussian Splats",
     "url": "https://arxiv.org/abs/2512.15719",
     "source": "arXiv",
     "published": "2025-12-19T05:00:00.000Z",
@@ -89160,6 +89216,20 @@
       "roses",
       "are",
       "red"
+    ]
+  },
+  {
+    "title": "To Fly Free in Space",
+    "title_es": "To Fly Free in Space",
+    "url": "https://apod.nasa.gov/apod/image/2602/freeflyer_nasa_900.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "to",
+      "fly",
+      "free"
     ]
   }
 ]
