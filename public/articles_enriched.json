@@ -1,5 +1,61 @@
 [
   {
+    "title": "A Lightweight Cubature Kalman Filter for Attitude and Heading Reference Systems Using Simplified Prediction Equations",
+    "title_es": "Un ligero filtro Kalman Cubature para sistemas de referencia de actitud y rumbo que utilizan ecuaciones de predicción simplificadas",
+    "url": "https://arxiv.org/abs/2602.12283",
+    "source": "arXiv",
+    "published": "2026-02-16T05:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "lightweight",
+      "cubature"
+    ]
+  },
+  {
+    "title": "Intermittent fasting probably doesn’t help with weight loss",
+    "title_es": "El ayuno intermitente probablemente no ayuda a perder peso",
+    "url": "https://www.newscientist.com/article/2515526-intermittent-fasting-probably-doesnt-help-with-weight-loss/",
+    "source": "New Scientist",
+    "published": "2026-02-16T01:00:04.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "intermittent",
+      "fasting",
+      "probably"
+    ]
+  },
+  {
+    "title": "Ancient fingerprint found on 2,400-year-old Danish war boat",
+    "title_es": "Hallan una huella dactilar antigua en un barco de guerra danés de 2.400 años de antigüedad",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260215225551.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-16T00:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "hallan",
+      "una",
+      "huella"
+    ]
+  },
+  {
+    "title": "Study of 65,000 college students links 16 hours a week on social media to higher loneliness",
+    "title_es": "Un estudio de 65.000 estudiantes universitarios vincula 16 horas a la semana en las redes sociales con una mayor soledad",
+    "url": "https://phys.org/news/2026-02-college-students-links-hours-week.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-16T00:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "estudio",
+      "de"
+    ]
+  },
+  {
     "title": "Massive study finds most statin side effects aren’t caused by the drugs",
     "title_es": "Un estudio masivo encuentra que la mayoría de los efectos secundarios de las estatinas no son causados ​​por los medicamentos",
     "url": "https://www.sciencedaily.com/releases/2026/02/260212025550.htm",
@@ -221,6 +277,20 @@
       "los",
       "bots",
       "tienen"
+    ]
+  },
+  {
+    "title": "Semantic Chunking and the Entropy of Natural Language",
+    "title_es": "Fragmentación semántica y entropía del lenguaje natural",
+    "url": "http://arxiv.org/abs/2602.13194v1",
+    "source": "arXiv",
+    "published": "2026-02-13T00:00:00.000Z",
+    "date": "2026-02-13",
+    "category": "noticia",
+    "tags": [
+      "fragmentación",
+      "semántica",
+      "y"
     ]
   },
   {
@@ -7057,7 +7127,7 @@
   },
   {
     "title": "V-Agent: An Interactive Video Search System Using Vision-Language Models",
-    "title_es": "V-Agent: un sistema de búsqueda de vídeo interactivo que utiliza modelos de visión y lenguaje",
+    "title_es": "V-Agent: An Interactive Video Search System Using Vision-Language Models",
     "url": "https://arxiv.org/abs/2512.16925",
     "source": "arXiv",
     "published": "2025-12-22T05:00:00.000Z",
@@ -89230,6 +89300,20 @@
       "to",
       "fly",
       "free"
+    ]
+  },
+  {
+    "title": "Unexplained Shocks Around a White Dwarf Star",
+    "title_es": "Unexplained Shocks Around a White Dwarf Star",
+    "url": "https://apod.nasa.gov/apod/image/2602/whitedwarfshock_vlt_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "unexplained",
+      "shocks",
+      "around"
     ]
   }
 ]
