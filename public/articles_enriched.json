@@ -1,5 +1,103 @@
 [
   {
+    "title": "Simulation-Based Study of AI-Assisted Channel Adaptation in UAV-Enabled Cellular Networks",
+    "title_es": "Estudio basado en simulación de adaptación de canales asistida por IA en redes celulares habilitadas para UAV",
+    "url": "https://arxiv.org/abs/2602.13199",
+    "source": "arXiv",
+    "published": "2026-02-17T05:00:00.000Z",
+    "date": "2026-02-17",
+    "category": "noticia",
+    "tags": [
+      "simulation-based",
+      "study",
+      "of"
+    ]
+  },
+  {
+    "title": "Small Triassic Dinosaur from Brazil Sheds New Light on Sauropodomorph Growth Strategies",
+    "title_es": "Un pequeño dinosaurio triásico de Brasil arroja nueva luz sobre las estrategias de crecimiento de los sauropodomorfos",
+    "url": "https://www.sci.news/paleontology/small-triassic-sauropodomorph-dinosaur-brazil-14562.html",
+    "source": "Sci.News",
+    "published": "2026-02-17T02:04:08.000Z",
+    "date": "2026-02-17",
+    "category": "noticia",
+    "tags": [
+      "small",
+      "triassic",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "This new blood test could detect cancer before it shows up on scans",
+    "title_es": "Este nuevo análisis de sangre podría detectar el cáncer antes de que aparezca en las exploraciones",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260216044002.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-17T00:00:00.000Z",
+    "date": "2026-02-17",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "nuevo",
+      "análisis"
+    ]
+  },
+  {
+    "title": "Bacterial strain from 5,000-year-old cave ice shows resistance against 10 modern antibiotics",
+    "title_es": "Una cepa bacteriana procedente de una cueva de hielo de hace 5.000 años muestra resistencia a 10 antibióticos modernos",
+    "url": "https://phys.org/news/2026-02-bacterial-strain-year-cave-ice.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-17T00:00:00.000Z",
+    "date": "2026-02-17",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "cepa",
+      "bacteriana"
+    ]
+  },
+  {
+    "title": "The mystery of nuclear 'magic numbers' has finally been resolved",
+    "title_es": "El misterio de los \"números mágicos\" nucleares finalmente se ha resuelto",
+    "url": "https://www.newscientist.com/article/2514983-the-mystery-of-nuclear-magic-numbers-has-finally-been-resolved/",
+    "source": "New Scientist",
+    "published": "2026-02-16T18:00:59.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "mystery",
+      "of"
+    ]
+  },
+  {
+    "title": "Lab grown human spinal cord heals after injury in major breakthrough",
+    "title_es": "La médula espinal humana cultivada en laboratorio se cura después de una lesión en un avance importante",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260216044003.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-16T12:41:25.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "lab",
+      "grown",
+      "human"
+    ]
+  },
+  {
+    "title": "Book Review: How Sickness Has Transformed Civilization",
+    "title_es": "Reseña del libro: Cómo la enfermedad ha transformado la civilización",
+    "url": "https://undark.org/2026/02/16/book-review-great-shadow/",
+    "source": "Undark Magazine",
+    "published": "2026-02-16T08:17:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "how"
+    ]
+  },
+  {
     "title": "A Lightweight Cubature Kalman Filter for Attitude and Heading Reference Systems Using Simplified Prediction Equations",
     "title_es": "Un ligero filtro Kalman Cubature para sistemas de referencia de actitud y rumbo que utilizan ecuaciones de predicción simplificadas",
     "url": "https://arxiv.org/abs/2602.12283",
@@ -53,6 +151,48 @@
       "un",
       "estudio",
       "de"
+    ]
+  },
+  {
+    "title": "Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization",
+    "title_es": "Contexto a largo plazo, menos enfoque: una brecha de escala en los LLM revelada a través de la privacidad y la personalización",
+    "url": "http://arxiv.org/abs/2602.15028v1",
+    "source": "arXiv",
+    "published": "2026-02-16T00:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "contexto",
+      "a",
+      "largo"
+    ]
+  },
+  {
+    "title": "Editorial Expression of Concern: Transcription-independent ARF regulation in oncogenic stress-mediated p53 responses",
+    "title_es": "Expresión editorial de preocupación: regulación de ARF independiente de la transcripción en respuestas de p53 mediadas por estrés oncogénico",
+    "url": "https://www.nature.com/articles/s41586-026-10247-7",
+    "source": "Nature",
+    "published": "2026-02-16T00:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "expresión",
+      "editorial",
+      "de"
+    ]
+  },
+  {
+    "title": "Scientists Say: Cryogenic",
+    "title_es": "Los científicos dicen: criogénico",
+    "url": "https://www.snexplores.org/article/scientists-say-cryogenic-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-02-16T00:00:00.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
     ]
   },
   {
@@ -6791,7 +6931,7 @@
   },
   {
     "title": "18,000-Year-Old Circular Dwellings Made of Mammoth Bones Unearthed in Ukraine",
-    "title_es": "Viviendas circulares de 18.000 años hechas de huesos de mamut desenterradas en Ucrania",
+    "title_es": "18,000-Year-Old Circular Dwellings Made of Mammoth Bones Unearthed in Ukraine",
     "url": "https://www.sci.news/archaeology/mammoth-bone-structures-ukraine-14448.html",
     "source": "Sci.News",
     "published": "2025-12-26T00:07:03.000Z",
@@ -6805,7 +6945,7 @@
   },
   {
     "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en\" hreflang=\"es\">El programa Soñando Estrellas viaja a la cronología de la Vía Láctea y explora el auge del astroturismo en Canarias</a>",
-    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en\" hreflang=\"es\">El programa Soñando Estrellas viaja a la cronología de la Vía Láctea y explora el auge del astroturismo en Canarias</a>",
+    "title_es": "",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-programa-sonando-estrellas-viaja-la-cronologia-de-la-lactea-y-explora-el-auge-del-astroturismo-en",
     "source": "IAC",
     "published": "2025-12-26T00:00:00.000Z",
@@ -6833,7 +6973,7 @@
   },
   {
     "title": "Uncovering Patterns of Brain Activity from EEG Data Consistently Associated with Cybersickness Using Neural Network Interpretability Maps",
-    "title_es": "Descubrimiento de patrones de actividad cerebral a partir de datos de EEG consistentemente asociados con el mareo cibernético utilizando mapas de interpretabilidad de redes neuronales",
+    "title_es": "Uncovering Patterns of Brain Activity from EEG Data Consistently Associated with Cybersickness Using Neural Network Interpretability Maps",
     "url": "https://arxiv.org/abs/2512.20620",
     "source": "arXiv",
     "published": "2025-12-25T05:00:00.000Z",
@@ -6903,7 +7043,7 @@
   },
   {
     "title": "QoS-Aware Dynamic CU Selection in O-RAN with Graph-Based Reinforcement Learning",
-    "title_es": "Selección dinámica de CU consciente de QoS en O-RAN con aprendizaje de refuerzo basado en gráficos",
+    "title_es": "QoS-Aware Dynamic CU Selection in O-RAN with Graph-Based Reinforcement Learning",
     "url": "https://arxiv.org/abs/2512.19696",
     "source": "arXiv",
     "published": "2025-12-24T05:00:00.000Z",
@@ -7015,7 +7155,7 @@
   },
   {
     "title": "Efficient Multi-Adapter LLM Serving via Cross-Model KV-Cache Reuse with Activated LoRA",
-    "title_es": "Servidor LLM multiadaptador eficiente a través de la reutilización de caché KV de modelo cruzado con LoRA activado",
+    "title_es": "Efficient Multi-Adapter LLM Serving via Cross-Model KV-Cache Reuse with Activated LoRA",
     "url": "https://arxiv.org/abs/2512.17910",
     "source": "arXiv",
     "published": "2025-12-23T05:00:00.000Z",
@@ -89314,6 +89454,20 @@
       "unexplained",
       "shocks",
       "around"
+    ]
+  },
+  {
+    "title": "Tails of Comet Wierzchoś",
+    "title_es": "Tails of Comet Wierzchoś",
+    "url": "https://apod.nasa.gov/apod/image/2602/wierzchos_chabo_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "tails",
+      "of",
+      "comet"
     ]
   }
 ]
