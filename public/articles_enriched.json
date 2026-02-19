@@ -1,5 +1,89 @@
 [
   {
+    "title": "A2H: Agent-to-Human Protocol for AI Agent",
+    "title_es": "A2H: Protocolo de agente a humano para el agente de IA",
+    "url": "https://arxiv.org/abs/2602.15831",
+    "source": "arXiv",
+    "published": "2026-02-19T05:00:00.000Z",
+    "date": "2026-02-19",
+    "category": "noticia",
+    "tags": [
+      "a2h",
+      "agent-to-human",
+      "protocol"
+    ]
+  },
+  {
+    "title": "Homo erectus Reached East Asia Far Earlier than Previously Thought",
+    "title_es": "El Homo erectus llegó al este de Asia mucho antes de lo que se pensaba",
+    "url": "https://www.sci.news/othersciences/anthropology/yunxian-homo-erectus-14570.html",
+    "source": "Sci.News",
+    "published": "2026-02-19T02:01:58.000Z",
+    "date": "2026-02-19",
+    "category": "noticia",
+    "tags": [
+      "homo",
+      "erectus",
+      "reached"
+    ]
+  },
+  {
+    "title": "Northern Glow Spans Iceland and Canada",
+    "title_es": "Northern Glow se extiende por Islandia y Canadá",
+    "url": "https://science.nasa.gov/earth/earth-observatory/northern-glow-spans-iceland-and-canada/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-19T00:00:00.000Z",
+    "date": "2026-02-19",
+    "category": "noticia",
+    "tags": [
+      "northern",
+      "glow",
+      "se"
+    ]
+  },
+  {
+    "title": "Bilingual courses in Europe: Proper use of language is professors' main concern",
+    "title_es": "Cursos bilingües en Europa: el uso adecuado de la lengua es la principal preocupación de los profesores",
+    "url": "https://phys.org/news/2026-02-bilingual-courses-europe-proper-language.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-19T00:00:00.000Z",
+    "date": "2026-02-19",
+    "category": "noticia",
+    "tags": [
+      "cursos",
+      "bilingües",
+      "en"
+    ]
+  },
+  {
+    "title": "More dog breeds found to have high risk of breathing condition",
+    "title_es": "Se encontró que más razas de perros tienen un alto riesgo de problemas respiratorios",
+    "url": "https://www.newscientist.com/article/2516119-more-dog-breeds-found-to-have-high-risk-of-breathing-condition/",
+    "source": "New Scientist",
+    "published": "2026-02-18T19:00:54.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "more",
+      "dog",
+      "breeds"
+    ]
+  },
+  {
+    "title": "What the Dutch Can Teach Us About Paying for Health Care",
+    "title_es": "Lo que los holandeses pueden enseñarnos sobre el pago de la atención médica",
+    "url": "https://undark.org/2026/02/18/dutch-healthcare-insurance/",
+    "source": "Undark Magazine",
+    "published": "2026-02-18T08:47:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "the",
+      "dutch"
+    ]
+  },
+  {
     "title": "Pairwise XOR and XNOR Gates in Squeezed Instantaneous Noise Based Logic",
     "title_es": "Puertas XOR y XNOR por pares en lógica basada en ruido instantáneo exprimido",
     "url": "https://arxiv.org/abs/2602.15032",
@@ -67,6 +151,90 @@
       "el",
       "trauma",
       "es"
+    ]
+  },
+  {
+    "title": "Policy Compiler for Secure Agentic Systems",
+    "title_es": "Compilador de políticas para sistemas agentes seguros",
+    "url": "http://arxiv.org/abs/2602.16708v1",
+    "source": "arXiv",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "compilador",
+      "de",
+      "políticas"
+    ]
+  },
+  {
+    "title": "Stereospecific alkyl–alkyl cross-coupling of boronic esters",
+    "title_es": "Acoplamiento cruzado estereoespecífico alquil-alquilo de ésteres borónicos",
+    "url": "https://www.nature.com/articles/s41586-026-10261-9",
+    "source": "Nature",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "acoplamiento",
+      "cruzado",
+      "estereoespecífico"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/sub-neptunos-gemelos-alrededor-de-estrellas-hermanas-los-sistemas-exoplanetarios-toi-521-y-toi-912\" hreflang=\"es\">Sub-Neptunos gemelos alrededor de estrellas hermanas: los sistemas exoplanetarios TOI-521 y TOI-912</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/sub-neptunos-gemelos-alrededor-de-estrellas-hermanas-los-sistemas-exoplanetarios-toi-521-y-toi-912\" hreflang=\"es\">Sub-Neptunos gemelos alrededor de estrellas hermanas: los sistemas exoplanetarios TOI-521 y TOI-912</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/sub-neptunos-gemelos-alrededor-de-estrellas-hermanas-los-sistemas-exoplanetarios-toi-521-y-toi-912",
+    "source": "IAC",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiassub-neptunos-gemelos-alrededor-de-estrellas-hermanas-los-sistemas-exoplanetarios-toi-521-y-toi-912",
+      "hreflangessub-neptunos"
+    ]
+  },
+  {
+    "title": "Some dog breeds carry a higher risk of breathing problems",
+    "title_es": "Algunas razas de perros conllevan un mayor riesgo de sufrir problemas respiratorios",
+    "url": "https://www.sciencenews.org/article/dog-breed-high-risk-breathing-problems",
+    "source": "Science News",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "algunas",
+      "razas",
+      "de"
+    ]
+  },
+  {
+    "title": "Using physics can help athletes avoid sports injuries",
+    "title_es": "El uso de la física puede ayudar a los deportistas a evitar lesiones deportivas",
+    "url": "https://www.snexplores.org/article/sports-physics-athlete-injuries",
+    "source": "Science News Explores",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "uso",
+      "de"
+    ]
+  },
+  {
+    "title": "Intermittent fasting fails to beat standard dieting for weight loss",
+    "title_es": "El ayuno intermitente no supera la dieta estándar para bajar de peso",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260218044620.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-18T00:00:00.000Z",
+    "date": "2026-02-18",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "ayuno",
+      "intermitente"
     ]
   },
   {
@@ -168,7 +336,7 @@
     ]
   },
   {
-    "title": "Publisher Correction: Psychedelics elicit their effects by 5-HT2A receptor-mediated G i signalling",
+    "title": "Publisher Correction: Psychedelics elicit their effects by 5-HT2A receptor-mediated G<sub>i</sub> signalling",
     "title_es": "Corrección del editor: los psicodélicos provocan sus efectos mediante la señalización G<sub>i</sub> mediada por el receptor 5-HT2A",
     "url": "https://www.nature.com/articles/s41586-026-10249-5",
     "source": "Nature",
@@ -809,6 +977,20 @@
       "cómo",
       "promover",
       "el"
+    ]
+  },
+  {
+    "title": "Machine learning to reveal more about LHC particle collisions",
+    "title_es": "Aprendizaje automático para revelar más sobre las colisiones de partículas del LHC",
+    "url": "https://home.cern/news/news/physics/machine-learning-reveal-more-about-lhc-particle-collisions",
+    "source": "CERN News",
+    "published": "2026-02-12T00:00:00.000Z",
+    "date": "2026-02-12",
+    "category": "noticia",
+    "tags": [
+      "aprendizaje",
+      "automático",
+      "para"
     ]
   },
   {
@@ -6735,7 +6917,7 @@
   },
   {
     "title": "A Major Climate Research Center in Colorado Is Slated for Closure",
-    "title_es": "Está previsto el cierre de un importante centro de investigación climática en Colorado",
+    "title_es": "A Major Climate Research Center in Colorado Is Slated for Closure",
     "url": "https://undark.org/2025/12/30/ncar-closure-trump-feud/",
     "source": "Undark Magazine",
     "published": "2025-12-30T08:56:00.000Z",
@@ -6749,7 +6931,7 @@
   },
   {
     "title": "MonoM: Enhancing Monotonicity in Learned Cardinality Estimators",
-    "title_es": "MonoM: Mejorar la monotonicidad en los estimadores de cardinalidad aprendida",
+    "title_es": "MonoM: Enhancing Monotonicity in Learned Cardinality Estimators",
     "url": "https://arxiv.org/abs/2512.22122",
     "source": "arXiv",
     "published": "2025-12-30T05:00:00.000Z",
@@ -6763,7 +6945,7 @@
   },
   {
     "title": "New Species of Tinamou Discovered in Brazil",
-    "title_es": "Descubren una nueva especie de tinamú en Brasil",
+    "title_es": "New Species of Tinamou Discovered in Brazil",
     "url": "https://www.sci.news/biology/tinamus-resonans-14454.html",
     "source": "Sci.News",
     "published": "2025-12-30T00:41:39.000Z",
@@ -6819,7 +7001,7 @@
   },
   {
     "title": "Mathematicians unified key laws of physics in 2025",
-    "title_es": "Los matemáticos unificaron las leyes clave de la física en 2025",
+    "title_es": "Mathematicians unified key laws of physics in 2025",
     "url": "https://www.newscientist.com/article/2502845-mathematicians-unified-key-laws-of-physics-in-2025/",
     "source": "New Scientist",
     "published": "2025-12-29T17:00:38.000Z",
@@ -6833,7 +7015,7 @@
   },
   {
     "title": "Back from the Brink: The Whooping Crane’s Recovery on the Edge",
-    "title_es": "Back from the Brink: The Whooping Crane's Recovery on the Edge (La recuperación de la grulla al borde del abismo",
+    "title_es": "Back from the Brink: The Whooping Crane’s Recovery on the Edge",
     "url": "https://undark.org/2025/12/29/whooping-crane-recovery-texas/",
     "source": "Undark Magazine",
     "published": "2025-12-29T08:28:00.000Z",
@@ -31211,8 +31393,8 @@
     ]
   },
   {
-    "title": "Correction: Study on the mechanism of mining-induced pressure mitigation in gangue backfill mining and the sensitivity analysis of main controlling factors",
-    "title_es": "Corrección: Estudio sobre el mecanismo de mitigación de la presión inducida por la minería en la minería de relleno de ganga y el análisis de sensibilidad de los principales factores de control.",
+    "title": "Correction: PMA-qPCA: Accelerating the market release of high-quality Bradyrhizobium diazoefficiens inoculant",
+    "title_es": "Corrección: PMA-qPCA: Acelerar el lanzamiento al mercado del inoculante <i>Bradyrhizobium diazoefficiens</i> de alta calidad",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -31220,8 +31402,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "estudio",
-      "sobre"
+      "pma-qpca",
+      "acelerar"
     ]
   },
   {
@@ -89649,6 +89831,20 @@
     "tags": [
       "orions",
       "cradle"
+    ]
+  },
+  {
+    "title": "IC 2574: Coddington's Nebula",
+    "title_es": "IC 2574: Coddington's Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2602/ic2574vetter1050.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ic",
+      "2574",
+      "coddingtons"
     ]
   }
 ]
