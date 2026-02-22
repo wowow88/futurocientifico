@@ -1,5 +1,33 @@
 [
   {
+    "title": "The greatest risk of AI in higher education isn't cheating—it's the erosion of learning itself",
+    "title_es": "El mayor riesgo de la IA en la educación superior no es hacer trampa, sino la erosión del aprendizaje mismo",
+    "url": "https://phys.org/news/2026-02-greatest-ai-higher-isnt-erosion.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-22T00:00:00.000Z",
+    "date": "2026-02-22",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "mayor",
+      "riesgo"
+    ]
+  },
+  {
+    "title": "Webb Reveals Hidden Layers of Uranus’ Upper Atmosphere",
+    "title_es": "Webb revela capas ocultas de la atmósfera superior de Urano",
+    "url": "https://www.sci.news/astronomy/webb-uranus-ionosphere-14572.html",
+    "source": "Sci.News",
+    "published": "2026-02-21T20:41:18.000Z",
+    "date": "2026-02-21",
+    "category": "noticia",
+    "tags": [
+      "webb",
+      "reveals",
+      "hidden"
+    ]
+  },
+  {
     "title": "Common pneumonia bacterium may fuel Alzheimer’s disease",
     "title_es": "Una bacteria común de la neumonía puede alimentar la enfermedad de Alzheimer",
     "url": "https://www.sciencedaily.com/releases/2026/02/260221000321.htm",
@@ -25,6 +53,34 @@
       "cómo",
       "las",
       "aplicaciones"
+    ]
+  },
+  {
+    "title": "This itch-triggering protein also sends signals to stop scratching",
+    "title_es": "Esta proteína que desencadena la picazón también envía señales para dejar de rascarse",
+    "url": "https://www.sciencenews.org/article/itch-triggering-protein-scratching",
+    "source": "Science News",
+    "published": "2026-02-21T00:00:00.000Z",
+    "date": "2026-02-21",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "proteína",
+      "que"
+    ]
+  },
+  {
+    "title": "Scientists discover why high altitude protects against diabetes",
+    "title_es": "Los científicos descubren por qué la gran altitud protege contra la diabetes",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260221060952.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-21T00:00:00.000Z",
+    "date": "2026-02-21",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubren"
     ]
   },
   {
@@ -431,6 +487,20 @@
       "did",
       "a",
       "cloud-seeding"
+    ]
+  },
+  {
+    "title": "The untold story of our remarkable hands and how they made us human",
+    "title_es": "La historia no contada de nuestras extraordinarias manos y cómo nos hicieron humanos",
+    "url": "https://www.newscientist.com/article/2514431-the-untold-story-of-our-remarkable-hands-and-how-they-made-us-human/",
+    "source": "New Scientist",
+    "published": "2026-02-17T16:00:24.000Z",
+    "date": "2026-02-17",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "untold",
+      "story"
     ]
   },
   {
@@ -6861,7 +6931,7 @@
   },
   {
     "title": "The Uncertain Future of International Scientific Collaboration",
-    "title_es": "El futuro incierto de la colaboración científica internacional",
+    "title_es": "The Uncertain Future of International Scientific Collaboration",
     "url": "https://undark.org/2026/01/01/opinion-international-collaboration-trump/",
     "source": "Undark Magazine",
     "published": "2026-01-01T08:47:00.000Z",
@@ -6875,7 +6945,7 @@
   },
   {
     "title": "Enriching Historical Records: An OCR and AI-Driven Approach for Database Integration",
-    "title_es": "Enriquecimiento de los registros históricos: un enfoque basado en OCR e IA para la integración de bases de datos",
+    "title_es": "Enriching Historical Records: An OCR and AI-Driven Approach for Database Integration",
     "url": "https://arxiv.org/abs/2512.23710",
     "source": "arXiv",
     "published": "2026-01-01T05:00:00.000Z",
@@ -90055,6 +90125,20 @@
       "twilight",
       "with",
       "moon"
+    ]
+  },
+  {
+    "title": "Shadow of a Martian Robot",
+    "title_es": "Shadow of a Martian Robot",
+    "url": "https://apod.nasa.gov/apod/image/2602/marsshadow_opportunity_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "shadow",
+      "of",
+      "a"
     ]
   }
 ]
