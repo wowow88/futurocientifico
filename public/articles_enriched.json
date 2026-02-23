@@ -1,5 +1,46 @@
 [
   {
+    "title": "When & How to Write for Personalized Demand-aware Query Rewriting in Video Search",
+    "title_es": "Cuándo y cómo escribir para una reescritura de consultas personalizada y consciente de la demanda en la búsqueda de vídeos",
+    "url": "https://arxiv.org/abs/2602.17667",
+    "source": "arXiv",
+    "published": "2026-02-23T05:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "when",
+      "how"
+    ]
+  },
+  {
+    "title": "A giant blade-crested spinosaurus, the “hell heron,” discovered in the Sahara",
+    "title_es": "Un espinosaurio gigante con cresta de hoja, la \"garza del infierno\", descubierto en el Sahara",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260222092251.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "espinosaurio",
+      "gigante"
+    ]
+  },
+  {
+    "title": "Globe-trotting ancient 'sea-salamander' fossils rediscovered from Australia's dawn of the Age of Dinosaurs",
+    "title_es": "Antiguos fósiles de 'salamandra marina' trotamundos redescubiertos en Australia en los albores de la Era de los Dinosaurios",
+    "url": "https://phys.org/news/2026-02-globe-ancient-sea-salamander-fossils.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "antiguos",
+      "fósiles",
+      "de"
+    ]
+  },
+  {
     "title": "The greatest risk of AI in higher education isn't cheating—it's the erosion of learning itself",
     "title_es": "El mayor riesgo de la IA en la educación superior no es hacer trampa, sino la erosión del aprendizaje mismo",
     "url": "https://phys.org/news/2026-02-greatest-ai-higher-isnt-erosion.html",
@@ -165,6 +206,20 @@
       "los",
       "neandertales",
       "utilizaban"
+    ]
+  },
+  {
+    "title": "Unifying approach to uniform expressivity of graph neural networks",
+    "title_es": "Enfoque unificador para la expresividad uniforme de redes neuronales gráficas.",
+    "url": "http://arxiv.org/abs/2602.18409v1",
+    "source": "arXiv",
+    "published": "2026-02-20T00:00:00.000Z",
+    "date": "2026-02-20",
+    "category": "noticia",
+    "tags": [
+      "enfoque",
+      "unificador",
+      "para"
     ]
   },
   {
@@ -641,6 +696,20 @@
       "the",
       "mystery",
       "of"
+    ]
+  },
+  {
+    "title": "We’ve glimpsed before the big bang and it’s not what we expected",
+    "title_es": "Hemos vislumbrado antes del big bang y no es lo que esperábamos",
+    "url": "https://www.newscientist.com/article/2514293-weve-glimpsed-before-the-big-bang-and-its-not-what-we-expected/",
+    "source": "New Scientist",
+    "published": "2026-02-16T16:00:10.000Z",
+    "date": "2026-02-16",
+    "category": "noticia",
+    "tags": [
+      "weve",
+      "glimpsed",
+      "before"
     ]
   },
   {
@@ -6917,7 +6986,7 @@
   },
   {
     "title": "Rare Saturn-sized rogue planet is first to have its mass measured",
-    "title_es": "El raro planeta pícaro del tamaño de Saturno es el primero en medir su masa",
+    "title_es": "Rare Saturn-sized rogue planet is first to have its mass measured",
     "url": "https://www.newscientist.com/article/2509858-rare-saturn-sized-rogue-planet-is-first-to-have-its-mass-measured/",
     "source": "New Scientist",
     "published": "2026-01-01T19:00:40.000Z",
@@ -90139,6 +90208,20 @@
       "shadow",
       "of",
       "a"
+    ]
+  },
+  {
+    "title": "Pleiades: The Seven Sisters Star Cluster",
+    "title_es": "Pleiades: The Seven Sisters Star Cluster",
+    "url": "https://apod.nasa.gov/apod/image/2602/pleiades_fiedosiuk_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "pleiades",
+      "the",
+      "seven"
     ]
   }
 ]
