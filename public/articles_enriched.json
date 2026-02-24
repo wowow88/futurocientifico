@@ -1,5 +1,117 @@
 [
   {
+    "title": "FineRef: Fine-Grained Error Reflection and Correction for Long-Form Generation with Citations",
+    "title_es": "FineRef: Reflexión y corrección de errores de grano fino para la generación de formato largo con citas",
+    "url": "https://arxiv.org/abs/2602.18437",
+    "source": "arXiv",
+    "published": "2026-02-24T05:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "fineref",
+      "fine-grained",
+      "error"
+    ]
+  },
+  {
+    "title": "New Sauropod Dinosaur Species Identified in Brazil",
+    "title_es": "Nueva especie de dinosaurio saurópodo identificada en Brasil",
+    "url": "https://www.sci.news/paleontology/dasosaurus-tocantinensis-14577.html",
+    "source": "Sci.News",
+    "published": "2026-02-24T00:38:40.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "sauropod",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Showy Swirls Around Jeju Island",
+    "title_es": "Vistosos remolinos alrededor de la isla de Jeju",
+    "url": "https://science.nasa.gov/earth/earth-observatory/showy-swirls-around-jeju-island/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "vistosos",
+      "remolinos",
+      "alrededor"
+    ]
+  },
+  {
+    "title": "Scientists reverse muscle aging in mice and discover a surprising catch",
+    "title_es": "Los científicos revierten el envejecimiento muscular en ratones y descubren un truco sorprendente",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260222092306.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "revierten"
+    ]
+  },
+  {
+    "title": "Image: Curiosity rover surveys boxwork region of Mars",
+    "title_es": "Imagen: El rover Curiosity examina la región cuadrada de Marte",
+    "url": "https://phys.org/news/2026-02-image-curiosity-rover-surveys-boxwork.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "imagen",
+      "el",
+      "rover"
+    ]
+  },
+  {
+    "title": "Stone Age symbols may push back the earliest form of writing",
+    "title_es": "Los símbolos de la Edad de Piedra pueden hacer retroceder la forma más antigua de escritura",
+    "url": "https://www.newscientist.com/article/2516606-stone-age-symbols-may-push-back-the-earliest-form-of-writing/",
+    "source": "New Scientist",
+    "published": "2026-02-23T20:00:26.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "stone",
+      "age",
+      "symbols"
+    ]
+  },
+  {
+    "title": "FDA Removes Webpage Warning Against Ineffective Autism Treatments",
+    "title_es": "La FDA elimina la advertencia de la página web contra los tratamientos ineficaces para el autismo",
+    "url": "https://undark.org/2026/02/23/fda-autism-treatment-warnings/",
+    "source": "Undark Magazine",
+    "published": "2026-02-23T08:09:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "fda",
+      "removes",
+      "webpage"
+    ]
+  },
+  {
+    "title": "Young Mars volcano hides a powerful magma engine beneath the surface",
+    "title_es": "El joven volcán de Marte esconde un potente motor de magma bajo la superficie",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260222092329.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-23T06:19:47.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "young",
+      "mars",
+      "volcano"
+    ]
+  },
+  {
     "title": "When & How to Write for Personalized Demand-aware Query Rewriting in Video Search",
     "title_es": "Cuándo y cómo escribir para una reescritura de consultas personalizada y consciente de la demanda en la búsqueda de vídeos",
     "url": "https://arxiv.org/abs/2602.17667",
@@ -38,6 +150,76 @@
       "antiguos",
       "fósiles",
       "de"
+    ]
+  },
+  {
+    "title": "A Very Big Video Reasoning Suite",
+    "title_es": "Una suite de razonamiento en vídeo muy grande",
+    "url": "http://arxiv.org/abs/2602.20159v1",
+    "source": "arXiv",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "suite",
+      "de"
+    ]
+  },
+  {
+    "title": "Markovnikov hydroamination of terminal alkenes via phosphine redox catalysis",
+    "title_es": "Hidroaminación de Markovnikov de alquenos terminales mediante catálisis redox de fosfina",
+    "url": "https://www.nature.com/articles/s41586-026-10263-7",
+    "source": "Nature",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "hidroaminación",
+      "de",
+      "markovnikov"
+    ]
+  },
+  {
+    "title": "Isabel Fariñas: “Research Is Not a 9-to-5 Job; It Is Almost an Artistic Profession”",
+    "title_es": "Isabel Fariñas: “La investigación no es un trabajo de 9 a 5; es casi una profesión artística”",
+    "url": "https://www.cnic.es/es/node/240328",
+    "source": "CNIC",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "isabel",
+      "fariñas",
+      "research"
+    ]
+  },
+  {
+    "title": "Venus has a massive lava tube",
+    "title_es": "Venus tiene un enorme tubo de lava",
+    "url": "https://www.sciencenews.org/article/venus-massive-lava-tube-caves",
+    "source": "Science News",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "venus",
+      "tiene",
+      "un"
+    ]
+  },
+  {
+    "title": "Prehistoric ‘sea’ monster also lurked in rivers, data show",
+    "title_es": "El monstruo \"marino\" prehistórico también acechaba en los ríos, según muestran los datos",
+    "url": "https://www.snexplores.org/article/mosasaur-tooth-fossil-river",
+    "source": "Science News Explores",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "monstruo",
+      "marino"
     ]
   },
   {
@@ -153,7 +335,7 @@
     ]
   },
   {
-    "title": "Publisher Correction: PtdIns(3,5)P 2 is an endogenous ligand of STING in innate immune signalling",
+    "title": "Publisher Correction: PtdIns(3,5)P<sub>2</sub> is an endogenous ligand of STING in innate immune signalling",
     "title_es": "Corrección del editor: PtdIns(3,5)P<sub>2</sub> es un ligando endógeno de STING en la señalización inmune innata",
     "url": "https://www.nature.com/articles/s41586-026-10280-6",
     "source": "Nature",
@@ -220,6 +402,34 @@
       "enfoque",
       "unificador",
       "para"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-gran-telescopio-canarias-observa-el-little-red-dot-mas-cercano-y-ayuda-desvelar-como-crecieron-los\" hreflang=\"es\">El Gran Telescopio Canarias observa el ‘Little Red Dot’ más cercano y ayuda a desvelar cómo crecieron los primeros agujeros negros</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-gran-telescopio-canarias-observa-el-little-red-dot-mas-cercano-y-ayuda-desvelar-como-crecieron-los\" hreflang=\"es\">El Gran Telescopio Canarias observa el ‘Pequeño Punto Rojo’ más cercano y ayuda a desvelar cómo crecieron los primeros agujeros negros</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-gran-telescopio-canarias-observa-el-little-red-dot-mas-cercano-y-ayuda-desvelar-como-crecieron-los",
+    "source": "IAC",
+    "published": "2026-02-20T00:00:00.000Z",
+    "date": "2026-02-20",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-gran-telescopio-canarias-observa-el-little-red-dot-mas-cercano-y-ayuda-desvelar-como-crecieron-los",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "HiLumi LHC: full-scale tests start",
+    "title_es": "HiLumi LHC: comienzan las pruebas a gran escala",
+    "url": "https://home.cern/news/press-release/accelerators/hilumi-lhc-full-scale-tests-start",
+    "source": "CERN Press",
+    "published": "2026-02-20T00:00:00.000Z",
+    "date": "2026-02-20",
+    "category": "noticia",
+    "tags": [
+      "hilumi",
+      "lhc",
+      "comienzan"
     ]
   },
   {
@@ -6552,7 +6762,7 @@
   },
   {
     "title": "New Songbird Species Discovered in Bolivia",
-    "title_es": "Descubren una nueva especie de pájaro cantor en Bolivia",
+    "title_es": "New Songbird Species Discovered in Bolivia",
     "url": "https://www.sci.news/biology/beni-greenlet-hylophilus-moxensis-14464.html",
     "source": "Sci.News",
     "published": "2026-01-06T01:23:44.000Z",
@@ -6678,7 +6888,7 @@
   },
   {
     "title": "Northern Greenland ice dome melted before and could melt again",
-    "title_es": "La cúpula de hielo del norte de Groenlandia se derritió antes y podría volver a derre",
+    "title_es": "Northern Greenland ice dome melted before and could melt again",
     "url": "https://www.newscientist.com/article/2510205-northern-greenland-ice-dome-melted-before-and-could-melt-again/",
     "source": "New Scientist",
     "published": "2026-01-05T18:30:55.000Z",
@@ -6692,7 +6902,7 @@
   },
   {
     "title": "In Denmark, Sick Cows and a Lot of Questions",
-    "title_es": "En Dinamarca, vacas enfermas y muchas preguntas",
+    "title_es": "In Denmark, Sick Cows and a Lot of Questions",
     "url": "https://undark.org/2026/01/05/denmark-cows-bovaer/",
     "source": "Undark Magazine",
     "published": "2026-01-05T08:57:00.000Z",
@@ -6706,7 +6916,7 @@
   },
   {
     "title": "Augmented Reality Indoor Wayfinding in Hospital Environments An Empirical Study on Navigation Efficiency, User Experience, and Cognitive Load",
-    "title_es": "Localización de caminos en interiores de realidad aumentada en entornos hospitalarios: un estudio empírico sobre la eficiencia de la navegación, la experiencia del usuario y la carga cognitiva",
+    "title_es": "Augmented Reality Indoor Wayfinding in Hospital Environments An Empirical Study on Navigation Efficiency, User Experience, and Cognitive Load",
     "url": "https://arxiv.org/abs/2601.00001",
     "source": "arXiv",
     "published": "2026-01-05T05:00:00.000Z",
@@ -6846,7 +7056,7 @@
   },
   {
     "title": "Researchers Sequence Genome of 200,000-Year-Old Denisovan",
-    "title_es": "Investigadores secuencian el genoma de un denisovano de 200.000 años",
+    "title_es": "Researchers Sequence Genome of 200,000-Year-Old Denisovan",
     "url": "https://www.sci.news/genetics/denisova-25-genome-14459.html",
     "source": "Sci.News",
     "published": "2026-01-02T20:32:20.000Z",
@@ -6860,7 +7070,7 @@
   },
   {
     "title": "Was our earliest ancestor a knuckle-dragger, or did it walk upright?",
-    "title_es": "¿Nuestro antepasado más antiguo era un arrancador de nudillos, o caminaba erguido?",
+    "title_es": "Was our earliest ancestor a knuckle-dragger, or did it walk upright?",
     "url": "https://www.newscientist.com/article/2509929-was-our-earliest-ancestor-a-knuckle-dragger-or-did-it-walk-upright/",
     "source": "New Scientist",
     "published": "2026-01-02T19:00:36.000Z",
@@ -6874,7 +7084,7 @@
   },
   {
     "title": "Excerpt: When the Ethics of Animal Research Hit Home",
-    "title_es": "Extracto: Cuando la ética de la investigación con animales golpea el hogar",
+    "title_es": "Excerpt: When the Ethics of Animal Research Hit Home",
     "url": "https://undark.org/2026/01/02/excerpt-lab-dog/",
     "source": "Undark Magazine",
     "published": "2026-01-02T08:58:00.000Z",
@@ -31714,17 +31924,17 @@
     ]
   },
   {
-    "title": "Characterizing mitochondrial phenotypes and MERCS in aged human skeletal muscle myoblasts",
-    "title_es": "Caracterización de fenotipos mitocondriales y MERCS en mioblastos del músculo esquelético humano envejecido",
+    "title": "Evaluation of hyper-attenuated S19 poliovirus strains for use in poliovirus neutralization assays",
+    "title_es": "Evaluación de cepas de poliovirus S19 hiperatenuadas para su uso en ensayos de neutralización de poliovirus",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "caracterización",
+      "evaluación",
       "de",
-      "fenotipos"
+      "cepas"
     ]
   },
   {
@@ -90222,6 +90432,34 @@
       "pleiades",
       "the",
       "seven"
+    ]
+  },
+  {
+    "title": "Null infinity as an inverted extremal horizon: Matching an infinite set of conserved quantities for gravitational perturbations, by Shreyansh Agrawal, Panagiotis Charalambous, Laura Donnay",
+    "title_es": "Null infinity as an inverted extremal horizon: Matching an infinite set of conserved quantities for gravitational perturbations, by Shreyansh Agrawal, Panagiotis Charalambous, Laura Donnay",
+    "url": "https://scipost.org/scipostphys.20.2.054",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "null",
+      "infinity",
+      "as"
+    ]
+  },
+  {
+    "title": "Planet Parade over Sydney Opera House",
+    "title_es": "Planet Parade over Sydney Opera House",
+    "url": "https://apod.nasa.gov/apod/image/2602/planetparadesydney_agrawal_960_ann.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "planet",
+      "parade",
+      "over"
     ]
   }
 ]
