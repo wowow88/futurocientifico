@@ -1,5 +1,117 @@
 [
   {
+    "title": "Talking to Yourself: Defying Forgetting in Large Language Models",
+    "title_es": "Hablando contigo mismo: Desafiando el olvido en grandes modelos de lenguaje",
+    "url": "https://arxiv.org/abs/2602.20162",
+    "source": "arXiv",
+    "published": "2026-02-25T05:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "talking",
+      "to",
+      "yourself"
+    ]
+  },
+  {
+    "title": "Rapamycin can add years to your life, or none at all – it’s a lottery",
+    "title_es": "La rapamicina puede añadir años a tu vida, o ninguno en absoluto: es una lotería",
+    "url": "https://www.newscientist.com/article/2516893-rapamycin-can-add-years-to-your-life-or-none-at-all-its-a-lottery/",
+    "source": "New Scientist",
+    "published": "2026-02-25T00:01:21.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "rapamycin",
+      "can",
+      "add"
+    ]
+  },
+  {
+    "title": "Early Triassic Fossils from Australia Uncover Diverse Marine Amphibian Community",
+    "title_es": "Fósiles australianos del Triásico Temprano descubren una diversa comunidad de anfibios marinos",
+    "url": "https://www.sci.news/paleontology/early-triassic-trematosaurid-temnospondyls-australia-14580.html",
+    "source": "Sci.News",
+    "published": "2026-02-25T00:00:45.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "early",
+      "triassic",
+      "fossils"
+    ]
+  },
+  {
+    "title": "Pop-up journals for policy research: can temporary titles deliver answers?",
+    "title_es": "Revistas emergentes para la investigación de políticas: ¿pueden los títulos temporales ofrecer respuestas?",
+    "url": "https://www.nature.com/articles/d41586-026-00446-7",
+    "source": "Nature",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "revista",
+    "tags": [
+      "revistas",
+      "emergentes",
+      "para"
+    ]
+  },
+  {
+    "title": "Landslide and Avalanche Debris Litter Hubbard Glacier",
+    "title_es": "Deslizamientos de tierra y avalanchas de escombros del glaciar Hubbard",
+    "url": "https://science.nasa.gov/earth/earth-observatory/landslide-and-avalanche-debris-litter-hubbard-glacier/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "deslizamientos",
+      "de",
+      "tierra"
+    ]
+  },
+  {
+    "title": "Keeping a beat wins caterpillars friends in low places",
+    "title_es": "Mantener el ritmo gana amigos de las orugas en lugares bajos",
+    "url": "https://www.sciencenews.org/article/keeping-beat-caterpillars-ants-parasite",
+    "source": "Science News",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "mantener",
+      "el",
+      "ritmo"
+    ]
+  },
+  {
+    "title": "Bug beats: Caterpillars use complex rhythms to communicate with ants",
+    "title_es": "Ritmos de insectos: las orugas usan ritmos complejos para comunicarse con las hormigas",
+    "url": "https://phys.org/news/2026-02-bug-caterpillars-complex-rhythms-communicate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "ritmos",
+      "de",
+      "insectos"
+    ]
+  },
+  {
+    "title": "For a Rare Disorder, Is Language Complicating Care?",
+    "title_es": "Para un trastorno raro, ¿la atención del lenguaje es complicada?",
+    "url": "https://undark.org/2026/02/24/morgellons-language-complicating-care/",
+    "source": "Undark Magazine",
+    "published": "2026-02-24T08:17:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "for",
+      "a",
+      "rare"
+    ]
+  },
+  {
     "title": "FineRef: Fine-Grained Error Reflection and Correction for Long-Form Generation with Citations",
     "title_es": "FineRef: Reflexión y corrección de errores de grano fino para la generación de formato largo con citas",
     "url": "https://arxiv.org/abs/2602.18437",
@@ -67,6 +179,48 @@
       "imagen",
       "el",
       "rover"
+    ]
+  },
+  {
+    "title": "Test-Time Training with KV Binding Is Secretly Linear Attention",
+    "title_es": "El entrenamiento en el tiempo de prueba con enlace KV es una atención secretamente lineal",
+    "url": "http://arxiv.org/abs/2602.21204v1",
+    "source": "arXiv",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "entrenamiento",
+      "en"
+    ]
+  },
+  {
+    "title": "Let’s learn how to make a sports ball soar",
+    "title_es": "Aprendamos a hacer volar una pelota deportiva.",
+    "url": "https://www.snexplores.org/article/lets-learn-how-sports-ball-soar-physics",
+    "source": "Science News Explores",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "a",
+      "hacer"
+    ]
+  },
+  {
+    "title": "190-million-year-old “Sword Dragon” fossil rewrites ichthyosaur history",
+    "title_es": "El fósil del “Dragón Espada” de 190 millones de años reescribe la historia de los ictiosaurios",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260224023218.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-24T00:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "fósil",
+      "del"
     ]
   },
   {
@@ -220,6 +374,20 @@
       "el",
       "monstruo",
       "marino"
+    ]
+  },
+  {
+    "title": "Monika Emmanuelle Kazi selected for the second edition of the Resonance residency",
+    "title_es": "Monika Emmanuelle Kazi seleccionada para la segunda edición de la residencia Resonance",
+    "url": "https://home.cern/news/news/cern/monika-emmanuelle-kazi-selected-second-edition-resonance-residency",
+    "source": "CERN News",
+    "published": "2026-02-23T00:00:00.000Z",
+    "date": "2026-02-23",
+    "category": "noticia",
+    "tags": [
+      "monika",
+      "emmanuelle",
+      "kazi"
     ]
   },
   {
@@ -6720,7 +6888,7 @@
   },
   {
     "title": "Early humans may have begun butchering elephants 1.8 million years ago",
-    "title_es": "Los primeros humanos pueden haber comenzado a masacrar elefantes hace 1,8 millones de años",
+    "title_es": "Early humans may have begun butchering elephants 1.8 million years ago",
     "url": "https://www.newscientist.com/article/2510274-early-humans-may-have-begun-butchering-elephants-1-8-million-years-ago/",
     "source": "New Scientist",
     "published": "2026-01-06T19:00:57.000Z",
@@ -6734,7 +6902,7 @@
   },
   {
     "title": "Medical Examiners Group Issues Warning on Stillbirth Test",
-    "title_es": "El grupo de médicos forenses emite una advertencia sobre la prueba de muerte fetal",
+    "title_es": "Medical Examiners Group Issues Warning on Stillbirth Test",
     "url": "https://undark.org/2026/01/06/stillbirth-test-warning/",
     "source": "Undark Magazine",
     "published": "2026-01-06T08:26:00.000Z",
@@ -6748,7 +6916,7 @@
   },
   {
     "title": "The Qualitative Laboratory: Theory Prototyping and Hypothesis Generation with Large Language Models",
-    "title_es": "El Laboratorio Cualitativo: Prototipado Teórico y Generación de Hipótesis con Grandes Modelos de Lenguaje",
+    "title_es": "The Qualitative Laboratory: Theory Prototyping and Hypothesis Generation with Large Language Models",
     "url": "https://arxiv.org/abs/2601.00797",
     "source": "arXiv",
     "published": "2026-01-06T05:00:00.000Z",
@@ -31924,17 +32092,17 @@
     ]
   },
   {
-    "title": "Evaluation of hyper-attenuated S19 poliovirus strains for use in poliovirus neutralization assays",
-    "title_es": "Evaluación de cepas de poliovirus S19 hiperatenuadas para su uso en ensayos de neutralización de poliovirus",
+    "title": "Automatic segmentation of coronary plaques in coronary CT angiography using neural networks",
+    "title_es": "Segmentación automática de placas coronarias en angiografía coronaria por TC mediante redes neuronales",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "evaluación",
-      "de",
-      "cepas"
+      "segmentación",
+      "automática",
+      "de"
     ]
   },
   {
@@ -90460,6 +90628,20 @@
       "planet",
       "parade",
       "over"
+    ]
+  },
+  {
+    "title": "Experimental validation of TRIDYN self-sputtering simulations, by Marie Deseyn, Michael Heines, Bart Caerts, Thomas Elias Cocolios, René Heller, Ulrich Kentsch, Goele Magchiels, Wolfhard Möller, Lino da Costa Pereira, André Vantomme, Wiktoria Wojtaczka, Qiang Zhao",
+    "title_es": "Experimental validation of TRIDYN self-sputtering simulations, by Marie Deseyn, Michael Heines, Bart Caerts, Thomas Elias Cocolios, René Heller, Ulrich Kentsch, Goele Magchiels, Wolfhard Möller, Lino da Costa Pereira, André Vantomme, Wiktoria Wojtaczka, Qiang Zhao",
+    "url": "https://scipost.org/scipostphys.20.2.055",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "experimental",
+      "validation",
+      "of"
     ]
   }
 ]
