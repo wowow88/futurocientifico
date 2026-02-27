@@ -1,5 +1,89 @@
 [
   {
+    "title": "Enriching Taxonomies Using Large Language Models",
+    "title_es": "Enriquecer las taxonomías utilizando modelos de lenguaje grandes",
+    "url": "https://arxiv.org/abs/2602.22213",
+    "source": "arXiv",
+    "published": "2026-02-27T05:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "enriching",
+      "taxonomies",
+      "using"
+    ]
+  },
+  {
+    "title": "Arrival of Homo erectus in Southeast Asia Changed Mosquito Menu, New Study Suggests",
+    "title_es": "La llegada del Homo erectus al sudeste asiático cambió el menú de mosquitos, sugiere un nuevo estudio",
+    "url": "https://www.sci.news/biology/homo-erectus-arrival-malaria-mosquitoes-14587.html",
+    "source": "Sci.News",
+    "published": "2026-02-27T01:10:48.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "arrival",
+      "of",
+      "homo"
+    ]
+  },
+  {
+    "title": "Chesapeake Bay Locked in Ice",
+    "title_es": "Bahía de Chesapeake atrapada en el hielo",
+    "url": "https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "bahía",
+      "de",
+      "chesapeake"
+    ]
+  },
+  {
+    "title": "Fossil amber reveals the secret lives of Cretaceous ants",
+    "title_es": "El ámbar fósil revela la vida secreta de las hormigas del Cretácico",
+    "url": "https://phys.org/news/2026-02-fossil-amber-reveals-secret-cretaceous.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "ámbar",
+      "fósil"
+    ]
+  },
+  {
+    "title": "Stem cell patch reverses brain damage in fetuses with spina bifida",
+    "title_es": "El parche de células madre revierte el daño cerebral en fetos con espina bífida",
+    "url": "https://www.newscientist.com/article/2517249-stem-cell-patch-reverses-brain-damage-in-fetuses-with-spina-bifida/",
+    "source": "New Scientist",
+    "published": "2026-02-26T23:30:10.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "stem",
+      "cell",
+      "patch"
+    ]
+  },
+  {
+    "title": "As Brain Organoid Science Grows More Complex, So Do the Questions",
+    "title_es": "A medida que la ciencia de los organoides cerebrales se vuelve más compleja, también lo hacen las preguntas",
+    "url": "https://undark.org/2026/02/26/brain-organoids-big-questions/",
+    "source": "Undark Magazine",
+    "published": "2026-02-26T08:55:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "as",
+      "brain",
+      "organoid"
+    ]
+  },
+  {
     "title": "Disaster Question Answering with LoRA Efficiency and Accurate End Position",
     "title_es": "Respuesta a preguntas sobre desastres con eficiencia de LoRA y posición final precisa",
     "url": "https://arxiv.org/abs/2602.21212",
@@ -67,6 +151,103 @@
       "desde",
       "finales",
       "de"
+    ]
+  },
+  {
+    "title": "Model Agreement via Anchoring",
+    "title_es": "Modelo de Acuerdo vía Anclaje",
+    "url": "http://arxiv.org/abs/2602.23360v1",
+    "source": "arXiv",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "modelo",
+      "de",
+      "acuerdo"
+    ]
+  },
+  {
+    "title": "The challengers",
+    "title_es": "Los retadores",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aee7241",
+    "source": "Science.org",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "retadores"
+    ]
+  },
+  {
+    "title": "Author Correction: Myocardial reprogramming by HMGN1 underlies heart defects in trisomy 21",
+    "title_es": "Corrección del autor: La reprogramación miocárdica por HMGN1 es la base de los defectos cardíacos en la trisomía 21",
+    "url": "https://www.nature.com/articles/s41586-026-10283-3",
+    "source": "Nature",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-de-investigadores-visitantes-fundacion-occident-del-iac-cumple-una-decada-de-excelencia-y\" hreflang=\"es\">El Programa de Investigadores Visitantes Fundación Occident del IAC cumple una década de excelencia y renueva su compromiso hasta 2028</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-programa-de-investigadores-visitantes-fundacion-occident-del-iac-cumple-una-decada-de-excelencia-y\" hreflang=\"es\">El Programa de Investigadores Visitantes Fundación Occident del IAC cumple una década de excelencia y renueva su compromiso hasta 2028</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-programa-de-investigadores-visitantes-fundacion-occident-del-iac-cumple-una-decada-de-excelencia-y",
+    "source": "IAC",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-programa-de-investigadores-visitantes-fundacion-occident-del-iac-cumple-una-decada-de-excelencia-y",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "Here’s how honeyeaters and other birds thrive on sugary diets",
+    "title_es": "Así es como los mieleros y otras aves prosperan con dietas azucaradas",
+    "url": "https://www.sciencenews.org/article/birds-sugar-diets-metabolism",
+    "source": "Science News",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "así",
+      "es",
+      "como"
+    ]
+  },
+  {
+    "title": "Antarctica faces a green and weedy future",
+    "title_es": "La Antártida se enfrenta a un futuro verde y lleno de maleza",
+    "url": "https://www.snexplores.org/article/warming-antarctica-green-weedy-future",
+    "source": "Science News Explores",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "antártida",
+      "se"
+    ]
+  },
+  {
+    "title": "Ireland’s Old Irish Goat has survived 3,000 years",
+    "title_es": "La vieja cabra irlandesa de Irlanda ha sobrevivido 3.000 años",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260226042451.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "vieja",
+      "cabra"
     ]
   },
   {
@@ -263,6 +444,20 @@
       "sólo",
       "dos",
       "días"
+    ]
+  },
+  {
+    "title": "Who’s who in the CERN senior leadership team",
+    "title_es": "Quién es quién en el equipo directivo superior del CERN",
+    "url": "https://home.cern/news/news/cern/whos-who-cern-senior-leadership-team",
+    "source": "CERN News",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "quién",
+      "es",
+      "quién"
     ]
   },
   {
@@ -6720,7 +6915,7 @@
   },
   {
     "title": "Tree bark microbiome has important overlooked role in climate",
-    "title_es": "El microbioma de la corteza de los árboles tiene un papel importante que se pasa por alto en el clima",
+    "title_es": "Tree bark microbiome has important overlooked role in climate",
     "url": "https://www.newscientist.com/article/2510731-tree-bark-microbiome-has-important-overlooked-role-in-climate/",
     "source": "New Scientist",
     "published": "2026-01-08T19:00:18.000Z",
@@ -6734,7 +6929,7 @@
   },
   {
     "title": "Red tattoo ink causes man to lose all his hair and stop sweating",
-    "title_es": "La tinta roja del tatuaje hace que el hombre pierda todo su cabello y deje de sudar",
+    "title_es": "Red tattoo ink causes man to lose all his hair and stop sweating",
     "url": "https://www.newscientist.com/article/2510374-red-tattoo-ink-causes-man-to-lose-all-his-hair-and-stop-sweating/",
     "source": "New Scientist",
     "published": "2026-01-08T13:00:21.000Z",
@@ -6748,7 +6943,7 @@
   },
   {
     "title": "Computer Security: A final marathon for service managers",
-    "title_es": "Seguridad informática: un maratón final para los gerentes de servicio",
+    "title_es": "Computer Security: A final marathon for service managers",
     "url": "https://home.cern/news/news/computing/computer-security-final-marathon-service-managers",
     "source": "CERN News",
     "published": "2026-01-08T11:57:59.000Z",
@@ -6762,7 +6957,7 @@
   },
   {
     "title": "As Guidelines Shift, a Curious Debate Over Seed Oils Persists",
-    "title_es": "A medida que cambian las pautas, persiste un curioso debate sobre los aceites de semillas",
+    "title_es": "As Guidelines Shift, a Curious Debate Over Seed Oils Persists",
     "url": "https://undark.org/2026/01/08/seed-oils-backlash-maha/",
     "source": "Undark Magazine",
     "published": "2026-01-08T08:18:00.000Z",
@@ -6776,7 +6971,7 @@
   },
   {
     "title": "Enhancing Retrieval-Augmented Generation with Two-Stage Retrieval: FlashRank Reranking and Query Expansion",
-    "title_es": "Mejora de la generación aumentada de recuperación con recuperación en dos etapas: jerarquización de FlashRank y expansión de consultas",
+    "title_es": "Enhancing Retrieval-Augmented Generation with Two-Stage Retrieval: FlashRank Reranking and Query Expansion",
     "url": "https://arxiv.org/abs/2601.03258",
     "source": "arXiv",
     "published": "2026-01-08T05:00:00.000Z",
@@ -32274,8 +32469,8 @@
     ]
   },
   {
-    "title": "Correction: Association of myopia and parapapillary choroidal microvascular density in primary open-angle glaucoma",
-    "title_es": "Corrección: Asociación de miopía y densidad microvascular coroidea parapapilar en el glaucoma primario de ángulo abierto",
+    "title": "Correction: Trust in science during the COVID-19 pandemic: A typology of internet users in South Africa",
+    "title_es": "Corrección: Confianza en la ciencia durante la pandemia de COVID-19: una tipología de usuarios de Internet en Sudáfrica",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -32283,8 +32478,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "asociación",
-      "de"
+      "confianza",
+      "en"
     ]
   },
   {
@@ -90852,6 +91047,34 @@
       "webb",
       "and",
       "hubble"
+    ]
+  },
+  {
+    "title": "Ruelle-Pollicott resonances of diffusive U(1)-invariant qubit circuits, by Urban Duh, Marko Žnidarič",
+    "title_es": "Ruelle-Pollicott resonances of diffusive U(1)-invariant qubit circuits, by Urban Duh, Marko Žnidarič",
+    "url": "https://scipost.org/scipostphys.20.2.061",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ruelle-pollicott",
+      "resonances",
+      "of"
+    ]
+  },
+  {
+    "title": "Sharpless 249 and the Jellyfish Nebula",
+    "title_es": "Sharpless 249 and the Jellyfish Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2602/jellyfishbeecroft_final1_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "sharpless",
+      "249",
+      "and"
     ]
   }
 ]
