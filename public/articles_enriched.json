@@ -1,5 +1,61 @@
 [
   {
+    "title": "Webb’s Infrared Vision Reveals Planetary Nebula that Looks Strikingly Like Celestial Brain",
+    "title_es": "La visión infrarroja de Webb revela una nebulosa planetaria que se parece sorprendentemente al cerebro celestial",
+    "url": "https://www.sci.news/astronomy/webb-pmr-1-planetary-nebula-14589.html",
+    "source": "Sci.News",
+    "published": "2026-02-28T01:40:04.000Z",
+    "date": "2026-02-28",
+    "category": "noticia",
+    "tags": [
+      "webbs",
+      "infrared",
+      "vision"
+    ]
+  },
+  {
+    "title": "Growing more complex by the day: How should journalists govern use of AI in their products?",
+    "title_es": "Cada día es más complejo: ¿Cómo deberían los periodistas gobernar el uso de la IA en sus productos?",
+    "url": "https://phys.org/news/2026-02-complex-day-journalists-ai-products.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-02-28T00:00:00.000Z",
+    "date": "2026-02-28",
+    "category": "noticia",
+    "tags": [
+      "cada",
+      "día",
+      "es"
+    ]
+  },
+  {
+    "title": "NASA’s Artemis moon exploration programme is getting a major makeover",
+    "title_es": "El programa de exploración lunar Artemisa de la NASA está recibiendo un importante cambio de imagen",
+    "url": "https://www.newscientist.com/article/2517451-nasas-artemis-moon-exploration-programme-is-getting-a-major-makeover/",
+    "source": "New Scientist",
+    "published": "2026-02-27T16:24:28.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "artemis",
+      "moon"
+    ]
+  },
+  {
+    "title": "What the ‘Birthday Paradox’ Can Teach Us About Black History",
+    "title_es": "Lo que la ‘paradoja del cumpleaños’ puede enseñarnos sobre la historia negra",
+    "url": "https://undark.org/2026/02/27/opinion-birthday-paradox-black-history/",
+    "source": "Undark Magazine",
+    "published": "2026-02-27T08:42:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "the",
+      "birthday"
+    ]
+  },
+  {
     "title": "Enriching Taxonomies Using Large Language Models",
     "title_es": "Enriquecer las taxonomías utilizando modelos de lenguaje grandes",
     "url": "https://arxiv.org/abs/2602.22213",
@@ -53,6 +109,104 @@
       "el",
       "ámbar",
       "fósil"
+    ]
+  },
+  {
+    "title": "Editorial Expression of&#xa0;Concern: The gene product Murr1 restricts HIV-1 replication in resting CD4+ lymphocytes",
+    "title_es": "Expresión editorial de preocupación: el producto genético Murr1 restringe la replicación del VIH-1 en los linfocitos CD4+ en reposo",
+    "url": "https://www.nature.com/articles/s41586-026-10308-x",
+    "source": "Nature",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "expresión",
+      "editorial",
+      "de"
+    ]
+  },
+  {
+    "title": "Comunicado del Patronato del CNIO",
+    "title_es": "Comunicado del Patronato del CNIO",
+    "url": "https://www.cnio.es/noticias/comunicado-del-patronato-del-cnio-2/",
+    "source": "CNIO",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "comunicado",
+      "del",
+      "patronato"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/sonando-estrellas-aborda-astroaccesible-un-proyecto-para-acercar-la-ciencia-las-personas-con\" hreflang=\"es\">Soñando Estrellas aborda “Astroaccesible”, un proyecto para acercar la ciencia a las personas con discapacidad visual</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/sonando-estrellas-aborda-astroaccesible-un-proyecto-para-acercar-la-ciencia-las-personas-con\" hreflang=\"es\">Soñando Estrellas aborda “Astroaccesible”, un proyecto para acercar la ciencia a las personas con discapacidad visual</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/sonando-estrellas-aborda-astroaccesible-un-proyecto-para-acercar-la-ciencia-las-personas-con",
+    "source": "IAC",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiassonando-estrellas-aborda-astroaccesible-un-proyecto-para-acercar-la-ciencia-las-personas-con",
+      "hreflangessoñando"
+    ]
+  },
+  {
+    "title": "Harnessing the Sun to Extract Oxygen on the Moon",
+    "title_es": "Aprovechar el sol para extraer oxígeno en la luna",
+    "url": "https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/",
+    "source": "NASA (Top News)",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "aprovechar",
+      "el",
+      "sol"
+    ]
+  },
+  {
+    "title": "NASA scraps its 2027 moon landing, adds two missions in 2028",
+    "title_es": "La NASA cancela su alunizaje de 2027 y agrega dos misiones en 2028",
+    "url": "https://www.sciencenews.org/article/nasa-moon-landing-artemis-ii",
+    "source": "Science News",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "nasa",
+      "cancela"
+    ]
+  },
+  {
+    "title": "As toddlers, chimps are major risk takers",
+    "title_es": "Cuando son niños pequeños, los chimpancés corren grandes riesgos",
+    "url": "https://www.snexplores.org/article/toddler-chimps-risk-taking-behavior",
+    "source": "Science News Explores",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "cuando",
+      "son",
+      "niños"
+    ]
+  },
+  {
+    "title": "A lost moon may have created Titan and Saturn’s rings",
+    "title_es": "Una luna perdida pudo haber creado los anillos de Titán y Saturno",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260227071945.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "luna",
+      "perdida"
     ]
   },
   {
@@ -458,6 +612,20 @@
       "quién",
       "es",
       "quién"
+    ]
+  },
+  {
+    "title": "HiLumi LHC: cryogenics equipment arrives underground",
+    "title_es": "HiLumi LHC: el equipo criogénico llega bajo tierra",
+    "url": "https://home.cern/news/news/accelerators/hilumi-lhc-cryogenics-equipment-arrives-underground",
+    "source": "CERN News",
+    "published": "2026-02-25T00:00:00.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "hilumi",
+      "lhc",
+      "el"
     ]
   },
   {
@@ -6761,7 +6929,7 @@
   },
   {
     "title": "Record-Setting Asteroid Found in Pre-Survey Data from Vera Rubin Observatory",
-    "title_es": "Asteroide récord encontrado en datos previos a la encuesta del Observatorio Vera Rubin",
+    "title_es": "Record-Setting Asteroid Found in Pre-Survey Data from Vera Rubin Observatory",
     "url": "https://www.sci.news/astronomy/record-setting-asteroid-vera-rubin-observatory-14472.html",
     "source": "Sci.News",
     "published": "2026-01-09T16:49:45.000Z",
@@ -6775,7 +6943,7 @@
   },
   {
     "title": "MedPI: Evaluating AI Systems in Medical Patient-facing Interactions",
-    "title_es": "MedPI: Evaluación de sistemas de IA en interacciones médicas orientadas al paciente",
+    "title_es": "MedPI: Evaluating AI Systems in Medical Patient-facing Interactions",
     "url": "https://arxiv.org/abs/2601.04195",
     "source": "arXiv",
     "published": "2026-01-09T05:00:00.000Z",
@@ -6789,7 +6957,7 @@
   },
   {
     "title": "ALMA Detects Superheated Intracluster Gas in Distant Galaxy Protocluster",
-    "title_es": "ALMA Detecta Gas Intracluster Sobrecalentado en Protocúmulo de Galaxias Distantes",
+    "title_es": "ALMA Detects Superheated Intracluster Gas in Distant Galaxy Protocluster",
     "url": "https://www.sci.news/astronomy/alma-superheated-intracluster-gas-distant-galaxy-protocluster-14471.html",
     "source": "Sci.News",
     "published": "2026-01-09T00:15:37.000Z",
@@ -32469,17 +32637,17 @@
     ]
   },
   {
-    "title": "Correction: Trust in science during the COVID-19 pandemic: A typology of internet users in South Africa",
-    "title_es": "Corrección: Confianza en la ciencia durante la pandemia de COVID-19: una tipología de usuarios de Internet en Sudáfrica",
+    "title": "Disposable non-enzymatic impedimetric biosensor using Mn-doped ZnS-chitosan nanocomposite for tetracycline detection",
+    "title_es": "Biosensor impedimétrico no enzimático desechable que utiliza nanocompuesto de ZnS-quitosano dopado con Mn para la detección de tetraciclina",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "confianza",
-      "en"
+      "biosensor",
+      "impedimétrico",
+      "no"
     ]
   },
   {
@@ -91075,6 +91243,34 @@
       "sharpless",
       "249",
       "and"
+    ]
+  },
+  {
+    "title": "Model non-Hermitian topological operators without skin effect: A general principle of construction, by Daniel J. Salib, Sanjib Kumar Das, Bitan Roy",
+    "title_es": "Model non-Hermitian topological operators without skin effect: A general principle of construction, by Daniel J. Salib, Sanjib Kumar Das, Bitan Roy",
+    "url": "https://scipost.org/scipostphyscore.9.1.013",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "model",
+      "non-hermitian",
+      "topological"
+    ]
+  },
+  {
+    "title": "Lunar Occultation of Mercury",
+    "title_es": "Lunar Occultation of Mercury",
+    "url": "https://apod.nasa.gov/apod/image/2602/lunaroccultmercury_2026feb18-melandri_1065.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "lunar",
+      "occultation",
+      "of"
     ]
   }
 ]
