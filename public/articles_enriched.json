@@ -1,5 +1,33 @@
 [
   {
+    "title": "Bronze Age mines in Spain may explain origin of Scandinavian bronze",
+    "title_es": "Las minas de la Edad del Bronce en España pueden explicar el origen del bronce escandinavo",
+    "url": "https://phys.org/news/2026-02-bronze-age-spain-scandinavian.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-01T00:00:00.000Z",
+    "date": "2026-03-01",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "minas",
+      "de"
+    ]
+  },
+  {
+    "title": "Juice Spies Interstellar Comet 3I/ATLAS",
+    "title_es": "Comet interestelar 3I/ATLAS de Juice Spies",
+    "url": "https://www.sci.news/astronomy/juice-interstellar-comet-3i-atlas-14590.html",
+    "source": "Sci.News",
+    "published": "2026-02-28T15:03:23.000Z",
+    "date": "2026-02-28",
+    "category": "noticia",
+    "tags": [
+      "juice",
+      "spies",
+      "interstellar"
+    ]
+  },
+  {
     "title": "Webb’s Infrared Vision Reveals Planetary Nebula that Looks Strikingly Like Celestial Brain",
     "title_es": "La visión infrarroja de Webb revela una nebulosa planetaria que se parece sorprendentemente al cerebro celestial",
     "url": "https://www.sci.news/astronomy/webb-pmr-1-planetary-nebula-14589.html",
@@ -25,6 +53,20 @@
       "cada",
       "día",
       "es"
+    ]
+  },
+  {
+    "title": "Scientists discover a bacterial kill switch and it could change the fight against superbugs",
+    "title_es": "Los científicos descubren un interruptor bacteriano que podría cambiar la lucha contra las superbacterias",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260228082723.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-02-28T00:00:00.000Z",
+    "date": "2026-02-28",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubren"
     ]
   },
   {
@@ -626,6 +668,20 @@
       "hilumi",
       "lhc",
       "el"
+    ]
+  },
+  {
+    "title": "How Ukraine became a drone factory and invented the future of war",
+    "title_es": "Cómo Ucrania se convirtió en una fábrica de drones e inventó el futuro de la guerra",
+    "url": "https://www.newscientist.com/article/2514976-how-ukraine-became-a-drone-factory-and-invented-the-future-of-war/",
+    "source": "New Scientist",
+    "published": "2026-02-24T16:00:00.000Z",
+    "date": "2026-02-24",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "ukraine",
+      "became"
     ]
   },
   {
@@ -6901,7 +6957,7 @@
   },
   {
     "title": "Sinking trees in Arctic Ocean could remove 1 billion tonnes of CO2",
-    "title_es": "Los árboles que se hunden en el Océano Ártico podrían eliminar mil millones de toneladas de CO2",
+    "title_es": "Sinking trees in Arctic Ocean could remove 1 billion tonnes of CO2",
     "url": "https://www.newscientist.com/article/2510920-sinking-trees-in-arctic-ocean-could-remove-1-billion-tonnes-of-co2/",
     "source": "New Scientist",
     "published": "2026-01-09T20:00:52.000Z",
@@ -6915,7 +6971,7 @@
   },
   {
     "title": "Why It Still Makes Sense to Limit Saturated Fats",
-    "title_es": "Por qué todavía tiene sentido limitar las grasas saturadas",
+    "title_es": "Why It Still Makes Sense to Limit Saturated Fats",
     "url": "https://undark.org/2026/01/09/dietary-guidelines-saturated-fats/",
     "source": "Undark Magazine",
     "published": "2026-01-09T20:00:19.000Z",
@@ -91271,6 +91327,20 @@
       "lunar",
       "occultation",
       "of"
+    ]
+  },
+  {
+    "title": "The Moon During a Total Lunar Eclipse",
+    "title_es": "The Moon During a Total Lunar Eclipse",
+    "url": "https://apod.nasa.gov/apod/image/2603/totallunareclipse2018.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "moon",
+      "during"
     ]
   }
 ]
