@@ -1,5 +1,47 @@
 [
   {
+    "title": "Serendipity with Generative AI: Repurposing knowledge components during polycrisis with a Viable Systems Model approach",
+    "title_es": "Serendipia con IA generativa: reutilización de los componentes del conocimiento durante la policrisis con un enfoque de modelo de sistemas viables",
+    "url": "https://arxiv.org/abs/2602.23365",
+    "source": "arXiv",
+    "published": "2026-03-02T05:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "serendipity",
+      "with",
+      "generative"
+    ]
+  },
+  {
+    "title": "The squeal of peeling tape, explained",
+    "title_es": "El chirrido de la cinta despegándose, explicado",
+    "url": "https://www.nature.com/articles/d41586-026-00516-w",
+    "source": "Nature",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "chirrido",
+      "de"
+    ]
+  },
+  {
+    "title": "A 'Cosmic Positioning System' in the outer solar system",
+    "title_es": "Un 'sistema de posicionamiento cósmico' en el sistema solar exterior",
+    "url": "https://phys.org/news/2026-02-cosmic-positioning-outer-solar.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "sistema",
+      "de"
+    ]
+  },
+  {
     "title": "Bronze Age mines in Spain may explain origin of Scandinavian bronze",
     "title_es": "Las minas de la Edad del Bronce en España pueden explicar el origen del bronce escandinavo",
     "url": "https://phys.org/news/2026-02-bronze-age-spain-scandinavian.html",
@@ -11,6 +53,20 @@
       "las",
       "minas",
       "de"
+    ]
+  },
+  {
+    "title": "Massive asteroid impact 6.3 million years ago left giant glass field in Brazil",
+    "title_es": "El impacto masivo de un asteroide hace 6,3 millones de años dejó un campo de vidrio gigante en Brasil",
+    "url": "https://www.sciencedaily.com/releases/2026/02/260228093512.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-01T00:00:00.000Z",
+    "date": "2026-03-01",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "impacto",
+      "masivo"
     ]
   },
   {
@@ -252,6 +308,20 @@
     ]
   },
   {
+    "title": "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science",
+    "title_es": "DARE-bench: Evaluación de la fidelidad del modelado y la instrucción de los LLM en ciencia de datos",
+    "url": "http://arxiv.org/abs/2602.24288v1",
+    "source": "arXiv",
+    "published": "2026-02-27T00:00:00.000Z",
+    "date": "2026-02-27",
+    "category": "noticia",
+    "tags": [
+      "dare-bench",
+      "evaluación",
+      "de"
+    ]
+  },
+  {
     "title": "Stem cell patch reverses brain damage in fetuses with spina bifida",
     "title_es": "El parche de células madre revierte el daño cerebral en fetos con espina bífida",
     "url": "https://www.newscientist.com/article/2517249-stem-cell-patch-reverses-brain-damage-in-fetuses-with-spina-bifida/",
@@ -472,6 +542,20 @@
       "spacexs",
       "1",
       "million"
+    ]
+  },
+  {
+    "title": "The world’s most elusive colour is worth billions – if we can find it",
+    "title_es": "El color más elusivo del mundo vale miles de millones, si podemos encontrarlo",
+    "url": "https://www.newscientist.com/article/2514410-the-worlds-most-elusive-colour-is-worth-billions-if-we-can-find-it/",
+    "source": "New Scientist",
+    "published": "2026-02-25T16:00:05.000Z",
+    "date": "2026-02-25",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "worlds",
+      "most"
     ]
   },
   {
@@ -91341,6 +91425,20 @@
       "the",
       "moon",
       "during"
+    ]
+  },
+  {
+    "title": "The Dusty Surroundings of Orion and the Pleiades",
+    "title_es": "The Dusty Surroundings of Orion and the Pleiades",
+    "url": "https://apod.nasa.gov/apod/image/2603/dustyorionpleiades_fernandez_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "dusty",
+      "surroundings"
     ]
   }
 ]
