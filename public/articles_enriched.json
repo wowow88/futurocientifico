@@ -1,5 +1,89 @@
 [
   {
+    "title": "A Stochastic Conservative Field Transfer Method for Black-box Multiscale and Multiphysics Coupling",
+    "title_es": "Un método estocástico de transferencia de campo conservador para el acoplamiento multifísico y multiescala de caja negra",
+    "url": "https://arxiv.org/abs/2603.00538",
+    "source": "arXiv",
+    "published": "2026-03-03T05:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "stochastic",
+      "conservative"
+    ]
+  },
+  {
+    "title": "Smoke Rises Over Big Cypress National Preserve",
+    "title_es": "El humo se eleva sobre la Reserva Nacional Big Cypress",
+    "url": "https://science.nasa.gov/earth/earth-observatory/smoke-rises-over-big-cypress-national-preserve/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-03T00:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "humo",
+      "se"
+    ]
+  },
+  {
+    "title": "Tiny Purgatorius fossils in Denver Basin hint at early primate spread southward",
+    "title_es": "Pequeños fósiles de Purgatorius en la cuenca de Denver insinúan una temprana expansión de los primates hacia el sur",
+    "url": "https://phys.org/news/2026-02-tiny-purgatorius-fossils-denver-basin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-03T00:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "pequeños",
+      "fósiles",
+      "de"
+    ]
+  },
+  {
+    "title": "Rare Fossil of Baby Dome-Headed Dinosaur Unearthed in Canada",
+    "title_es": "Raro fósil de dinosaurio con cabeza de cúpula de bebé desenterrado en Canadá",
+    "url": "https://www.sci.news/paleontology/baby-dome-headed-dinosaur-fossil-canada-14595.html",
+    "source": "Sci.News",
+    "published": "2026-03-02T23:48:13.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "rare",
+      "fossil",
+      "of"
+    ]
+  },
+  {
+    "title": "A bizarre type of black hole could solve three cosmic mysteries in one",
+    "title_es": "Un extraño tipo de agujero negro podría resolver tres misterios cósmicos en uno",
+    "url": "https://www.newscientist.com/article/2515689-a-bizarre-type-of-black-hole-could-solve-three-cosmic-mysteries-in-one/",
+    "source": "New Scientist",
+    "published": "2026-03-02T16:00:27.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "bizarre",
+      "type"
+    ]
+  },
+  {
+    "title": "Interview: The Enduring Appeal of Alternative Medicine",
+    "title_es": "Entrevista: El atractivo perdurable de la medicina alternativa",
+    "url": "https://undark.org/2026/03/02/interview-lewis-grossman/",
+    "source": "Undark Magazine",
+    "published": "2026-03-02T08:02:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "interview",
+      "the",
+      "enduring"
+    ]
+  },
+  {
     "title": "Serendipity with Generative AI: Repurposing knowledge components during polycrisis with a Viable Systems Model approach",
     "title_es": "Serendipia con IA generativa: reutilización de los componentes del conocimiento durante la policrisis con un enfoque de modelo de sistemas viables",
     "url": "https://arxiv.org/abs/2602.23365",
@@ -39,6 +123,90 @@
       "un",
       "sistema",
       "de"
+    ]
+  },
+  {
+    "title": "Tool Verification for Test-Time Reinforcement Learning",
+    "title_es": "Verificación de herramientas para el aprendizaje por refuerzo en el momento de la prueba",
+    "url": "http://arxiv.org/abs/2603.02203v1",
+    "source": "arXiv",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "verificación",
+      "de",
+      "herramientas"
+    ]
+  },
+  {
+    "title": "Author Correction: Root microbiota drive direct integration of phosphate stress and immunity",
+    "title_es": "Corrección del autor: La microbiota de la raíz impulsa la integración directa del estrés por fosfato y la inmunidad",
+    "url": "https://www.nature.com/articles/s41586-026-10320-1",
+    "source": "Nature",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/tres-redes-de-doctorado-europeas-se-unen-en-gante-para-la-third-educado-training-school-astro-ai-and\" hreflang=\"es\">Tres redes de doctorado europeas se unen en Gante para la \"Third EDUCADO Training School on Astro–AI and Machine Learning\"</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/tres-redes-de-doctorado-europeas-se-unen-en-gante-para-la-third-educado-training-school-astro-ai-and\" hreflang=\"es\">Tres redes de doctorado europeas se unen en Gante para la “Third EDUCADO Training School on Astro–AI and Machine Learning”</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/tres-redes-de-doctorado-europeas-se-unen-en-gante-para-la-third-educado-training-school-astro-ai-and",
+    "source": "IAC",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiastres-redes-de-doctorado-europeas-se-unen-en-gante-para-la-third-educado-training-school-astro-ai-and",
+      "hreflangestres"
+    ]
+  },
+  {
+    "title": "Simulations of your gut may predict which probiotics will stick",
+    "title_es": "Las simulaciones de su intestino pueden predecir qué probióticos se mantendrán",
+    "url": "https://www.sciencenews.org/article/probiotics-gut-simulations-microbiome",
+    "source": "Science News",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "simulaciones",
+      "de"
+    ]
+  },
+  {
+    "title": "Scientists Say: Symptom",
+    "title_es": "Los científicos dicen: síntoma",
+    "url": "https://www.snexplores.org/article/scientists-say-symptom-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "dicen"
+    ]
+  },
+  {
+    "title": "Scientists reveal why a popular anti-aging compound may also fuel cancer",
+    "title_es": "Los científicos revelan por qué un popular compuesto antienvejecimiento también puede provocar cáncer",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-02T00:00:00.000Z",
+    "date": "2026-03-02",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "revelan"
     ]
   },
   {
@@ -514,6 +682,20 @@
       "la",
       "vieja",
       "cabra"
+    ]
+  },
+  {
+    "title": "Basic Research in Cardiology: A CNIC study shows that the heart can be protected during chemotherapy without reducing antitumor efficacy",
+    "title_es": "Investigación básica en cardiología: Un estudio del CNIC muestra que el corazón puede protegerse durante la quimioterapia sin reducir la eficacia antitumoral",
+    "url": "https://www.cnic.es/es/node/240492",
+    "source": "CNIC",
+    "published": "2026-02-26T00:00:00.000Z",
+    "date": "2026-02-26",
+    "category": "noticia",
+    "tags": [
+      "basic",
+      "research",
+      "in"
     ]
   },
   {
@@ -6593,7 +6775,7 @@
   },
   {
     "title": "What Would a Trump Takeover Mean for Greenland’s Resources?",
-    "title_es": "¿Qué significaría una adquisición de Trump para los recursos de Groenlandia?",
+    "title_es": "What Would a Trump Takeover Mean for Greenland’s Resources?",
     "url": "https://undark.org/2026/01/13/trump-greenland-environment/",
     "source": "Undark Magazine",
     "published": "2026-01-13T08:42:00.000Z",
@@ -6607,7 +6789,7 @@
   },
   {
     "title": "Data-Driven Framework Development for Public Space Quality Assessment",
-    "title_es": "Desarrollo de un marco basado en datos para la evaluación de la calidad del espacio público",
+    "title_es": "Data-Driven Framework Development for Public Space Quality Assessment",
     "url": "https://arxiv.org/abs/2601.06026",
     "source": "arXiv",
     "published": "2026-01-13T05:00:00.000Z",
@@ -6621,7 +6803,7 @@
   },
   {
     "title": "Thick-Skulled Troodontid Dinosaur Unearthed in Mexico",
-    "title_es": "Dinosaurio troodóntido de cráneo grueso desenterrado en México",
+    "title_es": "Thick-Skulled Troodontid Dinosaur Unearthed in Mexico",
     "url": "https://www.sci.news/paleontology/xenovenator-espinosai-14477.html",
     "source": "Sci.News",
     "published": "2026-01-13T00:21:23.000Z",
@@ -6747,7 +6929,7 @@
   },
   {
     "title": "Pompeii’s public baths were unhygienic until the Romans took over",
-    "title_es": "Los baños públicos de Pompeya eran antihigiénicos hasta que los romanos se hicieron cargo",
+    "title_es": "Pompeii’s public baths were unhygienic until the Romans took over",
     "url": "https://www.newscientist.com/article/2511036-pompeiis-public-baths-were-unhygienic-until-the-romans-took-over/",
     "source": "New Scientist",
     "published": "2026-01-12T20:00:26.000Z",
@@ -6761,7 +6943,7 @@
   },
   {
     "title": "SP-Rank: A Dataset for Ranked Preferences with Secondary Information",
-    "title_es": "SP-Rank: un conjunto de datos para preferencias clasificadas con información secundaria",
+    "title_es": "SP-Rank: A Dataset for Ranked Preferences with Secondary Information",
     "url": "https://arxiv.org/abs/2601.05253",
     "source": "arXiv",
     "published": "2026-01-12T05:00:00.000Z",
@@ -32777,17 +32959,17 @@
     ]
   },
   {
-    "title": "Disposable non-enzymatic impedimetric biosensor using Mn-doped ZnS-chitosan nanocomposite for tetracycline detection",
-    "title_es": "Biosensor impedimétrico no enzimático desechable que utiliza nanocompuesto de ZnS-quitosano dopado con Mn para la detección de tetraciclina",
+    "title": "Constitutive activation of TGF-β receptor type I promotes cortical and cancellous bone formation in adult mice",
+    "title_es": "La activación constitutiva del receptor TGF-β tipo I promueve la formación de hueso cortical y esponjoso en ratones adultos",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "biosensor",
-      "impedimétrico",
-      "no"
+      "la",
+      "activación",
+      "constitutiva"
     ]
   },
   {
@@ -91439,6 +91621,34 @@
       "the",
       "dusty",
       "surroundings"
+    ]
+  },
+  {
+    "title": "Chirality, magic, and quantum correlations in multipartite quantum states, by Shreya Vardhan, Bowen Shi, Isaac H. Kim, Yijian Zou",
+    "title_es": "Chirality, magic, and quantum correlations in multipartite quantum states, by Shreya Vardhan, Bowen Shi, Isaac H. Kim, Yijian Zou",
+    "url": "https://scipost.org/scipostphys.20.3.066",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "chirality",
+      "magic",
+      "and"
+    ]
+  },
+  {
+    "title": "Flying over the North Pole of Mars",
+    "title_es": "Flying over the North Pole of Mars",
+    "url": "https://apod.nasa.gov/apod/image/2603/flyingnorth_marsexpress.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "flying",
+      "over",
+      "the"
     ]
   }
 ]
