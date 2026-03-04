@@ -1,5 +1,130 @@
 [
   {
+    "title": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
+    "title_es": "GLEAN: anclajes de evaluación ligeros conectados a tierra para un razonamiento tabular consciente de la contaminación",
+    "url": "https://arxiv.org/abs/2603.02212",
+    "source": "arXiv",
+    "published": "2026-03-04T05:00:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "glean",
+      "grounded",
+      "lightweight"
+    ]
+  },
+  {
+    "title": "Southernmost Fossils of Earliest Primate Relative Unearthed in Colorado",
+    "title_es": "Hallados en Colorado los fósiles más meridionales del pariente primate más antiguo",
+    "url": "https://www.sci.news/paleontology/southernmost-purgatorius-fossils-14598.html",
+    "source": "Sci.News",
+    "published": "2026-03-04T00:15:03.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "southernmost",
+      "fossils",
+      "of"
+    ]
+  },
+  {
+    "title": "Searching for Selenite",
+    "title_es": "Buscando selenita",
+    "url": "https://science.nasa.gov/earth/earth-observatory/searching-for-selenite/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-04T00:00:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "buscando",
+      "selenita"
+    ]
+  },
+  {
+    "title": "Cockroaches that eat each other’s wings turn into a fierce fighting force",
+    "title_es": "Las cucarachas que se comen las alas se convierten en una feroz fuerza de combate",
+    "url": "https://www.sciencenews.org/article/cockroach-eat-wings-bond-fight-together",
+    "source": "Science News",
+    "published": "2026-03-04T00:00:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "cucarachas",
+      "que"
+    ]
+  },
+  {
+    "title": "Neutrinos could explain why matter survived the Big Bang",
+    "title_es": "Los neutrinos podrían explicar por qué la materia sobrevivió al Big Bang",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-04T00:00:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "neutrinos",
+      "podrían"
+    ]
+  },
+  {
+    "title": "Chimps' love for crystals could help us understand our own ancestors' fascination with these stones",
+    "title_es": "El amor de los chimpancés por los cristales podría ayudarnos a comprender la fascinación de nuestros antepasados ​​por estas piedras",
+    "url": "https://phys.org/news/2026-02-chimps-crystals-ancestors-fascination-stones.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-04T00:00:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "amor",
+      "de"
+    ]
+  },
+  {
+    "title": "What snow monkeys’ steamy baths are really doing to their bodies",
+    "title_es": "Lo que los baños de vapor de los monos de la nieve realmente le están haciendo a sus cuerpos",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260303153357.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-03T22:55:46.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "snow",
+      "monkeys"
+    ]
+  },
+  {
+    "title": "Phantom codes could help quantum computers avoid errors",
+    "title_es": "Los códigos fantasma podrían ayudar a los ordenadores cuánticos a evitar errores",
+    "url": "https://www.newscientist.com/article/2517490-phantom-codes-could-help-quantum-computers-avoid-errors/",
+    "source": "New Scientist",
+    "published": "2026-03-03T18:00:24.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "phantom",
+      "codes",
+      "could"
+    ]
+  },
+  {
+    "title": "Few U.S. Doctors Have Seen Measles in Person. That’s a Problem.",
+    "title_es": "Pocos médicos estadounidenses han visto el sarampión en persona. Eso es un problema.",
+    "url": "https://undark.org/2026/03/03/measles-outbreak-diagnosis-challenge/",
+    "source": "Undark Magazine",
+    "published": "2026-03-03T08:09:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "few",
+      "us",
+      "doctors"
+    ]
+  },
+  {
     "title": "A Stochastic Conservative Field Transfer Method for Black-box Multiscale and Multiphysics Coupling",
     "title_es": "Un método estocástico de transferencia de campo conservador para el acoplamiento multifísico y multiescala de caja negra",
     "url": "https://arxiv.org/abs/2603.00538",
@@ -39,6 +164,48 @@
       "pequeños",
       "fósiles",
       "de"
+    ]
+  },
+  {
+    "title": "How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference",
+    "title_es": "Cómo pelar con un cuchillo: alinear la manipulación detallada con las preferencias humanas",
+    "url": "http://arxiv.org/abs/2603.03280v1",
+    "source": "arXiv",
+    "published": "2026-03-03T00:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "pelar",
+      "con"
+    ]
+  },
+  {
+    "title": "Author Correction: Healthy forests safeguard traditional wild meat food systems in Amazonia",
+    "title_es": "Corrección del autor: Los bosques sanos salvaguardan los sistemas alimentarios tradicionales de carne silvestre en la Amazonia",
+    "url": "https://www.nature.com/articles/s41586-026-10332-x",
+    "source": "Nature",
+    "published": "2026-03-03T00:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Mummies suggest a way to help reintroduce cheetahs to Arabia",
+    "title_es": "Momias sugieren una forma de ayudar a reintroducir guepardos en Arabia",
+    "url": "https://www.snexplores.org/article/cheetah-mummies-arabia",
+    "source": "Science News Explores",
+    "published": "2026-03-03T00:00:00.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "momias",
+      "sugieren",
+      "una"
     ]
   },
   {
@@ -6607,7 +6774,7 @@
   },
   {
     "title": "Book Review: Confronting the Bane of Plastic Pollution",
-    "title_es": "Reseña del libro: Enfrentando la pesadilla de la contaminación plástica",
+    "title_es": "Book Review: Confronting the Bane of Plastic Pollution",
     "url": "https://undark.org/2026/01/14/book-review-problem-with-plastic/",
     "source": "Undark Magazine",
     "published": "2026-01-14T08:55:00.000Z",
@@ -6621,7 +6788,7 @@
   },
   {
     "title": "A survey: Information search time optimization based on RAG (Retrieval Augmentation Generation) chatbot",
-    "title_es": "Una encuesta: Optimización del tiempo de búsqueda de información basada en el chatbot RAG (Retrieval Augmentation Generation)",
+    "title_es": "A survey: Information search time optimization based on RAG (Retrieval Augmentation Generation) chatbot",
     "url": "https://arxiv.org/abs/2601.07838",
     "source": "arXiv",
     "published": "2026-01-14T05:00:00.000Z",
@@ -6747,7 +6914,7 @@
   },
   {
     "title": "These small lifestyle tweaks can add a year to your life",
-    "title_es": "Estos pequeños ajustes de estilo de vida pueden añadir un año a tu vida",
+    "title_es": "These small lifestyle tweaks can add a year to your life",
     "url": "https://www.newscientist.com/article/2511292-these-small-lifestyle-tweaks-can-add-a-year-to-your-life/",
     "source": "New Scientist",
     "published": "2026-01-13T23:30:15.000Z",
@@ -6761,7 +6928,7 @@
   },
   {
     "title": "Enigmatic Hominins May Have Overlapped with Homo sapiens on Sulawesi",
-    "title_es": "Los enigmáticos homínidos pueden haberse superpuesto con el Homo sapiens en Célebes",
+    "title_es": "Enigmatic Hominins May Have Overlapped with Homo sapiens on Sulawesi",
     "url": "https://www.sci.news/archaeology/sulawesi-hominins-14482.html",
     "source": "Sci.News",
     "published": "2026-01-13T23:12:21.000Z",
@@ -32959,17 +33126,17 @@
     ]
   },
   {
-    "title": "Constitutive activation of TGF-β receptor type I promotes cortical and cancellous bone formation in adult mice",
-    "title_es": "La activación constitutiva del receptor TGF-β tipo I promueve la formación de hueso cortical y esponjoso en ratones adultos",
+    "title": "Correction: Children’s outdoor play at early learning and child care centres: Examining the impact of environmental play features on children’s play behaviour",
+    "title_es": "Corrección: Juego infantil al aire libre en centros de aprendizaje temprano y guarderías: examen del impacto de las características del juego ambiental en el comportamiento de juego de los niños",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "la",
-      "activación",
-      "constitutiva"
+      "corrección",
+      "juego",
+      "infantil"
     ]
   },
   {
@@ -91649,6 +91816,34 @@
       "flying",
       "over",
       "the"
+    ]
+  },
+  {
+    "title": "QDFlow: A Python package for physics simulations of quantum dot devices, by Donovan L. Buterakos, Sandesh S. Kalantre, Joshua Ziegler, Jacob M. Taylor, Justyna P. Zwolak",
+    "title_es": "QDFlow: A Python package for physics simulations of quantum dot devices, by Donovan L. Buterakos, Sandesh S. Kalantre, Joshua Ziegler, Jacob M. Taylor, Justyna P. Zwolak",
+    "url": "https://scipost.org/scipostphyscodeb.65",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "qdflow",
+      "a",
+      "python"
+    ]
+  },
+  {
+    "title": "Shapley 1: An Annular Planetary Nebula",
+    "title_es": "Shapley 1: An Annular Planetary Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2603/shapley1_bresseler_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "shapley",
+      "1",
+      "an"
     ]
   }
 ]
