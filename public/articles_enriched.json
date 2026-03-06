@@ -1,5 +1,89 @@
 [
   {
+    "title": "SearchGym: A Modular Infrastructure for Cross-Platform Benchmarking and Hybrid Search Orchestration",
+    "title_es": "SearchGym: una infraestructura modular para la evaluación comparativa multiplataforma y la orquestación de búsqueda híbrida",
+    "url": "https://arxiv.org/abs/2603.04402",
+    "source": "arXiv",
+    "published": "2026-03-06T05:00:00.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "searchgym",
+      "a",
+      "modular"
+    ]
+  },
+  {
+    "title": "Graecopithecus May Have Been Partially Bipedal, New Fossil Suggests",
+    "title_es": "Graecopithecus puede haber sido parcialmente bípedo, sugiere un nuevo fósil",
+    "url": "https://www.sci.news/othersciences/anthropology/bipedal-graecopithecus-14605.html",
+    "source": "Sci.News",
+    "published": "2026-03-06T01:57:15.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "graecopithecus",
+      "may",
+      "have"
+    ]
+  },
+  {
+    "title": "Ailing “Megaberg” Sparks Surge of Microscopic Life",
+    "title_es": "El \"Megaberg\" enfermo provoca una oleada de vida microscópica",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-06T00:00:00.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "megaberg",
+      "enfermo"
+    ]
+  },
+  {
+    "title": "Upconversion materials: A new frontier in solar water-splitting",
+    "title_es": "Materiales de conversión ascendente: una nueva frontera en la división del agua solar",
+    "url": "https://phys.org/news/2026-03-upconversion-materials-frontier-solar.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-06T00:00:00.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "materiales",
+      "de",
+      "conversión"
+    ]
+  },
+  {
+    "title": "Möbius strip-like molecule has an entirely new and bizarre shape",
+    "title_es": "La molécula similar a una tira de Möbius tiene una forma completamente nueva y extraña",
+    "url": "https://www.newscientist.com/article/2518188-mobius-strip-like-molecule-has-an-entirely-new-and-bizarre-shape/",
+    "source": "New Scientist",
+    "published": "2026-03-05T19:00:31.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "mbius",
+      "strip-like",
+      "molecule"
+    ]
+  },
+  {
+    "title": "Autonomous AI Agents Have an Ethics Problem",
+    "title_es": "Los agentes autónomos de IA tienen un problema ético",
+    "url": "https://undark.org/2026/03/05/opinion-ai-agents-ethics/",
+    "source": "Undark Magazine",
+    "published": "2026-03-05T08:46:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "autonomous",
+      "ai",
+      "agents"
+    ]
+  },
+  {
     "title": "Deep Sketch-Based 3D Modeling: A Survey",
     "title_es": "Modelado 3D profundo basado en bocetos: una encuesta",
     "url": "https://arxiv.org/abs/2603.03287",
@@ -81,6 +165,104 @@
       "cómo",
       "una",
       "planta"
+    ]
+  },
+  {
+    "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+    "title_es": "RoboPocket: mejore las políticas de robots al instante con su teléfono",
+    "url": "http://arxiv.org/abs/2603.05504v1",
+    "source": "arXiv",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "robopocket",
+      "mejore",
+      "las"
+    ]
+  },
+  {
+    "title": "Science stories for young readers",
+    "title_es": "Historias científicas para lectores jóvenes.",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aef9208",
+    "source": "Science.org",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "historias",
+      "científicas",
+      "para"
+    ]
+  },
+  {
+    "title": "Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
+    "title_es": "Corrección del autor: Máquina fotónica Ising programable de 200 GOPS inspirada en Hopfield",
+    "url": "https://www.nature.com/articles/s41586-026-10305-0",
+    "source": "Nature",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Justin Perry: \"In science, we are wrong all the time\"",
+    "title_es": "Justin Perry: \"En ciencia, nos equivocamos todo el tiempo\"",
+    "url": "https://www.cnic.es/es/node/240675",
+    "source": "CNIC",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "justin",
+      "perry",
+      "in"
+    ]
+  },
+  {
+    "title": "A koala population’s rapid rebound may let it escape inbreeding’s perils",
+    "title_es": "El rápido repunte de la población de koalas puede permitirle escapar de los peligros de la endogamia",
+    "url": "https://www.sciencenews.org/article/koalas-genetic-rebound-australia",
+    "source": "Science News",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "rápido",
+      "repunte"
+    ]
+  },
+  {
+    "title": "Brazilian monkeys offer lessons on how to return species to the wild",
+    "title_es": "Monos brasileños ofrecen lecciones sobre cómo devolver especies a la naturaleza",
+    "url": "https://www.snexplores.org/article/tamarin-monkeys-wild-behavior",
+    "source": "Science News Explores",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "monos",
+      "brasileños",
+      "ofrecen"
+    ]
+  },
+  {
+    "title": "Scientists discover a hidden force that helps wire the brain",
+    "title_es": "Los científicos descubren una fuerza oculta que ayuda a conectar el cerebro",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260304184233.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-05T00:00:00.000Z",
+    "date": "2026-03-05",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubren"
     ]
   },
   {
@@ -6718,7 +6900,7 @@
   },
   {
     "title": "Lithium-ion batteries could last longer with chemical tweak",
-    "title_es": "Las baterías de iones de litio podrían durar más tiempo con ajustes químicos",
+    "title_es": "Lithium-ion batteries could last longer with chemical tweak",
     "url": "https://www.newscientist.com/article/2511778-lithium-ion-batteries-could-last-longer-with-chemical-tweak/",
     "source": "New Scientist",
     "published": "2026-01-15T20:00:59.000Z",
@@ -6732,7 +6914,7 @@
   },
   {
     "title": "The Ever-Shrinking Eldercare Workforce",
-    "title_es": "La fuerza laboral cada vez más reducida del cuidado de ancianos",
+    "title_es": "The Ever-Shrinking Eldercare Workforce",
     "url": "https://undark.org/2026/01/15/opinion-shrinking-eldercare-workforce/",
     "source": "Undark Magazine",
     "published": "2026-01-15T08:34:00.000Z",
@@ -6746,7 +6928,7 @@
   },
   {
     "title": "Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications",
-    "title_es": "Revisión del modelo de lenguaje grande desagregado que sirve para las implicaciones de rendimiento y energía",
+    "title_es": "Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications",
     "url": "https://arxiv.org/abs/2601.08833",
     "source": "arXiv",
     "published": "2026-01-15T05:00:00.000Z",
@@ -6760,7 +6942,7 @@
   },
   {
     "title": "14,400-Year-Old Woolly Rhinoceros Genome Shows No Evidence of Recent Inbreeding",
-    "title_es": "El genoma del rinoceronte lanudo de 14.400 años no muestra evidencia de endogamia reciente",
+    "title_es": "14,400-Year-Old Woolly Rhinoceros Genome Shows No Evidence of Recent Inbreeding",
     "url": "https://www.sci.news/genetics/woolly-rhinoceros-genome-14484.html",
     "source": "Sci.News",
     "published": "2026-01-15T00:50:28.000Z",
@@ -33308,8 +33490,8 @@
     ]
   },
   {
-    "title": "Correction: Perspectives of multidisciplinary healthcare providers in elderly daycare centres: Challenges, opportunities and impacts on geriatric care in Chiangrai Municipality, Thailand",
-    "title_es": "Corrección: Perspectivas de los proveedores de atención médica multidisciplinarios en las guarderías para personas mayores: desafíos, oportunidades e impactos en la atención geriátrica en el municipio de Chiangrai, Tailandia",
+    "title": "Correction: Adherence to intravenous chemotherapy and associated factors among patients with cancer at Hawassa University Comprehensive Specialized Hospital Cancer Treatment Center, Sidama Region, Southern Ethiopia",
+    "title_es": "Corrección: adherencia a la quimioterapia intravenosa y factores asociados entre pacientes con cáncer en el Centro de Tratamiento del Cáncer del Hospital Integral Especializado de la Universidad de Hawassa, región de Sidama, sur de Etiopía",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -33317,8 +33499,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "perspectivas",
-      "de"
+      "adherencia",
+      "a"
     ]
   },
   {
@@ -92054,6 +92236,34 @@
       "total",
       "lunar",
       "eclipse"
+    ]
+  },
+  {
+    "title": "Accelerating multijet-merged event generation with neural network matrix element surrogates, by Tim Herrmann, Timo Janßen, Mathis Schenker, Steffen Schumann, Frank Siegert",
+    "title_es": "Accelerating multijet-merged event generation with neural network matrix element surrogates, by Tim Herrmann, Timo Janßen, Mathis Schenker, Steffen Schumann, Frank Siegert",
+    "url": "https://scipost.org/scipostphys.20.3.071",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "accelerating",
+      "multijet-merged",
+      "event"
+    ]
+  },
+  {
+    "title": "The Astrosphere of HD 61005",
+    "title_es": "The Astrosphere of HD 61005",
+    "url": "https://apod.nasa.gov/apod/image/2603/astrosphere_labeled_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "astrosphere",
+      "of"
     ]
   }
 ]
