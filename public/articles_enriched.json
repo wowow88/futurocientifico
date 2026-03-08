@@ -1,5 +1,19 @@
 [
   {
+    "title": "Scientists discover a brain signal that may trigger autism’s domino effect",
+    "title_es": "Los científicos descubren una señal cerebral que puede desencadenar el efecto dominó del autismo",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260307155943.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-08T00:00:00.000Z",
+    "date": "2026-03-08",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubren"
+    ]
+  },
+  {
     "title": "New Giant Mosasaur Species Discovered in Morocco",
     "title_es": "Nueva especie de mosasaurio gigante descubierta en Marruecos",
     "url": "https://www.sci.news/paleontology/pluridens-imelaki-14606.html",
@@ -25,6 +39,20 @@
       "just-shoring",
       "sitúa",
       "la"
+    ]
+  },
+  {
+    "title": "Large AI models can speed catalyst discovery by predicting performance before synthesis",
+    "title_es": "Los grandes modelos de IA pueden acelerar el descubrimiento de catalizadores al predecir el rendimiento antes de la síntesis",
+    "url": "https://phys.org/news/2026-03-large-ai-catalyst-discovery-synthesis.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-07T00:00:00.000Z",
+    "date": "2026-03-07",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "grandes",
+      "modelos"
     ]
   },
   {
@@ -165,6 +193,20 @@
       "los",
       "astrónomos",
       "descubren"
+    ]
+  },
+  {
+    "title": "Final laps at the LHC",
+    "title_es": "Vueltas finales en el LHC",
+    "url": "https://home.cern/news/news/accelerators/final-laps-lhc",
+    "source": "CERN News",
+    "published": "2026-03-06T00:00:00.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "vueltas",
+      "finales",
+      "en"
     ]
   },
   {
@@ -389,6 +431,20 @@
       "the",
       "secret",
       "of"
+    ]
+  },
+  {
+    "title": "We must close the 'shocking' knowledge gap in women's health",
+    "title_es": "Debemos cerrar la \"impactante\" brecha de conocimiento en la salud de las mujeres",
+    "url": "https://www.newscientist.com/article/mg26935853-000-we-must-close-the-shocking-knowledge-gap-in-womens-health/",
+    "source": "New Scientist",
+    "published": "2026-03-04T14:30:00.000Z",
+    "date": "2026-03-04",
+    "category": "noticia",
+    "tags": [
+      "we",
+      "must",
+      "close"
     ]
   },
   {
@@ -6830,7 +6886,7 @@
   },
   {
     "title": "Book Review: A Portrait of the Arctic World in Flux",
-    "title_es": "Reseña del libro: Un retrato del mundo ártico en movimiento",
+    "title_es": "Book Review: A Portrait of the Arctic World in Flux",
     "url": "https://undark.org/2026/01/16/book-review-frostlines/",
     "source": "Undark Magazine",
     "published": "2026-01-16T08:15:00.000Z",
@@ -92404,6 +92460,20 @@
       "two",
       "eclipses",
       "of"
+    ]
+  },
+  {
+    "title": "The maximum-average subtensor problem: Equilibrium and out-of-equilibrium properties, by Vittorio Erba, Nathan M. Kupferschmid, Rodrigo P. Ortiz, Lenka Zdeborová",
+    "title_es": "The maximum-average subtensor problem: Equilibrium and out-of-equilibrium properties, by Vittorio Erba, Nathan M. Kupferschmid, Rodrigo P. Ortiz, Lenka Zdeborová",
+    "url": "https://scipost.org/scipostphys.20.3.073",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "maximum-average",
+      "subtensor"
     ]
   }
 ]
