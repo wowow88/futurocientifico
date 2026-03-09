@@ -1,5 +1,47 @@
 [
   {
+    "title": "Marking Data-Informativity and Data-Driven Supervisory Control of Discrete-Event Systems",
+    "title_es": "Marcado de Datos-Informatividad y Control de Supervisión Basado en Datos de Sistemas de Eventos Discretos",
+    "url": "https://arxiv.org/abs/2603.05508",
+    "source": "arXiv",
+    "published": "2026-03-09T04:00:00.000Z",
+    "date": "2026-03-09",
+    "category": "noticia",
+    "tags": [
+      "marking",
+      "data-informativity",
+      "and"
+    ]
+  },
+  {
+    "title": "Particles may not follow Einstein’s paths after all",
+    "title_es": "Después de todo, es posible que las partículas no sigan los caminos de Einstein",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-09T00:00:00.000Z",
+    "date": "2026-03-09",
+    "category": "noticia",
+    "tags": [
+      "después",
+      "de",
+      "todo"
+    ]
+  },
+  {
+    "title": "'Peculiar' crocodile ancestor started life on four legs before learning to walk on two",
+    "title_es": "El 'peculiar' ancestro del cocodrilo comenzó su vida con cuatro patas antes de aprender a caminar con dos",
+    "url": "https://phys.org/news/2026-03-peculiar-crocodile-ancestor-life-legs.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-09T00:00:00.000Z",
+    "date": "2026-03-09",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "peculiar",
+      "ancestro"
+    ]
+  },
+  {
     "title": "Scientists discover a brain signal that may trigger autism’s domino effect",
     "title_es": "Los científicos descubren una señal cerebral que puede desencadenar el efecto dominó del autismo",
     "url": "https://www.sciencedaily.com/releases/2026/03/260307155943.htm",
@@ -11,6 +53,20 @@
       "los",
       "científicos",
       "descubren"
+    ]
+  },
+  {
+    "title": "Monthly HIV-drug injections offer potent alternative to daily tablets",
+    "title_es": "Las inyecciones mensuales de medicamentos contra el VIH ofrecen una potente alternativa a las pastillas diarias",
+    "url": "https://www.nature.com/articles/d41586-026-00669-8",
+    "source": "Nature",
+    "published": "2026-03-08T00:00:00.000Z",
+    "date": "2026-03-08",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "inyecciones",
+      "mensuales"
     ]
   },
   {
@@ -207,6 +263,20 @@
       "vueltas",
       "finales",
       "en"
+    ]
+  },
+  {
+    "title": "BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations",
+    "title_es": "BEVLM: Destilación del conocimiento semántico de los LLM en representaciones a vista de pájaro",
+    "url": "http://arxiv.org/abs/2603.06576v1",
+    "source": "arXiv",
+    "published": "2026-03-06T00:00:00.000Z",
+    "date": "2026-03-06",
+    "category": "noticia",
+    "tags": [
+      "bevlm",
+      "destilación",
+      "del"
     ]
   },
   {
@@ -640,6 +710,20 @@
       "phantom",
       "codes",
       "could"
+    ]
+  },
+  {
+    "title": "The real reasons birth rates are declining worldwide",
+    "title_es": "Las verdaderas razones por las que las tasas de natalidad están disminuyendo en todo",
+    "url": "https://www.newscientist.com/article/2516629-the-real-reasons-birth-rates-are-declining-worldwide/",
+    "source": "New Scientist",
+    "published": "2026-03-03T16:00:52.000Z",
+    "date": "2026-03-03",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "real",
+      "reasons"
     ]
   },
   {
@@ -6816,7 +6900,7 @@
   },
   {
     "title": "First treaty to protect the high seas comes into force",
-    "title_es": "Entra en vigor el primer tratado para proteger la alta mar",
+    "title_es": "First treaty to protect the high seas comes into force",
     "url": "https://www.newscientist.com/article/2512101-first-treaty-to-protect-the-high-seas-comes-into-force/",
     "source": "New Scientist",
     "published": "2026-01-17T00:01:57.000Z",
@@ -6872,7 +6956,7 @@
   },
   {
     "title": "Astronomers Spot Surprising Iron ‘Bar’ at Heart of Ring Nebula",
-    "title_es": "Los astrónomos ven una sorprendente ‘barra‘ de hierro en el corazón de la nebulosa del Anillo",
+    "title_es": "Astronomers Spot Surprising Iron ‘Bar’ at Heart of Ring Nebula",
     "url": "https://www.sci.news/astronomy/iron-bar-ring-nebula-14488.html",
     "source": "Sci.News",
     "published": "2026-01-16T22:06:16.000Z",
@@ -92474,6 +92558,20 @@
       "the",
       "maximum-average",
       "subtensor"
+    ]
+  },
+  {
+    "title": "The Cranium Nebula from the Webb Telescope",
+    "title_es": "The Cranium Nebula from the Webb Telescope",
+    "url": "https://apod.nasa.gov/apod/image/2603/cranium_webbmiri2_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "cranium",
+      "nebula"
     ]
   }
 ]
