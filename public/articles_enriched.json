@@ -1,5 +1,117 @@
 [
   {
+    "title": "A Hybrid Residue Floating Numerical Architecture with Formal Error Bounds for High Throughput FPGA Computation",
+    "title_es": "Una arquitectura numérica flotante de residuos híbridos con límites de error formales para el cálculo de FPGA de alto rendimiento",
+    "url": "https://arxiv.org/abs/2603.08712",
+    "source": "arXiv",
+    "published": "2026-03-11T04:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hybrid",
+      "residue"
+    ]
+  },
+  {
+    "title": "275-Million-Year-Old Amphibian Relative with Twisted Jaws Rewrites Early Tetrapod Diets",
+    "title_es": "Un pariente anfibio de 275 millones de años con mandíbulas retorcidas reescribe las primeras dietas de tetrápodos",
+    "url": "https://www.sci.news/paleontology/tanyka-amnicola-14614.html",
+    "source": "Sci.News",
+    "published": "2026-03-11T01:15:34.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "275-million-year-old",
+      "amphibian",
+      "relative"
+    ]
+  },
+  {
+    "title": "Orcas may be to blame for some mass dolphin strandings",
+    "title_es": "Las orcas pueden ser las culpables de algunos varamientos masivos de delfines",
+    "url": "https://www.newscientist.com/article/2518849-orcas-may-be-to-blame-for-some-mass-dolphin-strandings/",
+    "source": "New Scientist",
+    "published": "2026-03-11T00:01:07.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "orcas",
+      "may",
+      "be"
+    ]
+  },
+  {
+    "title": "A Most Unusual Lake",
+    "title_es": "Un lago de lo más inusual",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-most-unusual-lake/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "lago",
+      "de"
+    ]
+  },
+  {
+    "title": "Submerged bumblebee queens breathe underwater",
+    "title_es": "Las reinas abejorros sumergidas respiran bajo el agua",
+    "url": "https://www.sciencenews.org/article/bumblebee-queens-breathe-underwater",
+    "source": "Science News",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "reinas",
+      "abejorros"
+    ]
+  },
+  {
+    "title": "A massive asteroid hit the North Sea and triggered a 330-foot tsunami",
+    "title_es": "Un asteroide masivo golpeó el Mar del Norte y provocó un tsunami de 330 pies",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260311004836.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "asteroide",
+      "masivo"
+    ]
+  },
+  {
+    "title": "Vegans develop complex skills to navigate an omnivorous society, new research shows",
+    "title_es": "Los veganos desarrollan habilidades complejas para navegar en una sociedad omnívora, según muestra una nueva investigación",
+    "url": "https://phys.org/news/2026-03-vegans-complex-skills-omnivorous-society.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "veganos",
+      "desarrollan"
+    ]
+  },
+  {
+    "title": "Why the FDA Is Embracing Old Math for New Drugs",
+    "title_es": "Por qué la FDA está adoptando las matemáticas antiguas para los nuevos medicamentos",
+    "url": "https://undark.org/2026/03/10/fda-bayesian-guidelines/",
+    "source": "Undark Magazine",
+    "published": "2026-03-10T07:51:00.000Z",
+    "date": "2026-03-10",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "the",
+      "fda"
+    ]
+  },
+  {
     "title": "Rethinking Personalization in Large Language Models at the Token Level",
     "title_es": "Repensar la personalización en modelos de lenguaje grandes a nivel de token",
     "url": "https://arxiv.org/abs/2603.06595",
@@ -67,6 +179,48 @@
       "cómo",
       "hacer",
       "que"
+    ]
+  },
+  {
+    "title": "From Data Statistics to Feature Geometry: How Correlations Shape Superposition",
+    "title_es": "De las estadísticas de datos a la geometría de características: cómo las correlaciones dan forma a la superposición",
+    "url": "http://arxiv.org/abs/2603.09972v1",
+    "source": "arXiv",
+    "published": "2026-03-10T00:00:00.000Z",
+    "date": "2026-03-10",
+    "category": "noticia",
+    "tags": [
+      "de",
+      "las",
+      "estadísticas"
+    ]
+  },
+  {
+    "title": "Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+    "title_es": "Maximización de la extracción de portadores en células solares híbridas de silicio de contacto posterior",
+    "url": "https://www.nature.com/articles/s41586-026-10351-8",
+    "source": "Nature",
+    "published": "2026-03-10T00:00:00.000Z",
+    "date": "2026-03-10",
+    "category": "noticia",
+    "tags": [
+      "maximización",
+      "de",
+      "la"
+    ]
+  },
+  {
+    "title": "Let’s learn about animals that can regrow body parts",
+    "title_es": "Aprendamos sobre los animales que pueden regenerar partes del cuerpo.",
+    "url": "https://www.snexplores.org/article/lets-learn-about-animals-that-can-regrow-body-parts",
+    "source": "Science News Explores",
+    "published": "2026-03-10T00:00:00.000Z",
+    "date": "2026-03-10",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "los"
     ]
   },
   {
@@ -6774,7 +6928,7 @@
   },
   {
     "title": "Scientists solve a major roadblock holding back cancer cell therapy",
-    "title_es": "Los científicos resuelven un obstáculo importante que frena la terapia con células cancerosas",
+    "title_es": "Scientists solve a major roadblock holding back cancer cell therapy",
     "url": "https://www.sciencedaily.com/releases/2026/01/260120015654.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-01-20T08:27:50.000Z",
@@ -6788,7 +6942,7 @@
   },
   {
     "title": "Deepening Environmental Crises Are Fueling Protests in Iran",
-    "title_es": "La profundización de las crisis ambientales está alimentando las protestas en Irán",
+    "title_es": "Deepening Environmental Crises Are Fueling Protests in Iran",
     "url": "https://undark.org/2026/01/20/iran-protests-environmental-crises/",
     "source": "Undark Magazine",
     "published": "2026-01-20T08:01:00.000Z",
@@ -6802,7 +6956,7 @@
   },
   {
     "title": "3I/ATLAS Shows Signs of Full Cometary Awakening after Perihelion",
-    "title_es": "3I/ATLAS muestra signos de despertar cometario completo después del perihelio",
+    "title_es": "3I/ATLAS Shows Signs of Full Cometary Awakening after Perihelion",
     "url": "https://www.sci.news/astronomy/3i-atlas-cometary-awakening-14493.html",
     "source": "Sci.News",
     "published": "2026-01-20T04:24:20.000Z",
@@ -33924,8 +34078,8 @@
     ]
   },
   {
-    "title": "Correction: Concurrent coverage and determinants of vitamin A supplementation and deworming among children aged 12–59 months in 15 Sub-Saharan African countries",
-    "title_es": "Corrección: Cobertura simultánea y determinantes de la suplementación con vitamina A y la desparasitación entre niños de 12 a 59 meses en 15 países de África subsahariana",
+    "title": "Correction: Immortalization and characterization of Schwann cell lines derived from NF1-associated cutaneous neurofibromas",
+    "title_es": "Corrección: Inmortalización y caracterización de líneas celulares de Schwann derivadas de neurofibromas cutáneos asociados a NF1",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -33933,8 +34087,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "cobertura",
-      "simultánea"
+      "inmortalización",
+      "y"
     ]
   },
   {
@@ -92782,6 +92936,34 @@
       "sky",
       "glows",
       "over"
+    ]
+  },
+  {
+    "title": "Local fermion density in inhomogeneous free-fermion chains: A discrete WKB approach, by Martín Zapata, Federico Finkel, Artemio González-López",
+    "title_es": "Local fermion density in inhomogeneous free-fermion chains: A discrete WKB approach, by Martín Zapata, Federico Finkel, Artemio González-López",
+    "url": "https://scipost.org/scipostphys.20.3.078",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "local",
+      "fermion",
+      "density"
+    ]
+  },
+  {
+    "title": "CG 4: The Globule and the Galaxy",
+    "title_es": "CG 4: The Globule and the Galaxy",
+    "url": "https://apod.nasa.gov/apod/image/2603/cg4_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cg",
+      "4",
+      "the"
     ]
   }
 ]
