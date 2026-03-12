@@ -1,5 +1,103 @@
 [
   {
+    "title": "One Model, Many Skills: Parameter-Efficient Fine-Tuning for Multitask Code Analysis",
+    "title_es": "Un modelo, muchas habilidades: ajuste de parámetros eficiente para el análisis de código multitarea",
+    "url": "https://arxiv.org/abs/2603.09978",
+    "source": "arXiv",
+    "published": "2026-03-12T04:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "one",
+      "model",
+      "many"
+    ]
+  },
+  {
+    "title": "Early Howler Monkeys Adapted to Eating Leaves 13 Million Years Ago",
+    "title_es": "Los primeros monos aulladores adaptados a comer se fueron hace 13 millones de años",
+    "url": "https://www.sci.news/paleontology/stirtonia-victoriae-14619.html",
+    "source": "Sci.News",
+    "published": "2026-03-12T02:38:43.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "early",
+      "howler",
+      "monkeys"
+    ]
+  },
+  {
+    "title": "Dust Outbreak Reaches Europe",
+    "title_es": "Brote de polvo llega a Europa",
+    "url": "https://science.nasa.gov/earth/earth-observatory/dust-outbreak-reaches-europe/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "brote",
+      "de",
+      "polvo"
+    ]
+  },
+  {
+    "title": "AI may be giving teens bad nutrition advice",
+    "title_es": "La IA puede estar dando malos consejos nutricionales a los adolescentes",
+    "url": "https://www.sciencenews.org/article/ai-teen-nutrition-advice-chatbot-diet-food",
+    "source": "Science News",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ia",
+      "puede"
+    ]
+  },
+  {
+    "title": "Meet Crocodylus lucivenator, a 12- to 15-foot predator that hunted iconic Lucy's species",
+    "title_es": "Conozca a Crocodylus lucivenator, un depredador de 12 a 15 pies que cazaba la especie icónica de Lucy",
+    "url": "https://phys.org/news/2026-03-crocodylus-lucivenator-foot-predator-iconic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "conozca",
+      "a",
+      "crocodylus"
+    ]
+  },
+  {
+    "title": "A miniature magnet rivals behemoths in strength for the first time",
+    "title_es": "Un imán en miniatura rivaliza con gigantes en fuerza por primera vez",
+    "url": "https://www.newscientist.com/article/2518964-a-miniature-magnet-rivals-behemoths-in-strength-for-the-first-time/",
+    "source": "New Scientist",
+    "published": "2026-03-11T18:00:54.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "miniature",
+      "magnet"
+    ]
+  },
+  {
+    "title": "State Bills on Environmental Regulations Raise Burden of Proof",
+    "title_es": "Los proyectos de ley estatales sobre regulaciones ambientales aumentan la carga de la prueba",
+    "url": "https://undark.org/2026/03/11/state-sound-science-bills/",
+    "source": "Undark Magazine",
+    "published": "2026-03-11T07:12:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "state",
+      "bills",
+      "on"
+    ]
+  },
+  {
     "title": "A Hybrid Residue Floating Numerical Architecture with Formal Error Bounds for High Throughput FPGA Computation",
     "title_es": "Una arquitectura numérica flotante de residuos híbridos con límites de error formales para el cálculo de FPGA de alto rendimiento",
     "url": "https://arxiv.org/abs/2603.08712",
@@ -95,6 +193,90 @@
       "los",
       "veganos",
       "desarrollan"
+    ]
+  },
+  {
+    "title": "COMIC: Agentic Sketch Comedy Generation",
+    "title_es": "CÓMIC: Generación de comedia de sketches agentes",
+    "url": "http://arxiv.org/abs/2603.11048v1",
+    "source": "arXiv",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "cómic",
+      "generación",
+      "de"
+    ]
+  },
+  {
+    "title": "Author Correction: Gut stem cell necroptosis by genome instability triggers bowel inflammation",
+    "title_es": "Corrección del autor: la necroptosis de células madre intestinales por inestabilidad del genoma desencadena inflamación intestinal",
+    "url": "https://www.nature.com/articles/s41586-026-10302-3",
+    "source": "Nature",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Arranca un ensayo clínico para saber cómo influye la dieta en el tratamiento de cánceres metastásicos de mama o ginecológicos",
+    "title_es": "Arranca un ensayo clínico para saber cómo influye la dieta en el tratamiento de cánceres metastásicos de mama o ginecológicos",
+    "url": "https://www.cnio.es/noticias/arranca-un-ensayo-clinico-para-saber-como-influye-la-dieta-en-el-tratamiento-de-canceres-metastasicos-de-mama-o-ginecologicos/",
+    "source": "CNIO",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "arranca",
+      "un",
+      "ensayo"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-investigadora-del-iac-adriana-de-lorenzo-caceres-galardonada-con-el-premio-dona-concepcion-garcia\" hreflang=\"es\">La investigadora del IAC, Adriana de Lorenzo-Cáceres, galardonada con el premio “Doña Concepción García Suárez”</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/la-investigadora-del-iac-adriana-de-lorenzo-caceres-galardonada-con-el-premio-dona-concepcion-garcia\" hreflang=\"es\">La investigadora del IAC, Adriana de Lorenzo-Cáceres, galardonada con el premio “Doña Concepción García Suárez”</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-investigadora-del-iac-adriana-de-lorenzo-caceres-galardonada-con-el-premio-dona-concepcion-garcia",
+    "source": "IAC",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasla-investigadora-del-iac-adriana-de-lorenzo-caceres-galardonada-con-el-premio-dona-concepcion-garcia",
+      "hreflangesla"
+    ]
+  },
+  {
+    "title": "Computer Security: Privacy vs security",
+    "title_es": "Seguridad informática: privacidad versus seguridad",
+    "url": "https://home.cern/news/news/computing/computer-security-privacy-vs-security",
+    "source": "CERN News",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "informática",
+      "privacidad"
+    ]
+  },
+  {
+    "title": "Volcanic ash might have helped spread the Black Death to Europe",
+    "title_es": "La ceniza volcánica podría haber ayudado a propagar la peste negra a Europa",
+    "url": "https://www.snexplores.org/article/volcano-spread-black-death-plague-europe",
+    "source": "Science News Explores",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "ceniza",
+      "volcánica"
     ]
   },
   {
@@ -6718,7 +6900,7 @@
   },
   {
     "title": "Who Gets to Decide How Much Is ‘Enough’ to Live a Good Life?",
-    "title_es": "¿Quién decide cuánto es \"suficiente\" para vivir una buena vida?",
+    "title_es": "Who Gets to Decide How Much Is ‘Enough’ to Live a Good Life?",
     "url": "https://undark.org/2026/01/21/opinion-climate-sufficiency-politics/",
     "source": "Undark Magazine",
     "published": "2026-01-21T08:06:00.000Z",
@@ -6732,7 +6914,7 @@
   },
   {
     "title": "SynQP: A Framework and Metrics for Evaluating the Quality and Privacy Risk of Synthetic Data",
-    "title_es": "SynQP: un marco y métricas para evaluar el riesgo de calidad y privacidad de los datos sintéticos",
+    "title_es": "SynQP: A Framework and Metrics for Evaluating the Quality and Privacy Risk of Synthetic Data",
     "url": "https://arxiv.org/abs/2601.12124",
     "source": "arXiv",
     "published": "2026-01-21T05:00:00.000Z",
@@ -6746,7 +6928,7 @@
   },
   {
     "title": "Webb Peers Deep into Iconic Helix Nebula",
-    "title_es": "Webb Peers profundiza en la icónica nebulosa Helix",
+    "title_es": "Webb Peers Deep into Iconic Helix Nebula",
     "url": "https://www.sci.news/astronomy/webb-helix-nebula-14498.html",
     "source": "Sci.News",
     "published": "2026-01-21T00:08:37.000Z",
@@ -6760,7 +6942,7 @@
   },
   {
     "title": "Bubble feeding trick spreads through humpback whale social groups",
-    "title_es": "El truco de la alimentación con burbujas se propaga a través de los grupos sociales de ballenas jorobadas",
+    "title_es": "Bubble feeding trick spreads through humpback whale social groups",
     "url": "https://www.newscientist.com/article/2512344-bubble-feeding-trick-spreads-through-humpback-whale-social-groups/",
     "source": "New Scientist",
     "published": "2026-01-21T00:01:20.000Z",
@@ -6844,7 +7026,7 @@
   },
   {
     "title": "Circulation Research: The body’s internal clock influences stroke severity and response to treatment",
-    "title_es": "Investigación sobre la circulación: el reloj interno del cuerpo influye en la gravedad del accidente cerebrovascular y la respuesta al tratamiento",
+    "title_es": "Circulation Research: The body’s internal clock influences stroke severity and response to treatment",
     "url": "https://www.cnic.es/es/node/239575",
     "source": "CNIC",
     "published": "2026-01-21T00:00:00.000Z",
@@ -34078,17 +34260,17 @@
     ]
   },
   {
-    "title": "Correction: Immortalization and characterization of Schwann cell lines derived from NF1-associated cutaneous neurofibromas",
-    "title_es": "Corrección: Inmortalización y caracterización de líneas celulares de Schwann derivadas de neurofibromas cutáneos asociados a NF1",
+    "title": "Economic evaluation of anti-malarial drug policies across presidential regimes in Nigeria: A comparative analysis from 1999 to present",
+    "title_es": "Evaluación económica de las políticas de medicamentos contra la malaria en los regímenes presidenciales de Nigeria: un análisis comparativo desde 1999 hasta el presente",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "inmortalización",
-      "y"
+      "evaluación",
+      "económica",
+      "de"
     ]
   },
   {
@@ -92964,6 +93146,20 @@
       "cg",
       "4",
       "the"
+    ]
+  },
+  {
+    "title": "Unnecessary quantum criticality in $SU (3)$ kagome magnets, by Yunchao Zhang, Xue-Yang Song, Todadri Senthil",
+    "title_es": "Unnecessary quantum criticality in $SU (3)$ kagome magnets, by Yunchao Zhang, Xue-Yang Song, Todadri Senthil",
+    "url": "https://scipost.org/scipostphys.20.3.082",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "unnecessary",
+      "quantum",
+      "criticality"
     ]
   }
 ]
