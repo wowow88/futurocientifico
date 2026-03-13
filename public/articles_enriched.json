@@ -1,5 +1,103 @@
 [
   {
+    "title": "Comparison of Outlier Detection Algorithms on String Data",
+    "title_es": "Comparación de algoritmos de detección de valores atípicos en datos de cadena",
+    "url": "https://arxiv.org/abs/2603.11049",
+    "source": "arXiv",
+    "published": "2026-03-13T04:00:00.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "comparison",
+      "of",
+      "outlier"
+    ]
+  },
+  {
+    "title": "New Fossil Crocodile from Ethiopia Lived alongside Australopithecus afarensis",
+    "title_es": "Nuevo cocodrilo fósil de Etiopía vivió junto al Australopithecus afarensis",
+    "url": "https://www.sci.news/paleontology/crocodylus-lucivenator-14620.html",
+    "source": "Sci.News",
+    "published": "2026-03-13T03:31:40.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "fossil",
+      "crocodile"
+    ]
+  },
+  {
+    "title": "We don’t know if AI-powered toys are safe, but they’re here anyway",
+    "title_es": "No sabemos si los juguetes impulsados por IA son seguros, pero están aquí de todos modos",
+    "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/",
+    "source": "New Scientist",
+    "published": "2026-03-13T00:01:57.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "we",
+      "dont",
+      "know"
+    ]
+  },
+  {
+    "title": "Eruption at Mayon",
+    "title_es": "Erupción en Mayon",
+    "url": "https://science.nasa.gov/earth/earth-observatory/eruption-at-mayon/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-13T00:00:00.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "erupción",
+      "en",
+      "mayon"
+    ]
+  },
+  {
+    "title": "Scientists discovered a secret deal between a plant and beetles",
+    "title_es": "Los científicos descubrieron un acuerdo secreto entre una planta y los escarabajos",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260312222355.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-13T00:00:00.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "descubrieron"
+    ]
+  },
+  {
+    "title": "A race against time to save Alpine ice cores that record medieval mining, fires, and volcanoes",
+    "title_es": "Una carrera contra el tiempo para salvar los núcleos de hielo alpinos que registran minas, incendios y volcanes medievales.",
+    "url": "https://phys.org/news/2026-03-alpine-ice-cores-medieval-volcanoes.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-13T00:00:00.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "carrera",
+      "contra"
+    ]
+  },
+  {
+    "title": "Why Environmental Tipping Points Don’t Have to Spell Doom",
+    "title_es": "Por qué los puntos de inflexión ambientales no tienen que significar la fatalidad",
+    "url": "https://undark.org/2026/03/12/opinion-environmental-tipping-points/",
+    "source": "Undark Magazine",
+    "published": "2026-03-12T07:48:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "environmental",
+      "tipping"
+    ]
+  },
+  {
     "title": "One Model, Many Skills: Parameter-Efficient Fine-Tuning for Multitask Code Analysis",
     "title_es": "Un modelo, muchas habilidades: ajuste de parámetros eficiente para el análisis de código multitarea",
     "url": "https://arxiv.org/abs/2603.09978",
@@ -67,6 +165,104 @@
       "conozca",
       "a",
       "crocodylus"
+    ]
+  },
+  {
+    "title": "The Latent Color Subspace: Emergent Order in High-Dimensional Chaos",
+    "title_es": "El subespacio de color latente: orden emergente en un caos de alta dimensión",
+    "url": "http://arxiv.org/abs/2603.12261v1",
+    "source": "arXiv",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "subespacio",
+      "de"
+    ]
+  },
+  {
+    "title": "The imminent collapse of the Great Salt Lake",
+    "title_es": "El inminente colapso del Gran Lago Salado",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeg4335",
+    "source": "Science.org",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "inminente",
+      "colapso"
+    ]
+  },
+  {
+    "title": "Youthful antics predict lifespan — at least for these fish",
+    "title_es": "Las payasadas juveniles predicen la esperanza de vida, al menos para estos peces",
+    "url": "https://www.nature.com/articles/d41586-026-00782-8",
+    "source": "Nature",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "payasadas",
+      "juveniles"
+    ]
+  },
+  {
+    "title": "“Poco a poco tomamos conciencia de la relevancia del descubrimiento”. Cómo un grupo que investiga en cáncer de mama hace un hallazgo clave sobre fertilidad",
+    "title_es": "“Poco a poco tomamos conciencia de la relevancia del descubrimiento”. Cómo un grupo que investiga en cáncer de mama hace un hallazgo clave sobre fertilidad",
+    "url": "https://www.cnio.es/noticias/fuimos-siendo-conscientes-poco-a-poco-de-la-relevancia-del-descubrimiento-como-un-grupo-que-investiga-en-cancer-de-mama-hace-un-hallazgo-clave-sobre-fertilidad/",
+    "source": "CNIO",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "poco",
+      "a",
+      "poco"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/artemio-herrero-investigador-del-iac-recibe-el-xv-premio-institucional-la-investigacion-de-la\" hreflang=\"es\">Artemio Herrero, investigador del IAC, recibe el XV Premio Institucional a la Investigación de la Universidad de La Laguna</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/artemio-herrero-investigador-del-iac-recibe-el-xv-premio-institucional-la-investigacion-de-la\" hreflang=\"es\">Artemio Herrero, investigador del IAC, recibe el XV Premio Institucional a la Investigación de la Universidad de La Laguna</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/artemio-herrero-investigador-del-iac-recibe-el-xv-premio-institucional-la-investigacion-de-la",
+    "source": "IAC",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasartemio-herrero-investigador-del-iac-recibe-el-xv-premio-institucional-la-investigacion-de-la",
+      "hreflangesartemio"
+    ]
+  },
+  {
+    "title": "A large fossil leg bone hints at T. rex’s origins, but scientists disagree",
+    "title_es": "Un gran hueso fósil de una pierna insinúa los orígenes del T.rex, pero los científicos no están de acuerdo",
+    "url": "https://www.sciencenews.org/article/fossil-leg-t-rex-origins-bones-dinosaur",
+    "source": "Science News",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "gran",
+      "hueso"
+    ]
+  },
+  {
+    "title": "The Okefenokee’s dark waters hold secrets about climate and more",
+    "title_es": "Las oscuras aguas del Okefenokee guardan secretos sobre el clima y más",
+    "url": "https://www.snexplores.org/article/okefenokee-swamp-ecology-climate",
+    "source": "Science News Explores",
+    "published": "2026-03-12T00:00:00.000Z",
+    "date": "2026-03-12",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "oscuras",
+      "aguas"
     ]
   },
   {
@@ -277,6 +473,20 @@
       "la",
       "ceniza",
       "volcánica"
+    ]
+  },
+  {
+    "title": "Accelerator Report: The 2026 run will be short but intense",
+    "title_es": "Informe del Acelerador: El recorrido hasta 2026 será corto pero intenso",
+    "url": "https://home.cern/news/news/accelerators/accelerator-report-2026-run-will-be-short-intense",
+    "source": "CERN News",
+    "published": "2026-03-11T00:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "informe",
+      "del",
+      "acelerador"
     ]
   },
   {
@@ -6704,7 +6914,7 @@
   },
   {
     "title": "Biologists ‘Resurrect’ 3.2-Billion-Year-Old Enzyme",
-    "title_es": "Biólogos ‘resucitan‘ enzima de 3.200 millones de años",
+    "title_es": "Biologists ‘Resurrect’ 3.2-Billion-Year-Old Enzyme",
     "url": "https://www.sci.news/biology/primordial-nitrogenase-14503.html",
     "source": "Sci.News",
     "published": "2026-01-22T23:52:36.000Z",
@@ -6718,7 +6928,7 @@
   },
   {
     "title": "Ancient bacterium discovery rewrites the origins of syphilis",
-    "title_es": "El descubrimiento de una antigua bacteria reescribe los orígenes de la sífilis",
+    "title_es": "Ancient bacterium discovery rewrites the origins of syphilis",
     "url": "https://www.newscientist.com/article/2512939-ancient-bacterium-discovery-rewrites-the-origins-of-syphilis/",
     "source": "New Scientist",
     "published": "2026-01-22T19:00:32.000Z",
@@ -6732,7 +6942,7 @@
   },
   {
     "title": "USDA Researchers Instructed to Investigate Foreign Colleagues",
-    "title_es": "Investigadores del USDA instruidos para investigar a colegas extranjeros",
+    "title_es": "USDA Researchers Instructed to Investigate Foreign Colleagues",
     "url": "https://undark.org/2026/01/22/usda-directive-foreign-colleagues/",
     "source": "Undark Magazine",
     "published": "2026-01-22T08:19:00.000Z",
@@ -6746,7 +6956,7 @@
   },
   {
     "title": "SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control",
-    "title_es": "SOSControl: Mejora de la generación de movimiento humano a través de la orientación simbólica y el control de tiempo conscientes de la prominencia",
+    "title_es": "SOSControl: Enhancing Human Motion Generation through Saliency-Aware Symbolic Orientation and Timing Control",
     "url": "https://arxiv.org/abs/2601.14258",
     "source": "arXiv",
     "published": "2026-01-22T05:00:00.000Z",
@@ -6760,7 +6970,7 @@
   },
   {
     "title": "Piercing crocodile close-up wins ecology photo competition",
-    "title_es": "Primer plano de cocodrilo perforador gana concurso de fotografía ecológica",
+    "title_es": "Piercing crocodile close-up wins ecology photo competition",
     "url": "https://www.newscientist.com/article/2511807-piercing-crocodile-close-up-wins-ecology-photo-competition/",
     "source": "New Scientist",
     "published": "2026-01-22T00:01:57.000Z",
@@ -6886,7 +7096,7 @@
   },
   {
     "title": "Magnetic Avalanches Ignite Solar Flares, New Solar Orbiter Observations Reveal",
-    "title_es": "Las avalanchas magnéticas encienden las llamaradas solares, revelan nuevas observaciones del orbitador solar",
+    "title_es": "Magnetic Avalanches Ignite Solar Flares, New Solar Orbiter Observations Reveal",
     "url": "https://www.sci.news/astronomy/magnetic-avalanches-solar-flares-14501.html",
     "source": "Sci.News",
     "published": "2026-01-21T23:20:20.000Z",
@@ -34260,17 +34470,17 @@
     ]
   },
   {
-    "title": "Economic evaluation of anti-malarial drug policies across presidential regimes in Nigeria: A comparative analysis from 1999 to present",
-    "title_es": "Evaluación económica de las políticas de medicamentos contra la malaria en los regímenes presidenciales de Nigeria: un análisis comparativo desde 1999 hasta el presente",
+    "title": "Correction: Hyperspectral technology and machine learning models to estimate the fruit quality parameters of mango and strawberry crops",
+    "title_es": "Corrección: Tecnología hiperespectral y modelos de aprendizaje automático para estimar los parámetros de calidad de la fruta en cultivos de mango y fresa.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "evaluación",
-      "económica",
-      "de"
+      "corrección",
+      "tecnología",
+      "hiperespectral"
     ]
   },
   {
@@ -93160,6 +93370,34 @@
       "unnecessary",
       "quantum",
       "criticality"
+    ]
+  },
+  {
+    "title": "Amplitude uncertainties everywhere all at once, by Henning Bahl, Nina Elmer, Tilman Plehn, Ramon Winterhalder",
+    "title_es": "Amplitude uncertainties everywhere all at once, by Henning Bahl, Nina Elmer, Tilman Plehn, Ramon Winterhalder",
+    "url": "https://scipost.org/scipostphys.20.3.083",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "amplitude",
+      "uncertainties",
+      "everywhere"
+    ]
+  },
+  {
+    "title": "Toolondo Totality Trails",
+    "title_es": "Toolondo Totality Trails",
+    "url": "https://apod.nasa.gov/apod/image/2603/jason_perry_totality_trail_lake_toolondo_australia800.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "toolondo",
+      "totality",
+      "trails"
     ]
   }
 ]
