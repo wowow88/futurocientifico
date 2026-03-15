@@ -1,5 +1,33 @@
 [
   {
+    "title": "Scared of spiders? Scientists say the real nightmare is losing them",
+    "title_es": "¿Miedo a las arañas? Los científicos dicen que la verdadera pesadilla es perderlos",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-15T00:00:00.000Z",
+    "date": "2026-03-15",
+    "category": "noticia",
+    "tags": [
+      "miedo",
+      "a",
+      "las"
+    ]
+  },
+  {
+    "title": "Bird losses are accelerating across North America, particularly in farming regions where agriculture is most intensive",
+    "title_es": "Las pérdidas de aves se están acelerando en toda América del Norte, particularmente en las regiones agrícolas donde la agricultura es más intensiva.",
+    "url": "https://phys.org/news/2026-03-bird-losses-north-america-farming.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-15T00:00:00.000Z",
+    "date": "2026-03-15",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "pérdidas",
+      "de"
+    ]
+  },
+  {
     "title": "Sun May Have Escaped Milky Way’s Crowded Core Billions of Years Ago",
     "title_es": "El Sol pudo haber escapado del atestado núcleo de la Vía Láctea hace miles de millones de años",
     "url": "https://www.sci.news/astronomy/sun-migration-14621.html",
@@ -431,6 +459,20 @@
       "a",
       "miniature",
       "magnet"
+    ]
+  },
+  {
+    "title": "Why are we so obsessed with protein? A new book looks for answers",
+    "title_es": "¿Por qué estamos tan obsesionados con las proteínas? Un nuevo libro busca respuestas",
+    "url": "https://www.newscientist.com/article/mg26935863-900-why-are-we-so-obsessed-with-protein-a-new-book-looks-for-answers/",
+    "source": "New Scientist",
+    "published": "2026-03-11T18:00:00.000Z",
+    "date": "2026-03-11",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "are",
+      "we"
     ]
   },
   {
@@ -6802,7 +6844,7 @@
   },
   {
     "title": "Defending endangered trees against climate change and hungry goats",
-    "title_es": "Defensa de los árboles en peligro de extinción contra el cambio climático y las cabras hambrientas",
+    "title_es": "Defending endangered trees against climate change and hungry goats",
     "url": "https://www.nature.com/articles/d41586-026-00248-x",
     "source": "Nature",
     "published": "2026-01-26T00:00:00.000Z",
