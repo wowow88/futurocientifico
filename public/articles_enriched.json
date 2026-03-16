@@ -1,5 +1,61 @@
 [
   {
+    "title": "A Holistic Framework for Automated Configuration Recommendation for Cloud Service Monitoring",
+    "title_es": "Un marco holístico para la recomendación de configuración automatizada para el monitoreo de servicios en la nube",
+    "url": "https://arxiv.org/abs/2603.12268",
+    "source": "arXiv",
+    "published": "2026-03-16T04:00:00.000Z",
+    "date": "2026-03-16",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "holistic",
+      "framework"
+    ]
+  },
+  {
+    "title": "Cells can sense 10x farther than expected and it may explain cancer spread",
+    "title_es": "Las células pueden detectar 10 veces más lejos de lo esperado y esto puede explicar la propagación del cáncer",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260315004351.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-16T00:00:00.000Z",
+    "date": "2026-03-16",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "células",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Archaeologists untangle how Bronze Age textiles were made",
+    "title_es": "Los arqueólogos desentrañan cómo se fabricaban los textiles de la Edad del Bronce",
+    "url": "https://phys.org/news/2026-03-archaeologists-untangle-bronze-age-textiles.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-16T00:00:00.000Z",
+    "date": "2026-03-16",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "arqueólogos",
+      "desentrañan"
+    ]
+  },
+  {
+    "title": "Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
+    "title_es": "La vida se recuperó sorprendentemente rápido después del asteroide que mató a los dinosaurios",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-15T04:44:14.000Z",
+    "date": "2026-03-15",
+    "category": "noticia",
+    "tags": [
+      "life",
+      "rebounded",
+      "shockingly"
+    ]
+  },
+  {
     "title": "Scared of spiders? Scientists say the real nightmare is losing them",
     "title_es": "¿Miedo a las arañas? Los científicos dicen que la verdadera pesadilla es perderlos",
     "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm",
@@ -263,6 +319,20 @@
       "por",
       "qué",
       "los"
+    ]
+  },
+  {
+    "title": "PhysMoDPO: Physically-Plausible Humanoid Motion with Preference Optimization",
+    "title_es": "PhysMoDPO: movimiento humanoide físicamente plausible con optimización de preferencias",
+    "url": "http://arxiv.org/abs/2603.13228v1",
+    "source": "arXiv",
+    "published": "2026-03-13T00:00:00.000Z",
+    "date": "2026-03-13",
+    "category": "noticia",
+    "tags": [
+      "physmodpo",
+      "movimiento",
+      "humanoide"
     ]
   },
   {
@@ -93608,6 +93678,20 @@
       "a",
       "year",
       "for"
+    ]
+  },
+  {
+    "title": "NGC 1566: The Spanish Dancer Galaxy",
+    "title_es": "NGC 1566: The Spanish Dancer Galaxy",
+    "url": "https://apod.nasa.gov/apod/image/2603/spanishdancer_hubble_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "1566",
+      "the"
     ]
   }
 ]
