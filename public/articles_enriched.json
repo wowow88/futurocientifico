@@ -1,5 +1,145 @@
 [
   {
+    "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
+    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de radiación neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
+    "url": "https://arxiv.org/abs/2603.15622",
+    "source": "arXiv",
+    "published": "2026-03-18T04:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "sac-nerf",
+      "adaptive",
+      "ray"
+    ]
+  },
+  {
+    "title": "Ornithologists Identify Cryptic New Bird Species in Japan",
+    "title_es": "Ornitólogos identifican nuevas especies de aves crípticas en Japón",
+    "url": "https://www.sci.news/biology/phylloscopus-tokaraensis-14629.html",
+    "source": "Sci.News",
+    "published": "2026-03-18T01:47:34.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "ornithologists",
+      "identify",
+      "cryptic"
+    ]
+  },
+  {
+    "title": "Knock knock, no one’s there. Study finds scientists’ jokes mostly fall flat",
+    "title_es": "Toc toc, no hay nadie. Un estudio encuentra que los chistes de los científicos en su mayoría fracasan",
+    "url": "https://www.nature.com/articles/d41586-026-00854-9",
+    "source": "Nature",
+    "published": "2026-03-18T00:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "toc",
+      "toc",
+      "no"
+    ]
+  },
+  {
+    "title": "Wave of Dust Rolls Through Texas",
+    "title_es": "Ola de polvo recorre Texas",
+    "url": "https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-18T00:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "ola",
+      "de",
+      "polvo"
+    ]
+  },
+  {
+    "title": "Platypus fur has a surprising feature seen only in bird feathers",
+    "title_es": "El pelaje del ornitorrinco tiene una característica sorprendente que sólo se ve en las plumas de las aves.",
+    "url": "https://www.sciencenews.org/article/platypus-fur-hollow-like-bird-feather",
+    "source": "Science News",
+    "published": "2026-03-18T00:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "pelaje",
+      "del"
+    ]
+  },
+  {
+    "title": "Scientists just discovered bull sharks have friends",
+    "title_es": "Los científicos acaban de descubrir que los tiburones toro tienen amigos",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260317064436.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-18T00:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "acaban"
+    ]
+  },
+  {
+    "title": "A 'consortium' of bacteria cooperates to eat phthalate plasticizers that single microbes can't stomach",
+    "title_es": "Un 'consorcio' de bacterias coopera para comer plastificantes de ftalato que los microbios por sí solos no pueden digerir",
+    "url": "https://phys.org/news/2026-03-consortium-bacteria-cooperates-phthalate-plasticizers.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-18T00:00:00.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "consorcio",
+      "de"
+    ]
+  },
+  {
+    "title": "JWST reveals a strange sulfur world unlike any planet we know",
+    "title_es": "JWST revela un extraño mundo de azufre diferente a cualquier planeta que conozcamos",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260317190802.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-17T23:13:24.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "jwst",
+      "reveals",
+      "a"
+    ]
+  },
+  {
+    "title": "Social media is a defective product",
+    "title_es": "Las redes sociales son un producto defectuoso",
+    "url": "https://www.newscientist.com/article/2519708-social-media-is-a-defective-product/",
+    "source": "New Scientist",
+    "published": "2026-03-17T16:21:37.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "social",
+      "media",
+      "is"
+    ]
+  },
+  {
+    "title": "Why Insect Farming Startups Are Going Bankrupt",
+    "title_es": "Por qué las nuevas empresas de cría de insectos están en bancarrota",
+    "url": "https://undark.org/2026/03/17/insect-farming-bankrupt/",
+    "source": "Undark Magazine",
+    "published": "2026-03-17T07:10:00.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "insect",
+      "farming"
+    ]
+  },
+  {
     "title": "FMS$^2$: Unified Flow Matching for Segmentation and Synthesis of Thin Structures",
     "title_es": "FMS$^2 $: Unified Flow Matching for Segmentation and Synthesis of Thin Structures",
     "url": "https://arxiv.org/abs/2603.13659",
@@ -67,6 +207,48 @@
       "los",
       "dinosaurios",
       "eclosionaron"
+    ]
+  },
+  {
+    "title": "Demystifing Video Reasoning",
+    "title_es": "Razonamiento en vídeo desmitificador",
+    "url": "http://arxiv.org/abs/2603.16870v1",
+    "source": "arXiv",
+    "published": "2026-03-17T00:00:00.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "razonamiento",
+      "en",
+      "vídeo"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-invita-los-centros-educativos-unirse-al-equal-day-2026-por-la-paz-y-la-igualdad\" hreflang=\"es\">El IAC invita a los centros educativos a unirse al \"Equal Day 2026\" por la paz y la igualdad</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-invita-los-centros-educativos-unirse-al-equal-day-2026-por-la-paz-y-la-igualdad\" hreflang=\"es\">El IAC invita a los centros educativos a unirse al \"Día Igualitario 2026\" por la paz y la igualdad</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-invita-los-centros-educativos-unirse-al-equal-day-2026-por-la-paz-y-la-igualdad",
+    "source": "IAC",
+    "published": "2026-03-17T00:00:00.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasel-iac-invita-los-centros-educativos-unirse-al-equal-day-2026-por-la-paz-y-la-igualdad",
+      "hreflangesel"
+    ]
+  },
+  {
+    "title": "A bonobo’s imaginary tea party hints that apes can pretend",
+    "title_es": "La fiesta de té imaginaria de un bonobo insinúa que los simios pueden fingir",
+    "url": "https://www.snexplores.org/article/kanzi-bonobo-play-pretend",
+    "source": "Science News Explores",
+    "published": "2026-03-17T00:00:00.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "fiesta",
+      "de"
     ]
   },
   {
@@ -221,6 +403,20 @@
       "la",
       "superficie",
       "del"
+    ]
+  },
+  {
+    "title": "LHCb Collaboration discovers new proton-like particle",
+    "title_es": "La colaboración LHCb descubre una nueva partícula similar a un protón",
+    "url": "https://home.cern/news/news/physics/lhcb-collaboration-discovers-new-proton-particle",
+    "source": "CERN News",
+    "published": "2026-03-16T00:00:00.000Z",
+    "date": "2026-03-16",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "colaboración",
+      "lhcb"
     ]
   },
   {
@@ -6690,7 +6886,7 @@
   },
   {
     "title": "Amazon is getting drier as deforestation shuts down atmospheric rivers",
-    "title_es": "La Amazonía se está volviendo más seca a medida que la deforestación cierra los ríos atmosféricos",
+    "title_es": "Amazon is getting drier as deforestation shuts down atmospheric rivers",
     "url": "https://www.newscientist.com/article/2513298-amazon-is-getting-drier-as-deforestation-shuts-down-atmospheric-rivers/",
     "source": "New Scientist",
     "published": "2026-01-27T17:50:19.000Z",
@@ -6704,7 +6900,7 @@
   },
   {
     "title": "Nobel prizewinner Omar Yaghi says his invention will change the world",
-    "title_es": "El premio Nobel Omar Yaghi dice que su invento cambiará el mundo",
+    "title_es": "Nobel prizewinner Omar Yaghi says his invention will change the world",
     "url": "https://www.newscientist.com/article/2511141-nobel-prizewinner-omar-yaghi-says-his-invention-will-change-the-world/",
     "source": "New Scientist",
     "published": "2026-01-27T16:00:26.000Z",
@@ -6718,7 +6914,7 @@
   },
   {
     "title": "As U.S. Hits 1 Year of Measles Spread, Elimination Status at Risk",
-    "title_es": "A medida que Estados Unidos alcanza el primer año de propagación del sarampión, el estado de eliminación está en riesgo",
+    "title_es": "As U.S. Hits 1 Year of Measles Spread, Elimination Status at Risk",
     "url": "https://undark.org/2026/01/27/us-measles-elimination-status/",
     "source": "Undark Magazine",
     "published": "2026-01-27T08:12:00.000Z",
@@ -6732,7 +6928,7 @@
   },
   {
     "title": "TelcoAI: Advancing 3GPP Technical Specification Search through Agentic Multi-Modal Retrieval-Augmented Generation",
-    "title_es": "TelcoAI: Avanzando en la Búsqueda de Especificaciones Técnicas 3GPP a través de la Generación Aumentada de Recuperación Multimodal Agéntica",
+    "title_es": "TelcoAI: Advancing 3GPP Technical Specification Search through Agentic Multi-Modal Retrieval-Augmented Generation",
     "url": "https://arxiv.org/abs/2601.16984",
     "source": "arXiv",
     "published": "2026-01-27T05:00:00.000Z",
@@ -6746,7 +6942,7 @@
   },
   {
     "title": "Paleontologists Unearth New Species of Titanosaur in Argentina",
-    "title_es": "Paleontólogos descubren nuevas especies de titanosaurios en Argentina",
+    "title_es": "Paleontologists Unearth New Species of Titanosaur in Argentina",
     "url": "https://www.sci.news/paleontology/yeneen-houssayi-14510.html",
     "source": "Sci.News",
     "published": "2026-01-27T00:43:46.000Z",
@@ -6830,7 +7026,7 @@
   },
   {
     "title": "Travis Hinson: \"Los que nos dedicamos a la investigación y la medicina tenemos el deber de educar mejor, de ser más honestos, más abiertos y más transparentes\"",
-    "title_es": "Travis Hinson: “Los que nos dedicamos a la investigación y la medicina tenemos el deber de educar mejor, de ser más honestos, más abiertos y más transparentes”",
+    "title_es": "Travis Hinson: \"Los que nos dedicamos a la investigación y la medicina tenemos el deber de educar mejor, de ser más honestos, más abiertos y más transparentes\"",
     "url": "https://www.cnic.es/es/noticias/travis-hinson-que-nos-dedicamos-investigacion-medicina-tenemos-deber-educar-mejor-ser-mas",
     "source": "CNIC",
     "published": "2026-01-27T00:00:00.000Z",
@@ -34918,8 +35114,8 @@
     ]
   },
   {
-    "title": "Correction: Lack of genetic differentiation in yellowfin tuna has conservation implications in the Eastern Pacific Ocean",
-    "title_es": "Corrección: La falta de diferenciación genética en el atún aleta amarilla tiene implicaciones para la conservación en el Océano Pacífico Oriental",
+    "title": "Correction: Neural tube defects: Sex ratio changes after fortification with folic acid",
+    "title_es": "Corrección: Defectos del tubo neural: cambios en la proporción de sexos después de la fortificación con ácido fólico",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -34927,8 +35123,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "la",
-      "falta"
+      "defectos",
+      "del"
     ]
   },
   {
@@ -93902,6 +94098,34 @@
       "the",
       "tadpoles",
       "of"
+    ]
+  },
+  {
+    "title": "Cyclic representations of $U_q(\\hat{\\mathfrak{sl}}_2)$ and its Borel subalgebras at roots of unity and Q-operators, by Robert Weston",
+    "title_es": "Cyclic representations of $U_q(\\hat{\\mathfrak{sl}}_2)$ and its Borel subalgebras at roots of unity and Q-operators, by Robert Weston",
+    "url": "https://scipost.org/scipostphyscore.9.1.016",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cyclic",
+      "representations",
+      "of"
+    ]
+  },
+  {
+    "title": "Cygnus and the Solitary Tree",
+    "title_es": "Cygnus and the Solitary Tree",
+    "url": "https://apod.nasa.gov/apod/image/2603/cygnus_tree_crop.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cygnus",
+      "and",
+      "the"
     ]
   }
 ]
