@@ -1,5 +1,131 @@
 [
   {
+    "title": "Negative Sampling Techniques in Information Retrieval: A Survey",
+    "title_es": "Técnicas de muestreo negativo en la recuperación de información: una encuesta",
+    "url": "https://arxiv.org/abs/2603.18005",
+    "source": "arXiv",
+    "published": "2026-03-20T04:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "negative",
+      "sampling",
+      "techniques"
+    ]
+  },
+  {
+    "title": "Democracy’s Roots Run Far Deeper than Ancient Greece, New Study Says",
+    "title_es": "Las raíces de la democracia son mucho más profundas que la antigua Grecia, según un nuevo estudio",
+    "url": "https://www.sci.news/archaeology/ancient-democracy-14637.html",
+    "source": "Sci.News",
+    "published": "2026-03-20T02:51:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "democracys",
+      "roots",
+      "run"
+    ]
+  },
+  {
+    "title": "Chemical pollutants are rife across the world’s oceans",
+    "title_es": "Los contaminantes químicos abundan en los océanos del mundo",
+    "url": "https://www.nature.com/articles/d41586-026-00850-z",
+    "source": "Nature",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "contaminantes",
+      "químicos"
+    ]
+  },
+  {
+    "title": "Restless Kīlauea Launches Lava and Ash",
+    "title_es": "El inquieto Kīlauea lanza lava y ceniza",
+    "url": "https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "inquieto",
+      "klauea"
+    ]
+  },
+  {
+    "title": "What happens after Ozempic shocked researchers",
+    "title_es": "¿Qué sucede después de que Ozempic sorprendiera a los investigadores?",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260319044648.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "sucede",
+      "después"
+    ]
+  },
+  {
+    "title": "Mind over metal: Staying wary of metal-related toxicities for pets",
+    "title_es": "Mente sobre el metal: tener cuidado con las toxicidades relacionadas con los metales para las mascotas",
+    "url": "https://phys.org/news/2026-03-mind-metal-staying-wary-toxicities.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "mente",
+      "sobre",
+      "el"
+    ]
+  },
+  {
+    "title": "Probiotic cream that ramps up heat production could prevent frostbite",
+    "title_es": "La crema probiótica que aumenta la producción de calor podría prevenir la congelación",
+    "url": "https://www.newscientist.com/article/2520006-probiotic-cream-that-ramps-up-heat-production-could-prevent-frostbite/",
+    "source": "New Scientist",
+    "published": "2026-03-19T17:07:41.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "probiotic",
+      "cream",
+      "that"
+    ]
+  },
+  {
+    "title": "Interview: Sylvia Fogel on Rethinking Autism Research",
+    "title_es": "Entrevista: Sylvia Fogel sobre Rethinking Autism Research",
+    "url": "https://undark.org/2026/03/19/interview-sylvia-fogel-autism/",
+    "source": "Undark Magazine",
+    "published": "2026-03-19T14:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "interview",
+      "sylvia",
+      "fogel"
+    ]
+  },
+  {
+    "title": "The best strength training plan might be simpler than you think",
+    "title_es": "El mejor plan de entrenamiento de fuerza podría ser más simple de lo que crees",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260319074552.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-19T12:09:07.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "best",
+      "strength"
+    ]
+  },
+  {
     "title": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
     "title_es": "Confianza, seguridad y precisión: evaluación de los LLM para obtener consejos de maternidad de rutina",
     "url": "https://arxiv.org/abs/2603.16872",
@@ -53,6 +179,104 @@
       "cambiar",
       "los",
       "hábitos"
+    ]
+  },
+  {
+    "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+    "title_es": "NavTrust: Evaluación comparativa de la confiabilidad para la navegación incorporada",
+    "url": "http://arxiv.org/abs/2603.19229v1",
+    "source": "arXiv",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "navtrust",
+      "evaluación",
+      "comparativa"
+    ]
+  },
+  {
+    "title": "Self-serving “tweaks” hurt science",
+    "title_es": "Los “retoques” interesados ​​perjudican a la ciencia",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aef2215",
+    "source": "Science.org",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "retoques",
+      "interesados"
+    ]
+  },
+  {
+    "title": "Researcher Annalaura Mastrangelo receives the 2026 Young Investigator Award in the Basic Science category",
+    "title_es": "La investigadora Annalaura Mastrangelo recibe el Premio Joven Investigador 2026 en la categoría de Ciencias Básicas",
+    "url": "https://www.cnic.es/es/node/241029",
+    "source": "CNIC",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "researcher",
+      "annalaura",
+      "mastrangelo"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/las-galaxias-enanas-clave-para-entender-los-limites-del-modelo-del-universo\" hreflang=\"es\">Las galaxias enanas, clave para entender los límites del modelo del Universo</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/las-galaxias-enanas-clave-para-entender-los-limites-del-modelo-del-universo\" hreflang=\"es\">Las galaxias enanas, clave para entender los límites del modelo del Universo</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/las-galaxias-enanas-clave-para-entender-los-limites-del-modelo-del-universo",
+    "source": "IAC",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiaslas-galaxias-enanas-clave-para-entender-los-limites-del-modelo-del-universo",
+      "hreflangeslas"
+    ]
+  },
+  {
+    "title": "ATLAS sets strong limits on supersymmetry",
+    "title_es": "ATLAS establece fuertes límites a la supersimetría",
+    "url": "https://home.cern/news/news/physics/atlas-sets-strong-limits-supersymmetry",
+    "source": "CERN News",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "atlas",
+      "establece",
+      "fuertes"
+    ]
+  },
+  {
+    "title": "Earth’s continental plates were moving 3.48 billion years ago",
+    "title_es": "Las placas continentales de la Tierra se movían hace 3.480 millones de años",
+    "url": "https://www.sciencenews.org/article/earth-tectonic-plates-earliest-evidence",
+    "source": "Science News",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "placas",
+      "continentales"
+    ]
+  },
+  {
+    "title": "Large numbers of underage kids are on social media, study finds",
+    "title_es": "Un gran número de niños menores de edad están en las redes sociales, según un estudio",
+    "url": "https://www.snexplores.org/article/underage-kids-social-media-use",
+    "source": "Science News Explores",
+    "published": "2026-03-19T00:00:00.000Z",
+    "date": "2026-03-19",
+    "category": "noticia",
+    "tags": [
+      "un",
+      "gran",
+      "número"
     ]
   },
   {
@@ -6592,7 +6816,7 @@
   },
   {
     "title": "Ellie Tzima: \"Genuine interest and enthusiasm are essential; skills can be learned, motivation cannot\"",
-    "title_es": "Ellie Tzima: \"El interés y el entusiasmo genuinos son esenciales; las habilidades se pueden aprender, la motivación no\"",
+    "title_es": "Ellie Tzima: \"Genuine interest and enthusiasm are essential; skills can be learned, motivation cannot\"",
     "url": "https://www.cnic.es/es/node/239786",
     "source": "CNIC",
     "published": "2026-01-30T00:00:00.000Z",
@@ -6606,7 +6830,7 @@
   },
   {
     "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-y-wikimedia-espana-impulsan-una-editatona-para-visibilizar-las-mujeres-en-la-astronomia-en\" hreflang=\"es\">El IAC y Wikimedia España impulsan una editatona para visibilizar a las mujeres en la Astronomía en Wikipedia</a>",
-    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-y-wikimedia-espana-impulsan-una-editatona-para-visibilizar-las-mujeres-en-la-astronomia-en\" hreflang=\"es\">El IAC y Wikimedia España impulsan una edición para visibilizar a las mujeres en la Astronomía en Wikipedia</a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/el-iac-y-wikimedia-espana-impulsan-una-editatona-para-visibilizar-las-mujeres-en-la-astronomia-en\" hreflang=\"es\">El IAC y Wikimedia España impulsan una editatona para visibilizar a las mujeres en la Astronomía en Wikipedia</a>",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-y-wikimedia-espana-impulsan-una-editatona-para-visibilizar-las-mujeres-en-la-astronomia-en",
     "source": "IAC",
     "published": "2026-01-30T00:00:00.000Z",
@@ -6690,7 +6914,7 @@
   },
   {
     "title": "AI-assisted mammograms cut risk of developing aggressive breast cancer",
-    "title_es": "Las mamografías asistidas por IA reducen el riesgo de desarrollar cáncer de mama agresivo",
+    "title_es": "AI-assisted mammograms cut risk of developing aggressive breast cancer",
     "url": "https://www.newscientist.com/article/2513769-ai-assisted-mammograms-cut-risk-of-developing-aggressive-breast-cancer/",
     "source": "New Scientist",
     "published": "2026-01-29T23:30:54.000Z",
@@ -6704,7 +6928,7 @@
   },
   {
     "title": "At NIH, a Power Struggle Over Institute Directorships Deepens",
-    "title_es": "En los NIH, se profundiza la lucha por el poder en las direcciones de los institutos",
+    "title_es": "At NIH, a Power Struggle Over Institute Directorships Deepens",
     "url": "https://undark.org/2026/01/29/nih-institute-directorships/",
     "source": "Undark Magazine",
     "published": "2026-01-29T08:38:00.000Z",
@@ -6718,7 +6942,7 @@
   },
   {
     "title": "Flexible Bit-Truncation Memory for Approximate Applications on the Edge",
-    "title_es": "Memoria flexible de truncamiento de bits para aplicaciones aproximadas en el borde",
+    "title_es": "Flexible Bit-Truncation Memory for Approximate Applications on the Edge",
     "url": "https://arxiv.org/abs/2601.19900",
     "source": "arXiv",
     "published": "2026-01-29T05:00:00.000Z",
@@ -6886,7 +7110,7 @@
   },
   {
     "title": "This virus infects most of us – but why do only some get very ill?",
-    "title_es": "Este virus nos infecta a la mayoría de nosotros, pero ¿por qué solo algunos se enferman mucho?",
+    "title_es": "This virus infects most of us – but why do only some get very ill?",
     "url": "https://www.newscientist.com/article/2513522-this-virus-infects-most-of-us-but-why-do-only-some-get-very-ill/",
     "source": "New Scientist",
     "published": "2026-01-28T16:00:25.000Z",
@@ -35296,17 +35520,17 @@
     ]
   },
   {
-    "title": "Preparation and application of Taq DNA polymerase monoclonal antibody guided by structural domain analysis",
-    "title_es": "Preparación y aplicación del anticuerpo monoclonal Taq ADN polimerasa guiada por análisis de dominio estructural",
+    "title": "Correction: Optimized real-time path planning for micro UAVs in dynamic environments aided by reciprocal velocity obstacle algorithm",
+    "title_es": "Corrección: planificación de ruta optimizada en tiempo real para micro UAV en entornos dinámicos con la ayuda de un algoritmo de obstáculos de velocidad recíproca",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "preparación",
-      "y",
-      "aplicación"
+      "corrección",
+      "planificación",
+      "de"
     ]
   },
   {
@@ -94336,6 +94560,20 @@
       "launch",
       "plume",
       "spacex"
+    ]
+  },
+  {
+    "title": "Spring Equinox at Teide Observatory",
+    "title_es": "Spring Equinox at Teide Observatory",
+    "url": "https://apod.nasa.gov/apod/image/2603/equinox-3k-jcc_1087c.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "spring",
+      "equinox",
+      "at"
     ]
   }
 ]
