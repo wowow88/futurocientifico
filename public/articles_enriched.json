@@ -1,5 +1,47 @@
 [
   {
+    "title": "Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+    "title_es": "Los científicos convierten las bacterias probióticas en asesinas de cáncer que buscan tumores",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-21T00:00:00.000Z",
+    "date": "2026-03-21",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "científicos",
+      "convierten"
+    ]
+  },
+  {
+    "title": "Addressing the Achilles' heel of marine protected areas",
+    "title_es": "Abordar el talón de Aquiles de las áreas marinas protegidas",
+    "url": "https://phys.org/news/2026-03-achilles-heel-marine-areas.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-21T00:00:00.000Z",
+    "date": "2026-03-21",
+    "category": "noticia",
+    "tags": [
+      "abordar",
+      "el",
+      "talón"
+    ]
+  },
+  {
+    "title": "The Problem With Promoting ‘Gold Standard Science’",
+    "title_es": "El problema con la promoción de la \"ciencia estándar de oro\"",
+    "url": "https://undark.org/2026/03/20/opinion-gold-standard-science/",
+    "source": "Undark Magazine",
+    "published": "2026-03-20T09:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "problem",
+      "with"
+    ]
+  },
+  {
     "title": "Negative Sampling Techniques in Information Retrieval: A Survey",
     "title_es": "Técnicas de muestreo negativo en la recuperación de información: una encuesta",
     "url": "https://arxiv.org/abs/2603.18005",
@@ -81,6 +123,90 @@
       "mente",
       "sobre",
       "el"
+    ]
+  },
+  {
+    "title": "Author Correction: A PP1–PP2A phosphatase relay controls mitotic progression",
+    "title_es": "Corrección del autor: un relé de fosfatasa PP1-PP2A controla la progresión mitótica",
+    "url": "https://www.nature.com/articles/s41586-026-10411-z",
+    "source": "Nature",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
+    "title_es": "Minna Kaikkonen-Määttä: “La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
+    "url": "https://www.cnic.es/es/noticias/minna-kaikkonen-maatta-investigacion-carrera-unica-porque-puedes-vivir-tu-curiosidad",
+    "source": "CNIC",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "minna",
+      "kaikkonen-mtt",
+      "la"
+    ]
+  },
+  {
+    "title": "Más cerca de descifrar TOR, la máquina molecular que nos hace crecer a humanos y levaduras",
+    "title_es": "Más cerca de descifrar TOR, la máquina molecular que nos hace crecer a humanos y levaduras",
+    "url": "https://www.cnio.es/noticias/mas-cerca-de-descifrar-tor-la-maquina-molecular-que-nos-hace-crecer-a-humanos-y-levaduras/",
+    "source": "CNIO",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "más",
+      "cerca",
+      "de"
+    ]
+  },
+  {
+    "title": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
+    "title_es": "El avión supersónico experimental X-59 de la NASA realiza su segundo vuelo",
+    "url": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "avión",
+      "supersónico"
+    ]
+  },
+  {
+    "title": "Amid vaccine policy whiplash, here’s how a pediatrician talks to families",
+    "title_es": "En medio del revuelo de la política de vacunas, así es como un pediatra habla con las familias",
+    "url": "https://www.sciencenews.org/article/vaccine-policy-pediatric-advice-trump",
+    "source": "Science News",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "en",
+      "medio",
+      "del"
+    ]
+  },
+  {
+    "title": "60,000-year-old poison arrowheads show early humans’ hunting tactics",
+    "title_es": "Puntas de flecha envenenadas de 60.000 años de antigüedad muestran las tácticas de caza de los primeros humanos",
+    "url": "https://www.snexplores.org/article/oldest-poison-arrowheads",
+    "source": "Science News Explores",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "puntas",
+      "de",
+      "flecha"
     ]
   },
   {
@@ -3917,6 +4043,20 @@
     ]
   },
   {
+    "title": "ALICE sees new sign of primordial plasma in proton collisions",
+    "title_es": "ALICE ve un nuevo signo de plasma primordial en las colisiones de protones",
+    "url": "https://home.cern/news/news/physics/alice-sees-new-sign-primordial-plasma-proton-collisions",
+    "source": "CERN News",
+    "published": "2026-02-20T15:43:27.000Z",
+    "date": "2026-02-20",
+    "category": "noticia",
+    "tags": [
+      "alice",
+      "sees",
+      "new"
+    ]
+  },
+  {
     "title": "Book Review: The Societal Impact of Genetic Research",
     "title_es": "Reseña del libro: El impacto social de la investigación genética",
     "url": "https://undark.org/2026/02/20/book-review-what-we-inherit/",
@@ -6718,7 +6858,7 @@
   },
   {
     "title": "Cool, Earth-Sized Exoplanet Found Orbiting Nearby Star",
-    "title_es": "Encuentran un exoplaneta del tamaño de la Tierra orbitando una estrella cercana",
+    "title_es": "Cool, Earth-Sized Exoplanet Found Orbiting Nearby Star",
     "url": "https://www.sci.news/astronomy/cool-earth-sized-exoplanet-nearby-star-hd-137010b-14523.html",
     "source": "Sci.News",
     "published": "2026-01-30T23:07:05.000Z",
@@ -6732,7 +6872,7 @@
   },
   {
     "title": "Interview: How Does Violent Pornography Affect Young People?",
-    "title_es": "Entrevista: ¿Cómo afecta la pornografía violenta a los jóvenes?",
+    "title_es": "Interview: How Does Violent Pornography Affect Young People?",
     "url": "https://undark.org/2026/01/30/interview-melissa-de-roos/",
     "source": "Undark Magazine",
     "published": "2026-01-30T08:31:00.000Z",
@@ -6746,7 +6886,7 @@
   },
   {
     "title": "The Noncomputability of Immune Reaction Complexity: Algorithmic Information Gaps under Effective Constraints",
-    "title_es": "La no computabilidad de la complejidad de la reacción inmune: brechas de información algorítmica bajo restricciones efectivas",
+    "title_es": "The Noncomputability of Immune Reaction Complexity: Algorithmic Information Gaps under Effective Constraints",
     "url": "https://arxiv.org/abs/2601.20865",
     "source": "arXiv",
     "published": "2026-01-30T05:00:00.000Z",
@@ -6760,7 +6900,7 @@
   },
   {
     "title": "TESS Observes Interstellar Comet 3I/ATLAS",
-    "title_es": "TESS observa el cometa interestelar 3I/ATLAS",
+    "title_es": "TESS Observes Interstellar Comet 3I/ATLAS",
     "url": "https://www.sci.news/astronomy/tess-interstellar-comet-3i-atlas-14520.html",
     "source": "Sci.News",
     "published": "2026-01-30T01:00:42.000Z",
@@ -35520,17 +35660,17 @@
     ]
   },
   {
-    "title": "Correction: Optimized real-time path planning for micro UAVs in dynamic environments aided by reciprocal velocity obstacle algorithm",
-    "title_es": "Corrección: planificación de ruta optimizada en tiempo real para micro UAV en entornos dinámicos con la ayuda de un algoritmo de obstáculos de velocidad recíproca",
+    "title": "Intrinsic over extrinsic: Species identity shapes spatial and interannual Mg/Ca patterns in Arctic marine calcifiers",
+    "title_es": "Intrínseco sobre extrínseco: la identidad de las especies da forma a los patrones espaciales e interanuales de Mg/Ca en los calcificadores marinos del Ártico",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "planificación",
-      "de"
+      "intrínseco",
+      "sobre",
+      "extrínseco"
     ]
   },
   {
@@ -94574,6 +94714,20 @@
       "spring",
       "equinox",
       "at"
+    ]
+  },
+  {
+    "title": "Galaxies in the River: NGC 1300 and NGC 1297",
+    "title_es": "Galaxies in the River: NGC 1300 and NGC 1297",
+    "url": "https://apod.nasa.gov/apod/image/2603/ngc1300-lrgb_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "galaxies",
+      "in",
+      "the"
     ]
   }
 ]
