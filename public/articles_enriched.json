@@ -1,5 +1,47 @@
 [
   {
+    "title": "Ancient DNA reveals a farming shift that pushed a society to the brink",
+    "title_es": "El ADN antiguo revela un cambio agrícola que llevó a una sociedad al borde del abismo",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260321012642.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-22T00:00:00.000Z",
+    "date": "2026-03-22",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "adn",
+      "antiguo"
+    ]
+  },
+  {
+    "title": "Gender conformity starts young, and boys and girls fall in line in different ways",
+    "title_es": "La conformidad de género comienza desde joven, y los niños y las niñas se alinean de diferentes maneras",
+    "url": "https://phys.org/news/2026-03-gender-conformity-young-boys-girls.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-22T00:00:00.000Z",
+    "date": "2026-03-22",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "conformidad",
+      "de"
+    ]
+  },
+  {
+    "title": "This crocodile ran like a greyhound across prehistoric Britain 200 million years ago",
+    "title_es": "Este cocodrilo corrió como un galgo por la Gran Bretaña prehistórica hace 200 millones de años",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260321012715.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-21T08:57:59.000Z",
+    "date": "2026-03-21",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "crocodile",
+      "ran"
+    ]
+  },
+  {
     "title": "Scientists turn probiotic bacteria into tumor-hunting cancer killers",
     "title_es": "Los científicos convierten las bacterias probióticas en asesinas de cáncer que buscan tumores",
     "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
@@ -25,6 +67,20 @@
       "abordar",
       "el",
       "talón"
+    ]
+  },
+  {
+    "title": "Science and armed conflict",
+    "title_es": "Ciencia y conflicto armado",
+    "url": "https://www.sciencenews.org/article/ed-note-april-2026",
+    "source": "Science News",
+    "published": "2026-03-21T00:00:00.000Z",
+    "date": "2026-03-21",
+    "category": "noticia",
+    "tags": [
+      "ciencia",
+      "y",
+      "conflicto"
     ]
   },
   {
@@ -655,6 +711,20 @@
       "social",
       "media",
       "is"
+    ]
+  },
+  {
+    "title": "A very serious guide to buying your own humanoid robot butler",
+    "title_es": "Una guía muy seria para comprar tu propio mayordomo robot humanoide",
+    "url": "https://www.newscientist.com/article/2517880-a-very-serious-guide-to-buying-your-own-humanoid-robot-butler/",
+    "source": "New Scientist",
+    "published": "2026-03-17T16:00:48.000Z",
+    "date": "2026-03-17",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "very",
+      "serious"
     ]
   },
   {
@@ -6676,7 +6746,7 @@
   },
   {
     "title": "Screen, Match, and Cache: A Training-Free Causality-Consistent Reference Frame Framework for Human Animation",
-    "title_es": "Pantalla, coincidencia y caché: un marco de referencia consistente sin causalidad y sin entrenamiento para la animación humana",
+    "title_es": "Screen, Match, and Cache: A Training-Free Causality-Consistent Reference Frame Framework for Human Animation",
     "url": "https://arxiv.org/abs/2601.22160",
     "source": "arXiv",
     "published": "2026-02-02T05:00:00.000Z",
@@ -6746,7 +6816,7 @@
   },
   {
     "title": "Eropean Heart Journal: Pioneering technique allows the first-in-human repair of defective mechanical heart valves without surgery",
-    "title_es": "Eropean Heart Journal: La técnica pionera permite la primera reparación en humanos de válvulas cardíacas mecánicas defectuosas sin cirugía",
+    "title_es": "Eropean Heart Journal: Pioneering technique allows the first-in-human repair of defective mechanical heart valves without surgery",
     "url": "https://www.cnic.es/es/node/239816",
     "source": "CNIC",
     "published": "2026-02-02T00:00:00.000Z",
@@ -94728,6 +94798,33 @@
       "galaxies",
       "in",
       "the"
+    ]
+  },
+  {
+    "title": "Octet scalars shaping LHC distributions in 4-jet final states, by Bogdan A. Dobrescu, Max H. Fieg",
+    "title_es": "Octet scalars shaping LHC distributions in 4-jet final states, by Bogdan A. Dobrescu, Max H. Fieg",
+    "url": "https://scipost.org/scipostphys.20.3.087",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "octet",
+      "scalars",
+      "shaping"
+    ]
+  },
+  {
+    "title": "Leaving Earth",
+    "title_es": "Leaving Earth",
+    "url": "https://apod.nasa.gov/apod/image/2603/departingearth_messenger.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "leaving",
+      "earth"
     ]
   }
 ]
