@@ -1,5 +1,103 @@
 [
   {
+    "title": "L-PRISMA: An Extension of PRISMA in the Era of Generative Artificial Intelligence (GenAI)",
+    "title_es": "L-PRISMA: Una extensión del PRISMA en la era de la inteligencia artificial generativa (GenAI)",
+    "url": "https://arxiv.org/abs/2603.19236",
+    "source": "arXiv",
+    "published": "2026-03-23T04:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "l-prisma",
+      "an",
+      "extension"
+    ]
+  },
+  {
+    "title": "The world just lived through the 11 hottest years on record — what now?",
+    "title_es": "El mundo acaba de vivir los 11 años más calurosos registrados, ¿y ahora qué?",
+    "url": "https://www.nature.com/articles/d41586-026-00946-6",
+    "source": "Nature",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "mundo",
+      "acaba"
+    ]
+  },
+  {
+    "title": "A Fault Line in Full Bloom",
+    "title_es": "Una línea de falla en pleno florecimiento",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-fault-line-in-full-bloom/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "una",
+      "línea",
+      "de"
+    ]
+  },
+  {
+    "title": "This floating time crystal breaks Newton’s third law of motion",
+    "title_es": "Este cristal del tiempo flotante rompe la tercera ley del movimiento de Newton",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260322020258.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "cristal",
+      "del"
+    ]
+  },
+  {
+    "title": "Neutrality can speed up and stabilize collective decisions, new study shows",
+    "title_es": "La neutralidad puede acelerar y estabilizar las decisiones colectivas, según muestra un nuevo estudio",
+    "url": "https://phys.org/news/2026-03-neutrality-stabilize-decisions.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "neutralidad",
+      "puede"
+    ]
+  },
+  {
+    "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
+    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
+    "source": "Sci.News",
+    "published": "2026-03-22T16:05:37.000Z",
+    "date": "2026-03-22",
+    "category": "noticia",
+    "tags": [
+      "earths",
+      "lithosphere",
+      "was"
+    ]
+  },
+  {
+    "title": "This 67,800-year-old handprint is the oldest art ever found",
+    "title_es": "Esta huella de mano de 67.800 años de antigüedad es el arte más antiguo que se haya encontrado",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260322020300.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-22T09:38:42.000Z",
+    "date": "2026-03-22",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "67800-year-old",
+      "handprint"
+    ]
+  },
+  {
     "title": "Ancient DNA reveals a farming shift that pushed a society to the brink",
     "title_es": "El ADN antiguo revela un cambio agrícola que llevó a una sociedad al borde del abismo",
     "url": "https://www.sciencedaily.com/releases/2026/03/260321012642.htm",
@@ -25,6 +123,20 @@
       "la",
       "conformidad",
       "de"
+    ]
+  },
+  {
+    "title": "‘Madrid es Ciencia 2026’: una feria especial, con la generosidad de siempre",
+    "title_es": "‘Madrid es Ciencia 2026’: una feria especial, con la generosidad de siempre",
+    "url": "https://www.cnio.es/noticias/madrid-es-ciencia-2026-una-feria-especial-con-la-generosidad-de-siempre/",
+    "source": "CNIO",
+    "published": "2026-03-22T00:00:00.000Z",
+    "date": "2026-03-22",
+    "category": "noticia",
+    "tags": [
+      "madrid",
+      "es",
+      "ciencia"
     ]
   },
   {
@@ -224,7 +336,7 @@
     ]
   },
   {
-    "title": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
+    "title": "NASA’s X-59 Experimental Supersonic Aircraft Makes Second Flight",
     "title_es": "El avión supersónico experimental X-59 de la NASA realiza su segundo vuelo",
     "url": "https://www.nasa.gov/missions/quesst/nasas-x-59-experimental-supersonic-aircraft-makes-second-flight/",
     "source": "NASA (Top News)",
@@ -263,6 +375,20 @@
       "puntas",
       "de",
       "flecha"
+    ]
+  },
+  {
+    "title": "From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering",
+    "title_es": "De máscaras a píxeles y significado: una nueva taxonomía, punto de referencia y métricas para la manipulación de imágenes de VLM",
+    "url": "http://arxiv.org/abs/2603.20193v1",
+    "source": "arXiv",
+    "published": "2026-03-20T00:00:00.000Z",
+    "date": "2026-03-20",
+    "category": "noticia",
+    "tags": [
+      "de",
+      "máscaras",
+      "a"
     ]
   },
   {
@@ -473,6 +599,20 @@
       "fluorescent",
       "ruby-like",
       "gems"
+    ]
+  },
+  {
+    "title": "The neuroscientist who wants us to be nicer to psychopaths",
+    "title_es": "El neurocientífico que quiere que seamos más amables con los psicópatas",
+    "url": "https://www.newscientist.com/article/2517138-the-neuroscientist-who-wants-us-to-be-nicer-to-psychopaths/",
+    "source": "New Scientist",
+    "published": "2026-03-18T16:00:08.000Z",
+    "date": "2026-03-18",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "neuroscientist",
+      "who"
     ]
   },
   {
@@ -6592,7 +6732,7 @@
   },
   {
     "title": "New Nanomaterial Design Could Help Solar Tech Harness More Sunlight",
-    "title_es": "El nuevo diseño de nanomateriales podría ayudar a la tecnología solar a aprovechar más la luz solar",
+    "title_es": "New Nanomaterial Design Could Help Solar Tech Harness More Sunlight",
     "url": "https://www.sci.news/othersciences/nanotechnologies/gold-supraballs-14528.html",
     "source": "Sci.News",
     "published": "2026-02-03T02:21:33.000Z",
@@ -6648,7 +6788,7 @@
   },
   {
     "title": "The CNIC launches a call for entries for the exhibition ‘Shared Discovery: Creative Works by Women in Science’",
-    "title_es": "El CNIC lanza una convocatoria para la exposición ‘Shared Discovery: Creative Works by Women in Science’",
+    "title_es": "The CNIC launches a call for entries for the exhibition ‘Shared Discovery: Creative Works by Women in Science’",
     "url": "https://www.cnic.es/es/node/239838",
     "source": "CNIC",
     "published": "2026-02-03T00:00:00.000Z",
@@ -6718,7 +6858,7 @@
   },
   {
     "title": "Ants attack their nest-mates because pollution changes their smell",
-    "title_es": "Las hormigas atacan a sus compañeros de nido porque la contaminación cambia su olor",
+    "title_es": "Ants attack their nest-mates because pollution changes their smell",
     "url": "https://www.newscientist.com/article/2512772-ants-attack-their-nest-mates-because-pollution-changes-their-smell/",
     "source": "New Scientist",
     "published": "2026-02-02T20:00:07.000Z",
@@ -6732,7 +6872,7 @@
   },
   {
     "title": "Transportation Department Plans to Use AI to Write Regulations",
-    "title_es": "El Departamento de Transporte planea usar la IA para redactar regulaciones",
+    "title_es": "Transportation Department Plans to Use AI to Write Regulations",
     "url": "https://undark.org/2026/02/02/dept-transportation-ai-regulations/",
     "source": "Undark Magazine",
     "published": "2026-02-02T08:31:00.000Z",
@@ -94825,6 +94965,20 @@
     "tags": [
       "leaving",
       "earth"
+    ]
+  },
+  {
+    "title": "Light Pillars and Orion over Mohe",
+    "title_es": "Light Pillars and Orion over Mohe",
+    "url": "https://apod.nasa.gov/apod/image/2603/lightpillarsmohe_dai_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "light",
+      "pillars",
+      "and"
     ]
   }
 ]
