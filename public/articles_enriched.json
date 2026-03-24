@@ -1,5 +1,103 @@
 [
   {
+    "title": "Visual Exclusivity Attacks: Automatic Multimodal Red Teaming via Agentic Planning",
+    "title_es": "Ataques de exclusividad visual: formación automática de equipos rojos multimodales a través de la planificación genética",
+    "url": "https://arxiv.org/abs/2603.20198",
+    "source": "arXiv",
+    "published": "2026-03-24T04:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "visual",
+      "exclusivity",
+      "attacks"
+    ]
+  },
+  {
+    "title": "CT Scans Solve Decades-Old Mystery of Triassic Cynodont",
+    "title_es": "Las tomografías computarizadas resuelven el misterio de hace décadas del cinodonte triásico",
+    "url": "https://www.sci.news/paleontology/cistecynodon-parvus-14643.html",
+    "source": "Sci.News",
+    "published": "2026-03-24T00:34:18.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "ct",
+      "scans",
+      "solve"
+    ]
+  },
+  {
+    "title": "Tropical Cyclone Narelle Crosses Australia",
+    "title_es": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "error",
+      "500",
+      "server"
+    ]
+  },
+  {
+    "title": "Women over 50 lost 35% more weight with this surprising combo",
+    "title_es": "Mujeres mayores de 50 años perdieron un 35% más de peso con esta sorprendente combinación",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260323005543.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "mujeres",
+      "mayores",
+      "de"
+    ]
+  },
+  {
+    "title": "Agricultural soils exposed to controversial weedkiller may be unexpected breeding ground for hospital 'superbugs'",
+    "title_es": "Los suelos agrícolas expuestos a un controvertido herbicida pueden ser un caldo de cultivo inesperado para las 'superbacterias' hospitalarias",
+    "url": "https://phys.org/news/2026-03-agricultural-soils-exposed-controversial-weedkiller.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "los",
+      "suelos",
+      "agrícolas"
+    ]
+  },
+  {
+    "title": "Genetic clues tell the story of Neanderthals' decline",
+    "title_es": "Las pistas genéticas cuentan la historia del declive de los neandertales",
+    "url": "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/",
+    "source": "New Scientist",
+    "published": "2026-03-23T19:00:32.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "genetic",
+      "clues",
+      "tell"
+    ]
+  },
+  {
+    "title": "Where There’s Wildfire Smoke, There’s Poor Mental Health",
+    "title_es": "Donde hay humo de incendios forestales, hay mala salud mental",
+    "url": "https://undark.org/2026/03/23/wildfire-smoke-mental-health/",
+    "source": "Undark Magazine",
+    "published": "2026-03-23T07:46:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "where",
+      "theres",
+      "wildfire"
+    ]
+  },
+  {
     "title": "L-PRISMA: An Extension of PRISMA in the Era of Generative Artificial Intelligence (GenAI)",
     "title_es": "L-PRISMA: Una extensión del PRISMA en la era de la inteligencia artificial generativa (GenAI)",
     "url": "https://arxiv.org/abs/2603.19236",
@@ -67,6 +165,76 @@
       "la",
       "neutralidad",
       "puede"
+    ]
+  },
+  {
+    "title": "WorldCache: Content-Aware Caching for Accelerated Video World Models",
+    "title_es": "WorldCache: almacenamiento en caché basado en el contenido para modelos mundiales de vídeo acelerados",
+    "url": "http://arxiv.org/abs/2603.22286v1",
+    "source": "arXiv",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "worldcache",
+      "almacenamiento",
+      "en"
+    ]
+  },
+  {
+    "title": "How the idea of human superiority over nature was invented",
+    "title_es": "Cómo se inventó la idea de la superioridad humana sobre la naturaleza",
+    "url": "https://www.nature.com/articles/d41586-026-00881-6",
+    "source": "Nature",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "se",
+      "inventó"
+    ]
+  },
+  {
+    "title": "<a href=\"https://www.iac.es/es/divulgacion/noticias/alex-oscoz-explica-los-avances-del-departamento-de-espacio-del-iac-en-sonando-estrellas\" hreflang=\"es\">Álex Oscoz explica los avances del Departamento de Espacio del IAC en ‘Soñando Estrellas’ </a>",
+    "title_es": "<a href=\"https://www.iac.es/es/divulgacion/noticias/alex-oscoz-explica-los-avances-del-departamento-de-espacio-del-iac-en-sonando-estrellas\" hreflang=\"es\">Álex Oscoz explica los avances del Departamento de Espacio del IAC en ‘Soñando Estrellas’&nbsp;</a>",
+    "url": "https://www.iac.es/es/divulgacion/noticias/alex-oscoz-explica-los-avances-del-departamento-de-espacio-del-iac-en-sonando-estrellas",
+    "source": "IAC",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "hrefhttpswwwiacesesdivulgacionnoticiasalex-oscoz-explica-los-avances-del-departamento-de-espacio-del-iac-en-sonando-estrellas",
+      "hreflangesálex"
+    ]
+  },
+  {
+    "title": "In a rare event, the moon got a massive new crater",
+    "title_es": "En un caso raro, la luna obtuvo un nuevo cráter enorme",
+    "url": "https://www.sciencenews.org/article/moon-new-crater-nasa-orbiter",
+    "source": "Science News",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "en",
+      "un",
+      "caso"
+    ]
+  },
+  {
+    "title": "Scientists Say: Cave Popcorn",
+    "title_es": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+    "url": "https://www.snexplores.org/article/scientists-say-cave-popcorn-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "error",
+      "500",
+      "server"
     ]
   },
   {
@@ -6676,7 +6844,7 @@
   },
   {
     "title": "Dutch air force reads pilots' brainwaves to make training harder",
-    "title_es": "La fuerza aérea holandesa lee las ondas cerebrales de los pilotos para dificultar el entrenamiento",
+    "title_es": "Dutch air force reads pilots' brainwaves to make training harder",
     "url": "https://www.newscientist.com/article/2510975-dutch-air-force-reads-pilots-brainwaves-to-make-training-harder/",
     "source": "New Scientist",
     "published": "2026-02-03T18:00:49.000Z",
@@ -6690,7 +6858,7 @@
   },
   {
     "title": "Nobel laureate says he'll build world’s most powerful quantum computer",
-    "title_es": "El premio Nobel dice que construirá el ordenador cuántico más potente del mundo",
+    "title_es": "Nobel laureate says he'll build world’s most powerful quantum computer",
     "url": "https://www.newscientist.com/article/2513239-nobel-laureate-says-hell-build-worlds-most-powerful-quantum-computer/",
     "source": "New Scientist",
     "published": "2026-02-03T16:00:11.000Z",
@@ -6704,7 +6872,7 @@
   },
   {
     "title": "How a Croatian Lab Spawned a Buzzy Peptide Now Popular With MAHA",
-    "title_es": "Cómo un laboratorio croata generó un péptido zumbido ahora popular con MAHA",
+    "title_es": "How a Croatian Lab Spawned a Buzzy Peptide Now Popular With MAHA",
     "url": "https://undark.org/2026/02/03/bpc-157-peptide-fda/",
     "source": "Undark Magazine",
     "published": "2026-02-03T07:34:00.000Z",
@@ -6718,7 +6886,7 @@
   },
   {
     "title": "Unifying Adversarial Robustness and Training Across Text Scoring Models",
-    "title_es": "Unificación de la robustez adversarial y la capacitación a través de los modelos de puntuación de texto",
+    "title_es": "Unifying Adversarial Robustness and Training Across Text Scoring Models",
     "url": "https://arxiv.org/abs/2602.00857",
     "source": "arXiv",
     "published": "2026-02-03T05:00:00.000Z",
@@ -35870,17 +36038,17 @@
     ]
   },
   {
-    "title": "Intrinsic over extrinsic: Species identity shapes spatial and interannual Mg/Ca patterns in Arctic marine calcifiers",
-    "title_es": "Intrínseco sobre extrínseco: la identidad de las especies da forma a los patrones espaciales e interanuales de Mg/Ca en los calcificadores marinos del Ártico",
+    "title": "Transcriptional and functional characterization of terpene synthase genes of the aromatic plant Plectranthus hadiensis",
+    "title_es": "Caracterización transcripcional y funcional de genes de terpeno sintasa de la planta aromática <i>Plectranthus hadiensis</i>",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "intrínseco",
-      "sobre",
-      "extrínseco"
+      "caracterización",
+      "transcripcional",
+      "y"
     ]
   },
   {
@@ -94979,6 +95147,34 @@
       "light",
       "pillars",
       "and"
+    ]
+  },
+  {
+    "title": "Quantum teleportation under non-Hermitian operations, by Yangchen Wu, Huangqiuchen Wang, Zihao Li, Yihao Kang, Bo Liu, Lijiong Shen, Zhe Sun",
+    "title_es": "Quantum teleportation under non-Hermitian operations, by Yangchen Wu, Huangqiuchen Wang, Zihao Li, Yihao Kang, Bo Liu, Lijiong Shen, Zhe Sun",
+    "url": "https://scipost.org/scipostphyscore.9.1.017",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "quantum",
+      "teleportation",
+      "under"
+    ]
+  },
+  {
+    "title": "A Gravity Map of Earth",
+    "title_es": "A Gravity Map of Earth",
+    "url": "https://apod.nasa.gov/apod/image/2603/gravityearth_grace_silent.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "a",
+      "gravity",
+      "map"
     ]
   }
 ]
