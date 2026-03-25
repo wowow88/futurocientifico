@@ -1,5 +1,103 @@
 [
   {
+    "title": "Founder effects shape the evolutionary dynamics of multimodality in open LLM families",
+    "title_es": "Los efectos del fundador dan forma a la dinámica evolutiva de la multimodalidad en familias abiertas de LLM",
+    "url": "https://arxiv.org/abs/2603.22287",
+    "source": "arXiv",
+    "published": "2026-03-25T04:00:00.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "founder",
+      "effects",
+      "shape"
+    ]
+  },
+  {
+    "title": "Two Species of Marsupials Thought Lost for 6,000 Years Found Alive in New Guinea",
+    "title_es": "Se cree que dos especies de marsupiales perdidas durante 6.000 años fueron encontradas vivas en Nueva Guinea",
+    "url": "https://www.sci.news/biology/two-marsupials-new-guinea-14648.html",
+    "source": "Sci.News",
+    "published": "2026-03-25T00:47:02.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "two",
+      "species",
+      "of"
+    ]
+  },
+  {
+    "title": "Kona Storms Flood Oʻahu",
+    "title_es": "Su abrigo Storms Flood",
+    "url": "https://science.nasa.gov/earth/earth-observatory/kona-storms-flood-o%ca%bbahu/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-25T00:00:00.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "su",
+      "abrigo",
+      "storms"
+    ]
+  },
+  {
+    "title": "Honey bees dance better with an audience",
+    "title_es": "Las abejas bailan mejor con el público",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260324230105.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-25T00:00:00.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "abejas",
+      "bailan"
+    ]
+  },
+  {
+    "title": "The world's great fish migrations are collapsing. That's a problem for millions of people",
+    "title_es": "Las grandes migraciones de peces del mundo están colapsando. Ese es un problema para millones de personas.",
+    "url": "https://phys.org/news/2026-03-world-great-fish-migrations-collapsing.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-25T00:00:00.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "las",
+      "grandes",
+      "migraciones"
+    ]
+  },
+  {
+    "title": "Earth may have formed from two separate rings around the sun",
+    "title_es": "La Tierra puede haberse formado a partir de dos anillos separados alrededor del sol",
+    "url": "https://www.newscientist.com/article/2520503-earth-may-have-formed-from-two-separate-rings-around-the-sun/",
+    "source": "New Scientist",
+    "published": "2026-03-24T18:00:35.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "earth",
+      "may",
+      "have"
+    ]
+  },
+  {
+    "title": "On the Border, a Billion-Dollar Buoy Experiment",
+    "title_es": "En la frontera, un experimento de boya de mil millones de dólares",
+    "url": "https://undark.org/2026/03/24/border-buoy-experiment/",
+    "source": "Undark Magazine",
+    "published": "2026-03-24T07:16:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "on",
+      "the",
+      "border"
+    ]
+  },
+  {
     "title": "Visual Exclusivity Attacks: Automatic Multimodal Red Teaming via Agentic Planning",
     "title_es": "Ataques de exclusividad visual: formación automática de equipos rojos multimodales a través de la planificación genética",
     "url": "https://arxiv.org/abs/2603.20198",
@@ -67,6 +165,62 @@
       "los",
       "suelos",
       "agrícolas"
+    ]
+  },
+  {
+    "title": "MedObvious: Exposing the Medical Moravec's Paradox in VLMs via Clinical Triage",
+    "title_es": "MedObvious: Exponiendo la paradoja médica de Moravec en VLM mediante triaje clínico",
+    "url": "http://arxiv.org/abs/2603.23501v1",
+    "source": "arXiv",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "medobvious",
+      "exponiendo",
+      "la"
+    ]
+  },
+  {
+    "title": "Author Correction: 7-Dehydrocholesterol is an endogenous suppressor of ferroptosis",
+    "title_es": "Corrección del autor: el 7-deshidrocolesterol es un supresor endógeno de la ferroptosis",
+    "url": "https://www.nature.com/articles/s41586-026-10403-z",
+    "source": "Nature",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "del",
+      "autor"
+    ]
+  },
+  {
+    "title": "Antimatter traveled by truck for the first time",
+    "title_es": "La antimateria viajó por primera vez en camión",
+    "url": "https://www.sciencenews.org/article/antimatter-traveled-truck-delivery-cern",
+    "source": "Science News",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "antimateria",
+      "viajó"
+    ]
+  },
+  {
+    "title": "Ancient pottery shows the earliest evidence of humans doing math",
+    "title_es": "La cerámica antigua muestra la evidencia más temprana de que los humanos hacían matemáticas",
+    "url": "https://www.snexplores.org/article/ancient-pottery-earliest-math",
+    "source": "Science News Explores",
+    "published": "2026-03-24T00:00:00.000Z",
+    "date": "2026-03-24",
+    "category": "noticia",
+    "tags": [
+      "la",
+      "cerámica",
+      "antigua"
     ]
   },
   {
@@ -235,6 +389,20 @@
       "error",
       "500",
       "server"
+    ]
+  },
+  {
+    "title": "BASE experiment at CERN succeeds in transporting antimatter",
+    "title_es": "El experimento BASE del CERN logra transportar antimateria",
+    "url": "https://home.cern/news/press-release/experiments/base-experiment-cern-succeeds-transporting-antimatter",
+    "source": "CERN Press",
+    "published": "2026-03-23T00:00:00.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "el",
+      "experimento",
+      "base"
     ]
   },
   {
@@ -6676,7 +6844,7 @@
   },
   {
     "title": "Nasal spray could prevent infections from any flu strain",
-    "title_es": "El aerosol nasal podría prevenir las infecciones de cualquier cepa de gripe",
+    "title_es": "Nasal spray could prevent infections from any flu strain",
     "url": "https://www.newscientist.com/article/2514199-nasal-spray-could-prevent-infections-from-any-flu-strain/",
     "source": "New Scientist",
     "published": "2026-02-04T19:00:12.000Z",
@@ -6690,7 +6858,7 @@
   },
   {
     "title": "The Unlikely New Director of U.S. Environmental Health Research",
-    "title_es": "El improbable nuevo director de Investigación de Salud Ambiental de EE. UU.",
+    "title_es": "The Unlikely New Director of U.S. Environmental Health Research",
     "url": "https://undark.org/2026/02/04/nih-environmental-health-walsh/",
     "source": "Undark Magazine",
     "published": "2026-02-04T08:55:00.000Z",
@@ -6704,7 +6872,7 @@
   },
   {
     "title": "The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders",
-    "title_es": "La brecha de la hipocresía: cuantificación de la divergencia entre la creencia interna y la explicación de la cadena de pensamiento a través de autocodificadores dispersos",
+    "title_es": "The Hypocrisy Gap: Quantifying Divergence Between Internal Belief and Chain-of-Thought Explanation via Sparse Autoencoders",
     "url": "https://arxiv.org/abs/2602.02496",
     "source": "arXiv",
     "published": "2026-02-04T05:00:00.000Z",
@@ -6718,7 +6886,7 @@
   },
   {
     "title": "Giant Pythons Once Lived in Taiwan",
-    "title_es": "Las pitones gigantes vivieron en Taiwán",
+    "title_es": "Giant Pythons Once Lived in Taiwan",
     "url": "https://www.sci.news/paleontology/taiwan-pythons-14533.html",
     "source": "Sci.News",
     "published": "2026-02-04T02:03:44.000Z",
@@ -36038,17 +36206,17 @@
     ]
   },
   {
-    "title": "Transcriptional and functional characterization of terpene synthase genes of the aromatic plant Plectranthus hadiensis",
-    "title_es": "Caracterización transcripcional y funcional de genes de terpeno sintasa de la planta aromática <i>Plectranthus hadiensis</i>",
+    "title": "Incidence of critical events in the post-anesthesia care unit at a resource-limited setting in Debre Markos, Northwest Ethiopia",
+    "title_es": "Incidencia de eventos críticos en la unidad de cuidados postanestésicos en un entorno de recursos limitados en Debre Markos, noroeste de Etiopía",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "caracterización",
-      "transcripcional",
-      "y"
+      "incidencia",
+      "de",
+      "eventos"
     ]
   },
   {
@@ -95175,6 +95343,34 @@
       "a",
       "gravity",
       "map"
+    ]
+  },
+  {
+    "title": "Spin-orbital magnetism in moiré Wigner molecules, by Ahmed Khalifa, Rokas Veitas, Francisco Machado, Shubhayu Chatterjee",
+    "title_es": "Spin-orbital magnetism in moiré Wigner molecules, by Ahmed Khalifa, Rokas Veitas, Francisco Machado, Shubhayu Chatterjee",
+    "url": "https://scipost.org/scipostphys.20.3.090",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "spin-orbital",
+      "magnetism",
+      "in"
+    ]
+  },
+  {
+    "title": "The Guardians of Rapa Nui beneath the Milky Way",
+    "title_es": "The Guardians of Rapa Nui beneath the Milky Way",
+    "url": "https://apod.nasa.gov/apod/image/2603/rapa_nui_milky_way_1024.jpeg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "the",
+      "guardians",
+      "of"
     ]
   }
 ]
