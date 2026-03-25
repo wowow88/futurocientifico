@@ -8,6 +8,17 @@
 import fs from 'fs';
 import path from 'path';
 
+const cleanText = (text = '') => {
+  return text
+    .replace(/<[^>]*>/g, '')        // elimina HTML
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+};
+
 // Permite ajustar rutas por ENV, con default compatibles con tu proyecto actual
 const IN_PATH  = process.env.ARTICLES_IN  || './public/articles.json';
 const OUT_PATH = process.env.ARTICLES_OUT || './public/articles_enriched.json';
@@ -60,8 +71,8 @@ const articles = JSON.parse(raw);
 // === Transformación ===
 const cleaned = articles.map((a) => {
   // Campos base
-  const title     = (a.title || '').trim();
-  const title_es  = (a.title_es || '').trim();
+  const title = cleanText(a.title || '');
+  const title_es = cleanText(a.title_es || '');
   const url       = normUrl(a.url || a.link || '');
   const source    = (a.source || '').trim();
 
