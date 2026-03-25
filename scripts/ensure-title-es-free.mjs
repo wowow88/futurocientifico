@@ -5,6 +5,23 @@
 import fs from 'fs';
 import path from 'path';
 
+function isBadTranslation(text = '') {
+  const t = text.toLowerCase();
+
+  if (!t) return true;
+
+  // errores típicos de APIs
+  if (t.includes('error 500') || t.includes('server error') || t.includes('try again later')) return true;
+
+  // HTML residual
+  if (t.includes('<a') || t.includes('href=')) return true;
+
+  // demasiado raro (heurística simple)
+  if (t.length < 3) return true;
+
+  return false;
+}
+
 // Entradas / salidas
 const IN_PATH  = process.env.ARTICLES_IN  || 'public/articles_enriched.json';
 const OUT_PATH = process.env.ARTICLES_OUT || IN_PATH;
@@ -151,7 +168,7 @@ for (const it of items) {
   if (mmFirst) {
     let r = await translateWithMyMemory(text);
     if (r.ok && r.text) {
-      item.title_es = r.text; translated++; byMM++;
+      if (!isBadTranslation(r.text)) {   item.title_es = r.text; } else {   console.warn('❌ Traducción descartada:', r.text); } translated++; byMM++;
       if (r.same) {
         const r2 = await translateWithLibre(text);
         if (r2.ok && r2.text && !r2.same) { item.title_es = r2.text; byLibre++; }
@@ -165,12 +182,18 @@ for (const it of items) {
     const r2 = await translateWithLibre(text);
     if (r2.ok && r2.text && !r2.same) { item.title_es = r2.text; translated++; byLibre++; out.push(item); await sleep(SLEEP_MS); continue; }
     const r = await translateWithMyMemory(text);
-    if (r.ok && r.text) { item.title_es = r.text; translated++; byMM++; out.push(item); await sleep(SLEEP_MS); continue; }
+    if (r.ok && r.text) { if (!isBadTranslation(r.text)) {   item.title_es = r.text; } else {   console.warn('❌ Traducción descartada:', r.text); } translated++; byMM++; out.push(item); await sleep(SLEEP_MS); continue; }
   }
 
-  if (!item.title_es) item.title_es = item.title || '';
-  unchanged++; out.push(item); await sleep(SLEEP_MS);
-}
+// 🔒 Fallback seguro (anti-basura)
+  if (!item.title_es || isBadTranslation(item.title_es)) {
+    item.title_es = item.title || '';
+  }
+
+    unchanged++;
+    out.push(item);
+    await sleep(SLEEP_MS);
+  }
 
 // Guardado
 fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
