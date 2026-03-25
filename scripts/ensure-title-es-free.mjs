@@ -22,6 +22,11 @@ function isBadTranslation(text = '') {
   return false;
 }
 
+function applyTranslation(item, text) {
+  if (!text || isBadTranslation(text)) return false;
+  item.title_es = text.trim();
+  return true;
+}
 // Entradas / salidas
 const IN_PATH  = process.env.ARTICLES_IN  || 'public/articles_enriched.json';
 const OUT_PATH = process.env.ARTICLES_OUT || IN_PATH;
@@ -168,21 +173,64 @@ for (const it of items) {
   if (mmFirst) {
     let r = await translateWithMyMemory(text);
     if (r.ok && r.text) {
-      if (!isBadTranslation(r.text)) {   item.title_es = r.text; } else {   console.warn('❌ Traducción descartada:', r.text); } translated++; byMM++;
-      if (r.same) {
-        const r2 = await translateWithLibre(text);
-        if (r2.ok && r2.text && !r2.same) { item.title_es = r2.text; byLibre++; }
-        else unchanged++;
-      }
-      out.push(item); await sleep(SLEEP_MS); continue;
+  const applied = applyTranslation(item, r.text);
+
+  if (applied) {
+    translated++;
+    byMM++;
+  } else {
+    console.warn('❌ Traducción MyMemory descartada:', r.text);
+  }
+
+  if ((!applied || r.same) && LIBRE_ENDPOINT) {
+    const r2 = await translateWithLibre(text);
+    const appliedLibre = r2.ok && r2.text && !r2.same && applyTranslation(item, r2.text);
+
+    if (appliedLibre) {
+      translated++;
+      byLibre++;
+    }
+  }
+
+  if (!item.title_es || isBadTranslation(item.title_es)) {
+    item.title_es = item.title || '';
+    unchanged++;
+  }
+
+  out.push(item);
+  await sleep(SLEEP_MS);
+  continue;
+}
     }
     const r2 = await translateWithLibre(text);
-    if (r2.ok && r2.text) { item.title_es = r2.text; translated++; byLibre++; out.push(item); await sleep(SLEEP_MS); continue; }
+if (r2.ok && r2.text && applyTranslation(item, r2.text)) {
+  translated++;
+  byLibre++;
+  out.push(item);
+  await sleep(SLEEP_MS);
+  continue;
+}
   } else {
     const r2 = await translateWithLibre(text);
-    if (r2.ok && r2.text && !r2.same) { item.title_es = r2.text; translated++; byLibre++; out.push(item); await sleep(SLEEP_MS); continue; }
+if (r2.ok && r2.text && !r2.same && applyTranslation(item, r2.text)) {
+  translated++;
+  byLibre++;
+  out.push(item);
+  await sleep(SLEEP_MS);
+  continue;
+}
     const r = await translateWithMyMemory(text);
-    if (r.ok && r.text) { if (!isBadTranslation(r.text)) {   item.title_es = r.text; } else {   console.warn('❌ Traducción descartada:', r.text); } translated++; byMM++; out.push(item); await sleep(SLEEP_MS); continue; }
+    if (r.ok && r.text && applyTranslation(item, r.text)) {
+      translated++;
+      byMM++;
+      out.push(item);
+      await sleep(SLEEP_MS);
+      continue;
+}
+
+if (r.ok && r.text) {
+  console.warn('❌ Traducción MyMemory descartada:', r.text);
+}continue; }
   }
 
 // 🔒 Fallback seguro (anti-basura)
