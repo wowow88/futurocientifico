@@ -1,5 +1,117 @@
 [
   {
+    "title": "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
+    "title_es": "Model2Kernel: Ejecución simbólica consciente del modelo para núcleos CUDA seguros",
+    "url": "https://arxiv.org/abs/2603.24595",
+    "source": "arXiv",
+    "published": "2026-03-27T04:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "model2kernel",
+      "model-aware",
+      "symbolic"
+    ]
+  },
+  {
+    "title": "Vitamin D Shows Promise in Resetting Immune System in Inflammatory Bowel Disease",
+    "title_es": "La vitamina D promete restablecer el sistema inmunitario en la enfermedad inflamatoria intestinal",
+    "url": "https://www.sci.news/medicine/vitamin-d-inflammatory-bowel-disease-14652.html",
+    "source": "Sci.News",
+    "published": "2026-03-27T00:14:39.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "vitamin",
+      "shows",
+      "promise"
+    ]
+  },
+  {
+    "title": "Huge lung-cancer screening campaign boosts early diagnosis",
+    "title_es": "Una enorme campaña de detección del cáncer de pulmón impulsa el diagnóstico precoz",
+    "url": "https://www.nature.com/articles/d41586-026-00954-6",
+    "source": "Nature",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "enorme",
+      "campaña",
+      "detección"
+    ]
+  },
+  {
+    "title": "Satellite Spots a Spawn",
+    "title_es": "El satélite detecta un engendro",
+    "url": "https://science.nasa.gov/earth/earth-observatory/satellite-spots-a-spawn/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "satélite",
+      "detecta",
+      "engendro"
+    ]
+  },
+  {
+    "title": "Scientists uncovered the nutrients bees were missing — Colonies surged 15-fold",
+    "title_es": "Los científicos descubrieron los nutrientes que les faltaban a las abejas: las colonias se multiplicaron por 15",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260327000518.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubrieron",
+      "nutrientes"
+    ]
+  },
+  {
+    "title": "From simulation to strategy: Climate modeling motivates action at the top",
+    "title_es": "De la simulación a la estrategia: la modelización climática motiva la acción en las altas esferas",
+    "url": "https://phys.org/news/2026-03-simulation-strategy-climate-action.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "simulación",
+      "estrategia",
+      "modelización"
+    ]
+  },
+  {
+    "title": "First glimpse of sperm whale birth reveals teamwork to support newborn",
+    "title_es": "El primer vistazo al nacimiento del cachalote revela el trabajo en equipo para apoyar al recién nacido",
+    "url": "https://www.newscientist.com/article/2521103-first-glimpse-of-sperm-whale-birth-reveals-teamwork-to-support-newborn/",
+    "source": "New Scientist",
+    "published": "2026-03-26T18:00:42.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "glimpse",
+      "sperm"
+    ]
+  },
+  {
+    "title": "Science Communication Is Central to the Practice of Science",
+    "title_es": "La comunicación científica es fundamental para la práctica de la ciencia",
+    "url": "https://undark.org/2026/03/26/opinion-science-communication-essential/",
+    "source": "Undark Magazine",
+    "published": "2026-03-26T07:52:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "science",
+      "communication",
+      "central"
+    ]
+  },
+  {
     "title": "Optimal Unlabeled Pebble Motion on Trees and its Application to Multi-Agent Path Finding",
     "title_es": "Movimiento óptimo de guijarros sin etiquetar en los árboles y su aplicación a la búsqueda de caminos de múltiples agentes",
     "url": "https://arxiv.org/abs/2603.23503",
@@ -84,6 +196,76 @@
     ]
   },
   {
+    "title": "Vega: Learning to Drive with Natural Language Instructions",
+    "title_es": "Vega: aprender a conducir con instrucciones en lenguaje natural",
+    "url": "http://arxiv.org/abs/2603.25741v1",
+    "source": "arXiv",
+    "published": "2026-03-26T00:00:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "vega",
+      "aprender",
+      "conducir"
+    ]
+  },
+  {
+    "title": "When disease resists diagnosis",
+    "title_es": "Cuando la enfermedad se resiste al diagnóstico",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aef7086",
+    "source": "Science.org",
+    "published": "2026-03-26T00:00:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "cuando",
+      "enfermedad",
+      "resiste"
+    ]
+  },
+  {
+    "title": "Accelerator Report: HiLumi LHC beam reliability runs pave the way to the future",
+    "title_es": "Informe del acelerador: las pruebas de confiabilidad del haz del HiLumi LHC allanan el camino hacia el futuro",
+    "url": "https://home.cern/news/news/accelerators/accelerator-report-hilumi-lhc-beam-reliability-runs-pave-way-future",
+    "source": "CERN News",
+    "published": "2026-03-26T00:00:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "informe",
+      "acelerador",
+      "pruebas"
+    ]
+  },
+  {
+    "title": "Watch the first video of a sperm whale birth captured by scientists",
+    "title_es": "Mire el primer video del nacimiento de un cachalote captado por científicos",
+    "url": "https://www.sciencenews.org/article/first-video-sperm-whale-birth",
+    "source": "Science News",
+    "published": "2026-03-26T00:00:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "mire",
+      "primer",
+      "video"
+    ]
+  },
+  {
+    "title": "Rockin’ farm fields suck up tons of CO2",
+    "title_es": "Los campos agrícolas rockeros absorben toneladas de CO2",
+    "url": "https://www.snexplores.org/article/rock-basalt-farm-fields-co2-climate",
+    "source": "Science News Explores",
+    "published": "2026-03-26T00:00:00.000Z",
+    "date": "2026-03-26",
+    "category": "noticia",
+    "tags": [
+      "campos",
+      "agrícolas",
+      "rockeros"
+    ]
+  },
+  {
     "title": "Meta and YouTube fined $3 million for harming mental health",
     "title_es": "Meta y YouTube multados con $ 3 millones por dañar la salud mental",
     "url": "https://www.newscientist.com/article/2521032-meta-and-youtube-fined-3-million-for-harming-mental-health/",
@@ -95,6 +277,20 @@
       "meta",
       "youtube",
       "fined"
+    ]
+  },
+  {
+    "title": "Computer Security: [Pen|Pan|Pant]testing",
+    "title_es": "Seguridad informática: [Pen|Pan|Pant]pruebas",
+    "url": "https://home.cern/news/news/computing/computer-security-penpanpanttesting",
+    "source": "CERN News",
+    "published": "2026-03-25T18:07:06.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "computer",
+      "security",
+      "penpanpanttesting"
     ]
   },
   {
@@ -6576,7 +6772,7 @@
   },
   {
     "title": "Cronología de nuestra Galaxia con ajuste de diagramas color-magnitude de Gaia (ChronoGal): II. Desvelando la formación y evolución de los discos grueso y delgado seleccionados cinemáticamente",
-    "title_es": "Cronología de nuestra Galaxia con ajuste de diagramas color-magnitud de Gaia (ChronoGal): II. Desvelando la formación y evolución de los discos gruesos y delgado seleccionados cinemáticamente",
+    "title_es": "Cronología de nuestra Galaxia con ajuste de diagramas color-magnitude de Gaia (ChronoGal): II. Desvelando la formación y evolución de los discos grueso y delgado seleccionados cinemáticamente",
     "url": "https://www.iac.es/es/divulgacion/noticias/cronologia-de-nuestra-galaxia-con-ajuste-de-diagramas-color-magnitude-de-gaia-chronogal-ii-desvelando",
     "source": "IAC",
     "published": "2026-02-09T00:00:00.000Z",
@@ -6604,7 +6800,7 @@
   },
   {
     "title": "Webb Detects Unexpected Richness of Hydrocarbons in Obscured Core of Nearby Ultra-Luminous Galaxy",
-    "title_es": "Webb detecta una riqueza inesperada de hidrocarburos en el núcleo oscurecido de la galaxia ultraluminosa cercana",
+    "title_es": "Webb Detects Unexpected Richness of Hydrocarbons in Obscured Core of Nearby Ultra-Luminous Galaxy",
     "url": "https://www.sci.news/astronomy/webb-hydrocarbons-obscured-core-nearby-ultra-luminous-galaxy-14540.html",
     "source": "Sci.News",
     "published": "2026-02-08T15:44:58.000Z",
@@ -6688,7 +6884,7 @@
   },
   {
     "title": "Weakening ice shelf has caused crucial Antarctic glacier to accelerate",
-    "title_es": "El debilitamiento de la plataforma de hielo ha provocado una aceleración crucial del glaciar antártico",
+    "title_es": "Weakening ice shelf has caused crucial Antarctic glacier to accelerate",
     "url": "https://www.newscientist.com/article/2514697-weakening-ice-shelf-has-caused-crucial-antarctic-glacier-to-accelerate/",
     "source": "New Scientist",
     "published": "2026-02-06T18:00:18.000Z",
@@ -6702,7 +6898,7 @@
   },
   {
     "title": "An Effort to Ease Water Pollution With Oysters Fizzled. Why?",
-    "title_es": "Un esfuerzo para aliviar la contaminación del agua con ostras fracasó. ¿Por qué?",
+    "title_es": "An Effort to Ease Water Pollution With Oysters Fizzled. Why?",
     "url": "https://undark.org/2026/02/06/oysters-water-pollution-program/",
     "source": "Undark Magazine",
     "published": "2026-02-06T08:20:00.000Z",
@@ -36396,17 +36592,17 @@
     ]
   },
   {
-    "title": "Correction: Monitoring of Cd and GSH contents and Bn-OASTL expression in transgenic tobacco seedlings in response to Cd stress",
-    "title_es": "Corrección: Monitoreo de los contenidos de Cd y GSH y la expresión de Bn-OASTL en plántulas de tabaco transgénico en respuesta al estrés por Cd",
+    "title": "Knowledge, attitudes and practices towards emergency contraceptive pill use among women of reproductive age in Lira District, Northern Uganda: A cross-sectional study",
+    "title_es": "Conocimientos, actitudes y prácticas hacia el uso de píldoras anticonceptivas de emergencia entre mujeres en edad reproductiva en el distrito de Lira, norte de Uganda: un estudio transversal",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "monitoreo",
-      "contenidos"
+      "conocimientos",
+      "actitudes",
+      "prácticas"
     ]
   },
   {
@@ -95571,6 +95767,33 @@
       "black",
       "holes",
       "neutron"
+    ]
+  },
+  {
+    "title": "Multiverse analysis of the effect of a non-deceptive placebo on a neural measure of emotional distress, by Hannah E. Fowles, Peter J. Allen",
+    "title_es": "Multiverse analysis of the effect of a non-deceptive placebo on a neural measure of emotional distress, by Hannah E. Fowles, Peter J. Allen",
+    "url": "https://scipost.org/jrobustrep.3-rr1",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "multiverse",
+      "analysis",
+      "effect"
+    ]
+  },
+  {
+    "title": "Hickson 44 in Leo",
+    "title_es": "Hickson 44 in Leo",
+    "url": "https://apod.nasa.gov/apod/image/2603/ngc3190-apod1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "hickson",
+      "leo"
     ]
   }
 ]
