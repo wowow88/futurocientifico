@@ -7,6 +7,7 @@ import path from "node:path";
 
 const PER_PAGE = 5;
 const JSON_PATH = path.join(process.cwd(), "public", "articles_enriched.json");
+const DISCOVERY_JSON_PATH = path.join(process.cwd(), "public", "discovery_weekly.json");
 
 let allArticles = [];
 try {
@@ -17,14 +18,24 @@ try {
   allArticles = [];
 }
 
+let weeklyDiscovery = null;
+try {
+  const rawDiscovery = await fs.readFile(DISCOVERY_JSON_PATH, "utf-8");
+  const parsedDiscovery = JSON.parse(rawDiscovery);
+  weeklyDiscovery = parsedDiscovery && typeof parsedDiscovery === "object" ? parsedDiscovery : null;
+} catch {
+  weeklyDiscovery = null;
+}
+
 allArticles = allArticles
   .filter((article) => article?.category === "noticia")
   .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
 
 const initialArticles = allArticles.slice(0, PER_PAGE);
+
 const formatDateES = (value) => {
   if (!value) return "";
-  const iso = String(value).slice(0, 10); // "YYYY-MM-DD"
+  const iso = String(value).slice(0, 10);
   const parts = iso.split("-");
   if (parts.length === 3) {
     const [y, m, d] = parts;
@@ -32,7 +43,6 @@ const formatDateES = (value) => {
   }
   return "";
 };
-
 ---
 
 <Layout>
@@ -43,6 +53,7 @@ const formatDateES = (value) => {
     canonical="https://futurocientifico.es/revistas"
     ogImage="/avatar-cientifico.webp"
   />
+
   <section class="bg-purple-50 p-6 rounded-xl shadow-sm text-center mb-8">
     <h1 class="text-3xl font-bold text-purple-800">Revistas Científicas</h1>
     <p class="mt-2 text-purple-700 text-sm max-w-xl mx-auto">
@@ -50,19 +61,66 @@ const formatDateES = (value) => {
     </p>
   </section>
 
-  <!-- Últimos artículos (alternados) -->
+  {weeklyDiscovery && (
+    <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
+      <div class="bg-white rounded-xl p-6 shadow-md">
+        <div class="flex items-center gap-2 mb-3 flex-wrap">
+          <span class="inline-flex items-center rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">
+            🧪 Descubrimiento de la semana
+          </span>
+          {weeklyDiscovery?.source && (
+            <span class="text-sm text-purple-700 font-medium">
+              {weeklyDiscovery.source}
+            </span>
+          )}
+          {weeklyDiscovery?.date && (
+            <span class="text-sm text-gray-500">
+              | {formatDateES(weeklyDiscovery.date)}
+            </span>
+          )}
+        </div>
+
+        <h2 class="text-2xl md:text-3xl font-bold text-purple-900 mb-3">
+          {weeklyDiscovery?.title_es ?? weeklyDiscovery?.title_en ?? "Descubrimiento destacado"}
+        </h2>
+
+        {weeklyDiscovery?.description_es && (
+          <p class="text-purple-700 max-w-3xl mb-4">
+            {weeklyDiscovery.description_es}
+          </p>
+        )}
+
+        <div class="flex flex-wrap items-center gap-3">
+          <a
+            href={weeklyDiscovery?.pdf || weeklyDiscovery?.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow"
+          >
+            Abrir publicación
+          </a>
+
+          {weeklyDiscovery?.doi && (
+            <span class="text-sm text-gray-600 break-all">
+              DOI: {weeklyDiscovery.doi}
+            </span>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
   <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start" id="articles-block">
       <div id="article-info" class="space-y-4">
         <h2 class="text-2xl font-bold text-purple-900">🧪 Artículos recientes</h2>
-          <p class="text-purple-700">
-            Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente de fuentes fiables como 
-            <strong>arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong>, <strong>ScienceDaily</strong>, <strong>Phys.org</strong>, <strong>PNAS</strong>, <strong>PLOS ONE</strong>, <strong>Science News</strong>, <strong>Science News Explores</strong>, <strong>New Scientist</strong>, <strong>Live Science</strong>, <strong>Sci.News</strong>, <strong>Undark Magazine</strong>, <strong>SciPost</strong>, <strong>NASA</strong>, <strong>ESA</strong>, <strong>CERN</strong>, <strong>NIH</strong> y <strong>NCI</strong>, así como medios en español como 
-            <strong>CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong>, <strong>ISCIII</strong> e <strong>IEO</strong>.
-          </p>
+        <p class="text-purple-700">
+          Esta sección presenta noticias científicas actualizadas a diario, recopiladas automáticamente de fuentes fiables como
+          <strong> arXiv</strong>, <strong>Nature</strong>, <strong>Science.org</strong>, <strong>PubMed</strong>, <strong>ScienceDaily</strong>, <strong>Phys.org</strong>, <strong>PNAS</strong>, <strong>PLOS ONE</strong>, <strong>Science News</strong>, <strong>Science News Explores</strong>, <strong>New Scientist</strong>, <strong>Live Science</strong>, <strong>Sci.News</strong>, <strong>Undark Magazine</strong>, <strong>SciPost</strong>, <strong>NASA</strong>, <strong>ESA</strong>, <strong>CERN</strong>, <strong>NIH</strong> y <strong>NCI</strong>, así como medios en español como
+          <strong> CNIO</strong>, <strong>CNIC</strong>, <strong>AEMET</strong>, <strong>IAC</strong>, <strong>ISCIII</strong> e <strong>IEO</strong>.
+        </p>
       </div>
 
-      <!-- Render inicial (SSG/SSR) -->
       {initialArticles.map((article) => {
         const title = article?.title_es ?? article?.title ?? "Artículo científico";
         const source = article?.source ?? "Fuente";
@@ -80,7 +138,7 @@ const formatDateES = (value) => {
               rel="noopener noreferrer"
               class="text-blue-700 hover:underline block mt-2"
             >
-              Leer PDF
+              Abrir publicación
             </a>
           </div>
         );
@@ -94,192 +152,187 @@ const formatDateES = (value) => {
     </div>
 
     <script type="module">
-  const grid = document.querySelector('#articles-block');
-  const info = document.querySelector('#article-info');
-  const button = document.querySelector('#loadMore');
+      const grid = document.querySelector('#articles-block');
+      const button = document.querySelector('#loadMore');
 
-  const perPage = 5;
-  let currentPage = 2; // 1ª página = 0..4
-  let allArticles = [];
+      const perPage = 5;
+      let currentPage = 2;
+      let allArticles = [];
 
-  function clearCardsKeepInfo() {
-    // Deja solo el bloque informativo (#article-info) y borra las cards SSR
-    while (grid.children.length > 1) grid.removeChild(grid.lastElementChild);
-  }
+      function clearCardsKeepInfo() {
+        while (grid.children.length > 1) grid.removeChild(grid.lastElementChild);
+      }
 
-  function renderCard(article) {
-    const title = article.title_es || article.title || 'Artículo científico';
-    const date = article.date ? (() => {
-      const iso = String(article.date).slice(0, 10);
-      const [y, m, d] = iso.split("-");
-      return (y && m && d) ? `${d}/${m}/${y}` : '';
-    })() : '';
-    const href = article.pdf || article.url || '#';
+      function renderCard(article) {
+        const title = article.title_es || article.title || 'Artículo científico';
+        const date = article.date ? (() => {
+          const iso = String(article.date).slice(0, 10);
+          const [y, m, d] = iso.split("-");
+          return (y && m && d) ? `${d}/${m}/${y}` : '';
+        })() : '';
+        const href = article.pdf || article.url || '#';
 
-    const html = `
-      <div class='bg-white rounded-xl p-4 shadow-md'>
-        <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
-        <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
-        <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Leer PDF</a>
-      </div>`;
-    grid.insertAdjacentHTML('beforeend', html);
-  }
+        const html = `
+          <div class='bg-white rounded-xl p-4 shadow-md'>
+            <h3 class='text-xl font-semibold text-blue-900'>${title}</h3>
+            <p class='text-gray-600 text-sm mb-2'>${article.source || 'Fuente'}${date ? ` | ${date}` : ''}</p>
+            <a href='${href}' target='_blank' rel='noopener noreferrer' class='text-blue-700 hover:underline block mt-2'>Abrir publicación</a>
+          </div>`;
+        grid.insertAdjacentHTML('beforeend', html);
+      }
 
-  function renderFirstPage() {
-    clearCardsKeepInfo();
-    allArticles.slice(0, perPage).forEach(renderCard);
-    currentPage = 2;
-  }
+      function renderFirstPage() {
+        clearCardsKeepInfo();
+        allArticles.slice(0, perPage).forEach(renderCard);
+        currentPage = 2;
+      }
 
-  function renderPage() {
-    const start = (currentPage - 1) * perPage;
-    const end = start + perPage;
-    allArticles.slice(start, end).forEach(renderCard);
+      function renderPage() {
+        const start = (currentPage - 1) * perPage;
+        const end = start + perPage;
+        allArticles.slice(start, end).forEach(renderCard);
 
-    currentPage++;
-    if ((currentPage - 1) * perPage >= allArticles.length) button.classList.add('hidden');
-  }
+        currentPage++;
+        if ((currentPage - 1) * perPage >= allArticles.length) button.classList.add('hidden');
+      }
 
-  fetch('/articles_enriched.json')
-    .then(res => res.json())
-    .then(data => {
-      allArticles = (Array.isArray(data) ? data : [])
-        .filter(article => article?.category === 'noticia')
-        .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
+      fetch('/articles_enriched.json')
+        .then(res => res.json())
+        .then(data => {
+          allArticles = (Array.isArray(data) ? data : [])
+            .filter(article => article?.category === 'noticia')
+            .sort((a, b) => new Date(b?.date || 0) - new Date(a?.date || 0));
 
-      renderFirstPage();
+          renderFirstPage();
 
-      if (allArticles.length > perPage) button.classList.remove('hidden');
-      else button.classList.add('hidden');
-    })
-    .catch(() => {
-      // Si falla el fetch, dejamos el SSR tal cual.
-    });
+          if (allArticles.length > perPage) button.classList.remove('hidden');
+          else button.classList.add('hidden');
+        })
+        .catch(() => {
+          // Si falla el fetch, dejamos el SSR tal cual.
+        });
 
-  button.addEventListener('click', renderPage);
-</script>
-
+      button.addEventListener('click', renderPage);
+    </script>
   </section>
 
-  <!-- Grid de bloques informativos -->
   <section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
-  <h2 class="text-2xl font-bold text-purple-900 mb-4">
-    📰 Revistas científicas en quioscos y bibliotecas
-  </h2>
-  <ul class="list-disc pl-6 text-purple-700 space-y-2">
-    <!-- Sustituye a 'Investigación y Ciencia' (cesó en 2023) -->
-    <li>
-      <a
-        href="https://metode.es/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Revista Mètode, Universidad de València (abre en pestaña nueva)"
-      >Mètode (Universitat de València) – trimestral</a>
-    </li>
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">
+        📰 Revistas científicas en quioscos y bibliotecas
+      </h2>
+      <ul class="list-disc pl-6 text-purple-700 space-y-2">
+        <li>
+          <a
+            href="https://metode.es/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Revista Mètode, Universidad de València (abre en pestaña nueva)"
+          >Mètode (Universitat de València) – trimestral</a>
+        </li>
 
-    <li>
-      <a
-        href="https://www.muyinteresante.com/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Muy Interesante, sitio oficial (abre en pestaña nueva)"
-      >Muy Interesante</a>
-    </li>
+        <li>
+          <a
+            href="https://www.muyinteresante.com/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Muy Interesante, sitio oficial (abre en pestaña nueva)"
+          >Muy Interesante</a>
+        </li>
 
-    <li>
-      <a
-        href="https://www.nationalgeographic.com.es/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="National Geographic España (abre en pestaña nueva)"
-      >National Geographic (España)</a>
-      <span class="ml-1 text-sm text-purple-600">(suscripción/venta en quiosco vía RBA)</span>
-    </li>
+        <li>
+          <a
+            href="https://www.nationalgeographic.com.es/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="National Geographic España (abre en pestaña nueva)"
+          >National Geographic (España)</a>
+          <span class="ml-1 text-sm text-purple-600">(suscripción/venta en quiosco vía RBA)</span>
+        </li>
 
-    <li>
-      <a
-        href="https://quo.eldiario.es/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Quo en eldiario.es (abre en pestaña nueva)"
-      >Quo (edición digital)</a>
-    </li>
+        <li>
+          <a
+            href="https://quo.eldiario.es/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Quo en eldiario.es (abre en pestaña nueva)"
+          >Quo (edición digital)</a>
+        </li>
 
-    <li>
-      <a
-        href="https://principia.io/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Principia, ciencia y arte (abre en pestaña nueva)"
-      >Principia (magazine + online)</a>
-    </li>
-  </ul>
-</div>
+        <li>
+          <a
+            href="https://principia.io/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Principia, ciencia y arte (abre en pestaña nueva)"
+          >Principia (magazine + online)</a>
+        </li>
+      </ul>
+    </div>
 
-<div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
-  <h2 class="text-2xl font-bold text-purple-900 mb-4">
-    🏛️ Publicaciones de centros de investigación
-  </h2>
-  <ul class="list-disc pl-6 text-purple-700 space-y-2">
-    <li>
-      <a
-        href="https://revistas.csic.es/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Revistas electrónicas del CSIC (abre en pestaña nueva)"
-      >CSIC – Revistas electrónicas en acceso abierto</a>
-    </li>
-    <li>
-      <a
-        href="https://www.cnio.es/investigacion-e-innovacion/publicaciones-cientificas/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Publicaciones científicas del CNIO (abre en pestaña nueva)"
-      >CNIO – Publicaciones científicas</a>
-    </li>
-    <li>
-      <a
-        href="https://www.cnic.es/es/investigacion/noticias"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Publicaciones del CNIC (sección del ISCIII, abre en pestaña nueva)"
-      >CNIC – Publicaciones científicas</a>
-    </li>
-    <li>
-      <a
-        href="https://www.iac.es/es/ciencia-y-tecnologia/publicaciones"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Base de datos de publicaciones del IAC (abre en pestaña nueva)"
-      >IAC – Base de datos de publicaciones científicas</a>
-    </li>
-    <li>
-      <a
-        href="https://www.isciii.es/divulgacion"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Artículos de divulgación científica del ISCIII (abre en pestaña nueva)"
-      >ISCIII – Artículos de divulgación científica</a>
-    </li>
-    <li>
-      <a
-        href="https://www.inta.es/descubre-y-aprende/es/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Información sobre Ediciones INTA (Wikipedia, abre en pestaña nueva)"
-      >INTA – Ediciones (revistas y libros)</a>
-    </li>
-    <li>
-      <a
-        href="https://www.idibaps.org/"
-        class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Página principal del IDIBAPS (abre en pestaña nueva)"
-      >IDIBAPS – Centro de investigación biomédica</a>
-    </li>
-  </ul>
-</div>
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">
+        🏛️ Publicaciones de centros de investigación
+      </h2>
+      <ul class="list-disc pl-6 text-purple-700 space-y-2">
+        <li>
+          <a
+            href="https://revistas.csic.es/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Revistas electrónicas del CSIC (abre en pestaña nueva)"
+          >CSIC – Revistas electrónicas en acceso abierto</a>
+        </li>
+        <li>
+          <a
+            href="https://www.cnio.es/investigacion-e-innovacion/publicaciones-cientificas/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Publicaciones científicas del CNIO (abre en pestaña nueva)"
+          >CNIO – Publicaciones científicas</a>
+        </li>
+        <li>
+          <a
+            href="https://www.cnic.es/es/investigacion/noticias"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Publicaciones del CNIC (sección del ISCIII, abre en pestaña nueva)"
+          >CNIC – Publicaciones científicas</a>
+        </li>
+        <li>
+          <a
+            href="https://www.iac.es/es/ciencia-y-tecnologia/publicaciones"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Base de datos de publicaciones del IAC (abre en pestaña nueva)"
+          >IAC – Base de datos de publicaciones científicas</a>
+        </li>
+        <li>
+          <a
+            href="https://www.isciii.es/divulgacion"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Artículos de divulgación científica del ISCIII (abre en pestaña nueva)"
+          >ISCIII – Artículos de divulgación científica</a>
+        </li>
+        <li>
+          <a
+            href="https://www.inta.es/descubre-y-aprende/es/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Información sobre Ediciones INTA (Wikipedia, abre en pestaña nueva)"
+          >INTA – Ediciones (revistas y libros)</a>
+        </li>
+        <li>
+          <a
+            href="https://www.idibaps.org/"
+            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Página principal del IDIBAPS (abre en pestaña nueva)"
+          >IDIBAPS – Centro de investigación biomédica</a>
+        </li>
+      </ul>
+    </div>
 
     <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
       <h2 class="text-2xl font-bold text-purple-900 mb-4">🔍 Cómo encontrar artículos científicos fiables</h2>
@@ -291,61 +344,60 @@ const formatDateES = (value) => {
         <li><strong>Evita fuentes no verificadas</strong>: busca publicaciones peer-reviewed.</li>
       </ul>
     </div>
-<div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
-  <h2 class="text-2xl font-bold text-purple-900 mb-4">
-    📖 Herramientas para interpretar publicaciones científicas
-  </h2>
-  <ul class="list-disc pl-6 text-purple-700 space-y-2">
-    <li>
-      <a
-        href="https://undsci.berkeley.edu/glossary/"
-        class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Glosario de términos científicos de Understanding Science (abre en pestaña nueva)"
-      >Glosario de términos científicos – Understanding Science (UC Berkeley)</a>
-    </li>
-    <li>
-      <a
-        href="https://www.cochrane.org/es/evidence"
-        class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Cochrane resúmenes en lenguaje sencillo en español (abre en pestaña nueva)"
-      >Cochrane – Resúmenes en lenguaje sencillo (ES)</a>
-    </li>
-    <li>
-      <a
-        href="https://es.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots"
-        class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Khan Academy en español: cómo interpretar gráficos (abre en pestaña nueva)"
-      >Khan Academy (ES) – Cómo interpretar gráficos</a>
-    </li>
-    <li>
-      <a
-        href="https://www.quantamagazine.org/tag/explainers/"
-        class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Quanta Magazine explicadores científicos (abre en pestaña nueva)"
-      >Quanta Magazine – Explicadores de ciencia</a>
-    </li>
-    <li>
-      <a
-        href="https://www.agenciasinc.es/"
-        class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-        target="_blank" rel="noopener noreferrer"
-        aria-label="Agencia SINC portal de noticias científicas en español (abre en pestaña nueva)"
-      >Agencia SINC – Ciencia en español</a>
-    </li>
-    <li>
-      <strong>Consejo:</strong> busca la sección de “Discusión” o “Conclusiones” y verifica si el artículo incluye un
-      <em>resumen en lenguaje sencillo</em>.
-    </li>
-  </ul>
-</div>
 
+    <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">
+        📖 Herramientas para interpretar publicaciones científicas
+      </h2>
+      <ul class="list-disc pl-6 text-purple-700 space-y-2">
+        <li>
+          <a
+            href="https://undsci.berkeley.edu/glossary/"
+            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Glosario de términos científicos de Understanding Science (abre en pestaña nueva)"
+          >Glosario de términos científicos – Understanding Science (UC Berkeley)</a>
+        </li>
+        <li>
+          <a
+            href="https://www.cochrane.org/es/evidence"
+            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Cochrane resúmenes en lenguaje sencillo en español (abre en pestaña nueva)"
+          >Cochrane – Resúmenes en lenguaje sencillo (ES)</a>
+        </li>
+        <li>
+          <a
+            href="https://es.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots"
+            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Khan Academy en español: cómo interpretar gráficos (abre en pestaña nueva)"
+          >Khan Academy (ES) – Cómo interpretar gráficos</a>
+        </li>
+        <li>
+          <a
+            href="https://www.quantamagazine.org/tag/explainers/"
+            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Quanta Magazine explicadores científicos (abre en pestaña nueva)"
+          >Quanta Magazine – Explicadores de ciencia</a>
+        </li>
+        <li>
+          <a
+            href="https://www.agenciasinc.es/"
+            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Agencia SINC portal de noticias científicas en español (abre en pestaña nueva)"
+          >Agencia SINC – Ciencia en español</a>
+        </li>
+        <li>
+          <strong>Consejo:</strong> busca la sección de “Discusión” o “Conclusiones” y verifica si el artículo incluye un
+          <em>resumen en lenguaje sencillo</em>.
+        </li>
+      </ul>
+    </div>
   </section>
 
-  <!-- CTA final -->
   <section class="bg-purple-100 mt-12 py-6 rounded-xl shadow-sm">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h2 class="text-xl font-bold text-purple-800 mb-4">¿Quieres aprender a leer ciencia?</h2>
@@ -358,7 +410,6 @@ const formatDateES = (value) => {
     </div>
   </section>
 
-  <!-- Adsense -->
   <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2163450732409344"
