@@ -1,5 +1,47 @@
 [
   {
+    "title": "Scientists say we’ve been looking in the wrong place for human origins",
+    "title_es": "Los científicos dicen que hemos estado buscando el origen humano en el lugar equivocado",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260327230113.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-28T00:00:00.000Z",
+    "date": "2026-03-28",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "que"
+    ]
+  },
+  {
+    "title": "Why use living cells? Researchers are making chemicals with enzymes alone",
+    "title_es": "¿Por qué utilizar células vivas? Los investigadores están fabricando sustancias químicas sólo con enzimas",
+    "url": "https://phys.org/news/2026-03-cells-chemicals-enzymes.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-28T00:00:00.000Z",
+    "date": "2026-03-28",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "utilizar"
+    ]
+  },
+  {
+    "title": "Book Review: How Genetics Shapes Our Ideas About Vice and Blame",
+    "title_es": "Reseña del libro: Cómo la genética da forma a nuestras ideas sobre el vicio y la culpa",
+    "url": "https://undark.org/2026/03/27/book-review-original-sin/",
+    "source": "Undark Magazine",
+    "published": "2026-03-27T07:19:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "how"
+    ]
+  },
+  {
     "title": "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
     "title_es": "Model2Kernel: Ejecución simbólica consciente del modelo para núcleos CUDA seguros",
     "url": "https://arxiv.org/abs/2603.24595",
@@ -81,6 +123,62 @@
       "simulación",
       "estrategia",
       "modelización"
+    ]
+  },
+  {
+    "title": "El astrofísico José Eduardo Méndez Delgado, formado en el IAC y la ULL, galardonado con el Premio Princesa de Girona Internacional 2026",
+    "title_es": "El astrofísico José Eduardo Méndez Delgado, formado en el IAC y la ULL, galardonado con el Premio Princesa de Girona Internacional 2026",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-astrofisico-jose-eduardo-mendez-delgado-formado-en-el-iac-y-la-ull-galardonado-con-el-premio",
+    "source": "IAC",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "astrofísico",
+      "josé",
+      "eduardo"
+    ]
+  },
+  {
+    "title": "I Am Artemis: Erik Richards",
+    "title_es": "Soy Artemisa: Erik Richards",
+    "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-erik-richards/",
+    "source": "NASA (Top News)",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "soy",
+      "artemisa",
+      "erik"
+    ]
+  },
+  {
+    "title": "How snakes defy gravity to stand tall",
+    "title_es": "Cómo las serpientes desafían la gravedad para mantenerse erguidas",
+    "url": "https://www.sciencenews.org/article/how-snakes-defy-gravity-to-stand-tall",
+    "source": "Science News",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "serpientes",
+      "desafían"
+    ]
+  },
+  {
+    "title": "Analyze This: Which cells are the speediest?",
+    "title_es": "Analiza esto: ¿Qué celdas son las más rápidas?",
+    "url": "https://www.snexplores.org/article/speediest-cells-organism",
+    "source": "Science News Explores",
+    "published": "2026-03-27T00:00:00.000Z",
+    "date": "2026-03-27",
+    "category": "noticia",
+    "tags": [
+      "analiza",
+      "esto",
+      "qué"
     ]
   },
   {
@@ -627,6 +725,20 @@
       "genetic",
       "clues",
       "tell"
+    ]
+  },
+  {
+    "title": "The simple questions cracking the hard problem of consciousness",
+    "title_es": "Las preguntas simples que resuelven el difícil problema de la conciencia",
+    "url": "https://www.newscientist.com/article/2519288-the-simple-questions-cracking-the-hard-problem-of-consciousness/",
+    "source": "New Scientist",
+    "published": "2026-03-23T16:00:19.000Z",
+    "date": "2026-03-23",
+    "category": "noticia",
+    "tags": [
+      "simple",
+      "questions",
+      "cracking"
     ]
   },
   {
@@ -6674,7 +6786,7 @@
   },
   {
     "title": "Scientists Could Help Reveal Fraud — and Get Paid For It",
-    "title_es": "Los científicos podrían ayudar a revelar el fraude y cobrar por ello",
+    "title_es": "Scientists Could Help Reveal Fraud — and Get Paid For It",
     "url": "https://undark.org/2026/02/09/opinion-whistleblower-university/",
     "source": "Undark Magazine",
     "published": "2026-02-09T08:57:00.000Z",
@@ -6688,7 +6800,7 @@
   },
   {
     "title": "Asymptotically Optimal Aperiodic Doppler Resilient Complementary Sequence Sets Via Generalized Quasi-Florentine Rectangles",
-    "title_es": "Conjuntos de secuencias complementarias resistentes al Doppler aperiódicamente asintóticamente óptimas a través de rectángulos cuasiflorentinos generalizados",
+    "title_es": "Asymptotically Optimal Aperiodic Doppler Resilient Complementary Sequence Sets Via Generalized Quasi-Florentine Rectangles",
     "url": "https://arxiv.org/abs/2602.06045",
     "source": "arXiv",
     "published": "2026-02-09T05:00:00.000Z",
@@ -6702,7 +6814,7 @@
   },
   {
     "title": "Seafarers were visiting remote Arctic islands over 4000 years ago",
-    "title_es": "La gente de mar visitaba islas árticas remotas hace más de 4000 años",
+    "title_es": "Seafarers were visiting remote Arctic islands over 4000 years ago",
     "url": "https://www.newscientist.com/article/2514486-seafarers-were-visiting-remote-arctic-islands-over-4000-years-ago/",
     "source": "New Scientist",
     "published": "2026-02-09T00:01:45.000Z",
@@ -36592,17 +36704,17 @@
     ]
   },
   {
-    "title": "Knowledge, attitudes and practices towards emergency contraceptive pill use among women of reproductive age in Lira District, Northern Uganda: A cross-sectional study",
-    "title_es": "Conocimientos, actitudes y prácticas hacia el uso de píldoras anticonceptivas de emergencia entre mujeres en edad reproductiva en el distrito de Lira, norte de Uganda: un estudio transversal",
+    "title": "Prevalence and determinants of household solid waste management practice among residents of the city corporations of Dhaka, Bangladesh",
+    "title_es": "Prevalencia y determinantes de la práctica de gestión de residuos sólidos domésticos entre los residentes de las corporaciones de la ciudad de Dhaka, Bangladesh",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "conocimientos",
-      "actitudes",
-      "prácticas"
+      "prevalencia",
+      "determinantes",
+      "práctica"
     ]
   },
   {
@@ -95794,6 +95906,34 @@
     "tags": [
       "hickson",
       "leo"
+    ]
+  },
+  {
+    "title": "Reanalysis of “Competition and innovation: An inverted- U relationship”, by Andrew Gelman",
+    "title_es": "Reanalysis of “Competition and innovation: An inverted- U relationship”, by Andrew Gelman",
+    "url": "https://scipost.org/jrobustrep.4-rr1",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "reanalysis",
+      "competition",
+      "innovation"
+    ]
+  },
+  {
+    "title": "Robert Goddard and Nell",
+    "title_es": "Robert Goddard and Nell",
+    "url": "https://apod.nasa.gov/apod/image/2603/goddardphotop9-1_800.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "robert",
+      "goddard",
+      "nell"
     ]
   }
 ]
