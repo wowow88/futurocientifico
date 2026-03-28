@@ -84,11 +84,23 @@ const formatDateES = (value) => {
           {weeklyDiscovery?.title_es ?? weeklyDiscovery?.title_en ?? "Descubrimiento destacado"}
         </h2>
 
-        {weeklyDiscovery?.description_es && (
-          <p class="text-purple-700 max-w-3xl mb-4">
-            {weeklyDiscovery.description_es}
-          </p>
-        )}
+       {weeklyDiscovery?.description_es && (
+  <p class="text-purple-700 max-w-3xl mb-4">
+    {weeklyDiscovery.description_es}
+  </p>
+  )}
+
+{weeklyDiscovery?.tags && (
+  <div class="flex flex-wrap gap-2 mb-4">
+    {weeklyDiscovery.tags.map((tag) => (
+      <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2 py-1 rounded-full">
+        #{tag}
+      </span>
+    ))}
+  </div>
+)}
+
+<div class="flex flex-wrap items-center gap-3">
 
         <div class="flex flex-wrap items-center gap-3">
           <a
