@@ -28,6 +28,34 @@
     ]
   },
   {
+    "title": "Popular sugar substitute linked to brain damage and stroke risk",
+    "title_es": "Popular sustituto del azúcar relacionado con daño cerebral y riesgo de accidente cerebrovascular",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260328065333.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-03-28T00:00:00.000Z",
+    "date": "2026-03-28",
+    "category": "noticia",
+    "tags": [
+      "popular",
+      "sustituto",
+      "azúcar"
+    ]
+  },
+  {
+    "title": "Revealing the origin of polarity inversion in polymer semiconductors",
+    "title_es": "Revelando el origen de la inversión de polaridad en semiconductores poliméricos",
+    "url": "https://phys.org/news/2026-03-revealing-polarity-inversion-polymer-semiconductors.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-03-28T00:00:00.000Z",
+    "date": "2026-03-28",
+    "category": "noticia",
+    "tags": [
+      "revelando",
+      "origen",
+      "inversión"
+    ]
+  },
+  {
     "title": "Book Review: How Genetics Shapes Our Ideas About Vice and Blame",
     "title_es": "Reseña del libro: Cómo la genética da forma a nuestras ideas sobre el vicio y la culpa",
     "url": "https://undark.org/2026/03/27/book-review-original-sin/",
@@ -389,6 +417,20 @@
       "computer",
       "security",
       "penpanpanttesting"
+    ]
+  },
+  {
+    "title": "How working out like an astronaut can reduce back pain and slow ageing",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
+    "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
+    "source": "New Scientist",
+    "published": "2026-03-25T16:00:33.000Z",
+    "date": "2026-03-25",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "working",
+      "out"
     ]
   },
   {
@@ -6772,7 +6814,7 @@
   },
   {
     "title": "This popular diet was linked to a much lower stroke risk",
-    "title_es": "Esta dieta popular se relacionó con un riesgo de accidente cerebrovascular mucho menor",
+    "title_es": "This popular diet was linked to a much lower stroke risk",
     "url": "https://www.sciencedaily.com/releases/2026/02/260209064310.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-09T11:54:46.000Z",
@@ -95934,6 +95976,19 @@
       "robert",
       "goddard",
       "nell"
+    ]
+  },
+  {
+    "title": "A Message from Earth",
+    "title_es": "A Message from Earth",
+    "url": "https://apod.nasa.gov/apod/image/2603/message_arecibo_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "message",
+      "earth"
     ]
   }
 ]
