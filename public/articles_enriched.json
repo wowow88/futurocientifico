@@ -1,5 +1,89 @@
 [
   {
+    "title": "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
+    "title_es": "CRAFT: Asignación de réplicas de expertos conscientes de los costos con estimaciones por capas de grano fino",
+    "url": "https://arxiv.org/abs/2603.28768",
+    "source": "arXiv",
+    "published": "2026-04-01T04:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "craft",
+      "cost-aware",
+      "expert"
+    ]
+  },
+  {
+    "title": "NASA’s asteroid Bennu sample reveals a hidden chemical patchwork",
+    "title_es": "La muestra del asteroide Bennu de la NASA revela un mosaico químico oculto",
+    "url": "https://www.sciencedaily.com/releases/2026/03/260331231739.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "muestra",
+      "asteroide",
+      "bennu"
+    ]
+  },
+  {
+    "title": "Women are being shut out of workplaces because of a hidden time gap, new research shows",
+    "title_es": "Las mujeres están siendo excluidas de los lugares de trabajo debido a una brecha de tiempo oculta, según muestra una nueva investigación",
+    "url": "https://phys.org/news/2026-03-women-workplaces-hidden-gap.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "mujeres",
+      "están",
+      "siendo"
+    ]
+  },
+  {
+    "title": "Earth’s Building Blocks Came from Close to Home, Planetary Scientists Say",
+    "title_es": "Los bloques de construcción de la Tierra vinieron de cerca de casa, dicen los científicos planetarios",
+    "url": "https://www.sci.news/space/earths-building-blocks-14661.html",
+    "source": "Sci.News",
+    "published": "2026-03-31T22:02:57.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "earths",
+      "building",
+      "blocks"
+    ]
+  },
+  {
+    "title": "A once-fantastical collider could answer physics’ biggest mysteries",
+    "title_es": "Un colisionador que alguna vez fue fantástico podría responder a los mayores misterios de la física",
+    "url": "https://www.newscientist.com/article/2519026-a-once-fantastical-collider-could-answer-physics-biggest-mysteries/",
+    "source": "New Scientist",
+    "published": "2026-03-31T16:00:50.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "once-fantastical",
+      "collider",
+      "could"
+    ]
+  },
+  {
+    "title": "The Nuclear Safety Protections in Federal Crosshairs",
+    "title_es": "Las Protecciones de Seguridad Nuclear en Cruces Federales",
+    "url": "https://undark.org/2026/03/31/federal-nuclear-safety-protections/",
+    "source": "Undark Magazine",
+    "published": "2026-03-31T07:12:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "nuclear",
+      "safety",
+      "protections"
+    ]
+  },
+  {
     "title": "M-RAG: Making RAG Faster, Stronger, and More Efficient",
     "title_es": "M-RAG: Hacer RAG más rápido, más fuerte y más eficiente",
     "url": "https://arxiv.org/abs/2603.26667",
@@ -53,6 +137,76 @@
       "seguridad",
       "alimentaria",
       "suelos"
+    ]
+  },
+  {
+    "title": "Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations",
+    "title_es": "Identificación automática de bucles paralelizables mediante representaciones de código fuente basadas en transformadores",
+    "url": "http://arxiv.org/abs/2603.30040v1",
+    "source": "arXiv",
+    "published": "2026-03-31T00:00:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "identificación",
+      "automática",
+      "bucles"
+    ]
+  },
+  {
+    "title": "Author Correction: Signatures of ambient pressure superconductivity in thin film La 3 Ni 2 O 7",
+    "title_es": "Corrección del autor: Firmas de superconductividad de presión ambiental en película delgada La3Ni2O7",
+    "url": "https://www.nature.com/articles/s41586-026-10335-8",
+    "source": "Nature",
+    "published": "2026-03-31T00:00:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "firmas"
+    ]
+  },
+  {
+    "title": "CNIC participates in COMPASS, a European project promoting the early detection and personalised treatment of cardiotoxicity in cancer patients",
+    "title_es": "El CNIC participa en COMPASS, un proyecto europeo que promueve la detección precoz y el tratamiento personalizado de la cardiotoxicidad en pacientes con cáncer",
+    "url": "https://www.cnic.es/es/node/241238",
+    "source": "CNIC",
+    "published": "2026-03-31T00:00:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "participates",
+      "compass"
+    ]
+  },
+  {
+    "title": "Pronatalists want more babies. Their solutions aren’t rooted in science",
+    "title_es": "Los pronatalistas quieren más bebés. Sus soluciones no tienen sus raíces en la ciencia",
+    "url": "https://www.sciencenews.org/article/pronatalists-babies-birth-rate-family",
+    "source": "Science News",
+    "published": "2026-03-31T00:00:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "pronatalistas",
+      "quieren",
+      "más"
+    ]
+  },
+  {
+    "title": "Physics explains why sneakers squeak on the basketball court",
+    "title_es": "La física explica por qué las zapatillas chirrían en la cancha de baloncesto",
+    "url": "https://www.snexplores.org/article/sneakers-squeak-basketball-court-physics",
+    "source": "Science News Explores",
+    "published": "2026-03-31T00:00:00.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "física",
+      "explica",
+      "por"
     ]
   },
   {
@@ -6632,7 +6786,7 @@
   },
   {
     "title": "Entropy-Based Evidence for Bitcoin's Discrete Time Mechanism",
-    "title_es": "Evidencia basada en la entropía para el mecanismo de tiempo discreto de Bitcoin",
+    "title_es": "Entropy-Based Evidence for Bitcoin's Discrete Time Mechanism",
     "url": "https://arxiv.org/abs/2602.09027",
     "source": "arXiv",
     "published": "2026-02-11T05:00:00.000Z",
@@ -6646,7 +6800,7 @@
   },
   {
     "title": "307-Million-Year-Old Fossil of Plant-Eating Land Vertebrate Found in Canada",
-    "title_es": "Fósil de un vertebrado terrestre herbívoro de 307 millones de años encontrado en Canadá",
+    "title_es": "307-Million-Year-Old Fossil of Plant-Eating Land Vertebrate Found in Canada",
     "url": "https://www.sci.news/paleontology/tyrannoroter-heberti-14547.html",
     "source": "Sci.News",
     "published": "2026-02-11T02:12:29.000Z",
@@ -6660,7 +6814,7 @@
   },
   {
     "title": "Newborn marsupials seen crawling to mother's pouch for the first time",
-    "title_es": "Marsupiales recién nacidos vistos gateando a la bolsa de la madre por primera vez",
+    "title_es": "Newborn marsupials seen crawling to mother's pouch for the first time",
     "url": "https://www.newscientist.com/article/2514915-newborn-marsupials-seen-crawling-to-mothers-pouch-for-the-first-time/",
     "source": "New Scientist",
     "published": "2026-02-11T00:01:16.000Z",
@@ -6786,7 +6940,7 @@
   },
   {
     "title": "How teaching molecules to think is revealing what a 'mind' really is",
-    "title_es": "Cómo enseñar a las moléculas a pensar es revelar lo que realmente es una \"mente\"",
+    "title_es": "How teaching molecules to think is revealing what a 'mind' really is",
     "url": "https://www.newscientist.com/article/2513815-how-teaching-molecules-to-think-is-revealing-what-a-mind-really-is/",
     "source": "New Scientist",
     "published": "2026-02-10T16:00:17.000Z",
@@ -6800,7 +6954,7 @@
   },
   {
     "title": "Scientists find genes that existed before all life on Earth",
-    "title_es": "Los científicos encuentran genes que existían antes de toda la vida en la Tierra",
+    "title_es": "Scientists find genes that existed before all life on Earth",
     "url": "https://www.sciencedaily.com/releases/2026/02/260210082913.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-10T13:42:05.000Z",
@@ -96269,6 +96423,34 @@
       "uranuss",
       "largest",
       "moon"
+    ]
+  },
+  {
+    "title": "Electronic bounds in magnetic crystals, by Daniel Passos, Ivo Souza",
+    "title_es": "Electronic bounds in magnetic crystals, by Daniel Passos, Ivo Souza",
+    "url": "https://scipost.org/scipostphys.20.3.093",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "electronic",
+      "bounds",
+      "magnetic"
+    ]
+  },
+  {
+    "title": "The Claw and Bubble Nebulae",
+    "title_es": "The Claw and Bubble Nebulae",
+    "url": "https://apod.nasa.gov/apod/image/2604/claw_bubble_800.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "claw",
+      "bubble",
+      "nebulae"
     ]
   }
 ]
