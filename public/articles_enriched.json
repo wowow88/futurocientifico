@@ -1,5 +1,131 @@
 [
   {
+    "title": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
+    "title_es": "Selección de datos en línea consciente del optimizador de dos etapas para modelos de lenguaje grandes",
+    "url": "https://arxiv.org/abs/2604.00001",
+    "source": "arXiv",
+    "published": "2026-04-02T04:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "two-stage",
+      "optimizer-aware",
+      "online"
+    ]
+  },
+  {
+    "title": "Regular physical activity in midlife cuts risk of early death",
+    "title_es": "La actividad física regular en la mediana edad reduce el riesgo de muerte prematura",
+    "url": "https://www.nature.com/articles/d41586-026-01000-1",
+    "source": "Nature",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "actividad",
+      "física",
+      "regular"
+    ]
+  },
+  {
+    "title": "Réunion Island Lava Reaches the Sea",
+    "title_es": "La lava de la isla Reunión llega al mar",
+    "url": "https://science.nasa.gov/earth/earth-observatory/reunion-island-lava-reaches-the-sea/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "lava",
+      "isla",
+      "reunión"
+    ]
+  },
+  {
+    "title": "The oldest known dice date back about 12,000 years in North America",
+    "title_es": "Los dados más antiguos conocidos datan de hace unos 12.000 años en América del Norte.",
+    "url": "https://www.sciencenews.org/article/oldest-known-dice-north-america",
+    "source": "Science News",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "dados",
+      "más",
+      "antiguos"
+    ]
+  },
+  {
+    "title": "What’s hiding inside colon cancer could change treatment",
+    "title_es": "Lo que se esconde dentro del cáncer de colon podría cambiar el tratamiento",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260401071951.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "esconde",
+      "dentro"
+    ]
+  },
+  {
+    "title": "Europe to negotiate with NASA on lunar missions: ESA",
+    "title_es": "Europa negociará con la NASA sobre misiones lunares: ESA",
+    "url": "https://phys.org/news/2026-04-europe-nasa-lunar-missions-esa.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "europa",
+      "negociará",
+      "con"
+    ]
+  },
+  {
+    "title": "Ultra-Hot Jupiter WASP-189b Mirrors Its Star’s Chemistry, Astronomers Find",
+    "title_es": "Los astrónomos descubren que WASP-189b de Júpiter ultracaliente refleja la química de su estrella",
+    "url": "https://www.sci.news/astronomy/ultra-hot-jupiter-wasp-189b-stars-chemistry-14667.html",
+    "source": "Sci.News",
+    "published": "2026-04-01T21:45:03.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "ultra-hot",
+      "jupiter",
+      "wasp-189b"
+    ]
+  },
+  {
+    "title": "Historic Artemis II launch sends astronauts bound for the moon",
+    "title_es": "El histórico lanzamiento de Artemisa II envía astronautas a la Luna",
+    "url": "https://www.newscientist.com/article/2521666-historic-artemis-ii-launch-sends-astronauts-bound-for-the-moon/",
+    "source": "New Scientist",
+    "published": "2026-04-01T19:00:26.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "historic",
+      "artemis",
+      "launch"
+    ]
+  },
+  {
+    "title": "Why Swedish Schools Are Bringing Back Books",
+    "title_es": "Por qué las escuelas suecas están trayendo de vuelta los libros",
+    "url": "https://undark.org/2026/04/01/sweden-schools-books/",
+    "source": "Undark Magazine",
+    "published": "2026-04-01T07:21:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "swedish",
+      "schools"
+    ]
+  },
+  {
     "title": "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
     "title_es": "CRAFT: Asignación de réplicas de expertos conscientes de los costos con estimaciones por capas de grano fino",
     "url": "https://arxiv.org/abs/2603.28768",
@@ -39,6 +165,48 @@
       "mujeres",
       "están",
       "siendo"
+    ]
+  },
+  {
+    "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+    "title_es": "HippoCamp: Evaluación comparativa de agentes contextuales en computadoras personales",
+    "url": "http://arxiv.org/abs/2604.01221v1",
+    "source": "arXiv",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "hippocamp",
+      "evaluación",
+      "comparativa"
+    ]
+  },
+  {
+    "title": "CERN levels up with new superconducting karts",
+    "title_es": "El CERN sube de nivel con nuevos karts superconductores",
+    "url": "https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts",
+    "source": "CERN News",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "cern",
+      "sube",
+      "nivel"
+    ]
+  },
+  {
+    "title": "Astronauts are flying to the moon aboard Artemis II",
+    "title_es": "Los astronautas vuelan a la luna a bordo de Artemis II",
+    "url": "https://www.snexplores.org/article/artemis-mission-astronauts-moon-launch",
+    "source": "Science News Explores",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "astronautas",
+      "vuelan",
+      "luna"
     ]
   },
   {
@@ -154,7 +322,7 @@
     ]
   },
   {
-    "title": "Author Correction: Signatures of ambient pressure superconductivity in thin film La 3 Ni 2 O 7",
+    "title": "Author Correction: Signatures of ambient pressure superconductivity in thin film La3Ni2O7",
     "title_es": "Corrección del autor: Firmas de superconductividad de presión ambiental en película delgada La3Ni2O7",
     "url": "https://www.nature.com/articles/s41586-026-10335-8",
     "source": "Nature",
@@ -6744,7 +6912,7 @@
   },
   {
     "title": "Nepal and Northern India are not overdue for a huge earthquake",
-    "title_es": "Nepal y el norte de la India no están atrasados para un gran terremoto",
+    "title_es": "Nepal and Northern India are not overdue for a huge earthquake",
     "url": "https://www.newscientist.com/article/2515421-nepal-and-northern-india-are-not-overdue-for-a-huge-earthquake/",
     "source": "New Scientist",
     "published": "2026-02-11T20:35:00.000Z",
@@ -6758,7 +6926,7 @@
   },
   {
     "title": "Life may have started as sticky goo clinging to rocks",
-    "title_es": "La vida puede haber comenzado como pegajosa sustancia pegajosa que se aferra a las rocas",
+    "title_es": "Life may have started as sticky goo clinging to rocks",
     "url": "https://www.sciencedaily.com/releases/2026/02/260211073052.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-11T14:39:33.000Z",
@@ -6772,7 +6940,7 @@
   },
   {
     "title": "The Clean Energy Transition at the Salton Sea",
-    "title_es": "La transición a las energías limpias en el Salton Sea",
+    "title_es": "The Clean Energy Transition at the Salton Sea",
     "url": "https://undark.org/2026/02/11/clean-energy-salton-sea/",
     "source": "Undark Magazine",
     "published": "2026-02-11T08:23:00.000Z",
@@ -37138,17 +37306,17 @@
     ]
   },
   {
-    "title": "Testing the feasibility of blood flow restriction training to enhance the HEALTH benefits of exercise in individuals with type 2 diabetes (BOOST-HEALTH Trial): Study Protocol",
-    "title_es": "Prueba de la viabilidad del entrenamiento de restricción del flujo sanguíneo para mejorar los beneficios del ejercicio para la SALUD en personas con diabetes tipo 2 (ensayo BOOST-HEALTH): protocolo de estudio",
+    "title": "Effect of neostigmine/glycopyrrolate versus sugammadex on postoperative delirium in older adults: A triple-masked, randomized, controlled trial protocol",
+    "title_es": "Efecto de neostigmina/glicopirrolato versus sugammadex sobre el delirio posoperatorio en adultos mayores: un protocolo de ensayo controlado, aleatorizado y triple enmascarado",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "prueba",
-      "viabilidad",
-      "entrenamiento"
+      "efecto",
+      "neostigminaglicopirrolato",
+      "versus"
     ]
   },
   {
@@ -96451,6 +96619,34 @@
       "claw",
       "bubble",
       "nebulae"
+    ]
+  },
+  {
+    "title": "Structure of non-global logarithms with Cambridge/Aachen clustering, by Kamel Khelifa-Kerfa",
+    "title_es": "Structure of non-global logarithms with Cambridge/Aachen clustering, by Kamel Khelifa-Kerfa",
+    "url": "https://scipost.org/scipostphys.20.4.094",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "structure",
+      "non-global",
+      "logarithms"
+    ]
+  },
+  {
+    "title": "Liftoff! Returning to the Moon",
+    "title_es": "Liftoff! Returning to the Moon",
+    "url": "https://apod.nasa.gov/apod/image/2604/nasa_billingalls.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "liftoff",
+      "returning",
+      "moon"
     ]
   }
 ]
