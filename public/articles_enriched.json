@@ -1,5 +1,117 @@
 [
   {
+    "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
+    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "url": "https://arxiv.org/abs/2604.01226",
+    "source": "arXiv",
+    "published": "2026-04-03T04:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "done",
+      "decoupling",
+      "structure"
+    ]
+  },
+  {
+    "title": "Barents Sea Tied to Low Arctic Sea Ice",
+    "title_es": "Mar de Barents vinculado al hielo marino bajo del Ártico",
+    "url": "https://science.nasa.gov/earth/earth-observatory/barents-sea-tied-to-low-arctic-sea-ice/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "mar",
+      "barents",
+      "vinculado"
+    ]
+  },
+  {
+    "title": "SpaceX Starship could slash travel time to Uranus in half",
+    "title_es": "SpaceX Starship podría reducir a la mitad el tiempo de viaje a Urano",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260402042759.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "spacex",
+      "starship",
+      "podría"
+    ]
+  },
+  {
+    "title": "The benefits of community Trap-Neuter-Return programs for unowned cats",
+    "title_es": "Los beneficios de los programas comunitarios de Atrapamiento, Castración y Devolución para gatos sin dueño",
+    "url": "https://phys.org/news/2026-04-benefits-community-neuter-unowned-cats.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "beneficios",
+      "programas",
+      "comunitarios"
+    ]
+  },
+  {
+    "title": "Hubble Space Telescope Focuses on IC 486",
+    "title_es": "El telescopio espacial Hubble se centra en IC 486",
+    "url": "https://www.sci.news/astronomy/hubble-barred-spiral-galaxy-ic-486-14670.html",
+    "source": "Sci.News",
+    "published": "2026-04-02T23:45:34.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "space",
+      "telescope"
+    ]
+  },
+  {
+    "title": "New microwave frying technique could make french fries much healthier",
+    "title_es": "La nueva técnica de fritura en microondas podría hacer que las patatas fritas sean mucho más saludables",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260402042803.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-02T23:15:35.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "microwave",
+      "frying"
+    ]
+  },
+  {
+    "title": "Surprise fossil discoveries push back the evolution of complex animals",
+    "title_es": "Los sorprendentes descubrimientos de fósiles hacen retroceder la evolución de animales complejos",
+    "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/",
+    "source": "New Scientist",
+    "published": "2026-04-02T19:00:36.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "surprise",
+      "fossil",
+      "discoveries"
+    ]
+  },
+  {
+    "title": "Prediction Markets Make a Bet Against Public Health",
+    "title_es": "Los mercados de predicción apuestan en contra de la salud pública",
+    "url": "https://undark.org/2026/04/02/opinion-prediction-markets-public-health/",
+    "source": "Undark Magazine",
+    "published": "2026-04-02T07:05:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "prediction",
+      "markets",
+      "make"
+    ]
+  },
+  {
     "title": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
     "title_es": "Selección de datos en línea consciente del optimizador de dos etapas para modelos de lenguaje grandes",
     "url": "https://arxiv.org/abs/2604.00001",
@@ -81,6 +193,62 @@
       "europa",
       "negociará",
       "con"
+    ]
+  },
+  {
+    "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+    "title_es": "ActionParty: vinculación de acciones de múltiples sujetos en videojuegos generativos",
+    "url": "http://arxiv.org/abs/2604.02330v1",
+    "source": "arXiv",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "actionparty",
+      "vinculación",
+      "acciones"
+    ]
+  },
+  {
+    "title": "The new stakes of space exploration",
+    "title_es": "Los nuevos retos de la exploración espacial",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aee6927",
+    "source": "Science.org",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "nuevos",
+      "retos",
+      "exploración"
+    ]
+  },
+  {
+    "title": "Fossils reveal many complex animals existed before the Cambrian explosion",
+    "title_es": "Los fósiles revelan que existían muchos animales complejos antes de la explosión del Cámbrico",
+    "url": "https://www.sciencenews.org/article/fossils-complex-early-animals-diversity",
+    "source": "Science News",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "fósiles",
+      "revelan",
+      "que"
+    ]
+  },
+  {
+    "title": "How ‘nutritious’ is the diet that social media feeds us?",
+    "title_es": "¿Qué tan “nutritiva” es la dieta que nos alimentan las redes sociales?",
+    "url": "https://www.snexplores.org/article/social-media-feeds-algorithms",
+    "source": "Science News Explores",
+    "published": "2026-04-02T00:00:00.000Z",
+    "date": "2026-04-02",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "tan",
+      "nutritiva"
     ]
   },
   {
@@ -210,6 +378,20 @@
     ]
   },
   {
+    "title": "CERN Timepix chips fly to the Moon",
+    "title_es": "Los chips Timepix del CERN vuelan a la Luna",
+    "url": "https://home.cern/news/news/knowledge-sharing/cern-timepix-chips-fly-moon",
+    "source": "CERN News",
+    "published": "2026-04-01T00:00:00.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "chips",
+      "timepix",
+      "cern"
+    ]
+  },
+  {
     "title": "Earth’s Building Blocks Came from Close to Home, Planetary Scientists Say",
     "title_es": "Los bloques de construcción de la Tierra vinieron de cerca de casa, dicen los científicos planetarios",
     "url": "https://www.sci.news/space/earths-building-blocks-14661.html",
@@ -235,6 +417,20 @@
       "once-fantastical",
       "collider",
       "could"
+    ]
+  },
+  {
+    "title": "Chile becomes an Associate Member State of CERN",
+    "title_es": "Chile se convierte en Estado Miembro Asociado del CERN",
+    "url": "https://home.cern/news/news/cern/chile-becomes-associate-member-state-cern",
+    "source": "CERN News",
+    "published": "2026-03-31T12:55:39.000Z",
+    "date": "2026-03-31",
+    "category": "noticia",
+    "tags": [
+      "chile",
+      "becomes",
+      "associate"
     ]
   },
   {
@@ -6688,7 +6884,7 @@
   },
   {
     "title": "When Health and Wellness Products Aren’t ‘Worth a Try’",
-    "title_es": "Cuando los productos de salud y bienestar no \"valen la pena\"",
+    "title_es": "When Health and Wellness Products Aren’t ‘Worth a Try’",
     "url": "https://undark.org/2026/02/12/opinion-health-wellness-products/",
     "source": "Undark Magazine",
     "published": "2026-02-12T19:55:37.000Z",
@@ -6702,7 +6898,7 @@
   },
   {
     "title": "RNA strand that can almost self-replicate may be key to life's origins",
-    "title_es": "La cadena de ARN que casi puede autorreplicarse puede ser clave para los orígenes de la vida",
+    "title_es": "RNA strand that can almost self-replicate may be key to life's origins",
     "url": "https://www.newscientist.com/article/2515482-rna-strand-that-can-almost-self-replicate-may-be-key-to-lifes-origins/",
     "source": "New Scientist",
     "published": "2026-02-12T19:00:31.000Z",
@@ -6716,7 +6912,7 @@
   },
   {
     "title": "Scientists discover protein that rejuvenates aging brain cells",
-    "title_es": "Los científicos descubren una proteína que rejuvenece las células cerebrales envejecidas",
+    "title_es": "Scientists discover protein that rejuvenates aging brain cells",
     "url": "https://www.sciencedaily.com/releases/2026/02/260212025620.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-12T14:42:41.000Z",
@@ -6730,7 +6926,7 @@
   },
   {
     "title": "Reviewing the Reviewer: Elevating Peer Review Quality through LLM-Guided Feedback",
-    "title_es": "Revisión del revisor: elevar la calidad de la revisión por pares a través de la retroalimentación guiada por LLM",
+    "title_es": "Reviewing the Reviewer: Elevating Peer Review Quality through LLM-Guided Feedback",
     "url": "https://arxiv.org/abs/2602.10118",
     "source": "arXiv",
     "published": "2026-02-12T05:00:00.000Z",
@@ -6744,7 +6940,7 @@
   },
   {
     "title": "5,300-Year-Old Drilling Tool Found in Egypt",
-    "title_es": "Herramienta de perforación de 5.300 años encontrada en Egipto",
+    "title_es": "5,300-Year-Old Drilling Tool Found in Egypt",
     "url": "https://www.sci.news/archaeology/oldest-bow-drill-14552.html",
     "source": "Sci.News",
     "published": "2026-02-12T03:58:33.000Z",
@@ -37306,17 +37502,17 @@
     ]
   },
   {
-    "title": "Effect of neostigmine/glycopyrrolate versus sugammadex on postoperative delirium in older adults: A triple-masked, randomized, controlled trial protocol",
-    "title_es": "Efecto de neostigmina/glicopirrolato versus sugammadex sobre el delirio posoperatorio en adultos mayores: un protocolo de ensayo controlado, aleatorizado y triple enmascarado",
+    "title": "Correction: Weight loss efficiency and safety of tirzepatide: A Systematic review",
+    "title_es": "Corrección: Eficiencia en la pérdida de peso y seguridad de tirzepatida: una revisión sistemática",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efecto",
-      "neostigminaglicopirrolato",
-      "versus"
+      "corrección",
+      "eficiencia",
+      "pérdida"
     ]
   },
   {
@@ -96647,6 +96843,34 @@
       "liftoff",
       "returning",
       "moon"
+    ]
+  },
+  {
+    "title": "Topological crystals and soliton lattices in a Gross-Neveu model with Hilbert-space fragmentation, by Sergio Cerezo-Roquebrún, Simon Hands, Alejandro Bermudez",
+    "title_es": "Topological crystals and soliton lattices in a Gross-Neveu model with Hilbert-space fragmentation, by Sergio Cerezo-Roquebrún, Simon Hands, Alejandro Bermudez",
+    "url": "https://scipost.org/scipostphys.20.4.098",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "topological",
+      "crystals",
+      "soliton"
+    ]
+  },
+  {
+    "title": "Caught in the Web: Visualization of a Black Hole Merger in the Tarantula Nebula",
+    "title_es": "Caught in the Web: Visualization of a Black Hole Merger in the Tarantula Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2604/bh_merger_tarantula_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "caught",
+      "web",
+      "visualization"
     ]
   }
 ]
