@@ -1,5 +1,47 @@
 [
   {
+    "title": "Jurassic Ichthyosaur Fossil Found in Cuba",
+    "title_es": "Fósil de ictiosaurio jurásico encontrado en Cuba",
+    "url": "https://www.sci.news/paleontology/el-cuajani-ichthyosaur-14672.html",
+    "source": "Sci.News",
+    "published": "2026-04-03T23:42:09.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "jurassic",
+      "ichthyosaur",
+      "fossil"
+    ]
+  },
+  {
+    "title": "We may have seen a 'dirty fireball' star explosion for the first time",
+    "title_es": "Es posible que hayamos visto una explosión estelar de 'bola de fuego sucia' por primera vez",
+    "url": "https://www.newscientist.com/article/2522015-we-may-have-seen-a-dirty-fireball-star-explosion-for-the-first-time/",
+    "source": "New Scientist",
+    "published": "2026-04-03T14:00:47.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "may",
+      "have",
+      "seen"
+    ]
+  },
+  {
+    "title": "Inside the Effort to Sequence a Thousand Measles Genomes",
+    "title_es": "Dentro del esfuerzo por secuenciar mil genomas de sarampión",
+    "url": "https://undark.org/2026/04/03/measles-genomes-sequence/",
+    "source": "Undark Magazine",
+    "published": "2026-04-03T07:51:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "inside",
+      "effort",
+      "sequence"
+    ]
+  },
+  {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
     "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
@@ -53,6 +95,90 @@
       "beneficios",
       "programas",
       "comunitarios"
+    ]
+  },
+  {
+    "title": "Massive budget cuts for US science proposed again by Trump administration",
+    "title_es": "Recortes presupuestarios masivos para la ciencia estadounidense propuestos nuevamente por la administración Trump",
+    "url": "https://www.nature.com/articles/d41586-026-01105-7",
+    "source": "Nature",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "recortes",
+      "presupuestarios",
+      "masivos"
+    ]
+  },
+  {
+    "title": "NASA Sets Coverage for Northrop Grumman’s CRS-24 Resupply Launch",
+    "title_es": "La NASA establece cobertura para el lanzamiento de reabastecimiento CRS-24 de Northrop Grumman",
+    "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "establece",
+      "cobertura"
+    ]
+  },
+  {
+    "title": "When our minds wander to the body, it may affect mental health",
+    "title_es": "Cuando nuestra mente se centra en el cuerpo, esto puede afectar la salud mental.",
+    "url": "https://www.sciencenews.org/article/mind-wander-body-mental-health",
+    "source": "Science News",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "cuando",
+      "nuestra",
+      "mente"
+    ]
+  },
+  {
+    "title": "At least half of U.S. teens use chatbots for homework and more",
+    "title_es": "Al menos la mitad de los adolescentes estadounidenses utilizan chatbots para hacer los deberes y más",
+    "url": "https://www.snexplores.org/article/teen-chatbot-use-homework",
+    "source": "Science News Explores",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "menos",
+      "mitad",
+      "adolescentes"
+    ]
+  },
+  {
+    "title": "Deafness reversed: One injection restores hearing in just weeks",
+    "title_es": "La sordera se revierte: una inyección restaura la audición en apenas unas semanas",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260403044651.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "sordera",
+      "revierte",
+      "inyección"
+    ]
+  },
+  {
+    "title": "Tiny African fish caught climbing to the top of a 50-foot waterfall",
+    "title_es": "Pequeño pez africano capturado trepando a la cima de una cascada de 50 pies",
+    "url": "https://phys.org/news/2026-04-tiny-african-fish-caught-climbing.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "pequeño",
+      "pez",
+      "africano"
     ]
   },
   {
@@ -6731,7 +6857,7 @@
   },
   {
     "title": "As More Schools Turn to AI Weapons Detection, Questions Persist",
-    "title_es": "A medida que más escuelas recurren a la detección de armas de IA, persisten las preguntas",
+    "title_es": "As More Schools Turn to AI Weapons Detection, Questions Persist",
     "url": "https://undark.org/2026/02/13/as-more-schools-turn-to-ai-weapons-detection-questions-persist/",
     "source": "Undark Magazine",
     "published": "2026-02-13T08:39:00.000Z",
@@ -6745,7 +6871,7 @@
   },
   {
     "title": "HybridRAG: A Practical LLM-based ChatBot Framework based on Pre-Generated Q&A over Raw Unstructured Documents",
-    "title_es": "HybridRAG: un marco práctico de chatbot basado en LLM basado en preguntas y respuestas pregeneradas sobre documentos no estructurados sin procesar",
+    "title_es": "HybridRAG: A Practical LLM-based ChatBot Framework based on Pre-Generated Q&A over Raw Unstructured Documents",
     "url": "https://arxiv.org/abs/2602.11156",
     "source": "arXiv",
     "published": "2026-02-13T05:00:00.000Z",
@@ -6759,7 +6885,7 @@
   },
   {
     "title": "Saturn’s Ring System, Hyperion and Titan May Have Originated in Collision of Two Proto-Moons",
-    "title_es": "El sistema de anillos de Saturno, Hiperión y Titán pueden haberse originado en la colisión de dos proto-lunas",
+    "title_es": "Saturn’s Ring System, Hyperion and Titan May Have Originated in Collision of Two Proto-Moons",
     "url": "https://www.sci.news/space/ancient-collision-saturns-ring-system-hyperion-titan-14555.html",
     "source": "Sci.News",
     "published": "2026-02-13T01:04:35.000Z",
@@ -37502,17 +37628,17 @@
     ]
   },
   {
-    "title": "Correction: Weight loss efficiency and safety of tirzepatide: A Systematic review",
-    "title_es": "Corrección: Eficiencia en la pérdida de peso y seguridad de tirzepatida: una revisión sistemática",
+    "title": "The relationship between death anxiety and self-esteem: A protocol for a systematic review and meta-analysis",
+    "title_es": "La relación entre la ansiedad ante la muerte y la autoestima: un protocolo para una revisión sistemática y un metanálisis",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "eficiencia",
-      "pérdida"
+      "relación",
+      "entre",
+      "ansiedad"
     ]
   },
   {
@@ -96871,6 +96997,19 @@
       "caught",
       "web",
       "visualization"
+    ]
+  },
+  {
+    "title": "Hello World",
+    "title_es": "Hello World",
+    "url": "https://apod.nasa.gov/apod/image/2604/art002e000192_1050.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "hello",
+      "world"
     ]
   }
 ]
