@@ -1,5 +1,47 @@
 [
   {
+    "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+    "title_es": "Holos: un sistema multiagente basado en LLM a escala web para la web genética",
+    "url": "https://arxiv.org/abs/2604.02334",
+    "source": "arXiv",
+    "published": "2026-04-06T04:00:00.000Z",
+    "date": "2026-04-06",
+    "category": "noticia",
+    "tags": [
+      "holos",
+      "web-scale",
+      "llm-based"
+    ]
+  },
+  {
+    "title": "Study of 1,700 languages reveals surprising hidden patterns",
+    "title_es": "El estudio de 1.700 idiomas revela sorprendentes patrones ocultos",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260405003943.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-06T00:00:00.000Z",
+    "date": "2026-04-06",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "1700",
+      "idiomas"
+    ]
+  },
+  {
+    "title": "Scientists found a protein that drives brain aging — and how to stop it",
+    "title_es": "Científicos han descubierto una proteína que impulsa el envejecimiento cerebral y cómo detenerla",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-05T11:08:57.000Z",
+    "date": "2026-04-05",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "found",
+      "protein"
+    ]
+  },
+  {
     "title": "Scientists discover hidden gut signals that could detect cancer early",
     "title_es": "Los científicos descubren señales intestinales ocultas que podrían detectar el cáncer de forma temprana",
     "url": "https://www.sciencedaily.com/releases/2026/04/260403224500.htm",
@@ -11,6 +53,33 @@
       "científicos",
       "descubren",
       "señales"
+    ]
+  },
+  {
+    "title": "Thinking of You, Earth",
+    "title_es": "Pensando en ti, Tierra",
+    "url": "https://www.nasa.gov/image-article/thinking-of-you-earth/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-05T00:00:00.000Z",
+    "date": "2026-04-05",
+    "category": "noticia",
+    "tags": [
+      "pensando",
+      "tierra"
+    ]
+  },
+  {
+    "title": "'Lliving fossils' nautilus and allonautilus shaped by depths and diets over 500 million years",
+    "title_es": "Nautilus y allonautilus 'fósiles vivientes' moldeados por profundidades y dietas durante 500 millones de años",
+    "url": "https://phys.org/news/2026-04-lliving-fossils-nautilus-allonautilus-depths.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-05T00:00:00.000Z",
+    "date": "2026-04-05",
+    "category": "noticia",
+    "tags": [
+      "nautilus",
+      "allonautilus",
+      "fósiles"
     ]
   },
   {
@@ -238,6 +307,20 @@
     ]
   },
   {
+    "title": "Enhancing Robustness of Federated Learning via Server Learning",
+    "title_es": "Mejora de la solidez del aprendizaje federado a través del aprendizaje en servidor",
+    "url": "http://arxiv.org/abs/2604.03226v1",
+    "source": "arXiv",
+    "published": "2026-04-03T00:00:00.000Z",
+    "date": "2026-04-03",
+    "category": "noticia",
+    "tags": [
+      "mejora",
+      "solidez",
+      "aprendizaje"
+    ]
+  },
+  {
     "title": "Hubble Space Telescope Focuses on IC 486",
     "title_es": "El telescopio espacial Hubble se centra en IC 486",
     "url": "https://www.sci.news/astronomy/hubble-barred-spiral-galaxy-ic-486-14670.html",
@@ -459,6 +542,20 @@
       "historic",
       "artemis",
       "launch"
+    ]
+  },
+  {
+    "title": "Oceans are darkening all over the planet – what’s going on?",
+    "title_es": "Los océanos se están oscureciendo en todo el planeta, ¿qué está pasando?",
+    "url": "https://www.newscientist.com/article/2519611-oceans-are-darkening-all-over-the-planet-whats-going-on/",
+    "source": "New Scientist",
+    "published": "2026-04-01T16:00:58.000Z",
+    "date": "2026-04-01",
+    "category": "noticia",
+    "tags": [
+      "oceans",
+      "are",
+      "darkening"
     ]
   },
   {
@@ -6717,7 +6814,7 @@
   },
   {
     "title": "A Lightweight Cubature Kalman Filter for Attitude and Heading Reference Systems Using Simplified Prediction Equations",
-    "title_es": "Un ligero filtro Kalman Cubature para sistemas de referencia de actitud y rumbo que utilizan ecuaciones de predicción simplificadas",
+    "title_es": "A Lightweight Cubature Kalman Filter for Attitude and Heading Reference Systems Using Simplified Prediction Equations",
     "url": "https://arxiv.org/abs/2602.12283",
     "source": "arXiv",
     "published": "2026-02-16T05:00:00.000Z",
@@ -6731,7 +6828,7 @@
   },
   {
     "title": "Intermittent fasting probably doesn’t help with weight loss",
-    "title_es": "El ayuno intermitente probablemente no ayuda a perder peso",
+    "title_es": "Intermittent fasting probably doesn’t help with weight loss",
     "url": "https://www.newscientist.com/article/2515526-intermittent-fasting-probably-doesnt-help-with-weight-loss/",
     "source": "New Scientist",
     "published": "2026-02-16T01:00:04.000Z",
@@ -6857,7 +6954,7 @@
   },
   {
     "title": "This breakthrough could finally unlock male birth control",
-    "title_es": "Este avance finalmente podría desbloquear el control de la natalidad masculina",
+    "title_es": "This breakthrough could finally unlock male birth control",
     "url": "https://www.sciencedaily.com/releases/2026/02/260213223918.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-14T15:47:27.000Z",
@@ -97080,6 +97177,19 @@
       "ngc",
       "3310",
       "starburst"
+    ]
+  },
+  {
+    "title": "The Path of Artemis II",
+    "title_es": "The Path of Artemis II",
+    "url": "https://apod.nasa.gov/apod/image/2604/artemis2path_nasasvs.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "path",
+      "artemis"
     ]
   }
 ]
