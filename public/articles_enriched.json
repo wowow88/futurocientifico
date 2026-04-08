@@ -1,5 +1,103 @@
 [
   {
+    "title": "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
+    "title_es": "Fragmentación consciente de recuperación web (W-RAC) para sistemas de generación aumentada de recuperación eficientes y rentables",
+    "url": "https://arxiv.org/abs/2604.04936",
+    "source": "arXiv",
+    "published": "2026-04-08T04:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "web",
+      "retrieval-aware",
+      "chunking"
+    ]
+  },
+  {
+    "title": "Jupiter’s Strong Magnetic Field May Explain Why It Has So Many Large Moons",
+    "title_es": "El fuerte campo magnético de Júpiter puede explicar por qué tiene tantas lunas grandes",
+    "url": "https://www.sci.news/space/gas-giant-moons-14680.html",
+    "source": "Sci.News",
+    "published": "2026-04-08T00:08:44.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "jupiters",
+      "strong",
+      "magnetic"
+    ]
+  },
+  {
+    "title": "A Volcanic Medley Near Mammoth Lakes",
+    "title_es": "Una mezcla volcánica cerca de Mammoth Lakes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-volcanic-medley-near-mammoth-lakes/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "mezcla",
+      "volcánica",
+      "cerca"
+    ]
+  },
+  {
+    "title": "Scientists map the brain’s hidden wiring using RNA barcodes in major breakthrough",
+    "title_es": "Los científicos mapean el cableado oculto del cerebro utilizando códigos de barras de ARN en un gran avance",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260407193848.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "mapean",
+      "cableado"
+    ]
+  },
+  {
+    "title": "Seizure of 2,000 ants at Nairobi airport highlights the hidden scale of insect trafficking",
+    "title_es": "La incautación de 2.000 hormigas en el aeropuerto de Nairobi pone de relieve la magnitud oculta del tráfico de insectos",
+    "url": "https://phys.org/news/2026-04-seizure-ants-nairobi-airport-highlights.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "incautación",
+      "2000",
+      "hormigas"
+    ]
+  },
+  {
+    "title": "How a century-long argument over light’s true nature came to an end",
+    "title_es": "Cómo llegó a su fin una discusión centenaria sobre la verdadera naturaleza de la luz",
+    "url": "https://www.newscientist.com/article/2522105-how-a-century-long-argument-over-lights-true-nature-came-to-an-end/",
+    "source": "New Scientist",
+    "published": "2026-04-07T18:00:45.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "century-long",
+      "argument"
+    ]
+  },
+  {
+    "title": "A DNA Archive Built to Identify Missing Migrants Has Vanished",
+    "title_es": "Ha desaparecido un archivo de ADN creado para identificar a los migrantes desaparecidos",
+    "url": "https://undark.org/2026/04/07/missing-migrants-dna-database/",
+    "source": "Undark Magazine",
+    "published": "2026-04-07T07:32:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "dna",
+      "archive",
+      "built"
+    ]
+  },
+  {
     "title": "IC3-Evolve: Proof-/Witness-Gated Offline LLM-Driven Heuristic Evolution for IC3 Hardware Model Checking",
     "title_es": "IC3-Evolve: Proof-/Witness-Gated Offline LLM-Driven Heuristic Evolution for IC3 Hardware Model Checking",
     "url": "https://arxiv.org/abs/2604.03232",
@@ -53,6 +151,76 @@
       "imágenes",
       "ogm",
       "pueden"
+    ]
+  },
+  {
+    "title": "In-Place Test-Time Training",
+    "title_es": "Capacitación en el lugar durante el tiempo de prueba",
+    "url": "http://arxiv.org/abs/2604.06169v1",
+    "source": "arXiv",
+    "published": "2026-04-07T00:00:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "capacitación",
+      "lugar",
+      "durante"
+    ]
+  },
+  {
+    "title": "AI and the human mind: only one is a black box",
+    "title_es": "La IA y la mente humana: sólo una es una caja negra",
+    "url": "https://www.nature.com/articles/d41586-026-01094-7",
+    "source": "Nature",
+    "published": "2026-04-07T00:00:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "mente",
+      "humana",
+      "sólo"
+    ]
+  },
+  {
+    "title": "Un nuevo modelo explica las diminutas explosiones energéticas en el Sol",
+    "title_es": "Un nuevo modelo explica las diminutas explosiones energéticas en el Sol",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-nuevo-modelo-explica-las-diminutas-explosiones-energeticas-en-el-sol",
+    "source": "IAC",
+    "published": "2026-04-07T00:00:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "modelo",
+      "explica"
+    ]
+  },
+  {
+    "title": "The ‘oldest fossil octopus’ is probably another animal",
+    "title_es": "El “pulpo fósil más antiguo” es probablemente otro animal",
+    "url": "https://www.sciencenews.org/article/oldest-fossil-octopus-another-animal",
+    "source": "Science News",
+    "published": "2026-04-07T00:00:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "pulpo",
+      "fósil",
+      "más"
+    ]
+  },
+  {
+    "title": "Artemis II just made a historic loop around the moon",
+    "title_es": "Artemis II acaba de hacer una vuelta histórica alrededor de la luna",
+    "url": "https://www.snexplores.org/article/artemis-orion-loop-farside-moon",
+    "source": "Science News Explores",
+    "published": "2026-04-07T00:00:00.000Z",
+    "date": "2026-04-07",
+    "category": "noticia",
+    "tags": [
+      "artemis",
+      "acaba",
+      "hacer"
     ]
   },
   {
@@ -6758,7 +6926,7 @@
   },
   {
     "title": "Did a cloud-seeding start-up really increase snowfall in part of Utah?",
-    "title_es": "¿Una puesta en marcha de siembra de nubes realmente aumentó las nevadas en parte de Utah?",
+    "title_es": "Did a cloud-seeding start-up really increase snowfall in part of Utah?",
     "url": "https://www.newscientist.com/article/2515960-did-a-cloud-seeding-start-up-really-increase-snowfall-in-part-of-utah/",
     "source": "New Scientist",
     "published": "2026-02-17T19:00:33.000Z",
@@ -6772,7 +6940,7 @@
   },
   {
     "title": "The untold story of our remarkable hands and how they made us human",
-    "title_es": "La historia no contada de nuestras extraordinarias manos y cómo nos hicieron humanos",
+    "title_es": "The untold story of our remarkable hands and how they made us human",
     "url": "https://www.newscientist.com/article/2514431-the-untold-story-of-our-remarkable-hands-and-how-they-made-us-human/",
     "source": "New Scientist",
     "published": "2026-02-17T16:00:24.000Z",
@@ -6786,7 +6954,7 @@
   },
   {
     "title": "Trump Administration Ends EPA’s Ability to Fight Climate Change",
-    "title_es": "El Gobierno de Trump pone fin a la capacidad de la EPA para luchar contra el cambio climático",
+    "title_es": "Trump Administration Ends EPA’s Ability to Fight Climate Change",
     "url": "https://undark.org/2026/02/17/epa-endangerment-finding-overturned/",
     "source": "Undark Magazine",
     "published": "2026-02-17T08:14:00.000Z",
@@ -6800,7 +6968,7 @@
   },
   {
     "title": "Simulation-Based Study of AI-Assisted Channel Adaptation in UAV-Enabled Cellular Networks",
-    "title_es": "Estudio basado en simulación de adaptación de canales asistida por IA en redes celulares habilitadas para UAV",
+    "title_es": "Simulation-Based Study of AI-Assisted Channel Adaptation in UAV-Enabled Cellular Networks",
     "url": "https://arxiv.org/abs/2602.13199",
     "source": "arXiv",
     "published": "2026-02-17T05:00:00.000Z",
@@ -6814,7 +6982,7 @@
   },
   {
     "title": "Small Triassic Dinosaur from Brazil Sheds New Light on Sauropodomorph Growth Strategies",
-    "title_es": "Un pequeño dinosaurio triásico de Brasil arroja nueva luz sobre las estrategias de crecimiento de los sauropodomorfos",
+    "title_es": "Small Triassic Dinosaur from Brazil Sheds New Light on Sauropodomorph Growth Strategies",
     "url": "https://www.sci.news/paleontology/small-triassic-sauropodomorph-dinosaur-brazil-14562.html",
     "source": "Sci.News",
     "published": "2026-02-17T02:04:08.000Z",
@@ -37935,17 +38103,17 @@
     ]
   },
   {
-    "title": "Psychological safety as a context-sensitive predictor of retention intentions: Gendered effects of supervisor support under caregiving-assumed conditions",
-    "title_es": "La seguridad psicológica como predictor sensible al contexto de las intenciones de retención: efectos de género del apoyo del supervisor en condiciones asumidas de cuidado",
+    "title": "Metformin attenuates TBHP-induced oxidative injury in human lens epithelial cells and is associated with SIRT1/FOXO1-related autophagy",
+    "title_es": "La metformina atenúa la lesión oxidativa inducida por TBHP en las células epiteliales del cristalino humano y se asocia con la autofagia relacionada con SIRT1/FOXO1",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "seguridad",
-      "psicológica",
-      "como"
+      "metformina",
+      "atenúa",
+      "lesión"
     ]
   },
   {
@@ -97358,6 +97526,20 @@
       "4592",
       "blue",
       "horsehead"
+    ]
+  },
+  {
+    "title": "Nonpertubative many-body theory for the two-dimensional Hubbard model at low temperature: From weak to strong coupling regimes, by Ruitao Xiao, Yingze Su, Junnian Xiong, Hui Li, Huaqing Huang, Dingping Li",
+    "title_es": "Nonpertubative many-body theory for the two-dimensional Hubbard model at low temperature: From weak to strong coupling regimes, by Ruitao Xiao, Yingze Su, Junnian Xiong, Hui Li, Huaqing Huang, Dingping Li",
+    "url": "https://scipost.org/scipostphys.20.4.101",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "nonpertubative",
+      "many-body",
+      "theory"
     ]
   }
 ]
