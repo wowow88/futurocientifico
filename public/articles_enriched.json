@@ -1,5 +1,103 @@
 [
   {
+    "title": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
+    "title_es": "Construcción de la base de conocimientos aumentada de LLM para el análisis de la causa raíz",
+    "url": "https://arxiv.org/abs/2604.06171",
+    "source": "arXiv",
+    "published": "2026-04-09T04:00:00.000Z",
+    "date": "2026-04-09",
+    "category": "noticia",
+    "tags": [
+      "llm-augmented",
+      "knowledge",
+      "base"
+    ]
+  },
+  {
+    "title": "Liquid or solid? Oobleck droplets are both",
+    "title_es": "¿Líquido o sólido? Las gotas de Oobleck son ambas",
+    "url": "https://www.nature.com/articles/d41586-026-01109-3",
+    "source": "Nature",
+    "published": "2026-04-09T00:00:00.000Z",
+    "date": "2026-04-09",
+    "category": "noticia",
+    "tags": [
+      "líquido",
+      "sólido",
+      "gotas"
+    ]
+  },
+  {
+    "title": "Snow in the Shadow of the Andes",
+    "title_es": "Nieve a la sombra de los Andes",
+    "url": "https://science.nasa.gov/earth/earth-observatory/snow-in-the-shadow-of-the-andes/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-09T00:00:00.000Z",
+    "date": "2026-04-09",
+    "category": "noticia",
+    "tags": [
+      "nieve",
+      "sombra",
+      "andes"
+    ]
+  },
+  {
+    "title": "What if dark matter came in two states?",
+    "title_es": "¿Qué pasaría si la materia oscura se presentara en dos estados?",
+    "url": "https://phys.org/news/2026-04-dark-states.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-09T00:00:00.000Z",
+    "date": "2026-04-09",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "pasaría",
+      "materia"
+    ]
+  },
+  {
+    "title": "Permian Fossil is Earliest Evidence of Rib-Powered Breathing",
+    "title_es": "El fósil del Pérmico es la evidencia más temprana de respiración con costillas",
+    "url": "https://www.sci.news/paleontology/captorhinus-aguti-rib-powered-breathing-apparatus-14685.html",
+    "source": "Sci.News",
+    "published": "2026-04-08T23:40:06.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "permian",
+      "fossil",
+      "earliest"
+    ]
+  },
+  {
+    "title": "Key ocean current is slowing at locations around the Atlantic",
+    "title_es": "La corriente oceánica clave se está desacelerando en lugares alrededor del Atlántico",
+    "url": "https://www.newscientist.com/article/2522463-key-ocean-current-is-slowing-at-locations-around-the-atlantic/",
+    "source": "New Scientist",
+    "published": "2026-04-08T19:00:28.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "key",
+      "ocean",
+      "current"
+    ]
+  },
+  {
+    "title": "The Push for Artificial Inheritance",
+    "title_es": "El impulso a la herencia artificial",
+    "url": "https://undark.org/2026/04/08/genetics-artificial-inheritance/",
+    "source": "Undark Magazine",
+    "published": "2026-04-08T07:20:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "push",
+      "artificial",
+      "inheritance"
+    ]
+  },
+  {
     "title": "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
     "title_es": "Fragmentación consciente de recuperación web (W-RAC) para sistemas de generación aumentada de recuperación eficientes y rentables",
     "url": "https://arxiv.org/abs/2604.04936",
@@ -67,6 +165,76 @@
       "incautación",
       "2000",
       "hormigas"
+    ]
+  },
+  {
+    "title": "Toward a Tractability Frontier for Exact Relevance Certification",
+    "title_es": "Hacia una frontera de trazabilidad para la certificación de relevancia exacta",
+    "url": "http://arxiv.org/abs/2604.07349v1",
+    "source": "arXiv",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "hacia",
+      "frontera",
+      "trazabilidad"
+    ]
+  },
+  {
+    "title": "La ULL y el IAC crean uno de los mayores catálogos fotométricos de asteroides observados en España",
+    "title_es": "La ULL y el IAC crean uno de los mayores catálogos fotométricos de asteroides observados en España",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-ull-y-el-iac-crean-uno-de-los-mayores-catalogos-fotometricos-de-asteroides-observados-en-espana",
+    "source": "IAC",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "ull",
+      "iac",
+      "crean"
+    ]
+  },
+  {
+    "title": "Even before splashdown, Artemis II is delivering a scientific treasure trove",
+    "title_es": "Incluso antes del aterrizaje, Artemis II está entregando un tesoro científico",
+    "url": "https://www.sciencenews.org/article/splashdown-artemis-ii-science-moon",
+    "source": "Science News",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "incluso",
+      "antes",
+      "aterrizaje"
+    ]
+  },
+  {
+    "title": "This Band Aid-like device could let you ‘feel’ the virtual world",
+    "title_es": "Este dispositivo tipo curita podría permitirte \"sentir\" el mundo virtual",
+    "url": "https://www.snexplores.org/article/touch-virtual-texture-haptic-device",
+    "source": "Science News Explores",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "dispositivo",
+      "tipo"
+    ]
+  },
+  {
+    "title": "Something just hit the Moon and left a bright new scar",
+    "title_es": "Algo acaba de golpear la Luna y dejó una nueva y brillante cicatriz",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260407193919.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-08T00:00:00.000Z",
+    "date": "2026-04-08",
+    "category": "noticia",
+    "tags": [
+      "algo",
+      "acaba",
+      "golpear"
     ]
   },
   {
@@ -6744,7 +6912,7 @@
   },
   {
     "title": "More dog breeds found to have high risk of breathing condition",
-    "title_es": "Se encontró que más razas de perros tienen un alto riesgo de problemas respiratorios",
+    "title_es": "More dog breeds found to have high risk of breathing condition",
     "url": "https://www.newscientist.com/article/2516119-more-dog-breeds-found-to-have-high-risk-of-breathing-condition/",
     "source": "New Scientist",
     "published": "2026-02-18T19:00:54.000Z",
@@ -6758,7 +6926,7 @@
   },
   {
     "title": "What the Dutch Can Teach Us About Paying for Health Care",
-    "title_es": "Lo que los holandeses pueden enseñarnos sobre el pago de la atención médica",
+    "title_es": "What the Dutch Can Teach Us About Paying for Health Care",
     "url": "https://undark.org/2026/02/18/dutch-healthcare-insurance/",
     "source": "Undark Magazine",
     "published": "2026-02-18T08:47:00.000Z",
@@ -6772,7 +6940,7 @@
   },
   {
     "title": "Pairwise XOR and XNOR Gates in Squeezed Instantaneous Noise Based Logic",
-    "title_es": "Puertas XOR y XNOR por pares en lógica basada en ruido instantáneo exprimido",
+    "title_es": "Pairwise XOR and XNOR Gates in Squeezed Instantaneous Noise Based Logic",
     "url": "https://arxiv.org/abs/2602.15032",
     "source": "arXiv",
     "published": "2026-02-18T05:00:00.000Z",
@@ -6786,7 +6954,7 @@
   },
   {
     "title": "Triceratops’ Oversized Nasal Cavities Played Roles Far Beyond Smell, Paleontologists Find",
-    "title_es": "Las cavidades nasales de gran tamaño de Triceratops desempeñaron papeles mucho más allá del olfato, según los paleontólogos",
+    "title_es": "Triceratops’ Oversized Nasal Cavities Played Roles Far Beyond Smell, Paleontologists Find",
     "url": "https://www.sci.news/paleontology/triceratops-nasal-cavity-14565.html",
     "source": "Sci.News",
     "published": "2026-02-18T01:51:48.000Z",
@@ -38103,17 +38271,17 @@
     ]
   },
   {
-    "title": "Metformin attenuates TBHP-induced oxidative injury in human lens epithelial cells and is associated with SIRT1/FOXO1-related autophagy",
-    "title_es": "La metformina atenúa la lesión oxidativa inducida por TBHP en las células epiteliales del cristalino humano y se asocia con la autofagia relacionada con SIRT1/FOXO1",
+    "title": "Correction: Antecedents of the effectiveness of entrepreneurship policy: An integrated framework",
+    "title_es": "Corrección: Antecedentes de la eficacia de la política de emprendimiento: un marco integrado",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "metformina",
-      "atenúa",
-      "lesión"
+      "corrección",
+      "antecedentes",
+      "eficacia"
     ]
   },
   {
@@ -97540,6 +97708,34 @@
       "nonpertubative",
       "many-body",
       "theory"
+    ]
+  },
+  {
+    "title": "Bootstrapping the $R$-matrix, by Zhao Zhang",
+    "title_es": "Bootstrapping the $R$-matrix, by Zhao Zhang",
+    "url": "https://scipost.org/scipostphys.20.4.102",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bootstrapping",
+      "r-matrix",
+      "zhao"
+    ]
+  },
+  {
+    "title": "Destruction of Comet C/2026 A1 (MAPS)",
+    "title_es": "Destruction of Comet C/2026 A1 (MAPS)",
+    "url": "https://apod.nasa.gov/apod/image/2604/comet_plunge.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "destruction",
+      "comet",
+      "c2026"
     ]
   }
 ]
