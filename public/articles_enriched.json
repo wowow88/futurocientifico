@@ -1,5 +1,89 @@
 [
   {
+    "title": "NetAgentBench: A State-Centric Benchmark for Evaluating Agentic Network Configuration",
+    "title_es": "NetAgentBench: un punto de referencia centrado en el estado para evaluar la configuración de la red agénica",
+    "url": "https://arxiv.org/abs/2604.09678",
+    "source": "arXiv",
+    "published": "2026-04-14T04:00:00.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "netagentbench",
+      "state-centric",
+      "benchmark"
+    ]
+  },
+  {
+    "title": "Large Language Models Don’t Just Analyze People, They Judge Them",
+    "title_es": "Los modelos lingüísticos grandes no solo analizan a las personas, sino que las juzgan",
+    "url": "https://www.sci.news/othersciences/computerscience/large-language-models-trust-humans-14693.html",
+    "source": "Sci.News",
+    "published": "2026-04-14T00:16:42.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "large",
+      "language",
+      "models"
+    ]
+  },
+  {
+    "title": "Super Typhoon Sinlaku",
+    "title_es": "Súper tifón Sinlaku",
+    "url": "https://science.nasa.gov/earth/earth-observatory/super-typhoon-sinlaku/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-14T00:00:00.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "súper",
+      "tifón",
+      "sinlaku"
+    ]
+  },
+  {
+    "title": "Ancient graves and DNA uncover family bonds that went beyond genetics",
+    "title_es": "Tumbas antiguas y ADN descubren vínculos familiares que iban más allá de la genética",
+    "url": "https://phys.org/news/2026-04-ancient-graves-dna-uncover-family.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-14T00:00:00.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "tumbas",
+      "antiguas",
+      "adn"
+    ]
+  },
+  {
+    "title": "The green solution to climate change isn't happening – and that's good",
+    "title_es": "La solución verde al cambio climático no está sucediendo, y eso es bueno",
+    "url": "https://www.newscientist.com/article/2522770-the-green-solution-to-climate-change-isnt-happening-and-thats-good/",
+    "source": "New Scientist",
+    "published": "2026-04-13T22:00:02.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "green",
+      "solution",
+      "climate"
+    ]
+  },
+  {
+    "title": "Student Athletes Feel the Heat as States Adapt to Climate Change",
+    "title_es": "Los estudiantes atletas sienten el calor mientras los estados se adaptan al cambio climático",
+    "url": "https://undark.org/2026/04/13/student-athletes-climate-change/",
+    "source": "Undark Magazine",
+    "published": "2026-04-13T09:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "student",
+      "athletes",
+      "feel"
+    ]
+  },
+  {
     "title": "VerifAI: A Verifiable Open-Source Search Engine for Biomedical Question Answering",
     "title_es": "VerifAI: un motor de búsqueda de código abierto verificable para responder preguntas biomédicas",
     "url": "https://arxiv.org/abs/2604.08549",
@@ -39,6 +123,90 @@
       "ballenas",
       "grises",
       "que"
+    ]
+  },
+  {
+    "title": "Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems",
+    "title_es": "Modelos espaciales de estados basados ​​en la física para una previsión fiable de la irradiación solar en sistemas fuera de la red",
+    "url": "http://arxiv.org/abs/2604.11807v1",
+    "source": "arXiv",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "modelos",
+      "espaciales",
+      "estados"
+    ]
+  },
+  {
+    "title": "Viruses allegedly stolen from high-security lab cause stir in Brazil",
+    "title_es": "Virus supuestamente robados de laboratorio de alta seguridad causan revuelo en Brasil",
+    "url": "https://www.nature.com/articles/d41586-026-01211-6",
+    "source": "Nature",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "virus",
+      "supuestamente",
+      "robados"
+    ]
+  },
+  {
+    "title": "CNIC-led project advancing a new ant-cancer strategy selected for the CRIS Excellence Program",
+    "title_es": "Proyecto liderado por el CNIC que promueve una nueva estrategia contra el cáncer seleccionada para el Programa de Excelencia CRIS",
+    "url": "https://www.cnic.es/es/node/241428",
+    "source": "CNIC",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "cnic-led",
+      "project",
+      "advancing"
+    ]
+  },
+  {
+    "title": "Fluoride in U.S. drinking water does not reduce IQ, a new study finds",
+    "title_es": "El fluoruro en el agua potable de EE. UU. no reduce el coeficiente intelectual, según un nuevo estudio",
+    "url": "https://www.sciencenews.org/article/fluoride-drinking-water-iq-no-evidence",
+    "source": "Science News",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "fluoruro",
+      "agua",
+      "potable"
+    ]
+  },
+  {
+    "title": "Check out some of the best pics from the Artemis II mission",
+    "title_es": "Mira algunas de las mejores fotografías de la misión Artemis II",
+    "url": "https://www.snexplores.org/article/artemis-pics-moon-images",
+    "source": "Science News Explores",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "mira",
+      "algunas",
+      "mejores"
+    ]
+  },
+  {
+    "title": "New toothpaste stops gum disease without killing good bacteria",
+    "title_es": "Una nueva pasta de dientes detiene la enfermedad de las encías sin matar las bacterias buenas",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260413043141.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-13T00:00:00.000Z",
+    "date": "2026-04-13",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "pasta",
+      "dientes"
     ]
   },
   {
@@ -224,7 +392,7 @@
     ]
   },
   {
-    "title": "Alejo Efeyan recibe un Programa CRIS de Excelencia para desentrañar los efectos de la restricción dietética en la prevención y el tratamiento del cáncer de hígado",
+    "title": "Alejo Efeyan recibe un Programa CRIS de Excelencia para desentrañar por qué la restricción dietética ayuda a prevenir y tratar el cáncer de hígado",
     "title_es": "Alejo Efeyan recibe un Programa CRIS de Excelencia para desentrañar los efectos de la restricción dietética en la prevención y el tratamiento del cáncer de hígado",
     "url": "https://www.cnio.es/noticias/alejo-efeyan-recibe-un-programa-cris-de-excelencia-para-desentranar-los-efectos-de-la-restriccion-dietetica-en-la-prevencion-y-el-tratamiento-del-cancer-de-higado/",
     "source": "CNIO",
@@ -6730,7 +6898,7 @@
   },
   {
     "title": "New Sauropod Dinosaur Species Identified in Brazil",
-    "title_es": "Nueva especie de dinosaurio saurópodo identificada en Brasil",
+    "title_es": "New Sauropod Dinosaur Species Identified in Brazil",
     "url": "https://www.sci.news/paleontology/dasosaurus-tocantinensis-14577.html",
     "source": "Sci.News",
     "published": "2026-02-24T00:38:40.000Z",
@@ -6828,7 +6996,7 @@
   },
   {
     "title": "Stone Age symbols may push back the earliest form of writing",
-    "title_es": "Los símbolos de la Edad de Piedra pueden hacer retroceder la forma más antigua de escritura",
+    "title_es": "Stone Age symbols may push back the earliest form of writing",
     "url": "https://www.newscientist.com/article/2516606-stone-age-symbols-may-push-back-the-earliest-form-of-writing/",
     "source": "New Scientist",
     "published": "2026-02-23T20:00:26.000Z",
@@ -6842,7 +7010,7 @@
   },
   {
     "title": "FDA Removes Webpage Warning Against Ineffective Autism Treatments",
-    "title_es": "La FDA elimina la advertencia de la página web contra los tratamientos ineficaces para el autismo",
+    "title_es": "FDA Removes Webpage Warning Against Ineffective Autism Treatments",
     "url": "https://undark.org/2026/02/23/fda-autism-treatment-warnings/",
     "source": "Undark Magazine",
     "published": "2026-02-23T08:09:00.000Z",
@@ -6856,7 +7024,7 @@
   },
   {
     "title": "Young Mars volcano hides a powerful magma engine beneath the surface",
-    "title_es": "El joven volcán de Marte esconde un potente motor de magma bajo la superficie",
+    "title_es": "Young Mars volcano hides a powerful magma engine beneath the surface",
     "url": "https://www.sciencedaily.com/releases/2026/02/260222092329.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-02-23T06:19:47.000Z",
@@ -38719,17 +38887,17 @@
     ]
   },
   {
-    "title": "Advanced machine learning-guided optimization platform for high-yield soluble expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia coli strains",
-    "title_es": "Plataforma avanzada de optimización guiada por aprendizaje automático para la expresión soluble de alto rendimiento de la exotoxina A de Pseudomonas aeruginosa en cepas de Escherichia coli diseñadas",
+    "title": "From visual attention to behavioural intention: A relational framework of culturally creative desserts in museum communication",
+    "title_es": "De la atención visual a la intención conductual: un marco relacional de postres culturalmente creativos en la comunicación museística",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "plataforma",
-      "avanzada",
-      "optimización"
+      "atención",
+      "visual",
+      "intención"
     ]
   },
   {
@@ -98267,6 +98435,20 @@
       "comet",
       "panstarrs",
       "brightens"
+    ]
+  },
+  {
+    "title": "On the addition of an SU(2) quadruplet of scalars to the Standard Model, by Darius Jurčiukonis, Luís Lavoura",
+    "title_es": "On the addition of an SU(2) quadruplet of scalars to the Standard Model, by Darius Jurčiukonis, Luís Lavoura",
+    "url": "https://scipost.org/scipostphyscore.9.2.022",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "addition",
+      "su2",
+      "quadruplet"
     ]
   }
 ]
