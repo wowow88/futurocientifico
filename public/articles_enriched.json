@@ -1,5 +1,89 @@
 [
   {
+    "title": "From Black Box to Glass Box: Cross-Model ASR Disagreement to Prioto Review in Ambient AI Scribe Documentation",
+    "title_es": "De la caja negra a la caja de vidrio: desacuerdo de ASR entre modelos a la revisión de Prioto en la documentación ambiental de AI Scribe",
+    "url": "https://arxiv.org/abs/2604.14152",
+    "source": "arXiv",
+    "published": "2026-04-17T04:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "black",
+      "box",
+      "glass"
+    ]
+  },
+  {
+    "title": "Record-Breaking Map Charts Universe in 3D Like Never Before",
+    "title_es": "Un universo de mapas sin precedentes en 3D como nunca antes",
+    "url": "https://www.sci.news/astronomy/desi-universe-3d-map-14702.html",
+    "source": "Sci.News",
+    "published": "2026-04-17T00:45:03.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "record-breaking",
+      "map",
+      "charts"
+    ]
+  },
+  {
+    "title": "Spring Rains Saturate Michigan",
+    "title_es": "Las lluvias de primavera saturan Michigan",
+    "url": "https://science.nasa.gov/earth/earth-observatory/spring-rains-saturate-michigan/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "lluvias",
+      "primavera",
+      "saturan"
+    ]
+  },
+  {
+    "title": "A student-led experiment sets new limits in the search for axions",
+    "title_es": "Un experimento dirigido por estudiantes establece nuevos límites en la búsqueda de axiones",
+    "url": "https://phys.org/news/2026-04-student-limits-axions.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "experimento",
+      "dirigido",
+      "por"
+    ]
+  },
+  {
+    "title": "Our dreams become more emotive and symbolic as we approach death",
+    "title_es": "Nuestros sueños se vuelven más emotivos y simbólicos a medida que nos acercamos a la muerte",
+    "url": "https://www.newscientist.com/article/2523071-our-dreams-become-more-emotive-and-symbolic-as-we-approach-death/",
+    "source": "New Scientist",
+    "published": "2026-04-16T13:00:09.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "our",
+      "dreams",
+      "become"
+    ]
+  },
+  {
+    "title": "Medicine Misses the Mark on African and Black Hair Health",
+    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
+    "source": "Undark Magazine",
+    "published": "2026-04-16T07:49:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "medicine",
+      "misses",
+      "mark"
+    ]
+  },
+  {
     "title": "OVT-MLCS: An Online Visual Tool for MLCS Mining from Long or Big Sequences",
     "title_es": "OVT-MLCS: una herramienta visual en línea para la minería de MLCS a partir de secuencias largas o grandes",
     "url": "https://arxiv.org/abs/2604.13037",
@@ -39,6 +123,146 @@
       "este",
       "dron",
       "revela"
+    ]
+  },
+  {
+    "title": "MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation",
+    "title_es": "MM-WebAgent: un agente web multimodal jerárquico para la generación de páginas web",
+    "url": "http://arxiv.org/abs/2604.15309v1",
+    "source": "arXiv",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "mm-webagent",
+      "agente",
+      "web"
+    ]
+  },
+  {
+    "title": "The life and legacy of George Schaller",
+    "title_es": "La vida y el legado de George Schaller",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aee8708",
+    "source": "Science.org",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "vida",
+      "legado",
+      "george"
+    ]
+  },
+  {
+    "title": "Venus’s impenetrable haze could be made of cosmic dust",
+    "title_es": "La impenetrable neblina de Venus podría estar hecha de polvo cósmico",
+    "url": "https://www.nature.com/articles/d41586-026-01212-5",
+    "source": "Nature",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "impenetrable",
+      "neblina",
+      "venus"
+    ]
+  },
+  {
+    "title": "Michael Reth: “Las personas con dislexia están especializadas en explorar lo desconocido”",
+    "title_es": "Michael Reth: “Las personas con dislexia están especializadas en explorar lo desconocido”",
+    "url": "https://www.cnic.es/es/noticias/michael-reth-personas-con-dislexia-estan-especializadas-explorar-lo-desconocido",
+    "source": "CNIC",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "michael",
+      "reth",
+      "personas"
+    ]
+  },
+  {
+    "title": "Un grupo del CNIO avanza en la identificación de las lesiones que se convertirán en cáncer de mama, lo que podrá ayudar a evitar el sobretratamiento",
+    "title_es": "Un grupo del CNIO avanza en la identificación de las lesiones que se convierten en cáncer de mama, lo que puede ayudar a evitar el sobretratamiento",
+    "url": "https://www.cnio.es/noticias/un-grupo-del-cnio-avanza-en-la-identificacion-de-las-lesiones-que-se-convertiran-en-cancer-de-mama-lo-que-podra-ayudar-a-evitar-el-sobretratamiento/",
+    "source": "CNIO",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "grupo",
+      "cnio",
+      "avanza"
+    ]
+  },
+  {
+    "title": "El Sol se convierte en protagonista en la nueva edición de Del cielo a la tesis en el MCC",
+    "title_es": "El Sol se convierte en protagonista en la nueva edición de Del cielo a la tesis en el MCC",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-sol-se-convierte-en-protagonista-en-la-nueva-edicion-de-del-cielo-la-tesis-en-el-mcc",
+    "source": "IAC",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "sol",
+      "convierte",
+      "protagonista"
+    ]
+  },
+  {
+    "title": "CMS looks deep inside quarks",
+    "title_es": "CMS analiza el interior de los quarks",
+    "url": "https://home.cern/news/news/physics/cms-looks-deep-inside-quarks",
+    "source": "CERN News",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "cms",
+      "analiza",
+      "interior"
+    ]
+  },
+  {
+    "title": "A strange ‘neutrino force’ helped heal a crack in particle physics",
+    "title_es": "Una extraña 'fuerza de neutrinos' ayudó a cerrar una grieta en la física de partículas",
+    "url": "https://www.sciencenews.org/article/neutrino-force-particle-physics",
+    "source": "Science News",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "extraña",
+      "fuerza",
+      "neutrinos"
+    ]
+  },
+  {
+    "title": "Here’s what nutrition experts say about dietary fat",
+    "title_es": "Esto es lo que dicen los expertos en nutrición sobre la grasa dietética",
+    "url": "https://www.snexplores.org/article/dietary-fat-nutrition",
+    "source": "Science News Explores",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "esto",
+      "que",
+      "dicen"
+    ]
+  },
+  {
+    "title": "MIT scientists just found a hidden problem slowing the ozone comeback",
+    "title_es": "Los científicos del MIT acaban de encontrar un problema oculto que frena el regreso del ozono",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260416071945.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-16T00:00:00.000Z",
+    "date": "2026-04-16",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "mit",
+      "acaban"
     ]
   },
   {
@@ -6718,7 +6942,7 @@
   },
   {
     "title": "Stem cell patch reverses brain damage in fetuses with spina bifida",
-    "title_es": "El parche de células madre revierte el daño cerebral en fetos con espina bífida",
+    "title_es": "Stem cell patch reverses brain damage in fetuses with spina bifida",
     "url": "https://www.newscientist.com/article/2517249-stem-cell-patch-reverses-brain-damage-in-fetuses-with-spina-bifida/",
     "source": "New Scientist",
     "published": "2026-02-26T23:30:10.000Z",
@@ -6732,7 +6956,7 @@
   },
   {
     "title": "As Brain Organoid Science Grows More Complex, So Do the Questions",
-    "title_es": "A medida que la ciencia de los organoides cerebrales se vuelve más compleja, también lo hacen las preguntas",
+    "title_es": "As Brain Organoid Science Grows More Complex, So Do the Questions",
     "url": "https://undark.org/2026/02/26/brain-organoids-big-questions/",
     "source": "Undark Magazine",
     "published": "2026-02-26T08:55:00.000Z",
@@ -6746,7 +6970,7 @@
   },
   {
     "title": "Disaster Question Answering with LoRA Efficiency and Accurate End Position",
-    "title_es": "Respuesta a preguntas sobre desastres con eficiencia de LoRA y posición final precisa",
+    "title_es": "Disaster Question Answering with LoRA Efficiency and Accurate End Position",
     "url": "https://arxiv.org/abs/2602.21212",
     "source": "arXiv",
     "published": "2026-02-26T05:00:00.000Z",
@@ -6760,7 +6984,7 @@
   },
   {
     "title": "90-Million-Year-Old Patagonian Fossil Reveals Missing Chapter in Evolution of Alvarezsauroid Dinosaurs",
-    "title_es": "Fósil patagónico de 90 millones de años revela que falta un capítulo en la evolución de los dinosaurios alvarezsauroideos",
+    "title_es": "90-Million-Year-Old Patagonian Fossil Reveals Missing Chapter in Evolution of Alvarezsauroid Dinosaurs",
     "url": "https://www.sci.news/paleontology/alnashetri-cerropoliciensis-14585.html",
     "source": "Sci.News",
     "published": "2026-02-26T01:22:18.000Z",
@@ -39195,8 +39419,8 @@
     ]
   },
   {
-    "title": "Correction: The importance of structure: Using targeted rewiring to explore social networks property interdependencies",
-    "title_es": "Corrección: La importancia de la estructura: uso de recableado dirigido para explorar las interdependencias de propiedad de las redes sociales",
+    "title": "Correction: Turning the tide on turnover: The impact of empowering leadership on the work-family spillover of managers",
+    "title_es": "Corrección: Cambiar el rumbo de la rotación: el impacto del empoderamiento del liderazgo en el desbordamiento de los gerentes entre el trabajo y la familia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -39204,8 +39428,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "importancia",
-      "estructura"
+      "cambiar",
+      "rumbo"
     ]
   },
   {
@@ -98799,6 +99023,34 @@
       "thermodynamics",
       "autonomous",
       "optical"
+    ]
+  },
+  {
+    "title": "Remote spin control in Haldane spin chains, by Yelko del Castillo, Alejandro Ferrón, Joaquín Fernández-Rossier",
+    "title_es": "Remote spin control in Haldane spin chains, by Yelko del Castillo, Alejandro Ferrón, Joaquín Fernández-Rossier",
+    "url": "https://scipost.org/scipostphyscore.9.2.024",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "remote",
+      "spin",
+      "control"
+    ]
+  },
+  {
+    "title": "M82: Starburst Galaxy with a Superwind",
+    "title_es": "M82: Starburst Galaxy with a Superwind",
+    "url": "https://apod.nasa.gov/apod/image/2604/m82_v3_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "m82",
+      "starburst",
+      "galaxy"
     ]
   }
 ]
