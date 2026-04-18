@@ -1,5 +1,61 @@
 [
   {
+    "title": "How nanomedicine gets inside your cells and treats you from the inside out",
+    "title_es": "Cómo la nanomedicina entra en tus células y te trata de adentro hacia afuera",
+    "url": "https://phys.org/news/2026-04-nanomedicine-cells.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-18T00:00:00.000Z",
+    "date": "2026-04-18",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "nanomedicina",
+      "entra"
+    ]
+  },
+  {
+    "title": "New Triassic Dinosaur Species Identified in New Mexico",
+    "title_es": "Nueva especie de dinosaurio del Triásico identificada en Nuevo México",
+    "url": "https://www.sci.news/paleontology/ptychotherates-bucculentus-14703.html",
+    "source": "Sci.News",
+    "published": "2026-04-17T23:33:19.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "triassic",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Electric vehicle owners could earn thousands by supporting power grid",
+    "title_es": "Los propietarios de vehículos eléctricos podrían ganar miles apoyando la red eléctrica",
+    "url": "https://www.newscientist.com/article/2523429-electric-vehicle-owners-could-earn-thousands-by-supporting-power-grid/",
+    "source": "New Scientist",
+    "published": "2026-04-17T18:00:54.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "electric",
+      "vehicle",
+      "owners"
+    ]
+  },
+  {
+    "title": "Book Review: An Impassioned Lament for Our Imperiled Wild Forests",
+    "title_es": "Reseña del libro: Un lamento apasionado por nuestros bosques silvestres en peligro",
+    "url": "https://undark.org/2026/04/17/review-when-the-forest-breathes/",
+    "source": "Undark Magazine",
+    "published": "2026-04-17T07:56:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "impassioned"
+    ]
+  },
+  {
     "title": "From Black Box to Glass Box: Cross-Model ASR Disagreement to Prioto Review in Ambient AI Scribe Documentation",
     "title_es": "De la caja negra a la caja de vidrio: desacuerdo de ASR entre modelos a la revisión de Prioto en la documentación ambiental de AI Scribe",
     "url": "https://arxiv.org/abs/2604.14152",
@@ -53,6 +109,90 @@
       "experimento",
       "dirigido",
       "por"
+    ]
+  },
+  {
+    "title": "Briefing Chat: Penguins pick up PFAS pollution",
+    "title_es": "Charla informativa: los pingüinos detectan la contaminación por PFAS",
+    "url": "https://www.nature.com/articles/d41586-026-01263-8",
+    "source": "Nature",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "pingüinos"
+    ]
+  },
+  {
+    "title": "El IAC lleva su tecnología espacial al Space Symposium 2026 y firma un acuerdo de colaboración con el LASP de la Universidad de Colorado",
+    "title_es": "El IAC lleva su tecnología espacial al Space Symposium 2026 y firma un acuerdo de colaboración con el LASP de la Universidad de Colorado",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-lleva-su-tecnologia-espacial-al-space-symposium-2026-y-firma-un-acuerdo-de-colaboracion-con-el",
+    "source": "IAC",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "lleva",
+      "tecnología"
+    ]
+  },
+  {
+    "title": "CSDA Quality Assessment Report Evaluates Satellogic NewSat Data",
+    "title_es": "El informe de evaluación de calidad de CSDA evalúa los datos de Satellogic NewSat",
+    "url": "https://science.nasa.gov/uncategorized/csda-quality-assessment-report-evaluates-satellogic-newsat-data/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "informe",
+      "evaluación",
+      "calidad"
+    ]
+  },
+  {
+    "title": "An endangered mouse may need a helping hand to adapt to climate change",
+    "title_es": "Un ratón en peligro de extinción puede necesitar ayuda para adaptarse al cambio climático",
+    "url": "https://www.sciencenews.org/article/mouse-endangered-climate-conservation",
+    "source": "Science News",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "ratón",
+      "peligro",
+      "extinción"
+    ]
+  },
+  {
+    "title": "This tool-using cow stunned scientists with her smarts",
+    "title_es": "Esta vaca que usa herramientas sorprendió a los científicos con su inteligencia",
+    "url": "https://www.snexplores.org/article/first-cow-tool-use",
+    "source": "Science News Explores",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "vaca",
+      "que"
+    ]
+  },
+  {
+    "title": "Scientists discover bacteria can “explode” to spread antibiotic resistance",
+    "title_es": "Los científicos descubren que las bacterias pueden \"explotar\" para propagar la resistencia a los antibióticos",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "que"
     ]
   },
   {
@@ -6746,7 +6886,7 @@
   },
   {
     "title": "NASA’s Artemis moon exploration programme is getting a major makeover",
-    "title_es": "El programa de exploración lunar Artemisa de la NASA está recibiendo un importante cambio de imagen",
+    "title_es": "NASA’s Artemis moon exploration programme is getting a major makeover",
     "url": "https://www.newscientist.com/article/2517451-nasas-artemis-moon-exploration-programme-is-getting-a-major-makeover/",
     "source": "New Scientist",
     "published": "2026-02-27T16:24:28.000Z",
@@ -6760,7 +6900,7 @@
   },
   {
     "title": "What the ‘Birthday Paradox’ Can Teach Us About Black History",
-    "title_es": "Lo que la ‘paradoja del cumpleaños’ puede enseñarnos sobre la historia negra",
+    "title_es": "What the ‘Birthday Paradox’ Can Teach Us About Black History",
     "url": "https://undark.org/2026/02/27/opinion-birthday-paradox-black-history/",
     "source": "Undark Magazine",
     "published": "2026-02-27T08:42:00.000Z",
@@ -6774,7 +6914,7 @@
   },
   {
     "title": "Enriching Taxonomies Using Large Language Models",
-    "title_es": "Enriquecer las taxonomías utilizando modelos de lenguaje grandes",
+    "title_es": "Enriching Taxonomies Using Large Language Models",
     "url": "https://arxiv.org/abs/2602.22213",
     "source": "arXiv",
     "published": "2026-02-27T05:00:00.000Z",
@@ -6788,7 +6928,7 @@
   },
   {
     "title": "Arrival of Homo erectus in Southeast Asia Changed Mosquito Menu, New Study Suggests",
-    "title_es": "La llegada del Homo erectus al sudeste asiático cambió el menú de mosquitos, sugiere un nuevo estudio",
+    "title_es": "Arrival of Homo erectus in Southeast Asia Changed Mosquito Menu, New Study Suggests",
     "url": "https://www.sci.news/biology/homo-erectus-arrival-malaria-mosquitoes-14587.html",
     "source": "Sci.News",
     "published": "2026-02-27T01:10:48.000Z",
@@ -39419,17 +39559,17 @@
     ]
   },
   {
-    "title": "Correction: Turning the tide on turnover: The impact of empowering leadership on the work-family spillover of managers",
-    "title_es": "Corrección: Cambiar el rumbo de la rotación: el impacto del empoderamiento del liderazgo en el desbordamiento de los gerentes entre el trabajo y la familia",
+    "title": "Extensive intraoperative peritoneal lavage (EIPL) for gastric cancer with positive peritoneal lavage and/or stamp cytology: An exploratory phase II study",
+    "title_es": "Lavado peritoneal intraoperatorio extenso (EIPL) para el cáncer gástrico con lavado peritoneal positivo y/o citología con sello: un estudio exploratorio de fase II",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "cambiar",
-      "rumbo"
+      "lavado",
+      "peritoneal",
+      "intraoperatorio"
     ]
   },
   {
@@ -99051,6 +99191,33 @@
       "m82",
       "starburst",
       "galaxy"
+    ]
+  },
+  {
+    "title": "Two-dimensional higher-order Weyl semimetals, by Lizhou Liu, Qing-Feng Sun, Ying-Tao Zhang",
+    "title_es": "Two-dimensional higher-order Weyl semimetals, by Lizhou Liu, Qing-Feng Sun, Ying-Tao Zhang",
+    "url": "https://scipost.org/scipostphys.20.4.115",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "two-dimensional",
+      "higher-order",
+      "weyl"
+    ]
+  },
+  {
+    "title": "PanSTARRS and Planets",
+    "title_es": "PanSTARRS and Planets",
+    "url": "https://apod.nasa.gov/apod/image/2604/panstarrsplanetsperrotlab1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "panstarrs",
+      "planets"
     ]
   }
 ]
