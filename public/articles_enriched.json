@@ -1,5 +1,19 @@
 [
   {
+    "title": "HydroGraphNet boosts watershed predictions of daily flow and nitrogen in sparse data regions",
+    "title_es": "HydroGraphNet mejora las predicciones de cuencas hidrográficas sobre el flujo diario y el nitrógeno en regiones con datos escasos",
+    "url": "https://phys.org/news/2026-04-hydrographnet-boosts-watershed-daily-nitrogen.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-19T00:00:00.000Z",
+    "date": "2026-04-19",
+    "category": "noticia",
+    "tags": [
+      "hydrographnet",
+      "mejora",
+      "predicciones"
+    ]
+  },
+  {
     "title": "How nanomedicine gets inside your cells and treats you from the inside out",
     "title_es": "Cómo la nanomedicina entra en tus células y te trata de adentro hacia afuera",
     "url": "https://phys.org/news/2026-04-nanomedicine-cells.html",
@@ -11,6 +25,48 @@
       "cómo",
       "nanomedicina",
       "entra"
+    ]
+  },
+  {
+    "title": "Magnetic muon measurements and gene-therapy advances win US$3 million Breakthrough prizes",
+    "title_es": "Las mediciones de muones magnéticos y los avances en terapia génica ganan premios innovadores de 3 millones de dólares",
+    "url": "https://www.nature.com/articles/d41586-026-01014-9",
+    "source": "Nature",
+    "published": "2026-04-18T00:00:00.000Z",
+    "date": "2026-04-18",
+    "category": "noticia",
+    "tags": [
+      "mediciones",
+      "muones",
+      "magnéticos"
+    ]
+  },
+  {
+    "title": "Science behind the scenes",
+    "title_es": "Ciencia detrás de escena",
+    "url": "https://www.sciencenews.org/article/science-behind-the-scenes",
+    "source": "Science News",
+    "published": "2026-04-18T00:00:00.000Z",
+    "date": "2026-04-18",
+    "category": "noticia",
+    "tags": [
+      "ciencia",
+      "detrás",
+      "escena"
+    ]
+  },
+  {
+    "title": "What caffeine does to ants could change pest control",
+    "title_es": "Lo que la cafeína les hace a las hormigas podría cambiar el control de plagas",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260418042817.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-18T00:00:00.000Z",
+    "date": "2026-04-18",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "cafeína",
+      "les"
     ]
   },
   {
@@ -602,6 +658,20 @@
     ]
   },
   {
+    "title": "How autoimmune conditions can unexpectedly drive mental illness",
+    "title_es": "Cómo las enfermedades autoinmunes pueden conducir inesperadamente a la enfermedad mental",
+    "url": "https://www.newscientist.com/article/2521774-how-autoimmune-conditions-can-unexpectedly-drive-mental-illness/",
+    "source": "New Scientist",
+    "published": "2026-04-14T16:00:08.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "autoimmune",
+      "conditions"
+    ]
+  },
+  {
     "title": "When Scientific Debate Steps into Custody Cases",
     "title_es": "Cuando el debate científico entra en los casos de custodia",
     "url": "https://undark.org/2026/04/14/parental-alienation-custody/",
@@ -725,6 +795,20 @@
       "científicos",
       "acaban",
       "recrear"
+    ]
+  },
+  {
+    "title": "Muon g-2 Experiment Pioneers Win Breakthrough Prize in Fundamental Physics",
+    "title_es": "Los pioneros del experimento Muon g-2 ganan un premio innovador en física fundamental",
+    "url": "https://home.cern/news/press-release/cern/muon-g-2-experiment-pioneers-win-breakthrough-prize-fundamental-physics",
+    "source": "CERN Press",
+    "published": "2026-04-14T00:00:00.000Z",
+    "date": "2026-04-14",
+    "category": "noticia",
+    "tags": [
+      "pioneros",
+      "experimento",
+      "muon"
     ]
   },
   {
@@ -6844,7 +6928,7 @@
   },
   {
     "title": "Webb’s Infrared Vision Reveals Planetary Nebula that Looks Strikingly Like Celestial Brain",
-    "title_es": "La visión infrarroja de Webb revela una nebulosa planetaria que se parece sorprendentemente al cerebro celestial",
+    "title_es": "Webb’s Infrared Vision Reveals Planetary Nebula that Looks Strikingly Like Celestial Brain",
     "url": "https://www.sci.news/astronomy/webb-pmr-1-planetary-nebula-14589.html",
     "source": "Sci.News",
     "published": "2026-02-28T01:40:04.000Z",
@@ -99218,6 +99302,20 @@
     "tags": [
       "panstarrs",
       "planets"
+    ]
+  },
+  {
+    "title": "Disperon QED, by Yizhou Fang, Sophie Kollatzsch, Marco Rocco, Adrian Signer, Yannick Ulrich, Max Zoller",
+    "title_es": "Disperon QED, by Yizhou Fang, Sophie Kollatzsch, Marco Rocco, Adrian Signer, Yannick Ulrich, Max Zoller",
+    "url": "https://scipost.org/scipostphys.20.4.116",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "disperon",
+      "qed",
+      "yizhou"
     ]
   }
 ]
