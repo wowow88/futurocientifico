@@ -1,5 +1,47 @@
 [
   {
+    "title": "Modeling of ASD/TD Children's Behaviors in Interaction with a Virtual Social Robot During a Music Education Program Using Deep Neural Networks",
+    "title_es": "Modelado de los comportamientos de los niños con Tea/TD en interacción con un robot social virtual durante un programa de educación musical utilizando redes neuronales profundas",
+    "url": "https://arxiv.org/abs/2604.15314",
+    "source": "arXiv",
+    "published": "2026-04-20T04:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "modeling",
+      "asdtd",
+      "childrens"
+    ]
+  },
+  {
+    "title": "After 200 years scientists finally crack the “dolomite problem”",
+    "title_es": "Después de 200 años, los científicos finalmente resuelven el \"problema de la dolomita\"",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260420015840.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "después",
+      "200",
+      "años"
+    ]
+  },
+  {
+    "title": "Hospital-acquired pneumonia reduced by daily toothbrushing",
+    "title_es": "Neumonía adquirida en el hospital reducida por el cepillado diario de dientes",
+    "url": "https://www.newscientist.com/article/2523576-hospital-acquired-pneumonia-reduced-by-daily-toothbrushing/",
+    "source": "New Scientist",
+    "published": "2026-04-19T23:01:43.000Z",
+    "date": "2026-04-19",
+    "category": "noticia",
+    "tags": [
+      "hospital-acquired",
+      "pneumonia",
+      "reduced"
+    ]
+  },
+  {
     "title": "HydroGraphNet boosts watershed predictions of daily flow and nitrogen in sparse data regions",
     "title_es": "HydroGraphNet mejora las predicciones de cuencas hidrográficas sobre el flujo diario y el nitrógeno en regiones con datos escasos",
     "url": "https://phys.org/news/2026-04-hydrographnet-boosts-watershed-daily-nitrogen.html",
@@ -11,6 +53,20 @@
       "hydrographnet",
       "mejora",
       "predicciones"
+    ]
+  },
+  {
+    "title": "When AI starts shopping for you, fashion may be entering a new era of pricing",
+    "title_es": "Cuando la IA comience a comprar para usted, la moda puede estar entrando en una nueva era de precios",
+    "url": "https://phys.org/news/2026-04-ai-fashion-era-pricing.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-19T00:00:00.000Z",
+    "date": "2026-04-19",
+    "category": "noticia",
+    "tags": [
+      "cuando",
+      "comience",
+      "comprar"
     ]
   },
   {
@@ -249,6 +305,20 @@
       "científicos",
       "descubren",
       "que"
+    ]
+  },
+  {
+    "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+    "title_es": "ASMR-Bench: Auditoría para sabotajes en la investigación de ML",
+    "url": "http://arxiv.org/abs/2604.16286v1",
+    "source": "arXiv",
+    "published": "2026-04-17T00:00:00.000Z",
+    "date": "2026-04-17",
+    "category": "noticia",
+    "tags": [
+      "asmr-bench",
+      "auditoría",
+      "sabotajes"
     ]
   },
   {
@@ -2030,7 +2100,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -3150,7 +3220,7 @@
   },
   {
     "title": "New Species of Steamer Duck Discovered in Chile",
-    "title_es": "Descubren una nueva especie de pato de vapor en Chile",
+    "title_es": "Descubren una nueva especie de pato vapor en Chile",
     "url": "https://www.sci.news/biology/tachyeres-ketru-14649.html",
     "source": "Sci.News",
     "published": "2026-03-26T00:29:25.000Z",
@@ -3542,7 +3612,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle cruza Australia",
+    "title_es": "El ciclón tropical Narelle atraviesa Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -4088,7 +4158,7 @@
   },
   {
     "title": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
-    "title_es": "Minna Kaikkonen-Määttä: “La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
+    "title_es": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar un nuevo conocimiento que algún día pueda beneficiar a la sociedad\"",
     "url": "https://www.cnic.es/es/noticias/minna-kaikkonen-maatta-investigacion-carrera-unica-porque-puedes-vivir-tu-curiosidad",
     "source": "CNIC",
     "published": "2026-03-20T00:00:00.000Z",
@@ -6718,7 +6788,7 @@
   },
   {
     "title": "Rare Fossil of Baby Dome-Headed Dinosaur Unearthed in Canada",
-    "title_es": "Raro fósil de dinosaurio con cabeza de cúpula de bebé desenterrado en Canadá",
+    "title_es": "Fósil raro de dinosaurio con cabeza de cúpula bebé desenterrado en Canadá",
     "url": "https://www.sci.news/paleontology/baby-dome-headed-dinosaur-fossil-canada-14595.html",
     "source": "Sci.News",
     "published": "2026-03-02T23:48:13.000Z",
@@ -6830,7 +6900,7 @@
   },
   {
     "title": "Tres redes de doctorado europeas se unen en Gante para la \"Third EDUCADO Training School on Astro–AI and Machine Learning\"",
-    "title_es": "Tres redes de doctorado europeas se unen en Gante para la “Third EDUCADO Training School on Astro–AI and Machine Learning”",
+    "title_es": "Tres redes de doctorado europeas se unen en Gante para la \"Third EDUCADO Training School on Astro–AI and Machine Learning\"",
     "url": "https://www.iac.es/es/divulgacion/noticias/tres-redes-de-doctorado-europeas-se-unen-en-gante-para-la-third-educado-training-school-astro-ai-and",
     "source": "IAC",
     "published": "2026-03-02T00:00:00.000Z",
@@ -6914,7 +6984,7 @@
   },
   {
     "title": "Juice Spies Interstellar Comet 3I/ATLAS",
-    "title_es": "Comet interestelar 3I/ATLAS de Juice Spies",
+    "title_es": "Juice Spies Interstellar Comet 3I/ATLAS",
     "url": "https://www.sci.news/astronomy/juice-interstellar-comet-3i-atlas-14590.html",
     "source": "Sci.News",
     "published": "2026-02-28T15:03:23.000Z",
@@ -99316,6 +99386,20 @@
       "disperon",
       "qed",
       "yizhou"
+    ]
+  },
+  {
+    "title": "Comet R3 PanSTARRS over a Himalayan Valley",
+    "title_es": "Comet R3 PanSTARRS over a Himalayan Valley",
+    "url": "https://apod.nasa.gov/apod/image/2604/valleycomet_chakrabarti_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "panstarrs",
+      "over"
     ]
   }
 ]
