@@ -1,5 +1,103 @@
 [
   {
+    "title": "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
+    "title_es": "GRAIL: Concept Grounding autónomo para el aprendizaje por refuerzo neuro-simbólico",
+    "url": "https://arxiv.org/abs/2604.16871",
+    "source": "arXiv",
+    "published": "2026-04-21T04:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "grail",
+      "autonomous",
+      "concept"
+    ]
+  },
+  {
+    "title": "A School of Mud Volcano Islands in Azerbaijan",
+    "title_es": "Una escuela de islas de volcanes de lodo en Azerbaiyán",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-school-of-mud-volcano-islands-in-azerbaijan/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "escuela",
+      "islas",
+      "volcanes"
+    ]
+  },
+  {
+    "title": "95% success rate: This new trick lures termites straight to their death",
+    "title_es": "Tasa de éxito del 95%: este nuevo truco atrae a las termitas directamente a la muerte",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260420233930.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "tasa",
+      "éxito",
+      "este"
+    ]
+  },
+  {
+    "title": "Report analyzes the present and future of North America's most important trade agreement",
+    "title_es": "Informe analiza el presente y futuro del acuerdo comercial más importante de América del Norte",
+    "url": "https://phys.org/news/2026-04-future-north-america-important-agreement.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "informe",
+      "analiza",
+      "presente"
+    ]
+  },
+  {
+    "title": "Museum Fossil Reveals Triassic Crocodile Cousin with Powerful Jaws",
+    "title_es": "Museo fósil revela primo cocodrilo triásico con poderosas mandíbulas",
+    "url": "https://www.sci.news/paleontology/eosphorosuchus-lacrimosa-14708.html",
+    "source": "Sci.News",
+    "published": "2026-04-20T23:20:15.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "museum",
+      "fossil",
+      "reveals"
+    ]
+  },
+  {
+    "title": "Diamonds are surprisingly elastic when you make them tiny",
+    "title_es": "Los diamantes son sorprendentemente elásticos cuando los haces pequeños",
+    "url": "https://www.newscientist.com/article/2523607-diamonds-are-surprisingly-elastic-when-you-make-them-tiny/",
+    "source": "New Scientist",
+    "published": "2026-04-20T21:00:37.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "diamonds",
+      "are",
+      "surprisingly"
+    ]
+  },
+  {
+    "title": "Interview: Christopher Borgert on an Infamous Glyphosate Paper",
+    "title_es": "Entrevista: Christopher Borgert sobre un infame papel de glifosato",
+    "url": "https://undark.org/2026/04/20/interview-christopher-borgert-glyphosate/",
+    "source": "Undark Magazine",
+    "published": "2026-04-20T12:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "interview",
+      "christopher",
+      "borgert"
+    ]
+  },
+  {
     "title": "Modeling of ASD/TD Children's Behaviors in Interaction with a Virtual Social Robot During a Music Education Program Using Deep Neural Networks",
     "title_es": "Modelado de los comportamientos de los niños con Tea/TD en interacción con un robot social virtual durante un programa de educación musical utilizando redes neuronales profundas",
     "url": "https://arxiv.org/abs/2604.15314",
@@ -25,6 +123,62 @@
       "después",
       "200",
       "años"
+    ]
+  },
+  {
+    "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "title_es": "MathNet: un punto de referencia multimodal global para el razonamiento y la recuperación matemáticos",
+    "url": "http://arxiv.org/abs/2604.18584v1",
+    "source": "arXiv",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "mathnet",
+      "punto",
+      "referencia"
+    ]
+  },
+  {
+    "title": "‘Bat feast’ animal videos at African cave offer clues to how deadly viruses spread",
+    "title_es": "Vídeos de animales del 'festín de murciélagos' en una cueva africana ofrecen pistas sobre cómo se propagan los virus mortales",
+    "url": "https://www.nature.com/articles/d41586-026-01259-4",
+    "source": "Nature",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "vídeos",
+      "animales",
+      "festín"
+    ]
+  },
+  {
+    "title": "Increasing heat can boost malnutrition among children",
+    "title_es": "El aumento del calor puede aumentar la desnutrición entre los niños",
+    "url": "https://www.sciencenews.org/article/malnutrition-heat-climate-children-brazil",
+    "source": "Science News",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "aumento",
+      "calor",
+      "puede"
+    ]
+  },
+  {
+    "title": "Sneaky: AI auto-complete may be shaping our views",
+    "title_es": "Astuto: el autocompletado de IA puede estar dando forma a nuestras opiniones",
+    "url": "https://www.snexplores.org/article/ai-auto-complete-bias-views",
+    "source": "Science News Explores",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "astuto",
+      "autocompletado",
+      "puede"
     ]
   },
   {
@@ -337,7 +491,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -546,6 +700,20 @@
     ]
   },
   {
+    "title": "Beamline for Schools receives a record number of submissions",
+    "title_es": "Beamline for Schools recibe un número récord de envíos",
+    "url": "https://home.cern/news/news/knowledge-sharing/beamline-schools-receives-record-number-submissions",
+    "source": "CERN News",
+    "published": "2026-04-15T08:39:42.000Z",
+    "date": "2026-04-15",
+    "category": "noticia",
+    "tags": [
+      "beamline",
+      "schools",
+      "receives"
+    ]
+  },
+  {
     "title": "A Decongestant Debate That Won’t Clear Up",
     "title_es": "Un debate descongestionante que no se aclarará",
     "url": "https://undark.org/2026/04/15/sudafed-phenylephrine-debate/",
@@ -561,7 +729,7 @@
   },
   {
     "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
-    "title_es": "GRACE: Un marco de selección dinámico de conjuntos de núcleos para la optimización del modelo de lenguaje grande",
+    "title_es": "GRACE: Un marco de selección de conjuntos de núcleos dinámicos para la optimización de modelos de lenguaje grande",
     "url": "https://arxiv.org/abs/2604.11810",
     "source": "arXiv",
     "published": "2026-04-15T04:00:00.000Z",
@@ -3388,7 +3556,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -4480,7 +4648,7 @@
   },
   {
     "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
-    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de radiación neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
+    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de luminosidad neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
     "url": "https://arxiv.org/abs/2603.15622",
     "source": "arXiv",
     "published": "2026-03-18T04:00:00.000Z",
@@ -5753,7 +5921,7 @@
   },
   {
     "title": "Two New Bird Species Identified in Amazonia",
-    "title_es": "Identifican dos nuevas especies de aves en la Amazonía",
+    "title_es": "Dos nuevas especies de aves identificadas en la Amazonía",
     "url": "https://www.sci.news/biology/amazonian-antbirds-14611.html",
     "source": "Sci.News",
     "published": "2026-03-10T01:09:49.000Z",
@@ -6704,7 +6872,7 @@
   },
   {
     "title": "A Stochastic Conservative Field Transfer Method for Black-box Multiscale and Multiphysics Coupling",
-    "title_es": "Un método estocástico de transferencia de campo conservador para el acoplamiento multifísico y multiescala de caja negra",
+    "title_es": "A Stochastic Conservative Field Transfer Method for Black-box Multiscale and Multiphysics Coupling",
     "url": "https://arxiv.org/abs/2603.00538",
     "source": "arXiv",
     "published": "2026-03-03T05:00:00.000Z",
@@ -6788,7 +6956,7 @@
   },
   {
     "title": "Rare Fossil of Baby Dome-Headed Dinosaur Unearthed in Canada",
-    "title_es": "Fósil raro de dinosaurio con cabeza de cúpula bebé desenterrado en Canadá",
+    "title_es": "Rare Fossil of Baby Dome-Headed Dinosaur Unearthed in Canada",
     "url": "https://www.sci.news/paleontology/baby-dome-headed-dinosaur-fossil-canada-14595.html",
     "source": "Sci.News",
     "published": "2026-03-02T23:48:13.000Z",
@@ -6802,7 +6970,7 @@
   },
   {
     "title": "A bizarre type of black hole could solve three cosmic mysteries in one",
-    "title_es": "Un extraño tipo de agujero negro podría resolver tres misterios cósmicos en uno",
+    "title_es": "A bizarre type of black hole could solve three cosmic mysteries in one",
     "url": "https://www.newscientist.com/article/2515689-a-bizarre-type-of-black-hole-could-solve-three-cosmic-mysteries-in-one/",
     "source": "New Scientist",
     "published": "2026-03-02T16:00:27.000Z",
@@ -6816,7 +6984,7 @@
   },
   {
     "title": "Interview: The Enduring Appeal of Alternative Medicine",
-    "title_es": "Entrevista: El atractivo perdurable de la medicina alternativa",
+    "title_es": "Interview: The Enduring Appeal of Alternative Medicine",
     "url": "https://undark.org/2026/03/02/interview-lewis-grossman/",
     "source": "Undark Magazine",
     "published": "2026-03-02T08:02:00.000Z",
@@ -6830,7 +6998,7 @@
   },
   {
     "title": "Serendipity with Generative AI: Repurposing knowledge components during polycrisis with a Viable Systems Model approach",
-    "title_es": "Serendipia con IA generativa: reutilización de los componentes del conocimiento durante la policrisis con un enfoque de modelo de sistemas viables",
+    "title_es": "Serendipity with Generative AI: Repurposing knowledge components during polycrisis with a Viable Systems Model approach",
     "url": "https://arxiv.org/abs/2602.23365",
     "source": "arXiv",
     "published": "2026-03-02T05:00:00.000Z",
@@ -39713,17 +39881,17 @@
     ]
   },
   {
-    "title": "Extensive intraoperative peritoneal lavage (EIPL) for gastric cancer with positive peritoneal lavage and/or stamp cytology: An exploratory phase II study",
-    "title_es": "Lavado peritoneal intraoperatorio extenso (EIPL) para el cáncer gástrico con lavado peritoneal positivo y/o citología con sello: un estudio exploratorio de fase II",
+    "title": "An exploratory analysis of changes in work values among nurses before and after pregnancy",
+    "title_es": "Un análisis exploratorio de los cambios en los valores laborales entre enfermeras antes y después del embarazo.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "lavado",
-      "peritoneal",
-      "intraoperatorio"
+      "análisis",
+      "exploratorio",
+      "cambios"
     ]
   },
   {
@@ -99400,6 +99568,19 @@
       "comet",
       "panstarrs",
       "over"
+    ]
+  },
+  {
+    "title": "10 Years Jubilee 🎉",
+    "title_es": "10 Years Jubilee 🎉",
+    "url": "https://scipost.org/",
+    "source": "SciPost News",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "years",
+      "jubilee"
     ]
   }
 ]
