@@ -1,5 +1,75 @@
 [
   {
+    "title": "RECURSUM: Automated Code Generation for Recurrence Relations Exceeds Expert Optimization via LayeredCodegen",
+    "title_es": "RECURSUM: la generación automatizada de código para relaciones de recurrencia supera la optimización experta a través de LayeredCodegen",
+    "url": "https://arxiv.org/abs/2604.18585",
+    "source": "arXiv",
+    "published": "2026-04-22T04:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "recursum",
+      "automated",
+      "code"
+    ]
+  },
+  {
+    "title": "If a bird flu pandemic starts, we may have an mRNA vaccine ready",
+    "title_es": "Si comienza una pandemia de gripe aviar, es posible que tengamos una vacuna de ARNm lista",
+    "url": "https://www.newscientist.com/article/2523838-if-a-bird-flu-pandemic-starts-we-may-have-an-mrna-vaccine-ready/",
+    "source": "New Scientist",
+    "published": "2026-04-22T00:01:21.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "bird",
+      "flu",
+      "pandemic"
+    ]
+  },
+  {
+    "title": "Belts of Green in the Washington Suburbs",
+    "title_es": "Cinturones de verde en los suburbios de Washington",
+    "url": "https://science.nasa.gov/earth/earth-observatory/belts-of-green-in-the-washington-suburbs/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "cinturones",
+      "verde",
+      "suburbios"
+    ]
+  },
+  {
+    "title": "Which 'money type' are you? New research maps financial habits of young Australians",
+    "title_es": "¿Qué 'tipo de dinero' eres? Una nueva investigación mapea los hábitos financieros de los jóvenes australianos",
+    "url": "https://phys.org/news/2026-04-money-financial-habits-young-australians.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "tipo",
+      "dinero"
+    ]
+  },
+  {
+    "title": "450-Million-Year-Old Fossils Reveal Strange, Tube-Dwelling Jellyfish Relative",
+    "title_es": "Los fósiles de hace 450 millones de años revelan un pariente extraño de medusas que viven en tubos",
+    "url": "https://www.sci.news/paleontology/paleocanna-tentaculum-14711.html",
+    "source": "Sci.News",
+    "published": "2026-04-21T22:17:59.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "450-million-year-old",
+      "fossils",
+      "reveal"
+    ]
+  },
+  {
     "title": "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
     "title_es": "GRAIL: Concept Grounding autónomo para el aprendizaje por refuerzo neuro-simbólico",
     "url": "https://arxiv.org/abs/2604.16871",
@@ -53,6 +123,104 @@
       "informe",
       "analiza",
       "presente"
+    ]
+  },
+  {
+    "title": "Generalization at the Edge of Stability",
+    "title_es": "Generalización al borde de la estabilidad",
+    "url": "http://arxiv.org/abs/2604.19740v1",
+    "source": "arXiv",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "generalización",
+      "borde",
+      "estabilidad"
+    ]
+  },
+  {
+    "title": "Yellow glass shows insect wings at their best",
+    "title_es": "El vidrio amarillo muestra lo mejor de las alas de los insectos",
+    "url": "https://www.nature.com/articles/d41586-026-00915-z",
+    "source": "Nature",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "vidrio",
+      "amarillo",
+      "muestra"
+    ]
+  },
+  {
+    "title": "CNIC scientists identify a biomarker that improves risk prediction in a severe form of heart failure",
+    "title_es": "Científicos del CNIC identifican un biomarcador que mejora la predicción del riesgo en una forma grave de insuficiencia cardiaca",
+    "url": "https://www.cnic.es/es/node/241702",
+    "source": "CNIC",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "scientists",
+      "identify"
+    ]
+  },
+  {
+    "title": "La Escuela de Radioastronomía y el 2º Project Meeting de ExGal-Twin (IAC) se celebran en los Países Bajos",
+    "title_es": "La Escuela de Radioastronomía y el 2º Project Meeting de ExGal-Twin (IAC) se celebran en los Países Bajos",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-escuela-de-radioastronomia-y-el-2o-project-meeting-de-exgal-twin-iac-se-celebran-en-los-paises-bajos",
+    "source": "IAC",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "escuela",
+      "radioastronomía",
+      "project"
+    ]
+  },
+  {
+    "title": "Humidity makes these bees turn green",
+    "title_es": "La humedad hace que estas abejas se pongan verdes",
+    "url": "https://www.sciencenews.org/article/humidity-bee-hue-color-change",
+    "source": "Science News",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "humedad",
+      "hace",
+      "que"
+    ]
+  },
+  {
+    "title": "Massive underground lava tube found on Venus",
+    "title_es": "Enorme tubo de lava subterráneo encontrado en Venus",
+    "url": "https://www.snexplores.org/article/venus-volcano-lava-tube",
+    "source": "Science News Explores",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "enorme",
+      "tubo",
+      "lava"
+    ]
+  },
+  {
+    "title": "A bizarre new state of matter may be hiding inside Uranus and Neptune",
+    "title_es": "Un nuevo y extraño estado de la materia puede estar escondido dentro de Urano y Neptuno",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260421042812.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-21T00:00:00.000Z",
+    "date": "2026-04-21",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "extraño",
+      "estado"
     ]
   },
   {
@@ -179,6 +347,20 @@
       "astuto",
       "autocompletado",
       "puede"
+    ]
+  },
+  {
+    "title": "ATLAS acts as a cosmic-ray laboratory",
+    "title_es": "ATLAS actúa como laboratorio de rayos cósmicos",
+    "url": "https://home.cern/news/news/physics/atlas-acts-cosmic-ray-laboratory",
+    "source": "CERN News",
+    "published": "2026-04-20T00:00:00.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "atlas",
+      "actúa",
+      "como"
     ]
   },
   {
@@ -491,7 +673,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -3556,7 +3738,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -5921,7 +6103,7 @@
   },
   {
     "title": "Two New Bird Species Identified in Amazonia",
-    "title_es": "Dos nuevas especies de aves identificadas en la Amazonía",
+    "title_es": "Identifican dos nuevas especies de aves en la Amazonía",
     "url": "https://www.sci.news/biology/amazonian-antbirds-14611.html",
     "source": "Sci.News",
     "published": "2026-03-10T01:09:49.000Z",
@@ -6760,7 +6942,7 @@
   },
   {
     "title": "Evolución sin bulbo y el auge de los discos (BEARD): I. Mecanismos físicos detrás de la relación masa-tamaño en galaxias tipo Vía Láctea",
-    "title_es": "Evolución sin bulbo y el auge de los discos (BARBA): I. Mecanismos físicos detrás de la relación masa-tamaño en galaxias tipo Vía Láctea",
+    "title_es": "Evolución sin bulbo y el auge de los discos (BEARD): I. Mecanismos físicos detrás de la relación masa-tamaño en galaxias tipo Vía Láctea",
     "url": "https://www.iac.es/es/divulgacion/noticias/evolucion-sin-bulbo-y-el-auge-de-los-discos-beard-i-mecanismos-fisicos-detras-de-la-relacion-masa",
     "source": "IAC",
     "published": "2026-03-04T00:00:00.000Z",
@@ -6816,7 +6998,7 @@
   },
   {
     "title": "What snow monkeys’ steamy baths are really doing to their bodies",
-    "title_es": "Lo que los baños de vapor de los monos de la nieve realmente le están haciendo a sus cuerpos",
+    "title_es": "What snow monkeys’ steamy baths are really doing to their bodies",
     "url": "https://www.sciencedaily.com/releases/2026/03/260303153357.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-03-03T22:55:46.000Z",
@@ -6830,7 +7012,7 @@
   },
   {
     "title": "Phantom codes could help quantum computers avoid errors",
-    "title_es": "Los códigos fantasma podrían ayudar a los ordenadores cuánticos a evitar errores",
+    "title_es": "Phantom codes could help quantum computers avoid errors",
     "url": "https://www.newscientist.com/article/2517490-phantom-codes-could-help-quantum-computers-avoid-errors/",
     "source": "New Scientist",
     "published": "2026-03-03T18:00:24.000Z",
@@ -6844,7 +7026,7 @@
   },
   {
     "title": "The real reasons birth rates are declining worldwide",
-    "title_es": "Las verdaderas razones por las que las tasas de natalidad están disminuyendo en todo",
+    "title_es": "The real reasons birth rates are declining worldwide",
     "url": "https://www.newscientist.com/article/2516629-the-real-reasons-birth-rates-are-declining-worldwide/",
     "source": "New Scientist",
     "published": "2026-03-03T16:00:52.000Z",
@@ -6858,7 +7040,7 @@
   },
   {
     "title": "Few U.S. Doctors Have Seen Measles in Person. That’s a Problem.",
-    "title_es": "Pocos médicos estadounidenses han visto el sarampión en persona. Eso es un problema.",
+    "title_es": "Few U.S. Doctors Have Seen Measles in Person. That’s a Problem.",
     "url": "https://undark.org/2026/03/03/measles-outbreak-diagnosis-challenge/",
     "source": "Undark Magazine",
     "published": "2026-03-03T08:09:00.000Z",
@@ -39881,17 +40063,17 @@
     ]
   },
   {
-    "title": "An exploratory analysis of changes in work values among nurses before and after pregnancy",
-    "title_es": "Un análisis exploratorio de los cambios en los valores laborales entre enfermeras antes y después del embarazo.",
+    "title": "Correction: Enhancing Mergers and Acquisitions (M&A) Performance: Analyzing the Role of Human Resource Practices in Sri Lanka's Telecommunication Industry Through Lewin’s Change Management Model",
+    "title_es": "Corrección: Mejora del desempeño en fusiones y adquisiciones (M&A): Análisis del papel de las prácticas de recursos humanos en la industria de las telecomunicaciones de Sri Lanka a través del modelo de gestión del cambio de Lewin",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "análisis",
-      "exploratorio",
-      "cambios"
+      "corrección",
+      "mejora",
+      "desempeño"
     ]
   },
   {
@@ -99581,6 +99763,19 @@
     "tags": [
       "years",
       "jubilee"
+    ]
+  },
+  {
+    "title": "Earthset with an iPhone",
+    "title_es": "Earthset with an iPhone",
+    "url": "https://youtube.com/embed/mt8tg5b3b8e",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "earthset",
+      "iphone"
     ]
   }
 ]
