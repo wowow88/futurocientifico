@@ -1,5 +1,103 @@
 [
   {
+    "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
+    "title_es": "La ilusión del uso excesivo de herramientas: ¿Por qué LLM prefiere las herramientas externas sobre el conocimiento interno?",
+    "url": "https://arxiv.org/abs/2604.19749",
+    "source": "arXiv",
+    "published": "2026-04-23T04:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "tool-overuse",
+      "illusion",
+      "why"
+    ]
+  },
+  {
+    "title": "Curiosity Reveals Richest Trove of Organic Molecules Yet on Mars",
+    "title_es": "Curiosity revela el tesoro más rico de moléculas orgánicas hasta el momento en Marte",
+    "url": "https://www.sci.news/space/curiosity-organic-molecules-mars-14714.html",
+    "source": "Sci.News",
+    "published": "2026-04-23T01:02:07.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "curiosity",
+      "reveals",
+      "richest"
+    ]
+  },
+  {
+    "title": "Smoke Shrouds Northern Thailand",
+    "title_es": "El humo envuelve el norte de Tailandia",
+    "url": "https://science.nasa.gov/earth/earth-observatory/smoke-shrouds-northern-thailand/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "humo",
+      "envuelve",
+      "norte"
+    ]
+  },
+  {
+    "title": "This simple fatty acid could restore failing vision",
+    "title_es": "Este ácido graso simple podría restaurar la visión defectuosa",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260422091043.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "ácido",
+      "graso"
+    ]
+  },
+  {
+    "title": "Accelerating drug discovery with fragment screening",
+    "title_es": "Acelerar el descubrimiento de fármacos con la detección de fragmentos",
+    "url": "https://phys.org/news/2026-04-drug-discovery-fragment-screening.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "acelerar",
+      "descubrimiento",
+      "fármacos"
+    ]
+  },
+  {
+    "title": "98 per cent of meat and dairy sustainability pledges are greenwashing",
+    "title_es": "El 98 por ciento de los compromisos de sostenibilidad de la carne y los productos lácteos son de lavado verde",
+    "url": "https://www.newscientist.com/article/2523798-98-per-cent-of-meat-and-dairy-sustainability-pledges-are-greenwashing/",
+    "source": "New Scientist",
+    "published": "2026-04-22T18:00:42.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "per",
+      "cent",
+      "meat"
+    ]
+  },
+  {
+    "title": "A More Troubling Picture of Sea Level Rise Comes Into View",
+    "title_es": "Una imagen más preocupante de la subida del nivel del mar aparece a la vista",
+    "url": "https://undark.org/2026/04/22/sea-level-land-subsidence/",
+    "source": "Undark Magazine",
+    "published": "2026-04-22T07:35:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "more",
+      "troubling",
+      "picture"
+    ]
+  },
+  {
     "title": "RECURSUM: Automated Code Generation for Recurrence Relations Exceeds Expert Optimization via LayeredCodegen",
     "title_es": "RECURSUM: la generación automatizada de código para relaciones de recurrencia supera la optimización experta a través de LayeredCodegen",
     "url": "https://arxiv.org/abs/2604.18585",
@@ -53,6 +151,76 @@
       "qué",
       "tipo",
       "dinero"
+    ]
+  },
+  {
+    "title": "SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation",
+    "title_es": "SpeechParaling-Bench: un punto de referencia integral para la generación de habla consciente de la paralingüística",
+    "url": "http://arxiv.org/abs/2604.20842v1",
+    "source": "arXiv",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "speechparaling-bench",
+      "punto",
+      "referencia"
+    ]
+  },
+  {
+    "title": "Evaluating large language models for accuracy incentivizes hallucinations",
+    "title_es": "La evaluación de la precisión de modelos de lenguaje grandes incentiva las alucinaciones",
+    "url": "https://www.nature.com/articles/s41586-026-10549-w",
+    "source": "Nature",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "evaluación",
+      "precisión",
+      "modelos"
+    ]
+  },
+  {
+    "title": "ATLAS sets record limits on Higgs boson’s self-interaction",
+    "title_es": "ATLAS establece límites récord en la autointeracción del bosón de Higgs",
+    "url": "https://home.cern/news/news/physics/atlas-sets-record-limits-higgs-bosons-self-interaction",
+    "source": "CERN News",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "atlas",
+      "establece",
+      "límites"
+    ]
+  },
+  {
+    "title": "An experimental new drug for stiff person syndrome restores mobility",
+    "title_es": "Un nuevo fármaco experimental para el síndrome de la persona rígida restaura la movilidad",
+    "url": "https://www.sciencenews.org/article/new-drug-stiff-person-syndrome-mobility",
+    "source": "Science News",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "fármaco",
+      "experimental"
+    ]
+  },
+  {
+    "title": "Hurricane Katrina shaped this coastal ecologist’s life and work",
+    "title_es": "El huracán Katrina dio forma a la vida y el trabajo de este ecologista costero",
+    "url": "https://www.snexplores.org/article/coast-wetland-ecology-hurricane-katrina",
+    "source": "Science News Explores",
+    "published": "2026-04-22T00:00:00.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "huracán",
+      "katrina",
+      "dio"
     ]
   },
   {
@@ -911,7 +1079,7 @@
   },
   {
     "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
-    "title_es": "GRACE: Un marco de selección de conjuntos de núcleos dinámicos para la optimización de modelos de lenguaje grande",
+    "title_es": "GRACE: Un marco de selección dinámico de conjuntos de núcleos para la optimización del modelo de lenguaje grande",
     "url": "https://arxiv.org/abs/2604.11810",
     "source": "arXiv",
     "published": "2026-04-15T04:00:00.000Z",
@@ -3738,7 +3906,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -6103,7 +6271,7 @@
   },
   {
     "title": "Two New Bird Species Identified in Amazonia",
-    "title_es": "Identifican dos nuevas especies de aves en la Amazonía",
+    "title_es": "Dos nuevas especies de aves identificadas en la Amazonía",
     "url": "https://www.sci.news/biology/amazonian-antbirds-14611.html",
     "source": "Sci.News",
     "published": "2026-03-10T01:09:49.000Z",
@@ -6817,7 +6985,7 @@
   },
   {
     "title": "We must close the 'shocking' knowledge gap in women's health",
-    "title_es": "Debemos cerrar la \"impactante\" brecha de conocimiento en la salud de las mujeres",
+    "title_es": "We must close the 'shocking' knowledge gap in women's health",
     "url": "https://www.newscientist.com/article/mg26935853-000-we-must-close-the-shocking-knowledge-gap-in-womens-health/",
     "source": "New Scientist",
     "published": "2026-03-04T14:30:00.000Z",
@@ -6831,7 +6999,7 @@
   },
   {
     "title": "Do America’s Top Health Research Officials Stick Around Too Long?",
-    "title_es": "¿Los principales funcionarios de investigación en salud de Estados Unidos se quedan demasiado tiempo?",
+    "title_es": "Do America’s Top Health Research Officials Stick Around Too Long?",
     "url": "https://undark.org/2026/03/04/term-limits-nih/",
     "source": "Undark Magazine",
     "published": "2026-03-04T08:05:00.000Z",
@@ -6845,7 +7013,7 @@
   },
   {
     "title": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
-    "title_es": "GLEAN: anclajes de evaluación ligeros conectados a tierra para un razonamiento tabular consciente de la contaminación",
+    "title_es": "GLEAN: Grounded Lightweight Evaluation Anchors for Contamination-Aware Tabular Reasoning",
     "url": "https://arxiv.org/abs/2603.02212",
     "source": "arXiv",
     "published": "2026-03-04T05:00:00.000Z",
@@ -6859,7 +7027,7 @@
   },
   {
     "title": "Southernmost Fossils of Earliest Primate Relative Unearthed in Colorado",
-    "title_es": "Hallados en Colorado los fósiles más meridionales del pariente primate más antiguo",
+    "title_es": "Southernmost Fossils of Earliest Primate Relative Unearthed in Colorado",
     "url": "https://www.sci.news/paleontology/southernmost-purgatorius-fossils-14598.html",
     "source": "Sci.News",
     "published": "2026-03-04T00:15:03.000Z",
@@ -40063,8 +40231,8 @@
     ]
   },
   {
-    "title": "Correction: Enhancing Mergers and Acquisitions (M&A) Performance: Analyzing the Role of Human Resource Practices in Sri Lanka's Telecommunication Industry Through Lewin’s Change Management Model",
-    "title_es": "Corrección: Mejora del desempeño en fusiones y adquisiciones (M&A): Análisis del papel de las prácticas de recursos humanos en la industria de las telecomunicaciones de Sri Lanka a través del modelo de gestión del cambio de Lewin",
+    "title": "Correction: Functional impact of cardiac implanted devices on ipsilateral shoulder range of motion, scapular mobility, and self-reported quality of life",
+    "title_es": "Corrección: impacto funcional de los dispositivos cardíacos implantados en la amplitud de movimiento del hombro ipsilateral, la movilidad escapular y la calidad de vida autoinformada",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -40072,8 +40240,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "mejora",
-      "desempeño"
+      "impacto",
+      "funcional"
     ]
   },
   {
@@ -99776,6 +99944,20 @@
     "tags": [
       "earthset",
       "iphone"
+    ]
+  },
+  {
+    "title": "Large Scale Structure of the Universe",
+    "title_es": "Large Scale Structure of the Universe",
+    "url": "https://apod.nasa.gov/apod/image/2604/noirlab2610c_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "large",
+      "scale",
+      "structure"
     ]
   }
 ]
