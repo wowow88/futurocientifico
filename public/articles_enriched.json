@@ -1,5 +1,117 @@
 [
   {
+    "title": "AtomicRAG: Atom-Entity Graphs for Retrieval-Augmented Generation",
+    "title_es": "AtomicRAG: Gráficos de Entidad Atómica para Generación Aumentada por Recuperación",
+    "url": "https://arxiv.org/abs/2604.20844",
+    "source": "arXiv",
+    "published": "2026-04-24T04:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "noticia",
+    "tags": [
+      "atomicrag",
+      "atom-entity",
+      "graphs"
+    ]
+  },
+  {
+    "title": "Closure of China’s influential journal ranking leaves academics reeling — what will take its place?",
+    "title_es": "El cierre del ranking de revistas influyentes de China deja a los académicos atónitos: ¿qué ocupará su lugar?",
+    "url": "https://www.nature.com/articles/d41586-026-01277-2",
+    "source": "Nature",
+    "published": "2026-04-24T00:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "revista",
+    "tags": [
+      "cierre",
+      "ranking",
+      "revistas"
+    ]
+  },
+  {
+    "title": "An Agricultural Mosaic in Taiwan",
+    "title_es": "Un mosaico agrícola en Taiwán",
+    "url": "https://science.nasa.gov/earth/human-dimensions/agriculture/an-agricultural-mosaic-in-taiwan/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-24T00:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "noticia",
+    "tags": [
+      "mosaico",
+      "agrícola",
+      "taiwán"
+    ]
+  },
+  {
+    "title": "This 100 million-year-old snake had hind legs and a lost bone that changes evolution",
+    "title_es": "Esta serpiente de 100 millones de años tenía patas traseras y un hueso perdido que cambia la evolución",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260424024002.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-24T00:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "serpiente",
+      "100"
+    ]
+  },
+  {
+    "title": "This 2,200-year-old Roman wreck hid a repair story that rewrites how ancient ships survived long voyages",
+    "title_es": "Este naufragio romano de 2200 años de antigüedad esconde una historia de reparación que reescribe cómo los barcos antiguos sobrevivieron a largos viajes",
+    "url": "https://phys.org/news/2026-04-year-roman-hid-story-rewrites.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-24T00:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "naufragio",
+      "romano"
+    ]
+  },
+  {
+    "title": "New Fossil from Brazil Reveals Unexpected Diversity among Pre-Dinosaur Herbivores",
+    "title_es": "Nuevo fósil de Brasil revela una diversidad inesperada entre los herbívoros pre-dinosaurios",
+    "url": "https://www.sci.news/paleontology/isodapedon-varzealis-14719.html",
+    "source": "Sci.News",
+    "published": "2026-04-23T23:37:14.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "fossil",
+      "brazil"
+    ]
+  },
+  {
+    "title": "Largest-ever octopus was great white shark of invertebrate predators",
+    "title_es": "El pulpo más grande de la historia fue un gran tiburón blanco de depredadores invertebrados",
+    "url": "https://www.newscientist.com/article/2524049-largest-ever-octopus-was-great-white-shark-of-invertebrate-predators/",
+    "source": "New Scientist",
+    "published": "2026-04-23T19:00:12.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "largest-ever",
+      "octopus",
+      "was"
+    ]
+  },
+  {
+    "title": "What I Learned from Teaching Darwin",
+    "title_es": "Lo que aprendí de enseñar a Darwin",
+    "url": "https://undark.org/2026/04/23/opinion-teaching-darwin/",
+    "source": "Undark Magazine",
+    "published": "2026-04-23T15:07:06.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "learned",
+      "teaching"
+    ]
+  },
+  {
     "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
     "title_es": "La ilusión del uso excesivo de herramientas: ¿Por qué LLM prefiere las herramientas externas sobre el conocimiento interno?",
     "url": "https://arxiv.org/abs/2604.19749",
@@ -67,6 +179,89 @@
       "acelerar",
       "descubrimiento",
       "fármacos"
+    ]
+  },
+  {
+    "title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+    "title_es": "Ver rápido y lento: aprender el flujo del tiempo en videos",
+    "url": "http://arxiv.org/abs/2604.21931v1",
+    "source": "arXiv",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "ver",
+      "rápido",
+      "lento"
+    ]
+  },
+  {
+    "title": "Dark discoveries",
+    "title_es": "Descubrimientos oscuros",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeg5512",
+    "source": "Science.org",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "descubrimientos",
+      "oscuros"
+    ]
+  },
+  {
+    "title": "Eva Villaver participa en la presentación del libro ‘Eclipses. El Sol y sus eclipses en la ciencia, la historia y las artes’",
+    "title_es": "Eva Villaver participa en la presentación del libro ‘Eclipses. El Sol y sus eclipses en la ciencia, la historia y las artes’",
+    "url": "https://www.iac.es/es/divulgacion/noticias/eva-villaver-participa-en-la-presentacion-del-libro-eclipses-el-sol-y-sus-eclipses-en-la-ciencia-la",
+    "source": "IAC",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "eva",
+      "villaver",
+      "participa"
+    ]
+  },
+  {
+    "title": "CERN’s Medipix3 technology on track to help more patients",
+    "title_es": "La tecnología Medipix3 del CERN va camino de ayudar a más pacientes",
+    "url": "https://home.cern/news/news/knowledge-sharing/cerns-medipix3-technology-track-help-more-patients",
+    "source": "CERN News",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "tecnología",
+      "medipix3",
+      "cern"
+    ]
+  },
+  {
+    "title": "Giant, kraken-like octopuses may have ruled the Cretaceous deep",
+    "title_es": "Pulpos gigantes parecidos a krakens pueden haber gobernado las profundidades del Cretácico",
+    "url": "https://www.sciencenews.org/article/kraken-octopus-largest-invertebrate",
+    "source": "Science News",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "pulpos",
+      "gigantes",
+      "parecidos"
+    ]
+  },
+  {
+    "title": "Looking for LUCA, everyone’s shared ancestor",
+    "title_es": "Buscando a LUCA, el antepasado común de todos",
+    "url": "https://www.snexplores.org/article/luca-common-ancestor-evolution",
+    "source": "Science News Explores",
+    "published": "2026-04-23T00:00:00.000Z",
+    "date": "2026-04-23",
+    "category": "noticia",
+    "tags": [
+      "buscando",
+      "luca",
+      "antepasado"
     ]
   },
   {
@@ -4130,7 +4325,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle atraviesa Australia",
+    "title_es": "El ciclón tropical Narelle cruza Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -5236,7 +5431,7 @@
   },
   {
     "title": "Why Insect Farming Startups Are Going Bankrupt",
-    "title_es": "Por qué las nuevas empresas de cría de insectos están en bancarrota",
+    "title_es": "Por qué las empresas de cría de insectos están en bancarrota",
     "url": "https://undark.org/2026/03/17/insect-farming-bankrupt/",
     "source": "Undark Magazine",
     "published": "2026-03-17T07:10:00.000Z",
@@ -6271,7 +6466,7 @@
   },
   {
     "title": "Two New Bird Species Identified in Amazonia",
-    "title_es": "Dos nuevas especies de aves identificadas en la Amazonía",
+    "title_es": "Identifican dos nuevas especies de aves en la Amazonía",
     "url": "https://www.sci.news/biology/amazonian-antbirds-14611.html",
     "source": "Sci.News",
     "published": "2026-03-10T01:09:49.000Z",
@@ -6775,7 +6970,7 @@
   },
   {
     "title": "Autonomous AI Agents Have an Ethics Problem",
-    "title_es": "Los agentes autónomos de IA tienen un problema ético",
+    "title_es": "Autonomous AI Agents Have an Ethics Problem",
     "url": "https://undark.org/2026/03/05/opinion-ai-agents-ethics/",
     "source": "Undark Magazine",
     "published": "2026-03-05T08:46:00.000Z",
@@ -6789,7 +6984,7 @@
   },
   {
     "title": "Deep Sketch-Based 3D Modeling: A Survey",
-    "title_es": "Modelado 3D profundo basado en bocetos: una encuesta",
+    "title_es": "Deep Sketch-Based 3D Modeling: A Survey",
     "url": "https://arxiv.org/abs/2603.03287",
     "source": "arXiv",
     "published": "2026-03-05T05:00:00.000Z",
@@ -6803,7 +6998,7 @@
   },
   {
     "title": "Extremophile Bacteria May Hitch Rides on Asteroid Fragments",
-    "title_es": "Las bacterias extremófilas pueden engancharse en fragmentos de asteroides",
+    "title_es": "Extremophile Bacteria May Hitch Rides on Asteroid Fragments",
     "url": "https://www.sci.news/biology/lithopanspermia-14600.html",
     "source": "Sci.News",
     "published": "2026-03-05T01:32:07.000Z",
@@ -6915,7 +7110,7 @@
   },
   {
     "title": "Justin Perry: \"In science, we are wrong all the time\"",
-    "title_es": "Justin Perry: \"En ciencia, nos equivocamos todo el tiempo\"",
+    "title_es": "Justin Perry: \"In science, we are wrong all the time\"",
     "url": "https://www.cnic.es/es/node/240675",
     "source": "CNIC",
     "published": "2026-03-05T00:00:00.000Z",
@@ -6971,7 +7166,7 @@
   },
   {
     "title": "The secret of how cats twist in mid-air to land on their feet",
-    "title_es": "El secreto de cómo los gatos se retuercen en el aire para aterrizar de pie",
+    "title_es": "The secret of how cats twist in mid-air to land on their feet",
     "url": "https://www.newscientist.com/article/2518096-the-secret-of-how-cats-twist-in-mid-air-to-land-on-their-feet/",
     "source": "New Scientist",
     "published": "2026-03-04T18:00:55.000Z",
@@ -40231,17 +40426,17 @@
     ]
   },
   {
-    "title": "Correction: Functional impact of cardiac implanted devices on ipsilateral shoulder range of motion, scapular mobility, and self-reported quality of life",
-    "title_es": "Corrección: impacto funcional de los dispositivos cardíacos implantados en la amplitud de movimiento del hombro ipsilateral, la movilidad escapular y la calidad de vida autoinformada",
+    "title": "Biomarkers of mitochondrial dynamics in idiopathic pulmonary fibrosis: Identification and validation through transcriptomic and single-cell analyses",
+    "title_es": "Biomarcadores de la dinámica mitocondrial en la fibrosis pulmonar idiopática: identificación y validación mediante análisis transcriptómicos y unicelulares",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "impacto",
-      "funcional"
+      "biomarcadores",
+      "dinámica",
+      "mitocondrial"
     ]
   },
   {
@@ -99958,6 +100153,20 @@
       "large",
       "scale",
       "structure"
+    ]
+  },
+  {
+    "title": "Young Moon and Sister Stars",
+    "title_es": "Young Moon and Sister Stars",
+    "url": "https://apod.nasa.gov/apod/image/2604/ghr3777lunapleiadi_101400_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "young",
+      "moon",
+      "sister"
     ]
   }
 ]
