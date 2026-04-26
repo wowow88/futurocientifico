@@ -1,5 +1,19 @@
 [
   {
+    "title": "Fish oil may be hurting your brain, new study finds",
+    "title_es": "El aceite de pescado puede estar dañando el cerebro, según un nuevo estudio",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260426012303.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-26T00:00:00.000Z",
+    "date": "2026-04-26",
+    "category": "noticia",
+    "tags": [
+      "aceite",
+      "pescado",
+      "puede"
+    ]
+  },
+  {
     "title": "Marine Biologists Solve Mystery of Deep-Sea ‘Golden Orb’",
     "title_es": "Biólogos marinos resuelven el misterio del \"orbe dorado\" de aguas profundas",
     "url": "https://www.sci.news/biology/golden-orb-mystery-14720.html",
@@ -25,6 +39,20 @@
       "pueden",
       "recuperar",
       "bosques"
+    ]
+  },
+  {
+    "title": "Bonuses can lower self-set goals and reduce performance, experiment suggests",
+    "title_es": "Los bonos pueden reducir los objetivos autoestablecidos y reducir el rendimiento, sugiere un experimento",
+    "url": "https://phys.org/news/2026-04-bonuses-goals.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-25T00:00:00.000Z",
+    "date": "2026-04-25",
+    "category": "noticia",
+    "tags": [
+      "bonos",
+      "pueden",
+      "reducir"
     ]
   },
   {
@@ -769,6 +797,20 @@
     ]
   },
   {
+    "title": "Why the right kind of stress is crucial for your health and happiness",
+    "title_es": "Por qué el tipo correcto de estrés es crucial para tu salud y felicidad",
+    "url": "https://www.newscientist.com/article/2522362-why-the-right-kind-of-stress-is-crucial-for-your-health-and-happiness/",
+    "source": "New Scientist",
+    "published": "2026-04-20T14:00:47.000Z",
+    "date": "2026-04-20",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "right",
+      "kind"
+    ]
+  },
+  {
     "title": "Interview: Christopher Borgert on an Infamous Glyphosate Paper",
     "title_es": "Entrevista: Christopher Borgert sobre un infame papel de glifosato",
     "url": "https://undark.org/2026/04/20/interview-christopher-borgert-glyphosate/",
@@ -1190,7 +1232,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -2967,7 +3009,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -4479,7 +4521,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle atraviesa Australia",
+    "title_es": "El ciclón tropical Narelle cruza Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -4787,7 +4829,7 @@
   },
   {
     "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
-    "title_es": "La litósfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
     "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
     "source": "Sci.News",
     "published": "2026-03-22T16:05:37.000Z",
@@ -100334,6 +100376,34 @@
     "tags": [
       "persistence",
       "sunlight"
+    ]
+  },
+  {
+    "title": "Quantum measurements in fundamental physics: A user’s manual, by Jacob Beckey, Daniel Carney, Giacomo Marocco",
+    "title_es": "Quantum measurements in fundamental physics: A user’s manual, by Jacob Beckey, Daniel Carney, Giacomo Marocco",
+    "url": "https://scipost.org/scipostphysrev.2",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "quantum",
+      "measurements",
+      "fundamental"
+    ]
+  },
+  {
+    "title": "Mystic Mountain Monster being Destroyed",
+    "title_es": "Mystic Mountain Monster being Destroyed",
+    "url": "https://apod.nasa.gov/apod/image/2604/mysticpillar_hubbleschmidt_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "mystic",
+      "mountain",
+      "monster"
     ]
   }
 ]
