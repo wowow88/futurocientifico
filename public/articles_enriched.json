@@ -1,5 +1,47 @@
 [
   {
+    "title": "How to Euthanize a Whale",
+    "title_es": "Cómo aplicar la eutanasia a una ballena",
+    "url": "https://undark.org/2026/04/27/whale-euthanasia/",
+    "source": "Undark Magazine",
+    "published": "2026-04-27T07:05:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "euthanize",
+      "whale"
+    ]
+  },
+  {
+    "title": "Quantifying Interface Procedure Coupling Risks in Digital Nuclear Control Rooms: An Event Based Human Reliability Assessment",
+    "title_es": "Procedimiento de cuantificación de riesgos de acoplamiento en salas de control nuclear digital: una evaluación de confiabilidad humana basada en eventos",
+    "url": "https://arxiv.org/abs/2604.21932",
+    "source": "arXiv",
+    "published": "2026-04-27T04:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "quantifying",
+      "interface",
+      "procedure"
+    ]
+  },
+  {
+    "title": "Orangutan uses Indonesia canopy bridge in 'world first': NGO",
+    "title_es": "Orangután utiliza un puente de dosel en Indonesia por primera vez en el mundo: ONG",
+    "url": "https://phys.org/news/2026-04-orangutan-indonesia-canopy-bridge-world.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "orangután",
+      "utiliza",
+      "puente"
+    ]
+  },
+  {
     "title": "Fish oil may be hurting your brain, new study finds",
     "title_es": "El aceite de pescado puede estar dañando el cerebro, según un nuevo estudio",
     "url": "https://www.sciencedaily.com/releases/2026/04/260426012303.htm",
@@ -11,6 +53,20 @@
       "aceite",
       "pescado",
       "puede"
+    ]
+  },
+  {
+    "title": "Entire NSF science advisory board fired by Trump administration",
+    "title_es": "Todo el consejo asesor científico de la NSF despedido por la administración Trump",
+    "url": "https://www.nature.com/articles/d41586-026-01361-7",
+    "source": "Nature",
+    "published": "2026-04-26T00:00:00.000Z",
+    "date": "2026-04-26",
+    "category": "noticia",
+    "tags": [
+      "todo",
+      "consejo",
+      "asesor"
     ]
   },
   {
@@ -252,6 +308,20 @@
     ]
   },
   {
+    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+    "title_es": "Modelado del mundo agente: fundamentos, capacidades, leyes y más",
+    "url": "http://arxiv.org/abs/2604.22748v1",
+    "source": "arXiv",
+    "published": "2026-04-24T00:00:00.000Z",
+    "date": "2026-04-24",
+    "category": "noticia",
+    "tags": [
+      "modelado",
+      "mundo",
+      "agente"
+    ]
+  },
+  {
     "title": "New Fossil from Brazil Reveals Unexpected Diversity among Pre-Dinosaur Herbivores",
     "title_es": "Nuevo fósil de Brasil revela una diversidad inesperada entre los herbívoros pre-dinosaurios",
     "url": "https://www.sci.news/paleontology/isodapedon-varzealis-14719.html",
@@ -458,6 +528,20 @@
       "per",
       "cent",
       "meat"
+    ]
+  },
+  {
+    "title": "We need more radioactive drugs. Can we make them from nuclear waste?",
+    "title_es": "Necesitamos más drogas radiactivas. ¿Podemos hacerlos a partir de residuos nucleares?",
+    "url": "https://www.newscientist.com/article/2521854-we-need-more-radioactive-drugs-can-we-make-them-from-nuclear-waste/",
+    "source": "New Scientist",
+    "published": "2026-04-22T16:00:58.000Z",
+    "date": "2026-04-22",
+    "category": "noticia",
+    "tags": [
+      "need",
+      "more",
+      "radioactive"
     ]
   },
   {
@@ -1232,7 +1316,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -4829,7 +4913,7 @@
   },
   {
     "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
-    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "title_es": "La litósfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
     "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
     "source": "Sci.News",
     "published": "2026-03-22T16:05:37.000Z",
@@ -6774,7 +6858,7 @@
   },
   {
     "title": "Why is black rain falling on Iran and how dangerous is it?",
-    "title_es": "¿Por qué cae lluvia negra sobre Irán y qué tan peligrosa es?",
+    "title_es": "Why is black rain falling on Iran and how dangerous is it?",
     "url": "https://www.newscientist.com/article/2518718-why-is-black-rain-falling-on-iran-and-how-dangerous-is-it/",
     "source": "New Scientist",
     "published": "2026-03-09T19:11:46.000Z",
@@ -6788,7 +6872,7 @@
   },
   {
     "title": "Under Trump, mRNA Skepticism Threatens a Promising Technology",
-    "title_es": "Bajo Trump, el escepticismo sobre el ARNm amenaza una tecnología prometedora",
+    "title_es": "Under Trump, mRNA Skepticism Threatens a Promising Technology",
     "url": "https://undark.org/2026/03/09/trump-mrna-skepticism/",
     "source": "Undark Magazine",
     "published": "2026-03-09T07:05:00.000Z",
@@ -6802,7 +6886,7 @@
   },
   {
     "title": "Marking Data-Informativity and Data-Driven Supervisory Control of Discrete-Event Systems",
-    "title_es": "Marcado de Datos-Informatividad y Control de Supervisión Basado en Datos de Sistemas de Eventos Discretos",
+    "title_es": "Marking Data-Informativity and Data-Driven Supervisory Control of Discrete-Event Systems",
     "url": "https://arxiv.org/abs/2603.05508",
     "source": "arXiv",
     "published": "2026-03-09T04:00:00.000Z",
@@ -100404,6 +100488,20 @@
       "mystic",
       "mountain",
       "monster"
+    ]
+  },
+  {
+    "title": "Comet R3 PanSTARRS Behind Satellite Trails",
+    "title_es": "Comet R3 PanSTARRS Behind Satellite Trails",
+    "url": "https://apod.nasa.gov/apod/image/2604/comettrails_fehr_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "panstarrs",
+      "behind"
     ]
   }
 ]
