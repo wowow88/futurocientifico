@@ -1,5 +1,89 @@
 [
   {
+    "title": "Amid Falling Birth Rates, Federal Family Planning Is Overhauled",
+    "title_es": "En medio de la caída de las tasas de natalidad, se revisa la planificación familiar federal",
+    "url": "https://undark.org/2026/04/28/birth-rates-title-x/",
+    "source": "Undark Magazine",
+    "published": "2026-04-28T07:08:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "amid",
+      "falling",
+      "birth"
+    ]
+  },
+  {
+    "title": "HalalBench: A Multilingual OCR Benchmark for Food Packaging Ingredient Extraction",
+    "title_es": "HalalBench: un punto de referencia de OCR multilingüe para la extracción de ingredientes de envasado de alimentos",
+    "url": "https://arxiv.org/abs/2604.22754",
+    "source": "arXiv",
+    "published": "2026-04-28T04:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "halalbench",
+      "multilingual",
+      "ocr"
+    ]
+  },
+  {
+    "title": "China’s latest push to commercialize research: match 680,000 innovators with companies",
+    "title_es": "El último impulso de China para comercializar la investigación: conectar a 680.000 innovadores con empresas",
+    "url": "https://www.nature.com/articles/d41586-026-01202-7",
+    "source": "Nature",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "último",
+      "impulso",
+      "china"
+    ]
+  },
+  {
+    "title": "Nations to kick off world-first fossil fuel exit talks",
+    "title_es": "Las naciones iniciarán las primeras conversaciones del mundo sobre la salida de los combustibles fósiles",
+    "url": "https://phys.org/news/2026-04-nations-world-fossil-fuel-exit.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "naciones",
+      "iniciarán",
+      "primeras"
+    ]
+  },
+  {
+    "title": "Why Geologists Love Pond Scum",
+    "title_es": "Por qué a los geólogos les encanta la escoria del estanque",
+    "url": "https://www.sci.news/paleontology/cambrian-microbial-mats-14725.html",
+    "source": "Sci.News",
+    "published": "2026-04-27T22:43:27.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "geologists",
+      "love"
+    ]
+  },
+  {
+    "title": "Coral reefs on a remote archipelago shrugged off a massive heatwave",
+    "title_es": "Los arrecifes de coral en un archipiélago remoto se encogieron de hombros ante una ola de calor masiva",
+    "url": "https://www.newscientist.com/article/2524399-coral-reefs-on-a-remote-archipelago-shrugged-off-a-massive-heatwave/",
+    "source": "New Scientist",
+    "published": "2026-04-27T16:00:58.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "coral",
+      "reefs",
+      "remote"
+    ]
+  },
+  {
     "title": "How to Euthanize a Whale",
     "title_es": "Cómo aplicar la eutanasia a una ballena",
     "url": "https://undark.org/2026/04/27/whale-euthanasia/",
@@ -39,6 +123,90 @@
       "orangután",
       "utiliza",
       "puente"
+    ]
+  },
+  {
+    "title": "Personalized Worked Example Generation from Student Code Submissions using Pattern-based Knowledge Components",
+    "title_es": "Generación de ejemplos trabajados personalizados a partir de envíos de códigos de estudiantes utilizando componentes de conocimiento basados ​​en patrones",
+    "url": "http://arxiv.org/abs/2604.24758v1",
+    "source": "arXiv",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "generación",
+      "ejemplos",
+      "trabajados"
+    ]
+  },
+  {
+    "title": "The First 2026 Competitive Call for Unique Scientific and Technical Infrastructures of the Distributed Biomedical Imaging Network (ReDIB) Is Now Open",
+    "title_es": "Ya está abierta la primera convocatoria competitiva de 2026 para infraestructuras científicas y técnicas únicas de la Red de Imágenes Biomédicas Distribuidas (ReDIB)",
+    "url": "https://www.cnic.es/es/node/241821",
+    "source": "CNIC",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "2026",
+      "competitive"
+    ]
+  },
+  {
+    "title": "La comunidad educativa podrá prepararse para el trío de eclipses solares con una nueva formación abierta y en línea",
+    "title_es": "La comunidad educativa puede prepararse para el trío de eclipses solares con una nueva formación abierta y en línea",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-comunidad-educativa-podra-prepararse-para-el-trio-de-eclipses-solares-con-una-nueva-formacion",
+    "source": "IAC",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "comunidad",
+      "educativa",
+      "podrá"
+    ]
+  },
+  {
+    "title": "This dangerous pregnancy complication is common. A new treatment might help",
+    "title_es": "Esta peligrosa complicación del embarazo es común. Un nuevo tratamiento podría ayudar",
+    "url": "https://www.sciencenews.org/article/preeclampsia-treatment-pregnancy-blood",
+    "source": "Science News",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "peligrosa",
+      "complicación"
+    ]
+  },
+  {
+    "title": "Do multiple universes exist?",
+    "title_es": "¿Existen múltiples universos?",
+    "url": "https://www.snexplores.org/article/multiverse-multiple-universes-space",
+    "source": "Science News Explores",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "existen",
+      "múltiples",
+      "universos"
+    ]
+  },
+  {
+    "title": "Students build a “cosmic radio” to listen for dark matter",
+    "title_es": "Los estudiantes construyen una \"radio cósmica\" para escuchar la materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260427050618.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-27T00:00:00.000Z",
+    "date": "2026-04-27",
+    "category": "noticia",
+    "tags": [
+      "estudiantes",
+      "construyen",
+      "radio"
     ]
   },
   {
@@ -1316,7 +1484,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -3093,7 +3261,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -4605,7 +4773,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle cruza Australia",
+    "title_es": "El ciclón tropical Narelle atraviesa Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -4913,7 +5081,7 @@
   },
   {
     "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
-    "title_es": "La litósfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
     "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
     "source": "Sci.News",
     "published": "2026-03-22T16:05:37.000Z",
@@ -6718,7 +6886,7 @@
   },
   {
     "title": "Why the FDA Is Embracing Old Math for New Drugs",
-    "title_es": "Por qué la FDA está adoptando las matemáticas antiguas para los nuevos medicamentos",
+    "title_es": "Why the FDA Is Embracing Old Math for New Drugs",
     "url": "https://undark.org/2026/03/10/fda-bayesian-guidelines/",
     "source": "Undark Magazine",
     "published": "2026-03-10T07:51:00.000Z",
@@ -6732,7 +6900,7 @@
   },
   {
     "title": "Rethinking Personalization in Large Language Models at the Token Level",
-    "title_es": "Repensar la personalización en modelos de lenguaje grandes a nivel de token",
+    "title_es": "Rethinking Personalization in Large Language Models at the Token Level",
     "url": "https://arxiv.org/abs/2603.06595",
     "source": "arXiv",
     "published": "2026-03-10T04:00:00.000Z",
@@ -6746,7 +6914,7 @@
   },
   {
     "title": "Two New Bird Species Identified in Amazonia",
-    "title_es": "Dos nuevas especies de aves identificadas en la Amazonía",
+    "title_es": "Two New Bird Species Identified in Amazonia",
     "url": "https://www.sci.news/biology/amazonian-antbirds-14611.html",
     "source": "Sci.News",
     "published": "2026-03-10T01:09:49.000Z",
@@ -6844,7 +7012,7 @@
   },
   {
     "title": "Light-guided evolution creates proteins that can switch, sense, and compute",
-    "title_es": "La evolución guiada por la luz crea proteínas que pueden cambiar, detectar y calcular",
+    "title_es": "Light-guided evolution creates proteins that can switch, sense, and compute",
     "url": "https://www.sciencedaily.com/releases/2026/03/260309183211.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-03-09T23:05:48.000Z",
@@ -40706,8 +40874,8 @@
     ]
   },
   {
-    "title": "Correction: Formative research for a pre-operative psychosocial screening program for cardiac surgical patients: The EMBRACE study, a mixed methods knowledge to action protocol",
-    "title_es": "Corrección: Investigación formativa para un programa de detección psicosocial preoperatoria para pacientes quirúrgicos cardíacos: el estudio EMBRACE, un protocolo de conocimiento a acción de métodos mixtos",
+    "title": "Correction: Seasonal variation in meat quality of Angus steers raised in a Mediterranean forage-fed system: A farm case study",
+    "title_es": "Corrección: Variación estacional en la calidad de la carne de novillos Angus criados en un sistema mediterráneo alimentado con forraje: un estudio de caso de granja",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -40715,8 +40883,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "investigación",
-      "formativa"
+      "variación",
+      "estacional"
     ]
   },
   {
@@ -100502,6 +100670,19 @@
       "comet",
       "panstarrs",
       "behind"
+    ]
+  },
+  {
+    "title": "CG 30: Cometary Globules",
+    "title_es": "CG 30: Cometary Globules",
+    "url": "https://apod.nasa.gov/apod/image/2604/cg30globules_salamme_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cometary",
+      "globules"
     ]
   }
 ]
