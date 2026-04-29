@@ -1,5 +1,75 @@
 [
   {
+    "title": "GCA-BULF: A Bottom-Up Framework for Short-Term Load Forecasting Using Grouped Critical Appliances",
+    "title_es": "GCA-BULF: un marco ascendente para la previsión de carga a corto plazo utilizando dispositivos críticos agrupados",
+    "url": "https://arxiv.org/abs/2604.24766",
+    "source": "arXiv",
+    "published": "2026-04-29T04:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "gca-bulf",
+      "bottom-up",
+      "framework"
+    ]
+  },
+  {
+    "title": "Fires Rage in Georgia",
+    "title_es": "Los incendios arrasan Georgia",
+    "url": "https://science.nasa.gov/earth/earth-observatory/fires-rage-in-georgia/",
+    "source": "NASA (Top News)",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "incendios",
+      "arrasan",
+      "georgia"
+    ]
+  },
+  {
+    "title": "NASA's Artemis II moonship returns home to its launch site after historic voyage",
+    "title_es": "La nave lunar Artemis II de la NASA regresa a su sitio de lanzamiento después de un viaje histórico",
+    "url": "https://phys.org/news/2026-04-nasa-artemis-ii-moonship-home.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "nave",
+      "lunar",
+      "artemis"
+    ]
+  },
+  {
+    "title": "Cancer is increasing in young people and we still don't know why",
+    "title_es": "El cáncer está aumentando en los jóvenes y todavía no sabemos por qué",
+    "url": "https://www.newscientist.com/article/2524515-cancer-is-increasing-in-young-people-and-we-still-dont-know-why/",
+    "source": "New Scientist",
+    "published": "2026-04-28T23:30:36.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "cancer",
+      "increasing",
+      "young"
+    ]
+  },
+  {
+    "title": "Small Titanosaur Species from Morocco Reveals Surprising South American Ties",
+    "title_es": "Pequeñas especies de titanosaurios de Marruecos revelan sorprendentes lazos sudamericanos",
+    "url": "https://www.sci.news/paleontology/phosphatotitan-khouribgaensis-14728.html",
+    "source": "Sci.News",
+    "published": "2026-04-28T22:53:04.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "small",
+      "titanosaur",
+      "species"
+    ]
+  },
+  {
     "title": "Amid Falling Birth Rates, Federal Family Planning Is Overhauled",
     "title_es": "En medio de la caída de las tasas de natalidad, se revisa la planificación familiar federal",
     "url": "https://undark.org/2026/04/28/birth-rates-title-x/",
@@ -53,6 +123,104 @@
       "naciones",
       "iniciarán",
       "primeras"
+    ]
+  },
+  {
+    "title": "Recursive Multi-Agent Systems",
+    "title_es": "Sistemas recursivos multiagente",
+    "url": "http://arxiv.org/abs/2604.25917v1",
+    "source": "arXiv",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "sistemas",
+      "recursivos",
+      "multiagente"
+    ]
+  },
+  {
+    "title": "Author Correction: Quantum error correction below the surface code threshold",
+    "title_es": "Corrección del autor: Corrección de errores cuánticos por debajo del umbral del código de superficie",
+    "url": "https://www.nature.com/articles/s41586-026-10559-8",
+    "source": "Nature",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "corrección"
+    ]
+  },
+  {
+    "title": "Un estudio del CNIO descubre un mecanismo de las vías biliares que puede ayudar a personalizar el tratamiento de la fibrosis hepática",
+    "title_es": "Un estudio del CNIO descubre un mecanismo de las vías biliares que puede ayudar a personalizar el tratamiento de la fibrosis hepática",
+    "url": "https://www.cnio.es/noticias/un-estudio-del-cnio-descubre-un-mecanismo-de-las-vias-biliares-que-puede-ayudar-a-personalizar-el-tratamiento-de-la-fibrosis-hepatica/",
+    "source": "CNIO",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "cnio",
+      "descubre"
+    ]
+  },
+  {
+    "title": "Arts at CERN and Nobel Prize Museum announce the Collide Stockholm international residency award recipient and two Honorary Mentions",
+    "title_es": "Arts at CERN y el Museo del Premio Nobel anuncian el ganador del premio de residencia internacional Collide Stockholm y dos menciones honoríficas",
+    "url": "https://home.cern/news/news/cern/arts-cern-and-nobel-prize-museum-announce-collide-stockholm-international-residency",
+    "source": "CERN News",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "arts",
+      "cern",
+      "museo"
+    ]
+  },
+  {
+    "title": "Can ‘extinct’ volcanoes still erupt? A Greek peak holds surprising clues",
+    "title_es": "¿Pueden todavía entrar en erupción volcanes “extintos”? Un pico griego esconde pistas sorprendentes",
+    "url": "https://www.sciencenews.org/article/extinct-volcanoes-erupt",
+    "source": "Science News",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "pueden",
+      "todavía",
+      "entrar"
+    ]
+  },
+  {
+    "title": "Scientists get smart about farts with new underwear sensor",
+    "title_es": "Los científicos se vuelven inteligentes con los pedos con un nuevo sensor de ropa interior",
+    "url": "https://www.snexplores.org/article/underwear-sensor-measures-farts",
+    "source": "Science News Explores",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "vuelven",
+      "inteligentes"
+    ]
+  },
+  {
+    "title": "Scientists catch antimatter “atom” acting like a wave for the first time",
+    "title_es": "Los científicos detectan por primera vez un “átomo” de antimateria que actúa como una onda",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260428045612.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-28T00:00:00.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "detectan",
+      "por"
     ]
   },
   {
@@ -1484,7 +1652,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -4549,7 +4717,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -4773,7 +4941,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle atraviesa Australia",
+    "title_es": "El ciclón tropical Narelle cruza Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -6676,7 +6844,7 @@
   },
   {
     "title": "State Bills on Environmental Regulations Raise Burden of Proof",
-    "title_es": "Los proyectos de ley estatales sobre regulaciones ambientales aumentan la carga de la prueba",
+    "title_es": "State Bills on Environmental Regulations Raise Burden of Proof",
     "url": "https://undark.org/2026/03/11/state-sound-science-bills/",
     "source": "Undark Magazine",
     "published": "2026-03-11T07:12:00.000Z",
@@ -6690,7 +6858,7 @@
   },
   {
     "title": "A Hybrid Residue Floating Numerical Architecture with Formal Error Bounds for High Throughput FPGA Computation",
-    "title_es": "Una arquitectura numérica flotante de residuos híbridos con límites de error formales para el cálculo de FPGA de alto rendimiento",
+    "title_es": "A Hybrid Residue Floating Numerical Architecture with Formal Error Bounds for High Throughput FPGA Computation",
     "url": "https://arxiv.org/abs/2603.08712",
     "source": "arXiv",
     "published": "2026-03-11T04:00:00.000Z",
@@ -6704,7 +6872,7 @@
   },
   {
     "title": "275-Million-Year-Old Amphibian Relative with Twisted Jaws Rewrites Early Tetrapod Diets",
-    "title_es": "Un pariente anfibio de 275 millones de años con mandíbulas retorcidas reescribe las primeras dietas de tetrápodos",
+    "title_es": "275-Million-Year-Old Amphibian Relative with Twisted Jaws Rewrites Early Tetrapod Diets",
     "url": "https://www.sci.news/paleontology/tanyka-amnicola-14614.html",
     "source": "Sci.News",
     "published": "2026-03-11T01:15:34.000Z",
@@ -6718,7 +6886,7 @@
   },
   {
     "title": "Orcas may be to blame for some mass dolphin strandings",
-    "title_es": "Las orcas pueden ser las culpables de algunos varamientos masivos de delfines",
+    "title_es": "Orcas may be to blame for some mass dolphin strandings",
     "url": "https://www.newscientist.com/article/2518849-orcas-may-be-to-blame-for-some-mass-dolphin-strandings/",
     "source": "New Scientist",
     "published": "2026-03-11T00:01:07.000Z",
@@ -40874,8 +41042,8 @@
     ]
   },
   {
-    "title": "Correction: Seasonal variation in meat quality of Angus steers raised in a Mediterranean forage-fed system: A farm case study",
-    "title_es": "Corrección: Variación estacional en la calidad de la carne de novillos Angus criados en un sistema mediterráneo alimentado con forraje: un estudio de caso de granja",
+    "title": "Correction: Exploring the physical, mental, and social dimensions of middle-aged adults for active and healthy aging: A cross-sectional study",
+    "title_es": "Corrección: Exploración de las dimensiones físicas, mentales y sociales de los adultos de mediana edad para un envejecimiento activo y saludable: un estudio transversal",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -40883,8 +41051,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "variación",
-      "estacional"
+      "exploración",
+      "dimensiones"
     ]
   },
   {
@@ -100683,6 +100851,34 @@
     "tags": [
       "cometary",
       "globules"
+    ]
+  },
+  {
+    "title": "Modulated symmetries from generalized Lieb-Schultz-Mattis anomalies, by Hiromi Ebisu, Bo Han, Weiguang Cao",
+    "title_es": "Modulated symmetries from generalized Lieb-Schultz-Mattis anomalies, by Hiromi Ebisu, Bo Han, Weiguang Cao",
+    "url": "https://scipost.org/scipostphys.20.4.117",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "modulated",
+      "symmetries",
+      "generalized"
+    ]
+  },
+  {
+    "title": "The Moon, Venus, and the Pleiades",
+    "title_es": "The Moon, Venus, and the Pleiades",
+    "url": "https://apod.nasa.gov/apod/image/2604/moon_venus_pleiades_zoom.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "moon",
+      "venus",
+      "pleiades"
     ]
   }
 ]
