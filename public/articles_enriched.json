@@ -1,5 +1,103 @@
 [
   {
+    "title": "Analysing Lightweight Large Language Models for Biomedical Named Entity Recognition on Diverse Ouput Formats",
+    "title_es": "Análisis de modelos de lenguaje grandes y ligeros para el reconocimiento de entidades biomédicas con nombre en diversos formatos de salida",
+    "url": "https://arxiv.org/abs/2604.25920",
+    "source": "arXiv",
+    "published": "2026-04-30T04:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "analysing",
+      "lightweight",
+      "large"
+    ]
+  },
+  {
+    "title": "An electrifying test to find a good coffee",
+    "title_es": "Una prueba electrizante para encontrar un buen café",
+    "url": "https://www.nature.com/articles/d41586-026-01289-y",
+    "source": "Nature",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "prueba",
+      "electrizante",
+      "encontrar"
+    ]
+  },
+  {
+    "title": "Earth is splitting open beneath the Pacific Northwest, scientists say",
+    "title_es": "La Tierra se está partiendo debajo del noroeste del Pacífico, dicen los científicos",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260429232851.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "tierra",
+      "está",
+      "partiendo"
+    ]
+  },
+  {
+    "title": "Snow cover on Greek mountains has more than halved in four decades, study finds",
+    "title_es": "La capa de nieve en las montañas griegas se ha reducido a más de la mitad en cuatro décadas, según un estudio",
+    "url": "https://phys.org/news/2026-04-greek-mountains-halved-decades.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "capa",
+      "nieve",
+      "montañas"
+    ]
+  },
+  {
+    "title": "Omnivorous, Rodent-Like Mammal Lived in Dinosaurs’ Shadow on Pacific Coast",
+    "title_es": "Mamífero omnívoro parecido a un roedor vivía a la sombra de los dinosaurios en la costa del Pacífico",
+    "url": "https://www.sci.news/paleontology/cimolodon-desosai-14733.html",
+    "source": "Sci.News",
+    "published": "2026-04-29T23:43:44.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "omnivorous",
+      "rodent-like",
+      "mammal"
+    ]
+  },
+  {
+    "title": "A 2022 Law May Be Quietly Helping People Stay on Their Meds",
+    "title_es": "Una ley de 2022 puede estar ayudando silenciosamente a las personas a seguir tomando sus medicamentos",
+    "url": "https://undark.org/2026/04/29/drug-costs-2022-law/",
+    "source": "Undark Magazine",
+    "published": "2026-04-29T17:20:55.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "2022",
+      "law",
+      "may"
+    ]
+  },
+  {
+    "title": "Simple treatment tweak drastically reduces blood loss from severe cuts",
+    "title_es": "Un simple ajuste de tratamiento reduce drásticamente la pérdida de sangre por cortes severos",
+    "url": "https://www.newscientist.com/article/2524800-simple-treatment-tweak-drastically-reduces-blood-loss-from-severe-cuts/",
+    "source": "New Scientist",
+    "published": "2026-04-29T16:25:02.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "simple",
+      "treatment",
+      "tweak"
+    ]
+  },
+  {
     "title": "GCA-BULF: A Bottom-Up Framework for Short-Term Load Forecasting Using Grouped Critical Appliances",
     "title_es": "GCA-BULF: un marco ascendente para la previsión de carga a corto plazo utilizando dispositivos críticos agrupados",
     "url": "https://arxiv.org/abs/2604.24766",
@@ -39,6 +137,62 @@
       "nave",
       "lunar",
       "artemis"
+    ]
+  },
+  {
+    "title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+    "title_es": "Cambiando la marea: destilación entre arquitecturas para la difusión de modelos de lenguajes grandes",
+    "url": "http://arxiv.org/abs/2604.26951v1",
+    "source": "arXiv",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "cambiando",
+      "marea",
+      "destilación"
+    ]
+  },
+  {
+    "title": "Ubicuas pero olvidadas: Absorciones anchas en los espectros ópticos de binarias de rayos X de baja masa",
+    "title_es": "Ubicuas pero olvidadas: Absorciones anchas en los espectros ópticos de binarias de rayos X de baja masa",
+    "url": "https://www.iac.es/es/divulgacion/noticias/ubicuas-pero-olvidadas-absorciones-anchas-en-los-espectros-opticos-de-binarias-de-rayos-x-de-baja-masa",
+    "source": "IAC",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "ubicuas",
+      "pero",
+      "olvidadas"
+    ]
+  },
+  {
+    "title": "Prenatal surgery for spina bifida may get a boost from stem cells",
+    "title_es": "La cirugía prenatal para la espina bífida puede recibir un impulso de las células madre",
+    "url": "https://www.sciencenews.org/article/prenatal-surgery-spina-bifida-stem-cell",
+    "source": "Science News",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "cirugía",
+      "prenatal",
+      "espina"
+    ]
+  },
+  {
+    "title": "Analyze This: How many insects are in the air?",
+    "title_es": "Analiza esto: ¿Cuántos insectos hay en el aire?",
+    "url": "https://www.snexplores.org/article/flying-insect-abundance-air",
+    "source": "Science News Explores",
+    "published": "2026-04-29T00:00:00.000Z",
+    "date": "2026-04-29",
+    "category": "noticia",
+    "tags": [
+      "analiza",
+      "esto",
+      "cuántos"
     ]
   },
   {
@@ -4717,7 +4871,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -5249,7 +5403,7 @@
   },
   {
     "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
-    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "title_es": "La litósfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
     "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
     "source": "Sci.News",
     "published": "2026-03-22T16:05:37.000Z",
@@ -6047,7 +6201,7 @@
   },
   {
     "title": "Why Insect Farming Startups Are Going Bankrupt",
-    "title_es": "Por qué las nuevas empresas de cría de insectos están en bancarrota",
+    "title_es": "Por qué las empresas de cría de insectos están en bancarrota",
     "url": "https://undark.org/2026/03/17/insect-farming-bankrupt/",
     "source": "Undark Magazine",
     "published": "2026-03-17T07:10:00.000Z",
@@ -6662,7 +6816,7 @@
   },
   {
     "title": "Early Howler Monkeys Adapted to Eating Leaves 13 Million Years Ago",
-    "title_es": "Los primeros monos aulladores adaptados a comer se fueron hace 13 millones de años",
+    "title_es": "Early Howler Monkeys Adapted to Eating Leaves 13 Million Years Ago",
     "url": "https://www.sci.news/paleontology/stirtonia-victoriae-14619.html",
     "source": "Sci.News",
     "published": "2026-03-12T02:38:43.000Z",
@@ -6816,7 +6970,7 @@
   },
   {
     "title": "A miniature magnet rivals behemoths in strength for the first time",
-    "title_es": "Un imán en miniatura rivaliza con gigantes en fuerza por primera vez",
+    "title_es": "A miniature magnet rivals behemoths in strength for the first time",
     "url": "https://www.newscientist.com/article/2518964-a-miniature-magnet-rivals-behemoths-in-strength-for-the-first-time/",
     "source": "New Scientist",
     "published": "2026-03-11T18:00:54.000Z",
@@ -6830,7 +6984,7 @@
   },
   {
     "title": "Why are we so obsessed with protein? A new book looks for answers",
-    "title_es": "¿Por qué estamos tan obsesionados con las proteínas? Un nuevo libro busca respuestas",
+    "title_es": "Why are we so obsessed with protein? A new book looks for answers",
     "url": "https://www.newscientist.com/article/mg26935863-900-why-are-we-so-obsessed-with-protein-a-new-book-looks-for-answers/",
     "source": "New Scientist",
     "published": "2026-03-11T18:00:00.000Z",
@@ -41042,17 +41196,17 @@
     ]
   },
   {
-    "title": "Correction: Exploring the physical, mental, and social dimensions of middle-aged adults for active and healthy aging: A cross-sectional study",
-    "title_es": "Corrección: Exploración de las dimensiones físicas, mentales y sociales de los adultos de mediana edad para un envejecimiento activo y saludable: un estudio transversal",
+    "title": "Social friction vs. cognitive efficiency: A comparative analysis of help-seeking behaviors in human communities and generative AI",
+    "title_es": "Fricción social versus eficiencia cognitiva: un análisis comparativo de los comportamientos de búsqueda de ayuda en comunidades humanas y la IA generativa",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "exploración",
-      "dimensiones"
+      "fricción",
+      "social",
+      "versus"
     ]
   },
   {
@@ -100879,6 +101033,33 @@
       "moon",
       "venus",
       "pleiades"
+    ]
+  },
+  {
+    "title": "Medicine show: A Calogero model with principal series states, by Tarek Anous, Jackson R. Fliss, Jeremy van der Heijden",
+    "title_es": "Medicine show: A Calogero model with principal series states, by Tarek Anous, Jackson R. Fliss, Jeremy van der Heijden",
+    "url": "https://scipost.org/scipostphys.20.4.119",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "medicine",
+      "show",
+      "calogero"
+    ]
+  },
+  {
+    "title": "Waves on Titan",
+    "title_es": "Waves on Titan",
+    "url": "https://apod.nasa.gov/apod/image/2604/waves.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "waves",
+      "titan"
     ]
   }
 ]
