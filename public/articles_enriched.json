@@ -1,5 +1,89 @@
 [
   {
+    "title": "A Randomized Controlled Trial and Pilot of Scout: an LLM-Based EHR Search and Synthesis Platform",
+    "title_es": "Un ensayo controlado aleatorizado y piloto de Scout: una plataforma de búsqueda y síntesis de EHR basada en LLM",
+    "url": "https://arxiv.org/abs/2604.26953",
+    "source": "arXiv",
+    "published": "2026-05-01T04:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "randomized",
+      "controlled",
+      "trial"
+    ]
+  },
+  {
+    "title": "This organoid can menstruate — and shows how tissue can repair itself",
+    "title_es": "Este organoide puede menstruar y muestra cómo el tejido puede repararse a sí mismo",
+    "url": "https://www.nature.com/articles/d41586-026-01428-5",
+    "source": "Nature",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "organoide",
+      "puede"
+    ]
+  },
+  {
+    "title": "Cyclone Rains Spur Papua New Guinea Landslides",
+    "title_es": "Lluvias ciclónicas provocan deslizamientos de tierra en Papúa Nueva Guinea",
+    "url": "https://science.nasa.gov/earth/earth-observatory/cyclone-rains-spur-papua-new-guinea-landslides/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "lluvias",
+      "ciclónicas",
+      "provocan"
+    ]
+  },
+  {
+    "title": "A citizen campaign returns iconic kiwi birds to New Zealand's capital after a century-long absence",
+    "title_es": "Una campaña ciudadana devuelve los icónicos kiwis a la capital de Nueva Zelanda después de una ausencia de un siglo",
+    "url": "https://phys.org/news/2026-05-citizen-campaign-iconic-kiwi-birds.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "campaña",
+      "ciudadana",
+      "devuelve"
+    ]
+  },
+  {
+    "title": "'Green' cryptocurrency uses 18 times more energy than makers claim",
+    "title_es": "La criptomoneda 'verde' consume 18 veces más energía de lo que afirman los fabricantes",
+    "url": "https://www.newscientist.com/article/2523912-green-cryptocurrency-uses-18-times-more-energy-than-makers-claim/",
+    "source": "New Scientist",
+    "published": "2026-04-30T18:00:45.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "green",
+      "cryptocurrency",
+      "uses"
+    ]
+  },
+  {
+    "title": "How AI May Reshape Humanitarian Decisions About Refugees",
+    "title_es": "Cómo la IA puede remodelar las decisiones humanitarias sobre los refugiados",
+    "url": "https://undark.org/2026/04/30/opinion-ai-humanitarian-decisions/",
+    "source": "Undark Magazine",
+    "published": "2026-04-30T07:49:30.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "may",
+      "reshape"
+    ]
+  },
+  {
     "title": "Analysing Lightweight Large Language Models for Biomedical Named Entity Recognition on Diverse Ouput Formats",
     "title_es": "Análisis de modelos de lenguaje grandes y ligeros para el reconocimiento de entidades biomédicas con nombre en diversos formatos de salida",
     "url": "https://arxiv.org/abs/2604.25920",
@@ -53,6 +137,90 @@
       "capa",
       "nieve",
       "montañas"
+    ]
+  },
+  {
+    "title": "Computing Equilibrium beyond Unilateral Deviation",
+    "title_es": "Calcular el equilibrio más allá de la desviación unilateral",
+    "url": "http://arxiv.org/abs/2604.28186v1",
+    "source": "arXiv",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "calcular",
+      "equilibrio",
+      "más"
+    ]
+  },
+  {
+    "title": "Disneyland’s factory-inspired future",
+    "title_es": "El futuro inspirado en las fábricas de Disneyland",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aef8390",
+    "source": "Science.org",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "futuro",
+      "inspirado",
+      "fábricas"
+    ]
+  },
+  {
+    "title": "Faseeha Ayaz: \"Los editores están del lado de los investigadores\"",
+    "title_es": "Faseeha Ayaz: “Los editores están del lado de los investigadores”",
+    "url": "https://www.cnic.es/es/noticias/faseeha-ayaz-editores-estan-lado-investigadores",
+    "source": "CNIC",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "faseeha",
+      "ayaz",
+      "editores"
+    ]
+  },
+  {
+    "title": "Cows’ methane burps may be fueled by a newfound organelle in gut microbes",
+    "title_es": "Los eructos de metano de las vacas pueden ser impulsados ​​por un orgánulo recién descubierto en los microbios intestinales",
+    "url": "https://www.sciencenews.org/article/cows-methane-burps-may-be-fueled-by-a-newfound-organelle-in-gut-microbes",
+    "source": "Science News",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "eructos",
+      "metano",
+      "vacas"
+    ]
+  },
+  {
+    "title": "Animals can feel joy. Here’s how scientists might study it",
+    "title_es": "Los animales pueden sentir alegría. Así es como los científicos podrían estudiarlo",
+    "url": "https://www.snexplores.org/article/animal-joy-emotion",
+    "source": "Science News Explores",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "animales",
+      "pueden",
+      "sentir"
+    ]
+  },
+  {
+    "title": "Scientists reveal the best exercise for knee arthritis pain relief",
+    "title_es": "Los científicos revelan el mejor ejercicio para aliviar el dolor de la artritis de rodilla",
+    "url": "https://www.sciencedaily.com/releases/2026/04/260430032411.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-04-30T00:00:00.000Z",
+    "date": "2026-04-30",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "revelan",
+      "mejor"
     ]
   },
   {
@@ -1806,7 +1974,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -2044,7 +2212,7 @@
   },
   {
     "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
-    "title_es": "GRACE: Un marco de selección dinámico de conjuntos de núcleos para la optimización del modelo de lenguaje grande",
+    "title_es": "GRACE: Un marco de selección de conjuntos de núcleos dinámicos para la optimización de modelos de lenguaje grande",
     "url": "https://arxiv.org/abs/2604.11810",
     "source": "arXiv",
     "published": "2026-04-15T04:00:00.000Z",
@@ -3583,7 +3751,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -5403,7 +5571,7 @@
   },
   {
     "title": "Earth’s Lithosphere was Already Segmented and Mobile 3.5 Billion Years Ago",
-    "title_es": "La litósfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
+    "title_es": "La litosfera de la Tierra ya estaba segmentada y móvil hace 3.500 millones de años",
     "url": "https://www.sci.news/othersciences/geoscience/early-earths-lithosphere-14638.html",
     "source": "Sci.News",
     "published": "2026-03-22T16:05:37.000Z",
@@ -6201,7 +6369,7 @@
   },
   {
     "title": "Why Insect Farming Startups Are Going Bankrupt",
-    "title_es": "Por qué las empresas de cría de insectos están en bancarrota",
+    "title_es": "Por qué las nuevas empresas de cría de insectos están en bancarrota",
     "url": "https://undark.org/2026/03/17/insect-farming-bankrupt/",
     "source": "Undark Magazine",
     "published": "2026-03-17T07:10:00.000Z",
@@ -6663,7 +6831,7 @@
   },
   {
     "title": "We don’t know if AI-powered toys are safe, but they’re here anyway",
-    "title_es": "No sabemos si los juguetes impulsados por IA son seguros, pero están aquí de todos modos",
+    "title_es": "We don’t know if AI-powered toys are safe, but they’re here anyway",
     "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/",
     "source": "New Scientist",
     "published": "2026-03-13T00:01:57.000Z",
@@ -6788,7 +6956,7 @@
   },
   {
     "title": "Why Environmental Tipping Points Don’t Have to Spell Doom",
-    "title_es": "Por qué los puntos de inflexión ambientales no tienen que significar la fatalidad",
+    "title_es": "Why Environmental Tipping Points Don’t Have to Spell Doom",
     "url": "https://undark.org/2026/03/12/opinion-environmental-tipping-points/",
     "source": "Undark Magazine",
     "published": "2026-03-12T07:48:00.000Z",
@@ -6802,7 +6970,7 @@
   },
   {
     "title": "One Model, Many Skills: Parameter-Efficient Fine-Tuning for Multitask Code Analysis",
-    "title_es": "Un modelo, muchas habilidades: ajuste de parámetros eficiente para el análisis de código multitarea",
+    "title_es": "One Model, Many Skills: Parameter-Efficient Fine-Tuning for Multitask Code Analysis",
     "url": "https://arxiv.org/abs/2603.09978",
     "source": "arXiv",
     "published": "2026-03-12T04:00:00.000Z",
@@ -41196,17 +41364,17 @@
     ]
   },
   {
-    "title": "Social friction vs. cognitive efficiency: A comparative analysis of help-seeking behaviors in human communities and generative AI",
-    "title_es": "Fricción social versus eficiencia cognitiva: un análisis comparativo de los comportamientos de búsqueda de ayuda en comunidades humanas y la IA generativa",
+    "title": "Correction: Exploring episodic specificity induction on divergent thinking in children",
+    "title_es": "Corrección: Explorando la inducción de especificidad episódica en el pensamiento divergente en niños",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "fricción",
-      "social",
-      "versus"
+      "corrección",
+      "explorando",
+      "inducción"
     ]
   },
   {
@@ -101060,6 +101228,33 @@
     "tags": [
       "waves",
       "titan"
+    ]
+  },
+  {
+    "title": "Optimal paths and dynamical symmetry breaking in the current fluctuations of driven diffusive media, by Pablo Hurtado",
+    "title_es": "Optimal paths and dynamical symmetry breaking in the current fluctuations of driven diffusive media, by Pablo Hurtado",
+    "url": "https://scipost.org/scipostphyslectnotes.121",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "optimal",
+      "paths",
+      "dynamical"
+    ]
+  },
+  {
+    "title": "Markarian's Chain",
+    "title_es": "Markarian's Chain",
+    "url": "https://apod.nasa.gov/apod/image/2605/m84andm86_1024.png",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "markarians",
+      "chain"
     ]
   }
 ]
