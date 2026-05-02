@@ -1,5 +1,61 @@
 [
   {
+    "title": "NASA Laser Terminal enhances views during Artemis II mission",
+    "title_es": "La terminal láser de la NASA mejora las vistas durante la misión Artemis II",
+    "url": "https://phys.org/news/2026-05-nasa-laser-terminal-views-artemis.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-02T00:00:00.000Z",
+    "date": "2026-05-02",
+    "category": "noticia",
+    "tags": [
+      "terminal",
+      "láser",
+      "nasa"
+    ]
+  },
+  {
+    "title": "106-Million-Year-Old Pterosaur Footprints Discovered in Korea",
+    "title_es": "Huellas de pterosaurio de 106 millones de años descubiertas en Corea",
+    "url": "https://www.sci.news/paleontology/jinjuichnus-procerus-14736.html",
+    "source": "Sci.News",
+    "published": "2026-05-01T21:28:27.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "106-million-year-old",
+      "pterosaur",
+      "footprints"
+    ]
+  },
+  {
+    "title": "2026 will be the hottest year on record, leading scientist predicts",
+    "title_es": "2026 será el año más caluroso registrado, predice un destacado científico",
+    "url": "https://www.newscientist.com/article/2525229-2026-will-be-the-hottest-year-on-record-leading-scientist-predicts/",
+    "source": "New Scientist",
+    "published": "2026-05-01T17:24:54.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "2026",
+      "will",
+      "hottest"
+    ]
+  },
+  {
+    "title": "Book Review: The Case for Hope in Saving the World’s Birds",
+    "title_es": "Reseña del libro: El caso de la esperanza en salvar a las aves del mundo",
+    "url": "https://undark.org/2026/05/01/book-review-return-of-the-oystercatcher/",
+    "source": "Undark Magazine",
+    "published": "2026-05-01T07:41:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "case"
+    ]
+  },
+  {
     "title": "A Randomized Controlled Trial and Pilot of Scout: an LLM-Based EHR Search and Synthesis Platform",
     "title_es": "Un ensayo controlado aleatorizado y piloto de Scout: una plataforma de búsqueda y síntesis de EHR basada en LLM",
     "url": "https://arxiv.org/abs/2604.26953",
@@ -53,6 +109,62 @@
       "campaña",
       "ciudadana",
       "devuelve"
+    ]
+  },
+  {
+    "title": "Author Correction: Titration of RAS alters senescent state and influences tumour initiation",
+    "title_es": "Corrección del autor: la titulación de RAS altera el estado senescente e influye en el inicio del tumor",
+    "url": "https://www.nature.com/articles/s41586-026-10601-9",
+    "source": "Nature",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "titulación"
+    ]
+  },
+  {
+    "title": "Celebrate America’s 250th birthday at a new state flower exhibit",
+    "title_es": "Celebre el 250 aniversario de Estados Unidos en una nueva exposición floral estatal",
+    "url": "https://www.sciencenews.org/article/america-250-state-flower-exhibit",
+    "source": "Science News",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "celebre",
+      "250",
+      "aniversario"
+    ]
+  },
+  {
+    "title": "Brain scans offer clues to why math is harder for some kids",
+    "title_es": "Los escáneres cerebrales ofrecen pistas sobre por qué las matemáticas son más difíciles para algunos niños",
+    "url": "https://www.snexplores.org/article/kids-brain-learning-math-numbers",
+    "source": "Science News Explores",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "escáneres",
+      "cerebrales",
+      "ofrecen"
+    ]
+  },
+  {
+    "title": "This 275-million-year-old animal had a twisted jaw like nothing alive today",
+    "title_es": "Este animal de 275 millones de años tenía una mandíbula torcida como nada vivo hoy",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260501052858.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "animal",
+      "275"
     ]
   },
   {
@@ -1974,7 +2086,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina echa de menos la marca en la salud del cabello africano y negro",
+    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -2212,7 +2324,7 @@
   },
   {
     "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
-    "title_es": "GRACE: Un marco de selección de conjuntos de núcleos dinámicos para la optimización de modelos de lenguaje grande",
+    "title_es": "GRACE: Un marco de selección dinámico de conjuntos de núcleos para la optimización del modelo de lenguaje grande",
     "url": "https://arxiv.org/abs/2604.11810",
     "source": "arXiv",
     "published": "2026-04-15T04:00:00.000Z",
@@ -3751,7 +3863,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -6789,7 +6901,7 @@
   },
   {
     "title": "Excerpt: How George Washington Weaponized Smallpox Inoculation",
-    "title_es": "Extracto: Cómo George Washington armó la inoculación de la viruela",
+    "title_es": "Excerpt: How George Washington Weaponized Smallpox Inoculation",
     "url": "https://undark.org/2026/03/13/excerpt-washington-smallpox/",
     "source": "Undark Magazine",
     "published": "2026-03-13T17:09:17.000Z",
@@ -6803,7 +6915,7 @@
   },
   {
     "title": "Comparison of Outlier Detection Algorithms on String Data",
-    "title_es": "Comparación de algoritmos de detección de valores atípicos en datos de cadena",
+    "title_es": "Comparison of Outlier Detection Algorithms on String Data",
     "url": "https://arxiv.org/abs/2603.11049",
     "source": "arXiv",
     "published": "2026-03-13T04:00:00.000Z",
@@ -6817,7 +6929,7 @@
   },
   {
     "title": "New Fossil Crocodile from Ethiopia Lived alongside Australopithecus afarensis",
-    "title_es": "Nuevo cocodrilo fósil de Etiopía vivió junto al Australopithecus afarensis",
+    "title_es": "New Fossil Crocodile from Ethiopia Lived alongside Australopithecus afarensis",
     "url": "https://www.sci.news/paleontology/crocodylus-lucivenator-14620.html",
     "source": "Sci.News",
     "published": "2026-03-13T03:31:40.000Z",
@@ -41364,17 +41476,17 @@
     ]
   },
   {
-    "title": "Correction: Exploring episodic specificity induction on divergent thinking in children",
-    "title_es": "Corrección: Explorando la inducción de especificidad episódica en el pensamiento divergente en niños",
+    "title": "Editorial Note: Environmental justice and power plant emissions in the Regional Greenhouse Gas Initiative states",
+    "title_es": "Nota editorial: Justicia ambiental y emisiones de plantas de energía en los estados de la Iniciativa Regional de Gases de Efecto Invernadero",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "explorando",
-      "inducción"
+      "nota",
+      "editorial",
+      "justicia"
     ]
   },
   {
@@ -101255,6 +101367,33 @@
     "tags": [
       "markarians",
       "chain"
+    ]
+  },
+  {
+    "title": "A pedestrian’s guide to the topological phases of free fermions, by Frank Schindler",
+    "title_es": "A pedestrian’s guide to the topological phases of free fermions, by Frank Schindler",
+    "url": "https://scipost.org/scipostphyslectnotes.122",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "pedestrians",
+      "guide",
+      "topological"
+    ]
+  },
+  {
+    "title": "Seeing Titan",
+    "title_es": "Seeing Titan",
+    "url": "https://apod.nasa.gov/apod/image/2605/pia21923_fig1seeingtitan1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "seeing",
+      "titan"
     ]
   }
 ]
