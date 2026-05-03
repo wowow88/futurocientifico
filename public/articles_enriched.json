@@ -1,5 +1,19 @@
 [
   {
+    "title": "Blood-based DNA marker tracks arsenic exposure and may predict toxicity risk",
+    "title_es": "Un marcador de ADN en sangre rastrea la exposición al arsénico y puede predecir el riesgo de toxicidad",
+    "url": "https://phys.org/news/2026-05-blood-based-dna-marker-tracks.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-03T00:00:00.000Z",
+    "date": "2026-05-03",
+    "category": "noticia",
+    "tags": [
+      "marcador",
+      "adn",
+      "sangre"
+    ]
+  },
+  {
     "title": "NASA Laser Terminal enhances views during Artemis II mission",
     "title_es": "La terminal láser de la NASA mejora las vistas durante la misión Artemis II",
     "url": "https://phys.org/news/2026-05-nasa-laser-terminal-views-artemis.html",
@@ -11,6 +25,20 @@
       "terminal",
       "láser",
       "nasa"
+    ]
+  },
+  {
+    "title": "18th-century mechanical volcano roars to life 250 years later",
+    "title_es": "Un volcán mecánico del siglo XVIII cobra vida 250 años después",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260502015359.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-02T00:00:00.000Z",
+    "date": "2026-05-02",
+    "category": "noticia",
+    "tags": [
+      "volcán",
+      "mecánico",
+      "siglo"
     ]
   },
   {
@@ -165,6 +193,20 @@
       "este",
       "animal",
       "275"
+    ]
+  },
+  {
+    "title": "NASA Kennedy Center Director Announces Plans to Retire",
+    "title_es": "El director del Centro Kennedy de la NASA anuncia planes de jubilación",
+    "url": "https://www.nasa.gov/news-release/nasa-kennedy-center-director-announces-plans-to-retire/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-01T00:00:00.000Z",
+    "date": "2026-05-01",
+    "category": "noticia",
+    "tags": [
+      "director",
+      "centro",
+      "kennedy"
     ]
   },
   {
@@ -501,6 +543,20 @@
       "small",
       "titanosaur",
       "species"
+    ]
+  },
+  {
+    "title": "Is consciousness more fundamental to reality than quantum physics?",
+    "title_es": "¿Es la conciencia más fundamental para la realidad que la física cuántica?",
+    "url": "https://www.newscientist.com/article/2523209-is-consciousness-more-fundamental-to-reality-than-quantum-physics/",
+    "source": "New Scientist",
+    "published": "2026-04-28T16:00:05.000Z",
+    "date": "2026-04-28",
+    "category": "noticia",
+    "tags": [
+      "consciousness",
+      "more",
+      "fundamental"
     ]
   },
   {
@@ -3863,7 +3919,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -5375,7 +5431,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle cruza Australia",
+    "title_es": "El ciclón tropical Narelle atraviesa Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -6887,7 +6943,7 @@
   },
   {
     "title": "Our Sun may have escaped the Milky Way’s center with thousands of twin stars",
-    "title_es": "Nuestro Sol puede haber escapado del centro de la Vía Láctea con miles de estrellas gemelas",
+    "title_es": "Our Sun may have escaped the Milky Way’s center with thousands of twin stars",
     "url": "https://www.sciencedaily.com/releases/2026/03/260313062543.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-03-13T22:49:09.000Z",
@@ -101394,6 +101450,34 @@
     "tags": [
       "seeing",
       "titan"
+    ]
+  },
+  {
+    "title": "Inhomogeneous SSH models and the doubling of orthogonal polynomials, by Nicolas Crampé, Quentin Labriet, Lucia Morey, Gilles Parez, Luc Vinet",
+    "title_es": "Inhomogeneous SSH models and the doubling of orthogonal polynomials, by Nicolas Crampé, Quentin Labriet, Lucia Morey, Gilles Parez, Luc Vinet",
+    "url": "https://scipost.org/scipostphys.20.5.124",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "inhomogeneous",
+      "ssh",
+      "models"
+    ]
+  },
+  {
+    "title": "Trifid Pillars and Jets",
+    "title_es": "Trifid Pillars and Jets",
+    "url": "https://apod.nasa.gov/apod/image/2605/trifidpillar_hubble_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "trifid",
+      "pillars",
+      "jets"
     ]
   }
 ]
