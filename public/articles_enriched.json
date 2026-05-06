@@ -1,5 +1,117 @@
 [
   {
+    "title": "In Coal Country, Black Lung Surges as Federal Protections Stall",
+    "title_es": "En el país del carbón, el pulmón negro aumenta a medida que las protecciones federales se estancan",
+    "url": "https://undark.org/2026/05/06/black-lung-federal-protections/",
+    "source": "Undark Magazine",
+    "published": "2026-05-06T07:19:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "coal",
+      "country",
+      "black"
+    ]
+  },
+  {
+    "title": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
+    "title_es": "La misma voz, laboratorio diferente: sobre la homogeneización de las personalidades fronterizas de LLM",
+    "url": "https://arxiv.org/abs/2605.02897",
+    "source": "arXiv",
+    "published": "2026-05-06T04:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "same",
+      "voice",
+      "different"
+    ]
+  },
+  {
+    "title": "Extinct relative of koalas discovered in Western Australia",
+    "title_es": "Pariente extinto de koalas descubierto en Australia Occidental",
+    "url": "https://www.newscientist.com/article/2525306-extinct-relative-of-koalas-discovered-in-western-australia/",
+    "source": "New Scientist",
+    "published": "2026-05-06T00:01:10.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "extinct",
+      "relative",
+      "koalas"
+    ]
+  },
+  {
+    "title": "Melting Snow Off Shivelyuch",
+    "title_es": "Nieve derritiéndose en Shivelyuch",
+    "url": "https://science.nasa.gov/earth/earth-observatory/melting-snow-off-shivelyuch/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "nieve",
+      "derritiéndose",
+      "shivelyuch"
+    ]
+  },
+  {
+    "title": "Space junk falls back to Earth faster as sunspot numbers climb",
+    "title_es": "La basura espacial regresa a la Tierra más rápido a medida que aumenta el número de manchas solares",
+    "url": "https://www.sciencenews.org/article/space-debris-altitude-loss-increase",
+    "source": "Science News",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "basura",
+      "espacial",
+      "regresa"
+    ]
+  },
+  {
+    "title": "240-million-year-old giant “sand creeper” found hidden in retaining wall",
+    "title_es": "Hallan escondida en un muro de contención una “enredadera de arena” gigante de 240 millones de años",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260504154028.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "hallan",
+      "escondida",
+      "muro"
+    ]
+  },
+  {
+    "title": "With large DNA fragment assembly, scientists can design microbes that produce countless complex products",
+    "title_es": "Con el ensamblaje de grandes fragmentos de ADN, los científicos pueden diseñar microbios que produzcan innumerables productos complejos",
+    "url": "https://phys.org/news/2026-05-large-dna-fragment-scientists-microbes.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "con",
+      "ensamblaje",
+      "grandes"
+    ]
+  },
+  {
+    "title": "Earliest Organisms on Earth Built Their Biochemistry around Molybdenum, Study Suggests",
+    "title_es": "Los primeros organismos en la Tierra construyeron su bioquímica alrededor del molibdeno, sugiere un estudio",
+    "url": "https://www.sci.news/biology/earliest-organisms-molybdenum-tungsten-14744.html",
+    "source": "Sci.News",
+    "published": "2026-05-05T22:54:28.000Z",
+    "date": "2026-05-05",
+    "category": "noticia",
+    "tags": [
+      "earliest",
+      "organisms",
+      "earth"
+    ]
+  },
+  {
     "title": "Quantum computers simulated their biggest molecule yet – with help",
     "title_es": "Los ordenadores cuánticos simularon su molécula más grande hasta ahora, con ayuda",
     "url": "https://www.newscientist.com/article/2525277-quantum-computers-simulated-their-biggest-molecule-yet-with-help/",
@@ -67,6 +179,62 @@
       "piedras",
       "quemadas",
       "huesos"
+    ]
+  },
+  {
+    "title": "Safety and accuracy follow different scaling laws in clinical large language models",
+    "title_es": "La seguridad y la precisión siguen diferentes leyes de escala en modelos clínicos de lenguaje grande",
+    "url": "http://arxiv.org/abs/2605.04039v1",
+    "source": "arXiv",
+    "published": "2026-05-05T00:00:00.000Z",
+    "date": "2026-05-05",
+    "category": "noticia",
+    "tags": [
+      "seguridad",
+      "precisión",
+      "siguen"
+    ]
+  },
+  {
+    "title": "Editorial Expression of Concern: Nociceptive neurons promote gastric tumour progression via a CGRP–RAMP1 axis",
+    "title_es": "Expresión editorial de preocupación: las neuronas nociceptivas promueven la progresión del tumor gástrico a través del eje CGRP-RAMP1",
+    "url": "https://www.nature.com/articles/s41586-026-10594-5",
+    "source": "Nature",
+    "published": "2026-05-05T00:00:00.000Z",
+    "date": "2026-05-05",
+    "category": "noticia",
+    "tags": [
+      "expresión",
+      "editorial",
+      "preocupación"
+    ]
+  },
+  {
+    "title": "Anthony Firulli: \"Mi objetivo es pasar el mayor número de días posible con una sonrisa en la cara\"",
+    "title_es": "Anthony Firulli: \"Mi objetivo es pasar el mayor número de días posible con una sonrisa en la cara\"",
+    "url": "https://www.cnic.es/es/noticias/anthony-firulli-mi-objetivo-pasar-mayor-numero-dias-posible-con-sonrisa-cara",
+    "source": "CNIC",
+    "published": "2026-05-05T00:00:00.000Z",
+    "date": "2026-05-05",
+    "category": "noticia",
+    "tags": [
+      "anthony",
+      "firulli",
+      "objetivo"
+    ]
+  },
+  {
+    "title": "Let’s learn about wetlands",
+    "title_es": "Aprendamos sobre los humedales",
+    "url": "https://www.snexplores.org/article/lets-learn-about-wetlands",
+    "source": "Science News Explores",
+    "published": "2026-05-05T00:00:00.000Z",
+    "date": "2026-05-05",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "humedales"
     ]
   },
   {
@@ -207,6 +375,20 @@
       "confíe",
       "obtener",
       "ayuda"
+    ]
+  },
+  {
+    "title": "El IAC se prepara para la celebración de la XXXVII Escuela de Invierno de Astrofísica sobre estrellas masivas",
+    "title_es": "El IAC se prepara para la celebración de la XXXVII Escuela de Invierno de Astrofísica sobre estrellas masivas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-se-prepara-para-la-celebracion-de-la-xxxvii-escuela-de-invierno-de-astrofisica-sobre-estrellas",
+    "source": "IAC",
+    "published": "2026-05-04T00:00:00.000Z",
+    "date": "2026-05-04",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "prepara",
+      "celebración"
     ]
   },
   {
@@ -4157,7 +4339,7 @@
   },
   {
     "title": "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
-    "title_es": "DOne: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
+    "title_es": "DONE: Desacoplamiento de la estructura y el renderizado para la generación de diseño a código de alta fidelidad",
     "url": "https://arxiv.org/abs/2604.01226",
     "source": "arXiv",
     "published": "2026-04-03T04:00:00.000Z",
@@ -5669,7 +5851,7 @@
   },
   {
     "title": "Tropical Cyclone Narelle Crosses Australia",
-    "title_es": "El ciclón tropical Narelle atraviesa Australia",
+    "title_es": "El ciclón tropical Narelle cruza Australia",
     "url": "https://science.nasa.gov/earth/earth-observatory/tropical-cyclone-narelle-crosses-australia/",
     "source": "NASA (Top News)",
     "published": "2026-03-24T00:00:00.000Z",
@@ -6761,7 +6943,7 @@
   },
   {
     "title": "A very serious guide to buying your own humanoid robot butler",
-    "title_es": "Una guía muy seria para comprar tu propio mayordomo robot humanoide",
+    "title_es": "A very serious guide to buying your own humanoid robot butler",
     "url": "https://www.newscientist.com/article/2517880-a-very-serious-guide-to-buying-your-own-humanoid-robot-butler/",
     "source": "New Scientist",
     "published": "2026-03-17T16:00:48.000Z",
@@ -6775,7 +6957,7 @@
   },
   {
     "title": "Why Insect Farming Startups Are Going Bankrupt",
-    "title_es": "Por qué las empresas de cría de insectos están en bancarrota",
+    "title_es": "Why Insect Farming Startups Are Going Bankrupt",
     "url": "https://undark.org/2026/03/17/insect-farming-bankrupt/",
     "source": "Undark Magazine",
     "published": "2026-03-17T07:10:00.000Z",
@@ -6789,7 +6971,7 @@
   },
   {
     "title": "FMS$^2$: Unified Flow Matching for Segmentation and Synthesis of Thin Structures",
-    "title_es": "FMS$^2 $: Unified Flow Matching for Segmentation and Synthesis of Thin Structures",
+    "title_es": "FMS$^2$: Unified Flow Matching for Segmentation and Synthesis of Thin Structures",
     "url": "https://arxiv.org/abs/2603.13659",
     "source": "arXiv",
     "published": "2026-03-17T04:00:00.000Z",
@@ -6803,7 +6985,7 @@
   },
   {
     "title": "Early Triassic Cyclidan Crustacean Had Powerful Jaws",
-    "title_es": "El crustáceo ciclidano del Triásico Temprano tenía poderosas mandíbulas",
+    "title_es": "Early Triassic Cyclidan Crustacean Had Powerful Jaws",
     "url": "https://www.sci.news/paleontology/yunnanocyclus-fortis-14626.html",
     "source": "Sci.News",
     "published": "2026-03-17T01:51:51.000Z",
@@ -6873,7 +7055,7 @@
   },
   {
     "title": "El IAC invita a los centros educativos a unirse al \"Equal Day 2026\" por la paz y la igualdad",
-    "title_es": "El IAC invita a los centros educativos a unirse al \"Día Igualitario 2026\" por la paz y la igualdad",
+    "title_es": "El IAC invita a los centros educativos a unirse al \"Equal Day 2026\" por la paz y la igualdad",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-invita-los-centros-educativos-unirse-al-equal-day-2026-por-la-paz-y-la-igualdad",
     "source": "IAC",
     "published": "2026-03-17T00:00:00.000Z",
@@ -6901,7 +7083,7 @@
   },
   {
     "title": "Forget the multiverse. In the pluriverse, we create reality together",
-    "title_es": "Olvídate del multiverso, en el pluriverso creamos la realidad juntos",
+    "title_es": "Forget the multiverse. In the pluriverse, we create reality together",
     "url": "https://www.newscientist.com/article/2518470-forget-the-multiverse-in-the-pluriverse-we-create-reality-together/",
     "source": "New Scientist",
     "published": "2026-03-16T16:00:20.000Z",
@@ -41770,17 +41952,17 @@
     ]
   },
   {
-    "title": "Interpretable miRNA-based prediction model for early detection of pancreatic cancer: Development and cross-platform validation",
-    "title_es": "Modelo de predicción interpretable basado en miARN para la detección temprana del cáncer de páncreas: desarrollo y validación multiplataforma",
+    "title": "Correction: The impact of the radical urbanization index on depression risk among middle-aged and elderly Chinese: Evidence from a large-scale cross-sectional study",
+    "title_es": "Corrección: El impacto del índice de urbanización radical en el riesgo de depresión entre los chinos de mediana edad y ancianos: evidencia de un estudio transversal a gran escala",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "modelo",
-      "predicción",
-      "interpretable"
+      "corrección",
+      "impacto",
+      "índice"
     ]
   },
   {
@@ -101744,6 +101926,20 @@
       "quantum",
       "calabi-yau",
       "black"
+    ]
+  },
+  {
+    "title": "The Retrograde Dance of Saturn and Neptune",
+    "title_es": "The Retrograde Dance of Saturn and Neptune",
+    "url": "https://apod.nasa.gov/apod/image/2605/saturn_neptune_retrograde_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "retrograde",
+      "dance",
+      "saturn"
     ]
   }
 ]
