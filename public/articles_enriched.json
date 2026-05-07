@@ -1,5 +1,103 @@
 [
   {
+    "title": "Medicine’s Move Toward Race-Neutral Risk Assessments",
+    "title_es": "El avance de la medicina hacia las evaluaciones de riesgo neutrales a la raza",
+    "url": "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators/",
+    "source": "Undark Magazine",
+    "published": "2026-05-07T07:24:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "medicines",
+      "move",
+      "toward"
+    ]
+  },
+  {
+    "title": "LCM: Lossless Context Management",
+    "title_es": "LCM: Gestión de Contexto Sin Pérdidas",
+    "url": "https://arxiv.org/abs/2605.04050",
+    "source": "arXiv",
+    "published": "2026-05-07T04:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "lcm",
+      "lossless",
+      "context"
+    ]
+  },
+  {
+    "title": "A Sea of Spinning Clouds",
+    "title_es": "Un mar de nubes giratorias",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-sea-of-spinning-clouds/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "mar",
+      "nubes",
+      "giratorias"
+    ]
+  },
+  {
+    "title": "Scientists accidentally discover DNA that breaks the rules of life",
+    "title_es": "Los científicos descubren accidentalmente ADN que rompe las reglas de la vida",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260507024045.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "accidentalmente"
+    ]
+  },
+  {
+    "title": "Troubled waters: Jakarta battles deadly, invasive suckerfish",
+    "title_es": "Aguas turbulentas: Yakarta lucha contra el mortífero e invasivo pez lechón",
+    "url": "https://phys.org/news/2026-05-jakarta-deadly-invasive-suckerfish.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "aguas",
+      "turbulentas",
+      "yakarta"
+    ]
+  },
+  {
+    "title": "New Species of Fossil Koala Found in Museum Drawer",
+    "title_es": "Hallan una nueva especie de koala fósil en el cajón de un museo",
+    "url": "https://www.sci.news/paleontology/phascolarctos-sulcomaxilliaris-14749.html",
+    "source": "Sci.News",
+    "published": "2026-05-06T23:30:16.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "fossil"
+    ]
+  },
+  {
+    "title": "Dating over 50 is probably on the rise – but we know little about it",
+    "title_es": "Es probable que las citas de más de 50 años vayan en aumento, pero sabemos poco al respecto",
+    "url": "https://www.newscientist.com/article/2525520-dating-over-50-is-probably-on-the-rise-but-we-know-little-about-it/",
+    "source": "New Scientist",
+    "published": "2026-05-06T20:00:36.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "dating",
+      "over",
+      "probably"
+    ]
+  },
+  {
     "title": "In Coal Country, Black Lung Surges as Federal Protections Stall",
     "title_es": "En el país del carbón, el pulmón negro aumenta a medida que las protecciones federales se estancan",
     "url": "https://undark.org/2026/05/06/black-lung-federal-protections/",
@@ -95,6 +193,62 @@
       "con",
       "ensamblaje",
       "grandes"
+    ]
+  },
+  {
+    "title": "Taming Outlier Tokens in Diffusion Transformers",
+    "title_es": "Domar tokens atípicos en transformadores de difusión",
+    "url": "http://arxiv.org/abs/2605.05206v1",
+    "source": "arXiv",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "domar",
+      "tokens",
+      "atípicos"
+    ]
+  },
+  {
+    "title": "Author Correction: Enteric neurons increase maternal food intake during reproduction",
+    "title_es": "Corrección del autor: las neuronas entéricas aumentan la ingesta materna de alimentos durante la reproducción",
+    "url": "https://www.nature.com/articles/s41586-026-10201-7",
+    "source": "Nature",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "neuronas"
+    ]
+  },
+  {
+    "title": "A low-cost rotavirus test could save childrens’ lives in Nigeria",
+    "title_es": "Una prueba de rotavirus de bajo costo podría salvar la vida de niños en Nigeria",
+    "url": "https://www.sciencenews.org/article/nigeria-rotavirus-diagnosis-rapid-test",
+    "source": "Science News",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "prueba",
+      "rotavirus",
+      "bajo"
+    ]
+  },
+  {
+    "title": "New polish could turn long nails into touchscreen styluses",
+    "title_es": "Un nuevo esmalte podría convertir las uñas largas en lápices táctiles",
+    "url": "https://www.snexplores.org/article/polish-long-nails-touchscreen-stylus",
+    "source": "Science News Explores",
+    "published": "2026-05-06T00:00:00.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "esmalte",
+      "podría"
     ]
   },
   {
@@ -5459,7 +5613,7 @@
   },
   {
     "title": "New Species of Steamer Duck Discovered in Chile",
-    "title_es": "Descubren una nueva especie de pato vapor en Chile",
+    "title_es": "Descubren una nueva especie de pato de vapor en Chile",
     "url": "https://www.sci.news/biology/tachyeres-ketru-14649.html",
     "source": "Sci.News",
     "published": "2026-03-26T00:29:25.000Z",
@@ -5627,7 +5781,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y ralentizar el envejecimiento",
+    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -6397,7 +6551,7 @@
   },
   {
     "title": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
-    "title_es": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar un nuevo conocimiento que algún día pueda beneficiar a la sociedad\"",
+    "title_es": "Minna Kaikkonen-Määttä: “La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
     "url": "https://www.cnic.es/es/noticias/minna-kaikkonen-maatta-investigacion-carrera-unica-porque-puedes-vivir-tu-curiosidad",
     "source": "CNIC",
     "published": "2026-03-20T00:00:00.000Z",
@@ -6719,7 +6873,7 @@
   },
   {
     "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
-    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de luminosidad neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
+    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de radiación neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
     "url": "https://arxiv.org/abs/2603.15622",
     "source": "arXiv",
     "published": "2026-03-18T04:00:00.000Z",
@@ -6915,7 +7069,7 @@
   },
   {
     "title": "JWST reveals a strange sulfur world unlike any planet we know",
-    "title_es": "JWST revela un extraño mundo de azufre diferente a cualquier planeta que conozcamos",
+    "title_es": "JWST reveals a strange sulfur world unlike any planet we know",
     "url": "https://www.sciencedaily.com/releases/2026/03/260317190802.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-03-17T23:13:24.000Z",
@@ -6929,7 +7083,7 @@
   },
   {
     "title": "Social media is a defective product",
-    "title_es": "Las redes sociales son un producto defectuoso",
+    "title_es": "Social media is a defective product",
     "url": "https://www.newscientist.com/article/2519708-social-media-is-a-defective-product/",
     "source": "New Scientist",
     "published": "2026-03-17T16:21:37.000Z",
@@ -41952,17 +42106,17 @@
     ]
   },
   {
-    "title": "Correction: The impact of the radical urbanization index on depression risk among middle-aged and elderly Chinese: Evidence from a large-scale cross-sectional study",
-    "title_es": "Corrección: El impacto del índice de urbanización radical en el riesgo de depresión entre los chinos de mediana edad y ancianos: evidencia de un estudio transversal a gran escala",
+    "title": "An improved control strategy of power-frequency characteristics of virtual synchronous generator",
+    "title_es": "Una estrategia de control mejorada de las características de frecuencia industrial del generador síncrono virtual.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "impacto",
-      "índice"
+      "estrategia",
+      "control",
+      "mejorada"
     ]
   },
   {
@@ -101940,6 +102094,34 @@
       "retrograde",
       "dance",
       "saturn"
+    ]
+  },
+  {
+    "title": "Note on searching for critical lattice models as entropy critical points from strange correlator, by Anran Jin, Ling-Yan Hung",
+    "title_es": "Note on searching for critical lattice models as entropy critical points from strange correlator, by Anran Jin, Ling-Yan Hung",
+    "url": "https://scipost.org/scipostphys.20.5.128",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "note",
+      "searching",
+      "critical"
+    ]
+  },
+  {
+    "title": "Supernova in a Sideways Spiral",
+    "title_es": "Supernova in a Sideways Spiral",
+    "url": "https://apod.nasa.gov/apod/image/2605/supernova.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "supernova",
+      "sideways",
+      "spiral"
     ]
   }
 ]
