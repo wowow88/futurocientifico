@@ -1,5 +1,89 @@
 [
   {
+    "title": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
+    "title_es": "Un método híbrido acelerado por GPU para una clase de problemas de enrutamiento de vehículos multidepósito",
+    "url": "https://arxiv.org/abs/2605.05208",
+    "source": "arXiv",
+    "published": "2026-05-08T04:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "gpu-accelerated",
+      "hybrid",
+      "method"
+    ]
+  },
+  {
+    "title": "Researchers Create Detailed Map of Smell Receptors in Mouse Nose",
+    "title_es": "Los investigadores crean un mapa detallado de los receptores olfativos en la nariz del ratón",
+    "url": "https://www.sci.news/biology/map-mouse-nose-smell-receptors-14752.html",
+    "source": "Sci.News",
+    "published": "2026-05-08T00:25:05.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "researchers",
+      "create",
+      "detailed"
+    ]
+  },
+  {
+    "title": "Tracy Arm’s Post-Tsunami Landscape",
+    "title_es": "El panorama post-tsunami de Tracy Arm",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tracy-arms-post-tsunami-landscape/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "panorama",
+      "post-tsunami",
+      "tracy"
+    ]
+  },
+  {
+    "title": "Interstellar comet 3I/ATLAS contains strange water never seen in our solar system",
+    "title_es": "El cometa interestelar 3I/ATLAS contiene agua extraña nunca vista en nuestro sistema solar",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260508003117.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "cometa",
+      "interestelar",
+      "3iatlas"
+    ]
+  },
+  {
+    "title": "4,000-year-old texts to reach new audiences in digital project",
+    "title_es": "Textos de 4.000 años de antigüedad llegarán a nuevas audiencias en un proyecto digital",
+    "url": "https://phys.org/news/2026-05-year-texts-audiences-digital.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "textos",
+      "4000",
+      "años"
+    ]
+  },
+  {
+    "title": "Hantavirus outbreak will not cause a covid-style pandemic, says WHO",
+    "title_es": "El brote de hantavirus no causará una pandemia al estilo del covid, dice la OMS",
+    "url": "https://www.newscientist.com/article/2525761-hantavirus-outbreak-will-not-cause-a-covid-style-pandemic-says-who/",
+    "source": "New Scientist",
+    "published": "2026-05-07T16:40:22.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "hantavirus",
+      "outbreak",
+      "will"
+    ]
+  },
+  {
     "title": "Medicine’s Move Toward Race-Neutral Risk Assessments",
     "title_es": "El avance de la medicina hacia las evaluaciones de riesgo neutrales a la raza",
     "url": "https://undark.org/2026/05/07/opinion-race-neutral-health-calculators/",
@@ -67,6 +151,89 @@
       "aguas",
       "turbulentas",
       "yakarta"
+    ]
+  },
+  {
+    "title": "ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation",
+    "title_es": "ActCam: cámara conjunta Zero-Shot y control de movimiento 3D para generación de vídeo",
+    "url": "http://arxiv.org/abs/2605.06667v1",
+    "source": "arXiv",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "actcam",
+      "cámara",
+      "conjunta"
+    ]
+  },
+  {
+    "title": "Bury them in bureaucracy",
+    "title_es": "Enterrarlos en la burocracia",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeg6282",
+    "source": "Science.org",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "enterrarlos",
+      "burocracia"
+    ]
+  },
+  {
+    "title": "Author Correction: Proteasome-guided haem signalling axis contributes to T cell exhaustion",
+    "title_es": "Corrección del autor: el eje de señalización del hemo guiado por proteasoma contribuye al agotamiento de las células T",
+    "url": "https://www.nature.com/articles/s41586-026-10608-2",
+    "source": "Nature",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "eje"
+    ]
+  },
+  {
+    "title": "El IAC se acredita como Centro de Excelencia Severo Ochoa",
+    "title_es": "El IAC se acredita como Centro de Excelencia Severo Ochoa",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-se-acredita-como-centro-de-excelencia-severo-ochoa",
+    "source": "IAC",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "acredita",
+      "como"
+    ]
+  },
+  {
+    "title": "A grapefruit-sized quantum device mapped Earth’s magnetic field from space",
+    "title_es": "Un dispositivo cuántico del tamaño de una toronja mapeó el campo magnético de la Tierra desde el espacio",
+    "url": "https://www.sciencenews.org/article/quantum-earth-magnetic-field-space",
+    "source": "Science News",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "dispositivo",
+      "cuántico",
+      "tamaño"
+    ]
+  },
+  {
+    "title": "How not to choke when performing under pressure",
+    "title_es": "Cómo no ahogarse al actuar bajo presión",
+    "url": "https://www.snexplores.org/article/performance-anxiety-choke-penalty-kick",
+    "source": "Science News Explores",
+    "published": "2026-05-07T00:00:00.000Z",
+    "date": "2026-05-07",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "ahogarse",
+      "actuar"
     ]
   },
   {
@@ -6845,7 +7012,7 @@
   },
   {
     "title": "The neuroscientist who wants us to be nicer to psychopaths",
-    "title_es": "El neurocientífico que quiere que seamos más amables con los psicópatas",
+    "title_es": "The neuroscientist who wants us to be nicer to psychopaths",
     "url": "https://www.newscientist.com/article/2517138-the-neuroscientist-who-wants-us-to-be-nicer-to-psychopaths/",
     "source": "New Scientist",
     "published": "2026-03-18T16:00:08.000Z",
@@ -6859,7 +7026,7 @@
   },
   {
     "title": "Rifling Through the Evidence: Uncertainty in Firearms Analysis",
-    "title_es": "Repasando la evidencia: incertidumbre en el análisis de armas de fuego",
+    "title_es": "Rifling Through the Evidence: Uncertainty in Firearms Analysis",
     "url": "https://undark.org/2026/03/18/ballistic-analysis-methodology/",
     "source": "Undark Magazine",
     "published": "2026-03-18T07:28:00.000Z",
@@ -6873,7 +7040,7 @@
   },
   {
     "title": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
-    "title_es": "SAC-NeRF: Muestreo de rayos adaptativos para campos de radiación neuronal a través del aprendizaje de refuerzo crítico de actores suaves",
+    "title_es": "SAC-NeRF: Adaptive Ray Sampling for Neural Radiance Fields via Soft Actor-Critic Reinforcement Learning",
     "url": "https://arxiv.org/abs/2603.15622",
     "source": "arXiv",
     "published": "2026-03-18T04:00:00.000Z",
@@ -6887,7 +7054,7 @@
   },
   {
     "title": "Ornithologists Identify Cryptic New Bird Species in Japan",
-    "title_es": "Ornitólogos identifican nuevas especies de aves crípticas en Japón",
+    "title_es": "Ornithologists Identify Cryptic New Bird Species in Japan",
     "url": "https://www.sci.news/biology/phylloscopus-tokaraensis-14629.html",
     "source": "Sci.News",
     "published": "2026-03-18T01:47:34.000Z",
@@ -42106,17 +42273,17 @@
     ]
   },
   {
-    "title": "An improved control strategy of power-frequency characteristics of virtual synchronous generator",
-    "title_es": "Una estrategia de control mejorada de las características de frecuencia industrial del generador síncrono virtual.",
+    "title": "Clinical evaluation of the i-gel Plus supraglottic airway in Japanese patients: A prospective observational study",
+    "title_es": "Evaluación clínica de la vía aérea supraglótica i-gel Plus en pacientes japoneses: un estudio observacional prospectivo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "estrategia",
-      "control",
-      "mejorada"
+      "evaluación",
+      "clínica",
+      "vía"
     ]
   },
   {
@@ -102122,6 +102289,34 @@
       "supernova",
       "sideways",
       "spiral"
+    ]
+  },
+  {
+    "title": "XDiag: Exact diagonalization for quantum many-body systems, by Alexander Wietek, Luke Staszewski, Martin Ulaga, Paul L. Ebert, Hannes Karlsson, Siddhartha Sarkar, Leyna Shackleton, Aritra Sinha, Rafael D. Soares",
+    "title_es": "XDiag: Exact diagonalization for quantum many-body systems, by Alexander Wietek, Luke Staszewski, Martin Ulaga, Paul L. Ebert, Hannes Karlsson, Siddhartha Sarkar, Leyna Shackleton, Aritra Sinha, Rafael D. Soares",
+    "url": "https://scipost.org/scipostphyscodeb.70",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "xdiag",
+      "exact",
+      "diagonalization"
+    ]
+  },
+  {
+    "title": "Comet R3 PanSTARRS Before Rigel",
+    "title_es": "Comet R3 PanSTARRS Before Rigel",
+    "url": "https://apod.nasa.gov/apod/image/2605/cometrigel_karuk_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "panstarrs",
+      "before"
     ]
   }
 ]
