@@ -1,5 +1,75 @@
 [
   {
+    "title": "Scientists found the “holy grail” gene that could one day help humans regrow limbs",
+    "title_es": "Los científicos encontraron el gen del “santo grial” que algún día podría ayudar a los humanos a recuperar sus extremidades",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260508003121.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-09T00:00:00.000Z",
+    "date": "2026-05-09",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "encontraron",
+      "gen"
+    ]
+  },
+  {
+    "title": "How a repurposed medical device is helping us investigate ancient climate tipping points",
+    "title_es": "Cómo un dispositivo médico reutilizado nos está ayudando a investigar los antiguos puntos de inflexión climáticos",
+    "url": "https://phys.org/news/2026-05-repurposed-medical-device-ancient-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-09T00:00:00.000Z",
+    "date": "2026-05-09",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "dispositivo",
+      "médico"
+    ]
+  },
+  {
+    "title": "New obesity discovery rewrites decades of fat science",
+    "title_es": "Un nuevo descubrimiento sobre la obesidad reescribe décadas de ciencia de la grasa",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260508171123.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-08T21:21:20.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "obesity",
+      "discovery"
+    ]
+  },
+  {
+    "title": "Paleontologists Reconstruct Ecology of Archaeopteryx",
+    "title_es": "Los paleontólogos reconstruyen la ecología de Archaeopteryx",
+    "url": "https://www.sci.news/paleontology/archaeopteryx-ecology-14753.html",
+    "source": "Sci.News",
+    "published": "2026-05-08T20:51:24.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "reconstruct",
+      "ecology"
+    ]
+  },
+  {
+    "title": "Book Review: The Life and Struggles of a Conservation Pioneer",
+    "title_es": "Reseña del libro: The Life and Struggles of a Conservation Pioneer",
+    "url": "https://undark.org/2026/05/08/book-review-homesick-for-world-unknown/",
+    "source": "Undark Magazine",
+    "published": "2026-05-08T07:31:21.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "life"
+    ]
+  },
+  {
     "title": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
     "title_es": "Un método híbrido acelerado por GPU para una clase de problemas de enrutamiento de vehículos multidepósito",
     "url": "https://arxiv.org/abs/2605.05208",
@@ -67,6 +137,62 @@
       "textos",
       "4000",
       "años"
+    ]
+  },
+  {
+    "title": "Radioactive rain and proving relativity: Books in brief",
+    "title_es": "Lluvia radiactiva y demostración de la relatividad: libros breves",
+    "url": "https://www.nature.com/articles/d41586-026-01500-0",
+    "source": "Nature",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "lluvia",
+      "radiactiva",
+      "demostración"
+    ]
+  },
+  {
+    "title": "El IAC presenta en 4S Symposium avances de IACTEC Espacio en calibración en órbita y tecnologías de imagen espacial",
+    "title_es": "El IAC presenta en 4S Symposium avances de IACTEC Espacio en calibración en órbita y tecnologías de imagen espacial",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-presenta-en-4s-symposium-avances-de-iactec-espacio-en-calibracion-en-orbita-y-tecnologias-de",
+    "source": "IAC",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "presenta",
+      "symposium"
+    ]
+  },
+  {
+    "title": "If wings came before flight, what were they for?",
+    "title_es": "Si las alas vinieron antes que el vuelo, ¿para qué servían?",
+    "url": "https://www.sciencenews.org/article/wings-flight-evolution-insects-dinosaur",
+    "source": "Science News",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "alas",
+      "vinieron",
+      "antes"
+    ]
+  },
+  {
+    "title": "Emperor penguins are on the march — toward extinction",
+    "title_es": "Los pingüinos emperador están en marcha hacia la extinción",
+    "url": "https://www.snexplores.org/article/emperor-penguins-endangered-warming",
+    "source": "Science News Explores",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "pingüinos",
+      "emperador",
+      "están"
     ]
   },
   {
@@ -570,6 +696,20 @@
       "early",
       "sauropodomorph",
       "dinosaur"
+    ]
+  },
+  {
+    "title": "A lost ancient script reveals how writing as we know it really began",
+    "title_es": "Una escritura antigua perdida revela cómo comenzó realmente la escritura tal como la conocemos",
+    "url": "https://www.newscientist.com/article/2524042-a-lost-ancient-script-reveals-how-writing-as-we-know-it-really-began/",
+    "source": "New Scientist",
+    "published": "2026-05-04T16:00:56.000Z",
+    "date": "2026-05-04",
+    "category": "noticia",
+    "tags": [
+      "lost",
+      "ancient",
+      "script"
     ]
   },
   {
@@ -6844,7 +6984,7 @@
   },
   {
     "title": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
-    "title_es": "Confianza, seguridad y precisión: evaluación de los LLM para obtener consejos de maternidad de rutina",
+    "title_es": "Trust, Safety, and Accuracy: Assessing LLMs for Routine Maternity Advice",
     "url": "https://arxiv.org/abs/2603.16872",
     "source": "arXiv",
     "published": "2026-03-19T04:00:00.000Z",
@@ -6858,7 +6998,7 @@
   },
   {
     "title": "Hubble Captures Breakup of Comet C/2025 K1 (ATLAS)",
-    "title_es": "El Hubble captura la ruptura del cometa C/2025 K1 (ATLAS)",
+    "title_es": "Hubble Captures Breakup of Comet C/2025 K1 (ATLAS)",
     "url": "https://www.sci.news/astronomy/hubble-breakup-comet-c-2025-k1-atlas-14632.html",
     "source": "Sci.News",
     "published": "2026-03-19T00:57:03.000Z",
@@ -6928,7 +7068,7 @@
   },
   {
     "title": "Researcher Annalaura Mastrangelo receives the 2026 Young Investigator Award in the Basic Science category",
-    "title_es": "La investigadora Annalaura Mastrangelo recibe el Premio Joven Investigador 2026 en la categoría de Ciencias Básicas",
+    "title_es": "Researcher Annalaura Mastrangelo receives the 2026 Young Investigator Award in the Basic Science category",
     "url": "https://www.cnic.es/es/node/241029",
     "source": "CNIC",
     "published": "2026-03-19T00:00:00.000Z",
@@ -6998,7 +7138,7 @@
   },
   {
     "title": "Fluorescent ruby-like gems have been found on Mars for the first time",
-    "title_es": "Se han encontrado gemas fluorescentes similares al rubí en Marte por primera vez",
+    "title_es": "Fluorescent ruby-like gems have been found on Mars for the first time",
     "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/",
     "source": "New Scientist",
     "published": "2026-03-18T19:00:06.000Z",
@@ -42273,17 +42413,17 @@
     ]
   },
   {
-    "title": "Clinical evaluation of the i-gel Plus supraglottic airway in Japanese patients: A prospective observational study",
-    "title_es": "Evaluación clínica de la vía aérea supraglótica i-gel Plus en pacientes japoneses: un estudio observacional prospectivo",
+    "title": "Prevalence, diagnostic methods, and clinical outcomes of wasting/cachexia among pediatric cancer patients in Africa: A protocol for a systematic review and meta-analysis",
+    "title_es": "Prevalencia, métodos de diagnóstico y resultados clínicos de emaciación/caquexia entre pacientes pediátricos con cáncer en África: un protocolo para una revisión sistemática y un metanálisis",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "evaluación",
-      "clínica",
-      "vía"
+      "prevalencia",
+      "métodos",
+      "diagnóstico"
     ]
   },
   {
@@ -102317,6 +102457,34 @@
       "comet",
       "panstarrs",
       "before"
+    ]
+  },
+  {
+    "title": "Boundary critical phenomena in the quantum Ashkin-Teller model, by Yifan Liu, Natalia Chepiga, Yoshiki Fukusumi, Masaki Oshikawa",
+    "title_es": "Boundary critical phenomena in the quantum Ashkin-Teller model, by Yifan Liu, Natalia Chepiga, Yoshiki Fukusumi, Masaki Oshikawa",
+    "url": "https://scipost.org/scipostphys.20.5.130",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "boundary",
+      "critical",
+      "phenomena"
+    ]
+  },
+  {
+    "title": "Messier Craters in Stereo",
+    "title_es": "Messier Craters in Stereo",
+    "url": "https://apod.nasa.gov/apod/image/2605/messiercrater3d_vantuyne1024c.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "messier",
+      "craters",
+      "stereo"
     ]
   }
 ]
