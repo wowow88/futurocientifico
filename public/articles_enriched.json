@@ -1,5 +1,33 @@
 [
   {
+    "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
+    "title_es": "Evaluación de las defensas de inyección rápida para tutores de LLM educativos: compensaciones de seguridad-usabilidad-latencia",
+    "url": "https://arxiv.org/abs/2605.06669",
+    "source": "arXiv",
+    "published": "2026-05-11T04:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "evaluating",
+      "prompt",
+      "injection"
+    ]
+  },
+  {
+    "title": "Deep beneath Swiss Alps, researchers trigger 8,000 tiny quakes in controlled test",
+    "title_es": "En lo profundo de los Alpes suizos, investigadores provocan 8.000 pequeños terremotos en una prueba controlada",
+    "url": "https://phys.org/news/2026-05-deep-beneath-swiss-alps-trigger.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "profundo",
+      "alpes",
+      "suizos"
+    ]
+  },
+  {
     "title": "Scientists discover the brain’s hidden “stop scratching” switch",
     "title_es": "Los científicos descubren el interruptor oculto del cerebro para \"dejar de rascarse\"",
     "url": "https://www.sciencedaily.com/releases/2026/05/260509210654.htm",
@@ -25,6 +53,20 @@
       "investigadores",
       "desarrollan",
       "lavado"
+    ]
+  },
+  {
+    "title": "“Cannot be explained” – New ultra stainless steel stuns researchers",
+    "title_es": "“No se puede explicar” – El nuevo acero ultra inoxidable sorprende a los investigadores",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-10T00:00:00.000Z",
+    "date": "2026-05-10",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "explicar",
+      "nuevo"
     ]
   },
   {
@@ -252,6 +294,20 @@
     ]
   },
   {
+    "title": "EmambaIR: Efficient Visual State Space Model for Event-guided Image Reconstruction",
+    "title_es": "EmambaIR: modelo de espacio de estado visual eficiente para la reconstrucción de imágenes guiada por eventos",
+    "url": "http://arxiv.org/abs/2605.08073v1",
+    "source": "arXiv",
+    "published": "2026-05-08T00:00:00.000Z",
+    "date": "2026-05-08",
+    "category": "noticia",
+    "tags": [
+      "emambair",
+      "modelo",
+      "espacio"
+    ]
+  },
+  {
     "title": "Hantavirus outbreak will not cause a covid-style pandemic, says WHO",
     "title_es": "El brote de hantavirus no causará una pandemia al estilo del covid, dice la OMS",
     "url": "https://www.newscientist.com/article/2525761-hantavirus-outbreak-will-not-cause-a-covid-style-pandemic-says-who/",
@@ -444,6 +500,20 @@
       "dating",
       "over",
       "probably"
+    ]
+  },
+  {
+    "title": "Red-light therapy does have health benefits but not the ones you think",
+    "title_es": "La terapia de luz roja tiene beneficios para la salud, pero no los que crees",
+    "url": "https://www.newscientist.com/article/2523875-red-light-therapy-does-have-health-benefits-but-not-the-ones-you-think/",
+    "source": "New Scientist",
+    "published": "2026-05-06T16:00:51.000Z",
+    "date": "2026-05-06",
+    "category": "noticia",
+    "tags": [
+      "red-light",
+      "therapy",
+      "does"
     ]
   },
   {
@@ -7012,7 +7082,7 @@
   },
   {
     "title": "Probiotic cream that ramps up heat production could prevent frostbite",
-    "title_es": "La crema probiótica que aumenta la producción de calor podría prevenir la congelación",
+    "title_es": "Probiotic cream that ramps up heat production could prevent frostbite",
     "url": "https://www.newscientist.com/article/2520006-probiotic-cream-that-ramps-up-heat-production-could-prevent-frostbite/",
     "source": "New Scientist",
     "published": "2026-03-19T17:07:41.000Z",
@@ -102569,6 +102639,20 @@
       "superconducting",
       "proximity",
       "effect"
+    ]
+  },
+  {
+    "title": "Moon Setting Behind Teide Volcano",
+    "title_es": "Moon Setting Behind Teide Volcano",
+    "url": "https://www.youtube.com/embed/afhfmmc-mje",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "moon",
+      "setting",
+      "behind"
     ]
   }
 ]
