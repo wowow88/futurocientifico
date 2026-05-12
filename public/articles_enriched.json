@@ -1,5 +1,89 @@
 [
   {
+    "title": "RAwR: Role-Aware Rewiring via Approximate Equitable Partition",
+    "title_es": "RAwR: Recableado consciente del rol a través de una partición equitativa aproximada",
+    "url": "https://arxiv.org/abs/2605.09457",
+    "source": "arXiv",
+    "published": "2026-05-12T04:00:00.000Z",
+    "date": "2026-05-12",
+    "category": "noticia",
+    "tags": [
+      "rawr",
+      "role-aware",
+      "rewiring"
+    ]
+  },
+  {
+    "title": "Australia’s Cloudy Beauty",
+    "title_es": "La belleza nublada de Australia",
+    "url": "https://science.nasa.gov/earth/earth-observatory/australias-cloudy-beauty/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-12T00:00:00.000Z",
+    "date": "2026-05-12",
+    "category": "noticia",
+    "tags": [
+      "belleza",
+      "nublada",
+      "australia"
+    ]
+  },
+  {
+    "title": "NASA’s Hubble reveals a giant chaotic planet nursery unlike anything seen before",
+    "title_es": "El Hubble de la NASA revela un gigantesco vivero de planetas caóticos como nunca antes se había visto",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260511213151.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-12T00:00:00.000Z",
+    "date": "2026-05-12",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "nasa",
+      "revela"
+    ]
+  },
+  {
+    "title": "New tectonic plate boundary could be forming in Zambia, scientists say",
+    "title_es": "Se podría estar formando un nuevo límite de placa tectónica en Zambia, dicen los científicos",
+    "url": "https://phys.org/news/2026-05-tectonic-plate-boundary-zambia-scientists.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-12T00:00:00.000Z",
+    "date": "2026-05-12",
+    "category": "noticia",
+    "tags": [
+      "podría",
+      "estar",
+      "formando"
+    ]
+  },
+  {
+    "title": "New Species of Giant Long-Necked Dinosaur Identified in Argentina",
+    "title_es": "Nueva especie de dinosaurio gigante de cuello largo identificada en Argentina",
+    "url": "https://www.sci.news/paleontology/bicharracosaurus-dionidei-14758.html",
+    "source": "Sci.News",
+    "published": "2026-05-11T23:02:43.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "giant"
+    ]
+  },
+  {
+    "title": "The story of the first human tool: the humble container",
+    "title_es": "La historia de la primera herramienta humana: el humilde contenedor",
+    "url": "https://www.newscientist.com/article/2526004-the-story-of-the-first-human-tool-the-humble-container/",
+    "source": "New Scientist",
+    "published": "2026-05-11T18:00:56.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "story",
+      "first",
+      "human"
+    ]
+  },
+  {
     "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
     "title_es": "Evaluación de las defensas de inyección rápida para tutores de LLM educativos: compensaciones de seguridad-usabilidad-latencia",
     "url": "https://arxiv.org/abs/2605.06669",
@@ -25,6 +109,76 @@
       "profundo",
       "alpes",
       "suizos"
+    ]
+  },
+  {
+    "title": "ELF: Embedded Language Flows",
+    "title_es": "ELF: flujos de lenguaje integrados",
+    "url": "http://arxiv.org/abs/2605.10938v1",
+    "source": "arXiv",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "elf",
+      "flujos",
+      "lenguaje"
+    ]
+  },
+  {
+    "title": "Publisher Correction: Presymptomatic training mitigates functional deficits in a mouse model of Rett syndrome",
+    "title_es": "Corrección del editor: el entrenamiento presintomático mitiga los déficits funcionales en un modelo de ratón con síndrome de Rett",
+    "url": "https://www.nature.com/articles/s41586-026-10578-5",
+    "source": "Nature",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "editor",
+      "entrenamiento"
+    ]
+  },
+  {
+    "title": "El IAC inaugura la exposición “El Observatorio Observado”, realizada por el Taller de Artes Plásticas Giro-Arte",
+    "title_es": "El IAC inaugura la exposición “El Observatorio Observado”, realizada por el Taller de Artes Plásticas Giro-Arte",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-inaugura-la-exposicion-el-observatorio-observado-realizada-por-el-taller-de-artes-plasticas-giro",
+    "source": "IAC",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "inaugura",
+      "exposición"
+    ]
+  },
+  {
+    "title": "Astronomers may have found a record-breaking pair of black holes",
+    "title_es": "Los astrónomos pueden haber encontrado un par de agujeros negros sin precedentes",
+    "url": "https://www.sciencenews.org/article/largest-pair-black-holes-collision",
+    "source": "Science News",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "astrónomos",
+      "pueden",
+      "haber"
+    ]
+  },
+  {
+    "title": "Would lip-synching make androids seem less creepy?",
+    "title_es": "¿La sincronización de labios haría que los androides parecieran menos espeluznantes?",
+    "url": "https://www.snexplores.org/article/lip-synching-android-robots-uncanny",
+    "source": "Science News Explores",
+    "published": "2026-05-11T00:00:00.000Z",
+    "date": "2026-05-11",
+    "category": "noticia",
+    "tags": [
+      "sincronización",
+      "labios",
+      "haría"
     ]
   },
   {
@@ -6886,7 +7040,7 @@
   },
   {
     "title": "The Problem With Promoting ‘Gold Standard Science’",
-    "title_es": "El problema con la promoción de la \"ciencia estándar de oro\"",
+    "title_es": "The Problem With Promoting ‘Gold Standard Science’",
     "url": "https://undark.org/2026/03/20/opinion-gold-standard-science/",
     "source": "Undark Magazine",
     "published": "2026-03-20T09:00:00.000Z",
@@ -6900,7 +7054,7 @@
   },
   {
     "title": "Negative Sampling Techniques in Information Retrieval: A Survey",
-    "title_es": "Técnicas de muestreo negativo en la recuperación de información: una encuesta",
+    "title_es": "Negative Sampling Techniques in Information Retrieval: A Survey",
     "url": "https://arxiv.org/abs/2603.18005",
     "source": "arXiv",
     "published": "2026-03-20T04:00:00.000Z",
@@ -6914,7 +7068,7 @@
   },
   {
     "title": "Democracy’s Roots Run Far Deeper than Ancient Greece, New Study Says",
-    "title_es": "Las raíces de la democracia son mucho más profundas que la antigua Grecia, según un nuevo estudio",
+    "title_es": "Democracy’s Roots Run Far Deeper than Ancient Greece, New Study Says",
     "url": "https://www.sci.news/archaeology/ancient-democracy-14637.html",
     "source": "Sci.News",
     "published": "2026-03-20T02:51:00.000Z",
@@ -6998,7 +7152,7 @@
   },
   {
     "title": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
-    "title_es": "Minna Kaikkonen-Määttä: “La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
+    "title_es": "Minna Kaikkonen-Määttä: \"La investigación es una carrera única porque puedes vivir de tu curiosidad y contribuir a generar nuevo conocimiento que algún día pueda beneficiar a la sociedad”",
     "url": "https://www.cnic.es/es/noticias/minna-kaikkonen-maatta-investigacion-carrera-unica-porque-puedes-vivir-tu-curiosidad",
     "source": "CNIC",
     "published": "2026-03-20T00:00:00.000Z",
@@ -42553,17 +42707,17 @@
     ]
   },
   {
-    "title": "Prevalence, diagnostic methods, and clinical outcomes of wasting/cachexia among pediatric cancer patients in Africa: A protocol for a systematic review and meta-analysis",
-    "title_es": "Prevalencia, métodos de diagnóstico y resultados clínicos de emaciación/caquexia entre pacientes pediátricos con cáncer en África: un protocolo para una revisión sistemática y un metanálisis",
+    "title": "Correction: A mixed-methods multi-site case study of a person-centred intervention for constant observation in hospitals with people living with dementia",
+    "title_es": "Corrección: un estudio de caso de múltiples sitios con métodos mixtos de una intervención centrada en la persona para la observación constante en hospitales con personas que viven con demencia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "prevalencia",
-      "métodos",
-      "diagnóstico"
+      "corrección",
+      "estudio",
+      "caso"
     ]
   },
   {
@@ -102653,6 +102807,34 @@
       "moon",
       "setting",
       "behind"
+    ]
+  },
+  {
+    "title": "Codebase release 2.1 for GAPS, by Michael H. Seymour, Siddharth Sule",
+    "title_es": "Codebase release 2.1 for GAPS, by Michael H. Seymour, Siddharth Sule",
+    "url": "https://scipost.org/scipostphyscodeb.71-r2.1",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "gaps"
+    ]
+  },
+  {
+    "title": "The Conjunction of Comet R3 PanSTARRS and the Orion Nebula",
+    "title_es": "The Conjunction of Comet R3 PanSTARRS and the Orion Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2605/cometr3_orion.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "conjunction",
+      "comet",
+      "panstarrs"
     ]
   }
 ]
