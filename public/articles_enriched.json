@@ -1,5 +1,103 @@
 [
   {
+    "title": "When Scientific Arguments Obscure Moral Ones, Democracy Suffers",
+    "title_es": "Cuando los argumentos científicos oscurecen la moral, la democracia sufre",
+    "url": "https://undark.org/2026/05/14/opinion-scientific-moral-arguments/",
+    "source": "Undark Magazine",
+    "published": "2026-05-14T07:46:00.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "when",
+      "scientific",
+      "arguments"
+    ]
+  },
+  {
+    "title": "Prime Successor Irreducibility: Turing Machine Complexity, Kolmogorov Complexity, and Weakness-Based Formulations",
+    "title_es": "Irreducibilidad del sucesor principal: complejidad de la máquina de Turing, complejidad de Kolmogorov y formulaciones basadas en la debilidad",
+    "url": "https://arxiv.org/abs/2605.12504",
+    "source": "arXiv",
+    "published": "2026-05-14T04:00:00.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "prime",
+      "successor",
+      "irreducibility"
+    ]
+  },
+  {
+    "title": "Paleontologists Find Lost Ice Age World in Flooded Texas Cave",
+    "title_es": "Paleontólogos encuentran un mundo perdido de la Edad de Hielo en una cueva inundada de Texas",
+    "url": "https://www.sci.news/paleontology/ice-age-world-texas-cave-14766.html",
+    "source": "Sci.News",
+    "published": "2026-05-14T00:00:04.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "find",
+      "lost"
+    ]
+  },
+  {
+    "title": "Ice Moves Out of Aniak",
+    "title_es": "El hielo sale de Aniak",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-14T00:00:00.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "hielo",
+      "sale",
+      "aniak"
+    ]
+  },
+  {
+    "title": "Who are the Japanese? Huge DNA discovery rewrites history",
+    "title_es": "¿Quiénes son los japoneses? Un enorme descubrimiento de ADN reescribe la historia",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260514003314.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-14T00:00:00.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "quiénes",
+      "son",
+      "japoneses"
+    ]
+  },
+  {
+    "title": "One in four 2026 World Cup games could face dangerous heat across North America: researchers",
+    "title_es": "Uno de cada cuatro partidos del Mundial de 2026 podría enfrentar un calor peligroso en América del Norte: investigadores",
+    "url": "https://phys.org/news/2026-05-world-cup-games-dangerous-north.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-14T00:00:00.000Z",
+    "date": "2026-05-14",
+    "category": "noticia",
+    "tags": [
+      "uno",
+      "cada",
+      "cuatro"
+    ]
+  },
+  {
+    "title": "Neanderthals treated a dental cavity by drilling into the tooth",
+    "title_es": "Los neandertales trataron una cavidad dental perforando el diente",
+    "url": "https://www.newscientist.com/article/2526440-neanderthals-treated-a-dental-cavity-by-drilling-into-the-tooth/",
+    "source": "New Scientist",
+    "published": "2026-05-13T19:00:51.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "neanderthals",
+      "treated",
+      "dental"
+    ]
+  },
+  {
     "title": "Interpretable EEG Microstate Discovery via Variational Deep Embedding: A Systematic Architecture Search with Multi-Quadrant Evaluation",
     "title_es": "Descubrimiento interpretable de microestados de EEG a través de incrustación profunda variacional: una búsqueda sistemática de arquitectura con evaluación de cuadrantes múltiples",
     "url": "https://arxiv.org/abs/2605.10947",
@@ -53,6 +151,90 @@
       "diez",
       "años",
       "después"
+    ]
+  },
+  {
+    "title": "WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data",
+    "title_es": "WARDEN: Transcripción y traducción de lenguas indígenas en peligro de extinción con 6 horas de datos de capacitación",
+    "url": "http://arxiv.org/abs/2605.13846v1",
+    "source": "arXiv",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "warden",
+      "transcripción",
+      "traducción"
+    ]
+  },
+  {
+    "title": "Stereoelectronic manipulation of ligands for perovskite solar cells",
+    "title_es": "Manipulación estereoelectrónica de ligandos para células solares de perovskita.",
+    "url": "https://www.nature.com/articles/s41586-026-10626-0",
+    "source": "Nature",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "manipulación",
+      "estereoelectrónica",
+      "ligandos"
+    ]
+  },
+  {
+    "title": "Jennifer Davis: \"We need to treat IA as a tool for generating hypotheses, not final answers\"",
+    "title_es": "Jennifer Davis: “Necesitamos tratar la IA como una herramienta para generar hipótesis, no respuestas finales”",
+    "url": "https://www.cnic.es/es/node/242001",
+    "source": "CNIC",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "jennifer",
+      "davis",
+      "need"
+    ]
+  },
+  {
+    "title": "Los primeros resultados del proyecto BEARD explican la supervivencia de nuestra Galaxia",
+    "title_es": "Los primeros resultados del proyecto BARBA explican la supervivencia de nuestra Galaxia",
+    "url": "https://www.iac.es/es/divulgacion/noticias/los-primeros-resultados-del-proyecto-beard-explican-la-supervivencia-de-nuestra-galaxia",
+    "source": "IAC",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "primeros",
+      "resultados",
+      "proyecto"
+    ]
+  },
+  {
+    "title": "First evidence of Neandertal dentistry found in ancient molar",
+    "title_es": "Primera evidencia de odontología neandertal encontrada en un molar antiguo",
+    "url": "https://www.sciencenews.org/article/first-evidence-neandertal-dentist-molar",
+    "source": "Science News",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "primera",
+      "evidencia",
+      "odontología"
+    ]
+  },
+  {
+    "title": "Perfect pitch? Scientists lay new grounds for World Cup ‘26",
+    "title_es": "¿Tono perfecto? Los científicos sientan nuevas bases para el Mundial '26",
+    "url": "https://www.snexplores.org/article/turfgrass-soccer-pitch-world-cup-science",
+    "source": "Science News Explores",
+    "published": "2026-05-13T00:00:00.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "tono",
+      "perfecto",
+      "científicos"
     ]
   },
   {
@@ -6872,7 +7054,7 @@
   },
   {
     "title": "Genetic clues tell the story of Neanderthals' decline",
-    "title_es": "Las pistas genéticas cuentan la historia del declive de los neandertales",
+    "title_es": "Genetic clues tell the story of Neanderthals' decline",
     "url": "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/",
     "source": "New Scientist",
     "published": "2026-03-23T19:00:32.000Z",
@@ -6886,7 +7068,7 @@
   },
   {
     "title": "The simple questions cracking the hard problem of consciousness",
-    "title_es": "Las preguntas simples que resuelven el difícil problema de la conciencia",
+    "title_es": "The simple questions cracking the hard problem of consciousness",
     "url": "https://www.newscientist.com/article/2519288-the-simple-questions-cracking-the-hard-problem-of-consciousness/",
     "source": "New Scientist",
     "published": "2026-03-23T16:00:19.000Z",
@@ -6900,7 +7082,7 @@
   },
   {
     "title": "Where There’s Wildfire Smoke, There’s Poor Mental Health",
-    "title_es": "Donde hay humo de incendios forestales, hay mala salud mental",
+    "title_es": "Where There’s Wildfire Smoke, There’s Poor Mental Health",
     "url": "https://undark.org/2026/03/23/wildfire-smoke-mental-health/",
     "source": "Undark Magazine",
     "published": "2026-03-23T07:46:00.000Z",
@@ -6914,7 +7096,7 @@
   },
   {
     "title": "L-PRISMA: An Extension of PRISMA in the Era of Generative Artificial Intelligence (GenAI)",
-    "title_es": "L-PRISMA: Una extensión del PRISMA en la era de la inteligencia artificial generativa (GenAI)",
+    "title_es": "L-PRISMA: An Extension of PRISMA in the Era of Generative Artificial Intelligence (GenAI)",
     "url": "https://arxiv.org/abs/2603.19236",
     "source": "arXiv",
     "published": "2026-03-23T04:00:00.000Z",
@@ -7040,7 +7222,7 @@
   },
   {
     "title": "Scientists Say: Cave Popcorn",
-    "title_es": "Los científicos dicen: Palomitas de maíz de la cueva",
+    "title_es": "",
     "url": "https://www.snexplores.org/article/scientists-say-cave-popcorn-definition-pronunciation",
     "source": "Science News Explores",
     "published": "2026-03-23T00:00:00.000Z",
@@ -42861,8 +43043,8 @@
     ]
   },
   {
-    "title": "Correction: Full-day sleep pattern analysis in common mental disorders: Leveraging highly discrepant recordings from two consumer tracking devices",
-    "title_es": "Corrección: Análisis de patrones de sueño durante todo el día en trastornos mentales comunes: aprovechamiento de grabaciones altamente discrepantes de dos dispositivos de seguimiento de consumidores",
+    "title": "Correction: How Etuaptmumk/Two-Eyed Seeing is used in Indigenous health research: A scoping review",
+    "title_es": "Corrección: Cómo se utiliza Etuaptmumk/Ver con dos ojos en la investigación sobre salud indígena: una revisión del alcance",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -42870,8 +43052,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "análisis",
-      "patrones"
+      "cómo",
+      "utiliza"
     ]
   },
   {
