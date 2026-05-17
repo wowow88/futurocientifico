@@ -1,5 +1,47 @@
 [
   {
+    "title": "Stunning 150-million-year-old stegosaur skull rewrites dinosaur evolution",
+    "title_es": "Impresionante cráneo de estegosaurio de 150 millones de años reescribe la evolución de los dinosaurios",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260515233340.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-17T00:00:00.000Z",
+    "date": "2026-05-17",
+    "category": "noticia",
+    "tags": [
+      "impresionante",
+      "cráneo",
+      "estegosaurio"
+    ]
+  },
+  {
+    "title": "First-ever direct image of the cosmic web reveals the Universe’s hidden highways",
+    "title_es": "La primera imagen directa de la red cósmica revela las autopistas ocultas del Universo",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260516034136.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-16T13:15:10.000Z",
+    "date": "2026-05-16",
+    "category": "noticia",
+    "tags": [
+      "first-ever",
+      "direct",
+      "image"
+    ]
+  },
+  {
+    "title": "AI guardians: Bridging digital innovation and sustainability for cleaner water",
+    "title_es": "Guardianes de la IA: uniendo la innovación digital y la sostenibilidad para lograr un agua más limpia",
+    "url": "https://phys.org/news/2026-05-ai-guardians-bridging-digital-sustainability.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-16T00:00:00.000Z",
+    "date": "2026-05-16",
+    "category": "noticia",
+    "tags": [
+      "guardianes",
+      "uniendo",
+      "innovación"
+    ]
+  },
+  {
     "title": "Giant Tyrannosaur Fossil Found in New Mexico",
     "title_es": "Fósil de tiranosaurio gigante encontrado en Nuevo México",
     "url": "https://www.sci.news/paleontology/hunter-wash-tyrannosaur-14772.html",
@@ -543,6 +585,20 @@
       "hidden",
       "rift",
       "beneath"
+    ]
+  },
+  {
+    "title": "Can cloud seeding save us from water bankruptcy?",
+    "title_es": "¿Puede la siembra de nubes salvarnos de la bancarrota del agua?",
+    "url": "https://www.newscientist.com/article/2524831-can-cloud-seeding-save-us-from-water-bankruptcy/",
+    "source": "New Scientist",
+    "published": "2026-05-12T16:00:18.000Z",
+    "date": "2026-05-12",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "cloud",
+      "seeding"
     ]
   },
   {
@@ -7040,7 +7096,7 @@
   },
   {
     "title": "Founder effects shape the evolutionary dynamics of multimodality in open LLM families",
-    "title_es": "Los efectos del fundador dan forma a la dinámica evolutiva de la multimodalidad en familias abiertas de LLM",
+    "title_es": "Founder effects shape the evolutionary dynamics of multimodality in open LLM families",
     "url": "https://arxiv.org/abs/2603.22287",
     "source": "arXiv",
     "published": "2026-03-25T04:00:00.000Z",
@@ -7054,7 +7110,7 @@
   },
   {
     "title": "Two Species of Marsupials Thought Lost for 6,000 Years Found Alive in New Guinea",
-    "title_es": "Se cree que dos especies de marsupiales perdidas durante 6.000 años fueron encontradas vivas en Nueva Guinea",
+    "title_es": "Two Species of Marsupials Thought Lost for 6,000 Years Found Alive in New Guinea",
     "url": "https://www.sci.news/biology/two-marsupials-new-guinea-14648.html",
     "source": "Sci.News",
     "published": "2026-03-25T00:47:02.000Z",
@@ -103535,6 +103591,20 @@
       "aurora",
       "slathers",
       "sky"
+    ]
+  },
+  {
+    "title": "NGC 1300: Barred Spiral Galaxy",
+    "title_es": "NGC 1300: Barred Spiral Galaxy",
+    "url": "https://apod.nasa.gov/apod/image/2605/ngc1300_hst_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "1300",
+      "barred"
     ]
   }
 ]
