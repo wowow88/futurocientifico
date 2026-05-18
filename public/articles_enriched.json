@@ -1,5 +1,61 @@
 [
   {
+    "title": "DeepSlide: From Artifacts to Presentation Delivery",
+    "title_es": "DeepSlide: de los artefactos a la presentación",
+    "url": "https://arxiv.org/abs/2605.15202",
+    "source": "arXiv",
+    "published": "2026-05-18T04:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "deepslide",
+      "artifacts",
+      "presentation"
+    ]
+  },
+  {
+    "title": "Ancient lost ocean may have built Central Asia’s dinosaur-era mountains",
+    "title_es": "Un antiguo océano perdido puede haber construido las montañas de la era de los dinosaurios en Asia Central",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260515233350.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "antiguo",
+      "océano",
+      "perdido"
+    ]
+  },
+  {
+    "title": "Kenya's new poaching problem: smuggling Giant Harvester Ants",
+    "title_es": "El nuevo problema de la caza furtiva en Kenia: el contrabando de hormigas cosechadoras gigantes",
+    "url": "https://phys.org/news/2026-05-kenya-poaching-problem-smuggling-giant.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "problema",
+      "caza"
+    ]
+  },
+  {
+    "title": "Scientists reverse Alzheimer’s in mice with breakthrough nanotechnology",
+    "title_es": "Los científicos revierten la enfermedad de Alzheimer en ratones con nanotecnología innovadora",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260517030326.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-17T11:11:34.000Z",
+    "date": "2026-05-17",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "reverse",
+      "alzheimers"
+    ]
+  },
+  {
     "title": "Stunning 150-million-year-old stegosaur skull rewrites dinosaur evolution",
     "title_es": "Impresionante cráneo de estegosaurio de 150 millones de años reescribe la evolución de los dinosaurios",
     "url": "https://www.sciencedaily.com/releases/2026/05/260515233340.htm",
@@ -11,6 +67,20 @@
       "impresionante",
       "cráneo",
       "estegosaurio"
+    ]
+  },
+  {
+    "title": "Dr. Francesco Costa: “El uso continuo de herramientas como ChatGPT provoca un efecto denominado deskilling”",
+    "title_es": "Dr. Francesco Costa: “El uso continuo de herramientas como ChatGPT provoca un efecto denominado deskilling”",
+    "url": "https://www.cnic.es/es/noticias/dr-francesco-costa-uso-continuo-herramientas-como-chatgpt-provoca-un-efecto-denominado",
+    "source": "CNIC",
+    "published": "2026-05-17T00:00:00.000Z",
+    "date": "2026-05-17",
+    "category": "noticia",
+    "tags": [
+      "francesco",
+      "costa",
+      "uso"
     ]
   },
   {
@@ -238,6 +308,20 @@
     ]
   },
   {
+    "title": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+    "title_es": "IVGT: Transformador de geometría visual implícita para la representación de escenas neuronales",
+    "url": "http://arxiv.org/abs/2605.16258v1",
+    "source": "arXiv",
+    "published": "2026-05-15T00:00:00.000Z",
+    "date": "2026-05-15",
+    "category": "noticia",
+    "tags": [
+      "ivgt",
+      "transformador",
+      "geometría"
+    ]
+  },
+  {
     "title": "Galaxy Cluster Abell 2029 Had Violent Past, Chandra Reveals",
     "title_es": "El cúmulo de galaxias Abell 2029 tuvo un pasado violento, revela Chandra",
     "url": "https://www.sci.news/astronomy/chandra-galaxy-cluster-abell-2029-14769.html",
@@ -431,6 +515,20 @@
       "neanderthals",
       "treated",
       "dental"
+    ]
+  },
+  {
+    "title": "Why autism pioneer Uta Frith wants to dismantle the spectrum",
+    "title_es": "Por qué la pionera del autismo Uta Frith quiere desmantelar el espectro",
+    "url": "https://www.newscientist.com/article/2525037-why-autism-pioneer-uta-frith-wants-to-dismantle-the-spectrum/",
+    "source": "New Scientist",
+    "published": "2026-05-13T16:00:40.000Z",
+    "date": "2026-05-13",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "autism",
+      "pioneer"
     ]
   },
   {
@@ -7040,7 +7138,7 @@
   },
   {
     "title": "Meta and YouTube fined $3 million for harming mental health",
-    "title_es": "Meta y YouTube multados con $ 3 millones por dañar la salud mental",
+    "title_es": "Meta and YouTube fined $3 million for harming mental health",
     "url": "https://www.newscientist.com/article/2521032-meta-and-youtube-fined-3-million-for-harming-mental-health/",
     "source": "New Scientist",
     "published": "2026-03-25T20:52:03.000Z",
@@ -7054,7 +7152,7 @@
   },
   {
     "title": "Computer Security: [Pen|Pan|Pant]testing",
-    "title_es": "Seguridad informática: [Pen|Pan|Pant]pruebas",
+    "title_es": "Computer Security: [Pen|Pan|Pant]testing",
     "url": "https://home.cern/news/news/computing/computer-security-penpanpanttesting",
     "source": "CERN News",
     "published": "2026-03-25T18:07:06.000Z",
@@ -7068,7 +7166,7 @@
   },
   {
     "title": "How working out like an astronaut can reduce back pain and slow ageing",
-    "title_es": "Cómo hacer ejercicio como un astronauta puede reducir el dolor de espalda y retrasar el envejecimiento",
+    "title_es": "How working out like an astronaut can reduce back pain and slow ageing",
     "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/",
     "source": "New Scientist",
     "published": "2026-03-25T16:00:33.000Z",
@@ -7082,7 +7180,7 @@
   },
   {
     "title": "Polygraphs Aren’t Very Accurate. Are There Better Options?",
-    "title_es": "Los polígrafos no son muy precisos. ¿Hay mejores opciones?",
+    "title_es": "Polygraphs Aren’t Very Accurate. Are There Better Options?",
     "url": "https://undark.org/2026/03/25/lie-detection-polygraph-accuracy/",
     "source": "Undark Magazine",
     "published": "2026-03-25T07:21:00.000Z",
@@ -103605,6 +103703,20 @@
       "ngc",
       "1300",
       "barred"
+    ]
+  },
+  {
+    "title": "Unraveling NGC 3169",
+    "title_es": "Unraveling NGC 3169",
+    "url": "https://apod.nasa.gov/apod/image/2605/ngc3169_ngc3166_ngc3165px1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "unraveling",
+      "ngc",
+      "3169"
     ]
   }
 ]
