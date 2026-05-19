@@ -1,5 +1,103 @@
 [
   {
+    "title": "Intermediate Constacyclic Codes and Scalar-Residue Reed--Muller Layers",
+    "title_es": "Códigos Constacíclicos Intermedios y Lengüeta de Residuo Escalar - Capas de Muller",
+    "url": "https://arxiv.org/abs/2605.17022",
+    "source": "arXiv",
+    "published": "2026-05-19T04:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "intermediate",
+      "constacyclic",
+      "codes"
+    ]
+  },
+  {
+    "title": "Mystery of the ancient giant stone jars of Laos may have been solved",
+    "title_es": "El misterio de los antiguos frascos gigantes de piedra de Laos puede haber sido resuelto",
+    "url": "https://www.newscientist.com/article/2527089-mystery-of-the-ancient-giant-stone-jars-of-laos-may-have-been-solved/",
+    "source": "New Scientist",
+    "published": "2026-05-19T00:01:23.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "mystery",
+      "ancient",
+      "giant"
+    ]
+  },
+  {
+    "title": "China moves AI brain implants from trials towards real-world use",
+    "title_es": "China traslada los implantes cerebrales de IA de las pruebas al uso en el mundo real",
+    "url": "https://www.nature.com/articles/d41586-026-01468-x",
+    "source": "Nature",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "china",
+      "traslada",
+      "implantes"
+    ]
+  },
+  {
+    "title": "Farming in Ancient Lake Agassiz",
+    "title_es": "Agricultura en el antiguo lago Agassiz",
+    "url": "https://science.nasa.gov/earth/earth-observatory/farming-in-ancient-lake-agassiz/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "agricultura",
+      "antiguo",
+      "lago"
+    ]
+  },
+  {
+    "title": "A strange ripple in spacetime could be the first fingerprint of dark matter",
+    "title_es": "Una extraña onda en el espacio-tiempo podría ser la primera huella digital de la materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260518041429.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "extraña",
+      "onda",
+      "espacio-tiempo"
+    ]
+  },
+  {
+    "title": "Argentine scientists lay first traps in hantavirus hunt",
+    "title_es": "Científicos argentinos colocan las primeras trampas en la caza de hantavirus",
+    "url": "https://phys.org/news/2026-05-argentine-scientists-lay-hantavirus.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "argentinos",
+      "colocan"
+    ]
+  },
+  {
+    "title": "Insects May Feel Pain, New Study Suggests",
+    "title_es": "Los insectos pueden sentir dolor, sugiere un nuevo estudio",
+    "url": "https://www.sci.news/biology/insect-pain-14777.html",
+    "source": "Sci.News",
+    "published": "2026-05-18T23:16:16.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "insects",
+      "may",
+      "feel"
+    ]
+  },
+  {
     "title": "DeepSlide: From Artifacts to Presentation Delivery",
     "title_es": "DeepSlide: de los artefactos a la presentación",
     "url": "https://arxiv.org/abs/2605.15202",
@@ -39,6 +137,62 @@
       "nuevo",
       "problema",
       "caza"
+    ]
+  },
+  {
+    "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
+    "title_es": "DashAttention: atención jerárquica dispersa diferenciable y adaptativa",
+    "url": "http://arxiv.org/abs/2605.18753v1",
+    "source": "arXiv",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "dashattention",
+      "atención",
+      "jerárquica"
+    ]
+  },
+  {
+    "title": "Mariano Barbacid recibe la Medalla de Honor de Madrid",
+    "title_es": "Mariano Barbacid recibe la Medalla de Honor de Madrid",
+    "url": "https://www.cnio.es/noticias/mariano-barbacid-recibe-la-medalla-de-honor-de-madrid/",
+    "source": "CNIO",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "mariano",
+      "barbacid",
+      "recibe"
+    ]
+  },
+  {
+    "title": "A ‘jar’ jammed with human bones may solve Laos’ ‘Plain of Jars’ mystery",
+    "title_es": "Una \"vasija\" repleta de huesos humanos puede resolver el misterio de la \"llanura de las vasijas\" de Laos",
+    "url": "https://www.sciencenews.org/article/jar-human-bones-solve-laos-mystery",
+    "source": "Science News",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "vasija",
+      "repleta",
+      "huesos"
+    ]
+  },
+  {
+    "title": "Origami research takes top prize at 2026 Regeneron ISEF competition",
+    "title_es": "La investigación sobre origami obtiene el primer premio en el concurso Regeneron ISEF 2026",
+    "url": "https://www.snexplores.org/article/2026-regeneron-isef-winners-origami",
+    "source": "Science News Explores",
+    "published": "2026-05-18T00:00:00.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "investigación",
+      "sobre",
+      "origami"
     ]
   },
   {
@@ -6956,7 +7110,7 @@
   },
   {
     "title": "First glimpse of sperm whale birth reveals teamwork to support newborn",
-    "title_es": "El primer vistazo al nacimiento del cachalote revela el trabajo en equipo para apoyar al recién nacido",
+    "title_es": "First glimpse of sperm whale birth reveals teamwork to support newborn",
     "url": "https://www.newscientist.com/article/2521103-first-glimpse-of-sperm-whale-birth-reveals-teamwork-to-support-newborn/",
     "source": "New Scientist",
     "published": "2026-03-26T18:00:42.000Z",
@@ -6970,7 +7124,7 @@
   },
   {
     "title": "Science Communication Is Central to the Practice of Science",
-    "title_es": "La comunicación científica es fundamental para la práctica de la ciencia",
+    "title_es": "Science Communication Is Central to the Practice of Science",
     "url": "https://undark.org/2026/03/26/opinion-science-communication-essential/",
     "source": "Undark Magazine",
     "published": "2026-03-26T07:52:00.000Z",
@@ -6984,7 +7138,7 @@
   },
   {
     "title": "Optimal Unlabeled Pebble Motion on Trees and its Application to Multi-Agent Path Finding",
-    "title_es": "Movimiento óptimo de guijarros sin etiquetar en los árboles y su aplicación a la búsqueda de caminos de múltiples agentes",
+    "title_es": "Optimal Unlabeled Pebble Motion on Trees and its Application to Multi-Agent Path Finding",
     "url": "https://arxiv.org/abs/2603.23503",
     "source": "arXiv",
     "published": "2026-03-26T04:00:00.000Z",
@@ -6998,7 +7152,7 @@
   },
   {
     "title": "New Species of Steamer Duck Discovered in Chile",
-    "title_es": "Descubren una nueva especie de pato de vapor en Chile",
+    "title_es": "New Species of Steamer Duck Discovered in Chile",
     "url": "https://www.sci.news/biology/tachyeres-ketru-14649.html",
     "source": "Sci.News",
     "published": "2026-03-26T00:29:25.000Z",
@@ -43491,17 +43645,17 @@
     ]
   },
   {
-    "title": "Knowledge, attitudes, and practices (KAP) regarding occupational protection among orthopedic theatre nurses using orthopedic power tools (OPTs): A cross-sectional study",
-    "title_es": "Conocimientos, actitudes y prácticas (CAP) sobre protección ocupacional entre enfermeras de quirófano ortopédico que utilizan herramientas eléctricas ortopédicas (OPT): un estudio transversal",
+    "title": "A study of push and pull factors influencing employee retention in education sector in China: Using PLS-SEM and multi-group analysis",
+    "title_es": "Un estudio de los factores de atracción y atracción que influyen en la retención de empleados en el sector educativo en China: uso de PLS-SEM y análisis multigrupo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "conocimientos",
-      "actitudes",
-      "prácticas"
+      "estudio",
+      "factores",
+      "atracción"
     ]
   },
   {
@@ -103717,6 +103871,34 @@
       "unraveling",
       "ngc",
       "3169"
+    ]
+  },
+  {
+    "title": "Constraining the Higgs potential using multi-Higgs production, by Jia-Le Ding, Zach Gillis, Ulrich Haisch, Brian Moser, Hai Tao Li, Davide Pagani, Luca Rottoli, Ambresh Shivaji, Zong-Guo Si, Jian Wang, Philipp Windischhofer, Xiao Zhang, Dan Zhao",
+    "title_es": "Constraining the Higgs potential using multi-Higgs production, by Jia-Le Ding, Zach Gillis, Ulrich Haisch, Brian Moser, Hai Tao Li, Davide Pagani, Luca Rottoli, Ambresh Shivaji, Zong-Guo Si, Jian Wang, Philipp Windischhofer, Xiao Zhang, Dan Zhao",
+    "url": "https://scipost.org/scipostphyscommrep.24",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "constraining",
+      "higgs",
+      "potential"
+    ]
+  },
+  {
+    "title": "NGC 2170: The Angel Nebula",
+    "title_es": "NGC 2170: The Angel Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2605/angel_marriott_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "2170",
+      "angel"
     ]
   }
 ]
