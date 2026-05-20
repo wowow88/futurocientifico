@@ -1,5 +1,75 @@
 [
   {
+    "title": "Operational Memory Architecture for Kubernetes:Preserving Causal Context Across the Evidence Horizon",
+    "title_es": "Arquitectura de la memoria operativa para Kubernetes:preservar el contexto causal en el horizonte de la evidencia",
+    "url": "https://arxiv.org/abs/2605.18755",
+    "source": "arXiv",
+    "published": "2026-05-20T04:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "operational",
+      "memory",
+      "architecture"
+    ]
+  },
+  {
+    "title": "We may finally know why dinosaurs like T. rex evolved tiny arms",
+    "title_es": "Finalmente podemos saber por qué los dinosaurios como T. rex desarrollaron pequeños brazos",
+    "url": "https://www.newscientist.com/article/2527282-we-may-finally-know-why-dinosaurs-like-t-rex-evolved-tiny-arms/",
+    "source": "New Scientist",
+    "published": "2026-05-20T00:01:19.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "may",
+      "finally",
+      "know"
+    ]
+  },
+  {
+    "title": "Scientists use DNA from poop to save the world’s rarest marsupial",
+    "title_es": "Los científicos utilizan el ADN de las heces para salvar al marsupial más raro del mundo",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260519224319.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "utilizan",
+      "adn"
+    ]
+  },
+  {
+    "title": "Glowing fungi expose final enzyme that could make bioluminescent tools more efficient",
+    "title_es": "Los hongos brillantes exponen una enzima final que podría hacer que las herramientas bioluminiscentes sean más eficientes",
+    "url": "https://phys.org/news/2026-05-fungi-expose-enzyme-bioluminescent-tools.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "hongos",
+      "brillantes",
+      "exponen"
+    ]
+  },
+  {
+    "title": "New Jurassic Pterosaur Unearthed in Germany",
+    "title_es": "Nuevo pterosaurio jurásico desenterrado en Alemania",
+    "url": "https://www.sci.news/paleontology/laueropterus-vitriolus-14780.html",
+    "source": "Sci.News",
+    "published": "2026-05-19T23:04:40.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "jurassic",
+      "pterosaur"
+    ]
+  },
+  {
     "title": "Intermediate Constacyclic Codes and Scalar-Residue Reed--Muller Layers",
     "title_es": "Códigos Constacíclicos Intermedios y Lengüeta de Residuo Escalar - Capas de Muller",
     "url": "https://arxiv.org/abs/2605.17022",
@@ -81,6 +151,62 @@
       "científicos",
       "argentinos",
       "colocan"
+    ]
+  },
+  {
+    "title": "A multi-agent system for automating scientific discovery",
+    "title_es": "Un sistema multiagente para automatizar el descubrimiento científico",
+    "url": "https://www.nature.com/articles/s41586-026-10652-y",
+    "source": "Nature",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "sistema",
+      "multiagente",
+      "automatizar"
+    ]
+  },
+  {
+    "title": "La Fundación Mujeres por África visita el IAC en el marco del programa Ciencia por Mujeres",
+    "title_es": "La Fundación Mujeres por África visita el IAC en el marco del programa Ciencia por Mujeres",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-fundacion-mujeres-por-africa-visita-el-iac-en-el-marco-del-programa-ciencia-por-mujeres",
+    "source": "IAC",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "fundación",
+      "mujeres",
+      "por"
+    ]
+  },
+  {
+    "title": "What freediving can reveal about human health — and our limits",
+    "title_es": "Lo que el buceo en apnea puede revelar sobre la salud humana y nuestros límites",
+    "url": "https://www.sciencenews.org/article/freediving-physical-mental-limits-risks",
+    "source": "Science News",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "buceo",
+      "apnea"
+    ]
+  },
+  {
+    "title": "Teen’s new app guards against the rise of villainous AI bots",
+    "title_es": "La nueva aplicación para adolescentes protege contra el surgimiento de malvados robots de inteligencia artificial",
+    "url": "https://www.snexplores.org/article/app-guards-against-bad-ai-agents-bots",
+    "source": "Science News Explores",
+    "published": "2026-05-19T00:00:00.000Z",
+    "date": "2026-05-19",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "aplicación",
+      "adolescentes"
     ]
   },
   {
@@ -6942,7 +7068,7 @@
   },
   {
     "title": "Book Review: How Genetics Shapes Our Ideas About Vice and Blame",
-    "title_es": "Reseña del libro: Cómo la genética da forma a nuestras ideas sobre el vicio y la culpa",
+    "title_es": "Book Review: How Genetics Shapes Our Ideas About Vice and Blame",
     "url": "https://undark.org/2026/03/27/book-review-original-sin/",
     "source": "Undark Magazine",
     "published": "2026-03-27T07:19:00.000Z",
@@ -6956,7 +7082,7 @@
   },
   {
     "title": "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-    "title_es": "Model2Kernel: Ejecución simbólica consciente del modelo para núcleos CUDA seguros",
+    "title_es": "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
     "url": "https://arxiv.org/abs/2603.24595",
     "source": "arXiv",
     "published": "2026-03-27T04:00:00.000Z",
@@ -6970,7 +7096,7 @@
   },
   {
     "title": "Vitamin D Shows Promise in Resetting Immune System in Inflammatory Bowel Disease",
-    "title_es": "La vitamina D promete restablecer el sistema inmunitario en la enfermedad inflamatoria intestinal",
+    "title_es": "Vitamin D Shows Promise in Resetting Immune System in Inflammatory Bowel Disease",
     "url": "https://www.sci.news/medicine/vitamin-d-inflammatory-bowel-disease-14652.html",
     "source": "Sci.News",
     "published": "2026-03-27T00:14:39.000Z",
@@ -43645,17 +43771,17 @@
     ]
   },
   {
-    "title": "A study of push and pull factors influencing employee retention in education sector in China: Using PLS-SEM and multi-group analysis",
-    "title_es": "Un estudio de los factores de atracción y atracción que influyen en la retención de empleados en el sector educativo en China: uso de PLS-SEM y análisis multigrupo",
+    "title": "The impact of sports participation on the psychological state of the Chinese population from the perspective of sports resources",
+    "title_es": "El impacto de la participación deportiva en el estado psicológico de la población china desde la perspectiva de los recursos deportivos.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "estudio",
-      "factores",
-      "atracción"
+      "impacto",
+      "participación",
+      "deportiva"
     ]
   },
   {
@@ -103899,6 +104025,34 @@
       "ngc",
       "2170",
       "angel"
+    ]
+  },
+  {
+    "title": "Dynamical renormalization group analysis of $O(n)$ model in steady shear flow, by Harukuni Ikeda, Hiroyoshi Nakano",
+    "title_es": "Dynamical renormalization group analysis of $O(n)$ model in steady shear flow, by Harukuni Ikeda, Hiroyoshi Nakano",
+    "url": "https://scipost.org/scipostphys.20.5.139",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "dynamical",
+      "renormalization",
+      "group"
+    ]
+  },
+  {
+    "title": "The Dark Wolf Nebula",
+    "title_es": "The Dark Wolf Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2605/dark_wolf_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "dark",
+      "wolf",
+      "nebula"
     ]
   }
 ]
