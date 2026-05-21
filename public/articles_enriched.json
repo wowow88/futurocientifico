@@ -1,5 +1,89 @@
 [
   {
+    "title": "Neural Estimation of Pairwise Mutual Information in Masked Discrete Sequence Models",
+    "title_es": "Estimación neuronal de información mutua por pares en modelos de secuencia discreta enmascarados",
+    "url": "https://arxiv.org/abs/2605.20187",
+    "source": "arXiv",
+    "published": "2026-05-21T04:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "neural",
+      "estimation",
+      "pairwise"
+    ]
+  },
+  {
+    "title": "New Eruption in the Bismarck Sea",
+    "title_es": "Nueva erupción en el mar de Bismarck",
+    "url": "https://science.nasa.gov/earth/earth-observatory/new-eruption-in-the-bismarck-sea/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "erupción",
+      "mar"
+    ]
+  },
+  {
+    "title": "MIT scientists discover amino acid that helps the gut heal itself",
+    "title_es": "Científicos del MIT descubren un aminoácido que ayuda al intestino a curarse a sí mismo",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260520233223.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "mit",
+      "descubren"
+    ]
+  },
+  {
+    "title": "SpaceX is about to go public. Here's how it works",
+    "title_es": "SpaceX está a punto de salir a bolsa. Así es como funciona",
+    "url": "https://phys.org/news/2026-05-spacex.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "spacex",
+      "está",
+      "punto"
+    ]
+  },
+  {
+    "title": "Ancient Crater Lakes May Have Provided Ideal Conditions for Earth’s Earliest Oxygen-Breathing Life",
+    "title_es": "Los antiguos lagos de cráter pueden haber proporcionado las condiciones ideales para la vida más temprana de la Tierra que respira oxígeno",
+    "url": "https://www.sci.news/paleontology/crater-lake-stromatolites-14785.html",
+    "source": "Sci.News",
+    "published": "2026-05-20T22:25:20.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "crater",
+      "lakes"
+    ]
+  },
+  {
+    "title": "The mysterious reason why women get hotter from age 18 to 42",
+    "title_es": "La misteriosa razón por la que las mujeres se ponen más calientes de los 18 a los 42 años",
+    "url": "https://www.newscientist.com/article/2527312-the-mysterious-reason-why-women-get-hotter-from-age-18-to-42/",
+    "source": "New Scientist",
+    "published": "2026-05-20T19:00:46.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "mysterious",
+      "reason",
+      "why"
+    ]
+  },
+  {
     "title": "Operational Memory Architecture for Kubernetes:Preserving Causal Context Across the Evidence Horizon",
     "title_es": "Arquitectura de la memoria operativa para Kubernetes:preservar el contexto causal en el horizonte de la evidencia",
     "url": "https://arxiv.org/abs/2605.18755",
@@ -53,6 +137,76 @@
       "hongos",
       "brillantes",
       "exponen"
+    ]
+  },
+  {
+    "title": "Variance Reduction for Expectations with Diffusion Teachers",
+    "title_es": "Reducción de la varianza de las expectativas con los profesores de difusión",
+    "url": "http://arxiv.org/abs/2605.21489v1",
+    "source": "arXiv",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "reducción",
+      "varianza",
+      "expectativas"
+    ]
+  },
+  {
+    "title": "Spinal neuromotor rehabilitation using a portable isokinetic training robot",
+    "title_es": "Rehabilitación neuromotora espinal mediante un robot de entrenamiento isocinético portátil",
+    "url": "https://www.nature.com/articles/s41586-026-10642-0",
+    "source": "Nature",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "rehabilitación",
+      "neuromotora",
+      "espinal"
+    ]
+  },
+  {
+    "title": "Un encuentro internacional en el CNIO explora si la dieta y el ejercicio pueden ayudar a tratar el cáncer",
+    "title_es": "Un encuentro internacional en el CNIO explora si la dieta y el ejercicio pueden ayudar a tratar el cáncer",
+    "url": "https://www.cnio.es/noticias/un-encuentro-internacional-en-el-cnio-explora-si-la-dieta-y-el-ejercicio-pueden-ayudar-a-tratar-el-cancer/",
+    "source": "CNIO",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "encuentro",
+      "internacional",
+      "cnio"
+    ]
+  },
+  {
+    "title": "An ancient moonpocalypse may explain Neptune’s odd moon Nereid",
+    "title_es": "Un antiguo apocalipsis lunar puede explicar la extraña Nereida, la luna de Neptuno",
+    "url": "https://www.sciencenews.org/article/neptunes-odd-moon-nereid-orbit-remnant",
+    "source": "Science News",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "antiguo",
+      "apocalipsis",
+      "lunar"
+    ]
+  },
+  {
+    "title": "Positive thinking could help boost your immune system",
+    "title_es": "El pensamiento positivo podría ayudar a estimular su sistema inmunológico",
+    "url": "https://www.snexplores.org/article/positive-thinking-boost-immune-system",
+    "source": "Science News Explores",
+    "published": "2026-05-20T00:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "pensamiento",
+      "positivo",
+      "podría"
     ]
   },
   {
@@ -6872,7 +7026,7 @@
   },
   {
     "title": "The Future of Sex as a Biological Variable in Health Research",
-    "title_es": "El futuro del sexo como variable biológica en la investigación en salud",
+    "title_es": "The Future of Sex as a Biological Variable in Health Research",
     "url": "https://undark.org/2026/03/30/sex-biological-variable/",
     "source": "Undark Magazine",
     "published": "2026-03-30T07:02:00.000Z",
@@ -6886,7 +7040,7 @@
   },
   {
     "title": "BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
-    "title_es": "BeSafe-Bench: Descubrimiento de los riesgos de seguridad conductual de los agentes situados en entornos funcionales",
+    "title_es": "BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
     "url": "https://arxiv.org/abs/2603.25747",
     "source": "arXiv",
     "published": "2026-03-30T04:00:00.000Z",
@@ -6956,7 +7110,7 @@
   },
   {
     "title": "The ACC recognises the research into cardiotoxicity carried out at the CNIC by Danielle Medina-Hernández",
-    "title_es": "La ACC reconoce la investigación sobre cardiotoxicidad realizada en el CNIC por Danielle Medina-Hernández",
+    "title_es": "The ACC recognises the research into cardiotoxicity carried out at the CNIC by Danielle Medina-Hernández",
     "url": "https://www.cnic.es/es/node/241214",
     "source": "CNIC",
     "published": "2026-03-30T00:00:00.000Z",
@@ -6998,7 +7152,7 @@
   },
   {
     "title": "Early Miocene Fossil Fills Gap in Ape Family Tree",
-    "title_es": "Los fósiles del Mioceno temprano llenan la brecha en el árbol genealógico de los simios",
+    "title_es": "Early Miocene Fossil Fills Gap in Ape Family Tree",
     "url": "https://www.sci.news/paleontology/masripithecus-moghraensis-14653.html",
     "source": "Sci.News",
     "published": "2026-03-29T14:08:48.000Z",
@@ -43771,17 +43925,17 @@
     ]
   },
   {
-    "title": "The impact of sports participation on the psychological state of the Chinese population from the perspective of sports resources",
-    "title_es": "El impacto de la participación deportiva en el estado psicológico de la población china desde la perspectiva de los recursos deportivos.",
+    "title": "Effect of an herbal supplement on quality of life in participants with insomnia: A randomized placebo controlled cross-over pilot trial",
+    "title_es": "Efecto de un suplemento a base de hierbas sobre la calidad de vida en participantes con insomnio: un ensayo piloto cruzado, aleatorizado, controlado con placebo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "impacto",
-      "participación",
-      "deportiva"
+      "efecto",
+      "suplemento",
+      "base"
     ]
   },
   {
@@ -104053,6 +104207,34 @@
       "dark",
       "wolf",
       "nebula"
+    ]
+  },
+  {
+    "title": "Emergent hydrodynamics in an exclusion process with long-range interactions, by Ali Zahra, Jerome Dubail, Gunter M. Schütz",
+    "title_es": "Emergent hydrodynamics in an exclusion process with long-range interactions, by Ali Zahra, Jerome Dubail, Gunter M. Schütz",
+    "url": "https://scipost.org/scipostphys.20.5.141",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "emergent",
+      "hydrodynamics",
+      "exclusion"
+    ]
+  },
+  {
+    "title": "A Collision of Galaxy Clusters",
+    "title_es": "A Collision of Galaxy Clusters",
+    "url": "https://apod.nasa.gov/apod/image/2605/a2029.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "collision",
+      "galaxy",
+      "clusters"
     ]
   }
 ]
