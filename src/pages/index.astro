@@ -1,24 +1,15 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Seo from "../components/Seo.astro";
-
-const SITE = import.meta.env.PUBLIC_SITE;
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout>
-  <Seo
-    slot="head"
-    title="Inicio | FuturoCientífico"
-    description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
-    site={SITE}
-    ogImage="/whatsapp-futurocientifico.webp"
-    alternates={[
-      { hreflang: "es", href: "https://futurocientifico.es/" },
-    ]}
-  />
+<Layout
+  title="Inicio | FuturoCientífico"
+  description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
+>
 
-  <!-- HERO PRINCIPAL -->
+  <!-- HERO -->
   <section class="max-w-5xl mx-auto mb-10" aria-labelledby="titulo-inicio">
+
     <div class="overflow-hidden rounded-2xl shadow-lg bg-white border border-blue-100">
 
       <img
@@ -31,6 +22,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
       />
 
       <div class="text-center px-6 py-8 bg-white">
+
         <h1
           id="titulo-inicio"
           class="text-3xl md:text-4xl font-bold text-blue-900"
@@ -44,6 +36,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
         </p>
 
         <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+
           <a
             href="/revistas"
             class="inline-block px-6 py-3 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 transition"
@@ -59,102 +52,242 @@ const SITE = import.meta.env.PUBLIC_SITE;
           >
             Ver EduFlash
           </a>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- CONTENIDO PRINCIPAL -->
+  <!-- INTRODUCCIÓN VISUAL -->
   <section
-    class="max-w-4xl mx-auto text-sm text-gray-700 space-y-6"
+    class="max-w-5xl mx-auto mb-12"
     aria-labelledby="contenido-inicio"
   >
-    <p>
-      <strong>FuturoCientífico</strong> nace del compromiso con una ciencia
-      accesible, divertida y actual. Este sitio está diseñado para estudiantes,
-      familias, docentes y cualquier persona curiosa que desee aprender sobre
-      ciencia cada día, sin barreras.
-    </p>
 
-    <p>
-      Gracias a tecnologías como Astro, IA generativa y automatización, la
-      plataforma se actualiza diariamente con contenidos fiables. Aquí
-      encontrarás rutas educativas, noticias científicas, recursos descargables
-      y muchas ideas para crecer en el mundo de la ciencia.
-    </p>
+    <div class="bg-white rounded-2xl shadow-sm border border-blue-100 p-6 md:p-8">
 
-    <h2
-      id="contenido-inicio"
-      class="text-xl font-semibold text-blue-900 mt-8"
-    >
-      ¿Qué puedes encontrar aquí?
-    </h2>
+      <h2
+        id="contenido-inicio"
+        class="text-2xl font-bold text-blue-900 text-center"
+      >
+        Ciencia accesible para mentes curiosas
+      </h2>
 
-    <ul class="list-disc pl-5 space-y-2 leading-relaxed">
-      <li>
-        <strong>
-          <a href="/formacion" class="hover:underline">Formación</a>
-        </strong>:
-        Guías y orientación para todos los niveles, desde primaria hasta
-        universidad, FP y especializaciones científicas.
-      </li>
+      <p class="mt-4 text-center text-gray-700 leading-relaxed max-w-3xl mx-auto">
+        FuturoCientífico acerca la ciencia a estudiantes, docentes, familias y
+        personas curiosas mediante contenidos educativos, noticias científicas,
+        recursos y divulgación explicada de forma clara y visual.
+      </p>
 
-      <li>
-        <strong>
-          <a href="/recursos" class="hover:underline">Recursos</a>
-        </strong>:
-        Plataformas, apps, simuladores, podcasts y materiales para aprender y
-        enseñar ciencia de forma dinámica.
-      </li>
+    </div>
 
-      <li>
-        <strong>
-          <a href="/eduflash" class="hover:underline">EduFlash</a>
-        </strong>:
-        Noticias educativas y científicas seleccionadas diariamente.
-      </li>
-
-      <li>
-        <strong>
-          <a href="/revistas" class="hover:underline">Revistas</a>
-        </strong>:
-        Novedades científicas, enlaces a publicaciones especializadas y centros
-        de investigación.
-      </li>
-
-      <li>
-        <strong>
-          <a href="/preguntona" class="hover:underline">Preguntona</a>
-        </strong>:
-        Curiosidades, preguntas científicas, mitos desmontados y experimentos
-        para hacer en casa explicados de forma sencilla.
-      </li>
-
-      <li>
-        <strong>
-          <a href="/apoya" class="hover:underline">Apóyanos</a>
-        </strong>:
-        Opciones para colaborar con el proyecto y mantener su crecimiento
-        sostenible.
-      </li>
-
-      <li>
-        <strong>
-          <a href="/quienes-somos" class="hover:underline">Quiénes somos</a>
-        </strong>:
-        La historia y motivación del creador del sitio y la visión educativa que
-        impulsa FuturoCientífico.
-      </li>
-    </ul>
-
-    <p>
-      Este sitio es libre, accesible y pensado para compartir conocimiento sin
-      barreras. Si te resulta útil, compártelo y ayúdanos a llegar a más futuros
-      científicos.
-    </p>
   </section>
 
-  <!-- ADSENSE -->
+  <!-- HOY EN CIENCIA -->
+  <section
+    class="max-w-5xl mx-auto mb-12"
+    aria-labelledby="hoy-ciencia"
+  >
+
+    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-100 rounded-2xl p-6 shadow-sm">
+
+      <div class="flex items-center gap-2 mb-3">
+
+        <span class="text-2xl">🔬</span>
+
+        <h2
+          id="hoy-ciencia"
+          class="text-2xl font-bold text-blue-900"
+        >
+          Hoy en ciencia
+        </h2>
+
+      </div>
+
+      <p class="text-gray-700 leading-relaxed">
+        Descubre contenidos científicos actualizados diariamente:
+        investigaciones, recursos educativos, curiosidades y avances explicados
+        de forma sencilla para todos los públicos.
+      </p>
+
+      <div class="mt-5">
+
+        <a
+          href="/revistas"
+          class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow"
+        >
+          Ver últimas publicaciones
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TARJETAS VISUALES -->
+  <section
+    class="max-w-6xl mx-auto mb-14"
+    aria-labelledby="explorar-secciones"
+  >
+
+    <h2
+      id="explorar-secciones"
+      class="text-2xl font-bold text-blue-900 mb-6 text-center"
+    >
+      Explora FuturoCientífico
+    </h2>
+
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+      <a
+        href="/formacion"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">🎓</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          Formación
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Guías y orientación científica para todas las edades y niveles.
+        </p>
+
+      </a>
+
+      <a
+        href="/recursos"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">🧰</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          Recursos
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Apps, simuladores, herramientas y materiales educativos.
+        </p>
+
+      </a>
+
+      <a
+        href="/eduflash"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">⚡</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          EduFlash
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Noticias científicas y educativas resumidas de forma rápida.
+        </p>
+
+      </a>
+
+      <a
+        href="/revistas"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">📚</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          Revistas
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Publicaciones científicas, investigaciones y novedades.
+        </p>
+
+      </a>
+
+      <a
+        href="/preguntona"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">❓</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          Preguntona
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Curiosidades, preguntas científicas y explicaciones sencillas.
+        </p>
+
+      </a>
+
+      <a
+        href="/apoya"
+        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
+      >
+
+        <div class="text-4xl mb-4">💖</div>
+
+        <h3 class="text-lg font-bold text-blue-900">
+          Apóyanos
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Ayuda a mantener este proyecto científico abierto y gratuito.
+        </p>
+
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- DESCUBRIMIENTO -->
+  <section class="max-w-4xl mx-auto mb-14 text-center">
+
+    <div class="bg-gradient-to-r from-purple-100 to-blue-100 rounded-2xl p-8 shadow-sm border border-purple-200">
+
+      <div class="text-5xl mb-4">🎲</div>
+
+      <h2 class="text-2xl font-bold text-blue-900">
+        Descubrir algo nuevo
+      </h2>
+
+      <p class="mt-3 text-gray-700 max-w-2xl mx-auto">
+        Explora preguntas curiosas, revistas científicas y contenidos educativos
+        para aprender algo diferente cada día.
+      </p>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+
+        <a
+          href="/preguntona"
+          class="px-6 py-3 rounded-full bg-purple-700 text-white hover:bg-purple-800 transition shadow"
+        >
+          Ir a Preguntona
+        </a>
+
+        <a
+          href="/revistas"
+          class="px-6 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow"
+        >
+          Explorar revistas
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ANUNCIO -->
   <ins
     class="adsbygoogle"
     style="display:block"
@@ -164,56 +297,4 @@ const SITE = import.meta.env.PUBLIC_SITE;
     data-full-width-responsive="true"
   ></ins>
 
-  <script>
-    if (typeof window !== "undefined") {
-      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-        window.adsbygoogle.push({});
-      } else {
-        const interval = setInterval(() => {
-          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-            window.adsbygoogle.push({});
-            clearInterval(interval);
-          }
-        }, 300);
-      }
-    }
-  </script>
-
-  <!-- BLOQUES EXTRA -->
-  <section
-    class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm"
-    aria-labelledby="explora-mas"
-  >
-    <div class="max-w-7xl mx-auto px-4">
-      <h2
-        id="explora-mas"
-        class="text-xl font-bold text-purple-800 mb-4 text-center"
-      >
-        Explora más contenido
-      </h2>
-
-      <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-        <a
-          href="/formacion"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          🎓 Rutas educativas para todas las edades.
-        </a>
-
-        <a
-          href="/recursos"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          📚 Herramientas para aprender y enseñar ciencia.
-        </a>
-
-        <a
-          href="/preguntona"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          🧠 Responde preguntas científicas divertidas.
-        </a>
-      </div>
-    </div>
-  </section>
 </Layout>
