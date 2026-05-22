@@ -22,9 +22,7 @@ const latestArticle = articles?.[0];
 
   <!-- HERO PRINCIPAL -->
   <section class="max-w-5xl mx-auto mb-10" aria-labelledby="titulo-inicio">
-
     <div class="overflow-hidden rounded-2xl shadow-lg bg-white border border-blue-100">
-
       <img
         src="/whatsapp-futurocientifico.webp"
         alt="Banner de FuturoCientífico, ciencia fácil para mentes curiosas"
@@ -35,11 +33,7 @@ const latestArticle = articles?.[0];
       />
 
       <div class="text-center px-6 py-8 bg-white">
-
-        <h1
-          id="titulo-inicio"
-          class="text-3xl md:text-4xl font-bold text-blue-900"
-        >
+        <h1 id="titulo-inicio" class="text-3xl md:text-4xl font-bold text-blue-900">
           Bienvenidos a FuturoCientífico
         </h1>
 
@@ -49,43 +43,22 @@ const latestArticle = articles?.[0];
         </p>
 
         <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-
-          <a
-            href="/revistas"
-            class="inline-block px-6 py-3 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 transition"
-            aria-label="Ver revistas científicas"
-          >
+          <a href="/revistas" class="inline-block px-6 py-3 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 transition">
             Ver revistas científicas
           </a>
 
-          <a
-            href="/eduflash"
-            class="inline-block px-6 py-3 bg-yellow-500 text-white rounded-full shadow hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 transition"
-            aria-label="Ver sección EduFlash"
-          >
+          <a href="/eduflash" class="inline-block px-6 py-3 bg-yellow-500 text-white rounded-full shadow hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 transition">
             Ver EduFlash
           </a>
-
         </div>
-
       </div>
-
     </div>
-
   </section>
 
   <!-- INTRODUCCIÓN VISUAL -->
-  <section
-    class="max-w-5xl mx-auto mb-12"
-    aria-labelledby="contenido-inicio"
-  >
-
+  <section class="max-w-5xl mx-auto mb-12" aria-labelledby="contenido-inicio">
     <div class="bg-white rounded-2xl shadow-sm border border-blue-100 p-6 md:p-8">
-
-      <h2
-        id="contenido-inicio"
-        class="text-2xl font-bold text-blue-900 text-center"
-      >
+      <h2 id="contenido-inicio" class="text-2xl font-bold text-blue-900 text-center">
         Ciencia accesible para mentes curiosas
       </h2>
 
@@ -94,38 +67,30 @@ const latestArticle = articles?.[0];
         personas curiosas mediante contenidos educativos, noticias científicas,
         recursos y divulgación explicada de forma clara y visual.
       </p>
-
     </div>
-
   </section>
 
   <!-- HOY EN CIENCIA DINÁMICO -->
-  <section
-    class="max-w-5xl mx-auto mb-12"
-    aria-labelledby="hoy-ciencia"
-  >
-
+  <section class="max-w-5xl mx-auto mb-12" aria-labelledby="hoy-ciencia">
     <div class="bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-100 rounded-2xl p-6 shadow-sm">
-
       <div class="flex items-center gap-2 mb-5">
-
         <span class="text-2xl">🔬</span>
-
-        <h2
-          id="hoy-ciencia"
-          class="text-2xl font-bold text-blue-900"
-        >
+        <h2 id="hoy-ciencia" class="text-2xl font-bold text-blue-900">
           Hoy en ciencia
         </h2>
-
       </div>
 
       {latestArticle && (
-
-        <article class="space-y-4">
+        <article class="space-y-5">
+          <img
+            src={latestArticle.image || "/whatsapp-futurocientifico.webp"}
+            alt={latestArticle.title_es || latestArticle.title || "Imagen destacada de ciencia"}
+            class="w-full aspect-[16/9] object-cover rounded-2xl border border-blue-100 shadow-sm bg-white"
+            loading="lazy"
+            decoding="async"
+          />
 
           <div class="flex flex-wrap items-center gap-2 text-sm">
-
             <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-medium">
               {latestArticle.source}
             </span>
@@ -133,7 +98,6 @@ const latestArticle = articles?.[0];
             <span class="text-gray-500">
               {latestArticle.date}
             </span>
-
           </div>
 
           <h3 class="text-2xl font-bold text-blue-900 leading-tight">
@@ -146,7 +110,6 @@ const latestArticle = articles?.[0];
           </p>
 
           <div class="flex flex-col sm:flex-row gap-3 pt-2">
-
             <a
               href={latestArticle.url}
               target="_blank"
@@ -162,107 +125,60 @@ const latestArticle = articles?.[0];
             >
               Ver más noticias
             </a>
-
           </div>
-
         </article>
-
       )}
-
     </div>
-
   </section>
 
   <!-- TARJETAS VISUALES -->
-  <section
-    class="max-w-6xl mx-auto mb-14"
-    aria-labelledby="explorar-secciones"
-  >
-
-    <h2
-      id="explorar-secciones"
-      class="text-2xl font-bold text-blue-900 mb-6 text-center"
-    >
+  <section class="max-w-6xl mx-auto mb-14" aria-labelledby="explorar-secciones">
+    <h2 id="explorar-secciones" class="text-2xl font-bold text-blue-900 mb-6 text-center">
       Explora FuturoCientífico
     </h2>
 
     <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-
-      <a
-        href="/formacion"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/formacion" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">🎓</div>
         <h3 class="text-lg font-bold text-blue-900">Formación</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Guías y orientación científica para todas las edades y niveles.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Guías y orientación científica para todas las edades y niveles.</p>
       </a>
 
-      <a
-        href="/recursos"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/recursos" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">🧰</div>
         <h3 class="text-lg font-bold text-blue-900">Recursos</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Apps, simuladores, herramientas y materiales educativos.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Apps, simuladores, herramientas y materiales educativos.</p>
       </a>
 
-      <a
-        href="/eduflash"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/eduflash" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">⚡</div>
         <h3 class="text-lg font-bold text-blue-900">EduFlash</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Noticias científicas y educativas resumidas de forma rápida.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Noticias científicas y educativas resumidas de forma rápida.</p>
       </a>
 
-      <a
-        href="/revistas"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/revistas" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">📚</div>
         <h3 class="text-lg font-bold text-blue-900">Revistas</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Publicaciones científicas, investigaciones y novedades.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Publicaciones científicas, investigaciones y novedades.</p>
       </a>
 
-      <a
-        href="/preguntona"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/preguntona" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">❓</div>
         <h3 class="text-lg font-bold text-blue-900">Preguntona</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Curiosidades, preguntas científicas y explicaciones sencillas.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Curiosidades, preguntas científicas y explicaciones sencillas.</p>
       </a>
 
-      <a
-        href="/apoya"
-        class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition"
-      >
+      <a href="/apoya" class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm hover:shadow-md transition">
         <div class="text-4xl mb-4">💖</div>
         <h3 class="text-lg font-bold text-blue-900">Apóyanos</h3>
-        <p class="mt-2 text-sm text-gray-700">
-          Ayuda a mantener este proyecto científico abierto y gratuito.
-        </p>
+        <p class="mt-2 text-sm text-gray-700">Ayuda a mantener este proyecto científico abierto y gratuito.</p>
       </a>
-
     </div>
-
   </section>
 
   <!-- DESCUBRIMIENTO -->
   <section class="max-w-4xl mx-auto mb-14 text-center">
-
     <div class="bg-gradient-to-r from-purple-100 to-blue-100 rounded-2xl p-8 shadow-sm border border-purple-200">
-
       <div class="text-5xl mb-4">🎲</div>
 
       <h2 class="text-2xl font-bold text-blue-900">
@@ -275,25 +191,15 @@ const latestArticle = articles?.[0];
       </p>
 
       <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-
-        <a
-          href="/preguntona"
-          class="px-6 py-3 rounded-full bg-purple-700 text-white hover:bg-purple-800 transition shadow"
-        >
+        <a href="/preguntona" class="px-6 py-3 rounded-full bg-purple-700 text-white hover:bg-purple-800 transition shadow">
           Ir a Preguntona
         </a>
 
-        <a
-          href="/revistas"
-          class="px-6 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow"
-        >
+        <a href="/revistas" class="px-6 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow">
           Explorar revistas
         </a>
-
       </div>
-
     </div>
-
   </section>
 
   <!-- ADSENSE -->
@@ -320,48 +226,4 @@ const latestArticle = articles?.[0];
       }
     }
   </script>
-
-  <!-- BLOQUES EXTRA -->
-  <section
-    class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm"
-    aria-labelledby="explora-mas"
-  >
-    <div class="max-w-7xl mx-auto px-4">
-
-      <h2
-        id="explora-mas"
-        class="text-xl font-bold text-purple-800 mb-4 text-center"
-      >
-        Explora más contenido
-      </h2>
-
-      <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-
-        <a
-          href="/formacion"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          🎓 Rutas educativas para todas las edades.
-        </a>
-
-        <a
-          href="/recursos"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          📚 Herramientas para aprender y enseñar ciencia.
-        </a>
-
-        <a
-          href="/preguntona"
-          class="bg-white p-4 rounded-lg border hover:shadow transition"
-        >
-          🧠 Responde preguntas científicas divertidas.
-        </a>
-
-      </div>
-
-    </div>
-
-  </section>
-
 </Layout>
