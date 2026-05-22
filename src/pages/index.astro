@@ -1,8 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Seo from "../components/Seo.astro";
+import articles from "../../public/articles_enriched.json";
 
 const SITE = import.meta.env.PUBLIC_SITE;
+
+const latestArticle = articles?.[0];
 ---
 
 <Layout>
@@ -19,6 +22,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
 
   <!-- HERO PRINCIPAL -->
   <section class="max-w-5xl mx-auto mb-10" aria-labelledby="titulo-inicio">
+
     <div class="overflow-hidden rounded-2xl shadow-lg bg-white border border-blue-100">
 
       <img
@@ -31,6 +35,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
       />
 
       <div class="text-center px-6 py-8 bg-white">
+
         <h1
           id="titulo-inicio"
           class="text-3xl md:text-4xl font-bold text-blue-900"
@@ -44,6 +49,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
         </p>
 
         <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+
           <a
             href="/revistas"
             class="inline-block px-6 py-3 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 transition"
@@ -59,9 +65,13 @@ const SITE = import.meta.env.PUBLIC_SITE;
           >
             Ver EduFlash
           </a>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
   <!-- INTRODUCCIÓN VISUAL -->
@@ -69,6 +79,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
     class="max-w-5xl mx-auto mb-12"
     aria-labelledby="contenido-inicio"
   >
+
     <div class="bg-white rounded-2xl shadow-sm border border-blue-100 p-6 md:p-8">
 
       <h2
@@ -85,16 +96,19 @@ const SITE = import.meta.env.PUBLIC_SITE;
       </p>
 
     </div>
+
   </section>
 
-  <!-- HOY EN CIENCIA -->
+  <!-- HOY EN CIENCIA DINÁMICO -->
   <section
     class="max-w-5xl mx-auto mb-12"
     aria-labelledby="hoy-ciencia"
   >
+
     <div class="bg-gradient-to-br from-blue-50 to-cyan-50 border border-blue-100 rounded-2xl p-6 shadow-sm">
 
-      <div class="flex items-center gap-2 mb-3">
+      <div class="flex items-center gap-2 mb-5">
+
         <span class="text-2xl">🔬</span>
 
         <h2
@@ -103,24 +117,60 @@ const SITE = import.meta.env.PUBLIC_SITE;
         >
           Hoy en ciencia
         </h2>
+
       </div>
 
-      <p class="text-gray-700 leading-relaxed">
-        Descubre contenidos científicos actualizados diariamente:
-        investigaciones, recursos educativos, curiosidades y avances explicados
-        de forma sencilla para todos los públicos.
-      </p>
+      {latestArticle && (
 
-      <div class="mt-5">
-        <a
-          href="/revistas"
-          class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow"
-        >
-          Ver últimas publicaciones
-        </a>
-      </div>
+        <article class="space-y-4">
+
+          <div class="flex flex-wrap items-center gap-2 text-sm">
+
+            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-medium">
+              {latestArticle.source}
+            </span>
+
+            <span class="text-gray-500">
+              {latestArticle.date}
+            </span>
+
+          </div>
+
+          <h3 class="text-2xl font-bold text-blue-900 leading-tight">
+            {latestArticle.title_es || latestArticle.title}
+          </h3>
+
+          <p class="text-gray-700 leading-relaxed">
+            Descubre una de las últimas novedades científicas seleccionadas
+            automáticamente desde fuentes científicas internacionales.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-3 pt-2">
+
+            <a
+              href={latestArticle.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow"
+            >
+              Leer publicación
+            </a>
+
+            <a
+              href="/revistas"
+              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-white border border-blue-200 text-blue-900 hover:bg-blue-50 transition shadow-sm"
+            >
+              Ver más noticias
+            </a>
+
+          </div>
+
+        </article>
+
+      )}
 
     </div>
+
   </section>
 
   <!-- TARJETAS VISUALES -->
@@ -245,6 +295,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
     </div>
 
   </section>
+
   <!-- ADSENSE -->
   <ins
     class="adsbygoogle"
@@ -276,6 +327,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
     aria-labelledby="explora-mas"
   >
     <div class="max-w-7xl mx-auto px-4">
+
       <h2
         id="explora-mas"
         class="text-xl font-bold text-purple-800 mb-4 text-center"
@@ -284,6 +336,7 @@ const SITE = import.meta.env.PUBLIC_SITE;
       </h2>
 
       <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
+
         <a
           href="/formacion"
           class="bg-white p-4 rounded-lg border hover:shadow transition"
@@ -304,7 +357,11 @@ const SITE = import.meta.env.PUBLIC_SITE;
         >
           🧠 Responde preguntas científicas divertidas.
         </a>
+
       </div>
+
     </div>
+
   </section>
+
 </Layout>
