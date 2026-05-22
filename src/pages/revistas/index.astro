@@ -7,7 +7,6 @@ import path from "node:path";
 
 const PER_PAGE = 5;
 const JSON_PATH = path.join(process.cwd(), "public", "articles_enriched.json");
-const DISCOVERY_JSON_PATH = path.join(process.cwd(), "public", "discovery_weekly.json");
 
 let allArticles = [];
 try {
@@ -16,15 +15,6 @@ try {
   allArticles = Array.isArray(parsed) ? parsed : [];
 } catch {
   allArticles = [];
-}
-
-let weeklyDiscovery = null;
-try {
-  const rawDiscovery = await fs.readFile(DISCOVERY_JSON_PATH, "utf-8");
-  const parsedDiscovery = JSON.parse(rawDiscovery);
-  weeklyDiscovery = parsedDiscovery && typeof parsedDiscovery === "object" ? parsedDiscovery : null;
-} catch {
-  weeklyDiscovery = null;
 }
 
 allArticles = allArticles
@@ -60,66 +50,6 @@ const formatDateES = (value) => {
       Un espacio para descubrir artículos actualizados, explorar centros de investigación y aprender cómo se construye el conocimiento científico.
     </p>
   </section>
-
-  {weeklyDiscovery && (
-    <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
-      <div class="bg-white rounded-xl p-6 shadow-md">
-        <div class="text-center mb-4">
-          <h2 class="text-2xl font-bold text-purple-900">
-          🚀 Descubrimiento de la semana
-          </h2>
-          <p class="text-purple-700 text-sm mt-2 max-w-2xl">
-  Una selección semanal de investigaciones sorprendentes que están cambiando la ciencia y la tecnología.
-</p>
-          {weeklyDiscovery?.source && (
-            <span class="text-sm text-purple-700 font-medium">
-              {weeklyDiscovery.source}
-            </span>
-          )}
-
-        </div>
-
-        <h2 class="text-2xl md:text-3xl font-bold text-purple-900 mb-3">
-          {weeklyDiscovery?.title_es ?? weeklyDiscovery?.title_en ?? "Descubrimiento destacado"}
-        </h2>
-
-       {weeklyDiscovery?.description_es && (
-  <p class="text-purple-700 max-w-3xl mb-4">
-    {weeklyDiscovery.description_es}
-  </p>
-  )}
-
-{weeklyDiscovery?.tags && (
-  <div class="flex flex-wrap gap-2 mb-4">
-    {weeklyDiscovery.tags.map((tag) => (
-      <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2 py-1 rounded-full">
-        #{tag}
-      </span>
-    ))}
-  </div>
-)}
-
-<div class="flex flex-wrap items-center gap-3">
-
-        <div class="flex flex-wrap items-center gap-3">
-          <a
-            href={weeklyDiscovery?.pdf || weeklyDiscovery?.url || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow"
-          >
-            Abrir publicación
-          </a>
-
-          {weeklyDiscovery?.doi && (
-            <span class="text-sm text-gray-600 break-all">
-              DOI: {weeklyDiscovery.doi}
-            </span>
-          )}
-        </div>
-      </div>
-    </section>
-  )}
 
   <section class="bg-purple-50 py-6 px-4 max-w-6xl mx-auto rounded-xl shadow-sm mb-8">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start" id="articles-block">
@@ -287,67 +217,48 @@ const formatDateES = (value) => {
       </h2>
       <ul class="list-disc pl-6 text-purple-700 space-y-2">
         <li>
-          <a
-            href="https://revistas.csic.es/"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Revistas electrónicas del CSIC (abre en pestaña nueva)"
-          >CSIC – Revistas electrónicas en acceso abierto</a>
+          <a href="https://revistas.csic.es/" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            CSIC – Revistas electrónicas en acceso abierto
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.cnio.es/investigacion-e-innovacion/publicaciones-cientificas/"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Publicaciones científicas del CNIO (abre en pestaña nueva)"
-          >CNIO – Publicaciones científicas</a>
+          <a href="https://www.cnio.es/investigacion-e-innovacion/publicaciones-cientificas/" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            CNIO – Publicaciones científicas
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.cnic.es/es/investigacion/noticias"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Publicaciones del CNIC (sección del ISCIII, abre en pestaña nueva)"
-          >CNIC – Publicaciones científicas</a>
+          <a href="https://www.cnic.es/es/investigacion/noticias" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            CNIC – Publicaciones científicas
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.iac.es/es/ciencia-y-tecnologia/publicaciones"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Base de datos de publicaciones del IAC (abre en pestaña nueva)"
-          >IAC – Base de datos de publicaciones científicas</a>
+          <a href="https://www.iac.es/es/ciencia-y-tecnologia/publicaciones" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            IAC – Base de datos de publicaciones científicas
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.isciii.es/divulgacion"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Artículos de divulgación científica del ISCIII (abre en pestaña nueva)"
-          >ISCIII – Artículos de divulgación científica</a>
+          <a href="https://www.isciii.es/divulgacion" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            ISCIII – Artículos de divulgación científica
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.inta.es/descubre-y-aprende/es/"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Información sobre Ediciones INTA (Wikipedia, abre en pestaña nueva)"
-          >INTA – Ediciones (revistas y libros)</a>
+          <a href="https://www.inta.es/descubre-y-aprende/es/" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            INTA – Ediciones, revistas y libros
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.idibaps.org/"
-            class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Página principal del IDIBAPS (abre en pestaña nueva)"
-          >IDIBAPS – Centro de investigación biomédica</a>
+          <a href="https://www.idibaps.org/" class="underline font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            IDIBAPS – Centro de investigación biomédica
+          </a>
         </li>
       </ul>
     </div>
 
     <div class="bg-purple-50 py-6 px-4 rounded-xl shadow-sm">
-      <h2 class="text-2xl font-bold text-purple-900 mb-4">🔍 Cómo encontrar artículos científicos fiables</h2>
-      <ul class="list-disc pl-6 text-purple-700">
+      <h2 class="text-2xl font-bold text-purple-900 mb-4">
+        🔍 Cómo encontrar artículos científicos fiables
+      </h2>
+      <ul class="list-disc pl-6 text-purple-700 space-y-2">
         <li><a href="https://scholar.google.es" class="underline font-semibold" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
         <li><a href="https://pubmed.ncbi.nlm.nih.gov" class="underline font-semibold" target="_blank" rel="noopener noreferrer">PubMed</a></li>
         <li><a href="https://doaj.org" class="underline font-semibold" target="_blank" rel="noopener noreferrer">DOAJ</a></li>
@@ -362,44 +273,29 @@ const formatDateES = (value) => {
       </h2>
       <ul class="list-disc pl-6 text-purple-700 space-y-2">
         <li>
-          <a
-            href="https://undsci.berkeley.edu/glossary/"
-            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Glosario de términos científicos de Understanding Science (abre en pestaña nueva)"
-          >Glosario de términos científicos – Understanding Science (UC Berkeley)</a>
+          <a href="https://undsci.berkeley.edu/glossary/" class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            Glosario de términos científicos – Understanding Science
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.cochrane.org/es/evidence"
-            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Cochrane resúmenes en lenguaje sencillo en español (abre en pestaña nueva)"
-          >Cochrane – Resúmenes en lenguaje sencillo (ES)</a>
+          <a href="https://www.cochrane.org/es/evidence" class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            Cochrane – Resúmenes en lenguaje sencillo
+          </a>
         </li>
         <li>
-          <a
-            href="https://es.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots"
-            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Khan Academy en español: cómo interpretar gráficos (abre en pestaña nueva)"
-          >Khan Academy (ES) – Cómo interpretar gráficos</a>
+          <a href="https://es.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/dot-plot/e/analyzing-with-dot-plots" class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            Khan Academy – Cómo interpretar gráficos
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.quantamagazine.org/tag/explainers/"
-            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Quanta Magazine explicadores científicos (abre en pestaña nueva)"
-          >Quanta Magazine – Explicadores de ciencia</a>
+          <a href="https://www.quantamagazine.org/tag/explainers/" class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            Quanta Magazine – Explicadores de ciencia
+          </a>
         </li>
         <li>
-          <a
-            href="https://www.agenciasinc.es/"
-            class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500"
-            target="_blank" rel="noopener noreferrer"
-            aria-label="Agencia SINC portal de noticias científicas en español (abre en pestaña nueva)"
-          >Agencia SINC – Ciencia en español</a>
+          <a href="https://www.agenciasinc.es/" class="underline focus:outline-none focus-visible:ring-2 focus-visible:ring-purple-500" target="_blank" rel="noopener noreferrer">
+            Agencia SINC – Ciencia en español
+          </a>
         </li>
         <li>
           <strong>Consejo:</strong> busca la sección de “Discusión” o “Conclusiones” y verifica si el artículo incluye un
@@ -412,7 +308,9 @@ const formatDateES = (value) => {
   <section class="bg-purple-100 mt-12 py-6 rounded-xl shadow-sm">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h2 class="text-xl font-bold text-purple-800 mb-4">¿Quieres aprender a leer ciencia?</h2>
-      <p class="text-purple-700 mb-4">Explora nuestras secciones de formación, recursos y ciencia ciudadana para descubrir más herramientas y contenidos.</p>
+      <p class="text-purple-700 mb-4">
+        Explora nuestras secciones de formación, recursos y ciencia ciudadana para descubrir más herramientas y contenidos.
+      </p>
       <div class="flex justify-center gap-4 flex-wrap">
         <a href="/formacion" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Formación</a>
         <a href="/recursos" class="bg-purple-700 hover:bg-purple-800 text-white py-2 px-4 rounded-xl shadow">Recursos</a>
@@ -421,12 +319,15 @@ const formatDateES = (value) => {
     </div>
   </section>
 
-  <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="6134548917"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-2163450732409344"
+    data-ad-slot="6134548917"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+
   <script>
     if (typeof window !== "undefined") {
       if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
