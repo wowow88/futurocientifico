@@ -4,44 +4,81 @@ type Alternate = { hreflang: string; href: string };
 const {
   title = "FuturoCientífico",
   description = "Divulgación científica para todas las edades.",
-  site, // compat: en tu proyecto lo usas como canonical absoluto
-  canonical, // nuevo (opcional)
+  site,
+  canonical,
   lang = "es",
   robots = "index,follow",
-  ogImage, // opcional
-  alternates = [] as Alternate[], // opcional: [{ hreflang:"en", href:"https://..." }, ...]
+  ogImage,
+  alternates = [] as Alternate[],
+
+  // Opcionales para artículos
+  type = "website",
+  publishedTime,
+  modifiedTime,
+  author = "FuturoCientífico",
+  section,
+  tags = [],
 } = Astro.props;
 
-// Canonical final (prioridad: canonical > site > Astro.url.href)
 const canonicalUrl = canonical ?? site ?? Astro.url.href;
-
-// Imagen social: usa una existente (ajusta si tienes un og dedicado)
 const origin = new URL(canonicalUrl).origin;
-const ogImageUrl = ogImage ? new URL(ogImage, origin).href : new URL("/avatar-cientifico.webp", origin).href;
 
+const defaultImage = "/avatar-cientifico.webp";
+const ogImageUrl = ogImage
+  ? new URL(ogImage, origin).href
+  : new URL(defaultImage, origin).href;
 
-// JSON-LD
+const locale = lang === "en" ? "en_US" : "es_ES";
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": `${new URL(canonicalUrl).origin}/#website`,
-      "url": new URL(canonicalUrl).origin,
-      "name": "FuturoCientífico",
-      "inLanguage": lang
+      "@id": `${origin}/#website`,
+      url: origin,
+      name: "FuturoCientífico",
+      description: "Divulgación científica, educación y descubrimientos para todos.",
+      inLanguage: lang,
     },
     {
       "@type": "Organization",
-      "@id": `${new URL(canonicalUrl).origin}/#organization`,
-      "name": "FuturoCientífico",
-      "url": new URL(canonicalUrl).origin,
-      "logo": {
+      "@id": `${origin}/#organization`,
+      name: "FuturoCientífico",
+      url: origin,
+      logo: {
         "@type": "ImageObject",
-        "url": new URL(ogImageUrl, new URL(canonicalUrl).origin).href
-      }
-    }
-  ]
+        url: ogImageUrl,
+      },
+    },
+    ...(type === "article"
+      ? [
+          {
+            "@type": "NewsArticle",
+            "@id": `${canonicalUrl}#article`,
+            headline: title,
+            description,
+            image: [ogImageUrl],
+            datePublished: publishedTime,
+            dateModified: modifiedTime ?? publishedTime,
+            author: {
+              "@type": "Organization",
+              name: author,
+            },
+            publisher: {
+              "@id": `${origin}/#organization`,
+            },
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": canonicalUrl,
+            },
+            articleSection: section,
+            keywords: Array.isArray(tags) ? tags.join(", ") : tags,
+            inLanguage: lang,
+          },
+        ]
+      : []),
+  ],
 };
 ---
 
@@ -52,22 +89,40 @@ const jsonLd = {
 
 <link rel="canonical" href={canonicalUrl} />
 
-{alternates?.length > 0 && alternates.map((a) => (
-  <link rel="alternate" hreflang={a.hreflang} href={a.href} />
-))}
+{alternates?.length > 0 &&
+  alternates.map((a) => (
+    <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+  ))}
 
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
+<meta property="og:type" content={type === "article" ? "article" : "website"} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
-<meta property="og:locale" content={lang === "es" ? "es_ES" : "en_US"} />
+<meta property="og:site_name" content="FuturoCientífico" />
+<meta property="og:locale" content={locale} />
 <meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:alt" content={title} />
 
-<!-- Twitter -->
+{type === "article" && publishedTime && (
+  <meta property="article:published_time" content={publishedTime} />
+)}
+
+{type === "article" && modifiedTime && (
+  <meta property="article:modified_time" content={modifiedTime} />
+)}
+
+{type === "article" && section && (
+  <meta property="article:section" content={section} />
+)}
+
+{type === "article" &&
+  Array.isArray(tags) &&
+  tags.map((tag) => <meta property="article:tag" content={tag} />)}
+
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageUrl} />
+<meta name="twitter:image:alt" content={title} />
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
