@@ -1,5 +1,89 @@
 [
   {
+    "title": "Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding",
+    "title_es": "Transformador contrastivo temporal para la detección de delitos financieros: incrustaciones de secuencias auto-supervisadas a través de codificación contrastiva predictiva",
+    "url": "https://arxiv.org/abs/2605.21490",
+    "source": "arXiv",
+    "published": "2026-05-22T04:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "temporal",
+      "contrastive",
+      "transformer"
+    ]
+  },
+  {
+    "title": "Tornado Draws a Jagged Line in Mississippi",
+    "title_es": "Tornado dibuja una línea irregular en Mississippi",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "tornado",
+      "dibuja",
+      "línea"
+    ]
+  },
+  {
+    "title": "“Zombie cells” aren’t always bad and that could transform anti-aging medicine",
+    "title_es": "Las “células zombis” no siempre son malas y eso podría transformar la medicina antienvejecimiento",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260521072402.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "células",
+      "zombis",
+      "siempre"
+    ]
+  },
+  {
+    "title": "Mangrove loss threatens Sierra Leone's oyster harvesters",
+    "title_es": "La pérdida de manglares amenaza a los recolectores de ostras de Sierra Leona",
+    "url": "https://phys.org/news/2026-05-mangrove-loss-threatens-sierra-leone.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "pérdida",
+      "manglares",
+      "amenaza"
+    ]
+  },
+  {
+    "title": "‘T. rex’ Mosasaur Ruled the Seas 80 Million Years Ago",
+    "title_es": "El mosasaurio ‘T. rex’ gobernó los mares hace 80 millones de años",
+    "url": "https://www.sci.news/paleontology/tylosaurus-rex-14786.html",
+    "source": "Sci.News",
+    "published": "2026-05-21T20:53:45.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "rex",
+      "mosasaur",
+      "ruled"
+    ]
+  },
+  {
+    "title": "Mathematicians stunned by AI's biggest breakthrough in mathematics yet",
+    "title_es": "Matemáticos sorprendidos por el mayor avance de la IA en matemáticas hasta la fecha",
+    "url": "https://www.newscientist.com/article/2527564-mathematicians-stunned-by-ais-biggest-breakthrough-in-mathematics-yet/",
+    "source": "New Scientist",
+    "published": "2026-05-21T16:13:12.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "mathematicians",
+      "stunned",
+      "ais"
+    ]
+  },
+  {
     "title": "Neural Estimation of Pairwise Mutual Information in Masked Discrete Sequence Models",
     "title_es": "Estimación neuronal de información mutua por pares en modelos de secuencia discreta enmascarados",
     "url": "https://arxiv.org/abs/2605.20187",
@@ -53,6 +137,89 @@
       "spacex",
       "está",
       "punto"
+    ]
+  },
+  {
+    "title": "Vector Policy Optimization: Training for Diversity Improves Test-Time Search",
+    "title_es": "Optimización de políticas de vectores: la capacitación para la diversidad mejora la búsqueda en el momento de los exámenes",
+    "url": "http://arxiv.org/abs/2605.22817v1",
+    "source": "arXiv",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "optimización",
+      "políticas",
+      "vectores"
+    ]
+  },
+  {
+    "title": "Artificial intimacies",
+    "title_es": "Intimidades artificiales",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aeg5507",
+    "source": "Science.org",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "intimidades",
+      "artificiales"
+    ]
+  },
+  {
+    "title": "De novo design of miniproteins targeting GPCRs",
+    "title_es": "Diseño de novo de miniproteínas dirigidas a GPCR",
+    "url": "https://www.nature.com/articles/s41586-026-10656-8",
+    "source": "Nature",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "diseño",
+      "novo",
+      "miniproteínas"
+    ]
+  },
+  {
+    "title": "SCALE 2026 convierte Tenerife en epicentro internacional de la cosmología y la física fundamental",
+    "title_es": "ESCALA 2026 convierte Tenerife en epicentro internacional de la cosmología y la física fundamental",
+    "url": "https://www.iac.es/es/divulgacion/noticias/scale-2026-convierte-tenerife-en-epicentro-internacional-de-la-cosmologia-y-la-fisica-fundamental",
+    "source": "IAC",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "scale",
+      "2026",
+      "convierte"
+    ]
+  },
+  {
+    "title": "New tools may help diagnose Parkinson’s earlier than ever",
+    "title_es": "Nuevas herramientas pueden ayudar a diagnosticar el Parkinson antes que nunca",
+    "url": "https://www.sciencenews.org/article/parkinsons-diagnosis-tools-pen-chemical",
+    "source": "Science News",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "nuevas",
+      "herramientas",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Exploding black holes could solve a big cosmic mystery",
+    "title_es": "La explosión de agujeros negros podría resolver un gran misterio cósmico",
+    "url": "https://www.snexplores.org/article/antimatter-exploding-black-holes",
+    "source": "Science News Explores",
+    "published": "2026-05-21T00:00:00.000Z",
+    "date": "2026-05-21",
+    "category": "noticia",
+    "tags": [
+      "explosión",
+      "agujeros",
+      "negros"
     ]
   },
   {
@@ -6872,7 +7039,7 @@
   },
   {
     "title": "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-    "title_es": "M-RAG: Hacer RAG más rápido, más fuerte y más eficiente",
+    "title_es": "M-RAG: Making RAG Faster, Stronger, and More Efficient",
     "url": "https://arxiv.org/abs/2603.26667",
     "source": "arXiv",
     "published": "2026-03-31T04:00:00.000Z",
@@ -6956,7 +7123,7 @@
   },
   {
     "title": "CNIC participates in COMPASS, a European project promoting the early detection and personalised treatment of cardiotoxicity in cancer patients",
-    "title_es": "El CNIC participa en COMPASS, un proyecto europeo que promueve la detección precoz y el tratamiento personalizado de la cardiotoxicidad en pacientes con cáncer",
+    "title_es": "CNIC participates in COMPASS, a European project promoting the early detection and personalised treatment of cardiotoxicity in cancer patients",
     "url": "https://www.cnic.es/es/node/241238",
     "source": "CNIC",
     "published": "2026-03-31T00:00:00.000Z",
@@ -6998,7 +7165,7 @@
   },
   {
     "title": "Galapagos Lava Heron is Distinct Bird Species, New Study Shows",
-    "title_es": "La garza de lava de Galápagos es una especie de ave distintiva, muestra un nuevo estudio",
+    "title_es": "Galapagos Lava Heron is Distinct Bird Species, New Study Shows",
     "url": "https://www.sci.news/biology/galapagos-lava-heron-butorides-sundevalli-14658.html",
     "source": "Sci.News",
     "published": "2026-03-30T23:52:11.000Z",
@@ -7012,7 +7179,7 @@
   },
   {
     "title": "The profound effect the heart-brain connection has on your health",
-    "title_es": "El profundo efecto que la conexión corazón-cerebro tiene en su salud",
+    "title_es": "The profound effect the heart-brain connection has on your health",
     "url": "https://www.newscientist.com/article/2519667-the-profound-effect-the-heart-brain-connection-has-on-your-health/",
     "source": "New Scientist",
     "published": "2026-03-30T16:00:47.000Z",
@@ -43925,17 +44092,17 @@
     ]
   },
   {
-    "title": "Effect of an herbal supplement on quality of life in participants with insomnia: A randomized placebo controlled cross-over pilot trial",
-    "title_es": "Efecto de un suplemento a base de hierbas sobre la calidad de vida en participantes con insomnio: un ensayo piloto cruzado, aleatorizado, controlado con placebo",
+    "title": "ADVANTAGE: Advanced discovery of visceral analgesics by neuroimmune targets and the genetics of extreme human phenotype, a study protocol",
+    "title_es": "VENTAJA: Descubrimiento avanzado de analgésicos viscerales mediante dianas neuroinmunes y la genética del fenotipo humano extremo, un protocolo de estudio",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efecto",
-      "suplemento",
-      "base"
+      "ventaja",
+      "descubrimiento",
+      "avanzado"
     ]
   },
   {
@@ -104235,6 +104402,34 @@
       "collision",
       "galaxy",
       "clusters"
+    ]
+  },
+  {
+    "title": "Accuracy prompts increase the quality of news sharing while attitudinal congruence robustly reduces it, by Ilse L. Pit",
+    "title_es": "Accuracy prompts increase the quality of news sharing while attitudinal congruence robustly reduces it, by Ilse L. Pit",
+    "url": "https://scipost.org/jrobustrep.5-rr2",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "accuracy",
+      "prompts",
+      "increase"
+    ]
+  },
+  {
+    "title": "The Nebulous Realm of WR 134",
+    "title_es": "The Nebulous Realm of WR 134",
+    "url": "https://apod.nasa.gov/apod/image/2605/wr134morrone1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "nebulous",
+      "realm",
+      "134"
     ]
   }
 ]
