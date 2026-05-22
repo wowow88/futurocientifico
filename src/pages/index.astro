@@ -82,13 +82,15 @@ const latestArticle = articles?.[0];
 
       {latestArticle && (
         <article class="space-y-5">
-          <img
-            src={latestArticle.image || "/favicon.png"}
-            alt={latestArticle.title_es || latestArticle.title || "Imagen destacada de ciencia"}
-            class="w-full aspect-[16/9] object-cover rounded-2xl border border-blue-100 shadow-sm bg-white"
-            loading="lazy"
-            decoding="async"
-          />
+          <div class="flex justify-center">
+            <img
+              src="/favicon.png"
+              alt="FuturoCientífico"
+              class="w-24 h-24 md:w-28 md:h-28 object-contain rounded-2xl shadow-sm bg-white p-2 border border-blue-100"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
 
           <div class="flex flex-wrap items-center gap-2 text-sm">
             <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-medium">
