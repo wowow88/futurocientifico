@@ -11,31 +11,74 @@ const SITE = import.meta.env.PUBLIC_SITE;
     title="Inicio | FuturoCientífico"
     description="Plataforma educativa y de divulgación científica gratuita, con contenidos diarios para todas las edades."
     site={SITE}
-    ogImage="/avatar-cientifico.webp"
+    ogImage="/whatsapp-futurocientifico.webp"
     alternates={[
       { hreflang: "es", href: "https://futurocientifico.es/" },
     ]}
   />
 
-  <section class="bg-gradient-to-r from-blue-100 to-white p-6 rounded-xl shadow-sm text-center mb-8">
-    <picture class="flex justify-center mb-4">
-      <source srcset="/avatar-cientifica.webp" type="image/webp" />
-      <img src="/avatar-cientifica.webp" alt="Avatar científica de FuturoCientífico con gafas y bata" class="w-32 h-auto rounded-full" loading="lazy" />
-    </picture>
-    <h1 class="text-3xl font-bold text-blue-800">Bienvenidos a FuturoCientífico</h1>
-    <p class="mt-2 text-blue-700 text-sm max-w-2xl mx-auto">
-      Un proyecto de divulgación y educación científica abierto, automatizado y pensado para todos los públicos.
-    </p>
-    <a href="/revistas" class="inline-block mt-4 px-6 py-2 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 transition">Ver revistas científicas</a>
-    <a href="/eduflash" class="inline-block mt-4 ml-2 px-6 py-2 bg-yellow-500 text-white rounded-full shadow hover:bg-yellow-600 transition">Ver EduFlash</a>
+  <section
+    class="relative overflow-hidden rounded-xl shadow-sm text-center mb-8 bg-blue-950 min-h-[330px] flex items-center justify-center"
+    aria-labelledby="titulo-inicio"
+  >
+    <img
+      src="/whatsapp-futurocientifico.webp"
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      aria-hidden="true"
+    />
+
+    <div class="absolute inset-0 bg-blue-950/65"></div>
+
+    <div class="relative z-10 px-6 py-12 max-w-4xl mx-auto">
+      <h1 id="titulo-inicio" class="text-3xl md:text-5xl font-bold text-white drop-shadow">
+        Bienvenidos a FuturoCientífico
+      </h1>
+
+      <p class="mt-4 text-white text-sm md:text-base max-w-2xl mx-auto">
+        Un proyecto de divulgación y educación científica abierto, automatizado y pensado para todos los públicos.
+      </p>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href="/revistas"
+          class="inline-block px-6 py-3 bg-blue-700 text-white rounded-full shadow hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 transition"
+          aria-label="Ver revistas científicas"
+        >
+          Ver revistas científicas
+        </a>
+
+        <a
+          href="/eduflash"
+          class="inline-block px-6 py-3 bg-yellow-500 text-white rounded-full shadow hover:bg-yellow-600 focus:outline-none focus:ring-4 focus:ring-yellow-300 transition"
+          aria-label="Ver sección EduFlash"
+        >
+          Ver EduFlash
+        </a>
+      </div>
+    </div>
   </section>
 
-  <section class="max-w-4xl mx-auto text-sm text-gray-700 space-y-6">
-    <p><strong>FuturoCientífico</strong> nace del compromiso con una ciencia accesible, divertida y actual. Este sitio está diseñado para estudiantes, familias, docentes y cualquier persona curiosa que desee aprender sobre ciencia cada día, sin barreras.</p>
+  <section class="max-w-4xl mx-auto text-sm text-gray-700 space-y-6" aria-labelledby="contenido-inicio">
+    <p>
+      <strong>FuturoCientífico</strong> nace del compromiso con una ciencia accesible, divertida y actual.
+      Este sitio está diseñado para estudiantes, familias, docentes y cualquier persona curiosa que desee
+      aprender sobre ciencia cada día, sin barreras.
+    </p>
 
-    <p>Gracias a tecnologías como Astro, IA generativa y automatización, la plataforma se actualiza diariamente con contenidos fiables. Aquí encontrarás rutas educativas, noticias científicas, recursos descargables y muchas ideas para crecer en el mundo de la ciencia.</p>
+    <p>
+      Gracias a tecnologías como Astro, IA generativa y automatización, la plataforma se actualiza diariamente
+      con contenidos fiables. Aquí encontrarás rutas educativas, noticias científicas, recursos descargables
+      y muchas ideas para crecer en el mundo de la ciencia.
+    </p>
 
-    <h2 class="text-xl font-semibold text-blue-900 mt-8">¿Qué puedes encontrar aquí?</h2>
+    <h2 id="contenido-inicio" class="text-xl font-semibold text-blue-900 mt-8">
+      ¿Qué puedes encontrar aquí?
+    </h2>
+
     <ul class="list-disc pl-5 space-y-2">
       <li><strong><a href="/formacion" class="hover:underline">Formación</a>:</strong> Guías y orientación para todos los niveles, desde primaria hasta universidad, FP y especializaciones científicas.</li>
       <li><strong><a href="/recursos" class="hover:underline">Recursos</a>:</strong> Plataformas, apps, simuladores, podcasts y materiales para aprender y enseñar ciencia de forma dinámica.</li>
@@ -46,38 +89,48 @@ const SITE = import.meta.env.PUBLIC_SITE;
       <li><strong><a href="/quienes-somos" class="hover:underline">Quiénes somos</a>:</strong> La historia y motivación del creador del sitio, y la visión que lo impulsa.</li>
     </ul>
 
-    <p>Este sitio es libre, sin muros de pago ni publicidad invasiva. Si te resulta útil, compártelo y ayúdanos a llegar a más futuros científicos.</p>
+    <p>
+      Este sitio es libre, sin muros de pago ni publicidad invasiva. Si te resulta útil, compártelo y ayúdanos
+      a llegar a más futuros científicos.
+    </p>
   </section>
-<!-- BannerIndex -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="6134548917"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  if (typeof window !== "undefined") {
-    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-      window.adsbygoogle.push({});
-    } else {
-      const interval = setInterval(() => {
-        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-          window.adsbygoogle.push({});
-          clearInterval(interval);
-        }
-      }, 300);
+
+  <!-- BannerIndex -->
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-2163450732409344"
+    data-ad-slot="6134548917"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
     }
-  }
-</script>
+  </script>
 
-<section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm">
-  <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-xl font-bold text-purple-800 mb-4 text-center">Explora más contenido</h2>
-    <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
-    <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🎓 Rutas educativas para todas las edades.</a>
-    <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Herramientas para aprender y enseñar ciencia.</a>
-    <a href="/preguntona" class="bg-white p-4 rounded-lg border hover:shadow transition">🧠 Responde preguntas científicas divertidas.</a>
-  </div>
-</section>
+  <section class="mt-12 bg-purple-50 py-6 rounded-xl shadow-sm" aria-labelledby="explora-mas">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 id="explora-mas" class="text-xl font-bold text-purple-800 mb-4 text-center">
+        Explora más contenido
+      </h2>
 
+      <div class="grid gap-4 md:grid-cols-3 text-sm text-purple-700">
+        <a href="/formacion" class="bg-white p-4 rounded-lg border hover:shadow transition">🎓 Rutas educativas para todas las edades.</a>
+        <a href="/recursos" class="bg-white p-4 rounded-lg border hover:shadow transition">📚 Herramientas para aprender y enseñar ciencia.</a>
+        <a href="/preguntona" class="bg-white p-4 rounded-lg border hover:shadow transition">🧠 Responde preguntas científicas divertidas.</a>
+      </div>
+    </div>
+  </section>
 </Layout>
