@@ -1,5 +1,47 @@
 [
   {
+    "title": "Study shows highlighting others' achievements on LinkedIn sparks the most engagement",
+    "title_es": "Un estudio muestra que resaltar los logros de otros en LinkedIn genera la mayor participación",
+    "url": "https://phys.org/news/2026-05-highlighting-linkedin-engagement.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-23T00:00:00.000Z",
+    "date": "2026-05-23",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "muestra",
+      "que"
+    ]
+  },
+  {
+    "title": "83-Million-Year-Old Crocodile Lizard Fossil Unearthed in France",
+    "title_es": "Fósil de cocodrilo lagarto de 83 millones de años desenterrado en Francia",
+    "url": "https://www.sci.news/paleontology/acutodon-villeveyracensis-14789.html",
+    "source": "Sci.News",
+    "published": "2026-05-22T21:30:24.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "83-million-year-old",
+      "crocodile",
+      "lizard"
+    ]
+  },
+  {
+    "title": "Book Review: The Case for Making Data-Driven Decisions",
+    "title_es": "Reseña del libro: El caso para tomar decisiones basadas en datos",
+    "url": "https://undark.org/2026/05/22/book-review-beyond-belief/",
+    "source": "Undark Magazine",
+    "published": "2026-05-22T07:50:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "case"
+    ]
+  },
+  {
     "title": "Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding",
     "title_es": "Transformador contrastivo temporal para la detección de delitos financieros: incrustaciones de secuencias auto-supervisadas a través de codificación contrastiva predictiva",
     "url": "https://arxiv.org/abs/2605.21490",
@@ -53,6 +95,104 @@
       "pérdida",
       "manglares",
       "amenaza"
+    ]
+  },
+  {
+    "title": "Vanishing tongues and life on Mars: Books in brief",
+    "title_es": "Lenguas desaparecidas y vida en Marte: libros breves",
+    "url": "https://www.nature.com/articles/d41586-026-01655-w",
+    "source": "Nature",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "lenguas",
+      "desaparecidas",
+      "vida"
+    ]
+  },
+  {
+    "title": "Science Immunology: Las mitocondrias controlan la activación de las células inmunitarias y la eficacia de la inmunoterapia",
+    "title_es": "Ciencia Inmunología: Las mitocondrias controlan la activación de las células inmunitarias y la eficacia de la inmunoterapia",
+    "url": "https://www.cnic.es/es/noticias/science-immunology-mitocondrias-controlan-activacion-celulas-inmunitarias-eficacia",
+    "source": "CNIC",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "science",
+      "immunology",
+      "mitocondrias"
+    ]
+  },
+  {
+    "title": "El IAC celebra el I Congreso Científico de Estudiantes Alisio-PETeR",
+    "title_es": "El IAC celebra el I Congreso Científico de Estudiantes Alisio-PETeR",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-el-i-congreso-cientifico-de-estudiantes-alisio-peter",
+    "source": "IAC",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "celebra",
+      "congreso"
+    ]
+  },
+  {
+    "title": "Call for Creatives: NASA Seeks Help Illuminating Mission Storytelling",
+    "title_es": "Convocatoria de creativos: la NASA busca ayuda para iluminar la narración de misiones",
+    "url": "https://www.nasa.gov/news-release/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "convocatoria",
+      "creativos",
+      "nasa"
+    ]
+  },
+  {
+    "title": "Physics explains why gold stays pristine",
+    "title_es": "La física explica por qué el oro se mantiene prístino",
+    "url": "https://www.sciencenews.org/article/physics-explains-gold-shiny-oxidize",
+    "source": "Science News",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "física",
+      "explica",
+      "por"
+    ]
+  },
+  {
+    "title": "Teens invent first chewing gum to tackle anxiety",
+    "title_es": "Los adolescentes inventan el primer chicle para combatir la ansiedad",
+    "url": "https://www.snexplores.org/article/chewing-gum-relieve-anxiety",
+    "source": "Science News Explores",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "adolescentes",
+      "inventan",
+      "primer"
+    ]
+  },
+  {
+    "title": "Scientists warn that current vitamin B12 guidelines may be putting your brain at risk",
+    "title_es": "Los científicos advierten que las pautas actuales sobre vitamina B12 pueden estar poniendo en riesgo su cerebro",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260522031001.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "advierten",
+      "que"
     ]
   },
   {
@@ -542,6 +682,20 @@
       "insects",
       "may",
       "feel"
+    ]
+  },
+  {
+    "title": "How I used psychology to come back from the worst year of my life",
+    "title_es": "Cómo usé la psicología para volver del peor año de mi vida",
+    "url": "https://www.newscientist.com/article/2526019-how-i-used-psychology-to-come-back-from-the-worst-year-of-my-life/",
+    "source": "New Scientist",
+    "published": "2026-05-18T16:00:16.000Z",
+    "date": "2026-05-18",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "used",
+      "psychology"
     ]
   },
   {
@@ -6885,7 +7039,7 @@
   },
   {
     "title": "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
-    "title_es": "CRAFT: Asignación de réplicas de expertos conscientes de los costos con estimaciones por capas de grano fino",
+    "title_es": "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
     "url": "https://arxiv.org/abs/2603.28768",
     "source": "arXiv",
     "published": "2026-04-01T04:00:00.000Z",
@@ -6983,7 +7137,7 @@
   },
   {
     "title": "Earth’s Building Blocks Came from Close to Home, Planetary Scientists Say",
-    "title_es": "Los bloques de construcción de la Tierra vinieron de cerca de casa, dicen los científicos planetarios",
+    "title_es": "Earth’s Building Blocks Came from Close to Home, Planetary Scientists Say",
     "url": "https://www.sci.news/space/earths-building-blocks-14661.html",
     "source": "Sci.News",
     "published": "2026-03-31T22:02:57.000Z",
@@ -6997,7 +7151,7 @@
   },
   {
     "title": "A once-fantastical collider could answer physics’ biggest mysteries",
-    "title_es": "Un colisionador que alguna vez fue fantástico podría responder a los mayores misterios de la física",
+    "title_es": "A once-fantastical collider could answer physics’ biggest mysteries",
     "url": "https://www.newscientist.com/article/2519026-a-once-fantastical-collider-could-answer-physics-biggest-mysteries/",
     "source": "New Scientist",
     "published": "2026-03-31T16:00:50.000Z",
@@ -7011,7 +7165,7 @@
   },
   {
     "title": "Chile becomes an Associate Member State of CERN",
-    "title_es": "Chile se convierte en Estado Miembro Asociado del CERN",
+    "title_es": "Chile becomes an Associate Member State of CERN",
     "url": "https://home.cern/news/news/cern/chile-becomes-associate-member-state-cern",
     "source": "CERN News",
     "published": "2026-03-31T12:55:39.000Z",
@@ -7025,7 +7179,7 @@
   },
   {
     "title": "The Nuclear Safety Protections in Federal Crosshairs",
-    "title_es": "Las Protecciones de Seguridad Nuclear en Cruces Federales",
+    "title_es": "The Nuclear Safety Protections in Federal Crosshairs",
     "url": "https://undark.org/2026/03/31/federal-nuclear-safety-protections/",
     "source": "Undark Magazine",
     "published": "2026-03-31T07:12:00.000Z",
@@ -44092,17 +44246,17 @@
     ]
   },
   {
-    "title": "ADVANTAGE: Advanced discovery of visceral analgesics by neuroimmune targets and the genetics of extreme human phenotype, a study protocol",
-    "title_es": "VENTAJA: Descubrimiento avanzado de analgésicos viscerales mediante dianas neuroinmunes y la genética del fenotipo humano extremo, un protocolo de estudio",
+    "title": "Between-session reliability and sensitivity of force production characteristics across various force-time points during the isometric single-leg long-lever bridge",
+    "title_es": "Fiabilidad entre sesiones y sensibilidad de las características de producción de fuerza en varios puntos de fuerza-tiempo durante el puente isométrico de palanca larga con una sola pierna",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "ventaja",
-      "descubrimiento",
-      "avanzado"
+      "fiabilidad",
+      "entre",
+      "sesiones"
     ]
   },
   {
@@ -104430,6 +104584,20 @@
       "nebulous",
       "realm",
       "134"
+    ]
+  },
+  {
+    "title": "Ergodic behaviors in reversible 3-state cellular automata, by Rustem Sharipov, Matija Koterle, Sašo Grozdanov, Tomaž Prosen",
+    "title_es": "Ergodic behaviors in reversible 3-state cellular automata, by Rustem Sharipov, Matija Koterle, Sašo Grozdanov, Tomaž Prosen",
+    "url": "https://scipost.org/scipostphys.20.5.145",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ergodic",
+      "behaviors",
+      "reversible"
     ]
   }
 ]
