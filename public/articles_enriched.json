@@ -1,5 +1,19 @@
 [
   {
+    "title": "Indonesia says its giant sea wall will stop flooding. Is this climate adaptation or a costly folly?",
+    "title_es": "Indonesia dice que su gigantesco malecón detendrá las inundaciones. ¿Es esta adaptación climática o una locura costosa?",
+    "url": "https://phys.org/news/2026-05-indonesia-giant-sea-wall-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-24T00:00:00.000Z",
+    "date": "2026-05-24",
+    "category": "noticia",
+    "tags": [
+      "indonesia",
+      "dice",
+      "que"
+    ]
+  },
+  {
     "title": "Study shows highlighting others' achievements on LinkedIn sparks the most engagement",
     "title_es": "Un estudio muestra que resaltar los logros de otros en LinkedIn genera la mayor participación",
     "url": "https://phys.org/news/2026-05-highlighting-linkedin-engagement.html",
@@ -11,6 +25,33 @@
       "estudio",
       "muestra",
       "que"
+    ]
+  },
+  {
+    "title": "The science of us",
+    "title_es": "La ciencia de nosotros",
+    "url": "https://www.sciencenews.org/article/the-science-of-us-june-2026",
+    "source": "Science News",
+    "published": "2026-05-23T00:00:00.000Z",
+    "date": "2026-05-23",
+    "category": "noticia",
+    "tags": [
+      "ciencia",
+      "nosotros"
+    ]
+  },
+  {
+    "title": "New AI body map reveals obesity’s hidden attack on facial nerves",
+    "title_es": "Un nuevo mapa corporal con IA revela el ataque oculto de la obesidad a los nervios faciales",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260522023308.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-23T00:00:00.000Z",
+    "date": "2026-05-23",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "mapa",
+      "corporal"
     ]
   },
   {
@@ -387,6 +428,20 @@
     "tags": [
       "mysterious",
       "reason",
+      "why"
+    ]
+  },
+  {
+    "title": "The Selfish Gene at 50: Why Dawkins’s evolution classic still holds up",
+    "title_es": "El gen egoísta a los 50: por qué el clásico de la evolución de Dawkins todavía se sostiene",
+    "url": "https://www.newscientist.com/article/2525646-the-selfish-gene-at-50-why-dawkinss-evolution-classic-still-holds-up/",
+    "source": "New Scientist",
+    "published": "2026-05-20T14:00:33.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "selfish",
+      "gene",
       "why"
     ]
   },
@@ -7025,7 +7080,7 @@
   },
   {
     "title": "Why Swedish Schools Are Bringing Back Books",
-    "title_es": "Por qué las escuelas suecas están trayendo de vuelta los libros",
+    "title_es": "Why Swedish Schools Are Bringing Back Books",
     "url": "https://undark.org/2026/04/01/sweden-schools-books/",
     "source": "Undark Magazine",
     "published": "2026-04-01T07:21:00.000Z",
@@ -104598,6 +104653,20 @@
       "ergodic",
       "behaviors",
       "reversible"
+    ]
+  },
+  {
+    "title": "A Martian Eclipse: Phobos Crosses the Sun",
+    "title_es": "A Martian Eclipse: Phobos Crosses the Sun",
+    "url": "https://apod.nasa.gov/apod/image/2605/marseclipse_perseverance.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "martian",
+      "eclipse",
+      "phobos"
     ]
   }
 ]
