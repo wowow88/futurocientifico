@@ -1,5 +1,75 @@
 [
   {
+    "title": "An AI-Driven Framework for Energy-Efficient Environmental Monitoring in Smart Cities Using Edge Intelligence",
+    "title_es": "Un marco impulsado por IA para el monitoreo ambiental de eficiencia energética en ciudades inteligentes utilizando Edge Intelligence",
+    "url": "https://arxiv.org/abs/2605.22824",
+    "source": "arXiv",
+    "published": "2026-05-25T04:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "ai-driven",
+      "framework",
+      "energy-efficient"
+    ]
+  },
+  {
+    "title": "How I eavesdrop on frog conversations",
+    "title_es": "Cómo escucho a escondidas las conversaciones de las ranas",
+    "url": "https://www.nature.com/articles/d41586-026-01621-6",
+    "source": "Nature",
+    "published": "2026-05-25T00:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "escucho",
+      "escondidas"
+    ]
+  },
+  {
+    "title": "Scientists Say: Metal-Organic Framework",
+    "title_es": "Los científicos dicen: estructura metálica-orgánica",
+    "url": "https://www.snexplores.org/article/scientists-say-metal-organic-framework-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-05-25T00:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "estructura"
+    ]
+  },
+  {
+    "title": "Adorable tiny blue octopus found nearly 6,000 feet beneath the Galápagos",
+    "title_es": "Adorable y diminuto pulpo azul encontrado a casi 6.000 pies debajo de las Galápagos",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260525000446.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-25T00:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "adorable",
+      "diminuto",
+      "pulpo"
+    ]
+  },
+  {
+    "title": "DNA reveals hidden biodiversity loss in Ontario streams, offering powerful new tool for freshwater monitoring",
+    "title_es": "El ADN revela una pérdida oculta de biodiversidad en los arroyos de Ontario y ofrece una nueva y poderosa herramienta para el seguimiento del agua dulce",
+    "url": "https://phys.org/news/2026-05-dna-reveals-hidden-biodiversity-loss.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-25T00:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "adn",
+      "revela",
+      "pérdida"
+    ]
+  },
+  {
     "title": "Indonesia says its giant sea wall will stop flooding. Is this climate adaptation or a costly folly?",
     "title_es": "Indonesia dice que su gigantesco malecón detendrá las inundaciones. ¿Es esta adaptación climática o una locura costosa?",
     "url": "https://phys.org/news/2026-05-indonesia-giant-sea-wall-climate.html",
@@ -237,6 +307,20 @@
     ]
   },
   {
+    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+    "title_es": "SkillOpt: estrategia ejecutiva para las habilidades de los agentes en evolución propia",
+    "url": "http://arxiv.org/abs/2605.23904v1",
+    "source": "arXiv",
+    "published": "2026-05-22T00:00:00.000Z",
+    "date": "2026-05-22",
+    "category": "noticia",
+    "tags": [
+      "skillopt",
+      "estrategia",
+      "ejecutiva"
+    ]
+  },
+  {
     "title": "‘T. rex’ Mosasaur Ruled the Seas 80 Million Years Ago",
     "title_es": "El mosasaurio ‘T. rex’ gobernó los mares hace 80 millones de años",
     "url": "https://www.sci.news/paleontology/tylosaurus-rex-14786.html",
@@ -428,6 +512,20 @@
     "tags": [
       "mysterious",
       "reason",
+      "why"
+    ]
+  },
+  {
+    "title": "PMOS shows us why many scientific terms need to be renamed",
+    "title_es": "PMOS nos muestra por qué muchos términos científicos necesitan ser renombrados",
+    "url": "https://www.newscientist.com/article/mg27035962-300-pmos-shows-us-why-many-scientific-terms-need-to-be-renamed/",
+    "source": "New Scientist",
+    "published": "2026-05-20T18:00:00.000Z",
+    "date": "2026-05-20",
+    "category": "noticia",
+    "tags": [
+      "pmos",
+      "shows",
       "why"
     ]
   },
@@ -7052,7 +7150,7 @@
   },
   {
     "title": "Historic Artemis II launch sends astronauts bound for the moon",
-    "title_es": "El histórico lanzamiento de Artemisa II envía astronautas a la Luna",
+    "title_es": "Historic Artemis II launch sends astronauts bound for the moon",
     "url": "https://www.newscientist.com/article/2521666-historic-artemis-ii-launch-sends-astronauts-bound-for-the-moon/",
     "source": "New Scientist",
     "published": "2026-04-01T19:00:26.000Z",
@@ -7066,7 +7164,7 @@
   },
   {
     "title": "Oceans are darkening all over the planet – what’s going on?",
-    "title_es": "Los océanos se están oscureciendo en todo el planeta, ¿qué está pasando?",
+    "title_es": "Oceans are darkening all over the planet – what’s going on?",
     "url": "https://www.newscientist.com/article/2519611-oceans-are-darkening-all-over-the-planet-whats-going-on/",
     "source": "New Scientist",
     "published": "2026-04-01T16:00:58.000Z",
@@ -104667,6 +104765,19 @@
       "martian",
       "eclipse",
       "phobos"
+    ]
+  },
+  {
+    "title": "Thackeray's Globules",
+    "title_es": "Thackeray's Globules",
+    "url": "https://apod.nasa.gov/apod/image/2605/thackerayglobs_hayes_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "thackerays",
+      "globules"
     ]
   }
 ]
