@@ -2,75 +2,127 @@
 import Layout from '../../layouts/Layout.astro';
 import Seo from '../../components/Seo.astro';
 ---
-<Layout>
-<Seo
-  slot="head"
-  title="Quiénes Somos | FuturoCientífico"
-  description="Conoce al creador de FuturoCientífico, su trayectoria en educación científica, divulgación y el propósito de esta plataforma."
-  canonical="https://futurocientifico.es/quienes-somos"
-  ogImage="/avatar-cientifico.webp"
-/>
-  <section class="max-w-4xl mx-auto px-4 py-10">
-    <h1 class="text-3xl font-bold text-blue-900 mb-8 text-center">👥 Quiénes somos</h1>
-    <div class="grid md:grid-cols-2 gap-8 items-start">
 
-      <!-- Lado izquierdo: imagen + cuadro gris -->
+<Layout>
+  <Seo
+    slot="head"
+    title="Quiénes Somos | FuturoCientífico"
+    description="Conoce al creador de FuturoCientífico, su trayectoria en educación científica, divulgación y el propósito de esta plataforma."
+    canonical="https://futurocientifico.es/quienes-somos"
+    ogImage="/avatar-cientifico.webp"
+  />
+
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-blue-900 mb-8 text-center">
+      👥 Quiénes somos
+    </h1>
+
+    <div class="grid md:grid-cols-2 gap-8 items-start">
       <div class="space-y-6">
-        <img src="/avatar-cientifico.webp" alt="Avatar FuturoCientífico" class="w-40 h-40 mx-auto rounded-full shadow-md" />
+        <img
+          src="/avatar-cientifico.webp"
+          alt="Avatar FuturoCientífico"
+          class="w-40 h-40 mx-auto rounded-full shadow-md"
+        />
 
         <div class="bg-gray-100 p-4 rounded-lg shadow-sm">
-          <h3 class="text-base font-semibold text-gray-800 mb-2">🔍 Transparencia y comunidad</h3>
+          <h3 class="text-base font-semibold text-gray-800 mb-2">
+            🔍 Transparencia y comunidad
+          </h3>
+
           <ul class="list-disc pl-5 text-sm space-y-1 text-gray-700">
             <li>
-              Código abierto. Consulta nuestra 
+              Código abierto. Consulta nuestra
               <a href="/legal/licencia" class="text-blue-800 underline hover:text-blue-600">licencia MIT</a>.
             </li>
             <li>
-              ¿Quieres contribuir? Lee nuestra 
+              ¿Quieres contribuir? Lee nuestra
               <a href="/legal/colabora" class="text-blue-800 underline hover:text-blue-600">guía de colaboración</a>.
             </li>
             <li>
-              Si detectas un problema técnico, revisa nuestra 
+              Si detectas un problema técnico, revisa nuestra
               <a href="/legal/seguridad" class="text-blue-800 underline hover:text-blue-600">política de seguridad</a>.
             </li>
           </ul>
         </div>
       </div>
 
-      <!-- Lado derecho: texto -->
       <div class="text-sm text-gray-700 space-y-4">
         <p><strong>José Miguel Moreno Verdejo</strong> es el fundador de FuturoCientífico. Licenciado en Bioquímica por la Universidad Autónoma de Madrid y Máster en Formación del Profesorado, ha dedicado más de 10 años a la educación científica en institutos de la Comunidad de Madrid.</p>
 
         <p>Ha impartido Física, Química, Biología, Matemáticas e Informática en todos los niveles de ESO y Bachillerato, y ha trabajado como investigador en el CSIC (Instituto de Química-Física Rocasolano), colaborando en proyectos científicos y publicaciones internacionales.</p>
 
         <p>José Miguel combina su pasión por la divulgación con una sólida formación en tecnologías educativas, programación y <strong>Inteligencia Artificial</strong>. Ha completado múltiples certificaciones en IA aplicada a la enseñanza y promueve activamente su uso para personalizar y expandir el aprendizaje científico.</p>
+
         <p>También es <strong>entrenador nacional de tenis de mesa</strong>, con más de 15 años de experiencia como deportista y formador. Esta faceta refuerza su visión educativa integral: ciencia, esfuerzo y comunidad.</p>
+
         <p><strong>FuturoCientífico</strong> es el reflejo de su compromiso: una web viva que se actualiza a diario con noticias, rutas formativas, recursos educativos y herramientas tecnológicas al alcance de todos.</p>
 
-        <p>Contacto: <a href="mailto:futurocientifico2025@gmail.com" class="text-indigo-600 underline">futurocientifico2025@gmail.com</a></p>
+        <p>
+          Contacto:
+          <a href="mailto:futurocientifico2025@gmail.com" class="text-indigo-600 underline">
+            futurocientifico2025@gmail.com
+          </a>
+        </p>
       </div>
     </div>
   </section>
 
-<!-- BannerIndex -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2163450732409344"
-     data-ad-slot="6134548917"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  if (typeof window !== "undefined") {
-    if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-      window.adsbygoogle.push({});
-    } else {
-      const interval = setInterval(() => {
-        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-          window.adsbygoogle.push({});
-          clearInterval(interval);
-        }
-      }, 300);
+  <section class="max-w-4xl mx-auto px-4 pb-12" aria-labelledby="apoya-futurocientifico">
+    <div class="rounded-3xl border border-pink-100 bg-gradient-to-br from-pink-50 via-white to-blue-50 p-6 md:p-8 shadow-sm text-center">
+      <div class="text-5xl mb-4">💖</div>
+
+      <h2 id="apoya-futurocientifico" class="text-2xl md:text-3xl font-bold text-blue-900">
+        Apoya FuturoCientífico
+      </h2>
+
+      <p class="mt-4 text-gray-700 leading-relaxed max-w-2xl mx-auto">
+        FuturoCientífico es un proyecto educativo abierto que se mantiene con tiempo,
+        dedicación y recursos propios. Si la web te resulta útil, puedes ayudar a que siga creciendo,
+        mejorando sus contenidos y llegando a más estudiantes, docentes y personas curiosas.
+      </p>
+
+      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+        <a
+          href="https://buymeacoffee.com/futurociene"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-yellow-500 text-white font-semibold hover:bg-yellow-600 transition shadow"
+        >
+          Invitar a un café
+        </a>
+
+        <a
+          href="/"
+          class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white border border-blue-200 text-blue-900 font-semibold hover:bg-blue-50 transition shadow-sm"
+        >
+          Volver al inicio
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-2163450732409344"
+    data-ad-slot="6134548917"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+
+  <script>
+    if (typeof window !== "undefined") {
+      if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+        window.adsbygoogle.push({});
+      } else {
+        const interval = setInterval(() => {
+          if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+            window.adsbygoogle.push({});
+            clearInterval(interval);
+          }
+        }, 300);
+      }
     }
-  }
-</script>
+  </script>
 </Layout>
