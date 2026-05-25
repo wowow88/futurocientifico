@@ -1,0 +1,131 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Seo from "../../components/Seo.astro";
+
+const SITE = import.meta.env.PUBLIC_SITE;
+---
+
+<Layout>
+  <Seo
+    slot="head"
+    title="Nova | FuturoCientífico"
+    description="Conoce a Nova, el avatar científico de FuturoCientífico que explica ciencia viral, descubrimientos e infografías en segundos."
+    site={SITE}
+    canonical="https://futurocientifico.es/nova"
+    ogImage="/nova.webp"
+    alternates={[
+      { hreflang: "es", href: "https://futurocientifico.es/nova" },
+    ]}
+  />
+
+  <section class="max-w-6xl mx-auto mb-14" aria-labelledby="nova-title">
+    <div class="overflow-hidden rounded-3xl border border-cyan-100 bg-gradient-to-br from-cyan-50 via-white to-blue-50 shadow-sm">
+      <div class="grid lg:grid-cols-2 gap-10 items-center p-6 md:p-10">
+
+        <div class="text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 text-sm font-semibold mb-5">
+            <span>🧠</span>
+            <span>Universo Nova</span>
+          </div>
+
+          <h1 id="nova-title" class="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
+            Nova explica la ciencia más viral en segundos.
+          </h1>
+
+          <p class="mt-5 text-gray-700 leading-relaxed text-base md:text-lg max-w-xl mx-auto lg:mx-0">
+            Nova es el avatar científico de FuturoCientífico: un pequeño cerebro curioso que transforma descubrimientos,
+            infografías y temas científicos actuales en explicaciones rápidas, visuales y fáciles de entender.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
+            <a href="https://instagram.com/futurocientifico2025" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow">
+              Instagram
+            </a>
+
+            <a href="https://www.tiktok.com/@futurocientifico" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full bg-white border border-blue-200 text-blue-900 hover:bg-blue-50 transition shadow-sm">
+              TikTok
+            </a>
+
+            <a href="https://www.youtube.com/@FuturoCientifico" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full bg-white border border-blue-200 text-blue-900 hover:bg-blue-50 transition shadow-sm">
+              YouTube
+            </a>
+
+            <a href="https://x.com/Futuro100tfco" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full bg-white border border-blue-200 text-blue-900 hover:bg-blue-50 transition shadow-sm">
+              X
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="rounded-3xl overflow-hidden border border-blue-100 bg-white shadow-lg">
+            <video
+              class="w-full h-auto block"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="/nova.webp"
+              aria-label="Vídeo de presentación de Nova"
+            >
+              <source src="/nova-presentacion.mp4" type="video/mp4" />
+              Tu navegador no puede reproducir este vídeo.
+            </video>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto mb-14" aria-labelledby="que-hace-nova">
+    <h2 id="que-hace-nova" class="text-3xl font-bold text-blue-900 text-center mb-8">
+      ¿Qué hace Nova?
+    </h2>
+
+    <div class="grid gap-5 md:grid-cols-3">
+      <article class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm">
+        <div class="text-4xl mb-4">⚡</div>
+        <h3 class="text-lg font-bold text-blue-900">Explica rápido</h3>
+        <p class="mt-2 text-sm text-gray-700">
+          Resume temas científicos actuales en formatos breves, claros y fáciles de compartir.
+        </p>
+      </article>
+
+      <article class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm">
+        <div class="text-4xl mb-4">🖼️</div>
+        <h3 class="text-lg font-bold text-blue-900">Crea infografías</h3>
+        <p class="mt-2 text-sm text-gray-700">
+          Presenta ideas complejas con imágenes, esquemas y mensajes visuales pensados para móvil.
+        </p>
+      </article>
+
+      <article class="bg-white rounded-2xl border border-blue-100 p-6 shadow-sm">
+        <div class="text-4xl mb-4">🎥</div>
+        <h3 class="text-lg font-bold text-blue-900">Conecta con redes</h3>
+        <p class="mt-2 text-sm text-gray-700">
+          Lleva la ciencia a Instagram, TikTok, YouTube Shorts y X con lenguaje visual y cercano.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto mb-14 text-center">
+    <div class="rounded-3xl border border-purple-100 bg-gradient-to-r from-purple-100 to-blue-100 p-8 shadow-sm">
+      <h2 class="text-3xl font-bold text-blue-900">
+        Ciencia visual para aprender cada día
+      </h2>
+
+      <p class="mt-4 text-gray-700 max-w-2xl mx-auto leading-relaxed">
+        El objetivo de Nova es hacer que la ciencia sea más accesible, rápida y emocionante para estudiantes,
+        docentes, familias y cualquier persona curiosa.
+      </p>
+
+      <div class="mt-6">
+        <a href="/" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition shadow">
+          Volver a FuturoCientífico
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
