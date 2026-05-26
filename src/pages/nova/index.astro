@@ -8,68 +8,76 @@ const contenidosNova = [
   {
     titulo: "Artemis II: humanos rumbo a la Luna otra vez",
     categoria: "Espacio",
+    tipo: "imagen",
     imagen: "/nova/infografias/artemis-ii.webp",
     video: "/nova/videos/artemis-luna.mp4",
   },
   {
     titulo: "Cómo hackear tu memoria usando emociones",
     categoria: "Neurociencia",
+    tipo: "imagen",
     imagen: "/nova/infografias/memoria-emociones.webp",
     video: "/nova/videos/memoria-cerebro.mp4",
   },
   {
     titulo: "Tu cerebro elimina recuerdos aburridos",
     categoria: "Neurociencia",
+    tipo: "imagen",
     imagen: "/nova/infografias/memoria-aburrida.webp",
   },
   {
     titulo: "Por qué recuerdas mejor cuando eres feliz",
     categoria: "Psicología",
+    tipo: "imagen",
     imagen: "/nova/infografias/memoria-feliz.webp",
   },
   {
     titulo: "Música, recuerdos y nostalgia",
     categoria: "Cerebro",
+    tipo: "imagen",
     imagen: "/nova/infografias/musica-recuerdos.webp",
   },
   {
     titulo: "Momentos vergonzosos y memoria",
     categoria: "Psicología",
+    tipo: "imagen",
     imagen: "/nova/infografias/momentos-vergonzosos.webp",
   },
   {
     titulo: "Desde cuándo los mosquitos prefieren humanos",
     categoria: "Biología",
-    imagen: "/nova/infografias/mosquitos-humanos.webp",
+    tipo: "imagen",
+    imagen: "/nova/infografias/mosquitos-humanos.mp4",
     video: "/nova/videos/mosquitos-humanos.mp4",
   },
   {
     titulo: "Microplásticos en el cuerpo humano",
     categoria: "Medio ambiente",
-    imagen: "/nova/infografias/microplasticos.webp",
+    tipo: "video",
     video: "/nova/videos/microplasticos.mp4",
   },
   {
     titulo: "El número de Avogadro",
     categoria: "Química",
-    imagen: "/nova/infografias/numero-avogadro.webp",
+    tipo: "video",
     video: "/nova/videos/numero-avogadro.mp4",
   },
   {
     titulo: "El número π explicado por Nova",
     categoria: "Matemáticas",
-    imagen: "/nova/infografias/numero-avogadro.webp",
+    tipo: "video",
     video: "/nova/videos/numero-pi.mp4",
   },
   {
     titulo: "La ciencia de las velas",
     categoria: "Química",
-    imagen: "/nova/infografias/velas-semana-santa.webp",
+    tipo: "video",
     video: "/nova/videos/velas-semana-santa.mp4",
   },
   {
     titulo: "Presentación de Nova",
     categoria: "Nova",
+    tipo: "imagen",
     imagen: "/nova.webp",
     video: "/nova-presentacion.mp4",
   },
@@ -91,8 +99,6 @@ const contenidosNova = [
 
   <section class="max-w-7xl mx-auto mb-16" aria-labelledby="nova-title">
     <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-blue-950 to-cyan-950 border border-cyan-500/20 shadow-2xl">
-      <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,rgba(0,255,255,0.35),transparent_55%)]"></div>
-
       <div class="relative grid lg:grid-cols-2 gap-10 items-center p-8 md:p-14">
         <div class="text-center lg:text-left">
           <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/20 text-cyan-300 text-sm font-semibold mb-6">
@@ -119,24 +125,23 @@ const contenidosNova = [
           </div>
         </div>
 
-        <div class="relative group overflow-hidden rounded-3xl border border-cyan-500/20 shadow-2xl bg-black">
+        <div class="relative group overflow-hidden rounded-3xl border border-cyan-500/20 shadow-2xl bg-black aspect-video">
           <img
             src="/nova.webp"
             alt="Nova, universo visual de FuturoCientífico"
-            class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
             loading="eager"
             decoding="async"
             fetchpriority="high"
           />
 
-          <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+          <div class="absolute inset-0 bg-black/20 group-hover:bg-black/35 transition"></div>
 
           <div class="absolute inset-0 flex items-center justify-center p-4">
             <button
               type="button"
               class="video-open px-7 py-4 rounded-full bg-cyan-400 text-slate-950 font-black text-base md:text-lg shadow-2xl hover:bg-cyan-300 transition"
               data-video="/nova-presentacion.mp4"
-              data-title="Presentación de Nova"
             >
               ▶ Ver presentación
             </button>
@@ -160,27 +165,34 @@ const contenidosNova = [
     <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
       {contenidosNova.map((item) => (
         <article class="group overflow-hidden rounded-3xl bg-slate-950 border border-cyan-500/10 shadow-xl hover:shadow-cyan-500/20 transition">
-          <div class="relative overflow-hidden">
-            <img
-              src={item.imagen}
-              alt={item.titulo}
-              class="w-full aspect-[4/5] object-cover group-hover:scale-105 transition duration-500"
-              loading="lazy"
-              decoding="async"
-            />
-
-            <div class="absolute inset-0 bg-black/10 group-hover:bg-black/35 transition"></div>
+          <div class="relative overflow-hidden bg-black">
+            {item.tipo === "video" ? (
+              <video
+                src={item.video}
+                class="w-full aspect-[4/5] object-cover"
+                controls
+                preload="metadata"
+                playsinline
+              ></video>
+            ) : (
+              <img
+                src={item.imagen}
+                alt={item.titulo}
+                class="w-full aspect-[4/5] object-cover group-hover:scale-105 transition duration-500"
+                loading="lazy"
+                decoding="async"
+              />
+            )}
 
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-cyan-400 text-slate-950 text-xs font-bold shadow">
               {item.categoria}
             </span>
 
-            {item.video && (
+            {item.tipo !== "video" && item.video && (
               <button
                 type="button"
                 class="video-open absolute inset-0 m-auto h-fit w-fit px-6 py-3 rounded-full bg-white/95 text-slate-950 font-bold shadow-xl opacity-0 group-hover:opacity-100 transition"
                 data-video={item.video}
-                data-title={item.titulo}
               >
                 ▶ Ver vídeo
               </button>
@@ -193,23 +205,28 @@ const contenidosNova = [
             </h3>
 
             <div class="mt-5 flex items-center justify-between gap-4">
-              <a
-                href={item.imagen}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-cyan-300 hover:text-cyan-200 font-medium text-sm"
-              >
-                Ver infografía
-              </a>
+              {item.imagen ? (
+                <a
+                  href={item.imagen}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-cyan-300 hover:text-cyan-200 font-medium text-sm"
+                >
+                  Ver infografía
+                </a>
+              ) : (
+                <span class="text-cyan-300 font-medium text-sm">
+                  Vídeo Nova
+                </span>
+              )}
 
               {item.video ? (
                 <button
                   type="button"
                   class="video-open text-white text-sm font-semibold hover:text-cyan-300 transition"
                   data-video={item.video}
-                  data-title={item.titulo}
                 >
-                  Vídeo →
+                  Abrir vídeo →
                 </button>
               ) : (
                 <span class="text-slate-400 text-sm">Infografía</span>
@@ -260,28 +277,6 @@ const contenidosNova = [
           <h3 class="text-2xl font-bold">X / Twitter</h3>
           <p class="mt-3 text-cyan-100">Noticias científicas y avances tecnológicos.</p>
           <div class="mt-6 font-semibold">Abrir →</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="max-w-5xl mx-auto mb-10">
-    <div class="rounded-3xl bg-gradient-to-r from-cyan-600 to-blue-700 p-10 text-center text-white shadow-2xl">
-      <h2 class="text-3xl md:text-4xl font-bold">
-        Explora el futuro con Nova
-      </h2>
-
-      <p class="mt-5 text-cyan-50 max-w-2xl mx-auto text-lg">
-        Ciencia moderna y divulgación visual para una nueva generación.
-      </p>
-
-      <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <a href="/" class="px-6 py-3 rounded-full bg-white text-blue-900 font-bold hover:bg-cyan-50 transition shadow">
-          Volver a FuturoCientífico
-        </a>
-
-        <a href="/revistas" class="px-6 py-3 rounded-full border border-white/30 bg-white/10 hover:bg-white/20 transition">
-          Ver revistas
         </a>
       </div>
     </div>
