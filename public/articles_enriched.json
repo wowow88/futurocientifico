@@ -1,5 +1,103 @@
 [
   {
+    "title": "Identifying and Mitigating Systemic Measurement Bias in Production LLM Inference Benchmarks",
+    "title_es": "Identificación y mitigación del sesgo de medición sistémica en los puntos de referencia de inferencia de LLM de producción",
+    "url": "https://arxiv.org/abs/2605.24217",
+    "source": "arXiv",
+    "published": "2026-05-26T04:00:00.000Z",
+    "date": "2026-05-26",
+    "category": "noticia",
+    "tags": [
+      "identifying",
+      "mitigating",
+      "systemic"
+    ]
+  },
+  {
+    "title": "Josep Munuera: “Understanding evolution helps us understand today’s diseases”",
+    "title_es": "Josep Munuera: “Entender la evolución nos ayuda a entender las enfermedades actuales”",
+    "url": "https://www.cnic.es/es/node/242458",
+    "source": "CNIC",
+    "published": "2026-05-26T00:00:00.000Z",
+    "date": "2026-05-26",
+    "category": "noticia",
+    "tags": [
+      "josep",
+      "munuera",
+      "understanding"
+    ]
+  },
+  {
+    "title": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
+    "title_es": "Jaclyn Kagey da forma al regreso de la humanidad a la Luna",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/jaclyn-kagey-shapes-humanitys-return-to-the-moon/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-26T00:00:00.000Z",
+    "date": "2026-05-26",
+    "category": "noticia",
+    "tags": [
+      "jaclyn",
+      "kagey",
+      "forma"
+    ]
+  },
+  {
+    "title": "NASA’s Psyche spacecraft uses Mars as a giant slingshot toward a mysterious metal world",
+    "title_es": "La nave espacial Psyche de la NASA utiliza Marte como una honda gigante hacia un misterioso mundo metálico",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260525040421.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-26T00:00:00.000Z",
+    "date": "2026-05-26",
+    "category": "noticia",
+    "tags": [
+      "nave",
+      "espacial",
+      "psyche"
+    ]
+  },
+  {
+    "title": "Satellites track SO₂ emissions following March 2026 refinery fires in Tehran, Iran",
+    "title_es": "Los satélites rastrean las emisiones de SO₂ tras los incendios de las refinerías de marzo de 2026 en Teherán, Irán",
+    "url": "https://phys.org/news/2026-05-satellites-track-emissions-refinery-tehran.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-26T00:00:00.000Z",
+    "date": "2026-05-26",
+    "category": "noticia",
+    "tags": [
+      "satélites",
+      "rastrean",
+      "emisiones"
+    ]
+  },
+  {
+    "title": "Rare Ostrich-Like Dinosaur Fossil Found on Canadian Island",
+    "title_es": "Fósil raro de dinosaurio parecido a un avestruz encontrado en una isla canadiense",
+    "url": "https://www.sci.news/paleontology/denman-island-ornithomimosaur-14794.html",
+    "source": "Sci.News",
+    "published": "2026-05-25T22:23:12.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "rare",
+      "ostrich-like",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Does gravity create reality? A shocking path to a theory of everything",
+    "title_es": "¿La gravedad crea la realidad? Un camino impactante hacia una teoría del todo",
+    "url": "https://www.newscientist.com/article/2526507-does-gravity-create-reality-a-shocking-path-to-a-theory-of-everything/",
+    "source": "New Scientist",
+    "published": "2026-05-25T16:00:47.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "does",
+      "gravity",
+      "create"
+    ]
+  },
+  {
     "title": "An AI-Driven Framework for Energy-Efficient Environmental Monitoring in Smart Cities Using Edge Intelligence",
     "title_es": "Un marco impulsado por IA para el monitoreo ambiental de eficiencia energética en ciudades inteligentes utilizando Edge Intelligence",
     "url": "https://arxiv.org/abs/2605.22824",
@@ -67,6 +165,20 @@
       "adn",
       "revela",
       "pérdida"
+    ]
+  },
+  {
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "title_es": "MobileGym: una plataforma de simulación verificable y altamente paralela para la investigación de agentes de GUI móviles",
+    "url": "http://arxiv.org/abs/2605.26114v1",
+    "source": "arXiv",
+    "published": "2026-05-25T00:00:00.000Z",
+    "date": "2026-05-25",
+    "category": "noticia",
+    "tags": [
+      "mobilegym",
+      "plataforma",
+      "simulación"
     ]
   },
   {
@@ -6968,7 +7080,7 @@
   },
   {
     "title": "Surprise fossil discoveries push back the evolution of complex animals",
-    "title_es": "Los sorprendentes descubrimientos de fósiles hacen retroceder la evolución de animales complejos",
+    "title_es": "Surprise fossil discoveries push back the evolution of complex animals",
     "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/",
     "source": "New Scientist",
     "published": "2026-04-02T19:00:36.000Z",
@@ -6982,7 +7094,7 @@
   },
   {
     "title": "Prediction Markets Make a Bet Against Public Health",
-    "title_es": "Los mercados de predicción apuestan en contra de la salud pública",
+    "title_es": "Prediction Markets Make a Bet Against Public Health",
     "url": "https://undark.org/2026/04/02/opinion-prediction-markets-public-health/",
     "source": "Undark Magazine",
     "published": "2026-04-02T07:05:00.000Z",
@@ -6996,7 +7108,7 @@
   },
   {
     "title": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
-    "title_es": "Selección de datos en línea consciente del optimizador de dos etapas para modelos de lenguaje grandes",
+    "title_es": "Two-Stage Optimizer-Aware Online Data Selection for Large Language Models",
     "url": "https://arxiv.org/abs/2604.00001",
     "source": "arXiv",
     "published": "2026-04-02T04:00:00.000Z",
@@ -7136,7 +7248,7 @@
   },
   {
     "title": "Ultra-Hot Jupiter WASP-189b Mirrors Its Star’s Chemistry, Astronomers Find",
-    "title_es": "Los astrónomos descubren que WASP-189b de Júpiter ultracaliente refleja la química de su estrella",
+    "title_es": "Ultra-Hot Jupiter WASP-189b Mirrors Its Star’s Chemistry, Astronomers Find",
     "url": "https://www.sci.news/astronomy/ultra-hot-jupiter-wasp-189b-stars-chemistry-14667.html",
     "source": "Sci.News",
     "published": "2026-04-01T21:45:03.000Z",
@@ -104778,6 +104890,20 @@
     "tags": [
       "thackerays",
       "globules"
+    ]
+  },
+  {
+    "title": "NGC 3660 and Burçin's Galaxy",
+    "title_es": "NGC 3660 and Burçin's Galaxy",
+    "url": "https://apod.nasa.gov/apod/image/2605/ngc3660burcin_block_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "3660",
+      "burins"
     ]
   }
 ]
