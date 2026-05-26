@@ -70,8 +70,8 @@ const contenidosNova = [
   {
     titulo: "Presentación de Nova",
     categoria: "Nova",
-    imagen: "/nova/infografias/artemis-ii.webp",
-    video: "/nova/videos/nova-intro.mp4",
+    imagen: "/nova.webp",
+    video: "/nova-presentacion.mp4",
   },
 ];
 ---
@@ -83,7 +83,7 @@ const contenidosNova = [
     description="Nova es el universo visual de FuturoCientífico: vídeos, infografías y ciencia moderna explicada de forma clara, atractiva y accesible."
     site={SITE}
     canonical="https://futurocientifico.es/nova"
-    ogImage="/nova/infografias/artemis-ii.webp"
+    ogImage="/nova.webp"
     alternates={[
       { hreflang: "es", href: "https://futurocientifico.es/nova" },
     ]}
@@ -119,15 +119,28 @@ const contenidosNova = [
           </div>
         </div>
 
-        <div class="overflow-hidden rounded-3xl border border-cyan-500/20 shadow-2xl bg-black">
+        <div class="relative group overflow-hidden rounded-3xl border border-cyan-500/20 shadow-2xl bg-black">
           <img
-            src="/nova/infografias/artemis-ii.webp"
-            alt="Infografía de Artemis II rumbo a la Luna"
-            class="w-full h-full object-cover"
+            src="/nova.webp"
+            alt="Nova, universo visual de FuturoCientífico"
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
             loading="eager"
             decoding="async"
             fetchpriority="high"
           />
+
+          <div class="absolute inset-0 bg-black/25 group-hover:bg-black/40 transition"></div>
+
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <button
+              type="button"
+              class="video-open px-7 py-4 rounded-full bg-cyan-400 text-slate-950 font-black text-base md:text-lg shadow-2xl hover:bg-cyan-300 transition"
+              data-video="/nova-presentacion.mp4"
+              data-title="Presentación de Nova"
+            >
+              ▶ Ver presentación
+            </button>
+          </div>
         </div>
       </div>
     </div>
