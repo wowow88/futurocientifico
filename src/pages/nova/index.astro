@@ -48,30 +48,35 @@ const contenidosNova = [
   categoria: "Biología",
   imagen: "/nova/infografias/mosquitos-humanos.webp",
   video: "/nova/videos/mosquitos-humanos.mp4",
+  infografia: "/nova/infografias/mosquitos-humanos.mp4",
 },
 {
   titulo: "Microplásticos en el cuerpo humano",
   categoria: "Medio ambiente",
   imagen: "/nova/infografias/microplasticos.webp",
   video: "/nova/videos/microplasticos.mp4",
+  infografia: "/nova/infografias/microplasticos.mp4",
 },
 {
   titulo: "El número de Avogadro",
   categoria: "Química",
   imagen: "/nova/infografias/numero-avogadro.webp",
   video: "/nova/videos/numero-avogadro.mp4",
+  infografia: "/nova/infografias/numero-avogadro.mp4",
 },
 {
   titulo: "El número π explicado por Nova",
   categoria: "Matemáticas",
   imagen: "/nova/infografias/numero-pi.webp",
   video: "/nova/videos/numero-pi.mp4",
+  infografia: "/nova/infografias/numero-pi.mp4",
 },
 {
   titulo: "La ciencia de las velas",
   categoria: "Química",
   imagen: "/nova/infografias/velas-semana-santa.webp",
   video: "/nova/videos/velas-semana-santa.mp4",
+  infografia: "/nova/infografias/velas-semana-santa.mp4",
 },
 {
   titulo: "Presentación de Nova",
@@ -205,7 +210,7 @@ const contenidosNova = [
             <div class="mt-5 flex items-center justify-between gap-4">
               {item.imagen ? (
                 <a
-                  href={item.imagen}
+                  href={item.infografia || item.imagen}
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-cyan-300 hover:text-cyan-200 font-medium text-sm"
