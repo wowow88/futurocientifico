@@ -1,5 +1,131 @@
 [
   {
+    "title": "The Six-Week Postpartum Checkup Comes Too Late",
+    "title_es": "El chequeo posparto de seis semanas llega demasiado tarde",
+    "url": "https://undark.org/2026/05/28/opinion-postpartum-checkup-too-late/",
+    "source": "Undark Magazine",
+    "published": "2026-05-28T07:06:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "six-week",
+      "postpartum",
+      "checkup"
+    ]
+  },
+  {
+    "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
+    "title_es": "Identificación y comprensión de los valores humanos en el texto: una arquitectura adaptable basada en LLM",
+    "url": "https://arxiv.org/abs/2605.27373",
+    "source": "arXiv",
+    "published": "2026-05-28T04:00:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "identifying",
+      "understanding",
+      "human"
+    ]
+  },
+  {
+    "title": "Cardiovascular Research: Un estudio revela diferencias entre los dos ventrículos del corazón en su capacidad de resistencia a los efectos de una parada cardíaca",
+    "title_es": "Investigación cardiovascular: Un estudio revela diferencias entre los dos ventrículos del corazón en su capacidad de resistencia a los efectos de una parada cardíaca",
+    "url": "https://www.cnic.es/es/noticias/cardiovascular-research-un-estudio-revela-diferencias-entre-dos-ventriculos-corazon-su",
+    "source": "CNIC",
+    "published": "2026-05-28T00:00:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "cardiovascular",
+      "research",
+      "estudio"
+    ]
+  },
+  {
+    "title": "A Shift in What’s Shaping U.S. Landscapes",
+    "title_es": "Un cambio en lo que está dando forma al paisaje estadounidense",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-shift-in-whats-shaping-u-s-landscapes/",
+    "source": "NASA (Top News)",
+    "published": "2026-05-28T00:00:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "cambio",
+      "que",
+      "está"
+    ]
+  },
+  {
+    "title": "Scientists discover hidden gut-brain circuit that triggers protein cravings",
+    "title_es": "Los científicos descubren un circuito oculto entre el intestino y el cerebro que desencadena los antojos de proteínas",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260527023202.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-28T00:00:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "circuito"
+    ]
+  },
+  {
+    "title": "SpaceX's Starship rockets are grounded pending investigation after test flight",
+    "title_es": "Los cohetes Starship de SpaceX están en tierra en espera de una investigación después del vuelo de prueba",
+    "url": "https://phys.org/news/2026-05-spacex-starship-rockets-grounded-pending.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-05-28T00:00:00.000Z",
+    "date": "2026-05-28",
+    "category": "noticia",
+    "tags": [
+      "cohetes",
+      "starship",
+      "spacex"
+    ]
+  },
+  {
+    "title": "Toothless, Bipedal Crocodile Relative Lived in New Mexico 212 Million Years Ago",
+    "title_es": "Un familiar de cocodrilo bípedo sin dientes vivió en Nuevo México hace 212 millones de años",
+    "url": "https://www.sci.news/paleontology/labrujasuchus-expectatus-14799.html",
+    "source": "Sci.News",
+    "published": "2026-05-27T23:23:03.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "toothless",
+      "bipedal",
+      "crocodile"
+    ]
+  },
+  {
+    "title": "Embryos made without sperm or eggs reveal why many pregnancies fail",
+    "title_es": "Los embriones hechos sin espermatozoides ni óvulos revelan por qué muchos embarazos fracasan",
+    "url": "https://www.newscientist.com/article/2527224-embryos-made-without-sperm-or-eggs-reveal-why-many-pregnancies-fail/",
+    "source": "New Scientist",
+    "published": "2026-05-27T16:00:58.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "embryos",
+      "made",
+      "without"
+    ]
+  },
+  {
+    "title": "NASA’s Webb telescope discovers a planet where rock clouds vanish every night",
+    "title_es": "El telescopio Webb de la NASA descubre un planeta donde las nubes de roca desaparecen cada noche",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260527023212.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-05-27T10:24:22.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "webb",
+      "telescope"
+    ]
+  },
+  {
     "title": "From user-understandable to technical process model: a model-driven approach using cuta4bpm",
     "title_es": "Del modelo de proceso comprensible por el usuario al técnico: un enfoque basado en modelos que utiliza cuta4bpm",
     "url": "https://arxiv.org/abs/2605.26117",
@@ -53,6 +179,76 @@
       "deforestación",
       "amazonía",
       "brasileña"
+    ]
+  },
+  {
+    "title": "Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation",
+    "title_es": "Más allá de lo binario: manipulación diestra de simulación a real con representación de contacto basada en la física",
+    "url": "http://arxiv.org/abs/2605.28812v1",
+    "source": "arXiv",
+    "published": "2026-05-27T00:00:00.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "más",
+      "allá",
+      "binario"
+    ]
+  },
+  {
+    "title": "Author Correction: Modelling late gastrulation in stem cell-derived monkey embryo models",
+    "title_es": "Corrección del autor: Modelado de la gastrulación tardía en modelos de embriones de mono derivados de células madre",
+    "url": "https://www.nature.com/articles/s41586-026-10700-7",
+    "source": "Nature",
+    "published": "2026-05-27T00:00:00.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "modelado"
+    ]
+  },
+  {
+    "title": "El Comité Científico del Premio Cosmos celebra en Madrid la deliberación de la edición 2026",
+    "title_es": "El Comité Científico del Premio Cosmos celebra en Madrid la deliberación de la edición 2026",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-comite-cientifico-del-premio-cosmos-celebra-en-madrid-la-deliberacion-de-la-edicion-2026",
+    "source": "IAC",
+    "published": "2026-05-27T00:00:00.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "comité",
+      "científico",
+      "premio"
+    ]
+  },
+  {
+    "title": "Huge volcanic eruption offers clues to fighting climate change",
+    "title_es": "Una enorme erupción volcánica ofrece pistas para luchar contra el cambio climático",
+    "url": "https://www.sciencenews.org/article/volcanic-eruption-clues-climate-change",
+    "source": "Science News",
+    "published": "2026-05-27T00:00:00.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "enorme",
+      "erupción",
+      "volcánica"
+    ]
+  },
+  {
+    "title": "Clouds come in all shapes and sizes",
+    "title_es": "Las nubes vienen en todas las formas y tamaños.",
+    "url": "https://www.snexplores.org/article/how-clouds-form-types-shapes",
+    "source": "Science News Explores",
+    "published": "2026-05-27T00:00:00.000Z",
+    "date": "2026-05-27",
+    "category": "noticia",
+    "tags": [
+      "nubes",
+      "vienen",
+      "todas"
     ]
   },
   {
@@ -6801,7 +6997,7 @@
   },
   {
     "title": "As Rocket Launches Increase, They May Be Polluting the Skies",
-    "title_es": "A medida que aumentan los lanzamientos de cohetes, pueden estar contaminando los cielos",
+    "title_es": "As Rocket Launches Increase, They May Be Polluting the Skies",
     "url": "https://undark.org/2026/04/06/as-rocket-launches-increase-they-may-be-polluting-the-skies/",
     "source": "Undark Magazine",
     "published": "2026-04-06T07:07:00.000Z",
@@ -6815,7 +7011,7 @@
   },
   {
     "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
-    "title_es": "Holos: un sistema multiagente basado en LLM a escala web para la web genética",
+    "title_es": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
     "url": "https://arxiv.org/abs/2604.02334",
     "source": "arXiv",
     "published": "2026-04-06T04:00:00.000Z",
@@ -6899,7 +7095,7 @@
   },
   {
     "title": "Scientists found a protein that drives brain aging — and how to stop it",
-    "title_es": "Científicos han descubierto una proteína que impulsa el envejecimiento cerebral y cómo detenerla",
+    "title_es": "Scientists found a protein that drives brain aging — and how to stop it",
     "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-04-05T11:08:57.000Z",
@@ -6954,7 +7150,7 @@
   },
   {
     "title": "Scientists reveal new blood pressure treatment that works when others fail",
-    "title_es": "Los científicos revelan un nuevo tratamiento para la presión arterial que funciona cuando otros fallan",
+    "title_es": "Scientists reveal new blood pressure treatment that works when others fail",
     "url": "https://www.sciencedaily.com/releases/2026/04/260403232124.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-04-04T03:38:49.000Z",
@@ -6996,7 +7192,7 @@
   },
   {
     "title": "Jurassic Ichthyosaur Fossil Found in Cuba",
-    "title_es": "Fósil de ictiosaurio jurásico encontrado en Cuba",
+    "title_es": "Jurassic Ichthyosaur Fossil Found in Cuba",
     "url": "https://www.sci.news/paleontology/el-cuajani-ichthyosaur-14672.html",
     "source": "Sci.News",
     "published": "2026-04-03T23:42:09.000Z",
@@ -7010,7 +7206,7 @@
   },
   {
     "title": "We may have seen a 'dirty fireball' star explosion for the first time",
-    "title_es": "Es posible que hayamos visto una explosión estelar de 'bola de fuego sucia' por primera vez",
+    "title_es": "We may have seen a 'dirty fireball' star explosion for the first time",
     "url": "https://www.newscientist.com/article/2522015-we-may-have-seen-a-dirty-fireball-star-explosion-for-the-first-time/",
     "source": "New Scientist",
     "published": "2026-04-03T14:00:47.000Z",
@@ -7024,7 +7220,7 @@
   },
   {
     "title": "Inside the Effort to Sequence a Thousand Measles Genomes",
-    "title_es": "Dentro del esfuerzo por secuenciar mil genomas de sarampión",
+    "title_es": "Inside the Effort to Sequence a Thousand Measles Genomes",
     "url": "https://undark.org/2026/04/03/measles-genomes-sequence/",
     "source": "Undark Magazine",
     "published": "2026-04-03T07:51:00.000Z",
@@ -44651,17 +44847,17 @@
     ]
   },
   {
-    "title": "Expression of Concern: Genetic Dissection of Drought and Heat Tolerance in Chickpea through Genome-Wide and Candidate Gene-Based Association Mapping Approaches",
-    "title_es": "Expresión de preocupación: disección genética de la tolerancia a la sequía y al calor en los garbanzos mediante enfoques de mapeo de asociaciones basadas en genes candidatos y en todo el genoma",
+    "title": "Effects of taurine supplementation on metabolic health and biological aging in healthcare workers: A protocol for a triple-blinded, Bayesian-optimized phase II randomized controlled trial",
+    "title_es": "Efectos de la suplementación con taurina sobre la salud metabólica y el envejecimiento biológico en trabajadores de la salud: un protocolo para un ensayo controlado aleatorio de fase II, triple ciego, optimizado según bayesiano",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "expresión",
-      "preocupación",
-      "disección"
+      "efectos",
+      "suplementación",
+      "con"
     ]
   },
   {
@@ -105072,6 +105268,34 @@
       "164",
       "311",
       "headphone"
+    ]
+  },
+  {
+    "title": "Lindbladian approach for many-qubit thermal machines: Enhancing the performance with geometric heat pumping by interaction, by Gerónimo J. Caselli, Luis O. Manuel, Liliana Arrachea",
+    "title_es": "Lindbladian approach for many-qubit thermal machines: Enhancing the performance with geometric heat pumping by interaction, by Gerónimo J. Caselli, Luis O. Manuel, Liliana Arrachea",
+    "url": "https://scipost.org/scipostphys.20.5.149",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "lindbladian",
+      "approach",
+      "many-qubit"
+    ]
+  },
+  {
+    "title": "NGC 1514: The Crystal Ball Nebula",
+    "title_es": "NGC 1514: The Crystal Ball Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2605/noirlab2613a.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "1514",
+      "crystal"
     ]
   }
 ]
