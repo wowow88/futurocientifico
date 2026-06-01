@@ -1,5 +1,75 @@
 [
   {
+    "title": "Cosm: Collective Switched Motion for Fast and Accurate Sparse Ising Optimization",
+    "title_es": "Cosm: Movimiento Conmutado Colectivo para una Optimización Rápida y Precisa del Esparcimiento",
+    "url": "https://arxiv.org/abs/2605.30355",
+    "source": "arXiv",
+    "published": "2026-06-01T04:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "cosm",
+      "collective",
+      "switched"
+    ]
+  },
+  {
+    "title": "How long can humans live? We simply don’t know",
+    "title_es": "¿Cuánto tiempo pueden vivir los humanos? Simplemente no lo sabemos",
+    "url": "https://www.nature.com/articles/d41586-026-01728-w",
+    "source": "Nature",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "cuánto",
+      "tiempo",
+      "pueden"
+    ]
+  },
+  {
+    "title": "These 12,000-year-old Native American dice are the oldest in the world",
+    "title_es": "Estos dados nativos americanos de 12.000 años son los más antiguos del mundo",
+    "url": "https://www.snexplores.org/article/native-american-oldest-dice",
+    "source": "Science News Explores",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "dados",
+      "nativos"
+    ]
+  },
+  {
+    "title": "The forgotten organ that could predict how long you live",
+    "title_es": "El órgano olvidado que podría predecir cuánto vivirás",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260601025352.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "órgano",
+      "olvidado",
+      "que"
+    ]
+  },
+  {
+    "title": "A giant star may have destroyed itself in one of the universe's rarest explosions",
+    "title_es": "Una estrella gigante pudo haberse destruido a sí misma en una de las explosiones más raras del universo",
+    "url": "https://phys.org/news/2026-05-giant-star-destroyed-universe-rarest.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "estrella",
+      "gigante",
+      "pudo"
+    ]
+  },
+  {
     "title": "Is extracting oxygen from lunar soil the future of space exploration?",
     "title_es": "¿Extraer oxígeno del suelo lunar es el futuro de la exploración espacial?",
     "url": "https://phys.org/news/2026-05-oxygen-lunar-soil-future-space.html",
@@ -11,6 +81,34 @@
       "extraer",
       "oxígeno",
       "suelo"
+    ]
+  },
+  {
+    "title": "Jonatan R. Ruiz: \"It is small, sustained changes that can generate major long-term benefits\"",
+    "title_es": "Jonatan R. Ruiz: “Son cambios pequeños y sostenidos los que pueden generar grandes beneficios a largo plazo”",
+    "url": "https://www.cnic.es/es/node/242571",
+    "source": "CNIC",
+    "published": "2026-05-31T00:00:00.000Z",
+    "date": "2026-05-31",
+    "category": "noticia",
+    "tags": [
+      "jonatan",
+      "ruiz",
+      "small"
+    ]
+  },
+  {
+    "title": "A new pancreatic cancer pill may be a game changer for patients",
+    "title_es": "Una nueva píldora contra el cáncer de páncreas puede cambiar las reglas del juego para los pacientes",
+    "url": "https://www.sciencenews.org/article/pancreatic-cancer-pill-daraxonrasib",
+    "source": "Science News",
+    "published": "2026-05-31T00:00:00.000Z",
+    "date": "2026-05-31",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "píldora",
+      "contra"
     ]
   },
   {
@@ -182,7 +280,7 @@
     ]
   },
   {
-    "title": "Author Correction: Hidden states and dynamics of fractional fillings in twisted MoTe 2 bilayers",
+    "title": "Author Correction: Hidden states and dynamics of fractional fillings in twisted MoTe2 bilayers",
     "title_es": "Corrección del autor: Estados ocultos y dinámica de empastes fraccionarios en bicapas retorcidas de MoTe2",
     "url": "https://www.nature.com/articles/s41586-026-10717-y",
     "source": "Nature",
@@ -249,6 +347,20 @@
       "nasa",
       "adjudica",
       "contrato"
+    ]
+  },
+  {
+    "title": "Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models",
+    "title_es": "Lumos-Nexus: puente de frecuencia eficiente con espacio latente homogéneo para modelos unificados de vídeo",
+    "url": "http://arxiv.org/abs/2605.31603v1",
+    "source": "arXiv",
+    "published": "2026-05-29T00:00:00.000Z",
+    "date": "2026-05-29",
+    "category": "noticia",
+    "tags": [
+      "lumos-nexus",
+      "puente",
+      "frecuencia"
     ]
   },
   {
@@ -6983,7 +7095,7 @@
   },
   {
     "title": "Permian Fossil is Earliest Evidence of Rib-Powered Breathing",
-    "title_es": "El fósil del Pérmico es la evidencia más temprana de respiración con costillas",
+    "title_es": "Permian Fossil is Earliest Evidence of Rib-Powered Breathing",
     "url": "https://www.sci.news/paleontology/captorhinus-aguti-rib-powered-breathing-apparatus-14685.html",
     "source": "Sci.News",
     "published": "2026-04-08T23:40:06.000Z",
@@ -6997,7 +7109,7 @@
   },
   {
     "title": "Key ocean current is slowing at locations around the Atlantic",
-    "title_es": "La corriente oceánica clave se está desacelerando en lugares alrededor del Atlántico",
+    "title_es": "Key ocean current is slowing at locations around the Atlantic",
     "url": "https://www.newscientist.com/article/2522463-key-ocean-current-is-slowing-at-locations-around-the-atlantic/",
     "source": "New Scientist",
     "published": "2026-04-08T19:00:28.000Z",
@@ -105715,6 +105827,19 @@
       "forecasting",
       "generative",
       "amplification"
+    ]
+  },
+  {
+    "title": "Saturn at Night",
+    "title_es": "Saturn at Night",
+    "url": "https://apod.nasa.gov/apod/image/2605/lastringportrait_cassini_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "saturn",
+      "night"
     ]
   }
 ]
