@@ -1,5 +1,75 @@
 [
   {
+    "title": "Plausibility Is Not Prediction: Contrastive Evidence for LLM-Based Cellular Perturbation Reasoning",
+    "title_es": "La plausibilidad no es predicción: evidencia contrastiva para el razonamiento de perturbación celular basado en LLM",
+    "url": "https://arxiv.org/abs/2606.01042",
+    "source": "arXiv",
+    "published": "2026-06-02T04:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "plausibility",
+      "not",
+      "prediction"
+    ]
+  },
+  {
+    "title": "New Species of Fossil Axolotl Unearthed in Mexico",
+    "title_es": "Nueva especie de ajolote fósil desenterrada en México",
+    "url": "https://www.sci.news/paleontology/ambystoma-quetzalcoatli-14811.html",
+    "source": "Sci.News",
+    "published": "2026-06-02T00:46:48.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "fossil"
+    ]
+  },
+  {
+    "title": "Spacewalking With Scott Wray, Artemis EVA Training Lead",
+    "title_es": "Caminata espacial con Scott Wray, líder de entrenamiento de Artemis EVA",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/spacewalking-with-scott-wray-artemis-eva-training-lead/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "caminata",
+      "espacial",
+      "con"
+    ]
+  },
+  {
+    "title": "Strange winds on seven hot Jupiters reveal strongest signs yet of exoplanet magnetic activity",
+    "title_es": "Vientos extraños en siete Júpiter calientes revelan signos más fuertes hasta el momento de actividad magnética de exoplanetas",
+    "url": "https://phys.org/news/2026-06-strange-hot-jupiters-reveal-strongest.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "vientos",
+      "extraños",
+      "siete"
+    ]
+  },
+  {
+    "title": "A golden age of maths is dawning and mathematicians are freaking out",
+    "title_es": "Una era dorada de las matemáticas está amaneciendo y los matemáticos se están volviendo locos",
+    "url": "https://www.newscientist.com/article/2526650-a-golden-age-of-maths-is-dawning-and-mathematicians-are-freaking-out/",
+    "source": "New Scientist",
+    "published": "2026-06-01T16:00:40.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "golden",
+      "age",
+      "maths"
+    ]
+  },
+  {
     "title": "Cosm: Collective Switched Motion for Fast and Accurate Sparse Ising Optimization",
     "title_es": "Cosm: Movimiento Conmutado Colectivo para una Optimización Rápida y Precisa del Esparcimiento",
     "url": "https://arxiv.org/abs/2605.30355",
@@ -67,6 +137,62 @@
       "estrella",
       "gigante",
       "pudo"
+    ]
+  },
+  {
+    "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+    "title_es": "Mitigar el sesgo de juicio perceptivo en un LLM como juez multimodal mediante modelos de perturbación perceptual y recompensa",
+    "url": "http://arxiv.org/abs/2606.02578v1",
+    "source": "arXiv",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "mitigar",
+      "sesgo",
+      "juicio"
+    ]
+  },
+  {
+    "title": "Enantioselective hydrogen atom relay via non-covalent catalyst assembly",
+    "title_es": "Relé de átomo de hidrógeno enantioselectivo mediante un conjunto de catalizador no covalente",
+    "url": "https://www.nature.com/articles/s41586-026-10692-4",
+    "source": "Nature",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "relé",
+      "átomo",
+      "hidrógeno"
+    ]
+  },
+  {
+    "title": "The math of choosing a restaurant meal is revealed in Richard Feynman’s notes",
+    "title_es": "Las matemáticas para elegir una comida en un restaurante se revelan en las notas de Richard Feynman",
+    "url": "https://www.sciencenews.org/article/math-restaurant-meal-feynman",
+    "source": "Science News",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "matemáticas",
+      "elegir",
+      "comida"
+    ]
+  },
+  {
+    "title": "Your kitchen sponge is releasing microplastics every time you wash dishes",
+    "title_es": "La esponja de tu cocina libera microplásticos cada vez que lavas los platos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260601025356.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-01T00:00:00.000Z",
+    "date": "2026-06-01",
+    "category": "noticia",
+    "tags": [
+      "esponja",
+      "cocina",
+      "libera"
     ]
   },
   {
@@ -6927,7 +7053,7 @@
   },
   {
     "title": "Scientific Journals Need Dedicated Fact-Checkers",
-    "title_es": "Las revistas científicas necesitan verificadores de hechos dedicados",
+    "title_es": "Scientific Journals Need Dedicated Fact-Checkers",
     "url": "https://undark.org/2026/04/09/opinion-journal-fact-checkers/",
     "source": "Undark Magazine",
     "published": "2026-04-09T16:01:00.000Z",
@@ -6941,7 +7067,7 @@
   },
   {
     "title": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
-    "title_es": "Construcción de la base de conocimientos aumentada de LLM para el análisis de la causa raíz",
+    "title_es": "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
     "url": "https://arxiv.org/abs/2604.06171",
     "source": "arXiv",
     "published": "2026-04-09T04:00:00.000Z",
@@ -45323,17 +45449,17 @@
     ]
   },
   {
-    "title": "Minimal mutational requirements for conversion of a telomere resolvase into a Cre-like site-specific recombinase",
-    "title_es": "Requisitos mutacionales mínimos para la conversión de una resolvasa telomérica en una recombinasa específica de sitio similar a Cre",
+    "title": "Temporal shift in task factor influence across the stretch reflex",
+    "title_es": "Cambio temporal en la influencia del factor de tarea a través del reflejo de estiramiento",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "requisitos",
-      "mutacionales",
-      "mínimos"
+      "cambio",
+      "temporal",
+      "influencia"
     ]
   },
   {
@@ -105840,6 +105966,34 @@
     "tags": [
       "saturn",
       "night"
+    ]
+  },
+  {
+    "title": "A global view of the EDM landscape, by Skyler Degenkolb, Nina Elmer, Tanmoy Modak, Margarete Mühlleitner, Tilman Plehn",
+    "title_es": "A global view of the EDM landscape, by Skyler Degenkolb, Nina Elmer, Tanmoy Modak, Margarete Mühlleitner, Tilman Plehn",
+    "url": "https://scipost.org/scipostphys.20.6.151",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "global",
+      "view",
+      "edm"
+    ]
+  },
+  {
+    "title": "The Vela Supernova Remnant",
+    "title_es": "The Vela Supernova Remnant",
+    "url": "https://apod.nasa.gov/apod/image/2606/vela_mtanous_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "vela",
+      "supernova",
+      "remnant"
     ]
   }
 ]
