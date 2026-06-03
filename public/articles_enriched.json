@@ -1,5 +1,116 @@
 [
   {
+    "title": "Cost-Aware Query Routing in RAG: Empirical Analysis of Retrieval Depth Tradeoffs",
+    "title_es": "Enrutamiento de consultas consciente de costos en RAG: análisis empírico de compensaciones de profundidad de recuperación",
+    "url": "https://arxiv.org/abs/2606.02581",
+    "source": "arXiv",
+    "published": "2026-06-03T04:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "cost-aware",
+      "query",
+      "routing"
+    ]
+  },
+  {
+    "title": "Ötzi's frozen remains may harbour metabolically active microbes",
+    "title_es": "Los restos congelados de Ötzi pueden albergar microbios metabólicamente activos",
+    "url": "https://www.newscientist.com/article/2528789-otzis-frozen-remains-may-harbour-metabolically-active-microbes/",
+    "source": "New Scientist",
+    "published": "2026-06-03T01:00:01.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "tzis",
+      "frozen",
+      "remains"
+    ]
+  },
+  {
+    "title": "Can an army of babies and dogs rescue psychology from its reproducibility crisis?",
+    "title_es": "¿Puede un ejército de bebés y perros rescatar a la psicología de su crisis de reproducibilidad?",
+    "url": "https://www.nature.com/articles/d41586-026-01727-x",
+    "source": "Nature",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "ejército",
+      "bebés"
+    ]
+  },
+  {
+    "title": "El Dr. Borja Ibáñez, director científico del CNIC, recibe el Premio Rei Jaume I de Investigación Clínica y Salud Pública 2026",
+    "title_es": "El Dr. Borja Ibáñez, director científico del CNIC, recibe el Premio Rei Jaume I de Investigación Clínica y Salud Pública 2026",
+    "url": "https://www.cnic.es/es/noticias/dr-borja-ibanez-director-cientifico-cnic-recibe-premio-rei-jaume-i-investigacion-clinica",
+    "source": "CNIC",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "borja",
+      "ibáñez",
+      "director"
+    ]
+  },
+  {
+    "title": "Typhoon Jangmi",
+    "title_es": "Tifón Jangmi",
+    "url": "https://science.nasa.gov/earth/earth-observatory/typhoon-jangmi/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "tifón",
+      "jangmi"
+    ]
+  },
+  {
+    "title": "Ötzi the Iceman’s remains yielded ‘viable’ yeasts in the lab",
+    "title_es": "Los restos de Ötzi el Hombre de Hielo produjeron levaduras \"viables\" en el laboratorio",
+    "url": "https://www.sciencenews.org/article/otzi-iceman-viable-yeasts-microbiome",
+    "source": "Science News",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "restos",
+      "tzi",
+      "hombre"
+    ]
+  },
+  {
+    "title": "Genetically modified hookworms produce and deliver therapeutics",
+    "title_es": "Los anquilostomas genéticamente modificados producen y administran terapias",
+    "url": "https://phys.org/news/2026-06-genetically-hookworms-therapeutics.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "anquilostomas",
+      "genéticamente",
+      "modificados"
+    ]
+  },
+  {
+    "title": "Meteorite Found in Africa Preserves Evidence of Long-Lost Massive Protoplanet",
+    "title_es": "Un meteorito hallado en África conserva evidencias de un enorme protoplaneta perdido hace mucho tiempo",
+    "url": "https://www.sci.news/space/angrite-meteorite-nwa-12774-14814.html",
+    "source": "Sci.News",
+    "published": "2026-06-02T22:04:53.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "meteorite",
+      "found",
+      "africa"
+    ]
+  },
+  {
     "title": "Plausibility Is Not Prediction: Contrastive Evidence for LLM-Based Cellular Perturbation Reasoning",
     "title_es": "La plausibilidad no es predicción: evidencia contrastiva para el razonamiento de perturbación celular basado en LLM",
     "url": "https://arxiv.org/abs/2606.01042",
@@ -53,6 +164,76 @@
       "vientos",
       "extraños",
       "siete"
+    ]
+  },
+  {
+    "title": "Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models",
+    "title_es": "Los tokens de percepción imaginativa mejoran el razonamiento espacial en modelos de lenguaje multimodal",
+    "url": "http://arxiv.org/abs/2606.03988v1",
+    "source": "arXiv",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "tokens",
+      "percepción",
+      "imaginativa"
+    ]
+  },
+  {
+    "title": "Publicado el estudio del grupo de Mariano Barbacid sobre la terapia que elimina tumores de páncreas en ratones",
+    "title_es": "Publicado el estudio del grupo de Mariano Barbacid sobre la terapia que elimina tumores de páncreas en ratones",
+    "url": "https://www.cnio.es/noticias/publicado-el-estudio-del-grupo-de-mariano-barbacid-sobre-la-terapia-que-elimina-tumores-de-pancreas-en-ratones/",
+    "source": "CNIO",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "publicado",
+      "estudio",
+      "grupo"
+    ]
+  },
+  {
+    "title": "El IAC celebra la XVII edición del “Día de Nuestra Ciencia”, un encuentro interno para compartir avances científicos y tecnológicos",
+    "title_es": "El IAC celebra la XVII edición del “Día de Nuestra Ciencia”, un encuentro interno para compartir avances científicos y tecnológicos",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-celebra-la-xvii-edicion-del-dia-de-nuestra-ciencia-un-encuentro-interno-para-compartir-avances",
+    "source": "IAC",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "celebra",
+      "xvii"
+    ]
+  },
+  {
+    "title": "Some people use echolocation to get around. Here’s how it works",
+    "title_es": "Algunas personas utilizan la ecolocalización para desplazarse. Así es como funciona",
+    "url": "https://www.snexplores.org/article/human-echolocation-blind-navigate-brain",
+    "source": "Science News Explores",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "algunas",
+      "personas",
+      "utilizan"
+    ]
+  },
+  {
+    "title": "A single protein may be holding back CAR T cancer therapy",
+    "title_es": "Una sola proteína puede estar frenando la terapia contra el cáncer con CAR T",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260602021641.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-02T00:00:00.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "sola",
+      "proteína",
+      "puede"
     ]
   },
   {
@@ -6871,7 +7052,7 @@
   },
   {
     "title": "Mysterious Flashes in 1950s Skies Linked to Nuclear Tests and UAP Sightings: Study",
-    "title_es": "Destellos misteriosos en los cielos de la década de 1950 vinculados a pruebas nucleares y avistamientos de UAP: estudio",
+    "title_es": "Mysterious Flashes in 1950s Skies Linked to Nuclear Tests and UAP Sightings: Study",
     "url": "https://www.sci.news/astronomy/cold-war-transients-14688.html",
     "source": "Sci.News",
     "published": "2026-04-10T23:13:03.000Z",
@@ -6885,7 +7066,7 @@
   },
   {
     "title": "Plastic Pollution Is Bad Enough. Burning It Can Be Even Worse.",
-    "title_es": "La contaminación plástica es lo suficientemente mala. Quemarlo puede ser aún peor.",
+    "title_es": "Plastic Pollution Is Bad Enough. Burning It Can Be Even Worse.",
     "url": "https://undark.org/2026/04/10/burning-plastic-pollution-indonesia/",
     "source": "Undark Magazine",
     "published": "2026-04-10T07:28:00.000Z",
@@ -6899,7 +7080,7 @@
   },
   {
     "title": "FedUTR: Federated Recommendation with Augmented Universal Textual Representation for Sparse Interaction Scenarios",
-    "title_es": "FedUTR: Recomendación federada con representación textual universal aumentada para escenarios de interacción dispersa",
+    "title_es": "FedUTR: Federated Recommendation with Augmented Universal Textual Representation for Sparse Interaction Scenarios",
     "url": "https://arxiv.org/abs/2604.07351",
     "source": "arXiv",
     "published": "2026-04-10T04:00:00.000Z",
@@ -6941,7 +7122,7 @@
   },
   {
     "title": "CNIC celebra un encuentro en el marco del Programa de Investigadores Visitantes impulsado por la Fundación Occident",
-    "title_es": "CNIC celebra un encuentro en el marco del Programa de Investigadores Visitantes impulsado por la Fundación Occidente",
+    "title_es": "CNIC celebra un encuentro en el marco del Programa de Investigadores Visitantes impulsado por la Fundación Occident",
     "url": "https://www.cnic.es/es/noticias/cnic-celebra-un-encuentro-marco-programa-investigadores-visitantes-impulsado-por-fundacion",
     "source": "CNIC",
     "published": "2026-04-10T00:00:00.000Z",
@@ -7039,7 +7220,7 @@
   },
   {
     "title": "Chimpanzee group's violent rupture hints at evolutionary roots of war",
-    "title_es": "La violenta ruptura del grupo de chimpancés insinúa las raíces evolutivas de la guerra",
+    "title_es": "Chimpanzee group's violent rupture hints at evolutionary roots of war",
     "url": "https://www.newscientist.com/article/2522541-chimpanzee-groups-violent-rupture-hints-at-evolutionary-roots-of-war/",
     "source": "New Scientist",
     "published": "2026-04-09T19:00:45.000Z",
@@ -45449,17 +45630,17 @@
     ]
   },
   {
-    "title": "Temporal shift in task factor influence across the stretch reflex",
-    "title_es": "Cambio temporal en la influencia del factor de tarea a través del reflejo de estiramiento",
+    "title": "Correction: Oropouche infection in Peruvian patients: A systematic review and meta-analysis",
+    "title_es": "Corrección: Infección por Oropouche en pacientes peruanos: una revisión sistemática y metanálisis",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "cambio",
-      "temporal",
-      "influencia"
+      "corrección",
+      "infección",
+      "por"
     ]
   },
   {
@@ -105994,6 +106175,20 @@
       "vela",
       "supernova",
       "remnant"
+    ]
+  },
+  {
+    "title": "Smoothed-cubic spin-glass model of random lasers, by Marcello Benedetti, Luca Leuzzi",
+    "title_es": "Smoothed-cubic spin-glass model of random lasers, by Marcello Benedetti, Luca Leuzzi",
+    "url": "https://scipost.org/scipostphys.20.6.153",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "smoothed-cubic",
+      "spin-glass",
+      "model"
     ]
   }
 ]
