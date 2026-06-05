@@ -1,5 +1,89 @@
 [
   {
+    "title": "Book Review: How Radio Astronomy Made the Invisible Visible",
+    "title_es": "Reseña del libro: Cómo la radioastronomía hizo visible lo invisible",
+    "url": "https://undark.org/2026/06/05/book-review-echoing-universe/",
+    "source": "Undark Magazine",
+    "published": "2026-06-05T07:30:12.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "how"
+    ]
+  },
+  {
+    "title": "RAINO: Anchoring Agents in Reality, A Systematic Review and Conceptual Framework for Realism in Agent-Based Modelling",
+    "title_es": "RAINO: Anclaje de agentes en la realidad, una revisión sistemática y un marco conceptual para el realismo en la modelización basada en agentes",
+    "url": "https://arxiv.org/abs/2606.05167",
+    "source": "arXiv",
+    "published": "2026-06-05T04:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "raino",
+      "anchoring",
+      "agents"
+    ]
+  },
+  {
+    "title": "Fighting Fire With Fire",
+    "title_es": "Combatir el fuego con fuego",
+    "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "combatir",
+      "fuego",
+      "con"
+    ]
+  },
+  {
+    "title": "Dangerous livestock pest case confirmed in Texas",
+    "title_es": "Caso peligroso de plaga ganadera confirmado en Texas",
+    "url": "https://phys.org/news/2026-06-dangerous-livestock-pest-case-texas.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "caso",
+      "peligroso",
+      "plaga"
+    ]
+  },
+  {
+    "title": "New Microraptorine Dinosaur Discovered in China",
+    "title_es": "Nuevo dinosaurio Microraptorine descubierto en China",
+    "url": "https://www.sci.news/paleontology/jian-changmaensis-14819.html",
+    "source": "Sci.News",
+    "published": "2026-06-04T22:13:15.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "microraptorine",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Becoming a parent may make you love your partner less",
+    "title_es": "Convertirse en padre puede hacer que ames menos a tu pareja",
+    "url": "https://www.newscientist.com/article/2529220-becoming-a-parent-may-make-you-love-your-partner-less/",
+    "source": "New Scientist",
+    "published": "2026-06-04T17:00:21.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "becoming",
+      "parent",
+      "may"
+    ]
+  },
+  {
     "title": "Risk Aversion in Science Stifles Innovation",
     "title_es": "La aversión al riesgo en la ciencia sofoca la innovación",
     "url": "https://undark.org/2026/06/04/opinion-risk-aversion-innovation/",
@@ -81,6 +165,89 @@
       "oferta",
       "pública",
       "inicial"
+    ]
+  },
+  {
+    "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+    "title_es": "HANDOFF: Control de todo el cuerpo en el espacio de tareas agente humanoide a través de maestros complementarios destilados",
+    "url": "http://arxiv.org/abs/2606.06493v1",
+    "source": "arXiv",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "handoff",
+      "control",
+      "todo"
+    ]
+  },
+  {
+    "title": "Patently imperfect",
+    "title_es": "Patentemente imperfecto",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aef3173",
+    "source": "Science.org",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "patentemente",
+      "imperfecto"
+    ]
+  },
+  {
+    "title": "Author Correction: Physiology and immunology of a pig-to-human decedent kidney xenotransplant",
+    "title_es": "Corrección del autor: Fisiología e inmunología de un xenotrasplante de riñón de cerdo a humano fallecido",
+    "url": "https://www.nature.com/articles/s41586-026-10694-2",
+    "source": "Nature",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "fisiología"
+    ]
+  },
+  {
+    "title": "Remote workers feel isolated. Back-to-office mandates are not a fix",
+    "title_es": "Los trabajadores remotos se sienten aislados. Los mandatos de regreso a la oficina no son una solución",
+    "url": "https://www.sciencenews.org/article/remote-workers-isolated-office-social",
+    "source": "Science News",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "trabajadores",
+      "remotos",
+      "sienten"
+    ]
+  },
+  {
+    "title": "Some of these Smithsonian secrets might just blow your mind",
+    "title_es": "Algunos de estos secretos del Smithsonian podrían dejarte boquiabierto",
+    "url": "https://www.snexplores.org/article/smithsonian-museum-collection-secrets",
+    "source": "Science News Explores",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "algunos",
+      "estos",
+      "secretos"
+    ]
+  },
+  {
+    "title": "Goethe never knew this 40-million-year-old ant was hidden in his collection",
+    "title_es": "Goethe nunca supo que esta hormiga de 40 millones de años estaba escondida en su colección",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260604044252.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-04T00:00:00.000Z",
+    "date": "2026-06-04",
+    "category": "noticia",
+    "tags": [
+      "goethe",
+      "nunca",
+      "supo"
     ]
   },
   {
@@ -6828,7 +6995,7 @@
   },
   {
     "title": "How autoimmune conditions can unexpectedly drive mental illness",
-    "title_es": "Cómo las enfermedades autoinmunes pueden conducir inesperadamente a la enfermedad mental",
+    "title_es": "How autoimmune conditions can unexpectedly drive mental illness",
     "url": "https://www.newscientist.com/article/2521774-how-autoimmune-conditions-can-unexpectedly-drive-mental-illness/",
     "source": "New Scientist",
     "published": "2026-04-14T16:00:08.000Z",
@@ -6842,7 +7009,7 @@
   },
   {
     "title": "When Scientific Debate Steps into Custody Cases",
-    "title_es": "Cuando el debate científico entra en los casos de custodia",
+    "title_es": "When Scientific Debate Steps into Custody Cases",
     "url": "https://undark.org/2026/04/14/parental-alienation-custody/",
     "source": "Undark Magazine",
     "published": "2026-04-14T07:07:00.000Z",
@@ -6856,7 +7023,7 @@
   },
   {
     "title": "NetAgentBench: A State-Centric Benchmark for Evaluating Agentic Network Configuration",
-    "title_es": "NetAgentBench: un punto de referencia centrado en el estado para evaluar la configuración de la red agénica",
+    "title_es": "NetAgentBench: A State-Centric Benchmark for Evaluating Agentic Network Configuration",
     "url": "https://arxiv.org/abs/2604.09678",
     "source": "arXiv",
     "published": "2026-04-14T04:00:00.000Z",
@@ -6870,7 +7037,7 @@
   },
   {
     "title": "Large Language Models Don’t Just Analyze People, They Judge Them",
-    "title_es": "Los modelos lingüísticos grandes no solo analizan a las personas, sino que las juzgan",
+    "title_es": "Large Language Models Don’t Just Analyze People, They Judge Them",
     "url": "https://www.sci.news/othersciences/computerscience/large-language-models-trust-humans-14693.html",
     "source": "Sci.News",
     "published": "2026-04-14T00:16:42.000Z",
@@ -45812,8 +45979,8 @@
     ]
   },
   {
-    "title": "Correction: IL-22 inhibits ferroptosis and attenuates ischemia-reperfusion-induced acute kidney injury: Association with activation of the P62-Keap1-Nrf2 signaling pathway",
-    "title_es": "Corrección: IL-22 inhibe la ferroptosis y atenúa la lesión renal aguda inducida por isquemia-reperfusión: asociación con la activación de la vía de señalización P62-Keap1-Nrf2",
+    "title": "Correction: Mammographic Assessment of a Geographically Defined Population at a Mastology Referral Hospital in São Paulo Brazil",
+    "title_es": "Corrección: Evaluación mamográfica de una población geográficamente definida en un hospital de referencia de mastología en São Paulo, Brasil",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -45821,8 +45988,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "il-22",
-      "inhibe"
+      "evaluación",
+      "mamográfica"
     ]
   },
   {
@@ -106385,6 +106552,20 @@
       "planetary",
       "nebula",
       "cosmic"
+    ]
+  },
+  {
+    "title": "Quantum thermodynamics, by Patrick P. Potts",
+    "title_es": "Quantum thermodynamics, by Patrick P. Potts",
+    "url": "https://scipost.org/scipostphyslectnotes.126",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "quantum",
+      "thermodynamics",
+      "patrick"
     ]
   }
 ]
