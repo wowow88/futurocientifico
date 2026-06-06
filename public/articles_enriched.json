@@ -1,5 +1,33 @@
 [
   {
+    "title": "Americans share the same struggles despite deep political divides, new bipartisan report finds",
+    "title_es": "Los estadounidenses comparten las mismas luchas a pesar de las profundas divisiones políticas, según un nuevo informe bipartidista",
+    "url": "https://phys.org/news/2026-06-americans-struggles-deep-political-bipartisan.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-06T00:00:00.000Z",
+    "date": "2026-06-06",
+    "category": "noticia",
+    "tags": [
+      "estadounidenses",
+      "comparten",
+      "mismas"
+    ]
+  },
+  {
+    "title": "After Decade-Long Hunt, Scientists Find East Asia’s Tallest Tree",
+    "title_es": "Después de una cacería de una década, los científicos encuentran el árbol más alto del este de Asia",
+    "url": "https://www.sci.news/biology/heaven-sword-tree-14824.html",
+    "source": "Sci.News",
+    "published": "2026-06-05T23:47:26.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "after",
+      "decade-long",
+      "hunt"
+    ]
+  },
+  {
     "title": "Book Review: How Radio Astronomy Made the Invisible Visible",
     "title_es": "Reseña del libro: Cómo la radioastronomía hizo visible lo invisible",
     "url": "https://undark.org/2026/06/05/book-review-echoing-universe/",
@@ -53,6 +81,76 @@
       "caso",
       "peligroso",
       "plaga"
+    ]
+  },
+  {
+    "title": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
+    "title_es": "Charla informativa: Los espinosaurios con glándulas de sal podrían haber vivido en ambientes marinos",
+    "url": "https://www.nature.com/articles/d41586-026-01831-y",
+    "source": "Nature",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "espinosaurios"
+    ]
+  },
+  {
+    "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
+    "title_es": "El avión X-59 de la NASA vuela supersónico por primera vez",
+    "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "avión",
+      "x-59",
+      "nasa"
+    ]
+  },
+  {
+    "title": "NASA declares MAVEN, its Mars atmosphere orbiter, dead",
+    "title_es": "La NASA declara muerta a MAVEN, su orbitador de la atmósfera de Marte",
+    "url": "https://www.sciencenews.org/article/nasa-maven-mars-atmosphere-dead",
+    "source": "Science News",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "declara",
+      "muerta"
+    ]
+  },
+  {
+    "title": "Explainer: What are corals?",
+    "title_es": "Explicador: ¿Qué son los corales?",
+    "url": "https://www.snexplores.org/article/what-are-corals-reefs",
+    "source": "Science News Explores",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "explicador",
+      "qué",
+      "son"
+    ]
+  },
+  {
+    "title": "Giant fire tornadoes could clean up oil spills faster with less pollution",
+    "title_es": "Los tornados de fuego gigantes podrían limpiar los derrames de petróleo más rápido y con menos contaminación",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260605023420.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "tornados",
+      "fuego",
+      "gigantes"
     ]
   },
   {
@@ -6981,7 +7079,7 @@
   },
   {
     "title": "Is a super El Niño imminent, and what could the impacts be?",
-    "title_es": "¿Es inminente un super El Niño y cuáles podrían ser los impactos?",
+    "title_es": "Is a super El Niño imminent, and what could the impacts be?",
     "url": "https://www.newscientist.com/article/2523034-is-a-super-el-nino-imminent-and-what-could-the-impacts-be/",
     "source": "New Scientist",
     "published": "2026-04-14T20:00:28.000Z",
@@ -45979,17 +46077,17 @@
     ]
   },
   {
-    "title": "Correction: Mammographic Assessment of a Geographically Defined Population at a Mastology Referral Hospital in São Paulo Brazil",
-    "title_es": "Corrección: Evaluación mamográfica de una población geográficamente definida en un hospital de referencia de mastología en São Paulo, Brasil",
+    "title": "Genomic insights into population structure and adaptive variation of Pimelodus yum a and Pimelodus grosskopfii in the Magdalena-Cauca Basin",
+    "title_es": "Conocimientos genómicos sobre la estructura poblacional y la variación adaptativa de Pimelodus yuma y Pimelodus grosskopfii en la cuenca Magdalena-Cauca",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "evaluación",
-      "mamográfica"
+      "conocimientos",
+      "genómicos",
+      "sobre"
     ]
   },
   {
@@ -106566,6 +106664,20 @@
       "quantum",
       "thermodynamics",
       "patrick"
+    ]
+  },
+  {
+    "title": "TensorMixedStates: A Julia library for simulating pure and mixed quantum states using matrix product states, by Jérôme Houdayer, Grégoire Misguich",
+    "title_es": "TensorMixedStates: A Julia library for simulating pure and mixed quantum states using matrix product states, by Jérôme Houdayer, Grégoire Misguich",
+    "url": "https://scipost.org/scipostphyscodeb.72",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "tensormixedstates",
+      "julia",
+      "library"
     ]
   }
 ]
