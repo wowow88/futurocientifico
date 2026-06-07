@@ -1,5 +1,47 @@
 [
   {
+    "title": "Scientists finally complete Schrödinger’s 100-year-old color theory",
+    "title_es": "Los científicos finalmente completan la teoría del color de Schrödinger de 100 años de antigüedad",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260606015140.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-07T00:00:00.000Z",
+    "date": "2026-06-07",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "finalmente",
+      "completan"
+    ]
+  },
+  {
+    "title": "Black teachers improve outcomes for all students, but the profession remains largely white",
+    "title_es": "Los profesores negros mejoran los resultados de todos los estudiantes, pero la profesión sigue siendo mayoritariamente blanca",
+    "url": "https://phys.org/news/2026-06-black-teachers-outcomes-students-largely.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-07T00:00:00.000Z",
+    "date": "2026-06-07",
+    "category": "noticia",
+    "tags": [
+      "profesores",
+      "negros",
+      "mejoran"
+    ]
+  },
+  {
+    "title": "Scientists found a surprisingly simple way to create powerful quantum states",
+    "title_es": "Los científicos han descubierto una forma sorprendentemente sencilla de crear potentes estados cuánticos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260606075510.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-06T13:02:19.000Z",
+    "date": "2026-06-06",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "found",
+      "surprisingly"
+    ]
+  },
+  {
     "title": "Americans share the same struggles despite deep political divides, new bipartisan report finds",
     "title_es": "Los estadounidenses comparten las mismas luchas a pesar de las profundas divisiones políticas, según un nuevo informe bipartidista",
     "url": "https://phys.org/news/2026-06-americans-struggles-deep-political-bipartisan.html",
@@ -544,6 +586,20 @@
     ]
   },
   {
+    "title": "La dieta sí podrá complementar tratamientos oncológicos, pero faltan investigación básica y ensayos clínicos",
+    "title_es": "La dieta sí podrá complementar los tratamientos oncológicos, pero faltan investigación básica y ensayos clínicos",
+    "url": "https://www.cnio.es/noticias/la-dieta-si-podra-complementar-tratamientos-oncologicos-pero-faltan-investigacion-basica-y-ensayos-clinicos/",
+    "source": "CNIO",
+    "published": "2026-06-03T00:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "dieta",
+      "podrá",
+      "complementar"
+    ]
+  },
+  {
     "title": "Meteorite Found in Africa Preserves Evidence of Long-Lost Massive Protoplanet",
     "title_es": "Un meteorito hallado en África conserva evidencias de un enorme protoplaneta perdido hace mucho tiempo",
     "url": "https://www.sci.news/space/angrite-meteorite-nwa-12774-14814.html",
@@ -555,6 +611,20 @@
       "meteorite",
       "found",
       "africa"
+    ]
+  },
+  {
+    "title": "Why you need to future-proof your brain in middle age and how to start",
+    "title_es": "Por qué necesitas preparar tu cerebro para el futuro en la mediana edad y cómo empezar",
+    "url": "https://www.newscientist.com/article/2526727-why-you-need-to-future-proof-your-brain-in-middle-age-and-how-to-start/",
+    "source": "New Scientist",
+    "published": "2026-06-02T18:00:03.000Z",
+    "date": "2026-06-02",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "you",
+      "need"
     ]
   },
   {
@@ -7065,7 +7135,7 @@
   },
   {
     "title": "Ancient Tidal Flats Were Busier Than We Thought",
-    "title_es": "Las antiguas llanuras de marea estaban más ocupadas de lo que pensábamos",
+    "title_es": "Ancient Tidal Flats Were Busier Than We Thought",
     "url": "https://www.sci.news/paleontology/cambrian-tidal-flats-14694.html",
     "source": "Sci.News",
     "published": "2026-04-14T20:14:13.000Z",
@@ -106678,6 +106748,20 @@
       "tensormixedstates",
       "julia",
       "library"
+    ]
+  },
+  {
+    "title": "Automorphism in gauge theories: Higher symmetries and transversal non-Clifford logical gates, by Po-Shen Hsin, Ryohei Kobayashi",
+    "title_es": "Automorphism in gauge theories: Higher symmetries and transversal non-Clifford logical gates, by Po-Shen Hsin, Ryohei Kobayashi",
+    "url": "https://scipost.org/scipostphys.20.6.159",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "automorphism",
+      "gauge",
+      "theories"
     ]
   }
 ]
