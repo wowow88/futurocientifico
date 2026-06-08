@@ -1,5 +1,61 @@
 [
   {
+    "title": "Promising ‘Liquid Biopsies’ May Not Be Ready for Primetime",
+    "title_es": "Es posible que las prometedoras ‘biopsias líquidas' no estén listas para el horario estelar",
+    "url": "https://undark.org/2026/06/08/liquid-biopsies-cancer/",
+    "source": "Undark Magazine",
+    "published": "2026-06-08T07:07:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "promising",
+      "liquid",
+      "biopsies"
+    ]
+  },
+  {
+    "title": "Real-Time AttentionBender: Granular Interactive Network Bending of Video Diffusion Transformers",
+    "title_es": "Real-Time AttentionBender: Granular Interactive Network Bending of Video Diffusion Transformers",
+    "url": "https://arxiv.org/abs/2606.06497",
+    "source": "arXiv",
+    "published": "2026-06-08T04:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "real-time",
+      "attentionbender",
+      "granular"
+    ]
+  },
+  {
+    "title": "Sustainability or dystopia? What past patterns tell us about where society is heading",
+    "title_es": "¿Sostenibilidad o distopía? ¿Qué nos dicen los patrones pasados ​​sobre hacia dónde se dirige la sociedad?",
+    "url": "https://www.nature.com/articles/d41586-026-01821-0",
+    "source": "Nature",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "sostenibilidad",
+      "distopía",
+      "qué"
+    ]
+  },
+  {
+    "title": "A 7.8 magnitude quake in the Philippines kills at least 19, fells buildings and sets off a tsunami",
+    "title_es": "Un terremoto de magnitud 7,8 en Filipinas mata al menos a 19 personas, derriba edificios y provoca un tsunami",
+    "url": "https://phys.org/news/2026-06-magnitude-quake-philippines-fells-tsunami.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "terremoto",
+      "magnitud",
+      "filipinas"
+    ]
+  },
+  {
     "title": "Scientists finally complete Schrödinger’s 100-year-old color theory",
     "title_es": "Los científicos finalmente completan la teoría del color de Schrödinger de 100 años de antigüedad",
     "url": "https://www.sciencedaily.com/releases/2026/06/260606015140.htm",
@@ -193,6 +249,20 @@
       "tornados",
       "fuego",
       "gigantes"
+    ]
+  },
+  {
+    "title": "How reliable are LLMs when it comes to playing dice?",
+    "title_es": "¿Qué tan confiables son los LLM cuando se trata de jugar a los dados?",
+    "url": "http://arxiv.org/abs/2606.07515v1",
+    "source": "arXiv",
+    "published": "2026-06-05T00:00:00.000Z",
+    "date": "2026-06-05",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "tan",
+      "confiables"
     ]
   },
   {
@@ -416,6 +486,20 @@
       "looming",
       "niño",
       "could"
+    ]
+  },
+  {
+    "title": "An encyclopedia formed from AI hallucinations – what could go wrong?",
+    "title_es": "Una enciclopedia formada a partir de alucinaciones de IA: ¿qué podría salir mal?",
+    "url": "https://www.newscientist.com/article/mg27035981-100-an-encyclopedia-formed-from-ai-hallucinations-what-could-go-wrong/",
+    "source": "New Scientist",
+    "published": "2026-06-03T18:00:00.000Z",
+    "date": "2026-06-03",
+    "category": "noticia",
+    "tags": [
+      "encyclopedia",
+      "formed",
+      "hallucinations"
     ]
   },
   {
@@ -6967,7 +7051,7 @@
   },
   {
     "title": "Beamline for Schools receives a record number of submissions",
-    "title_es": "Beamline for Schools recibe un número récord de envíos",
+    "title_es": "Beamline for Schools receives a record number of submissions",
     "url": "https://home.cern/news/news/knowledge-sharing/beamline-schools-receives-record-number-submissions",
     "source": "CERN News",
     "published": "2026-04-15T08:39:42.000Z",
@@ -6981,7 +7065,7 @@
   },
   {
     "title": "A Decongestant Debate That Won’t Clear Up",
-    "title_es": "Un debate descongestionante que no se aclarará",
+    "title_es": "A Decongestant Debate That Won’t Clear Up",
     "url": "https://undark.org/2026/04/15/sudafed-phenylephrine-debate/",
     "source": "Undark Magazine",
     "published": "2026-04-15T07:06:00.000Z",
@@ -6995,7 +7079,7 @@
   },
   {
     "title": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
-    "title_es": "GRACE: Un marco de selección dinámico de conjuntos de núcleos para la optimización del modelo de lenguaje grande",
+    "title_es": "GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization",
     "url": "https://arxiv.org/abs/2604.11810",
     "source": "arXiv",
     "published": "2026-04-15T04:00:00.000Z",
@@ -106762,6 +106846,20 @@
       "automorphism",
       "gauge",
       "theories"
+    ]
+  },
+  {
+    "title": "Comet R3 PanSTARRS Through Time",
+    "title_es": "Comet R3 PanSTARRS Through Time",
+    "url": "https://apod.nasa.gov/apod/image/2606/r3tails_kurak_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "panstarrs",
+      "through"
     ]
   }
 ]
