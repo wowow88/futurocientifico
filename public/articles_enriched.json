@@ -1,5 +1,89 @@
 [
   {
+    "title": "Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games",
+    "title_es": "Charla barata bizantina: resiliencia adversaria y efectos de la topología en los juegos de coordinación de LLM",
+    "url": "https://arxiv.org/abs/2606.07790",
+    "source": "arXiv",
+    "published": "2026-06-09T04:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "byzantine",
+      "cheap",
+      "talk"
+    ]
+  },
+  {
+    "title": "San Francisco’s Metropolitan Mosaic",
+    "title_es": "El mosaico metropolitano de San Francisco",
+    "url": "https://science.nasa.gov/missions/station/san-franciscos-metropolitan-mosaic/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "mosaico",
+      "metropolitano",
+      "san"
+    ]
+  },
+  {
+    "title": "Planet nine mystery deepens as new discovery challenges hidden planet theory",
+    "title_es": "El misterio del planeta nueve se profundiza a medida que un nuevo descubrimiento desafía la teoría de los planetas ocultos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260608040009.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "misterio",
+      "planeta",
+      "nueve"
+    ]
+  },
+  {
+    "title": "Hundreds evacuated as waves batter New Zealand capital",
+    "title_es": "Cientos de personas evacuadas mientras las olas azotan la capital de Nueva Zelanda",
+    "url": "https://phys.org/news/2026-06-hundreds-evacuated-batter-zealand-capital.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "cientos",
+      "personas",
+      "evacuadas"
+    ]
+  },
+  {
+    "title": "Ornithologists Describe New Bird Species from Remote Indonesian Islands",
+    "title_es": "Ornitólogos describen nuevas especies de aves de islas remotas de Indonesia",
+    "url": "https://www.sci.news/biology/rhipidura-laguceria-14829.html",
+    "source": "Sci.News",
+    "published": "2026-06-08T20:55:01.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "ornithologists",
+      "describe",
+      "new"
+    ]
+  },
+  {
+    "title": "You don't need to worry about recursive-self-improving AI – yet",
+    "title_es": "No tienes que preocuparte por la IA recursiva de auto-mejora, todavía",
+    "url": "https://www.newscientist.com/article/2529553-you-dont-need-to-worry-about-recursive-self-improving-ai-yet/",
+    "source": "New Scientist",
+    "published": "2026-06-08T18:14:51.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "you",
+      "dont",
+      "need"
+    ]
+  },
+  {
     "title": "Promising ‘Liquid Biopsies’ May Not Be Ready for Primetime",
     "title_es": "Es posible que las prometedoras ‘biopsias líquidas' no estén listas para el horario estelar",
     "url": "https://undark.org/2026/06/08/liquid-biopsies-cancer/",
@@ -53,6 +137,90 @@
       "terremoto",
       "magnitud",
       "filipinas"
+    ]
+  },
+  {
+    "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+    "title_es": "OmniGameArena: un punto de referencia UE5 unificado para agentes de juegos VLM con dinámica de mejora",
+    "url": "http://arxiv.org/abs/2606.09826v1",
+    "source": "arXiv",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "omnigamearena",
+      "punto",
+      "referencia"
+    ]
+  },
+  {
+    "title": "GPR15-guided CD8 + T regulatory cells control intestinal inflammation",
+    "title_es": "Las células reguladoras T CD8+ guiadas por GPR15 controlan la inflamación intestinal",
+    "url": "https://www.nature.com/articles/s41586-026-10749-4",
+    "source": "Nature",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "células",
+      "reguladoras",
+      "cd8"
+    ]
+  },
+  {
+    "title": "La SEC visita el CNIC para reforzar su colaboración estratégica en investigación, formación e innovación cardiovascular",
+    "title_es": "La SEC visita el CNIC para reforzar su colaboración estratégica en investigación, formación e innovación cardiovascular",
+    "url": "https://www.cnic.es/es/noticias/sec-visita-cnic-para-reforzar-su-colaboracion-estrategica-investigacion-formacion-e",
+    "source": "CNIC",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "sec",
+      "visita",
+      "cnic"
+    ]
+  },
+  {
+    "title": "Comunicado del Patronato del CNIO",
+    "title_es": "Comunicado del Patronato del CNIO",
+    "url": "https://www.cnio.es/noticias/comunicado-del-patronato-del-cnio-4/",
+    "source": "CNIO",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "comunicado",
+      "patronato",
+      "cnio"
+    ]
+  },
+  {
+    "title": "Some pterosaurs may have boasted bold iridescence",
+    "title_es": "Algunos pterosaurios pueden haber presumido de una audaz iridiscencia",
+    "url": "https://www.sciencenews.org/article/pterosaurs-iridescent-feathers-fossil",
+    "source": "Science News",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "algunos",
+      "pterosaurios",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Scientists Say: Synesthesia",
+    "title_es": "Los científicos dicen: sinestesia",
+    "url": "https://www.snexplores.org/article/scientists-say-synesthesia-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-06-08T00:00:00.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "sinestesia"
     ]
   },
   {
@@ -6869,7 +7037,7 @@
   },
   {
     "title": "Big-Nosed Herbivorous Dinosaur May Have Been Picky Eater",
-    "title_es": "El dinosaurio herbívoro de nariz grande puede haber sido quisquilloso",
+    "title_es": "Big-Nosed Herbivorous Dinosaur May Have Been Picky Eater",
     "url": "https://www.sci.news/paleontology/muttaburrasaurus-langdoni-14699.html",
     "source": "Sci.News",
     "published": "2026-04-16T01:34:41.000Z",
@@ -6953,7 +7121,7 @@
   },
   {
     "title": "Un grupo del CNIO avanza en la identificación de las lesiones que se convertirán en cáncer de mama, lo que podrá ayudar a evitar el sobretratamiento",
-    "title_es": "Un grupo del CNIO avanza en la identificación de las lesiones que se convierten en cáncer de mama, lo que puede ayudar a evitar el sobretratamiento",
+    "title_es": "Un grupo del CNIO avanza en la identificación de las lesiones que se convertirán en cáncer de mama, lo que podrá ayudar a evitar el sobretratamiento",
     "url": "https://www.cnio.es/noticias/un-grupo-del-cnio-avanza-en-la-identificacion-de-las-lesiones-que-se-convertiran-en-cancer-de-mama-lo-que-podra-ayudar-a-evitar-el-sobretratamiento/",
     "source": "CNIO",
     "published": "2026-04-16T00:00:00.000Z",
@@ -7037,7 +7205,7 @@
   },
   {
     "title": "Requests for blood from unvaccinated donors is harming patients",
-    "title_es": "Las solicitudes de sangre de donantes no vacunados están perjudicando a los pacientes",
+    "title_es": "Requests for blood from unvaccinated donors is harming patients",
     "url": "https://www.newscientist.com/article/2523157-requests-for-blood-from-unvaccinated-donors-is-harming-patients/",
     "source": "New Scientist",
     "published": "2026-04-15T18:24:25.000Z",
@@ -46231,17 +46399,17 @@
     ]
   },
   {
-    "title": "Genomic insights into population structure and adaptive variation of Pimelodus yum a and Pimelodus grosskopfii in the Magdalena-Cauca Basin",
-    "title_es": "Conocimientos genómicos sobre la estructura poblacional y la variación adaptativa de Pimelodus yuma y Pimelodus grosskopfii en la cuenca Magdalena-Cauca",
+    "title": "Advanced glycation end product accumulation was associated with renal function impairment in males in large health examination population",
+    "title_es": "La acumulación de productos finales de glicación avanzada se asoció con deterioro de la función renal en hombres en una gran población de exámenes de salud",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "conocimientos",
-      "genómicos",
-      "sobre"
+      "acumulación",
+      "productos",
+      "finales"
     ]
   },
   {
@@ -106860,6 +107028,20 @@
       "comet",
       "panstarrs",
       "through"
+    ]
+  },
+  {
+    "title": "On the simulated kinematic distributions of heavy meson decays, by Florian Herren, Raynette van Tonder",
+    "title_es": "On the simulated kinematic distributions of heavy meson decays, by Florian Herren, Raynette van Tonder",
+    "url": "https://scipost.org/scipostphys.20.6.161",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "simulated",
+      "kinematic",
+      "distributions"
     ]
   }
 ]
