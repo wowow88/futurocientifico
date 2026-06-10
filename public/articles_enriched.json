@@ -1,5 +1,89 @@
 [
   {
+    "title": "Robots are about to overtake armed soldiers as the deciders of war",
+    "title_es": "Los robots están a punto de superar a los soldados armados como decisores de la guerra",
+    "url": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/",
+    "source": "New Scientist",
+    "published": "2026-06-10T06:00:55.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "robots",
+      "are",
+      "about"
+    ]
+  },
+  {
+    "title": "Nature Index 2026 Research Leaders rankings: are China’s East Asian neighbours keeping pace with it?",
+    "title_es": "Clasificación de líderes de investigación del Nature Index 2026: ¿están los vecinos de Asia oriental de China a la par?",
+    "url": "https://www.nature.com/articles/d41586-026-01662-x",
+    "source": "Nature",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "clasificación",
+      "líderes",
+      "investigación"
+    ]
+  },
+  {
+    "title": "Tyndall’s Trail of Bergs",
+    "title_es": "El rastro de Bergs de Tyndall",
+    "url": "https://science.nasa.gov/earth/earth-observatory/tyndalls-trail-of-bergs/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "rastro",
+      "bergs",
+      "tyndall"
+    ]
+  },
+  {
+    "title": "Popular joint supplement glucosamine linked to faster Alzheimer’s progression",
+    "title_es": "El popular suplemento para las articulaciones, la glucosamina, se relaciona con una progresión más rápida del Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260610003044.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "popular",
+      "suplemento",
+      "articulaciones"
+    ]
+  },
+  {
+    "title": "Quantum witness technique reveals spinons in quantum spin liquid candidate",
+    "title_es": "La técnica del testigo cuántico revela espinones en un candidato líquido de espín cuántico",
+    "url": "https://phys.org/news/2026-06-quantum-witness-technique-reveals-spinons.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "técnica",
+      "testigo",
+      "cuántico"
+    ]
+  },
+  {
+    "title": "Fossil Discovery in Patagonia Reveals New Species of Horned Turtle",
+    "title_es": "Descubrimiento de fósiles en la Patagonia revela una nueva especie de tortuga cornuda",
+    "url": "https://www.sci.news/paleontology/patagoniaemys-aeschyli-14832.html",
+    "source": "Sci.News",
+    "published": "2026-06-09T21:31:30.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "fossil",
+      "discovery",
+      "patagonia"
+    ]
+  },
+  {
     "title": "Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games",
     "title_es": "Charla barata bizantina: resiliencia adversaria y efectos de la topología en los juegos de coordinación de LLM",
     "url": "https://arxiv.org/abs/2606.07790",
@@ -53,6 +137,76 @@
       "cientos",
       "personas",
       "evacuadas"
+    ]
+  },
+  {
+    "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+    "title_es": "Una lente unificadora sobre el ajuste supervisado a través del diseño de distribución objetivo",
+    "url": "http://arxiv.org/abs/2606.11189v1",
+    "source": "arXiv",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "lente",
+      "unificadora",
+      "sobre"
+    ]
+  },
+  {
+    "title": "Cazadores de genes: aprende a descifrar el código del cáncer en el Máster de Bioinformática",
+    "title_es": "Cazadores de genes: aprende a descifrar el código del cáncer en el Máster de Bioinformática",
+    "url": "https://www.cnio.es/noticias/cazadores-de-genes-aprende-a-descifrar-el-codigo-del-cancer-en-el-master-de-bioinformatica/",
+    "source": "CNIO",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "cazadores",
+      "genes",
+      "aprende"
+    ]
+  },
+  {
+    "title": "Tenerife acoge la primera edición del Premio Cosmos en España",
+    "title_es": "Tenerife acoge la primera edición del Premio Cosmos en España",
+    "url": "https://www.iac.es/es/divulgacion/noticias/tenerife-acoge-la-primera-edicion-del-premio-cosmos-en-espana",
+    "source": "IAC",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "tenerife",
+      "acoge",
+      "primera"
+    ]
+  },
+  {
+    "title": "Frozen squirrel poop hints at sights and smells of Ice Age ecosystems",
+    "title_es": "La caca de ardilla congelada insinúa vistas y olores de los ecosistemas de la Edad del Hielo",
+    "url": "https://www.sciencenews.org/article/frozen-squirrel-poop-ice-age-ecosystems",
+    "source": "Science News",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "caca",
+      "ardilla",
+      "congelada"
+    ]
+  },
+  {
+    "title": "Imagination is not just replaying what we’ve seen and heard",
+    "title_es": "La imaginación no es sólo reproducir lo que hemos visto y oído",
+    "url": "https://www.snexplores.org/article/brain-imagination-see-hear",
+    "source": "Science News Explores",
+    "published": "2026-06-09T00:00:00.000Z",
+    "date": "2026-06-09",
+    "category": "noticia",
+    "tags": [
+      "imaginación",
+      "sólo",
+      "reproducir"
     ]
   },
   {
@@ -154,7 +308,7 @@
     ]
   },
   {
-    "title": "GPR15-guided CD8 + T regulatory cells control intestinal inflammation",
+    "title": "GPR15-guided CD8+ T regulatory cells control intestinal inflammation",
     "title_es": "Las células reguladoras T CD8+ guiadas por GPR15 controlan la inflamación intestinal",
     "url": "https://www.nature.com/articles/s41586-026-10749-4",
     "source": "Nature",
@@ -6995,7 +7149,7 @@
   },
   {
     "title": "Our dreams become more emotive and symbolic as we approach death",
-    "title_es": "Nuestros sueños se vuelven más emotivos y simbólicos a medida que nos acercamos a la muerte",
+    "title_es": "Our dreams become more emotive and symbolic as we approach death",
     "url": "https://www.newscientist.com/article/2523071-our-dreams-become-more-emotive-and-symbolic-as-we-approach-death/",
     "source": "New Scientist",
     "published": "2026-04-16T13:00:09.000Z",
@@ -7009,7 +7163,7 @@
   },
   {
     "title": "Medicine Misses the Mark on African and Black Hair Health",
-    "title_es": "La medicina pierde la marca en la salud del cabello africano y negro",
+    "title_es": "Medicine Misses the Mark on African and Black Hair Health",
     "url": "https://undark.org/2026/04/16/opinion-black-hair-health/",
     "source": "Undark Magazine",
     "published": "2026-04-16T07:49:00.000Z",
@@ -7023,7 +7177,7 @@
   },
   {
     "title": "OVT-MLCS: An Online Visual Tool for MLCS Mining from Long or Big Sequences",
-    "title_es": "OVT-MLCS: una herramienta visual en línea para la minería de MLCS a partir de secuencias largas o grandes",
+    "title_es": "OVT-MLCS: An Online Visual Tool for MLCS Mining from Long or Big Sequences",
     "url": "https://arxiv.org/abs/2604.13037",
     "source": "arXiv",
     "published": "2026-04-16T04:00:00.000Z",
@@ -46399,17 +46553,17 @@
     ]
   },
   {
-    "title": "Advanced glycation end product accumulation was associated with renal function impairment in males in large health examination population",
-    "title_es": "La acumulación de productos finales de glicación avanzada se asoció con deterioro de la función renal en hombres en una gran población de exámenes de salud",
+    "title": "Risk factors for fecal incontinence after surgery for cryptoglandular anal fistula: Protocol of a meta-analytic study",
+    "title_es": "Factores de riesgo de incontinencia fecal poscirugía de fístula anal criptoglandular: protocolo de un estudio metaanalítico",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "acumulación",
-      "productos",
-      "finales"
+      "factores",
+      "riesgo",
+      "incontinencia"
     ]
   },
   {
@@ -107042,6 +107196,20 @@
       "simulated",
       "kinematic",
       "distributions"
+    ]
+  },
+  {
+    "title": "Codebase release r2.0 for SmoQyDQMC.jl, by Benjamin Cohen-Stead, Shruti Agarwal, Sohan Malkaruge Costa, James Neuhaus, Andy Tanjaroon Ly, Yutan Zhang, Richard Scalettar, Kipton Barros, Steven Johnston",
+    "title_es": "Codebase release r2.0 for SmoQyDQMC.jl, by Benjamin Cohen-Stead, Shruti Agarwal, Sohan Malkaruge Costa, James Neuhaus, Andy Tanjaroon Ly, Yutan Zhang, Richard Scalettar, Kipton Barros, Steven Johnston",
+    "url": "https://scipost.org/scipostphyscodeb.29-r2.0",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "r20"
     ]
   }
 ]
