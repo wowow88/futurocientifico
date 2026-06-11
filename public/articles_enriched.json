@@ -1,5 +1,89 @@
 [
   {
+    "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
+    "title_es": "Puntuación automatizada de texto árabe utilizando modelos de lenguaje grandes: una revisión de la literatura",
+    "url": "https://arxiv.org/abs/2606.09830",
+    "source": "arXiv",
+    "published": "2026-06-11T04:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "automated",
+      "scoring",
+      "arabic"
+    ]
+  },
+  {
+    "title": "Online tool that flags suspicious journals could warn researchers before submission",
+    "title_es": "Una herramienta en línea que detecta revistas sospechosas podría advertir a los investigadores antes de enviarlas",
+    "url": "https://www.nature.com/articles/d41586-026-01707-1",
+    "source": "Nature",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "revista",
+    "tags": [
+      "herramienta",
+      "línea",
+      "que"
+    ]
+  },
+  {
+    "title": "Air Pollution’s Daily Pulse Over the Northeast",
+    "title_es": "El pulso diario de la contaminación del aire en el noreste",
+    "url": "https://science.nasa.gov/earth/earth-observatory/air-pollutions-daily-pulse-over-the-northeast/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "pulso",
+      "diario",
+      "contaminación"
+    ]
+  },
+  {
+    "title": "Weaker monsoon, bigger risks: Intense downpours could still hit South Asia hard",
+    "title_es": "Monzón más débil, mayores riesgos: las intensas lluvias aún podrían afectar duramente al sur de Asia",
+    "url": "https://phys.org/news/2026-06-weaker-monsoon-bigger-intense-downpours.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "monzón",
+      "más",
+      "débil"
+    ]
+  },
+  {
+    "title": "Study: Cave Lions were Distinct Species that Occasionally Bred with Ancestors of Today’s Lions",
+    "title_es": "Estudio: Los leones de las cavernas eran especies distintas que ocasionalmente se criaban con ancestros de los leones de hoy",
+    "url": "https://www.sci.news/paleontology/cave-lions-14837.html",
+    "source": "Sci.News",
+    "published": "2026-06-10T22:54:32.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "study",
+      "cave",
+      "lions"
+    ]
+  },
+  {
+    "title": "Fully autonomous drones have killed human soldiers for the first time",
+    "title_es": "Los drones totalmente autónomos han matado soldados humanos por primera vez",
+    "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time/",
+    "source": "New Scientist",
+    "published": "2026-06-10T13:00:23.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "fully",
+      "autonomous",
+      "drones"
+    ]
+  },
+  {
     "title": "Robots are about to overtake armed soldiers as the deciders of war",
     "title_es": "Los robots están a punto de superar a los soldados armados como decisores de la guerra",
     "url": "https://www.newscientist.com/article/2529267-robots-are-about-to-overtake-armed-soldiers-as-the-deciders-of-war/",
@@ -67,6 +151,90 @@
       "técnica",
       "testigo",
       "cuántico"
+    ]
+  },
+  {
+    "title": "Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models",
+    "title_es": "Redirigir, no eliminar: enrutamiento de tokens visuales recuperables para modelos de lenguaje visual",
+    "url": "http://arxiv.org/abs/2606.12412v1",
+    "source": "arXiv",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "redirigir",
+      "eliminar",
+      "enrutamiento"
+    ]
+  },
+  {
+    "title": "Nature: Cells Have a Secret Power Line: Scientists Discover How the Nucleus Gets Its Own Private Energy Supply",
+    "title_es": "Naturaleza: Las células tienen una línea eléctrica secreta: los científicos descubren cómo el núcleo obtiene su propio suministro privado de energía",
+    "url": "https://www.cnic.es/es/node/242903",
+    "source": "CNIC",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "cells",
+      "have"
+    ]
+  },
+  {
+    "title": "El IAC acoge la reunión del Comité del Programa Científico de la ESA en las instalaciones de IACTEC",
+    "title_es": "El IAC acoge la reunión del Comité del Programa Científico de la esa en las instalaciones de IACTEC",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-la-reunion-del-comite-del-programa-cientifico-de-la-esa-en-las-instalaciones-de-iactec",
+    "source": "IAC",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "acoge",
+      "reunión"
+    ]
+  },
+  {
+    "title": "A new guideline links care for heart, kidney and metabolic diseases",
+    "title_es": "Una nueva directriz vincula la atención de las enfermedades cardíacas, renales y metabólicas",
+    "url": "https://www.sciencenews.org/article/heart-diabetes-kidney-disease-treatment",
+    "source": "Science News",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "directriz",
+      "vincula"
+    ]
+  },
+  {
+    "title": "Like living mood rings, these bees change color when it turns humid",
+    "title_es": "Como anillos de humor vivos, estas abejas cambian de color cuando hay humedad",
+    "url": "https://www.snexplores.org/article/bees-change-color-humidity",
+    "source": "Science News Explores",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "como",
+      "anillos",
+      "humor"
+    ]
+  },
+  {
+    "title": "Scientists propose a radical new theory for how life began on Earth",
+    "title_es": "Los científicos proponen una nueva teoría radical sobre cómo comenzó la vida en la Tierra",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260610003054.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-10T00:00:00.000Z",
+    "date": "2026-06-10",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "proponen",
+      "nueva"
     ]
   },
   {
@@ -6953,7 +7121,7 @@
   },
   {
     "title": "New Triassic Dinosaur Species Identified in New Mexico",
-    "title_es": "Nueva especie de dinosaurio del Triásico identificada en Nuevo México",
+    "title_es": "New Triassic Dinosaur Species Identified in New Mexico",
     "url": "https://www.sci.news/paleontology/ptychotherates-bucculentus-14703.html",
     "source": "Sci.News",
     "published": "2026-04-17T23:33:19.000Z",
@@ -6967,7 +7135,7 @@
   },
   {
     "title": "Electric vehicle owners could earn thousands by supporting power grid",
-    "title_es": "Los propietarios de vehículos eléctricos podrían ganar miles apoyando la red eléctrica",
+    "title_es": "Electric vehicle owners could earn thousands by supporting power grid",
     "url": "https://www.newscientist.com/article/2523429-electric-vehicle-owners-could-earn-thousands-by-supporting-power-grid/",
     "source": "New Scientist",
     "published": "2026-04-17T18:00:54.000Z",
@@ -6981,7 +7149,7 @@
   },
   {
     "title": "Book Review: An Impassioned Lament for Our Imperiled Wild Forests",
-    "title_es": "Reseña del libro: Un lamento apasionado por nuestros bosques silvestres en peligro",
+    "title_es": "Book Review: An Impassioned Lament for Our Imperiled Wild Forests",
     "url": "https://undark.org/2026/04/17/review-when-the-forest-breathes/",
     "source": "Undark Magazine",
     "published": "2026-04-17T07:56:00.000Z",
@@ -6995,7 +7163,7 @@
   },
   {
     "title": "From Black Box to Glass Box: Cross-Model ASR Disagreement to Prioto Review in Ambient AI Scribe Documentation",
-    "title_es": "De la caja negra a la caja de vidrio: desacuerdo de ASR entre modelos a la revisión de Prioto en la documentación ambiental de AI Scribe",
+    "title_es": "From Black Box to Glass Box: Cross-Model ASR Disagreement to Prioto Review in Ambient AI Scribe Documentation",
     "url": "https://arxiv.org/abs/2604.14152",
     "source": "arXiv",
     "published": "2026-04-17T04:00:00.000Z",
@@ -7009,7 +7177,7 @@
   },
   {
     "title": "Record-Breaking Map Charts Universe in 3D Like Never Before",
-    "title_es": "Un universo de mapas sin precedentes en 3D como nunca antes",
+    "title_es": "Record-Breaking Map Charts Universe in 3D Like Never Before",
     "url": "https://www.sci.news/astronomy/desi-universe-3d-map-14702.html",
     "source": "Sci.News",
     "published": "2026-04-17T00:45:03.000Z",
@@ -46553,17 +46721,17 @@
     ]
   },
   {
-    "title": "Risk factors for fecal incontinence after surgery for cryptoglandular anal fistula: Protocol of a meta-analytic study",
-    "title_es": "Factores de riesgo de incontinencia fecal poscirugía de fístula anal criptoglandular: protocolo de un estudio metaanalítico",
+    "title": "Correction: Family support after a family member’s suicide: A qualitative exploration",
+    "title_es": "Corrección: Apoyo familiar tras el suicidio de un familiar: una exploración cualitativa",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "factores",
-      "riesgo",
-      "incontinencia"
+      "corrección",
+      "apoyo",
+      "familiar"
     ]
   },
   {
@@ -107210,6 +107378,20 @@
       "codebase",
       "release",
       "r20"
+    ]
+  },
+  {
+    "title": "Codebase release 1.0 for history, by Sven Yannick Klein, Lukas Simon",
+    "title_es": "Codebase release 1.0 for history, by Sven Yannick Klein, Lukas Simon",
+    "url": "https://scipost.org/scipostphyscodeb.74-r1.0",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "history"
     ]
   }
 ]
