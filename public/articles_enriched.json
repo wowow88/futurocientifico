@@ -1,5 +1,61 @@
 [
   {
+    "title": "How to sparkle in conversation with strangers",
+    "title_es": "Cómo brillar en una conversación con extraños",
+    "url": "https://www.newscientist.com/article/2530034-how-to-sparkle-in-conversation-with-strangers/",
+    "source": "New Scientist",
+    "published": "2026-06-12T09:00:50.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "sparkle",
+      "conversation"
+    ]
+  },
+  {
+    "title": "AI SciBrief as a Gateway to Research: A Framework for Onboarding Students into New Research Areas",
+    "title_es": "AI SciBrief como puerta de entrada a la investigación: un marco para incorporar a los estudiantes a nuevas áreas de investigación",
+    "url": "https://arxiv.org/abs/2606.12413",
+    "source": "arXiv",
+    "published": "2026-06-12T04:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "scibrief",
+      "gateway",
+      "research"
+    ]
+  },
+  {
+    "title": "One photon, two reactions—new catalyst converts CO₂ and biowaste simultaneously",
+    "title_es": "Un fotón, dos reacciones: el nuevo catalizador convierte CO₂ y biorresiduos simultáneamente",
+    "url": "https://phys.org/news/2026-06-photon-reactions-catalyst-biowaste-simultaneously.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "fotón",
+      "dos",
+      "reacciones"
+    ]
+  },
+  {
+    "title": "New Species of Ancient Bear-Dog Identified in Spain",
+    "title_es": "Nueva especie de oso-perro antiguo identificada en España",
+    "url": "https://www.sci.news/paleontology/paludocyon-moyasolai-14840.html",
+    "source": "Sci.News",
+    "published": "2026-06-11T21:46:18.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "ancient"
+    ]
+  },
+  {
     "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
     "title_es": "Puntuación automatizada de texto árabe utilizando modelos de lenguaje grandes: una revisión de la literatura",
     "url": "https://arxiv.org/abs/2606.09830",
@@ -53,6 +109,104 @@
       "monzón",
       "más",
       "débil"
+    ]
+  },
+  {
+    "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+    "title_es": "Aprender a razonar por analogía mediante el ajuste fino del refuerzo con recuperación aumentada",
+    "url": "http://arxiv.org/abs/2606.13680v1",
+    "source": "arXiv",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "aprender",
+      "razonar",
+      "por"
+    ]
+  },
+  {
+    "title": "Summer reading 2026",
+    "title_es": "Lectura de verano 2026",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aei7768",
+    "source": "Science.org",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "lectura",
+      "verano",
+      "2026"
+    ]
+  },
+  {
+    "title": "Author Correction: Plasticity and language in the anaesthetized human hippocampus",
+    "title_es": "Corrección del autor: Plasticidad y lenguaje en el hipocampo humano anestesiado",
+    "url": "https://www.nature.com/articles/s41586-026-10784-1",
+    "source": "Nature",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "plasticidad"
+    ]
+  },
+  {
+    "title": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para impulsar la estrategia cardiovascular “SAFE HEARTS PLAN”",
+    "title_es": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para impulsar la estrategia cardiovascular “PLAN CORAZONES SEGUROS”",
+    "url": "https://www.cnic.es/es/noticias/cnic-fundacion-astrazeneca-reunen-madrid-jovenes-cientificos-lideres-europeos-para-impulsar",
+    "source": "CNIC",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "fundación",
+      "astrazeneca"
+    ]
+  },
+  {
+    "title": "Songs prep the brains of finches yet to hatch for a hot world",
+    "title_es": "Las canciones preparan el cerebro de los pinzones que aún no han nacido para un mundo cálido",
+    "url": "https://www.sciencenews.org/article/songs-prep-unhatched-finches-hot-world",
+    "source": "Science News",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "canciones",
+      "preparan",
+      "cerebro"
+    ]
+  },
+  {
+    "title": "Caffeine may dial down genes crucial for brain development, teen finds",
+    "title_es": "La cafeína puede reducir genes cruciales para el desarrollo del cerebro, encuentra un adolescente",
+    "url": "https://www.snexplores.org/article/caffeine-brain-development-genes",
+    "source": "Science News Explores",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "cafeína",
+      "puede",
+      "reducir"
+    ]
+  },
+  {
+    "title": "Scientists discover a strange property in rice and turn it into a smart material",
+    "title_es": "Los científicos descubren una extraña propiedad en el arroz y lo convierten en un material inteligente",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-11T00:00:00.000Z",
+    "date": "2026-06-11",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "extraña"
     ]
   },
   {
@@ -6897,7 +7051,7 @@
   },
   {
     "title": "Why the right kind of stress is crucial for your health and happiness",
-    "title_es": "Por qué el tipo correcto de estrés es crucial para tu salud y felicidad",
+    "title_es": "Why the right kind of stress is crucial for your health and happiness",
     "url": "https://www.newscientist.com/article/2522362-why-the-right-kind-of-stress-is-crucial-for-your-health-and-happiness/",
     "source": "New Scientist",
     "published": "2026-04-20T14:00:47.000Z",
@@ -6911,7 +7065,7 @@
   },
   {
     "title": "Interview: Christopher Borgert on an Infamous Glyphosate Paper",
-    "title_es": "Entrevista: Christopher Borgert sobre un infame papel de glifosato",
+    "title_es": "Interview: Christopher Borgert on an Infamous Glyphosate Paper",
     "url": "https://undark.org/2026/04/20/interview-christopher-borgert-glyphosate/",
     "source": "Undark Magazine",
     "published": "2026-04-20T12:00:00.000Z",
@@ -6925,7 +7079,7 @@
   },
   {
     "title": "Modeling of ASD/TD Children's Behaviors in Interaction with a Virtual Social Robot During a Music Education Program Using Deep Neural Networks",
-    "title_es": "Modelado de los comportamientos de los niños con Tea/TD en interacción con un robot social virtual durante un programa de educación musical utilizando redes neuronales profundas",
+    "title_es": "Modeling of ASD/TD Children's Behaviors in Interaction with a Virtual Social Robot During a Music Education Program Using Deep Neural Networks",
     "url": "https://arxiv.org/abs/2604.15314",
     "source": "arXiv",
     "published": "2026-04-20T04:00:00.000Z",
@@ -7023,7 +7177,7 @@
   },
   {
     "title": "Hospital-acquired pneumonia reduced by daily toothbrushing",
-    "title_es": "Neumonía adquirida en el hospital reducida por el cepillado diario de dientes",
+    "title_es": "Hospital-acquired pneumonia reduced by daily toothbrushing",
     "url": "https://www.newscientist.com/article/2523576-hospital-acquired-pneumonia-reduced-by-daily-toothbrushing/",
     "source": "New Scientist",
     "published": "2026-04-19T23:01:43.000Z",
@@ -46721,17 +46875,17 @@
     ]
   },
   {
-    "title": "Correction: Family support after a family member’s suicide: A qualitative exploration",
-    "title_es": "Corrección: Apoyo familiar tras el suicidio de un familiar: una exploración cualitativa",
+    "title": "Development and validation of a scale for the psychological determinants of dietary management behavior in hemodialysis patients during dialysis",
+    "title_es": "Desarrollo y validación de una escala para los determinantes psicológicos del comportamiento de manejo dietético en pacientes en hemodiálisis durante la diálisis.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "apoyo",
-      "familiar"
+      "desarrollo",
+      "validación",
+      "escala"
     ]
   },
   {
@@ -107392,6 +107546,34 @@
       "codebase",
       "release",
       "history"
+    ]
+  },
+  {
+    "title": "atomSmltr: A modular Python package to simulate laser cooling setups, by Mateo Weill, Andrea Bertoldi, Alexandre Dareau",
+    "title_es": "atomSmltr: A modular Python package to simulate laser cooling setups, by Mateo Weill, Andrea Bertoldi, Alexandre Dareau",
+    "url": "https://scipost.org/scipostphyscodeb.76",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "atomsmltr",
+      "modular",
+      "python"
+    ]
+  },
+  {
+    "title": "Venus and Jupiter: Conjunction from Avebury",
+    "title_es": "Venus and Jupiter: Conjunction from Avebury",
+    "url": "https://apod.nasa.gov/apod/image/2606/cosmickissthecoveaveburydury1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "venus",
+      "jupiter",
+      "conjunction"
     ]
   }
 ]
