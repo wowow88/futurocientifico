@@ -1,5 +1,61 @@
 [
   {
+    "title": "Lab-grown canine muscle cells offer solution for early therapeutic testing",
+    "title_es": "Las células musculares caninas cultivadas en laboratorio ofrecen una solución para pruebas terapéuticas tempranas",
+    "url": "https://phys.org/news/2026-06-lab-grown-canine-muscle-cells.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-13T00:00:00.000Z",
+    "date": "2026-06-13",
+    "category": "noticia",
+    "tags": [
+      "células",
+      "musculares",
+      "caninas"
+    ]
+  },
+  {
+    "title": "In California, a Plan to Help Wildlife Cross a Busy Freeway",
+    "title_es": "En California, un plan para ayudar a la vida silvestre a cruzar una autopista muy transitada",
+    "url": "https://undark.org/2026/06/12/california-wildlife-crossing/",
+    "source": "Undark Magazine",
+    "published": "2026-06-12T17:50:24.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "california",
+      "plan",
+      "help"
+    ]
+  },
+  {
+    "title": "The relationship recession is even bigger for Gen Z than we thought",
+    "title_es": "La recesión de la relación es aún mayor para la Generación Z de lo que pensábamos",
+    "url": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/",
+    "source": "New Scientist",
+    "published": "2026-06-12T17:00:59.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "relationship",
+      "recession",
+      "even"
+    ]
+  },
+  {
+    "title": "Astronomers May Have Found Supernova Remnant near Milky Way’s Central Black Hole",
+    "title_es": "Los astrónomos pueden haber encontrado un remanente de supernova cerca del agujero negro central de la Vía Láctea",
+    "url": "https://www.sci.news/astronomy/sagittarius-c-supernova-remnant-14841.html",
+    "source": "Sci.News",
+    "published": "2026-06-12T15:43:13.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "astronomers",
+      "may",
+      "have"
+    ]
+  },
+  {
     "title": "How to sparkle in conversation with strangers",
     "title_es": "Cómo brillar en una conversación con extraños",
     "url": "https://www.newscientist.com/article/2530034-how-to-sparkle-in-conversation-with-strangers/",
@@ -39,6 +95,48 @@
       "fotón",
       "dos",
       "reacciones"
+    ]
+  },
+  {
+    "title": "Why we seek to fly: Books in brief",
+    "title_es": "Por qué buscamos volar: Libros breves",
+    "url": "https://www.nature.com/articles/d41586-026-01911-z",
+    "source": "Nature",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "buscamos"
+    ]
+  },
+  {
+    "title": "A popular sunscreen ingredient can finally be sold in the United States",
+    "title_es": "Un popular ingrediente de protección solar finalmente puede venderse en Estados Unidos",
+    "url": "https://www.sciencenews.org/article/sunscreen-bemotrizinol-fda-safe",
+    "source": "Science News",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "popular",
+      "ingrediente",
+      "protección"
+    ]
+  },
+  {
+    "title": "These tiny holes could change how the world cleans water",
+    "title_es": "Estos pequeños agujeros podrían cambiar la forma en que el mundo limpia el agua",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260612032049.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "pequeños",
+      "agujeros"
     ]
   },
   {
@@ -7023,7 +7121,7 @@
   },
   {
     "title": "Museum Fossil Reveals Triassic Crocodile Cousin with Powerful Jaws",
-    "title_es": "Museo fósil revela primo cocodrilo triásico con poderosas mandíbulas",
+    "title_es": "Museum Fossil Reveals Triassic Crocodile Cousin with Powerful Jaws",
     "url": "https://www.sci.news/paleontology/eosphorosuchus-lacrimosa-14708.html",
     "source": "Sci.News",
     "published": "2026-04-20T23:20:15.000Z",
@@ -7037,7 +7135,7 @@
   },
   {
     "title": "Diamonds are surprisingly elastic when you make them tiny",
-    "title_es": "Los diamantes son sorprendentemente elásticos cuando los haces pequeños",
+    "title_es": "Diamonds are surprisingly elastic when you make them tiny",
     "url": "https://www.newscientist.com/article/2523607-diamonds-are-surprisingly-elastic-when-you-make-them-tiny/",
     "source": "New Scientist",
     "published": "2026-04-20T21:00:37.000Z",
@@ -46875,17 +46973,17 @@
     ]
   },
   {
-    "title": "Development and validation of a scale for the psychological determinants of dietary management behavior in hemodialysis patients during dialysis",
-    "title_es": "Desarrollo y validación de una escala para los determinantes psicológicos del comportamiento de manejo dietético en pacientes en hemodiálisis durante la diálisis.",
+    "title": "Correction: A new criterion for defining tunnel portal failure using the strength reduction method",
+    "title_es": "Corrección: un nuevo criterio para definir la falla del portal de un túnel utilizando el método de reducción de resistencia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "desarrollo",
-      "validación",
-      "escala"
+      "corrección",
+      "nuevo",
+      "criterio"
     ]
   },
   {
@@ -107574,6 +107672,19 @@
       "venus",
       "jupiter",
       "conjunction"
+    ]
+  },
+  {
+    "title": "Interplanetary Earth",
+    "title_es": "Interplanetary Earth",
+    "url": "https://apod.nasa.gov/apod/image/2606/earth_cassinimessenger_1024c.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "interplanetary",
+      "earth"
     ]
   }
 ]
