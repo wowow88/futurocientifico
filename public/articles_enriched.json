@@ -1,5 +1,33 @@
 [
   {
+    "title": "A dying star could create a new universe instead of a black hole",
+    "title_es": "Una estrella moribunda podría crear un nuevo universo en lugar de un agujero negro",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614011846.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-14T00:00:00.000Z",
+    "date": "2026-06-14",
+    "category": "noticia",
+    "tags": [
+      "estrella",
+      "moribunda",
+      "podría"
+    ]
+  },
+  {
+    "title": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry",
+    "title_es": "Un experimento único con haz de cromo descubre los orígenes de los rayos cósmicos y la química galáctica",
+    "url": "https://phys.org/news/2026-06-unique-chromium-cosmic-ray-galactic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-14T00:00:00.000Z",
+    "date": "2026-06-14",
+    "category": "noticia",
+    "tags": [
+      "experimento",
+      "único",
+      "con"
+    ]
+  },
+  {
     "title": "Lab-grown canine muscle cells offer solution for early therapeutic testing",
     "title_es": "Las células musculares caninas cultivadas en laboratorio ofrecen una solución para pruebas terapéuticas tempranas",
     "url": "https://phys.org/news/2026-06-lab-grown-canine-muscle-cells.html",
@@ -655,6 +683,20 @@
       "you",
       "dont",
       "need"
+    ]
+  },
+  {
+    "title": "Understanding anorexia’s grip on the brain could unlock new therapies",
+    "title_es": "Comprender el control de la anorexia sobre el cerebro podría desbloquear nuevas terapias",
+    "url": "https://www.newscientist.com/article/2528588-understanding-anorexias-grip-on-the-brain-could-unlock-new-therapies/",
+    "source": "New Scientist",
+    "published": "2026-06-08T14:00:41.000Z",
+    "date": "2026-06-08",
+    "category": "noticia",
+    "tags": [
+      "understanding",
+      "anorexias",
+      "grip"
     ]
   },
   {
@@ -7051,7 +7093,7 @@
   },
   {
     "title": "CNIC scientists identify a biomarker that improves risk prediction in a severe form of heart failure",
-    "title_es": "Científicos del CNIC identifican un biomarcador que mejora la predicción del riesgo en una forma grave de insuficiencia cardiaca",
+    "title_es": "CNIC scientists identify a biomarker that improves risk prediction in a severe form of heart failure",
     "url": "https://www.cnic.es/es/node/241702",
     "source": "CNIC",
     "published": "2026-04-21T00:00:00.000Z",
@@ -107685,6 +107727,34 @@
     "tags": [
       "interplanetary",
       "earth"
+    ]
+  },
+  {
+    "title": "Codebase release 0.1 for atomSmltr, by Mateo Weill, Andrea Bertoldi, Alexandre Dareau",
+    "title_es": "Codebase release 0.1 for atomSmltr, by Mateo Weill, Andrea Bertoldi, Alexandre Dareau",
+    "url": "https://scipost.org/scipostphyscodeb.76-r0.1",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "atomsmltr"
+    ]
+  },
+  {
+    "title": "10 Days of Venus and Jupiter",
+    "title_es": "10 Days of Venus and Jupiter",
+    "url": "https://apod.nasa.gov/apod/image/2606/venusjupiter10_pawar_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "days",
+      "venus",
+      "jupiter"
     ]
   }
 ]
