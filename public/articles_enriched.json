@@ -1,5 +1,117 @@
 [
   {
+    "title": "We may have finally solved cosmology's chicken-or-the-egg problem",
+    "title_es": "Es posible que finalmente hayamos resuelto el problema del huevo o la gallina de la cosmología",
+    "url": "https://www.newscientist.com/article/2530220-we-may-have-finally-solved-cosmologys-chicken-or-the-egg-problem/",
+    "source": "New Scientist",
+    "published": "2026-06-15T09:00:57.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "may",
+      "have",
+      "finally"
+    ]
+  },
+  {
+    "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+    "title_es": "Un Método de Transformador Basado en Aprendizaje de Refuerzo Profundo (DRL) para Resolver el Problema de Programación de Taller Abierto",
+    "url": "https://arxiv.org/abs/2606.13682",
+    "source": "arXiv",
+    "published": "2026-06-15T04:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "deep",
+      "reinforcement",
+      "learning"
+    ]
+  },
+  {
+    "title": "Bones of Iron Age skeleton were whittled into tools",
+    "title_es": "Los huesos del esqueleto de la Edad del Hierro se convirtieron en herramientas",
+    "url": "https://www.nature.com/articles/d41586-026-01833-w",
+    "source": "Nature",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "huesos",
+      "esqueleto",
+      "edad"
+    ]
+  },
+  {
+    "title": "Scientists Say: Topology",
+    "title_es": "Los científicos dicen: topología",
+    "url": "https://www.snexplores.org/article/scientists-say-topology-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "topología"
+    ]
+  },
+  {
+    "title": "Oxford physicists just made Schrödinger’s cat even stranger",
+    "title_es": "Los físicos de Oxford acaban de hacer que el gato de Schrödinger sea aún más extraño",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614011848.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "físicos",
+      "oxford",
+      "acaban"
+    ]
+  },
+  {
+    "title": "Researcher explores how sacrifice shapes judgments",
+    "title_es": "Un investigador explora cómo el sacrificio da forma a los juicios",
+    "url": "https://phys.org/news/2026-06-explores-sacrifice-judgments.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "investigador",
+      "explora",
+      "cómo"
+    ]
+  },
+  {
+    "title": "Honey bees have their own personal flight paths and fly them with stunning precision",
+    "title_es": "Las abejas melíferas tienen sus propias rutas de vuelo personales y las vuelan con una precisión impresionante",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614011857.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-14T21:25:28.000Z",
+    "date": "2026-06-14",
+    "category": "noticia",
+    "tags": [
+      "honey",
+      "bees",
+      "have"
+    ]
+  },
+  {
+    "title": "Entomologists Reconstruct Evolutionary History of Millipedes",
+    "title_es": "Los entomólogos reconstruyen la historia evolutiva de los milpiés",
+    "url": "https://www.sci.news/biology/evolutionary-history-millipedes-14842.html",
+    "source": "Sci.News",
+    "published": "2026-06-14T12:51:23.000Z",
+    "date": "2026-06-14",
+    "category": "noticia",
+    "tags": [
+      "entomologists",
+      "reconstruct",
+      "evolutionary"
+    ]
+  },
+  {
     "title": "A dying star could create a new universe instead of a black hole",
     "title_es": "Una estrella moribunda podría crear un nuevo universo en lugar de un agujero negro",
     "url": "https://www.sciencedaily.com/releases/2026/06/260614011846.htm",
@@ -165,6 +277,34 @@
       "estos",
       "pequeños",
       "agujeros"
+    ]
+  },
+  {
+    "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+    "title_es": "ClinHallu: un punto de referencia para el diagnóstico de alucinaciones en etapas en el razonamiento médico MLLM",
+    "url": "http://arxiv.org/abs/2606.14697v1",
+    "source": "arXiv",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "clinhallu",
+      "punto",
+      "referencia"
+    ]
+  },
+  {
+    "title": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
+    "title_es": "La NASA cubrirá la salida de la estación espacial de la 34ª misión de reabastecimiento de SpaceX",
+    "url": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-12T00:00:00.000Z",
+    "date": "2026-06-12",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "cubrirá",
+      "salida"
     ]
   },
   {
@@ -6869,7 +7009,7 @@
   },
   {
     "title": "RECURSUM: Automated Code Generation for Recurrence Relations Exceeds Expert Optimization via LayeredCodegen",
-    "title_es": "RECURSUM: la generación automatizada de código para relaciones de recurrencia supera la optimización experta a través de LayeredCodegen",
+    "title_es": "RECURSUM: Automated Code Generation for Recurrence Relations Exceeds Expert Optimization via LayeredCodegen",
     "url": "https://arxiv.org/abs/2604.18585",
     "source": "arXiv",
     "published": "2026-04-22T04:00:00.000Z",
@@ -6883,7 +7023,7 @@
   },
   {
     "title": "If a bird flu pandemic starts, we may have an mRNA vaccine ready",
-    "title_es": "Si comienza una pandemia de gripe aviar, es posible que tengamos una vacuna de ARNm lista",
+    "title_es": "If a bird flu pandemic starts, we may have an mRNA vaccine ready",
     "url": "https://www.newscientist.com/article/2523838-if-a-bird-flu-pandemic-starts-we-may-have-an-mrna-vaccine-ready/",
     "source": "New Scientist",
     "published": "2026-04-22T00:01:21.000Z",
@@ -6995,7 +7135,7 @@
   },
   {
     "title": "450-Million-Year-Old Fossils Reveal Strange, Tube-Dwelling Jellyfish Relative",
-    "title_es": "Los fósiles de hace 450 millones de años revelan un pariente extraño de medusas que viven en tubos",
+    "title_es": "450-Million-Year-Old Fossils Reveal Strange, Tube-Dwelling Jellyfish Relative",
     "url": "https://www.sci.news/paleontology/paleocanna-tentaculum-14711.html",
     "source": "Sci.News",
     "published": "2026-04-21T22:17:59.000Z",
@@ -7009,7 +7149,7 @@
   },
   {
     "title": "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
-    "title_es": "GRAIL: Concept Grounding autónomo para el aprendizaje por refuerzo neuro-simbólico",
+    "title_es": "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
     "url": "https://arxiv.org/abs/2604.16871",
     "source": "arXiv",
     "published": "2026-04-21T04:00:00.000Z",
@@ -107755,6 +107895,20 @@
       "days",
       "venus",
       "jupiter"
+    ]
+  },
+  {
+    "title": "Triple Shockwave from Sun Crossing Rocket",
+    "title_es": "Triple Shockwave from Sun Crossing Rocket",
+    "url": "https://apod.nasa.gov/apod/image/2606/triplesunshock_winkopp_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "triple",
+      "shockwave",
+      "sun"
     ]
   }
 ]
