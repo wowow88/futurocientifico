@@ -1,5 +1,103 @@
 [
   {
+    "title": "Technology is changing our perspective on nature – at every scale",
+    "title_es": "La tecnología está cambiando nuestra perspectiva sobre la naturaleza, en todas las escalas",
+    "url": "https://www.newscientist.com/article/2530330-technology-is-changing-our-perspective-on-nature-at-every-scale/",
+    "source": "New Scientist",
+    "published": "2026-06-16T09:00:29.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "technology",
+      "changing",
+      "our"
+    ]
+  },
+  {
+    "title": "Making Sense of Data From Wearable Health Trackers",
+    "title_es": "Dar sentido a los datos de los rastreadores de salud portátiles",
+    "url": "https://undark.org/2026/06/16/opinion-wearable-health-tracker-data/",
+    "source": "Undark Magazine",
+    "published": "2026-06-16T07:41:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "making",
+      "sense",
+      "data"
+    ]
+  },
+  {
+    "title": "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces",
+    "title_es": "Depuración de repetición cero basada en el conocimiento de rastros de LLM multiagente",
+    "url": "https://arxiv.org/abs/2606.14805",
+    "source": "arXiv",
+    "published": "2026-06-16T04:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "knowledge-based",
+      "zero-replay",
+      "debugging"
+    ]
+  },
+  {
+    "title": "Terms of endearment? Bias in first-name eponyms for species named after people",
+    "title_es": "¿Términos cariñosos? Sesgo en los epónimos de los nombres de especies que llevan nombres de personas",
+    "url": "https://www.nature.com/articles/d41586-026-01916-8",
+    "source": "Nature",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "términos",
+      "cariñosos",
+      "sesgo"
+    ]
+  },
+  {
+    "title": "Nebraska’s Wide, Rolling Domain",
+    "title_es": "El amplio y ondulante dominio de Nebraska",
+    "url": "https://science.nasa.gov/earth/earth-observatory/nebraskas-wide-rolling-domain/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "amplio",
+      "ondulante",
+      "dominio"
+    ]
+  },
+  {
+    "title": "Experts probe 'shock' arrival of mosquito virus in Scotland",
+    "title_es": "Expertos investigan la llegada \"impactante\" del virus del mosquito a Escocia",
+    "url": "https://phys.org/news/2026-06-experts-probe-mosquito-virus-scotland.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "expertos",
+      "investigan",
+      "llegada"
+    ]
+  },
+  {
+    "title": "Fossils from Chinese Cave Fill Crucial Gap in History of Gigantopithecus blacki",
+    "title_es": "Los fósiles de una cueva china llenan un vacío crucial en la historia del Gigantopithecus blacki",
+    "url": "https://www.sci.news/paleontology/gigantopithecus-blacki-14847.html",
+    "source": "Sci.News",
+    "published": "2026-06-15T20:38:45.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "fossils",
+      "chinese",
+      "cave"
+    ]
+  },
+  {
     "title": "We may have finally solved cosmology's chicken-or-the-egg problem",
     "title_es": "Es posible que finalmente hayamos resuelto el problema del huevo o la gallina de la cosmología",
     "url": "https://www.newscientist.com/article/2530220-we-may-have-finally-solved-cosmologys-chicken-or-the-egg-problem/",
@@ -81,6 +179,76 @@
       "investigador",
       "explora",
       "cómo"
+    ]
+  },
+  {
+    "title": "The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers",
+    "title_es": "La importancia de la fase en las representaciones neuronales: una prueba interna de Oppenheim-Lim de clasificadores de imágenes",
+    "url": "http://arxiv.org/abs/2606.17037v1",
+    "source": "arXiv",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "importancia",
+      "fase",
+      "representaciones"
+    ]
+  },
+  {
+    "title": "CNIC and Fundación AstraZeneca bring together young scientists and European leaders in Madrid to advance the “SAFE HEARTS PLAN” cardiovascular strategy",
+    "title_es": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para avanzar en la estrategia cardiovascular del “PLAN CORAZONES SEGUROS”",
+    "url": "https://www.cnic.es/es/node/242983",
+    "source": "CNIC",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "fundación",
+      "astrazeneca"
+    ]
+  },
+  {
+    "title": "Álvarez-Vallina investiga en el CNIO cómo generar células ‘puñal’ contra el mieloma múltiple dentro del cuerpo",
+    "title_es": "Álvarez-Vallina investiga en el CNIO cómo generar células ‘puñal’ contra el mieloma múltiple dentro del cuerpo",
+    "url": "https://www.cnio.es/noticias/alvarez-vallina-investiga-en-el-cnio-como-generar-celulas-punal-contra-el-mieloma-multiple-dentro-del-cuerpo/",
+    "source": "CNIO",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "álvarez-vallina",
+      "investiga",
+      "cnio"
+    ]
+  },
+  {
+    "title": "The North Atlantic’s ‘cold blob’ may signal a major current’s decline",
+    "title_es": "La “mancha fría” del Atlántico Norte puede indicar el declive de una corriente importante",
+    "url": "https://www.sciencenews.org/article/cold-blob-may-signal-current-decline",
+    "source": "Science News",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "mancha",
+      "fría",
+      "atlántico"
+    ]
+  },
+  {
+    "title": "This strange material can become strong or fall apart in seconds",
+    "title_es": "Este extraño material puede volverse fuerte o desmoronarse en segundos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260615033849.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-15T00:00:00.000Z",
+    "date": "2026-06-15",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "extraño",
+      "material"
     ]
   },
   {
@@ -6814,7 +6982,7 @@
   },
   {
     "title": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
-    "title_es": "La ilusión del uso excesivo de herramientas: ¿Por qué LLM prefiere las herramientas externas sobre el conocimiento interno?",
+    "title_es": "The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?",
     "url": "https://arxiv.org/abs/2604.19749",
     "source": "arXiv",
     "published": "2026-04-23T04:00:00.000Z",
@@ -6828,7 +6996,7 @@
   },
   {
     "title": "Curiosity Reveals Richest Trove of Organic Molecules Yet on Mars",
-    "title_es": "Curiosity revela el tesoro más rico de moléculas orgánicas hasta el momento en Marte",
+    "title_es": "Curiosity Reveals Richest Trove of Organic Molecules Yet on Mars",
     "url": "https://www.sci.news/space/curiosity-organic-molecules-mars-14714.html",
     "source": "Sci.News",
     "published": "2026-04-23T01:02:07.000Z",
@@ -6967,7 +7135,7 @@
   },
   {
     "title": "98 per cent of meat and dairy sustainability pledges are greenwashing",
-    "title_es": "El 98 por ciento de los compromisos de sostenibilidad de la carne y los productos lácteos son de lavado verde",
+    "title_es": "98 per cent of meat and dairy sustainability pledges are greenwashing",
     "url": "https://www.newscientist.com/article/2523798-98-per-cent-of-meat-and-dairy-sustainability-pledges-are-greenwashing/",
     "source": "New Scientist",
     "published": "2026-04-22T18:00:42.000Z",
@@ -6981,7 +7149,7 @@
   },
   {
     "title": "We need more radioactive drugs. Can we make them from nuclear waste?",
-    "title_es": "Necesitamos más drogas radiactivas. ¿Podemos hacerlos a partir de residuos nucleares?",
+    "title_es": "We need more radioactive drugs. Can we make them from nuclear waste?",
     "url": "https://www.newscientist.com/article/2521854-we-need-more-radioactive-drugs-can-we-make-them-from-nuclear-waste/",
     "source": "New Scientist",
     "published": "2026-04-22T16:00:58.000Z",
@@ -6995,7 +7163,7 @@
   },
   {
     "title": "A More Troubling Picture of Sea Level Rise Comes Into View",
-    "title_es": "Una imagen más preocupante de la subida del nivel del mar aparece a la vista",
+    "title_es": "A More Troubling Picture of Sea Level Rise Comes Into View",
     "url": "https://undark.org/2026/04/22/sea-level-land-subsidence/",
     "source": "Undark Magazine",
     "published": "2026-04-22T07:35:00.000Z",
@@ -47155,17 +47323,17 @@
     ]
   },
   {
-    "title": "Correction: A new criterion for defining tunnel portal failure using the strength reduction method",
-    "title_es": "Corrección: un nuevo criterio para definir la falla del portal de un túnel utilizando el método de reducción de resistencia",
+    "title": "Interdependent relationship between depression and Internet gaming disorder in parent-child dyads: The mediating role of family relationship and gaming time",
+    "title_es": "Relación interdependiente entre la depresión y el trastorno de los juegos de Internet en parejas de padres e hijos: el papel mediador de la relación familiar y el tiempo de juego",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "nuevo",
-      "criterio"
+      "relación",
+      "interdependiente",
+      "entre"
     ]
   },
   {
@@ -107909,6 +108077,34 @@
       "triple",
       "shockwave",
       "sun"
+    ]
+  },
+  {
+    "title": "Strong zero modes in integrable spin-$S$ chains, by Fabian H. L. Essler, Paul Fendley, Eric Vernier",
+    "title_es": "Strong zero modes in integrable spin-$S$ chains, by Fabian H. L. Essler, Paul Fendley, Eric Vernier",
+    "url": "https://scipost.org/scipostphys.20.6.164",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "strong",
+      "zero",
+      "modes"
+    ]
+  },
+  {
+    "title": "Moons, Rings, Shadows, Clouds: Saturn (Cassini)",
+    "title_es": "Moons, Rings, Shadows, Clouds: Saturn (Cassini)",
+    "url": "https://apod.nasa.gov/apod/image/2606/saturnringsmoons_cassini_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "moons",
+      "rings",
+      "shadows"
     ]
   }
 ]
