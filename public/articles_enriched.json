@@ -1,5 +1,103 @@
 [
   {
+    "title": "Correct When Paired, Wrong When Split: Decoupling and Editing Modality-Specific Neurons in MLLMs",
+    "title_es": "Corregir cuando se empareja, incorrecto cuando se divide: desacoplamiento y edición de neuronas específicas de la modalidad en MLLM",
+    "url": "https://arxiv.org/abs/2606.17057",
+    "source": "arXiv",
+    "published": "2026-06-17T04:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "correct",
+      "when",
+      "paired"
+    ]
+  },
+  {
+    "title": "Should nicotine be regulated like a narcotic? A Pacific nation makes the case",
+    "title_es": "¿Debería regularse la nicotina como un narcótico? Una nación del Pacífico defiende el caso",
+    "url": "https://www.nature.com/articles/d41586-026-01903-z",
+    "source": "Nature",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "debería",
+      "regularse",
+      "nicotina"
+    ]
+  },
+  {
+    "title": "Low Water at San Carlos Reservoir",
+    "title_es": "Escasez de agua en el embalse de San Carlos",
+    "url": "https://science.nasa.gov/earth/earth-observatory/low-water-at-san-carlos-reservoir/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "escasez",
+      "agua",
+      "embalse"
+    ]
+  },
+  {
+    "title": "Scientists say most of what’s in your food is still a mystery",
+    "title_es": "Los científicos dicen que la mayor parte del contenido de los alimentos sigue siendo un misterio",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260614012011.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "que"
+    ]
+  },
+  {
+    "title": "Bumblebee goby species discovered on China's Hengqin island is one of the smallest fishes in the world",
+    "title_es": "La especie de gobio abejorro descubierta en la isla Hengqin de China es uno de los peces más pequeños del mundo",
+    "url": "https://phys.org/news/2026-06-bumblebee-goby-species-china-hengqin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "especie",
+      "gobio",
+      "abejorro"
+    ]
+  },
+  {
+    "title": "New Duck-Billed Dinosaur Unearthed in Romania",
+    "title_es": "Descubren un nuevo dinosaurio con pico de pato en Rumanía",
+    "url": "https://www.sci.news/paleontology/kryptohadros-kallaiae-14850.html",
+    "source": "Sci.News",
+    "published": "2026-06-16T21:19:42.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "duck-billed",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "The secrets to keeping your brain sharp in old age",
+    "title_es": "Los secretos para mantener tu cerebro agudo en la vejez",
+    "url": "https://www.newscientist.com/article/2529259-the-secrets-to-keeping-your-brain-sharp-in-old-age/",
+    "source": "New Scientist",
+    "published": "2026-06-16T16:00:58.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "secrets",
+      "keeping",
+      "your"
+    ]
+  },
+  {
     "title": "Technology is changing our perspective on nature – at every scale",
     "title_es": "La tecnología está cambiando nuestra perspectiva sobre la naturaleza, en todas las escalas",
     "url": "https://www.newscientist.com/article/2530330-technology-is-changing-our-perspective-on-nature-at-every-scale/",
@@ -11,6 +109,20 @@
       "technology",
       "changing",
       "our"
+    ]
+  },
+  {
+    "title": "Alien messages may have reached Earth without us realizing it",
+    "title_es": "Los mensajes alienígenas pueden haber llegado a la Tierra sin que nos demos cuenta",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260615033851.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-16T08:11:57.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "alien",
+      "messages",
+      "may"
     ]
   },
   {
@@ -81,6 +193,62 @@
       "expertos",
       "investigan",
       "llegada"
+    ]
+  },
+  {
+    "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+    "title_es": "La verificación visual permite la dirección en tiempo de inferencia y la mejora de políticas autónomas",
+    "url": "http://arxiv.org/abs/2606.18247v1",
+    "source": "arXiv",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "verificación",
+      "visual",
+      "permite"
+    ]
+  },
+  {
+    "title": "El Premio Cosmos 2026 reconoce a las mejores obras de divulgación científica y al talento joven",
+    "title_es": "El Premio Cosmos 2026 reconoce a las mejores obras de divulgación científica y al talento joven",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-premio-cosmos-2026-reconoce-las-mejores-obras-de-divulgacion-cientifica-y-al-talento-joven",
+    "source": "IAC",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "premio",
+      "cosmos",
+      "2026"
+    ]
+  },
+  {
+    "title": "Chinese money plant leaves hide a mathematical pattern",
+    "title_es": "Las hojas de la planta del dinero china esconden un patrón matemático",
+    "url": "https://www.sciencenews.org/article/chinese-money-plant-leaves-voronoi-pattern",
+    "source": "Science News",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "hojas",
+      "planta",
+      "dinero"
+    ]
+  },
+  {
+    "title": "Hundreds of sea level studies have underestimated ocean rise",
+    "title_es": "Cientos de estudios sobre el nivel del mar han subestimado el aumento del océano",
+    "url": "https://www.snexplores.org/article/studies-underestimated-sea-level-rise",
+    "source": "Science News Explores",
+    "published": "2026-06-16T00:00:00.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "cientos",
+      "estudios",
+      "sobre"
     ]
   },
   {
@@ -196,8 +364,8 @@
     ]
   },
   {
-    "title": "CNIC and Fundación AstraZeneca bring together young scientists and European leaders in Madrid to advance the “SAFE HEARTS PLAN” cardiovascular strategy",
-    "title_es": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para avanzar en la estrategia cardiovascular del “PLAN CORAZONES SEGUROS”",
+    "title": "CNIC and Fundación AstraZeneca bring together young scientists and European leaders in Madrid to advance the “SAFE HEARTS PLAN”",
+    "title_es": "CNIC and Fundación AstraZeneca bring together young scientists and European leaders in Madrid to advance the “SAFE HEARTS PLAN” cardiovascular strategy",
     "url": "https://www.cnic.es/es/node/242983",
     "source": "CNIC",
     "published": "2026-06-15T00:00:00.000Z",
@@ -6940,7 +7108,7 @@
   },
   {
     "title": "New Fossil from Brazil Reveals Unexpected Diversity among Pre-Dinosaur Herbivores",
-    "title_es": "Nuevo fósil de Brasil revela una diversidad inesperada entre los herbívoros pre-dinosaurios",
+    "title_es": "New Fossil from Brazil Reveals Unexpected Diversity among Pre-Dinosaur Herbivores",
     "url": "https://www.sci.news/paleontology/isodapedon-varzealis-14719.html",
     "source": "Sci.News",
     "published": "2026-04-23T23:37:14.000Z",
@@ -6954,7 +7122,7 @@
   },
   {
     "title": "Largest-ever octopus was great white shark of invertebrate predators",
-    "title_es": "El pulpo más grande de la historia fue un gran tiburón blanco de depredadores invertebrados",
+    "title_es": "Largest-ever octopus was great white shark of invertebrate predators",
     "url": "https://www.newscientist.com/article/2524049-largest-ever-octopus-was-great-white-shark-of-invertebrate-predators/",
     "source": "New Scientist",
     "published": "2026-04-23T19:00:12.000Z",
@@ -6968,7 +7136,7 @@
   },
   {
     "title": "What I Learned from Teaching Darwin",
-    "title_es": "Lo que aprendí de enseñar a Darwin",
+    "title_es": "What I Learned from Teaching Darwin",
     "url": "https://undark.org/2026/04/23/opinion-teaching-darwin/",
     "source": "Undark Magazine",
     "published": "2026-04-23T15:07:06.000Z",
@@ -47323,17 +47491,17 @@
     ]
   },
   {
-    "title": "Interdependent relationship between depression and Internet gaming disorder in parent-child dyads: The mediating role of family relationship and gaming time",
-    "title_es": "Relación interdependiente entre la depresión y el trastorno de los juegos de Internet en parejas de padres e hijos: el papel mediador de la relación familiar y el tiempo de juego",
+    "title": "Correction: Dialogic Social Impact Analysis of Companies and Organizations (DSIACO): A pioneer model for evaluating social impact of companies and organizations",
+    "title_es": "Corrección: Análisis Dialógico de Impacto Social de Empresas y Organizaciones (DSIACO): Un modelo pionero para evaluar el impacto social de empresas y organizaciones",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "relación",
-      "interdependiente",
-      "entre"
+      "corrección",
+      "análisis",
+      "dialógico"
     ]
   },
   {
@@ -108105,6 +108273,34 @@
       "moons",
       "rings",
       "shadows"
+    ]
+  },
+  {
+    "title": "Robustness of the Kohn-Luttinger mechanism against symmetry breaking, by Amir Dalal, Jonathan Ruhman, Vladyslav Kozii",
+    "title_es": "Robustness of the Kohn-Luttinger mechanism against symmetry breaking, by Amir Dalal, Jonathan Ruhman, Vladyslav Kozii",
+    "url": "https://scipost.org/scipostphyscore.9.2.034",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "robustness",
+      "kohn-luttinger",
+      "mechanism"
+    ]
+  },
+  {
+    "title": "Longmore 8: The Hamster Wheel Nebula",
+    "title_es": "Longmore 8: The Hamster Wheel Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2606/hamster_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "longmore",
+      "hamster",
+      "wheel"
     ]
   }
 ]
