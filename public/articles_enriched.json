@@ -1,5 +1,61 @@
 [
   {
+    "title": "ATIM: An ACT-R-Based Task Interface Model for Predicting Operator Action Time in Digital Nuclear Control Rooms",
+    "title_es": "Atim: un modelo de interfaz de tareas basado en ACT-R para predecir el tiempo de acción del operador en salas de control nuclear digital",
+    "url": "https://arxiv.org/abs/2606.18254",
+    "source": "arXiv",
+    "published": "2026-06-18T04:00:00.000Z",
+    "date": "2026-06-18",
+    "category": "noticia",
+    "tags": [
+      "atim",
+      "act-r-based",
+      "task"
+    ]
+  },
+  {
+    "title": "AI-driven optical tweezers sort hundreds of particles per hour without humans",
+    "title_es": "Pinzas ópticas impulsadas por IA clasifican cientos de partículas por hora sin humanos",
+    "url": "https://phys.org/news/2026-06-ai-driven-optical-tweezers-hundreds.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-18T00:00:00.000Z",
+    "date": "2026-06-18",
+    "category": "noticia",
+    "tags": [
+      "pinzas",
+      "ópticas",
+      "impulsadas"
+    ]
+  },
+  {
+    "title": "Consciousness is Not Exclusive to Earth’s Biology, Philosophers Argue",
+    "title_es": "La conciencia no es exclusiva de la biología de la Tierra, argumentan los filósofos",
+    "url": "https://www.sci.news/othersciences/philosophy/substrate-flexible-consciousness-14855.html",
+    "source": "Sci.News",
+    "published": "2026-06-17T22:48:03.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "consciousness",
+      "not",
+      "exclusive"
+    ]
+  },
+  {
+    "title": "The bigger the lizard, the bigger the Wiki page, discovers ecologist",
+    "title_es": "Cuanto más grande es el lagarto, más grande es la página de Wiki, descubre ecologista",
+    "url": "https://www.newscientist.com/article/mg27036002-200-the-bigger-the-lizard-the-bigger-the-wiki-page-discovers-ecologist/",
+    "source": "New Scientist",
+    "published": "2026-06-17T18:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "bigger",
+      "lizard",
+      "bigger"
+    ]
+  },
+  {
     "title": "Correct When Paired, Wrong When Split: Decoupling and Editing Modality-Specific Neurons in MLLMs",
     "title_es": "Corregir cuando se empareja, incorrecto cuando se divide: desacoplamiento y edición de neuronas específicas de la modalidad en MLLM",
     "url": "https://arxiv.org/abs/2606.17057",
@@ -67,6 +123,90 @@
       "especie",
       "gobio",
       "abejorro"
+    ]
+  },
+  {
+    "title": "UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning",
+    "title_es": "UBP2: Planificación de preferencias equilibrada en incertidumbre para un aprendizaje por refuerzo eficiente basado en preferencias",
+    "url": "http://arxiv.org/abs/2606.19328v1",
+    "source": "arXiv",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "ubp2",
+      "planificación",
+      "preferencias"
+    ]
+  },
+  {
+    "title": "Towards Conversational AI for Disease Management",
+    "title_es": "Hacia la IA conversacional para el manejo de enfermedades",
+    "url": "https://www.nature.com/articles/s41586-026-10764-5",
+    "source": "Nature",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "hacia",
+      "conversacional",
+      "manejo"
+    ]
+  },
+  {
+    "title": "Un atlas interactivo recorre las interpretaciones de los eclipses solares en las culturas del mundo",
+    "title_es": "Un atlas interactivo recorre las interpretaciones de los eclipses solares en las culturas del mundo",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-atlas-interactivo-recorre-las-interpretaciones-de-los-eclipses-solares-en-las-culturas-del-mundo",
+    "source": "IAC",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "atlas",
+      "interactivo",
+      "recorre"
+    ]
+  },
+  {
+    "title": "A deadly fungus that can infect cats and people is spreading",
+    "title_es": "Se está propagando un hongo mortal que puede infectar a gatos y personas",
+    "url": "https://www.sciencenews.org/article/deadly-fungus-cats-people-spreading",
+    "source": "Science News",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "está",
+      "propagando",
+      "hongo"
+    ]
+  },
+  {
+    "title": "Meet Bruce, the disabled kea parrot who is the boss of his flock",
+    "title_es": "Conoce a Bruce, el loro kea discapacitado que es el jefe de su rebaño",
+    "url": "https://www.snexplores.org/article/bruce-disabled-alpha-kea-parrot",
+    "source": "Science News Explores",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "conoce",
+      "bruce",
+      "loro"
+    ]
+  },
+  {
+    "title": "Humans may have hidden regenerative powers",
+    "title_es": "Los humanos pueden tener poderes regenerativos ocultos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-17T00:00:00.000Z",
+    "date": "2026-06-17",
+    "category": "noticia",
+    "tags": [
+      "humanos",
+      "pueden",
+      "tener"
     ]
   },
   {
@@ -6898,7 +7038,7 @@
   },
   {
     "title": "Gravity's strength measured more reliably than ever before",
-    "title_es": "La fuerza de la gravedad medida de forma más fiable que nunca",
+    "title_es": "Gravity's strength measured more reliably than ever before",
     "url": "https://www.newscientist.com/article/2524194-gravitys-strength-measured-more-reliably-than-ever-before/",
     "source": "New Scientist",
     "published": "2026-04-24T18:00:34.000Z",
@@ -6912,7 +7052,7 @@
   },
   {
     "title": "Interview: Why Food Additives May Not Be FDA Reviewed",
-    "title_es": "Entrevista: Por qué los aditivos alimentarios pueden no ser revisados por la FDA",
+    "title_es": "Interview: Why Food Additives May Not Be FDA Reviewed",
     "url": "https://undark.org/2026/04/24/interview-jennifer-pomeranz/",
     "source": "Undark Magazine",
     "published": "2026-04-24T07:15:00.000Z",
@@ -6926,7 +7066,7 @@
   },
   {
     "title": "AtomicRAG: Atom-Entity Graphs for Retrieval-Augmented Generation",
-    "title_es": "AtomicRAG: Gráficos de Entidad Atómica para Generación Aumentada por Recuperación",
+    "title_es": "AtomicRAG: Atom-Entity Graphs for Retrieval-Augmented Generation",
     "url": "https://arxiv.org/abs/2604.20844",
     "source": "arXiv",
     "published": "2026-04-24T04:00:00.000Z",
@@ -7010,7 +7150,7 @@
   },
   {
     "title": "Job Verdonschot: \"The next challenge is the full integration of genetics into cardiology training programs\"",
-    "title_es": "Job Verdonschot: “El próximo reto es la plena integración de la genética en los programas de formación en cardiología”",
+    "title_es": "Job Verdonschot: \"The next challenge is the full integration of genetics into cardiology training programs\"",
     "url": "https://www.cnic.es/es/node/241747",
     "source": "CNIC",
     "published": "2026-04-24T00:00:00.000Z",
@@ -47491,8 +47631,8 @@
     ]
   },
   {
-    "title": "Correction: Dialogic Social Impact Analysis of Companies and Organizations (DSIACO): A pioneer model for evaluating social impact of companies and organizations",
-    "title_es": "Corrección: Análisis Dialógico de Impacto Social de Empresas y Organizaciones (DSIACO): Un modelo pionero para evaluar el impacto social de empresas y organizaciones",
+    "title": "Correction: Air pollution in the places of Betula pendula growth and development changes the physicochemical properties and the main allergen content of its pollen",
+    "title_es": "Corrección: La contaminación del aire en los lugares de crecimiento y desarrollo de Betula pendula cambia las propiedades fisicoquímicas y el contenido de alérgenos principales de su polen.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -47500,8 +47640,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "análisis",
-      "dialógico"
+      "contaminación",
+      "aire"
     ]
   },
   {
@@ -108301,6 +108441,34 @@
       "longmore",
       "hamster",
       "wheel"
+    ]
+  },
+  {
+    "title": "Charged Higgs pairs at the LHC: A NLO analysis, by Mohamed Ahmed, Lisa Biermann, Harald Ita, Irina Rusetski, Michael Spira, Yelyzaveta Yedelkina",
+    "title_es": "Charged Higgs pairs at the LHC: A NLO analysis, by Mohamed Ahmed, Lisa Biermann, Harald Ita, Irina Rusetski, Michael Spira, Yelyzaveta Yedelkina",
+    "url": "https://scipost.org/scipostphyscommrep.26",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "charged",
+      "higgs",
+      "pairs"
+    ]
+  },
+  {
+    "title": "Possible Supernova Remnant in Galactic Center",
+    "title_es": "Possible Supernova Remnant in Galactic Center",
+    "url": "https://apod.nasa.gov/apod/image/2606/sgrc.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "possible",
+      "supernova",
+      "remnant"
     ]
   }
 ]
