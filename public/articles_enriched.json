@@ -1,5 +1,19 @@
 [
   {
+    "title": "Climate change boosts soybean production but worsens bean quality",
+    "title_es": "El cambio climático impulsa la producción de soja pero empeora la calidad del frijol",
+    "url": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-21T00:00:00.000Z",
+    "date": "2026-06-21",
+    "category": "noticia",
+    "tags": [
+      "cambio",
+      "climático",
+      "impulsa"
+    ]
+  },
+  {
     "title": "Belgian Nobel laureate Francois Englert dies aged 93",
     "title_es": "Muere el premio Nobel belga François Englert a los 93 años",
     "url": "https://phys.org/news/2026-06-belgian-nobel-laureate-francois-englert.html",
@@ -11,6 +25,34 @@
       "muere",
       "premio",
       "nobel"
+    ]
+  },
+  {
+    "title": "Is NASA falling out of love with Mars?",
+    "title_es": "¿Se está desenamorando la NASA de Marte?",
+    "url": "https://www.sciencenews.org/article/nasa-mars-exploration-july-2026-ed-note",
+    "source": "Science News",
+    "published": "2026-06-20T00:00:00.000Z",
+    "date": "2026-06-20",
+    "category": "noticia",
+    "tags": [
+      "está",
+      "desenamorando",
+      "nasa"
+    ]
+  },
+  {
+    "title": "This DNA repair gene went rogue and exposed a cancer weakness",
+    "title_es": "Este gen de reparación del ADN se volvió rebelde y expuso una debilidad del cáncer",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260619101349.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-20T00:00:00.000Z",
+    "date": "2026-06-20",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "gen",
+      "reparación"
     ]
   },
   {
@@ -179,6 +221,20 @@
       "mayor",
       "garrafal",
       "einstein"
+    ]
+  },
+  {
+    "title": "El Observatorio del Teide acerca de nuevo la astrofísica a la ciudadanía en un exitoso fin de semana de Puertas Abiertas",
+    "title_es": "El Observatorio del Teide acerca de nuevo la astrofísica a la ciudadanía en un exitoso fin de semana de Puertas Abiertas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-observatorio-del-teide-acerca-de-nuevo-la-astrofisica-la-ciudadania-en-un-exitoso-fin-de-semana-de",
+    "source": "IAC",
+    "published": "2026-06-19T00:00:00.000Z",
+    "date": "2026-06-19",
+    "category": "noticia",
+    "tags": [
+      "observatorio",
+      "teide",
+      "acerca"
     ]
   },
   {
@@ -515,6 +571,20 @@
       "secrets",
       "keeping",
       "your"
+    ]
+  },
+  {
+    "title": "A quantum state that lasts forever may finally be within our grasp",
+    "title_es": "Un estado cuántico que dura para siempre puede finalmente estar a nuestro alcance",
+    "url": "https://www.newscientist.com/article/2529039-a-quantum-state-that-lasts-forever-may-finally-be-within-our-grasp/",
+    "source": "New Scientist",
+    "published": "2026-06-16T14:00:05.000Z",
+    "date": "2026-06-16",
+    "category": "noticia",
+    "tags": [
+      "quantum",
+      "state",
+      "that"
     ]
   },
   {
@@ -6926,7 +6996,7 @@
   },
   {
     "title": "Is consciousness more fundamental to reality than quantum physics?",
-    "title_es": "¿Es la conciencia más fundamental para la realidad que la física cuántica?",
+    "title_es": "Is consciousness more fundamental to reality than quantum physics?",
     "url": "https://www.newscientist.com/article/2523209-is-consciousness-more-fundamental-to-reality-than-quantum-physics/",
     "source": "New Scientist",
     "published": "2026-04-28T16:00:05.000Z",
@@ -6940,7 +7010,7 @@
   },
   {
     "title": "Amid Falling Birth Rates, Federal Family Planning Is Overhauled",
-    "title_es": "En medio de la caída de las tasas de natalidad, se revisa la planificación familiar federal",
+    "title_es": "Amid Falling Birth Rates, Federal Family Planning Is Overhauled",
     "url": "https://undark.org/2026/04/28/birth-rates-title-x/",
     "source": "Undark Magazine",
     "published": "2026-04-28T07:08:00.000Z",
@@ -108777,6 +108847,20 @@
       "topological",
       "fine",
       "structure"
+    ]
+  },
+  {
+    "title": "A sine-square deformation approach to quantum critical points in one-dimensional systems, by Yuki Miyazaki, Shiori Tanigawa, Giacomo Marmorini, Nobuo Furukawa, Daisuke Yamamoto",
+    "title_es": "A sine-square deformation approach to quantum critical points in one-dimensional systems, by Yuki Miyazaki, Shiori Tanigawa, Giacomo Marmorini, Nobuo Furukawa, Daisuke Yamamoto",
+    "url": "https://scipost.org/scipostphys.20.6.174",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "sine-square",
+      "deformation",
+      "approach"
     ]
   }
 ]
