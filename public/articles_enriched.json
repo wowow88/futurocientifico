@@ -1,5 +1,75 @@
 [
   {
+    "title": "The first ticking ‘nuclear clocks’ are here — what can they do?",
+    "title_es": "Los primeros “relojes nucleares” ya están aquí: ¿qué pueden hacer?",
+    "url": "https://www.nature.com/articles/d41586-026-01909-7",
+    "source": "Nature",
+    "published": "2026-06-22T00:00:00.000Z",
+    "date": "2026-06-22",
+    "category": "noticia",
+    "tags": [
+      "primeros",
+      "relojes",
+      "nucleares"
+    ]
+  },
+  {
+    "title": "El Gran Telescopio de Canarias encuentra rastros de las primeras estrellas del Universo en una galaxia vecina",
+    "title_es": "El Gran Telescopio de Canarias encuentra rastros de las primeras estrellas del Universo en una galaxia vecina",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-gran-telescopio-de-canarias-encuentra-rastros-de-las-primeras-estrellas-del-universo-en-una-galaxia",
+    "source": "IAC",
+    "published": "2026-06-22T00:00:00.000Z",
+    "date": "2026-06-22",
+    "category": "noticia",
+    "tags": [
+      "gran",
+      "telescopio",
+      "canarias"
+    ]
+  },
+  {
+    "title": "Could a storm last forever?",
+    "title_es": "¿Podría una tormenta durar para siempre?",
+    "url": "https://www.snexplores.org/article/forever-storms-zelda-weather",
+    "source": "Science News Explores",
+    "published": "2026-06-22T00:00:00.000Z",
+    "date": "2026-06-22",
+    "category": "noticia",
+    "tags": [
+      "podría",
+      "tormenta",
+      "durar"
+    ]
+  },
+  {
+    "title": "T. rex took 40 years to reach full size, scientists find",
+    "title_es": "El T. rex tardó 40 años en alcanzar su tamaño completo, según los científicos",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260621110957.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-22T00:00:00.000Z",
+    "date": "2026-06-22",
+    "category": "noticia",
+    "tags": [
+      "rex",
+      "tardó",
+      "años"
+    ]
+  },
+  {
+    "title": "Europe sweats through new heat wave, with worse to come",
+    "title_es": "Europa sufre una nueva ola de calor y lo peor está por venir",
+    "url": "https://phys.org/news/2026-06-europe-worse.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-22T00:00:00.000Z",
+    "date": "2026-06-22",
+    "category": "noticia",
+    "tags": [
+      "europa",
+      "sufre",
+      "nueva"
+    ]
+  },
+  {
     "title": "Climate change boosts soybean production but worsens bean quality",
     "title_es": "El cambio climático impulsa la producción de soja pero empeora la calidad del frijol",
     "url": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
@@ -81,6 +151,20 @@
       "faecal",
       "transplant",
       "makes"
+    ]
+  },
+  {
+    "title": "We've found a mysterious substance on Titan and Pluto",
+    "title_es": "Hemos encontrado una sustancia misteriosa en Titán y Plutón",
+    "url": "https://www.newscientist.com/article/2531107-weve-found-a-mysterious-substance-on-titan-and-pluto/",
+    "source": "New Scientist",
+    "published": "2026-06-19T17:00:01.000Z",
+    "date": "2026-06-19",
+    "category": "noticia",
+    "tags": [
+      "weve",
+      "found",
+      "mysterious"
     ]
   },
   {
@@ -6968,7 +7052,7 @@
   },
   {
     "title": "Cancer is increasing in young people and we still don't know why",
-    "title_es": "El cáncer está aumentando en los jóvenes y todavía no sabemos por qué",
+    "title_es": "Cancer is increasing in young people and we still don't know why",
     "url": "https://www.newscientist.com/article/2524515-cancer-is-increasing-in-young-people-and-we-still-dont-know-why/",
     "source": "New Scientist",
     "published": "2026-04-28T23:30:36.000Z",
@@ -6982,7 +7066,7 @@
   },
   {
     "title": "Small Titanosaur Species from Morocco Reveals Surprising South American Ties",
-    "title_es": "Pequeñas especies de titanosaurios de Marruecos revelan sorprendentes lazos sudamericanos",
+    "title_es": "Small Titanosaur Species from Morocco Reveals Surprising South American Ties",
     "url": "https://www.sci.news/paleontology/phosphatotitan-khouribgaensis-14728.html",
     "source": "Sci.News",
     "published": "2026-04-28T22:53:04.000Z",
@@ -108861,6 +108945,20 @@
       "sine-square",
       "deformation",
       "approach"
+    ]
+  },
+  {
+    "title": "Rational $Q$-systems for integrable spin chains without $U(1)$ symmetry, by Yunfeng Jiang, Yi-Chao Liu, Yuan Miao, Zi-Xi Tan",
+    "title_es": "Rational $Q$-systems for integrable spin chains without $U(1)$ symmetry, by Yunfeng Jiang, Yi-Chao Liu, Yuan Miao, Zi-Xi Tan",
+    "url": "https://scipost.org/scipostphys.20.6.175",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "rational",
+      "q-systems",
+      "integrable"
     ]
   }
 ]
