@@ -1,5 +1,89 @@
 [
   {
+    "title": "Europe’s heatwave is the hottest and most humid ever",
+    "title_es": "La ola de calor de Europa es la más cálida y húmeda de la historia",
+    "url": "https://www.newscientist.com/article/2531992-europes-heatwave-is-the-hottest-and-most-humid-ever/",
+    "source": "New Scientist",
+    "published": "2026-06-26T05:00:51.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "europes",
+      "heatwave",
+      "hottest"
+    ]
+  },
+  {
+    "title": "Benchmarking Open-Weight Foundation Models for Global AI Technical Governance",
+    "title_es": "Análisis comparativo de los modelos de base de peso abierto para la gobernanza técnica global de la IA",
+    "url": "https://arxiv.org/abs/2606.26099",
+    "source": "arXiv",
+    "published": "2026-06-26T04:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "benchmarking",
+      "open-weight",
+      "foundation"
+    ]
+  },
+  {
+    "title": "The Battle for Sullivan’s Island",
+    "title_es": "La batalla por la isla de Sullivan",
+    "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "batalla",
+      "por",
+      "isla"
+    ]
+  },
+  {
+    "title": "What to know about earthquake early warning systems",
+    "title_es": "Lo que hay que saber sobre los sistemas de alerta temprana de terremotos",
+    "url": "https://phys.org/news/2026-06-earthquake-early.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "hay",
+      "que"
+    ]
+  },
+  {
+    "title": "Ancient DNA Sheds Light on Final Chapter of Neanderthal Life in Northwestern Europe",
+    "title_es": "ADN antiguo arroja luz sobre el último capítulo de la vida neandertal en el noroeste de Europa",
+    "url": "https://www.sci.news/othersciences/anthropology/western-neanderthals-14873.html",
+    "source": "Sci.News",
+    "published": "2026-06-25T19:18:23.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "dna",
+      "sheds"
+    ]
+  },
+  {
+    "title": "The MAHA Movement’s Worrisome Embrace of Ibogaine",
+    "title_es": "El preocupante abrazo de la ibogaína del movimiento MAHA",
+    "url": "https://undark.org/2026/06/25/opinion-maha-ibogaine-addiction/",
+    "source": "Undark Magazine",
+    "published": "2026-06-25T18:05:34.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "maha",
+      "movements",
+      "worrisome"
+    ]
+  },
+  {
     "title": "Graph-Based Phonetic Error Correction of Noisy ASR",
     "title_es": "Corrección de errores fonéticos basados en gráficos de ASR ruidoso",
     "url": "https://arxiv.org/abs/2606.24889",
@@ -25,6 +109,132 @@
       "prohibición",
       "redes",
       "sociales"
+    ]
+  },
+  {
+    "title": "Autoregressive Boltzmann Generators",
+    "title_es": "Generadores autorregresivos de Boltzmann",
+    "url": "http://arxiv.org/abs/2606.27361v1",
+    "source": "arXiv",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "generadores",
+      "autorregresivos",
+      "boltzmann"
+    ]
+  },
+  {
+    "title": "Dorothy Hodgkin: A Life",
+    "title_es": "Dorothy Hodgkin: una vida",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aei9819",
+    "source": "Science.org",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "dorothy",
+      "hodgkin",
+      "vida"
+    ]
+  },
+  {
+    "title": "El investigador del CNIC Miguel Ángel del Pozo recibe financiación de la AECC para impulsar su proyecto",
+    "title_es": "El investigador del CNIC Miguel Ángel del Pozo recibe financiación de la AECC para impulsar su proyecto",
+    "url": "https://www.cnic.es/es/noticias/investigador-cnic-miguel-angel-pozo-recibe-financiacion-aecc-para-impulsar-su-proyecto",
+    "source": "CNIC",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "investigador",
+      "cnic",
+      "miguel"
+    ]
+  },
+  {
+    "title": "La AECC apoya una docena de proyectos del CNIO para mejorar la inmunoterapia y la quimioterapia, avanzar en prevención y combatir la metástasis cerebral en fase incipiente",
+    "title_es": "La AECC apoya una docena de proyectos del CNIO para mejorar la inmunoterapia y la quimioterapia, avanzar en la prevención y combatir la metástasis cerebral en fase incipiente",
+    "url": "https://www.cnio.es/noticias/la-aecc-apoya-una-docena-de-proyectos-del-cnio-para-mejorar-la-inmunoterapia-y-la-quimioterapia-avanzar-en-prevencion-y-combatir-la-metastasis-cerebral-en-fase-incipiente/",
+    "source": "CNIO",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "aecc",
+      "apoya",
+      "docena"
+    ]
+  },
+  {
+    "title": "Un estudio revela la evidencia más sólida hasta la fecha de un campo magnético en un exoplaneta",
+    "title_es": "Un estudio revela la evidencia más sólida hasta la fecha de un campo magnético en un exoplaneta",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-estudio-revela-la-evidencia-mas-solida-hasta-la-fecha-de-un-campo-magnetico-en-un-exoplaneta",
+    "source": "IAC",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "revela",
+      "evidencia"
+    ]
+  },
+  {
+    "title": "New science on algae die-offs is too late for the Reflecting Pool",
+    "title_es": "La nueva ciencia sobre la extinción de algas llega demasiado tarde para el estanque reflectante",
+    "url": "https://www.sciencenews.org/article/algae-die-offs-reflecting-pool",
+    "source": "Science News",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "ciencia",
+      "sobre"
+    ]
+  },
+  {
+    "title": "This tree is the number one choice for forest mammals going number two",
+    "title_es": "Este árbol es la opción número uno para los mamíferos del bosque y va al número dos.",
+    "url": "https://www.snexplores.org/article/poop-tree-toilet-forest-mammals",
+    "source": "Science News Explores",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "este",
+      "árbol",
+      "opción"
+    ]
+  },
+  {
+    "title": "After 70 years of excavation, ancient Sardis becomes a UNESCO World Heritage site",
+    "title_es": "Después de 70 años de excavaciones, la antigua Sardis se convierte en Patrimonio de la Humanidad por la UNESCO",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625014808.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "después",
+      "años",
+      "excavaciones"
+    ]
+  },
+  {
+    "title": "Publisher Correction: In situ nanocrystal confinement for efficient blue perovskite LEDs",
+    "title_es": "Corrección del editor: confinamiento de nanocristales in situ para LED de perovskita azul eficientes",
+    "url": "https://www.nature.com/articles/s41586-026-10829-5",
+    "source": "Nature",
+    "published": "2026-06-25T00:00:00.000Z",
+    "date": "2026-06-25",
+    "category": "noticia",
+    "tags": [
+      "publisher",
+      "correction",
+      "situ"
     ]
   },
   {
@@ -112,7 +322,7 @@
     ]
   },
   {
-    "title": "Author Correction: cBAF complex components and MYC cooperate early in CD8 + T cell fate",
+    "title": "Author Correction: cBAF complex components and MYC cooperate early in CD8+ T cell fate",
     "title_es": "Corrección del autor: Los componentes del complejo cBAF y MYC cooperan tempranamente en el destino de las células T CD8+",
     "url": "https://www.nature.com/articles/s41586-026-10813-z",
     "source": "Nature",
@@ -6758,7 +6968,7 @@
   },
   {
     "title": "Early Sauropodomorph Dinosaur Unearthed in China",
-    "title_es": "Temprano dinosaurio sauropodomorfo desenterrado en China",
+    "title_es": "Early Sauropodomorph Dinosaur Unearthed in China",
     "url": "https://www.sci.news/paleontology/xiangyunloong-fengming-14741.html",
     "source": "Sci.News",
     "published": "2026-05-04T23:28:24.000Z",
@@ -6772,7 +6982,7 @@
   },
   {
     "title": "A lost ancient script reveals how writing as we know it really began",
-    "title_es": "Una escritura antigua perdida revela cómo comenzó realmente la escritura tal como la conocemos",
+    "title_es": "A lost ancient script reveals how writing as we know it really began",
     "url": "https://www.newscientist.com/article/2524042-a-lost-ancient-script-reveals-how-writing-as-we-know-it-really-began/",
     "source": "New Scientist",
     "published": "2026-05-04T16:00:56.000Z",
@@ -6786,7 +6996,7 @@
   },
   {
     "title": "Smart underwear detects lactose intolerance by tracking your farts",
-    "title_es": "La ropa interior inteligente detecta la intolerancia a la lactosa mediante el seguimiento de tus pedos",
+    "title_es": "Smart underwear detects lactose intolerance by tracking your farts",
     "url": "https://www.newscientist.com/article/2525189-smart-underwear-detects-lactose-intolerance-by-tracking-your-farts/",
     "source": "New Scientist",
     "published": "2026-05-04T06:00:07.000Z",
@@ -6800,7 +7010,7 @@
   },
   {
     "title": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
-    "title_es": "La nube está más cerca de lo que parece: revisando las compensaciones de la inferencia distribuida en tiempo real",
+    "title_es": "Cloud Is Closer Than It Appears: Revisiting the Tradeoffs of Distributed Real-Time Inference",
     "url": "https://arxiv.org/abs/2605.00005",
     "source": "arXiv",
     "published": "2026-05-04T04:00:00.000Z",
@@ -6926,7 +7136,7 @@
   },
   {
     "title": "Powerful AI finds 100+ hidden planets in NASA data including rare and extreme worlds",
-    "title_es": "La poderosa IA encuentra más de 100 planetas ocultos en los datos de la NASA, incluidos mundos raros y extremos",
+    "title_es": "Powerful AI finds 100+ hidden planets in NASA data including rare and extreme worlds",
     "url": "https://www.sciencedaily.com/releases/2026/05/260502233926.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-05-03T04:56:52.000Z",
@@ -48485,17 +48695,17 @@
     ]
   },
   {
-    "title": "Correction: Defect induced improved capacitive performance of MnS incorporated MoO 3 nanocomposite for supercapacitor electrodes in aqueous electrolytes",
-    "title_es": "Corrección: rendimiento capacitivo mejorado inducido por defectos del nanocompuesto de MoO3 incorporado en MnS para electrodos de supercondensadores en electrolitos acuosos",
+    "title": "Detection of Coxsackievirus A24v during an acute haemorrhagic conjunctivitis outbreak in Dar es Salaam, Tanzania, January-February 2024",
+    "title_es": "Detección del virus Coxsackie A24v durante un brote de conjuntivitis hemorrágica aguda en Dar es Salaam, Tanzania, enero-febrero de 2024",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "rendimiento",
-      "capacitivo"
+      "detección",
+      "virus",
+      "coxsackie"
     ]
   },
   {
@@ -109407,6 +109617,34 @@
       "lindblad",
       "martino",
       "stefanini"
+    ]
+  },
+  {
+    "title": "Convergence of Nekrasov instanton sum with adjoint matter, by Bruno Le Floch",
+    "title_es": "Convergence of Nekrasov instanton sum with adjoint matter, by Bruno Le Floch",
+    "url": "https://scipost.org/scipostphyscore.9.2.038",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "convergence",
+      "nekrasov",
+      "instanton"
+    ]
+  },
+  {
+    "title": "Milky Way Urban Style",
+    "title_es": "Milky Way Urban Style",
+    "url": "https://apod.nasa.gov/apod/image/2606/milkywayseoulshingoolee800.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "milky",
+      "way",
+      "urban"
     ]
   }
 ]
