@@ -1,5 +1,47 @@
 [
   {
+    "title": "Participatory theater helps young people become active citizens",
+    "title_es": "El teatro participativo ayuda a los jóvenes a convertirse en ciudadanos activos",
+    "url": "https://phys.org/news/2026-06-participatory-theater-young-people-citizens.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-27T00:00:00.000Z",
+    "date": "2026-06-27",
+    "category": "noticia",
+    "tags": [
+      "teatro",
+      "participativo",
+      "ayuda"
+    ]
+  },
+  {
+    "title": "Review: What Animals Can Teach Humans About Caregiving",
+    "title_es": "Revisión: Lo que los animales pueden enseñar a los humanos sobre el cuidado",
+    "url": "https://undark.org/2026/06/26/book-review-creatures-guide-to-caring/",
+    "source": "Undark Magazine",
+    "published": "2026-06-26T20:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "review",
+      "what",
+      "animals"
+    ]
+  },
+  {
+    "title": "Distant Cousin of Crocodiles Stalked Brazil 240 Million Years Ago",
+    "title_es": "Primo lejano de cocodrilos acechó Brasil hace 240 millones de años",
+    "url": "https://www.sci.news/paleontology/silescelida-acristata-14875.html",
+    "source": "Sci.News",
+    "published": "2026-06-26T19:41:26.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "distant",
+      "cousin",
+      "crocodiles"
+    ]
+  },
+  {
     "title": "Europe’s heatwave is the hottest and most humid ever",
     "title_es": "La ola de calor de Europa es la más cálida y húmeda de la historia",
     "url": "https://www.newscientist.com/article/2531992-europes-heatwave-is-the-hottest-and-most-humid-ever/",
@@ -53,6 +95,62 @@
       "que",
       "hay",
       "que"
+    ]
+  },
+  {
+    "title": "Briefing Chat: What tickling a chimpanzee can tell us about the evolution of speech",
+    "title_es": "Charla informativa: Lo que las cosquillas a un chimpancé pueden decirnos sobre la evolución del habla",
+    "url": "https://www.nature.com/articles/d41586-026-02059-6",
+    "source": "Nature",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "que"
+    ]
+  },
+  {
+    "title": "NASA Announces Winners for 2026 Human Lander Challenge",
+    "title_es": "La NASA anuncia los ganadores del Human Lander Challenge 2026",
+    "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-announces-winners-for-2026-human-lander-challenge/",
+    "source": "NASA (Top News)",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "anuncia",
+      "ganadores"
+    ]
+  },
+  {
+    "title": "How big a cybersecurity threat are the latest AI models, really?",
+    "title_es": "¿Qué tan grandes son realmente las amenazas a la ciberseguridad que suponen los últimos modelos de IA?",
+    "url": "https://www.sciencenews.org/article/cybersecurity-threat-new-ai-models",
+    "source": "Science News",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "tan",
+      "grandes"
+    ]
+  },
+  {
+    "title": "Einstein Probe may have caught a black hole tearing apart a white dwarf for the first time",
+    "title_es": "La sonda Einstein pudo haber captado por primera vez un agujero negro que destrozaba una enana blanca",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "sonda",
+      "einstein",
+      "pudo"
     ]
   },
   {
@@ -249,6 +347,20 @@
       "hold",
       "onions",
       "see"
+    ]
+  },
+  {
+    "title": "The best sci-fi novel in 2026 so far – plus 6 other great reads",
+    "title_es": "La mejor novela de ciencia ficción en 2026 hasta ahora, más otras 6 grandes lecturas",
+    "url": "https://www.newscientist.com/article/mg27036014-200-the-best-sci-fi-novel-in-2026-so-far-plus-6-other-great-reads/",
+    "source": "New Scientist",
+    "published": "2026-06-24T18:00:00.000Z",
+    "date": "2026-06-24",
+    "category": "noticia",
+    "tags": [
+      "best",
+      "sci-fi",
+      "novel"
     ]
   },
   {
@@ -6828,7 +6940,7 @@
   },
   {
     "title": "The 50-year quest to create a quantum spin liquid may finally be over",
-    "title_es": "La búsqueda de 50 años para crear un líquido de espín cuántico finalmente puede haber terminado",
+    "title_es": "The 50-year quest to create a quantum spin liquid may finally be over",
     "url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
     "source": "New Scientist",
     "published": "2026-05-05T16:00:58.000Z",
@@ -6842,7 +6954,7 @@
   },
   {
     "title": "Quantum computers simulated their biggest molecule yet – with help",
-    "title_es": "Los ordenadores cuánticos simularon su molécula más grande hasta ahora, con ayuda",
+    "title_es": "Quantum computers simulated their biggest molecule yet – with help",
     "url": "https://www.newscientist.com/article/2525277-quantum-computers-simulated-their-biggest-molecule-yet-with-help/",
     "source": "New Scientist",
     "published": "2026-05-05T05:01:57.000Z",
@@ -6856,7 +6968,7 @@
   },
   {
     "title": "Understanding the Performance Plateau in Text-to-Video Retrieval: A Comprehensive Empirical and Linguistic Analysis",
-    "title_es": "Comprender la meseta de rendimiento en la recuperación de texto a video: un análisis empírico y lingüístico integral",
+    "title_es": "Understanding the Performance Plateau in Text-to-Video Retrieval: A Comprehensive Empirical and Linguistic Analysis",
     "url": "https://arxiv.org/abs/2605.00826",
     "source": "arXiv",
     "published": "2026-05-05T04:00:00.000Z",
@@ -48695,17 +48807,17 @@
     ]
   },
   {
-    "title": "Detection of Coxsackievirus A24v during an acute haemorrhagic conjunctivitis outbreak in Dar es Salaam, Tanzania, January-February 2024",
-    "title_es": "Detección del virus Coxsackie A24v durante un brote de conjuntivitis hemorrágica aguda en Dar es Salaam, Tanzania, enero-febrero de 2024",
+    "title": "Hybrid deep learning for mental workload classification using EEG with enhanced preprocessing and interpretability",
+    "title_es": "Aprendizaje profundo híbrido para la clasificación de la carga de trabajo mental mediante EEG con preprocesamiento e interpretabilidad mejorados",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "detección",
-      "virus",
-      "coxsackie"
+      "aprendizaje",
+      "profundo",
+      "híbrido"
     ]
   },
   {
@@ -109645,6 +109757,34 @@
       "milky",
       "way",
       "urban"
+    ]
+  },
+  {
+    "title": "Interaction-induced nematic Dirac semimetal from quadratic band touching: A constrained-path quantum Monte Carlo study, by Zi Hong Liu, Hongyu Lu, Zi Yang Meng, Lukas Janssen",
+    "title_es": "Interaction-induced nematic Dirac semimetal from quadratic band touching: A constrained-path quantum Monte Carlo study, by Zi Hong Liu, Hongyu Lu, Zi Yang Meng, Lukas Janssen",
+    "url": "https://scipost.org/scipostphys.20.6.184",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "interaction-induced",
+      "nematic",
+      "dirac"
+    ]
+  },
+  {
+    "title": "Mars Marathon by Perseverance",
+    "title_es": "Mars Marathon by Perseverance",
+    "url": "https://apod.nasa.gov/apod/image/2606/pia26726_figa1024c.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "mars",
+      "marathon",
+      "perseverance"
     ]
   }
 ]
