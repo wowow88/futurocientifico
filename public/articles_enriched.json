@@ -1,5 +1,75 @@
 [
   {
+    "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+    "title_es": "Formalización de pensamientos latentes: cuatro axiomas de la representación del pensamiento en LLM",
+    "url": "https://arxiv.org/abs/2606.27378",
+    "source": "arXiv",
+    "published": "2026-06-29T04:00:00.000Z",
+    "date": "2026-06-29",
+    "category": "noticia",
+    "tags": [
+      "formalizing",
+      "latent",
+      "thoughts"
+    ]
+  },
+  {
+    "title": "Trump has big AI and quantum ambitions: this scientist’s job is to make them reality",
+    "title_es": "Trump tiene grandes ambiciones en IA y cuántica: el trabajo de este científico es hacerlas realidad",
+    "url": "https://www.nature.com/articles/d41586-026-02023-4",
+    "source": "Nature",
+    "published": "2026-06-29T00:00:00.000Z",
+    "date": "2026-06-29",
+    "category": "noticia",
+    "tags": [
+      "trump",
+      "tiene",
+      "grandes"
+    ]
+  },
+  {
+    "title": "These tiny soil microbes could rescue crops from salty farmland",
+    "title_es": "Estos pequeños microbios del suelo podrían rescatar cultivos de tierras agrícolas saladas",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260626124703.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-29T00:00:00.000Z",
+    "date": "2026-06-29",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "pequeños",
+      "microbios"
+    ]
+  },
+  {
+    "title": "Toward experiment-guided AlphaFold: Researchers overcome AI tool's single-conformation limitation",
+    "title_es": "Hacia AlphaFold guiado por experimentos: los investigadores superan la limitación de conformación única de la herramienta de IA",
+    "url": "https://phys.org/news/2026-06-alphafold-ai-tool-conformation-limitation.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-06-29T00:00:00.000Z",
+    "date": "2026-06-29",
+    "category": "noticia",
+    "tags": [
+      "hacia",
+      "alphafold",
+      "guiado"
+    ]
+  },
+  {
+    "title": "New Research Traces Origins of Human Laughter",
+    "title_es": "Una nueva investigación rastrea los orígenes de la risa humana",
+    "url": "https://www.sci.news/biology/human-laughter-origins-14876.html",
+    "source": "Sci.News",
+    "published": "2026-06-28T23:00:06.000Z",
+    "date": "2026-06-28",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "research",
+      "traces"
+    ]
+  },
+  {
     "title": "Hawaii is turning ocean plastic and fishing nets into roads",
     "title_es": "Hawái está convirtiendo el plástico del océano y las redes de pesca en carreteras",
     "url": "https://www.sciencedaily.com/releases/2026/06/260625014830.htm",
@@ -193,6 +263,20 @@
       "sonda",
       "einstein",
       "pudo"
+    ]
+  },
+  {
+    "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
+    "title_es": "DexCompose: reutilización de políticas diestras para la manipulación de tareas múltiples con una sola mano",
+    "url": "http://arxiv.org/abs/2606.28323v1",
+    "source": "arXiv",
+    "published": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-26",
+    "category": "noticia",
+    "tags": [
+      "dexcompose",
+      "reutilización",
+      "políticas"
     ]
   },
   {
@@ -6828,7 +6912,7 @@
   },
   {
     "title": "In Coal Country, Black Lung Surges as Federal Protections Stall",
-    "title_es": "En el país del carbón, el pulmón negro aumenta a medida que las protecciones federales se estancan",
+    "title_es": "In Coal Country, Black Lung Surges as Federal Protections Stall",
     "url": "https://undark.org/2026/05/06/black-lung-federal-protections/",
     "source": "Undark Magazine",
     "published": "2026-05-06T07:19:00.000Z",
@@ -6842,7 +6926,7 @@
   },
   {
     "title": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
-    "title_es": "La misma voz, laboratorio diferente: sobre la homogeneización de las personalidades fronterizas de LLM",
+    "title_es": "Same Voice, Different Lab: On the Homogenization of Frontier LLM Personalities",
     "url": "https://arxiv.org/abs/2605.02897",
     "source": "arXiv",
     "published": "2026-05-06T04:00:00.000Z",
