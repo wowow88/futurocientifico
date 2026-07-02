@@ -1,5 +1,89 @@
 [
   {
+    "title": "Biologists Should Articulate Their Position on AI",
+    "title_es": "Los biólogos deben articular su posición sobre la IA",
+    "url": "https://undark.org/2026/07/02/opinion-biologists-leiden-declaration/",
+    "source": "Undark Magazine",
+    "published": "2026-07-02T07:07:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "biologists",
+      "should",
+      "articulate"
+    ]
+  },
+  {
+    "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+    "title_es": "Alineación Constructiva: Gobernando la Dinámica de Preferencias en la Interacción Humano-AI",
+    "url": "https://arxiv.org/abs/2607.00001",
+    "source": "arXiv",
+    "published": "2026-07-02T04:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "constructive",
+      "alignment",
+      "governing"
+    ]
+  },
+  {
+    "title": "What’s Up: July 2026 Skywatching Tips from NASA",
+    "title_es": "Qué pasa: consejos de la NASA para observar el cielo en julio de 2026",
+    "url": "https://science.nasa.gov/solar-system/whats-up-july-2026-skywatching-tips-from-nasa/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "pasa",
+      "consejos"
+    ]
+  },
+  {
+    "title": "Sightings of humpback whales surge in Rio de Janeiro, fueling demand for whale-watching trips",
+    "title_es": "Aumentan los avistamientos de ballenas jorobadas en Río de Janeiro, lo que alimenta la demanda de viajes de observación de ballenas",
+    "url": "https://phys.org/news/2026-07-sightings-humpback-whales-surge-rio.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "aumentan",
+      "avistamientos",
+      "ballenas"
+    ]
+  },
+  {
+    "title": "83-Million-Year-Old Fossil Rewrites Timeline of Antarctica’s First Dinosaur Discovery",
+    "title_es": "Un fósil de 83 millones de años reescribe la cronología del primer descubrimiento de dinosaurios en la Antártida",
+    "url": "https://www.sci.news/paleontology/antarctic-titanosaur-14888.html",
+    "source": "Sci.News",
+    "published": "2026-07-01T21:06:10.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "83-million-year-old",
+      "fossil",
+      "rewrites"
+    ]
+  },
+  {
+    "title": "Do you want your underwear with added probiotics?",
+    "title_es": "¿Quieres tu ropa interior con probióticos añadidos?",
+    "url": "https://www.newscientist.com/article/mg27136022-300-do-you-want-your-underwear-with-added-probiotics/",
+    "source": "New Scientist",
+    "published": "2026-07-01T18:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "you",
+      "want",
+      "your"
+    ]
+  },
+  {
     "title": "ASR-Agnostic Multimodal Spectrotemporal Modeling for Early Dementia Detection",
     "title_es": "Modelado Espectrotemporal Multimodal de ASR-Agnostic para la Detección Temprana de la Demencia",
     "url": "https://arxiv.org/abs/2606.30646",
@@ -28,6 +112,104 @@
     ]
   },
   {
+    "title": "Measuring the Gap Between Human and LLM Research Ideas",
+    "title_es": "Medir la brecha entre las ideas de investigación humana y LLM",
+    "url": "http://arxiv.org/abs/2607.01233v1",
+    "source": "arXiv",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "medir",
+      "brecha",
+      "entre"
+    ]
+  },
+  {
+    "title": "Togetherness: How co-operation built the world",
+    "title_es": "Unión: cómo la cooperación construyó el mundo",
+    "url": "https://www.nature.com/articles/d41586-026-02067-6",
+    "source": "Nature",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "unión",
+      "cómo",
+      "cooperación"
+    ]
+  },
+  {
+    "title": "Circulation: Researchers Identify a Key Mechanism Driving Coronary Damage in Kawasaki Disease",
+    "title_es": "Circulación: los investigadores identifican un mecanismo clave que impulsa el daño coronario en la enfermedad de Kawasaki",
+    "url": "https://www.cnic.es/es/node/243260",
+    "source": "CNIC",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "researchers",
+      "identify"
+    ]
+  },
+  {
+    "title": "El IAC y la ULL impulsan un curso de verano sobre astrofísica y sector espacial en colaboración con la Universidad Complutense de Madrid",
+    "title_es": "El IAC y la ULL impulsan un curso de verano sobre astrofísica y sector espacial en colaboración con la Universidad Complutense de Madrid",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-impulsan-un-curso-de-verano-sobre-astrofisica-y-sector-espacial-en-colaboracion-con-la",
+    "source": "IAC",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "ull",
+      "impulsan"
+    ]
+  },
+  {
+    "title": "Young gulls’ drab plumage may help them avoid adult attacks",
+    "title_es": "El plumaje monótono de las gaviotas jóvenes puede ayudarlas a evitar ataques de adultos",
+    "url": "https://www.sciencenews.org/article/young-gulls-plumage-adult-attacks",
+    "source": "Science News",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "plumaje",
+      "monótono",
+      "gaviotas"
+    ]
+  },
+  {
+    "title": "Mosquitoes may learn to like DEET, a common insect repellent",
+    "title_es": "Los mosquitos pueden aprender a disfrutar del DEET, un repelente de insectos común",
+    "url": "https://www.snexplores.org/article/deet-repellent-attract-mosquitoes",
+    "source": "Science News Explores",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "mosquitos",
+      "pueden",
+      "aprender"
+    ]
+  },
+  {
+    "title": "Scientists discover a surprising link between vitamin C and brain health",
+    "title_es": "Los científicos descubren un vínculo sorprendente entre la vitamina C y la salud del cerebro",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260626030428.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-01T00:00:00.000Z",
+    "date": "2026-07-01",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "vínculo"
+    ]
+  },
+  {
     "title": "Fossils from German Quarry Reveal New Subspecies of European Leopard",
     "title_es": "Fósiles de cantera alemana revelan nueva subespecie de leopardo europeo",
     "url": "https://www.sci.news/paleontology/panthera-pardus-burgtonnae-14883.html",
@@ -39,6 +221,20 @@
       "fossils",
       "german",
       "quarry"
+    ]
+  },
+  {
+    "title": "Scientists discover a completely different way to fight viruses",
+    "title_es": "Los científicos descubren una forma completamente diferente de combatir los virus",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260630020534.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-06-30T20:18:00.000Z",
+    "date": "2026-06-30",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "completely"
     ]
   },
   {
@@ -6787,7 +6983,7 @@
   },
   {
     "title": "Jennifer Davis: \"Debemos tratar la IA como una herramienta para generar hipótesis, no como respuestas finales\"",
-    "title_es": "Jennifer Davis: “Debemos tratar la IA como una herramienta para generar hipótesis, no como respuestas finales”",
+    "title_es": "Jennifer Davis: \"Debemos tratar la IA como una herramienta para generar hipótesis, no como respuestas finales\"",
     "url": "https://www.cnic.es/es/noticias/jennifer-davis-debemos-tratar-ia-como-herramienta-para-generar-hipotesis-no-como-respuestas",
     "source": "CNIC",
     "published": "2026-05-09T00:00:00.000Z",
@@ -6801,7 +6997,7 @@
   },
   {
     "title": "New obesity discovery rewrites decades of fat science",
-    "title_es": "Un nuevo descubrimiento sobre la obesidad reescribe décadas de ciencia de la grasa",
+    "title_es": "New obesity discovery rewrites decades of fat science",
     "url": "https://www.sciencedaily.com/releases/2026/05/260508171123.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-05-08T21:21:20.000Z",
@@ -6815,7 +7011,7 @@
   },
   {
     "title": "Paleontologists Reconstruct Ecology of Archaeopteryx",
-    "title_es": "Los paleontólogos reconstruyen la ecología de Archaeopteryx",
+    "title_es": "Paleontologists Reconstruct Ecology of Archaeopteryx",
     "url": "https://www.sci.news/paleontology/archaeopteryx-ecology-14753.html",
     "source": "Sci.News",
     "published": "2026-05-08T20:51:24.000Z",
@@ -6829,7 +7025,7 @@
   },
   {
     "title": "Book Review: The Life and Struggles of a Conservation Pioneer",
-    "title_es": "Reseña del libro: The Life and Struggles of a Conservation Pioneer",
+    "title_es": "Book Review: The Life and Struggles of a Conservation Pioneer",
     "url": "https://undark.org/2026/05/08/book-review-homesick-for-world-unknown/",
     "source": "Undark Magazine",
     "published": "2026-05-08T07:31:21.000Z",
@@ -6843,7 +7039,7 @@
   },
   {
     "title": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
-    "title_es": "Un método híbrido acelerado por GPU para una clase de problemas de enrutamiento de vehículos multidepósito",
+    "title_es": "A GPU-Accelerated Hybrid Method for a Class of Multi-Depot Vehicle Routing Problems",
     "url": "https://arxiv.org/abs/2605.05208",
     "source": "arXiv",
     "published": "2026-05-08T04:00:00.000Z",
@@ -6857,7 +7053,7 @@
   },
   {
     "title": "Researchers Create Detailed Map of Smell Receptors in Mouse Nose",
-    "title_es": "Los investigadores crean un mapa detallado de los receptores olfativos en la nariz del ratón",
+    "title_es": "Researchers Create Detailed Map of Smell Receptors in Mouse Nose",
     "url": "https://www.sci.news/biology/map-mouse-nose-smell-receptors-14752.html",
     "source": "Sci.News",
     "published": "2026-05-08T00:25:05.000Z",
@@ -49241,17 +49437,17 @@
     ]
   },
   {
-    "title": "Correction: Resilient distributed model predictive control for cooperative microgrids under communication loss with demand response integration",
-    "title_es": "Corrección: Control predictivo de modelo distribuido resiliente para microrredes cooperativas bajo pérdida de comunicación con integración de respuesta a la demanda",
+    "title": "Admission NT-proBNP provides stronger prognostic discrimination than the AHEAD score for 1-year mortality in hospitalized acute heart failure: A retrospective cohort study",
+    "title_es": "El NT-proBNP al ingreso proporciona una discriminación pronóstica más fuerte que la puntuación AHEAD para la mortalidad a 1 año en pacientes con insuficiencia cardíaca aguda hospitalizada: un estudio de cohorte retrospectivo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "control",
-      "predictivo"
+      "nt-probnp",
+      "ingreso",
+      "proporciona"
     ]
   },
   {
@@ -110233,6 +110429,34 @@
       "extracting",
       "average",
       "properties"
+    ]
+  },
+  {
+    "title": "FASTColor – Full-color amplitude surrogate toolkit for QCD, by Javier Mariño Villadamigo, Rikkert Frederix, Tilman Plehn, Timea Vitos, Ramon Winterhalder",
+    "title_es": "FASTColor – Full-color amplitude surrogate toolkit for QCD, by Javier Mariño Villadamigo, Rikkert Frederix, Tilman Plehn, Timea Vitos, Ramon Winterhalder",
+    "url": "https://scipost.org/scipostphys.21.1.001",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "fastcolor",
+      "full-color",
+      "amplitude"
+    ]
+  },
+  {
+    "title": "Sibling Supernova Remnants",
+    "title_es": "Sibling Supernova Remnants",
+    "url": "https://apod.nasa.gov/apod/image/2607/sibling_supernovae_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "sibling",
+      "supernova",
+      "remnants"
     ]
   }
 ]
