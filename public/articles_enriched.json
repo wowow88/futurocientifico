@@ -1,5 +1,89 @@
 [
   {
+    "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
+    "title_es": "TokenScope: Explicabilidad e interpretabilidad a nivel de token para tareas orientadas al código en modelos de lenguaje grandes",
+    "url": "https://arxiv.org/abs/2607.01235",
+    "source": "arXiv",
+    "published": "2026-07-03T04:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "tokenscope",
+      "token-level",
+      "explainability"
+    ]
+  },
+  {
+    "title": "Evocative photos of Canadian Arctic win New Scientist Editors Award",
+    "title_es": "Fotos evocadoras del Ártico canadiense ganan el New Scientist Editors Award",
+    "url": "https://www.newscientist.com/article/2532503-evocative-photos-of-canadian-arctic-win-new-scientist-editors-award/",
+    "source": "New Scientist",
+    "published": "2026-07-03T00:05:34.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "evocative",
+      "photos",
+      "canadian"
+    ]
+  },
+  {
+    "title": "China boosts prestigious grants for young scientists — will it ease competition?",
+    "title_es": "China impulsa subvenciones prestigiosas para jóvenes científicos: ¿facilitará la competencia?",
+    "url": "https://www.nature.com/articles/d41586-026-01989-5",
+    "source": "Nature",
+    "published": "2026-07-03T00:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "china",
+      "impulsa",
+      "subvenciones"
+    ]
+  },
+  {
+    "title": "A strange LIGO signal could reveal the missing link behind dark matter",
+    "title_es": "Una extraña señal LIGO podría revelar el eslabón perdido detrás de la materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260626125703.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-03T00:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "extraña",
+      "señal",
+      "ligo"
+    ]
+  },
+  {
+    "title": "Wildfires rage in southern France, 3,000 people evacuated",
+    "title_es": "Los incendios forestales arrasan el sur de Francia y 3.000 personas son evacuadas",
+    "url": "https://phys.org/news/2026-07-wildfires-rage-southern-france-people.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-03T00:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "incendios",
+      "forestales",
+      "arrasan"
+    ]
+  },
+  {
+    "title": "Scientists Recover Ancient Human DNA from Cave Walls",
+    "title_es": "Científicos recuperan ADN humano antiguo de paredes de cuevas",
+    "url": "https://www.sci.news/othersciences/anthropology/ancient-human-dna-cave-walls-14889.html",
+    "source": "Sci.News",
+    "published": "2026-07-02T15:20:56.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "recover",
+      "ancient"
+    ]
+  },
+  {
     "title": "Biologists Should Articulate Their Position on AI",
     "title_es": "Los biólogos deben articular su posición sobre la IA",
     "url": "https://undark.org/2026/07/02/opinion-biologists-leiden-declaration/",
@@ -53,6 +137,90 @@
       "aumentan",
       "avistamientos",
       "ballenas"
+    ]
+  },
+  {
+    "title": "Distributed Attacks in Persistent-State AI Control",
+    "title_es": "Ataques distribuidos en control de IA de estado persistente",
+    "url": "http://arxiv.org/abs/2607.02514v1",
+    "source": "arXiv",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "ataques",
+      "distribuidos",
+      "control"
+    ]
+  },
+  {
+    "title": "American science at 250",
+    "title_es": "La ciencia estadounidense a 250",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aej4833",
+    "source": "Science.org",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "ciencia",
+      "estadounidense",
+      "250"
+    ]
+  },
+  {
+    "title": "El CNIO buscará fármacos que amplíen la eficacia de la inmunoterapia a más tumores, con una estrategia seleccionada por el Consejo Europeo de Investigación",
+    "title_es": "El CNIO buscará fármacos que amplíen la eficacia de la inmunoterapia a más tumores, con una estrategia seleccionada por el Consejo Europeo de Investigación",
+    "url": "https://www.cnio.es/noticias/el-cnio-buscara-farmacos-que-amplien-la-eficacia-de-la-inmunoterapia-a-mas-tumores-con-una-estrategia-seleccionada-por-el-consejo-europeo-de-investigacion/",
+    "source": "CNIO",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "cnio",
+      "buscará",
+      "fármacos"
+    ]
+  },
+  {
+    "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+    "title_es": "Artemis II de la NASA bate el récord de transmisión de la agencia",
+    "url": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "artemis",
+      "nasa",
+      "bate"
+    ]
+  },
+  {
+    "title": "Giant trees have tricks to work around drought",
+    "title_es": "Los árboles gigantes tienen trucos para evitar la sequía",
+    "url": "https://www.sciencenews.org/article/giant-trees-tricks-drought-water",
+    "source": "Science News",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "árboles",
+      "gigantes",
+      "tienen"
+    ]
+  },
+  {
+    "title": "Giant school bus–sized octopuses may have once ruled the oceans",
+    "title_es": "Es posible que pulpos gigantes del tamaño de un autobús escolar alguna vez gobernaran los océanos",
+    "url": "https://www.snexplores.org/article/giant-octopuses-cretaceous-kraken",
+    "source": "Science News Explores",
+    "published": "2026-07-02T00:00:00.000Z",
+    "date": "2026-07-02",
+    "category": "noticia",
+    "tags": [
+      "posible",
+      "que",
+      "pulpos"
     ]
   },
   {
@@ -6787,7 +6955,7 @@
   },
   {
     "title": "New Species of Giant Long-Necked Dinosaur Identified in Argentina",
-    "title_es": "Nueva especie de dinosaurio gigante de cuello largo identificada en Argentina",
+    "title_es": "New Species of Giant Long-Necked Dinosaur Identified in Argentina",
     "url": "https://www.sci.news/paleontology/bicharracosaurus-dionidei-14758.html",
     "source": "Sci.News",
     "published": "2026-05-11T23:02:43.000Z",
@@ -6801,7 +6969,7 @@
   },
   {
     "title": "The story of the first human tool: the humble container",
-    "title_es": "La historia de la primera herramienta humana: el humilde contenedor",
+    "title_es": "The story of the first human tool: the humble container",
     "url": "https://www.newscientist.com/article/2526004-the-story-of-the-first-human-tool-the-humble-container/",
     "source": "New Scientist",
     "published": "2026-05-11T18:00:56.000Z",
@@ -6815,7 +6983,7 @@
   },
   {
     "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
-    "title_es": "Evaluación de las defensas de inyección rápida para tutores de LLM educativos: compensaciones de seguridad-usabilidad-latencia",
+    "title_es": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
     "url": "https://arxiv.org/abs/2605.06669",
     "source": "arXiv",
     "published": "2026-05-11T04:00:00.000Z",
@@ -49437,17 +49605,17 @@
     ]
   },
   {
-    "title": "Admission NT-proBNP provides stronger prognostic discrimination than the AHEAD score for 1-year mortality in hospitalized acute heart failure: A retrospective cohort study",
-    "title_es": "El NT-proBNP al ingreso proporciona una discriminación pronóstica más fuerte que la puntuación AHEAD para la mortalidad a 1 año en pacientes con insuficiencia cardíaca aguda hospitalizada: un estudio de cohorte retrospectivo",
+    "title": "Muscle strength characteristics and the predictive value of handgrip strength in young obese males: A multi‑joint isokinetic and LASSO regression analysis",
+    "title_es": "Características de la fuerza muscular y el valor predictivo de la fuerza de prensión manual en hombres jóvenes obesos: un análisis de regresión isocinética multiarticular y LASSO",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "nt-probnp",
-      "ingreso",
-      "proporciona"
+      "características",
+      "fuerza",
+      "muscular"
     ]
   },
   {
@@ -110457,6 +110625,20 @@
       "sibling",
       "supernova",
       "remnants"
+    ]
+  },
+  {
+    "title": "Towards holographic color superconductivity in QCD, by Jesús Cruz Rojas, Tuna Demircik, Christian Ecker, Matti Järvinen",
+    "title_es": "Towards holographic color superconductivity in QCD, by Jesús Cruz Rojas, Tuna Demircik, Christian Ecker, Matti Järvinen",
+    "url": "https://scipost.org/scipostphys.21.1.004",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "towards",
+      "holographic",
+      "color"
     ]
   }
 ]
