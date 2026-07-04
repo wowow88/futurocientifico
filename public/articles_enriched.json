@@ -1,5 +1,33 @@
 [
   {
+    "title": "Scientists find yeast in ancient Iceman's guts—and make bread",
+    "title_es": "Los científicos encuentran levadura en las entrañas del antiguo Hombre de Hielo y hacen pan",
+    "url": "https://phys.org/news/2026-06-scientists-yeast-ancient-iceman-guts.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-04T00:00:00.000Z",
+    "date": "2026-07-04",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "encuentran",
+      "levadura"
+    ]
+  },
+  {
+    "title": "‘Hobbit’ hominins scavenged meat left over by Komodo dragons",
+    "title_es": "Los homínidos ‘hobbits’ se deshicieron de la carne sobrante de los dragones de Komodo",
+    "url": "https://www.newscientist.com/article/2532777-hobbit-hominins-scavenged-meat-left-over-by-komodo-dragons/",
+    "source": "New Scientist",
+    "published": "2026-07-03T19:00:38.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "hobbit",
+      "hominins",
+      "scavenged"
+    ]
+  },
+  {
     "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
     "title_es": "TokenScope: Explicabilidad e interpretabilidad a nivel de token para tareas orientadas al código en modelos de lenguaje grandes",
     "url": "https://arxiv.org/abs/2607.01235",
@@ -67,6 +95,34 @@
       "incendios",
       "forestales",
       "arrasan"
+    ]
+  },
+  {
+    "title": "El cosmólogo Julio Navarro ofrecerá una charla pública sobre los grandes desafíos de la Física moderna",
+    "title_es": "El cosmólogo Julio Navarro ofrecerá una charla pública sobre los grandes desafíos de la Física moderna",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-cosmologo-julio-navarro-ofrecera-una-charla-publica-sobre-los-grandes-desafios-de-la-fisica-moderna",
+    "source": "IAC",
+    "published": "2026-07-03T00:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "cosmólogo",
+      "julio",
+      "navarro"
+    ]
+  },
+  {
+    "title": "NASA’s Hubble Captures Crimson Cloud Sparkling with White, Blue Stars",
+    "title_es": "El Hubble de la NASA captura una nube carmesí brillando con estrellas blancas y azules",
+    "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-crimson-cloud-sparkling-with-white-blue-stars/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-03T00:00:00.000Z",
+    "date": "2026-07-03",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "nasa",
+      "captura"
     ]
   },
   {
@@ -6815,7 +6871,7 @@
   },
   {
     "title": "Why do particle physicists like spending time in fields?",
-    "title_es": "¿Por qué a los físicos de partículas les gusta pasar tiempo en los campos?",
+    "title_es": "Why do particle physicists like spending time in fields?",
     "url": "https://www.newscientist.com/article/2526051-why-do-particle-physicists-like-spending-time-in-fields/",
     "source": "New Scientist",
     "published": "2026-05-12T10:00:00.000Z",
@@ -6829,7 +6885,7 @@
   },
   {
     "title": "RAwR: Role-Aware Rewiring via Approximate Equitable Partition",
-    "title_es": "RAwR: Recableado consciente del rol a través de una partición equitativa aproximada",
+    "title_es": "RAwR: Role-Aware Rewiring via Approximate Equitable Partition",
     "url": "https://arxiv.org/abs/2605.09457",
     "source": "arXiv",
     "published": "2026-05-12T04:00:00.000Z",
@@ -110639,6 +110695,19 @@
       "towards",
       "holographic",
       "color"
+    ]
+  },
+  {
+    "title": "Pathfinder on Mars",
+    "title_es": "Pathfinder on Mars",
+    "url": "https://apod.nasa.gov/apod/image/2607/pia00621_1080cwb.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "pathfinder",
+      "mars"
     ]
   }
 ]
