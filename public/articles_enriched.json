@@ -1,5 +1,47 @@
 [
   {
+    "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
+    "title_es": "El Hubble de la NASA detecta una bengala estelar para el 4 de julio",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-05T00:00:00.000Z",
+    "date": "2026-07-05",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "nasa",
+      "detecta"
+    ]
+  },
+  {
+    "title": "'This was something new': What people in Greenland told us about learning to live with wildfires",
+    "title_es": "'Esto era algo nuevo': lo que nos dijo la gente de Groenlandia sobre cómo aprender a vivir con los incendios forestales",
+    "url": "https://phys.org/news/2026-06-people-greenland-told-wildfires.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-05T00:00:00.000Z",
+    "date": "2026-07-05",
+    "category": "noticia",
+    "tags": [
+      "esto",
+      "era",
+      "algo"
+    ]
+  },
+  {
+    "title": "Biologists Build Synthetic Cell that Can Feed, Grow, Divide and Evolve",
+    "title_es": "Los biólogos construyen células sintéticas que pueden alimentarse, crecer, dividirse y evolucionar",
+    "url": "https://www.sci.news/biology/synthetic-cell-14890.html",
+    "source": "Sci.News",
+    "published": "2026-07-04T22:33:40.000Z",
+    "date": "2026-07-04",
+    "category": "noticia",
+    "tags": [
+      "biologists",
+      "build",
+      "synthetic"
+    ]
+  },
+  {
     "title": "Scientists find yeast in ancient Iceman's guts—and make bread",
     "title_es": "Los científicos encuentran levadura en las entrañas del antiguo Hombre de Hielo y hacen pan",
     "url": "https://phys.org/news/2026-06-scientists-yeast-ancient-iceman-guts.html",
@@ -6857,7 +6899,7 @@
   },
   {
     "title": "Can cloud seeding save us from water bankruptcy?",
-    "title_es": "¿Puede la siembra de nubes salvarnos de la bancarrota del agua?",
+    "title_es": "Can cloud seeding save us from water bankruptcy?",
     "url": "https://www.newscientist.com/article/2524831-can-cloud-seeding-save-us-from-water-bankruptcy/",
     "source": "New Scientist",
     "published": "2026-05-12T16:00:18.000Z",
@@ -110708,6 +110750,20 @@
     "tags": [
       "pathfinder",
       "mars"
+    ]
+  },
+  {
+    "title": "Saturn's Iapetus: Painted Moon",
+    "title_es": "Saturn's Iapetus: Painted Moon",
+    "url": "https://apod.nasa.gov/apod/image/2607/iapetus4_cassini_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "saturns",
+      "iapetus",
+      "painted"
     ]
   }
 ]
