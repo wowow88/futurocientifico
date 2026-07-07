@@ -1,5 +1,75 @@
 [
   {
+    "title": "Crypto-Microeconomics: The Distribution of Bitcoin Wealth Among Diverse Economic Agents",
+    "title_es": "Criptomicroeconomía: la distribución de la riqueza de Bitcoin entre diversos agentes económicos",
+    "url": "https://arxiv.org/abs/2607.03646",
+    "source": "arXiv",
+    "published": "2026-07-07T04:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "crypto-microeconomics",
+      "distribution",
+      "bitcoin"
+    ]
+  },
+  {
+    "title": "AI just supercharged the race to find room temperature superconductors",
+    "title_es": "La IA acaba de impulsar la carrera para encontrar superconductores a temperatura ambiente",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "acaba",
+      "impulsar",
+      "carrera"
+    ]
+  },
+  {
+    "title": "Death toll from China storms rises to 15, hundreds injured",
+    "title_es": "El número de muertos por las tormentas en China aumenta a 15 y cientos de heridos",
+    "url": "https://phys.org/news/2026-07-death-toll-china-storms-hundreds.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "número",
+      "muertos",
+      "por"
+    ]
+  },
+  {
+    "title": "Interstellar Comet 3I/ATLAS Likely Originated in Outskirts of Ancient Planetary System",
+    "title_es": "El cometa interestelar 3I/ATLAS probablemente se originó en las afueras del antiguo sistema planetario",
+    "url": "https://www.sci.news/astronomy/interstellar-comet-3i-atlas-outskirts-ancient-planetary-system-14896.html",
+    "source": "Sci.News",
+    "published": "2026-07-06T20:51:08.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "interstellar",
+      "comet",
+      "3iatlas"
+    ]
+  },
+  {
+    "title": "Bumblebee facial movements give clues to their inner lives",
+    "title_es": "Los movimientos faciales de los abejorros dan pistas sobre su vida interior",
+    "url": "https://www.newscientist.com/article/2533149-bumblebee-facial-movements-give-clues-to-their-inner-lives/",
+    "source": "New Scientist",
+    "published": "2026-07-06T20:00:51.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "bumblebee",
+      "facial",
+      "movements"
+    ]
+  },
+  {
     "title": "Can the biggest problems in AI be solved by philosophy?",
     "title_es": "¿Se pueden resolver los mayores problemas de la IA mediante la filosofía?",
     "url": "https://www.newscientist.com/article/2532588-can-the-biggest-problems-in-ai-be-solved-by-philosophy/",
@@ -39,6 +109,76 @@
       "investigadores",
       "utilizan",
       "evaluar"
+    ]
+  },
+  {
+    "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
+    "title_es": "De cámaras fijas a cámaras libres: modelo de visión, lenguaje y acción robusto sin calibración",
+    "url": "http://arxiv.org/abs/2607.05396v1",
+    "source": "arXiv",
+    "published": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "cámaras",
+      "fijas",
+      "cámaras"
+    ]
+  },
+  {
+    "title": "Alzheimer's & Dementia: A new imaging technique locates microthrombi that worsen Alzheimer’s disease, opening the way to personalized anticoagulant therapy",
+    "title_es": "Alzheimer y demencia: una nueva técnica de imagen localiza microtrombos que empeoran la enfermedad de Alzheimer, abriendo el camino a una terapia anticoagulante personalizada",
+    "url": "https://www.cnic.es/es/node/243355",
+    "source": "CNIC",
+    "published": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "alzheimers",
+      "dementia",
+      "new"
+    ]
+  },
+  {
+    "title": "Pickles glow when you plug them in. Science explains why",
+    "title_es": "Los pepinillos brillan cuando los enchufas. La ciencia explica por qué",
+    "url": "https://www.sciencenews.org/article/pickle-glow-electricity-experiment",
+    "source": "Science News",
+    "published": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "pepinillos",
+      "brillan",
+      "cuando"
+    ]
+  },
+  {
+    "title": "VR can train the human brain to treat wings like real limbs",
+    "title_es": "La realidad virtual puede entrenar al cerebro humano para que trate las alas como si fueran extremidades reales",
+    "url": "https://www.snexplores.org/article/brain-flying-virtual-wings",
+    "source": "Science News Explores",
+    "published": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "realidad",
+      "virtual",
+      "puede"
+    ]
+  },
+  {
+    "title": "From cloning to gene-editing: the enduring legacy of Dolly the sheep",
+    "title_es": "De la clonación a la edición de genes: el legado perdurable de la oveja Dolly",
+    "url": "https://www.nature.com/articles/d41586-026-02096-1",
+    "source": "Nature",
+    "published": "2026-07-06T00:00:00.000Z",
+    "date": "2026-07-06",
+    "category": "noticia",
+    "tags": [
+      "cloning",
+      "gene-editing",
+      "enduring"
     ]
   },
   {
@@ -6787,7 +6927,7 @@
   },
   {
     "title": "Neanderthals treated a dental cavity by drilling into the tooth",
-    "title_es": "Los neandertales trataron una cavidad dental perforando el diente",
+    "title_es": "Neanderthals treated a dental cavity by drilling into the tooth",
     "url": "https://www.newscientist.com/article/2526440-neanderthals-treated-a-dental-cavity-by-drilling-into-the-tooth/",
     "source": "New Scientist",
     "published": "2026-05-13T19:00:51.000Z",
@@ -6801,7 +6941,7 @@
   },
   {
     "title": "Why autism pioneer Uta Frith wants to dismantle the spectrum",
-    "title_es": "Por qué la pionera del autismo Uta Frith quiere desmantelar el espectro",
+    "title_es": "Why autism pioneer Uta Frith wants to dismantle the spectrum",
     "url": "https://www.newscientist.com/article/2525037-why-autism-pioneer-uta-frith-wants-to-dismantle-the-spectrum/",
     "source": "New Scientist",
     "published": "2026-05-13T16:00:40.000Z",
@@ -6815,7 +6955,7 @@
   },
   {
     "title": "Interpretable EEG Microstate Discovery via Variational Deep Embedding: A Systematic Architecture Search with Multi-Quadrant Evaluation",
-    "title_es": "Descubrimiento interpretable de microestados de EEG a través de incrustación profunda variacional: una búsqueda sistemática de arquitectura con evaluación de cuadrantes múltiples",
+    "title_es": "Interpretable EEG Microstate Discovery via Variational Deep Embedding: A Systematic Architecture Search with Multi-Quadrant Evaluation",
     "url": "https://arxiv.org/abs/2605.10947",
     "source": "arXiv",
     "published": "2026-05-13T04:00:00.000Z",
@@ -6899,7 +7039,7 @@
   },
   {
     "title": "Jennifer Davis: \"We need to treat IA as a tool for generating hypotheses, not final answers\"",
-    "title_es": "Jennifer Davis: “Necesitamos tratar la IA como una herramienta para generar hipótesis, no respuestas finales”",
+    "title_es": "Jennifer Davis: \"We need to treat IA as a tool for generating hypotheses, not final answers\"",
     "url": "https://www.cnic.es/es/node/242001",
     "source": "CNIC",
     "published": "2026-05-13T00:00:00.000Z",
@@ -49773,17 +49913,17 @@
     ]
   },
   {
-    "title": "Muscle strength characteristics and the predictive value of handgrip strength in young obese males: A multi‑joint isokinetic and LASSO regression analysis",
-    "title_es": "Características de la fuerza muscular y el valor predictivo de la fuerza de prensión manual en hombres jóvenes obesos: un análisis de regresión isocinética multiarticular y LASSO",
+    "title": "Intelligent compensation method for measurement errors in optical fiber current sensor caused by temperature variation based on the Levy-Weighted-QPSO-NN algorithm",
+    "title_es": "Método inteligente de compensación de errores de medición en sensores de corriente de fibra óptica causados ​​por variación de temperatura basado en el algoritmo Levy-Weighted-QPSO-NN",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "características",
-      "fuerza",
-      "muscular"
+      "método",
+      "inteligente",
+      "compensación"
     ]
   },
   {
@@ -110848,6 +110988,34 @@
       "dueling",
       "bands",
       "over"
+    ]
+  },
+  {
+    "title": "A construction of single-valued elliptic polylogarithms, by Konstantin Baune, Johannes Broedel, Yannis Moeckli",
+    "title_es": "A construction of single-valued elliptic polylogarithms, by Konstantin Baune, Johannes Broedel, Yannis Moeckli",
+    "url": "https://scipost.org/scipostphys.21.1.006",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "construction",
+      "single-valued",
+      "elliptic"
+    ]
+  },
+  {
+    "title": "NGC 6188: Dragons of Ara",
+    "title_es": "NGC 6188: Dragons of Ara",
+    "url": "https://apod.nasa.gov/apod/image/2607/aradragons_prazeres_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "6188",
+      "dragons"
     ]
   }
 ]
