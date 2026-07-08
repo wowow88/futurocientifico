@@ -1,5 +1,89 @@
 [
   {
+    "title": "Proof of Execution: Runtime Verification for Governed AI Agent Actions",
+    "title_es": "Prueba de ejecución: verificación en tiempo de ejecución para acciones de agentes de IA reguladas",
+    "url": "https://arxiv.org/abs/2607.05397",
+    "source": "arXiv",
+    "published": "2026-07-08T04:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "proof",
+      "execution",
+      "runtime"
+    ]
+  },
+  {
+    "title": "Schrödinger’s anthill: Quantum entanglement found in a crystal large enough to hold",
+    "title_es": "El hormiguero de Schrödinger: entrelazamiento cuántico encontrado en un cristal lo suficientemente grande como para contenerlo",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260701015242.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "hormiguero",
+      "schrdinger",
+      "entrelazamiento"
+    ]
+  },
+  {
+    "title": "How foreign direct investments affect employment and income in rural areas of the US",
+    "title_es": "Cómo las inversiones extranjeras directas afectan el empleo y los ingresos en las zonas rurales de EE. UU.",
+    "url": "https://phys.org/news/2026-07-foreign-investments-affect-employment-income.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "inversiones",
+      "extranjeras"
+    ]
+  },
+  {
+    "title": "Incredible new material makes heat programmable",
+    "title_es": "Nuevo material increíble que hace que el calor sea programable",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-07T23:28:50.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "incredible",
+      "new",
+      "material"
+    ]
+  },
+  {
+    "title": "New Jurassic Fossil Reveals How Birds Lost Their Dinosaur Tails",
+    "title_es": "Nuevo fósil del Jurásico revela cómo las aves perdieron sus colas de dinosaurio",
+    "url": "https://www.sci.news/paleontology/zhengheornis-buyu-14899.html",
+    "source": "Sci.News",
+    "published": "2026-07-07T22:05:09.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "jurassic",
+      "fossil"
+    ]
+  },
+  {
+    "title": "Peter Shor’s algorithm could break the internet – but he's not worried",
+    "title_es": "El algoritmo de Peter Shor podría romper internet, pero no le preocupa",
+    "url": "https://www.newscientist.com/article/2533218-peter-shors-algorithm-could-break-the-internet-but-hes-not-worried/",
+    "source": "New Scientist",
+    "published": "2026-07-07T18:00:57.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "peter",
+      "shors",
+      "algorithm"
+    ]
+  },
+  {
     "title": "Crypto-Microeconomics: The Distribution of Bitcoin Wealth Among Diverse Economic Agents",
     "title_es": "Criptomicroeconomía: la distribución de la riqueza de Bitcoin entre diversos agentes económicos",
     "url": "https://arxiv.org/abs/2607.03646",
@@ -39,6 +123,76 @@
       "número",
       "muertos",
       "por"
+    ]
+  },
+  {
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "title_es": "ELSA3D: Anclaje semántico elástico para comprensión y generación unificadas en 3D",
+    "url": "http://arxiv.org/abs/2607.06565v1",
+    "source": "arXiv",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "elsa3d",
+      "anclaje",
+      "semántico"
+    ]
+  },
+  {
+    "title": "Publisher Correction: A 98-qubit trapped-ion quantum computer with all-to-all connectivity",
+    "title_es": "Corrección del editor: una computadora cuántica de iones atrapados de 98 qubits con conectividad total",
+    "url": "https://www.nature.com/articles/s41586-026-10882-0",
+    "source": "Nature",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "editor",
+      "computadora"
+    ]
+  },
+  {
+    "title": "Nature Cardiovascular Research: Descubren un nuevo mecanismo de la enfermedad genética cardiaca más común y confirman la eficacia de un tratamiento de última generación",
+    "title_es": "Nature Cardiovascular Research: Descubren un nuevo mecanismo de la enfermedad genética cardiaca más común y confirman la eficacia de un tratamiento de última generación",
+    "url": "https://www.cnic.es/es/noticias/nature-cardiovascular-research-descubren-un-nuevo-mecanismo-enfermedad-genetica-cardiaca",
+    "source": "CNIC",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "cardiovascular",
+      "research"
+    ]
+  },
+  {
+    "title": "A robot swarm is on a mission to map Greenland’s perilous ice sheets",
+    "title_es": "Un enjambre de robots tiene la misión de mapear las peligrosas capas de hielo de Groenlandia",
+    "url": "https://www.sciencenews.org/article/robot-mission-map-greenland-ice-climate",
+    "source": "Science News",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "enjambre",
+      "robots",
+      "tiene"
+    ]
+  },
+  {
+    "title": "Earth’s crust under Africa is thinning in a way never seen before",
+    "title_es": "La corteza terrestre bajo África se está adelgazando como nunca antes se había visto",
+    "url": "https://www.snexplores.org/article/earth-crust-africa-continent-splitting",
+    "source": "Science News Explores",
+    "published": "2026-07-07T00:00:00.000Z",
+    "date": "2026-07-07",
+    "category": "noticia",
+    "tags": [
+      "corteza",
+      "terrestre",
+      "bajo"
     ]
   },
   {
@@ -6745,7 +6899,7 @@
   },
   {
     "title": "Galaxy Cluster Abell 2029 Had Violent Past, Chandra Reveals",
-    "title_es": "El cúmulo de galaxias Abell 2029 tuvo un pasado violento, revela Chandra",
+    "title_es": "Galaxy Cluster Abell 2029 Had Violent Past, Chandra Reveals",
     "url": "https://www.sci.news/astronomy/chandra-galaxy-cluster-abell-2029-14769.html",
     "source": "Sci.News",
     "published": "2026-05-14T23:38:02.000Z",
@@ -6759,7 +6913,7 @@
   },
   {
     "title": "Vocal fry is more common in men, actually, find scientists",
-    "title_es": "Los alevines vocales son más comunes en los hombres, en realidad, encontrar científicos",
+    "title_es": "Vocal fry is more common in men, actually, find scientists",
     "url": "https://www.newscientist.com/article/2526201-vocal-fry-is-more-common-in-men-actually-find-scientists/",
     "source": "New Scientist",
     "published": "2026-05-14T15:40:59.000Z",
@@ -6773,7 +6927,7 @@
   },
   {
     "title": "When Scientific Arguments Obscure Moral Ones, Democracy Suffers",
-    "title_es": "Cuando los argumentos científicos oscurecen la moral, la democracia sufre",
+    "title_es": "When Scientific Arguments Obscure Moral Ones, Democracy Suffers",
     "url": "https://undark.org/2026/05/14/opinion-scientific-moral-arguments/",
     "source": "Undark Magazine",
     "published": "2026-05-14T07:46:00.000Z",
@@ -6787,7 +6941,7 @@
   },
   {
     "title": "Prime Successor Irreducibility: Turing Machine Complexity, Kolmogorov Complexity, and Weakness-Based Formulations",
-    "title_es": "Irreducibilidad del sucesor principal: complejidad de la máquina de Turing, complejidad de Kolmogorov y formulaciones basadas en la debilidad",
+    "title_es": "Prime Successor Irreducibility: Turing Machine Complexity, Kolmogorov Complexity, and Weakness-Based Formulations",
     "url": "https://arxiv.org/abs/2605.12504",
     "source": "arXiv",
     "published": "2026-05-14T04:00:00.000Z",
@@ -6801,7 +6955,7 @@
   },
   {
     "title": "Paleontologists Find Lost Ice Age World in Flooded Texas Cave",
-    "title_es": "Paleontólogos encuentran un mundo perdido de la Edad de Hielo en una cueva inundada de Texas",
+    "title_es": "Paleontologists Find Lost Ice Age World in Flooded Texas Cave",
     "url": "https://www.sci.news/paleontology/ice-age-world-texas-cave-14766.html",
     "source": "Sci.News",
     "published": "2026-05-14T00:00:04.000Z",
@@ -49913,17 +50067,17 @@
     ]
   },
   {
-    "title": "Intelligent compensation method for measurement errors in optical fiber current sensor caused by temperature variation based on the Levy-Weighted-QPSO-NN algorithm",
-    "title_es": "Método inteligente de compensación de errores de medición en sensores de corriente de fibra óptica causados ​​por variación de temperatura basado en el algoritmo Levy-Weighted-QPSO-NN",
+    "title": "Correction: Leaf beetle diversity on a Southeast Asian continental island: Taxonomy, DNA barcoding, and preliminary evolutionary insights from Cat Ba Island, Vietnam",
+    "title_es": "Corrección: Diversidad de escarabajos de las hojas en una isla continental del sudeste asiático: taxonomía, códigos de barras de ADN y conocimientos evolutivos preliminares de la isla Cat Ba, Vietnam",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "método",
-      "inteligente",
-      "compensación"
+      "corrección",
+      "diversidad",
+      "escarabajos"
     ]
   },
   {
@@ -111016,6 +111170,34 @@
       "ngc",
       "6188",
       "dragons"
+    ]
+  },
+  {
+    "title": "Codebase release 0.7 for TNRKit.jl, by Victor Vanthilt, Adwait Naravane, Chenqi Meng, Atsushi Ueda",
+    "title_es": "Codebase release 0.7 for TNRKit.jl, by Victor Vanthilt, Adwait Naravane, Chenqi Meng, Atsushi Ueda",
+    "url": "https://scipost.org/scipostphyscodeb.77-r0.7",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "tnrkitjl"
+    ]
+  },
+  {
+    "title": "Swift Boost Mission",
+    "title_es": "Swift Boost Mission",
+    "url": "https://apod.nasa.gov/apod/image/2607/swift_boost.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "swift",
+      "boost",
+      "mission"
     ]
   }
 ]
