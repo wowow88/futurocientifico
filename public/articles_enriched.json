@@ -1,5 +1,103 @@
 [
   {
+    "title": "Pixel-Precise Explainable Stress Indexing: A Semantic Segmentation Framework for Disease Severity Quantification in Field Crops",
+    "title_es": "Pixel-Precise Explainable Stress Indexing: A Semantic Segmentation Framework for Disease Severity Quantification in Field Crops",
+    "url": "https://arxiv.org/abs/2607.06585",
+    "source": "arXiv",
+    "published": "2026-07-09T04:00:00.000Z",
+    "date": "2026-07-09",
+    "category": "noticia",
+    "tags": [
+      "pixel-precise",
+      "explainable",
+      "stress"
+    ]
+  },
+  {
+    "title": "Super Typhoon Bavi",
+    "title_es": "Súper tifón Bavi",
+    "url": "https://science.nasa.gov/earth/earth-observatory/super-typhoon-bavi/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-09T00:00:00.000Z",
+    "date": "2026-07-09",
+    "category": "noticia",
+    "tags": [
+      "súper",
+      "tifón",
+      "bavi"
+    ]
+  },
+  {
+    "title": "Harvard scientists turn a silicon chip into a DNA writing machine",
+    "title_es": "Científicos de Harvard convierten un chip de silicio en una máquina de escribir ADN",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-09T00:00:00.000Z",
+    "date": "2026-07-09",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "harvard",
+      "convierten"
+    ]
+  },
+  {
+    "title": "Artemis II astronauts reunite with their moonship 3 months after record-breaking flight",
+    "title_es": "Los astronautas de Artemis II se reúnen con su nave lunar 3 meses después de un vuelo récord",
+    "url": "https://phys.org/news/2026-07-artemis-ii-astronauts-reunite-moonship.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-09T00:00:00.000Z",
+    "date": "2026-07-09",
+    "category": "noticia",
+    "tags": [
+      "astronautas",
+      "artemis",
+      "reúnen"
+    ]
+  },
+  {
+    "title": "Rare goblin shark filmed alive for the first time in the deep sea",
+    "title_es": "Tiburón duende raro filmado vivo por primera vez en las profundidades del mar",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260708022208.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-08T23:00:05.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "rare",
+      "goblin",
+      "shark"
+    ]
+  },
+  {
+    "title": "Ancient Turkish Cave Reveals Neanderthals and Homo sapiens Shared Same Way of Life",
+    "title_es": "Antigua cueva turca revela que los neandertales y el Homo sapiens compartían la misma forma de vida",
+    "url": "https://www.sci.news/archaeology/neanderthal-homo-sapiens-cultural-continuity-14904.html",
+    "source": "Sci.News",
+    "published": "2026-07-08T22:55:38.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "turkish",
+      "cave"
+    ]
+  },
+  {
+    "title": "The 4 best science-fiction shows of 2026 so far",
+    "title_es": "Los 4 mejores espectáculos de ciencia ficción de 2026 hasta el momento",
+    "url": "https://www.newscientist.com/article/mg27136031-100-the-4-best-science-fiction-shows-of-2026-so-far/",
+    "source": "New Scientist",
+    "published": "2026-07-08T18:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "best",
+      "science-fiction",
+      "shows"
+    ]
+  },
+  {
     "title": "Proof of Execution: Runtime Verification for Governed AI Agent Actions",
     "title_es": "Prueba de ejecución: verificación en tiempo de ejecución para acciones de agentes de IA reguladas",
     "url": "https://arxiv.org/abs/2607.05397",
@@ -39,6 +137,76 @@
       "cómo",
       "inversiones",
       "extranjeras"
+    ]
+  },
+  {
+    "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+    "title_es": "Comprensión precisa, interdisciplinaria y transparente de las propiedades de la estructura con un razonamiento estructural nativo profundo",
+    "url": "http://arxiv.org/abs/2607.07708v1",
+    "source": "arXiv",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "comprensión",
+      "precisa",
+      "interdisciplinaria"
+    ]
+  },
+  {
+    "title": "Nukes in space? Orbital detector could sniff out warheads",
+    "title_es": "¿Armas nucleares en el espacio? Un detector orbital podría detectar ojivas",
+    "url": "https://www.nature.com/articles/d41586-026-02141-z",
+    "source": "Nature",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "armas",
+      "nucleares",
+      "espacio"
+    ]
+  },
+  {
+    "title": "Presentado el programa divulgativo NATE del eclipse de agosto en Palencia",
+    "title_es": "Presentado el programa divulgativo NATE del eclipse de agosto en Palencia",
+    "url": "https://www.iac.es/es/divulgacion/noticias/presentado-el-programa-divulgativo-nate-del-eclipse-de-agosto-en-palencia",
+    "source": "IAC",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "presentado",
+      "programa",
+      "divulgativo"
+    ]
+  },
+  {
+    "title": "Can geoengineering blunt El Niño’s fury?",
+    "title_es": "¿Puede la geoingeniería mitigar la furia de El Niño?",
+    "url": "https://www.sciencenews.org/article/geoengineering-el-nino-extremes",
+    "source": "Science News",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "geoingeniería",
+      "mitigar"
+    ]
+  },
+  {
+    "title": "Here’s how ‘singing’ mice belt out their tiny tunes",
+    "title_es": "Así es como los ratones 'cantantes' cantan sus pequeñas melodías",
+    "url": "https://www.snexplores.org/article/singing-mice-throat-air-sacs",
+    "source": "Science News Explores",
+    "published": "2026-07-08T00:00:00.000Z",
+    "date": "2026-07-08",
+    "category": "noticia",
+    "tags": [
+      "así",
+      "como",
+      "ratones"
     ]
   },
   {
@@ -6661,7 +6829,7 @@
   },
   {
     "title": "First-ever direct image of the cosmic web reveals the Universe’s hidden highways",
-    "title_es": "La primera imagen directa de la red cósmica revela las autopistas ocultas del Universo",
+    "title_es": "First-ever direct image of the cosmic web reveals the Universe’s hidden highways",
     "url": "https://www.sciencedaily.com/releases/2026/05/260516034136.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-05-16T13:15:10.000Z",
@@ -6689,7 +6857,7 @@
   },
   {
     "title": "Giant Tyrannosaur Fossil Found in New Mexico",
-    "title_es": "Fósil de tiranosaurio gigante encontrado en Nuevo México",
+    "title_es": "Giant Tyrannosaur Fossil Found in New Mexico",
     "url": "https://www.sci.news/paleontology/hunter-wash-tyrannosaur-14772.html",
     "source": "Sci.News",
     "published": "2026-05-15T22:39:33.000Z",
@@ -6703,7 +6871,7 @@
   },
   {
     "title": "First test of CO2 removal with green sand finds no harm to marine life",
-    "title_es": "La primera prueba de eliminación de CO2 con arena verde no encuentra daño a la vida marina",
+    "title_es": "First test of CO2 removal with green sand finds no harm to marine life",
     "url": "https://www.newscientist.com/article/2526197-first-test-of-co2-removal-with-green-sand-finds-no-harm-to-marine-life/",
     "source": "New Scientist",
     "published": "2026-05-15T15:41:05.000Z",
@@ -6717,7 +6885,7 @@
   },
   {
     "title": "Book Review: The Mind-Boggling Science of Enormous Numbers",
-    "title_es": "Reseña del libro: La ciencia alucinante de los números enormes",
+    "title_es": "Book Review: The Mind-Boggling Science of Enormous Numbers",
     "url": "https://undark.org/2026/05/15/book-review-huge-numbers/",
     "source": "Undark Magazine",
     "published": "2026-05-15T07:47:00.000Z",
@@ -6731,7 +6899,7 @@
   },
   {
     "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
-    "title_es": "GraphBit: un marco genético basado en gráficos para la orquestación de agentes no lineales",
+    "title_es": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
     "url": "https://arxiv.org/abs/2605.13848",
     "source": "arXiv",
     "published": "2026-05-15T04:00:00.000Z",
@@ -50067,17 +50235,17 @@
     ]
   },
   {
-    "title": "Correction: Leaf beetle diversity on a Southeast Asian continental island: Taxonomy, DNA barcoding, and preliminary evolutionary insights from Cat Ba Island, Vietnam",
-    "title_es": "Corrección: Diversidad de escarabajos de las hojas en una isla continental del sudeste asiático: taxonomía, códigos de barras de ADN y conocimientos evolutivos preliminares de la isla Cat Ba, Vietnam",
+    "title": "Serum albumin and blood urea as independent predictors of in-hospital mortality in hospitalized COVID-19 patients: A retrospective cohort study",
+    "title_es": "Albúmina sérica y urea en sangre como predictores independientes de mortalidad hospitalaria en pacientes hospitalizados con COVID-19: un estudio de cohorte retrospectivo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "diversidad",
-      "escarabajos"
+      "albúmina",
+      "sérica",
+      "urea"
     ]
   },
   {
@@ -111198,6 +111366,34 @@
       "swift",
       "boost",
       "mission"
+    ]
+  },
+  {
+    "title": "Bulk-boundary correspondence in topological two-dimensional non-Hermitian systems: Toeplitz operators and singular values, by Jesko Sirker",
+    "title_es": "Bulk-boundary correspondence in topological two-dimensional non-Hermitian systems: Toeplitz operators and singular values, by Jesko Sirker",
+    "url": "https://scipost.org/scipostphys.21.1.013",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bulk-boundary",
+      "correspondence",
+      "topological"
+    ]
+  },
+  {
+    "title": "The Red Glow of the Cosmic Bat Nebula",
+    "title_es": "The Red Glow of the Cosmic Bat Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2607/cosmic_bat_halpha_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "red",
+      "glow",
+      "cosmic"
     ]
   }
 ]
