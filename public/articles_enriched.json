@@ -1,5 +1,89 @@
 [
   {
+    "title": "Will AI Fix Prior Authorization — or Make It Worse?",
+    "title_es": "¿La IA arreglará la autorización previa, o la empeorará?",
+    "url": "https://undark.org/2026/07/15/medicare-prior-authorization-ai/",
+    "source": "Undark Magazine",
+    "published": "2026-07-15T07:16:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "will",
+      "fix",
+      "prior"
+    ]
+  },
+  {
+    "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
+    "title_es": "Creación óptima de mercado adaptativo: un marco teórico para la provisión de liquidez de alto rendimiento en los mercados de futuros perpetuos",
+    "url": "https://arxiv.org/abs/2607.11888",
+    "source": "arXiv",
+    "published": "2026-07-15T04:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "optimal",
+      "adaptive",
+      "market"
+    ]
+  },
+  {
+    "title": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now",
+    "title_es": "Blog de curiosidades, Sols 4947-4953: Cráter Gale antes y ahora",
+    "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4947-4953-gale-crater-then-and-now/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "blog",
+      "curiosidades",
+      "sols"
+    ]
+  },
+  {
+    "title": "Elephants turn footsteps into messages through ground and skull vibrations",
+    "title_es": "Los elefantes convierten sus pasos en mensajes a través de vibraciones del suelo y del cráneo",
+    "url": "https://phys.org/news/2026-07-elephants-footsteps-messages-ground-skull.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "elefantes",
+      "convierten",
+      "sus"
+    ]
+  },
+  {
+    "title": "New Crested Dinosaur Species Identified in Canada",
+    "title_es": "Nueva especie de dinosaurio crestado identificada en Canadá",
+    "url": "https://www.sci.news/paleontology/plesiolophus-warnerensis-14917.html",
+    "source": "Sci.News",
+    "published": "2026-07-14T22:26:27.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "crested",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Can everyone live a ‘good life’ without destroying the planet?",
+    "title_es": "¿Puede todo el mundo vivir una \"buena vida\" sin destruir el planeta?",
+    "url": "https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/",
+    "source": "New Scientist",
+    "published": "2026-07-14T15:00:03.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "everyone",
+      "live"
+    ]
+  },
+  {
     "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
     "title_es": "De las predicciones de ML a la asistencia diagnóstica informada utilizando el modelo de argumentación de Toulmin",
     "url": "https://arxiv.org/abs/2607.09664",
@@ -52,6 +136,104 @@
       "desigualdad",
       "fiscal",
       "contribuyó"
+    ]
+  },
+  {
+    "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+    "title_es": "¿Saben los agentes de IA cuándo una tarea es sencilla? Hacia un razonamiento y una ejecución conscientes de la complejidad",
+    "url": "http://arxiv.org/abs/2607.13034v1",
+    "source": "arXiv",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "saben",
+      "agentes",
+      "cuándo"
+    ]
+  },
+  {
+    "title": "Bird flu H5N1 in Australia: protect Australian species from bird flu virus",
+    "title_es": "Gripe aviar H5N1 en Australia: proteger a las especies australianas del virus de la gripe aviar",
+    "url": "https://www.nature.com/articles/d41586-026-02188-y",
+    "source": "Nature",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "gripe",
+      "aviar",
+      "h5n1"
+    ]
+  },
+  {
+    "title": "Eight of Spain’s top sixth-form students begin their research training at the CNIC thanks to the ACÉRCATE programme",
+    "title_es": "Ocho de los mejores estudiantes de sexto grado de España inician su formación investigadora en el CNIC gracias al programa ACÉRCATE",
+    "url": "https://www.cnic.es/es/node/243560",
+    "source": "CNIC",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "eight",
+      "spains",
+      "top"
+    ]
+  },
+  {
+    "title": "El IAC participa en la exposición ‘En busca de nuevas Tierras’ sobre la misión espacial europea PLATO",
+    "title_es": "El IAC participa en la exposición ‘En busca de nuevas Tierras’ sobre la misión espacial europea PLATO",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-la-exposicion-en-busca-de-nuevas-tierras-sobre-la-mision-espacial-europea-plato",
+    "source": "IAC",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "participa",
+      "exposición"
+    ]
+  },
+  {
+    "title": "A new sort of Alzheimer’s drug shows glimmers of promise",
+    "title_es": "Un nuevo tipo de fármaco contra el Alzheimer muestra destellos prometedores",
+    "url": "https://www.sciencenews.org/article/new-alzheimers-drug-tau-promise",
+    "source": "Science News",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "tipo",
+      "fármaco"
+    ]
+  },
+  {
+    "title": "Physics explains why gold doesn’t ‘rust’",
+    "title_es": "La física explica por qué el oro no se “oxida”",
+    "url": "https://www.snexplores.org/article/why-gold-does-not-rust-physics",
+    "source": "Science News Explores",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "física",
+      "explica",
+      "por"
+    ]
+  },
+  {
+    "title": "Popular weight-loss drugs Ozempic and Wegovy may slow biological aging",
+    "title_es": "Los medicamentos populares para bajar de peso Ozempic y Wegovy pueden retardar el envejecimiento biológico",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260713084907.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-14T00:00:00.000Z",
+    "date": "2026-07-14",
+    "category": "noticia",
+    "tags": [
+      "medicamentos",
+      "populares",
+      "bajar"
     ]
   },
   {
@@ -6647,7 +6829,7 @@
   },
   {
     "title": "Science Immunology: Las mitocondrias controlan la activación de las células inmunitarias y la eficacia de la inmunoterapia",
-    "title_es": "Ciencia Inmunología: Las mitocondrias controlan la activación de las células inmunitarias y la eficacia de la inmunoterapia",
+    "title_es": "Science Immunology: Las mitocondrias controlan la activación de las células inmunitarias y la eficacia de la inmunoterapia",
     "url": "https://www.cnic.es/es/noticias/science-immunology-mitocondrias-controlan-activacion-celulas-inmunitarias-eficacia",
     "source": "CNIC",
     "published": "2026-05-22T00:00:00.000Z",
@@ -6745,7 +6927,7 @@
   },
   {
     "title": "‘T. rex’ Mosasaur Ruled the Seas 80 Million Years Ago",
-    "title_es": "El mosasaurio ‘T. rex’ gobernó los mares hace 80 millones de años",
+    "title_es": "‘T. rex’ Mosasaur Ruled the Seas 80 Million Years Ago",
     "url": "https://www.sci.news/paleontology/tylosaurus-rex-14786.html",
     "source": "Sci.News",
     "published": "2026-05-21T20:53:45.000Z",
@@ -6759,7 +6941,7 @@
   },
   {
     "title": "Mathematicians stunned by AI's biggest breakthrough in mathematics yet",
-    "title_es": "Matemáticos sorprendidos por el mayor avance de la IA en matemáticas hasta la fecha",
+    "title_es": "Mathematicians stunned by AI's biggest breakthrough in mathematics yet",
     "url": "https://www.newscientist.com/article/2527564-mathematicians-stunned-by-ais-biggest-breakthrough-in-mathematics-yet/",
     "source": "New Scientist",
     "published": "2026-05-21T16:13:12.000Z",
@@ -6773,7 +6955,7 @@
   },
   {
     "title": "Neural Estimation of Pairwise Mutual Information in Masked Discrete Sequence Models",
-    "title_es": "Estimación neuronal de información mutua por pares en modelos de secuencia discreta enmascarados",
+    "title_es": "Neural Estimation of Pairwise Mutual Information in Masked Discrete Sequence Models",
     "url": "https://arxiv.org/abs/2605.20187",
     "source": "arXiv",
     "published": "2026-05-21T04:00:00.000Z",
@@ -6870,7 +7052,7 @@
   },
   {
     "title": "SCALE 2026 convierte Tenerife en epicentro internacional de la cosmología y la física fundamental",
-    "title_es": "ESCALA 2026 convierte Tenerife en epicentro internacional de la cosmología y la física fundamental",
+    "title_es": "SCALE 2026 convierte Tenerife en epicentro internacional de la cosmología y la física fundamental",
     "url": "https://www.iac.es/es/divulgacion/noticias/scale-2026-convierte-tenerife-en-epicentro-internacional-de-la-cosmologia-y-la-fisica-fundamental",
     "source": "IAC",
     "published": "2026-05-21T00:00:00.000Z",
@@ -50822,17 +51004,17 @@
     ]
   },
   {
-    "title": "Optimization of low-carbon multi-temperature joint distribution for fresh agricultural products under 3D loading constraints",
-    "title_es": "Optimización de la distribución conjunta de temperaturas múltiples con bajas emisiones de carbono para productos agrícolas frescos bajo restricciones de carga 3D",
+    "title": "Embedding routine hearing health checks within existing Meals on Wheels services – A protocol for the SOUND-BITES Program pilot study",
+    "title_es": "Incorporar controles de salud auditiva de rutina dentro de los servicios existentes de Meals on Wheels: un protocolo para el estudio piloto del programa SOUND-BITES",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "optimización",
-      "distribución",
-      "conjunta"
+      "incorporar",
+      "controles",
+      "salud"
     ]
   },
   {
@@ -112051,6 +112233,20 @@
       "double",
       "lobed",
       "asteroid"
+    ]
+  },
+  {
+    "title": "Red Sprites in the Tatacoa Desert",
+    "title_es": "Red Sprites in the Tatacoa Desert",
+    "url": "https://apod.nasa.gov/apod/image/2607/red_sprite_700.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "red",
+      "sprites",
+      "tatacoa"
     ]
   }
 ]
