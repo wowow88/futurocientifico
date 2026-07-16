@@ -1,5 +1,89 @@
 [
   {
+    "title": "FixItFlow: Automated Troubleshooting Guide Generation from Cloud Incidents",
+    "title_es": "FixItFlow: generación automatizada de guías de solución de problemas a partir de incidentes en la nube",
+    "url": "https://arxiv.org/abs/2607.13035",
+    "source": "arXiv",
+    "published": "2026-07-16T04:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "fixitflow",
+      "automated",
+      "troubleshooting"
+    ]
+  },
+  {
+    "title": "Tyrannosaurus rex Scavenged Duck-Billed Dinosaurs in Ancient Wyoming, Bite Marks Reveal",
+    "title_es": "Dinosaurios de pico de pato carroñeros de Tyrannosaurus rex en el antiguo Wyoming, revelan marcas de mordeduras",
+    "url": "https://www.sci.news/paleontology/tyrannosaurus-rex-edmontosaurus-annectens-scavenging-bite-marks-14922.html",
+    "source": "Sci.News",
+    "published": "2026-07-16T00:01:41.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "tyrannosaurus",
+      "rex",
+      "scavenged"
+    ]
+  },
+  {
+    "title": "Ontario Wildfire Smoke Moves East",
+    "title_es": "El humo de los incendios forestales de Ontario se desplaza hacia el este",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "humo",
+      "incendios",
+      "forestales"
+    ]
+  },
+  {
+    "title": "Quantum breakthrough links light and magnetism in atomically thin materials",
+    "title_es": "El avance cuántico vincula la luz y el magnetismo en materiales atómicamente delgados",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260715083523.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "avance",
+      "cuántico",
+      "vincula"
+    ]
+  },
+  {
+    "title": "Understanding Bavaria's Indigeneity",
+    "title_es": "Comprender la indigeneidad de Baviera",
+    "url": "https://phys.org/news/2026-07-bavaria-indigeneity.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "comprender",
+      "indigeneidad",
+      "baviera"
+    ]
+  },
+  {
+    "title": "Drug discovery Is changing. Drug development must change too.",
+    "title_es": "El descubrimiento de fármacos está cambiando. El desarrollo de fármacos también debe cambiar.",
+    "url": "https://www.newscientist.com/article/2579721-drug-discovery-is-changing/",
+    "source": "New Scientist",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "drug",
+      "discovery",
+      "changing"
+    ]
+  },
+  {
     "title": "Will AI Fix Prior Authorization — or Make It Worse?",
     "title_es": "¿La IA arreglará la autorización previa, o la empeorará?",
     "url": "https://undark.org/2026/07/15/medicare-prior-authorization-ai/",
@@ -53,6 +137,90 @@
       "elefantes",
       "convierten",
       "sus"
+    ]
+  },
+  {
+    "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+    "title_es": "Interacción profunda: un método eficiente de interacción entre humanos y IA para modelos de razonamiento grandes",
+    "url": "http://arxiv.org/abs/2607.14049v1",
+    "source": "arXiv",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "interacción",
+      "profunda",
+      "método"
+    ]
+  },
+  {
+    "title": "Selectivity Emerges from Indiscriminate Photoreduction",
+    "title_es": "La selectividad surge de la fotorreducción indiscriminada",
+    "url": "https://www.nature.com/articles/s41586-026-10897-7",
+    "source": "Nature",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "selectividad",
+      "surge",
+      "fotorreducción"
+    ]
+  },
+  {
+    "title": "Artūras Makselis, winner of the CNIC Prize at EUCYS, undertakes a research placement at the CNIC",
+    "title_es": "Artūras Makselis, ganador del Premio CNIC en EUCYS, realiza una estancia de investigación en el CNIC",
+    "url": "https://www.cnic.es/es/node/243579",
+    "source": "CNIC",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "artras",
+      "makselis",
+      "winner"
+    ]
+  },
+  {
+    "title": "Del Cielo a la Tesis celebra su primer aniversario con exoplanetas habitables y telescopios Cherenkov",
+    "title_es": "Del Cielo a la Tesis celebra su primer aniversario con exoplanetas habitables y telescopios Cherenkov",
+    "url": "https://www.iac.es/es/divulgacion/noticias/del-cielo-la-tesis-celebra-su-primer-aniversario-con-exoplanetas-habitables-y-telescopios-cherenkov",
+    "source": "IAC",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "cielo",
+      "tesis",
+      "celebra"
+    ]
+  },
+  {
+    "title": "The 2024 New York City meteorite contains amino acids",
+    "title_es": "El meteorito de la ciudad de Nueva York de 2024 contiene aminoácidos",
+    "url": "https://www.sciencenews.org/article/new-york-city-2024-meteorite-amino-acid",
+    "source": "Science News",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "meteorito",
+      "ciudad",
+      "nueva"
+    ]
+  },
+  {
+    "title": "Big waves shape this surfer-scientist’s research and life",
+    "title_es": "Las grandes olas dan forma a la investigación y la vida de este surfista científico",
+    "url": "https://www.snexplores.org/article/surfer-scientist-big-waves",
+    "source": "Science News Explores",
+    "published": "2026-07-15T00:00:00.000Z",
+    "date": "2026-07-15",
+    "category": "noticia",
+    "tags": [
+      "grandes",
+      "olas",
+      "dan"
     ]
   },
   {
@@ -6578,7 +6746,7 @@
   },
   {
     "title": "Does gravity create reality? A shocking path to a theory of everything",
-    "title_es": "¿La gravedad crea la realidad? Un camino impactante hacia una teoría del todo",
+    "title_es": "Does gravity create reality? A shocking path to a theory of everything",
     "url": "https://www.newscientist.com/article/2526507-does-gravity-create-reality-a-shocking-path-to-a-theory-of-everything/",
     "source": "New Scientist",
     "published": "2026-05-25T16:00:47.000Z",
@@ -6592,7 +6760,7 @@
   },
   {
     "title": "An AI-Driven Framework for Energy-Efficient Environmental Monitoring in Smart Cities Using Edge Intelligence",
-    "title_es": "Un marco impulsado por IA para el monitoreo ambiental de eficiencia energética en ciudades inteligentes utilizando Edge Intelligence",
+    "title_es": "An AI-Driven Framework for Energy-Efficient Environmental Monitoring in Smart Cities Using Edge Intelligence",
     "url": "https://arxiv.org/abs/2605.22824",
     "source": "arXiv",
     "published": "2026-05-25T04:00:00.000Z",
@@ -6731,7 +6899,7 @@
   },
   {
     "title": "83-Million-Year-Old Crocodile Lizard Fossil Unearthed in France",
-    "title_es": "Fósil de cocodrilo lagarto de 83 millones de años desenterrado en Francia",
+    "title_es": "83-Million-Year-Old Crocodile Lizard Fossil Unearthed in France",
     "url": "https://www.sci.news/paleontology/acutodon-villeveyracensis-14789.html",
     "source": "Sci.News",
     "published": "2026-05-22T21:30:24.000Z",
@@ -6745,7 +6913,7 @@
   },
   {
     "title": "Book Review: The Case for Making Data-Driven Decisions",
-    "title_es": "Reseña del libro: El caso para tomar decisiones basadas en datos",
+    "title_es": "Book Review: The Case for Making Data-Driven Decisions",
     "url": "https://undark.org/2026/05/22/book-review-beyond-belief/",
     "source": "Undark Magazine",
     "published": "2026-05-22T07:50:00.000Z",
@@ -6759,7 +6927,7 @@
   },
   {
     "title": "Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding",
-    "title_es": "Transformador contrastivo temporal para la detección de delitos financieros: incrustaciones de secuencias auto-supervisadas a través de codificación contrastiva predictiva",
+    "title_es": "Temporal Contrastive Transformer for Financial Crime Detection: Self-Supervised Sequence Embeddings via Predictive Contrastive Coding",
     "url": "https://arxiv.org/abs/2605.21490",
     "source": "arXiv",
     "published": "2026-05-22T04:00:00.000Z",
@@ -51004,17 +51172,17 @@
     ]
   },
   {
-    "title": "Embedding routine hearing health checks within existing Meals on Wheels services – A protocol for the SOUND-BITES Program pilot study",
-    "title_es": "Incorporar controles de salud auditiva de rutina dentro de los servicios existentes de Meals on Wheels: un protocolo para el estudio piloto del programa SOUND-BITES",
+    "title": "The sensory gene repertoire of deep-sea hydrothermal shrimp",
+    "title_es": "El repertorio de genes sensoriales del camarón hidrotermal de aguas profundas.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "incorporar",
-      "controles",
-      "salud"
+      "repertorio",
+      "genes",
+      "sensoriales"
     ]
   },
   {
@@ -112247,6 +112415,20 @@
       "red",
       "sprites",
       "tatacoa"
+    ]
+  },
+  {
+    "title": "NGC 300: A Cosmic Gemstone with Stars and Gas Clouds",
+    "title_es": "NGC 300: A Cosmic Gemstone with Stars and Gas Clouds",
+    "url": "https://apod.nasa.gov/apod/image/2607/ngc300_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "300",
+      "cosmic"
     ]
   }
 ]
