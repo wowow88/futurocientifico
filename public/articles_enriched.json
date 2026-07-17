@@ -1,5 +1,89 @@
 [
   {
+    "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+    "title_es": "Arquitectura inteligente de aprendizaje de tres niveles para enjambres de UAV autónomos en búsqueda y rescate",
+    "url": "https://arxiv.org/abs/2607.14093",
+    "source": "arXiv",
+    "published": "2026-07-17T04:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "intelligent",
+      "three",
+      "level"
+    ]
+  },
+  {
+    "title": "Ancient Egyptian princesses buried with weapons may have been fighters",
+    "title_es": "Las antiguas princesas egipcias enterradas con armas pueden haber sido combatientes",
+    "url": "https://www.newscientist.com/article/2579773-ancient-egyptian-princesses-buried-with-weapons-may-have-been-fighters/",
+    "source": "New Scientist",
+    "published": "2026-07-17T04:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "egyptian",
+      "princesses"
+    ]
+  },
+  {
+    "title": "A Tide-Fueled Trove of Biodiversity in Guinea-Bissau",
+    "title_es": "Un tesoro de biodiversidad impulsado por las mareas en Guinea-Bissau",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-tide-fueled-trove-of-biodiversity-in-guinea-bissau/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-17T00:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "tesoro",
+      "biodiversidad",
+      "impulsado"
+    ]
+  },
+  {
+    "title": "Ancient Egyptian princesses knew their way around weapons of war",
+    "title_es": "Las princesas del antiguo Egipto conocían las armas de guerra",
+    "url": "https://www.sciencenews.org/article/ancient-egyptian-princesses-weapons-war",
+    "source": "Science News",
+    "published": "2026-07-17T00:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "princesas",
+      "antiguo",
+      "egipto"
+    ]
+  },
+  {
+    "title": "Bones reveal ancient Egyptian princesses born 4,000 years ago used weapons",
+    "title_es": "Huesos revelan que princesas del antiguo Egipto nacidas hace 4.000 años usaban armas",
+    "url": "https://phys.org/news/2026-07-bones-reveal-ancient-egyptian-princesses.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-17T00:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "huesos",
+      "revelan",
+      "que"
+    ]
+  },
+  {
+    "title": "Potential Atmosphere Detected on Habitable-Zone Exoplanet LHS 1140b",
+    "title_es": "Atmósfera potencial detectada en el exoplaneta LHS 1140b de la zona habitable",
+    "url": "https://www.sci.news/astronomy/atmosphere-habitable-zone-exoplanet-lhs-1140b-14925.html",
+    "source": "Sci.News",
+    "published": "2026-07-16T23:37:45.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "potential",
+      "atmosphere",
+      "detected"
+    ]
+  },
+  {
     "title": "FixItFlow: Automated Troubleshooting Guide Generation from Cloud Incidents",
     "title_es": "FixItFlow: generación automatizada de guías de solución de problemas a partir de incidentes en la nube",
     "url": "https://arxiv.org/abs/2607.13035",
@@ -81,6 +165,90 @@
       "drug",
       "discovery",
       "changing"
+    ]
+  },
+  {
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "title_es": "RoboTTT: escalamiento de contexto para políticas de robots",
+    "url": "http://arxiv.org/abs/2607.15275v1",
+    "source": "arXiv",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "robottt",
+      "escalamiento",
+      "contexto"
+    ]
+  },
+  {
+    "title": "Cross-cohort analysis of expression and splicing quantitative trait loci in TOPMed",
+    "title_es": "Análisis de cohortes cruzadas de loci de rasgos cuantitativos de expresión y empalme en TOPMed",
+    "url": "https://www.science.org/doi/abs/10.1126/science.adx2989",
+    "source": "Science.org",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "análisis",
+      "cohortes",
+      "cruzadas"
+    ]
+  },
+  {
+    "title": "Why do astronauts’ bodies waste away? Space-station study points to mitochondria",
+    "title_es": "¿Por qué se desgastan los cuerpos de los astronautas? Un estudio en una estación espacial apunta a las mitocondrias",
+    "url": "https://www.nature.com/articles/d41586-026-02089-0",
+    "source": "Nature",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "desgastan"
+    ]
+  },
+  {
+    "title": "El valor de compartir laboratorio y café: las estancias en el CNIO que promueve la Fundación Occident generan nuevas ideas para tratar el cáncer",
+    "title_es": "El valor de compartir laboratorio y café: las estancias en el CNIO que promueve la Fundación Occident generan nuevas ideas para tratar el cáncer",
+    "url": "https://www.cnio.es/noticias/el-valor-de-compartir-laboratorio-y-cafe-las-estancias-en-el-cnio-que-promueve-la-fundacion-occident-generan-nuevas-ideas-para-tratar-el-cancer/",
+    "source": "CNIO",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "valor",
+      "compartir",
+      "laboratorio"
+    ]
+  },
+  {
+    "title": "El IAC recibe en Valencia la acreditación de excelencia ‘Severo Ochoa’ de la mano de la ministra de Ciencia, Innovación y Universidades",
+    "title_es": "El IAC recibe en Valencia la acreditación de excelencia ‘Severo Ochoa’ de la mano de la ministra de Ciencia, Innovación y Universidades",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-recibe-en-valencia-la-acreditacion-de-excelencia-severo-ochoa-de-la-mano-de-la-ministra-de",
+    "source": "IAC",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "recibe",
+      "valencia"
+    ]
+  },
+  {
+    "title": "The mystery of the ‘Plain of Jars’ in Laos may now be solved",
+    "title_es": "El misterio de la 'Llanura de las tinajas' en Laos ahora puede resolverse",
+    "url": "https://www.snexplores.org/article/laos-plain-of-jars-burial-mystery",
+    "source": "Science News Explores",
+    "published": "2026-07-16T00:00:00.000Z",
+    "date": "2026-07-16",
+    "category": "noticia",
+    "tags": [
+      "misterio",
+      "llanura",
+      "tinajas"
     ]
   },
   {
@@ -6578,7 +6746,7 @@
   },
   {
     "title": "How a radical new view of life could reveal its origin – and aliens",
-    "title_es": "Cómo una nueva visión radical de la vida podría revelar su origen, y los extraterrestres",
+    "title_es": "How a radical new view of life could reveal its origin – and aliens",
     "url": "https://www.newscientist.com/article/2526959-how-a-radical-new-view-of-life-could-reveal-its-origin-and-aliens/",
     "source": "New Scientist",
     "published": "2026-05-26T16:00:56.000Z",
@@ -6592,7 +6760,7 @@
   },
   {
     "title": "Identifying and Mitigating Systemic Measurement Bias in Production LLM Inference Benchmarks",
-    "title_es": "Identificación y mitigación del sesgo de medición sistémica en los puntos de referencia de inferencia de LLM de producción",
+    "title_es": "Identifying and Mitigating Systemic Measurement Bias in Production LLM Inference Benchmarks",
     "url": "https://arxiv.org/abs/2605.24217",
     "source": "arXiv",
     "published": "2026-05-26T04:00:00.000Z",
@@ -6606,7 +6774,7 @@
   },
   {
     "title": "Josep Munuera: “Understanding evolution helps us understand today’s diseases”",
-    "title_es": "Josep Munuera: “Entender la evolución nos ayuda a entender las enfermedades actuales”",
+    "title_es": "Josep Munuera: “Understanding evolution helps us understand today’s diseases”",
     "url": "https://www.cnic.es/es/node/242458",
     "source": "CNIC",
     "published": "2026-05-26T00:00:00.000Z",
@@ -6690,7 +6858,7 @@
   },
   {
     "title": "REBOOT: the trial reshaping cardiology and cementing the CNIC’s place as a driver of new clinical practice",
-    "title_es": "REBOOT: el ensayo remodelando la cardiología y consolidando el CNIC como motor de la nueva práctica clínica",
+    "title_es": "REBOOT: the trial reshaping cardiology and cementing the CNIC’s place as a driver of new clinical practice",
     "url": "https://www.cnic.es/es/node/242462",
     "source": "CNIC",
     "published": "2026-05-26T00:00:00.000Z",
@@ -6732,7 +6900,7 @@
   },
   {
     "title": "Rare Ostrich-Like Dinosaur Fossil Found on Canadian Island",
-    "title_es": "Fósil raro de dinosaurio parecido a un avestruz encontrado en una isla canadiense",
+    "title_es": "Rare Ostrich-Like Dinosaur Fossil Found on Canadian Island",
     "url": "https://www.sci.news/paleontology/denman-island-ornithomimosaur-14794.html",
     "source": "Sci.News",
     "published": "2026-05-25T22:23:12.000Z",
@@ -51172,17 +51340,17 @@
     ]
   },
   {
-    "title": "The sensory gene repertoire of deep-sea hydrothermal shrimp",
-    "title_es": "El repertorio de genes sensoriales del camarón hidrotermal de aguas profundas.",
+    "title": "Latent classes and predictors of aggression trajectories in Korean adolescents: Implications for targeted prevention",
+    "title_es": "Clases latentes y predictores de trayectorias de agresión en adolescentes coreanos: implicaciones para la prevención dirigida",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "repertorio",
-      "genes",
-      "sensoriales"
+      "clases",
+      "latentes",
+      "predictores"
     ]
   },
   {
@@ -112429,6 +112597,20 @@
       "ngc",
       "300",
       "cosmic"
+    ]
+  },
+  {
+    "title": "The Dust Trail of Comet Tempel 2",
+    "title_es": "The Dust Trail of Comet Tempel 2",
+    "url": "https://apod.nasa.gov/apod/image/2607/10p_tempel2_20260711_debartlett1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "dust",
+      "trail",
+      "comet"
     ]
   }
 ]
