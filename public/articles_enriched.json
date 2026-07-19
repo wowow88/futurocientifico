@@ -1,5 +1,33 @@
 [
   {
+    "title": "Common antidepressant may ease long COVID’s crushing fatigue",
+    "title_es": "Un antidepresivo común puede aliviar la fatiga aplastante prolongada del COVID",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-19T00:00:00.000Z",
+    "date": "2026-07-19",
+    "category": "noticia",
+    "tags": [
+      "antidepresivo",
+      "común",
+      "puede"
+    ]
+  },
+  {
+    "title": "Students create chemical safety model for everyday exposures",
+    "title_es": "Los estudiantes crean un modelo de seguridad química para exposiciones cotidianas",
+    "url": "https://phys.org/news/2026-07-students-chemical-safety-everyday-exposures.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-19T00:00:00.000Z",
+    "date": "2026-07-19",
+    "category": "noticia",
+    "tags": [
+      "estudiantes",
+      "crean",
+      "modelo"
+    ]
+  },
+  {
     "title": "Dinosaurs May Have Been Wiped Out by ‘Oddball’ Space Rock",
     "title_es": "Los dinosaurios pueden haber sido aniquilados por la roca espacial ‘Oddball’",
     "url": "https://www.sci.news/space/chicxulub-c0-chondrite-14927.html",
@@ -25,6 +53,20 @@
       "fcc",
       "aprueba",
       "primer"
+    ]
+  },
+  {
+    "title": "Who owns your bones?",
+    "title_es": "¿A quién pertenecen tus huesos?",
+    "url": "https://www.sciencenews.org/article/who-owns-your-bones-ed-note-august-2026",
+    "source": "Science News",
+    "published": "2026-07-18T00:00:00.000Z",
+    "date": "2026-07-18",
+    "category": "noticia",
+    "tags": [
+      "quién",
+      "pertenecen",
+      "tus"
     ]
   },
   {
@@ -112736,6 +112778,20 @@
     "tags": [
       "shadow",
       "rainbow"
+    ]
+  },
+  {
+    "title": "Flying Saucer Crash Lands in Utah Desert",
+    "title_es": "Flying Saucer Crash Lands in Utah Desert",
+    "url": "https://apod.nasa.gov/apod/image/2607/genesisimpact_nasa_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "flying",
+      "saucer",
+      "crash"
     ]
   }
 ]
