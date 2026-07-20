@@ -1,5 +1,47 @@
 [
   {
+    "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+    "title_es": "GraphDx: un marco multiagente con conocimiento y conciencia de costes para el diagnóstico secuencial",
+    "url": "https://arxiv.org/abs/2607.15280",
+    "source": "arXiv",
+    "published": "2026-07-20T04:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "graphdx",
+      "cost-aware",
+      "knowledge-enhanced"
+    ]
+  },
+  {
+    "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
+    "title_es": "Drones submarinos descubren arrecifes de coral frente a Benin, que durante mucho tiempo se dieron por muertos, llenos de vida",
+    "url": "https://phys.org/news/2026-07-underwater-drones-coral-reefs-benin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "drones",
+      "submarinos",
+      "descubren"
+    ]
+  },
+  {
+    "title": "Hunter-gatherers introduced fish to a mountain lake 7000 years ago",
+    "title_es": "Los cazadores-recolectores introdujeron peces en un lago de montaña hace 7000 años",
+    "url": "https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/",
+    "source": "New Scientist",
+    "published": "2026-07-19T23:01:00.000Z",
+    "date": "2026-07-19",
+    "category": "noticia",
+    "tags": [
+      "hunter-gatherers",
+      "introduced",
+      "fish"
+    ]
+  },
+  {
     "title": "Common antidepressant may ease long COVID’s crushing fatigue",
     "title_es": "Un antidepresivo común puede aliviar la fatiga aplastante prolongada del COVID",
     "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
@@ -25,6 +67,20 @@
       "estudiantes",
       "crean",
       "modelo"
+    ]
+  },
+  {
+    "title": "The mysterious hum heard around the world may finally have an explanation",
+    "title_es": "El misterioso zumbido que se escucha en todo el mundo finalmente puede tener una explicación",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-19T00:00:00.000Z",
+    "date": "2026-07-19",
+    "category": "noticia",
+    "tags": [
+      "misterioso",
+      "zumbido",
+      "que"
     ]
   },
   {
@@ -221,6 +277,20 @@
       "científicos",
       "construyeron",
       "cámara"
+    ]
+  },
+  {
+    "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
+    "title_es": "Evaluación de LLM de peso abierto para generar información estructurada sobre amenazas para vulnerabilidades de vehículos autónomos",
+    "url": "http://arxiv.org/abs/2607.16175v1",
+    "source": "arXiv",
+    "published": "2026-07-17T00:00:00.000Z",
+    "date": "2026-07-17",
+    "category": "noticia",
+    "tags": [
+      "evaluación",
+      "llm",
+      "peso"
     ]
   },
   {
@@ -6732,7 +6802,7 @@
   },
   {
     "title": "Toothless, Bipedal Crocodile Relative Lived in New Mexico 212 Million Years Ago",
-    "title_es": "Un familiar de cocodrilo bípedo sin dientes vivió en Nuevo México hace 212 millones de años",
+    "title_es": "Toothless, Bipedal Crocodile Relative Lived in New Mexico 212 Million Years Ago",
     "url": "https://www.sci.news/paleontology/labrujasuchus-expectatus-14799.html",
     "source": "Sci.News",
     "published": "2026-05-27T23:23:03.000Z",
@@ -6746,7 +6816,7 @@
   },
   {
     "title": "Embryos made without sperm or eggs reveal why many pregnancies fail",
-    "title_es": "Los embriones hechos sin espermatozoides ni óvulos revelan por qué muchos embarazos fracasan",
+    "title_es": "Embryos made without sperm or eggs reveal why many pregnancies fail",
     "url": "https://www.newscientist.com/article/2527224-embryos-made-without-sperm-or-eggs-reveal-why-many-pregnancies-fail/",
     "source": "New Scientist",
     "published": "2026-05-27T16:00:58.000Z",
@@ -112792,6 +112862,20 @@
       "flying",
       "saucer",
       "crash"
+    ]
+  },
+  {
+    "title": "NGC 3576: The Statue of Liberty Nebula",
+    "title_es": "NGC 3576: The Statue of Liberty Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2607/libertyneb_carpenter_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ngc",
+      "3576",
+      "statue"
     ]
   }
 ]
