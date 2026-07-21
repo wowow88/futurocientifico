@@ -1,5 +1,75 @@
 [
   {
+    "title": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization",
+    "title_es": "Aprendizaje de refuerzo: NSGA-II guiado mejorado con el coeficiente relacional gris para la optimización multiobjetivo: aplicación a la optimización de la cartera NASDAQ",
+    "url": "https://arxiv.org/abs/2607.16194",
+    "source": "arXiv",
+    "published": "2026-07-21T04:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "reinforcement",
+      "learning-guided",
+      "nsga-ii"
+    ]
+  },
+  {
+    "title": "Why Maine’s Sandy Shorelines Turn Jagged",
+    "title_es": "Por qué las costas arenosas de Maine se vuelven irregulares",
+    "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "costas"
+    ]
+  },
+  {
+    "title": "Memorable visuals drive online ad purchases more than emotion, study suggests",
+    "title_es": "Las imágenes memorables impulsan las compras de anuncios en línea más que las emociones, sugiere un estudio",
+    "url": "https://phys.org/news/2026-07-visuals-online-ad-emotion.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "imágenes",
+      "memorables",
+      "impulsan"
+    ]
+  },
+  {
+    "title": "Oldest Known Male Gecko Found Preserved in Kachin Amber",
+    "title_es": "Gecko macho más antiguo conocido encontrado conservado en ámbar kachin",
+    "url": "https://www.sci.news/paleontology/carinasquama-rusmithii-14931.html",
+    "source": "Sci.News",
+    "published": "2026-07-20T20:55:25.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "oldest",
+      "known",
+      "male"
+    ]
+  },
+  {
+    "title": "Inhaling high-dose CO2 clears Alzheimer’s proteins from the brain",
+    "title_es": "La inhalación de altas dosis de CO2 elimina las proteínas del Alzheimer del cerebro",
+    "url": "https://www.newscientist.com/article/2580471-inhaling-high-dose-co2-clears-alzheimers-proteins-from-the-brain/",
+    "source": "New Scientist",
+    "published": "2026-07-20T16:31:27.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "inhaling",
+      "high-dose",
+      "co2"
+    ]
+  },
+  {
     "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
     "title_es": "GraphDx: un marco multiagente con conocimiento y conciencia de costes para el diagnóstico secuencial",
     "url": "https://arxiv.org/abs/2607.15280",
@@ -25,6 +95,104 @@
       "drones",
       "submarinos",
       "descubren"
+    ]
+  },
+  {
+    "title": "Automated Discovery Has No Universally Superior Harness",
+    "title_es": "El descubrimiento automatizado no tiene un arnés universalmente superior",
+    "url": "http://arxiv.org/abs/2607.18235v1",
+    "source": "arXiv",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "descubrimiento",
+      "automatizado",
+      "tiene"
+    ]
+  },
+  {
+    "title": "Detailed maps of European wetlands reveal overlooked patches of ecosystems",
+    "title_es": "Mapas detallados de los humedales europeos revelan zonas de ecosistemas pasadas por alto",
+    "url": "https://www.nature.com/articles/d41586-026-02211-2",
+    "source": "Nature",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "mapas",
+      "detallados",
+      "humedales"
+    ]
+  },
+  {
+    "title": "Arranca el primer estudio español para predecir riesgo personalizado de cáncer de mama",
+    "title_es": "Arranca el primer estudio español para predecir el riesgo personalizado de cáncer de mama",
+    "url": "https://www.cnio.es/noticias/arranca-el-primer-estudio-espanol-para-predecir-riesgo-personalizado-de-cancer-de-mama/",
+    "source": "CNIO",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "arranca",
+      "primer",
+      "estudio"
+    ]
+  },
+  {
+    "title": "Un asteroide recibe el nombre de la investigadora del IAC Tania Le Pivert Jolivet",
+    "title_es": "Un asteroide recibe el nombre de la investigadora del IAC Tania Le Pivert Jolivet",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-asteroide-recibe-el-nombre-de-la-investigadora-del-iac-tania-le-pivert-jolivet",
+    "source": "IAC",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "asteroide",
+      "recibe",
+      "nombre"
+    ]
+  },
+  {
+    "title": "Pompeii’s survivors shine in a new documentary series",
+    "title_es": "Los supervivientes de Pompeya brillan en una nueva serie documental",
+    "url": "https://www.sciencenews.org/article/pompeii-documentary-tom-hiddleston",
+    "source": "Science News",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "supervivientes",
+      "pompeya",
+      "brillan"
+    ]
+  },
+  {
+    "title": "Chatty cats and talking dogs could one day ‘speak’ in our language",
+    "title_es": "Los gatos parlanchines y los perros parlanchines algún día podrían “hablar” en nuestro idioma",
+    "url": "https://www.snexplores.org/article/talking-animals-speak-language-tech",
+    "source": "Science News Explores",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "gatos",
+      "parlanchines",
+      "perros"
+    ]
+  },
+  {
+    "title": "Some dinosaurs could rise like giants until they grew too big",
+    "title_es": "Algunos dinosaurios podrían elevarse como gigantes hasta crecer demasiado",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260719231758.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-20T00:00:00.000Z",
+    "date": "2026-07-20",
+    "category": "noticia",
+    "tags": [
+      "algunos",
+      "dinosaurios",
+      "podrían"
     ]
   },
   {
@@ -6620,7 +6788,7 @@
   },
   {
     "title": "The Six-Week Postpartum Checkup Comes Too Late",
-    "title_es": "El chequeo posparto de seis semanas llega demasiado tarde",
+    "title_es": "The Six-Week Postpartum Checkup Comes Too Late",
     "url": "https://undark.org/2026/05/28/opinion-postpartum-checkup-too-late/",
     "source": "Undark Magazine",
     "published": "2026-05-28T07:06:00.000Z",
@@ -6634,7 +6802,7 @@
   },
   {
     "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
-    "title_es": "Identificación y comprensión de los valores humanos en el texto: una arquitectura adaptable basada en LLM",
+    "title_es": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
     "url": "https://arxiv.org/abs/2605.27373",
     "source": "arXiv",
     "published": "2026-05-28T04:00:00.000Z",
@@ -6648,7 +6816,7 @@
   },
   {
     "title": "Cardiovascular Research: Un estudio revela diferencias entre los dos ventrículos del corazón en su capacidad de resistencia a los efectos de una parada cardíaca",
-    "title_es": "Investigación cardiovascular: Un estudio revela diferencias entre los dos ventrículos del corazón en su capacidad de resistencia a los efectos de una parada cardíaca",
+    "title_es": "Cardiovascular Research: Un estudio revela diferencias entre los dos ventrículos del corazón en su capacidad de resistencia a los efectos de una parada cardíaca",
     "url": "https://www.cnic.es/es/noticias/cardiovascular-research-un-estudio-revela-diferencias-entre-dos-ventriculos-corazon-su",
     "source": "CNIC",
     "published": "2026-05-28T00:00:00.000Z",
@@ -6746,7 +6914,7 @@
   },
   {
     "title": "Cardiovascular Research: The left and right ventricles differ in their ability to withstand the effects of cardiac arrest",
-    "title_es": "Investigación cardiovascular: Los ventrículos izquierdo y derecho difieren en su capacidad para soportar los efectos del paro cardíaco",
+    "title_es": "Cardiovascular Research: The left and right ventricles differ in their ability to withstand the effects of cardiac arrest",
     "url": "https://www.cnic.es/es/node/242513",
     "source": "CNIC",
     "published": "2026-05-28T00:00:00.000Z",
@@ -51564,17 +51732,17 @@
     ]
   },
   {
-    "title": "Difference in excess mortality during the COVID-19 pandemic depending on marital status in Japan",
-    "title_es": "Diferencia en exceso de mortalidad durante la pandemia de COVID-19 según el estado civil en Japón",
+    "title": "The strip-shaped deep white matter hyperintensities may be related to neurodegeneration: A study based on diffusion tensor imaging",
+    "title_es": "Las hiperintensidades de la sustancia blanca profunda en forma de tira pueden estar relacionadas con la neurodegeneración: un estudio basado en imágenes con tensor de difusión",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "diferencia",
-      "exceso",
-      "mortalidad"
+      "hiperintensidades",
+      "sustancia",
+      "blanca"
     ]
   },
   {
@@ -112876,6 +113044,20 @@
       "ngc",
       "3576",
       "statue"
+    ]
+  },
+  {
+    "title": "Turtle Rock on Mars",
+    "title_es": "Turtle Rock on Mars",
+    "url": "https://apod.nasa.gov/apod/image/2607/turtlerock_curiosity_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "turtle",
+      "rock",
+      "mars"
     ]
   }
 ]
