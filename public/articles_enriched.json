@@ -1,5 +1,103 @@
 [
   {
+    "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
+    "title_es": "SysAdmin: Medición de la búsqueda de poder instrumental en la inteligencia artificial de frontera",
+    "url": "https://arxiv.org/abs/2607.18239",
+    "source": "arXiv",
+    "published": "2026-07-22T04:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "sysadmin",
+      "measuring",
+      "instrumental"
+    ]
+  },
+  {
+    "title": "Magic rituals took place in an Australian cave for 25,000 years",
+    "title_es": "Los rituales mágicos tuvieron lugar en una cueva australiana durante 25.000 años",
+    "url": "https://www.newscientist.com/article/2580559-magic-ceremonies-took-place-in-an-australian-cave-for-25000-years/",
+    "source": "New Scientist",
+    "published": "2026-07-22T04:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "magic",
+      "rituals",
+      "took"
+    ]
+  },
+  {
+    "title": "El IAC refuerza su presencia internacional en SPIE Astronomical Telescopes + Instrumentation 2026",
+    "title_es": "El IAC refuerza su presencia internacional en Telescopios Astronómicos SPIE + Instrumentación 2026",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-refuerza-su-presencia-internacional-en-spie-astronomical-telescopes-instrumentation-2026",
+    "source": "IAC",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "refuerza",
+      "presencia"
+    ]
+  },
+  {
+    "title": "Magic mushrooms may reshape the brain long after the trip ends",
+    "title_es": "Las setas mágicas pueden remodelar el cerebro mucho después de que termine el viaje",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260719040005.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "setas",
+      "mágicas",
+      "pueden"
+    ]
+  },
+  {
+    "title": "Analysis suggests debt may increase suicide risk",
+    "title_es": "Un análisis sugiere que la deuda puede aumentar el riesgo de suicidio",
+    "url": "https://phys.org/news/2026-07-analysis-debt-suicide.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "análisis",
+      "sugiere",
+      "que"
+    ]
+  },
+  {
+    "title": "Small Sauropod Dinosaur from Jurassic Period Discovered in India",
+    "title_es": "Pequeño dinosaurio saurópodo del período jurásico descubierto en la India",
+    "url": "https://www.sci.news/paleontology/ceratocaudia-antiqua-14934.html",
+    "source": "Sci.News",
+    "published": "2026-07-21T21:31:38.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "small",
+      "sauropod",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Scientists found mystery bacteria inside one of the ocean’s most elusive whales",
+    "title_es": "Los científicos encontraron bacterias misteriosas dentro de una de las ballenas más esquivas del océano",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260721000847.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-21T05:10:08.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "found",
+      "mystery"
+    ]
+  },
+  {
     "title": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization",
     "title_es": "Aprendizaje de refuerzo: NSGA-II guiado mejorado con el coeficiente relacional gris para la optimización multiobjetivo: aplicación a la optimización de la cartera NASDAQ",
     "url": "https://arxiv.org/abs/2607.16194",
@@ -39,6 +137,76 @@
       "imágenes",
       "memorables",
       "impulsan"
+    ]
+  },
+  {
+    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+    "title_es": "Copiar menos, fundamentar más: superar la copia repetitiva en el razonamiento de contexto prolongado mediante el aprendizaje por refuerzo basado en la evidencia",
+    "url": "http://arxiv.org/abs/2607.19345v1",
+    "source": "arXiv",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "copiar",
+      "menos",
+      "fundamentar"
+    ]
+  },
+  {
+    "title": "Are boldness and belligerence related?",
+    "title_es": "¿Están relacionadas la audacia y la beligerancia?",
+    "url": "https://www.nature.com/articles/d41586-026-02103-5",
+    "source": "Nature",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "están",
+      "relacionadas",
+      "audacia"
+    ]
+  },
+  {
+    "title": "eLife: A virtual map shows how the mammalian heart takes shape",
+    "title_es": "eLife: Un mapa virtual muestra cómo toma forma el corazón de los mamíferos",
+    "url": "https://www.cnic.es/es/node/243665",
+    "source": "CNIC",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "elife",
+      "virtual",
+      "map"
+    ]
+  },
+  {
+    "title": "Ape cuddles could prevent conflicts",
+    "title_es": "Los abrazos de los simios podrían prevenir conflictos",
+    "url": "https://www.sciencenews.org/article/ape-physical-touch-stress-relief-chimps",
+    "source": "Science News",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "abrazos",
+      "simios",
+      "podrían"
+    ]
+  },
+  {
+    "title": "King cobras may be riding trains across India [COMIC]",
+    "title_es": "Las cobras reales pueden viajar en trenes por toda la India [CÓMIC]",
+    "url": "https://www.snexplores.org/article/king-cobras-riding-trains-india-comic",
+    "source": "Science News Explores",
+    "published": "2026-07-21T00:00:00.000Z",
+    "date": "2026-07-21",
+    "category": "noticia",
+    "tags": [
+      "cobras",
+      "reales",
+      "pueden"
     ]
   },
   {
@@ -6592,7 +6760,7 @@
   },
   {
     "title": "Book Review: Within Our Cells, the Miracle of Constant Mutation",
-    "title_es": "Reseña del libro: Dentro de nuestras células, el milagro de la mutación constante",
+    "title_es": "Book Review: Within Our Cells, the Miracle of Constant Mutation",
     "url": "https://undark.org/2026/05/29/book-review-beyond-inheritance/",
     "source": "Undark Magazine",
     "published": "2026-05-29T07:17:00.000Z",
@@ -6606,7 +6774,7 @@
   },
   {
     "title": "Glaciers in the 'roof of the world' have suddenly started melting",
-    "title_es": "Los glaciares en el 'techo del mundo' han comenzado a derretirse repentinamente",
+    "title_es": "Glaciers in the 'roof of the world' have suddenly started melting",
     "url": "https://www.newscientist.com/article/2528327-glaciers-in-the-roof-of-the-world-have-suddenly-started-melting/",
     "source": "New Scientist",
     "published": "2026-05-29T06:00:19.000Z",
@@ -6620,7 +6788,7 @@
   },
   {
     "title": "Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment",
-    "title_es": "Ligero Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment",
+    "title_es": "Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment",
     "url": "https://arxiv.org/abs/2605.28822",
     "source": "arXiv",
     "published": "2026-05-29T04:00:00.000Z",
@@ -6634,7 +6802,7 @@
   },
   {
     "title": "Webb Spots Supermassive Black Hole Older Than Its Home Galaxy",
-    "title_es": "Webb detecta un agujero negro supermasivo más antiguo que su galaxia natal",
+    "title_es": "Webb Spots Supermassive Black Hole Older Than Its Home Galaxy",
     "url": "https://www.sci.news/astronomy/webb-supermassive-black-hole-early-universe-14803.html",
     "source": "Sci.News",
     "published": "2026-05-29T00:26:39.000Z",
@@ -6774,7 +6942,7 @@
   },
   {
     "title": "DNA solves 250-year-old mystery of the Seychelles’ lost crocodiles",
-    "title_es": "El ADN resuelve el misterio de hace 250 años de los cocodrilos perdidos de las Seychelles",
+    "title_es": "DNA solves 250-year-old mystery of the Seychelles’ lost crocodiles",
     "url": "https://www.sciencedaily.com/releases/2026/05/260528082503.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-05-28T14:16:47.000Z",
@@ -51732,17 +51900,17 @@
     ]
   },
   {
-    "title": "The strip-shaped deep white matter hyperintensities may be related to neurodegeneration: A study based on diffusion tensor imaging",
-    "title_es": "Las hiperintensidades de la sustancia blanca profunda en forma de tira pueden estar relacionadas con la neurodegeneración: un estudio basado en imágenes con tensor de difusión",
+    "title": "Correction: A scoping review and thematic analysis of the landscape of spiritual health and spirituality in Canada",
+    "title_es": "Corrección: una revisión de alcance y un análisis temático del panorama de la salud espiritual y la espiritualidad en Canadá",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "hiperintensidades",
-      "sustancia",
-      "blanca"
+      "corrección",
+      "revisión",
+      "alcance"
     ]
   },
   {
@@ -113058,6 +113226,20 @@
       "turtle",
       "rock",
       "mars"
+    ]
+  },
+  {
+    "title": "The Corona Australis Molecular Cloud and the Chandelier Cluster",
+    "title_es": "The Corona Australis Molecular Cloud and the Chandelier Cluster",
+    "url": "https://apod.nasa.gov/apod/image/2607/corona_australis_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "corona",
+      "australis",
+      "molecular"
     ]
   }
 ]
