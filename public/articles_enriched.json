@@ -1,5 +1,117 @@
 [
   {
+    "title": "Interview: How Tragedy Changed the FDA",
+    "title_es": "Entrevista: Cómo la tragedia cambió la FDA",
+    "url": "https://undark.org/2026/07/23/interview-mikkael-sekeres/",
+    "source": "Undark Magazine",
+    "published": "2026-07-23T07:44:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "interview",
+      "how",
+      "tragedy"
+    ]
+  },
+  {
+    "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+    "title_es": "FineServe: un conjunto de datos de grano fino y caracterización de las cargas de trabajo globales de servicio de LLM",
+    "url": "https://arxiv.org/abs/2607.19349",
+    "source": "arXiv",
+    "published": "2026-07-23T04:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "fineserve",
+      "fine-grained",
+      "dataset"
+    ]
+  },
+  {
+    "title": "Orcas filmed making sunfish explode by ramming them at high speed",
+    "title_es": "Orcas filmadas haciendo explotar peces luna embistiéndolas a gran velocidad",
+    "url": "https://www.newscientist.com/article/2580817-orcas-filmed-making-sunfish-explode-by-ramming-it-at-high-speed/",
+    "source": "New Scientist",
+    "published": "2026-07-23T04:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "orcas",
+      "filmed",
+      "making"
+    ]
+  },
+  {
+    "title": "Could small-team science be dying out?",
+    "title_es": "¿Podría estar desapareciendo la ciencia en equipos pequeños?",
+    "url": "https://www.nature.com/articles/d41586-026-02174-4",
+    "source": "Nature",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "podría",
+      "estar",
+      "desapareciendo"
+    ]
+  },
+  {
+    "title": "Olympic Mountain Glory",
+    "title_es": "Gloria olímpica de la montaña",
+    "url": "https://science.nasa.gov/earth/earth-observatory/olympic-mountain-glory/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "gloria",
+      "olímpica",
+      "montaña"
+    ]
+  },
+  {
+    "title": "Watch an orca ram into a sunfish so hard it explodes",
+    "title_es": "Mira cómo una orca choca contra un pez luna con tanta fuerza que explota",
+    "url": "https://www.sciencenews.org/article/orca-ram-into-sunfish-explodes",
+    "source": "Science News",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "mira",
+      "cómo",
+      "orca"
+    ]
+  },
+  {
+    "title": "Orcas filmed ramming one of the world's heaviest fish so hard it explodes, possibly for fun",
+    "title_es": "Orcas filmadas embistiendo a uno de los peces más pesados ​​del mundo con tanta fuerza que explota, posiblemente por diversión",
+    "url": "https://phys.org/news/2026-07-orcas-ramming-world-heaviest-fish.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "orcas",
+      "filmadas",
+      "embistiendo"
+    ]
+  },
+  {
+    "title": "Jurassic Pliosaur Liopleurodon Was Big, but Not as Big as Once Feared",
+    "title_es": "El pliosaurio jurásico Liopleurodon era grande, pero no tan grande como se temía",
+    "url": "https://www.sci.news/paleontology/liopleurodon-ferox-14939.html",
+    "source": "Sci.News",
+    "published": "2026-07-22T22:50:49.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "jurassic",
+      "pliosaur",
+      "liopleurodon"
+    ]
+  },
+  {
     "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
     "title_es": "SysAdmin: Medición de la búsqueda de poder instrumental en la inteligencia artificial de frontera",
     "url": "https://arxiv.org/abs/2607.18239",
@@ -67,6 +179,62 @@
       "análisis",
       "sugiere",
       "que"
+    ]
+  },
+  {
+    "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+    "title_es": "SoftReason: una arquitectura de razonamiento deductivo neuro-soft-simbólico totalmente diferenciable sobre datos perceptivos de alta dimensión",
+    "url": "http://arxiv.org/abs/2607.20402v1",
+    "source": "arXiv",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "softreason",
+      "arquitectura",
+      "razonamiento"
+    ]
+  },
+  {
+    "title": "Docentes de 24 países se embarcan en una nueva Aventura Astronómica del IAC",
+    "title_es": "Docentes de 24 países se embarcan en una nueva Aventura Astronómica del IAC",
+    "url": "https://www.iac.es/es/divulgacion/noticias/docentes-de-24-paises-se-embarcan-en-una-nueva-aventura-astronomica-del-iac",
+    "source": "IAC",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "docentes",
+      "países",
+      "embarcan"
+    ]
+  },
+  {
+    "title": "A ‘super’ El Niño appears to be emerging. What’s the big deal?",
+    "title_es": "Parece estar surgiendo un “súper” El Niño. ¿Cuál es el problema?",
+    "url": "https://www.snexplores.org/article/super-el-nino-climate",
+    "source": "Science News Explores",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "parece",
+      "estar",
+      "surgiendo"
+    ]
+  },
+  {
+    "title": "A strange quantum effect dramatically boosts energy transfer",
+    "title_es": "Un extraño efecto cuántico aumenta drásticamente la transferencia de energía",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260722032130.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-22T00:00:00.000Z",
+    "date": "2026-07-22",
+    "category": "noticia",
+    "tags": [
+      "extraño",
+      "efecto",
+      "cuántico"
     ]
   },
   {
@@ -6522,7 +6690,7 @@
   },
   {
     "title": "Cosm: Collective Switched Motion for Fast and Accurate Sparse Ising Optimization",
-    "title_es": "Cosm: Movimiento Conmutado Colectivo para una Optimización Rápida y Precisa del Esparcimiento",
+    "title_es": "Cosm: Collective Switched Motion for Fast and Accurate Sparse Ising Optimization",
     "url": "https://arxiv.org/abs/2605.30355",
     "source": "arXiv",
     "published": "2026-06-01T04:00:00.000Z",
@@ -6662,7 +6830,7 @@
   },
   {
     "title": "Jonatan R. Ruiz: \"It is small, sustained changes that can generate major long-term benefits\"",
-    "title_es": "Jonatan R. Ruiz: “Son cambios pequeños y sostenidos los que pueden generar grandes beneficios a largo plazo”",
+    "title_es": "Jonatan R. Ruiz: \"It is small, sustained changes that can generate major long-term benefits\"",
     "url": "https://www.cnic.es/es/node/242571",
     "source": "CNIC",
     "published": "2026-05-31T00:00:00.000Z",
@@ -6718,7 +6886,7 @@
   },
   {
     "title": "Paleontologists Identify New Hyaenodont Species in Pakistan",
-    "title_es": "Paleontólogos identifican nuevas especies de hienodontes en Pakistán",
+    "title_es": "Paleontologists Identify New Hyaenodont Species in Pakistan",
     "url": "https://www.sci.news/paleontology/pakistan-hyaenodonts-14806.html",
     "source": "Sci.News",
     "published": "2026-05-29T22:30:51.000Z",
@@ -6732,7 +6900,7 @@
   },
   {
     "title": "A Peptide, a Secretive Scientist, and a Debate Over Evidence",
-    "title_es": "Un péptido, un científico secreto y un debate sobre la evidencia",
+    "title_es": "A Peptide, a Secretive Scientist, and a Debate Over Evidence",
     "url": "https://undark.org/2026/05/29/stress-test-bpc-157-history/",
     "source": "Undark Magazine",
     "published": "2026-05-29T09:00:00.000Z",
@@ -6746,7 +6914,7 @@
   },
   {
     "title": "Astronomers finally solve Saturn’s decades-long spin mystery",
-    "title_es": "Los astrónomos finalmente resuelven el misterio del giro de Saturno durante décadas",
+    "title_es": "Astronomers finally solve Saturn’s decades-long spin mystery",
     "url": "https://www.sciencedaily.com/releases/2026/05/260529043658.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-05-29T08:36:58.000Z",
@@ -51900,17 +52068,17 @@
     ]
   },
   {
-    "title": "Correction: A scoping review and thematic analysis of the landscape of spiritual health and spirituality in Canada",
-    "title_es": "Corrección: una revisión de alcance y un análisis temático del panorama de la salud espiritual y la espiritualidad en Canadá",
+    "title": "Cervical cancer screening coverage and associated factors among women aged 25–59 in Eswatini: Insights from the 2021 Population-Based HIV Impact Assessment (PHIA)",
+    "title_es": "Cobertura de detección del cáncer de cuello uterino y factores asociados entre mujeres de 25 a 59 años en Eswatini: perspectivas de la Evaluación de impacto del VIH basada en la población (PHIA) de 2021",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "revisión",
-      "alcance"
+      "cobertura",
+      "detección",
+      "cáncer"
     ]
   },
   {
@@ -113240,6 +113408,48 @@
       "corona",
       "australis",
       "molecular"
+    ]
+  },
+  {
+    "title": "10 years, 4000 diamonds",
+    "title_es": "10 years, 4000 diamonds",
+    "url": "https://scipost.org/scipostphyslectnotes.130",
+    "source": "SciPost News",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "years",
+      "4000",
+      "diamonds"
+    ]
+  },
+  {
+    "title": "Spectral bifurcation and anomalous supercurrent in dissipative topological insulator-based Josephson junctions, by Ardamon Sten, Paramita Dutta, Sudeep Kumar Ghosh",
+    "title_es": "Spectral bifurcation and anomalous supercurrent in dissipative topological insulator-based Josephson junctions, by Ardamon Sten, Paramita Dutta, Sudeep Kumar Ghosh",
+    "url": "https://scipost.org/scipostphyscore.9.3.043",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "spectral",
+      "bifurcation",
+      "anomalous"
+    ]
+  },
+  {
+    "title": "The Large Magellanic Cloud",
+    "title_es": "The Large Magellanic Cloud",
+    "url": "https://apod.nasa.gov/apod/image/2607/lmc_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "large",
+      "magellanic",
+      "cloud"
     ]
   }
 ]
