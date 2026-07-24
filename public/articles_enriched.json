@@ -1,5 +1,75 @@
 [
   {
+    "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
+    "title_es": "¿Qué es bueno? Extracción y prueba de teorías implícitas de la calidad literaria a partir de las pistas de razonamiento de LLM",
+    "url": "https://arxiv.org/abs/2607.20425",
+    "source": "arXiv",
+    "published": "2026-07-24T04:00:00.000Z",
+    "date": "2026-07-24",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "good",
+      "extracting"
+    ]
+  },
+  {
+    "title": "Did Early Snakes Burrow, Swim or Crawl? 80‑Million‑Year‑Old Fossil Suggests: All Three",
+    "title_es": "¿Las primeras serpientes excavaron, nadaron o gatearon? Sugiere un fósil de 80 millones de años: los tres",
+    "url": "https://www.sci.news/paleontology/tametara-mirim-14942.html",
+    "source": "Sci.News",
+    "published": "2026-07-24T00:18:24.000Z",
+    "date": "2026-07-24",
+    "category": "noticia",
+    "tags": [
+      "did",
+      "early",
+      "snakes"
+    ]
+  },
+  {
+    "title": "A Million-Panel Project",
+    "title_es": "Un proyecto de un millón de paneles",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-24T00:00:00.000Z",
+    "date": "2026-07-24",
+    "category": "noticia",
+    "tags": [
+      "proyecto",
+      "millón",
+      "paneles"
+    ]
+  },
+  {
+    "title": "3D-printed bioplastic pods offer new hope for seagrass restoration in Thailand",
+    "title_es": "Vainas de bioplástico impresas en 3D ofrecen nuevas esperanzas para la restauración de pastos marinos en Tailandia",
+    "url": "https://phys.org/news/2026-07-3d-bioplastic-pods-seagrass-thailand.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-24T00:00:00.000Z",
+    "date": "2026-07-24",
+    "category": "noticia",
+    "tags": [
+      "vainas",
+      "bioplástico",
+      "impresas"
+    ]
+  },
+  {
+    "title": "This El Niño will be the hottest by a huge margin",
+    "title_es": "Este El Niño será el más caliente por un amplio margen",
+    "url": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/",
+    "source": "New Scientist",
+    "published": "2026-07-23T18:00:39.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "niño",
+      "will"
+    ]
+  },
+  {
     "title": "Interview: How Tragedy Changed the FDA",
     "title_es": "Entrevista: Cómo la tragedia cambió la FDA",
     "url": "https://undark.org/2026/07/23/interview-mikkael-sekeres/",
@@ -95,6 +165,76 @@
       "orcas",
       "filmadas",
       "embistiendo"
+    ]
+  },
+  {
+    "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+    "title_es": "VLM compatibles con 3D con geometrías implícitas y explícitas",
+    "url": "http://arxiv.org/abs/2607.21595v1",
+    "source": "arXiv",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "vlm",
+      "compatibles",
+      "con"
+    ]
+  },
+  {
+    "title": "What The Odyssey reveals about ancient science — from botany to psychiatry",
+    "title_es": "Lo que La Odisea revela sobre la ciencia antigua, desde la botánica hasta la psiquiatría",
+    "url": "https://www.nature.com/articles/d41586-026-02275-0",
+    "source": "Nature",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "odisea",
+      "revela"
+    ]
+  },
+  {
+    "title": "Different moon rocks tell different tales about a long-ago bombardment",
+    "title_es": "Diferentes rocas lunares cuentan diferentes historias sobre un bombardeo lejano",
+    "url": "https://www.sciencenews.org/article/farside-moon-rocks-late-heavy-battering",
+    "source": "Science News",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "diferentes",
+      "rocas",
+      "lunares"
+    ]
+  },
+  {
+    "title": "Dormant microbes from Ötzi the Iceman’s body can grow in the lab",
+    "title_es": "Los microbios latentes del cuerpo de Ötzi, el hombre de hielo, pueden crecer en el laboratorio",
+    "url": "https://www.snexplores.org/article/otzi-iceman-living-microbes-yeast",
+    "source": "Science News Explores",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "microbios",
+      "latentes",
+      "cuerpo"
+    ]
+  },
+  {
+    "title": "Orcas filmed smashing giant sunfish into thousands of pieces",
+    "title_es": "Orcas filmadas rompiendo peces luna gigantes en miles de pedazos",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260723084040.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-23T00:00:00.000Z",
+    "date": "2026-07-23",
+    "category": "noticia",
+    "tags": [
+      "orcas",
+      "filmadas",
+      "rompiendo"
     ]
   },
   {
@@ -6676,7 +6816,7 @@
   },
   {
     "title": "A golden age of maths is dawning and mathematicians are freaking out",
-    "title_es": "Una era dorada de las matemáticas está amaneciendo y los matemáticos se están volviendo locos",
+    "title_es": "A golden age of maths is dawning and mathematicians are freaking out",
     "url": "https://www.newscientist.com/article/2526650-a-golden-age-of-maths-is-dawning-and-mathematicians-are-freaking-out/",
     "source": "New Scientist",
     "published": "2026-06-01T16:00:40.000Z",
@@ -52068,17 +52208,17 @@
     ]
   },
   {
-    "title": "Cervical cancer screening coverage and associated factors among women aged 25–59 in Eswatini: Insights from the 2021 Population-Based HIV Impact Assessment (PHIA)",
-    "title_es": "Cobertura de detección del cáncer de cuello uterino y factores asociados entre mujeres de 25 a 59 años en Eswatini: perspectivas de la Evaluación de impacto del VIH basada en la población (PHIA) de 2021",
+    "title": "Eligibility to donate blood under an individual donor assessment policy: A national cross-sectional study of gay, bisexual and other men who have sex with men in Aotearoa, New Zealand",
+    "title_es": "Elegibilidad para donar sangre según una política de evaluación de donantes individuales: un estudio transversal nacional de hombres homosexuales, bisexuales y otros hombres que tienen sexo con hombres en Aotearoa, Nueva Zelanda",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "cobertura",
-      "detección",
-      "cáncer"
+      "elegibilidad",
+      "donar",
+      "sangre"
     ]
   },
   {
@@ -113450,6 +113590,34 @@
       "large",
       "magellanic",
       "cloud"
+    ]
+  },
+  {
+    "title": "Gapless phases in (2+1)d with non-invertible symmetries, by Lakshya Bhardwaj, Yuhan Gai, Sheng-Jie Huang, Kansei Inamura, Sakura Schäfer-Nameki, Apoorv Tiwari, Alison Warman",
+    "title_es": "Gapless phases in (2+1)d with non-invertible symmetries, by Lakshya Bhardwaj, Yuhan Gai, Sheng-Jie Huang, Kansei Inamura, Sakura Schäfer-Nameki, Apoorv Tiwari, Alison Warman",
+    "url": "https://scipost.org/scipostphys.21.1.019",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "gapless",
+      "phases",
+      "21d"
+    ]
+  },
+  {
+    "title": "RCW 86: Historical Supernova Remnant",
+    "title_es": "RCW 86: Historical Supernova Remnant",
+    "url": "https://apod.nasa.gov/apod/image/2607/rcw86final1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "rcw",
+      "historical",
+      "supernova"
     ]
   }
 ]
