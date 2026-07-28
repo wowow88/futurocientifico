@@ -1,5 +1,75 @@
 [
   {
+    "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+    "title_es": "Explicaciones contrafácticas visuales basadas en conceptos con modelos de difusión",
+    "url": "https://arxiv.org/abs/2607.22544",
+    "source": "arXiv",
+    "published": "2026-07-28T04:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "concept-based",
+      "visual",
+      "counterfactual"
+    ]
+  },
+  {
+    "title": "Smoke Blankets Oregon",
+    "title_es": "Mantas de humo Oregón",
+    "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "mantas",
+      "humo",
+      "oregón"
+    ]
+  },
+  {
+    "title": "Modeling reveals Sydney's 1789 smallpox outbreak killed as many as 220,000 indigenous Australians",
+    "title_es": "Un modelo revela que el brote de viruela de Sydney en 1789 mató a unos 220.000 indígenas australianos",
+    "url": "https://phys.org/news/2026-07-reveals-sydney-smallpox-outbreak-indigenous.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "modelo",
+      "revela",
+      "que"
+    ]
+  },
+  {
+    "title": "Japanese Fossil Bee Fills Two-Million-Year Gap in Honeybee History",
+    "title_es": "La abeja fósil japonesa llena la brecha de dos millones de años en la historia de las abejas melíferas",
+    "url": "https://www.sci.news/paleontology/apis-aibai-14949.html",
+    "source": "Sci.News",
+    "published": "2026-07-27T20:45:51.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "japanese",
+      "fossil",
+      "bee"
+    ]
+  },
+  {
+    "title": "Peptides are the latest wellness trend – but do they work?",
+    "title_es": "Los péptidos son la última tendencia en bienestar, pero ¿funcionan?",
+    "url": "https://www.newscientist.com/article/2581574-peptides-are-the-latest-wellness-trend-but-do-they-work/",
+    "source": "New Scientist",
+    "published": "2026-07-27T19:21:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "peptides",
+      "are",
+      "latest"
+    ]
+  },
+  {
     "title": "How ultra-processed foods may damage your long-term brain health",
     "title_es": "Cómo los alimentos ultraprocesados pueden dañar su salud cerebral a largo plazo",
     "url": "https://www.newscientist.com/article/2581148-how-ultra-processed-foods-may-damage-your-long-term-brain-health/",
@@ -67,6 +137,90 @@
       "tripulación",
       "espacial",
       "ruso-estadounidense"
+    ]
+  },
+  {
+    "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+    "title_es": "ClinFusion: un sistema LLM multimodal centrado en la visión para la comprensión médica holística",
+    "url": "http://arxiv.org/abs/2607.24743v1",
+    "source": "arXiv",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "clinfusion",
+      "sistema",
+      "llm"
+    ]
+  },
+  {
+    "title": "Pyridoxal photoenzymes for asymmetric radical–radical cross-couplings",
+    "title_es": "Fotoenzimas de piridoxal para acoplamientos cruzados radicales asimétricos",
+    "url": "https://www.nature.com/articles/s41586-026-10930-9",
+    "source": "Nature",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "fotoenzimas",
+      "piridoxal",
+      "acoplamientos"
+    ]
+  },
+  {
+    "title": "La física que explica el Universo también podría ayudar a entender el cerebro",
+    "title_es": "La física que explica el Universo también podría ayudar a entender el cerebro",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-fisica-que-explica-el-universo-tambien-podria-ayudar-entender-el-cerebro",
+    "source": "IAC",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "física",
+      "que",
+      "explica"
+    ]
+  },
+  {
+    "title": "Seals’ amphibious hearing developed a long, long time ago",
+    "title_es": "El oído anfibio de las focas se desarrolló hace mucho, mucho tiempo",
+    "url": "https://www.sciencenews.org/article/seals-amphibious-hearing-long-ago",
+    "source": "Science News",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "oído",
+      "anfibio",
+      "focas"
+    ]
+  },
+  {
+    "title": "Scientists Say: Fjord",
+    "title_es": "Los científicos dicen: Fiordo",
+    "url": "https://www.snexplores.org/article/scientists-say-fjord-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "fiordo"
+    ]
+  },
+  {
+    "title": "Why Jupiter has several giant moons but Saturn has only Titan",
+    "title_es": "Por qué Júpiter tiene varias lunas gigantes pero Saturno solo tiene Titán",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260727012143.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-27T00:00:00.000Z",
+    "date": "2026-07-27",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "júpiter"
     ]
   },
   {
@@ -6761,7 +6915,7 @@
   },
   {
     "title": "Cost-Aware Query Routing in RAG: Empirical Analysis of Retrieval Depth Tradeoffs",
-    "title_es": "Enrutamiento de consultas consciente de costos en RAG: análisis empírico de compensaciones de profundidad de recuperación",
+    "title_es": "Cost-Aware Query Routing in RAG: Empirical Analysis of Retrieval Depth Tradeoffs",
     "url": "https://arxiv.org/abs/2606.02581",
     "source": "arXiv",
     "published": "2026-06-03T04:00:00.000Z",
@@ -6775,7 +6929,7 @@
   },
   {
     "title": "Ötzi's frozen remains may harbour metabolically active microbes",
-    "title_es": "Los restos congelados de Ötzi pueden albergar microbios metabólicamente activos",
+    "title_es": "Ötzi's frozen remains may harbour metabolically active microbes",
     "url": "https://www.newscientist.com/article/2528789-otzis-frozen-remains-may-harbour-metabolically-active-microbes/",
     "source": "New Scientist",
     "published": "2026-06-03T01:00:01.000Z",
@@ -6872,7 +7026,7 @@
   },
   {
     "title": "The SAFE HEARTS PLAN Meeting: Young Scientists Engaging with Europe’s Cardiovascular Health Plan brings European cardiovascular health policies closer to early-career researchers",
-    "title_es": "Reunión del PLAN SAFE HEARTS: Jóvenes científicos comprometidos con el Plan de Salud Cardiovascular de Europa acerca las políticas europeas de salud cardiovascular a los investigadores en las primeras etapas de su carrera",
+    "title_es": "The SAFE HEARTS PLAN Meeting: Young Scientists Engaging with Europe’s Cardiovascular Health Plan brings European cardiovascular health policies closer to early-career researchers",
     "url": "https://www.cnic.es/es/node/242703",
     "source": "CNIC",
     "published": "2026-06-03T00:00:00.000Z",
@@ -52488,17 +52642,17 @@
     ]
   },
   {
-    "title": "Virtual screening of Kocuria oceani AT-1 metabolites as potential maize growth regulators under drought conditions using molecular docking and dynamics simulation",
-    "title_es": "Detección virtual de metabolitos AT-1 de Kocuria oceani como posibles reguladores del crecimiento del maíz en condiciones de sequía mediante acoplamiento molecular y simulación dinámica",
+    "title": "Leveraging free-text clinical records for heart disease classification through structured feature mapping",
+    "title_es": "Aprovechamiento de registros clínicos de texto libre para la clasificación de enfermedades cardíacas mediante un mapeo estructurado de características",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "detección",
-      "virtual",
-      "metabolitos"
+      "aprovechamiento",
+      "registros",
+      "clínicos"
     ]
   },
   {
@@ -113939,6 +114093,34 @@
       "simulation",
       "tng50",
       "galaxy"
+    ]
+  },
+  {
+    "title": "Fay identities for polylogarithms on higher-genus Riemann surfaces, by Eric D&#x27;Hoker, Oliver Schlotterer",
+    "title_es": "Fay identities for polylogarithms on higher-genus Riemann surfaces, by Eric D&#x27;Hoker, Oliver Schlotterer",
+    "url": "https://scipost.org/scipostphys.21.1.021",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "fay",
+      "identities",
+      "polylogarithms"
+    ]
+  },
+  {
+    "title": "Barnards Loop over Twin Volcanoes",
+    "title_es": "Barnards Loop over Twin Volcanoes",
+    "url": "https://apod.nasa.gov/apod/image/2607/loopvolcanos_laserna_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "barnards",
+      "loop",
+      "over"
     ]
   }
 ]
