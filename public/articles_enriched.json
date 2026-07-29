@@ -1,5 +1,89 @@
 [
   {
+    "title": "DocAnnot -- Accelerating the Creation of Key Information Extraction Datasets with GenAI-Powered Auto-annotation",
+    "title_es": "DocAnnot -- Aceleración de la creación de conjuntos de datos de extracción de información clave con anotación automática impulsada por GenAI",
+    "url": "https://arxiv.org/abs/2607.24745",
+    "source": "arXiv",
+    "published": "2026-07-29T04:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "docannot",
+      "accelerating",
+      "creation"
+    ]
+  },
+  {
+    "title": "JACC: CardioOncology: Un estudio cuestiona la utilidad de la vigilancia cardiológica en pacientes con cáncer tratados con antraciclinas",
+    "title_es": "JACC: CardioOncology: Un estudio cuestiona la utilidad de la vigilancia cardiológica en pacientes con cáncer tratados con antraciclinas",
+    "url": "https://www.cnic.es/es/noticias/jacc-cardiooncology-un-estudio-cuestiona-utilidad-vigilancia-cardiologica-pacientes-con",
+    "source": "CNIC",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "jacc",
+      "cardiooncology",
+      "estudio"
+    ]
+  },
+  {
+    "title": "Sizing Up the Sargassum Belt",
+    "title_es": "Evaluando el cinturón de sargazo",
+    "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+    "source": "NASA (Top News)",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "evaluando",
+      "cinturón",
+      "sargazo"
+    ]
+  },
+  {
+    "title": "Mosquitoes are rapidly activating enzymes against common insecticide, researchers warn",
+    "title_es": "Los mosquitos están activando rápidamente enzimas contra los insecticidas comunes, advierten los investigadores",
+    "url": "https://phys.org/news/2026-07-mosquitoes-rapidly-enzymes-common-insecticide.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "mosquitos",
+      "están",
+      "activando"
+    ]
+  },
+  {
+    "title": "Ancient Footprints in Kenya Hint at Bigger Bodies and Group Behavior among Early Human Relatives",
+    "title_es": "Huellas antiguas en Kenia apuntan a cuerpos más grandes y comportamiento grupal entre los primeros parientes humanos",
+    "url": "https://www.sci.news/othersciences/anthropology/paranthropus-boisei-homo-erectus-footprints-kenya-14952.html",
+    "source": "Sci.News",
+    "published": "2026-07-28T22:20:59.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "footprints",
+      "kenya"
+    ]
+  },
+  {
+    "title": "Jaguar makes epic 2100-kilometre journey across the Amazon",
+    "title_es": "Jaguar hace un viaje épico de 2100 kilómetros a través del Amazonas",
+    "url": "https://www.newscientist.com/article/2581557-jaguar-makes-epic-2100-kilometre-journey-across-the-amazon/",
+    "source": "New Scientist",
+    "published": "2026-07-28T15:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "jaguar",
+      "makes",
+      "epic"
+    ]
+  },
+  {
     "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
     "title_es": "Explicaciones contrafácticas visuales basadas en conceptos con modelos de difusión",
     "url": "https://arxiv.org/abs/2607.22544",
@@ -39,6 +123,76 @@
       "modelo",
       "revela",
       "que"
+    ]
+  },
+  {
+    "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+    "title_es": "Pasar el testigo: destilación basada en políticas basada en la trayectoria",
+    "url": "http://arxiv.org/abs/2607.26057v1",
+    "source": "arXiv",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "pasar",
+      "testigo",
+      "destilación"
+    ]
+  },
+  {
+    "title": "Editorial Expression of Concern: Carcinoma-produced factors activate myeloid cells through TLR2 to stimulate metastasis",
+    "title_es": "Expresión editorial de preocupación: los factores producidos por el carcinoma activan las células mieloides a través del TLR2 para estimular la metástasis",
+    "url": "https://www.nature.com/articles/s41586-026-10923-8",
+    "source": "Nature",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "expresión",
+      "editorial",
+      "preocupación"
+    ]
+  },
+  {
+    "title": "‘Forever chemicals’ could be aging dolphins beyond their years",
+    "title_es": "Los 'químicos eternos' podrían hacer que los delfines envejezcan más allá de su edad",
+    "url": "https://www.sciencenews.org/article/forever-chemicals-aging-dolphins",
+    "source": "Science News",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "químicos",
+      "eternos",
+      "podrían"
+    ]
+  },
+  {
+    "title": "Analyze This: How sea slugs get their flashy colors",
+    "title_es": "Analice esto: cómo las babosas marinas obtienen sus colores llamativos",
+    "url": "https://www.snexplores.org/article/how-sea-slugs-get-bright-colors",
+    "source": "Science News Explores",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "analice",
+      "esto",
+      "cómo"
+    ]
+  },
+  {
+    "title": "Hidden charcoal reveals the true age of ancient cave paintings",
+    "title_es": "El carbón oculto revela la verdadera edad de las antiguas pinturas rupestres",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260727214619.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-28T00:00:00.000Z",
+    "date": "2026-07-28",
+    "category": "noticia",
+    "tags": [
+      "carbón",
+      "oculto",
+      "revela"
     ]
   },
   {
@@ -6720,7 +6874,7 @@
   },
   {
     "title": "Early Detection of Alzheimer's Disease Using Explainable Machine Learning on Clinical Biomarkers: A Multi-Class Classification Study Using the Alzheimer's Disease Neuroimaging Initiative (ADNI) Dataset",
-    "title_es": "Detección temprana de la enfermedad de Alzheimer utilizando aprendizaje automático explicable sobre biomarcadores clínicos: un estudio de clasificación multiclase utilizando el conjunto de datos de la Iniciativa de Neuroimagen de la Enfermedad de Alzheimer (ADNI)",
+    "title_es": "Early Detection of Alzheimer's Disease Using Explainable Machine Learning on Clinical Biomarkers: A Multi-Class Classification Study Using the Alzheimer's Disease Neuroimaging Initiative (ADNI) Dataset",
     "url": "https://arxiv.org/abs/2606.03995",
     "source": "arXiv",
     "published": "2026-06-04T04:00:00.000Z",
@@ -6873,7 +7027,7 @@
   },
   {
     "title": "Complex Colonial Life Was Already Thriving during Cambrian Explosion",
-    "title_es": "La compleja vida colonial ya estaba prosperando durante la explosión del Cámbrico",
+    "title_es": "Complex Colonial Life Was Already Thriving during Cambrian Explosion",
     "url": "https://www.sci.news/paleontology/cambrian-bryozoans-14816.html",
     "source": "Sci.News",
     "published": "2026-06-03T22:08:11.000Z",
@@ -6887,7 +7041,7 @@
   },
   {
     "title": "The looming El Niño could be bad – but much worse is to come",
-    "title_es": "El inminente El Niño podría ser malo, pero mucho peor está por venir",
+    "title_es": "The looming El Niño could be bad – but much worse is to come",
     "url": "https://www.newscientist.com/article/2529026-the-looming-el-nino-could-be-bad-but-much-worse-is-to-come/",
     "source": "New Scientist",
     "published": "2026-06-03T18:00:37.000Z",
@@ -6901,7 +7055,7 @@
   },
   {
     "title": "An encyclopedia formed from AI hallucinations – what could go wrong?",
-    "title_es": "Una enciclopedia formada a partir de alucinaciones de IA: ¿qué podría salir mal?",
+    "title_es": "An encyclopedia formed from AI hallucinations – what could go wrong?",
     "url": "https://www.newscientist.com/article/mg27035981-100-an-encyclopedia-formed-from-ai-hallucinations-what-could-go-wrong/",
     "source": "New Scientist",
     "published": "2026-06-03T18:00:00.000Z",
@@ -52642,17 +52796,17 @@
     ]
   },
   {
-    "title": "Leveraging free-text clinical records for heart disease classification through structured feature mapping",
-    "title_es": "Aprovechamiento de registros clínicos de texto libre para la clasificación de enfermedades cardíacas mediante un mapeo estructurado de características",
+    "title": "Correction: Burnout among anesthesia personnel in Thailand: A national survey of workload, personality traits, and resilience",
+    "title_es": "Corrección: Burnout entre el personal de anestesia en Tailandia: una encuesta nacional sobre la carga de trabajo, los rasgos de personalidad y la resiliencia",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "aprovechamiento",
-      "registros",
-      "clínicos"
+      "corrección",
+      "burnout",
+      "entre"
     ]
   },
   {
@@ -114121,6 +114275,34 @@
       "barnards",
       "loop",
       "over"
+    ]
+  },
+  {
+    "title": "Role of impurity statistics and medium constraints in polaron-polaron interactions, by Jesper Levinsen, Francesca M. Marchetti, Olivier Bleu, Meera M. Parish",
+    "title_es": "Role of impurity statistics and medium constraints in polaron-polaron interactions, by Jesper Levinsen, Francesca M. Marchetti, Olivier Bleu, Meera M. Parish",
+    "url": "https://scipost.org/scipostphys.21.1.025",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "role",
+      "impurity",
+      "statistics"
+    ]
+  },
+  {
+    "title": "Psyche Receives Gravity Assist from Mars",
+    "title_es": "Psyche Receives Gravity Assist from Mars",
+    "url": "https://www.youtube.com/embed/6_ch5-daljg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "psyche",
+      "receives",
+      "gravity"
     ]
   }
 ]
