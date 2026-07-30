@@ -1,5 +1,61 @@
 [
   {
+    "title": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
+    "title_es": "Emergent Sparsity en Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2607.26059",
+    "source": "arXiv",
+    "published": "2026-07-30T04:00:00.000Z",
+    "date": "2026-07-30",
+    "category": "noticia",
+    "tags": [
+      "emergent",
+      "sparsity",
+      "frozen"
+    ]
+  },
+  {
+    "title": "From single projection to many possibilities: A new tool for climate risk assessment",
+    "title_es": "De una sola proyección a muchas posibilidades: una nueva herramienta para la evaluación del riesgo climático",
+    "url": "https://phys.org/news/2026-07-possibilities-tool-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-07-30T00:00:00.000Z",
+    "date": "2026-07-30",
+    "category": "noticia",
+    "tags": [
+      "sola",
+      "proyección",
+      "muchas"
+    ]
+  },
+  {
+    "title": "Dinosaur-Killing Asteroid Didn’t Just Strike Earth, Its Dust Cloud Cooked It",
+    "title_es": "El asteroide que mató a los dinosaurios no solo golpeó la Tierra, su nube de polvo la cocinó",
+    "url": "https://www.sci.news/paleontology/chicxulub-asteroid-impact-heat-wildfires-14957.html",
+    "source": "Sci.News",
+    "published": "2026-07-29T21:33:07.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "dinosaur-killing",
+      "asteroid",
+      "didnt"
+    ]
+  },
+  {
+    "title": "Spectacular fossil preserves internal organs of ancient marine reptile",
+    "title_es": "Espectacular fósil que conserva los órganos internos de un antiguo reptil marino",
+    "url": "https://www.newscientist.com/article/2582138-spectacular-fossil-preserves-internal-organs-of-ancient-marine-reptile/",
+    "source": "New Scientist",
+    "published": "2026-07-29T18:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "spectacular",
+      "fossil",
+      "preserves"
+    ]
+  },
+  {
     "title": "DocAnnot -- Accelerating the Creation of Key Information Extraction Datasets with GenAI-Powered Auto-annotation",
     "title_es": "DocAnnot -- Aceleración de la creación de conjuntos de datos de extracción de información clave con anotación automática impulsada por GenAI",
     "url": "https://arxiv.org/abs/2607.24745",
@@ -53,6 +109,104 @@
       "mosquitos",
       "están",
       "activando"
+    ]
+  },
+  {
+    "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+    "title_es": "¿Pueden los agentes de IA realizar investigaciones de IA de duración abierta? Evidencia temprana de dos estudios de caso",
+    "url": "http://arxiv.org/abs/2607.27191v1",
+    "source": "arXiv",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "pueden",
+      "agentes",
+      "realizar"
+    ]
+  },
+  {
+    "title": "Author Correction: A ductile solid electrolyte interphase for solid-state batteries",
+    "title_es": "Corrección del autor: una interfase de electrolito sólido dúctil para baterías de estado sólido",
+    "url": "https://www.nature.com/articles/s41586-026-10945-2",
+    "source": "Nature",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "interfase"
+    ]
+  },
+  {
+    "title": "JACC: CardioOncology: Study questions the value of intensive cardiac surveillance in cancer patients treated with anthracyclines",
+    "title_es": "JACC: CardioOncology: Estudio cuestiona el valor de la vigilancia cardíaca intensiva en pacientes con cáncer tratados con antraciclinas",
+    "url": "https://www.cnic.es/es/node/243728",
+    "source": "CNIC",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "jacc",
+      "cardiooncology",
+      "study"
+    ]
+  },
+  {
+    "title": "Diana Morant preside el Consejo Rector del IAC, donde destaca que el Gobierno de España aportará 3,5 M€ extraordinarios en 2026 para su actividad",
+    "title_es": "Diana Morant preside el Consejo Rector del IAC, donde destaca que el Gobierno de España aportará 3,5 M€ extraordinarios en 2026 para su actividad",
+    "url": "https://www.iac.es/es/divulgacion/noticias/diana-morant-preside-el-consejo-rector-del-iac-donde-destaca-que-el-gobierno-de-espana-aportara-35-meu",
+    "source": "IAC",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "diana",
+      "morant",
+      "preside"
+    ]
+  },
+  {
+    "title": "Healthy pregnancies and newborns are possible after CAR T cell therapy",
+    "title_es": "Embarazos y recién nacidos sanos son posibles después de la terapia con células T con CAR",
+    "url": "https://www.sciencenews.org/article/healthy-pregnancy-birth-car-t-therapy",
+    "source": "Science News",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "embarazos",
+      "recién",
+      "nacidos"
+    ]
+  },
+  {
+    "title": "Experiment: Measure fake blood spatter",
+    "title_es": "Experimento: medir salpicaduras de sangre falsas",
+    "url": "https://www.snexplores.org/article/experiment-forensics-blood-spatter",
+    "source": "Science News Explores",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "experimento",
+      "medir",
+      "salpicaduras"
+    ]
+  },
+  {
+    "title": "New microwave frying method could make french fries much healthier",
+    "title_es": "Un nuevo método para freír en microondas podría hacer que las patatas fritas sean mucho más saludables",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260729044048.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-07-29T00:00:00.000Z",
+    "date": "2026-07-29",
+    "category": "noticia",
+    "tags": [
+      "nuevo",
+      "método",
+      "freír"
     ]
   },
   {
@@ -6692,7 +6846,7 @@
   },
   {
     "title": "Book Review: How Radio Astronomy Made the Invisible Visible",
-    "title_es": "Reseña del libro: Cómo la radioastronomía hizo visible lo invisible",
+    "title_es": "Book Review: How Radio Astronomy Made the Invisible Visible",
     "url": "https://undark.org/2026/06/05/book-review-echoing-universe/",
     "source": "Undark Magazine",
     "published": "2026-06-05T07:30:12.000Z",
@@ -6706,7 +6860,7 @@
   },
   {
     "title": "RAINO: Anchoring Agents in Reality, A Systematic Review and Conceptual Framework for Realism in Agent-Based Modelling",
-    "title_es": "RAINO: Anclaje de agentes en la realidad, una revisión sistemática y un marco conceptual para el realismo en la modelización basada en agentes",
+    "title_es": "RAINO: Anchoring Agents in Reality, A Systematic Review and Conceptual Framework for Realism in Agent-Based Modelling",
     "url": "https://arxiv.org/abs/2606.05167",
     "source": "arXiv",
     "published": "2026-06-05T04:00:00.000Z",
@@ -6832,7 +6986,7 @@
   },
   {
     "title": "New Microraptorine Dinosaur Discovered in China",
-    "title_es": "Nuevo dinosaurio Microraptorine descubierto en China",
+    "title_es": "New Microraptorine Dinosaur Discovered in China",
     "url": "https://www.sci.news/paleontology/jian-changmaensis-14819.html",
     "source": "Sci.News",
     "published": "2026-06-04T22:13:15.000Z",
@@ -6846,7 +7000,7 @@
   },
   {
     "title": "Becoming a parent may make you love your partner less",
-    "title_es": "Convertirse en padre puede hacer que ames menos a tu pareja",
+    "title_es": "Becoming a parent may make you love your partner less",
     "url": "https://www.newscientist.com/article/2529220-becoming-a-parent-may-make-you-love-your-partner-less/",
     "source": "New Scientist",
     "published": "2026-06-04T17:00:21.000Z",
@@ -6860,7 +7014,7 @@
   },
   {
     "title": "Risk Aversion in Science Stifles Innovation",
-    "title_es": "La aversión al riesgo en la ciencia sofoca la innovación",
+    "title_es": "Risk Aversion in Science Stifles Innovation",
     "url": "https://undark.org/2026/06/04/opinion-risk-aversion-innovation/",
     "source": "Undark Magazine",
     "published": "2026-06-04T07:07:00.000Z",
@@ -52796,17 +52950,17 @@
     ]
   },
   {
-    "title": "Correction: Burnout among anesthesia personnel in Thailand: A national survey of workload, personality traits, and resilience",
-    "title_es": "Corrección: Burnout entre el personal de anestesia en Tailandia: una encuesta nacional sobre la carga de trabajo, los rasgos de personalidad y la resiliencia",
+    "title": "Neck circumference as an anthropometric marker of overweight among school-aged children in Bharatpur, Nepal: A community-based study",
+    "title_es": "La circunferencia del cuello como marcador antropométrico de sobrepeso entre niños en edad escolar en Bharatpur, Nepal: un estudio comunitario",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "burnout",
-      "entre"
+      "circunferencia",
+      "cuello",
+      "como"
     ]
   },
   {
@@ -114303,6 +114457,34 @@
       "psyche",
       "receives",
       "gravity"
+    ]
+  },
+  {
+    "title": "Amplitude mode in two-dimensional coherent spectroscopy of weak-coupling antiferromagnets, by Jiyu Chen, Naoto Tsuji, Philipp Werner",
+    "title_es": "Amplitude mode in two-dimensional coherent spectroscopy of weak-coupling antiferromagnets, by Jiyu Chen, Naoto Tsuji, Philipp Werner",
+    "url": "https://scipost.org/scipostphys.21.1.026",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "amplitude",
+      "mode",
+      "two-dimensional"
+    ]
+  },
+  {
+    "title": "Red Sun through Wildfire Smoke",
+    "title_es": "Red Sun through Wildfire Smoke",
+    "url": "https://apod.nasa.gov/apod/image/2607/red_sun_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "red",
+      "sun",
+      "through"
     ]
   }
 ]
