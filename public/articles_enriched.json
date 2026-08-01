@@ -1,5 +1,33 @@
 [
   {
+    "title": "Strengthening El Nino 'adding fuel to a planet already on fire': UN chief",
+    "title_es": "El fortalecimiento de El Niño \"añade combustible a un planeta que ya está en llamas\": jefe de la ONU",
+    "url": "https://phys.org/news/2026-08-el-nino-adding-fuel-planet.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-01T00:00:00.000Z",
+    "date": "2026-08-01",
+    "category": "noticia",
+    "tags": [
+      "fortalecimiento",
+      "niño",
+      "añade"
+    ]
+  },
+  {
+    "title": "How Europe can make its landscapes more fire-resilient",
+    "title_es": "Cómo Europa puede hacer que sus paisajes sean más resistentes al fuego",
+    "url": "https://www.newscientist.com/article/2582716-how-europe-can-make-its-landscapes-more-fire-resilient/",
+    "source": "New Scientist",
+    "published": "2026-07-31T16:19:40.000Z",
+    "date": "2026-07-31",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "europe",
+      "can"
+    ]
+  },
+  {
     "title": "Why full-fledged quantum computers might always be five years away",
     "title_es": "Por qué los ordenadores cuánticos de pleno derecho siempre podrían estar a cinco años de distancia",
     "url": "https://www.newscientist.com/article/2582565-why-full-fledged-quantum-computers-might-always-be-five-years-away/",
@@ -67,6 +95,34 @@
       "how",
       "smallpox",
       "reached"
+    ]
+  },
+  {
+    "title": "Author Correction: Cucurbituril-based anion-conducting membranes with supramolecular nanopores",
+    "title_es": "Corrección del autor: Membranas conductoras de aniones a base de cucurbituril con nanoporos supramoleculares",
+    "url": "https://www.nature.com/articles/s41586-026-10921-w",
+    "source": "Nature",
+    "published": "2026-07-31T00:00:00.000Z",
+    "date": "2026-07-31",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "membranas"
+    ]
+  },
+  {
+    "title": "To detect CTE while alive, a test for another brain disease may help",
+    "title_es": "Para detectar CTE en vida, una prueba para detectar otra enfermedad cerebral puede ayudar",
+    "url": "https://www.sciencenews.org/article/alzheimers-protein-test-brain-cte",
+    "source": "Science News",
+    "published": "2026-07-31T00:00:00.000Z",
+    "date": "2026-07-31",
+    "category": "noticia",
+    "tags": [
+      "detectar",
+      "cte",
+      "vida"
     ]
   },
   {
@@ -6790,7 +6846,7 @@
   },
   {
     "title": "You don't need to worry about recursive-self-improving AI – yet",
-    "title_es": "No tienes que preocuparte por la IA recursiva de auto-mejora, todavía",
+    "title_es": "You don't need to worry about recursive-self-improving AI – yet",
     "url": "https://www.newscientist.com/article/2529553-you-dont-need-to-worry-about-recursive-self-improving-ai-yet/",
     "source": "New Scientist",
     "published": "2026-06-08T18:14:51.000Z",
@@ -53132,17 +53188,17 @@
     ]
   },
   {
-    "title": "Leveraging expression quantitative trait loci information in single-cell resolution to identify cell-specific genes for gestational diabetes",
-    "title_es": "Aprovechamiento de la información de loci de rasgos cuantitativos de expresión en resolución unicelular para identificar genes específicos de células para la diabetes gestacional",
+    "title": "Correction: Exploring motor variability in adults with severe athetoid or ataxic cerebral palsy: Impact on error-based and reward-based learning",
+    "title_es": "Corrección: Exploración de la variabilidad motora en adultos con parálisis cerebral atetoide o atáxica grave: impacto en el aprendizaje basado en errores y recompensas",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "aprovechamiento",
-      "información",
-      "loci"
+      "corrección",
+      "exploración",
+      "variabilidad"
     ]
   },
   {
@@ -114695,6 +114751,34 @@
       "ngc",
       "4372",
       "dark"
+    ]
+  },
+  {
+    "title": "Bypassing eigenstate thermalization with experimentally accessible quantum dynamics, by Amit Vikram",
+    "title_es": "Bypassing eigenstate thermalization with experimentally accessible quantum dynamics, by Amit Vikram",
+    "url": "https://scipost.org/scipostphys.21.1.029",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bypassing",
+      "eigenstate",
+      "thermalization"
+    ]
+  },
+  {
+    "title": "Buck Moon and Belt of Venus",
+    "title_es": "Buck Moon and Belt of Venus",
+    "url": "https://apod.nasa.gov/apod/image/2608/fullmoon28-7-2026brankonadj1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "buck",
+      "moon",
+      "belt"
     ]
   }
 ]
