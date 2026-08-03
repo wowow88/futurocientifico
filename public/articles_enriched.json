@@ -1,5 +1,75 @@
 [
   {
+    "title": "Are beef-liver or standard iron supplements better for boosting iron?",
+    "title_es": "¿Son mejores los suplementos de hígado de res o de hierro estándar para aumentar el hierro?",
+    "url": "https://www.newscientist.com/article/2582573-are-beef-liver-or-standard-iron-supplements-better-for-boosting-iron/",
+    "source": "New Scientist",
+    "published": "2026-08-03T08:00:00.000Z",
+    "date": "2026-08-03",
+    "category": "noticia",
+    "tags": [
+      "are",
+      "beef-liver",
+      "standard"
+    ]
+  },
+  {
+    "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+    "title_es": "OpenClaw y Ollama en Agentic AI: hacia sistemas de agentes de IA totalmente autónomos y escalables",
+    "url": "https://arxiv.org/abs/2607.28629",
+    "source": "arXiv",
+    "published": "2026-08-03T04:00:00.000Z",
+    "date": "2026-08-03",
+    "category": "noticia",
+    "tags": [
+      "openclaw",
+      "ollama",
+      "agentic"
+    ]
+  },
+  {
+    "title": "Sickle-cell disease linked to prematurely aged stem cells in mice",
+    "title_es": "La anemia de células falciformes está relacionada con células madre envejecidas prematuramente en ratones",
+    "url": "https://www.nature.com/articles/d41586-026-02339-1",
+    "source": "Nature",
+    "published": "2026-08-03T00:00:00.000Z",
+    "date": "2026-08-03",
+    "category": "noticia",
+    "tags": [
+      "anemia",
+      "células",
+      "falciformes"
+    ]
+  },
+  {
+    "title": "South Korea records its highest-ever temperature of 42.5 C",
+    "title_es": "Corea del Sur registra la temperatura más alta jamás registrada con 42,5 C",
+    "url": "https://phys.org/news/2026-08-south-korea-highest-temperature.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-03T00:00:00.000Z",
+    "date": "2026-08-03",
+    "category": "noticia",
+    "tags": [
+      "corea",
+      "sur",
+      "registra"
+    ]
+  },
+  {
+    "title": "Scientists Find Traces of Two Unknown Archaic Hominins in Human DNA",
+    "title_es": "Científicos encuentran rastros de dos homínidos arcaicos desconocidos en el ADN humano",
+    "url": "https://www.sci.news/genetics/human-dna-two-unknown-archaic-hominins-14961.html",
+    "source": "Sci.News",
+    "published": "2026-08-02T08:11:31.000Z",
+    "date": "2026-08-02",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "find",
+      "traces"
+    ]
+  },
+  {
     "title": "Fluorescent probes offer sharper view of plant tissues",
     "title_es": "Las sondas fluorescentes ofrecen una visión más nítida de los tejidos vegetales",
     "url": "https://phys.org/news/2026-07-fluorescent-probes-sharper-view-tissues.html",
@@ -11,6 +81,34 @@
       "sondas",
       "fluorescentes",
       "ofrecen"
+    ]
+  },
+  {
+    "title": "Dark matter’s secret force does the opposite of what scientists expected",
+    "title_es": "La fuerza secreta de la materia oscura hace lo contrario de lo que esperaban los científicos",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-02T00:00:00.000Z",
+    "date": "2026-08-02",
+    "category": "noticia",
+    "tags": [
+      "fuerza",
+      "secreta",
+      "materia"
+    ]
+  },
+  {
+    "title": "Scientists detect a sharp acceleration in global warming",
+    "title_es": "Los científicos detectan una fuerte aceleración en el calentamiento global",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260801093239.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-01T13:32:39.000Z",
+    "date": "2026-08-01",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "detect",
+      "sharp"
     ]
   },
   {
@@ -182,6 +280,20 @@
     ]
   },
   {
+    "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+    "title_es": "ExtractBench: un punto de referencia para la extracción de documentos empresariales guiada por esquemas",
+    "url": "http://arxiv.org/abs/2607.29677v1",
+    "source": "arXiv",
+    "published": "2026-07-31T00:00:00.000Z",
+    "date": "2026-07-31",
+    "category": "noticia",
+    "tags": [
+      "extractbench",
+      "punto",
+      "referencia"
+    ]
+  },
+  {
     "title": "224,000-Year-Old Homo Skull Fragment Adds New Mystery to Human Origins",
     "title_es": "Fragmento de cráneo de Homo de 224.000 años añade un nuevo misterio a los orígenes humanos",
     "url": "https://www.sci.news/othersciences/anthropology/ruidera-homo-14960.html",
@@ -319,6 +431,20 @@
       "científicos",
       "descubrieron",
       "que"
+    ]
+  },
+  {
+    "title": "CNIC en la Noche Europea de los Investigadores 2026",
+    "title_es": "CNIC en la Noche Europea de los Investigadores 2026",
+    "url": "https://www.cnic.es/es/noticias/cnic-noche-europea-investigadores-2026",
+    "source": "CNIC",
+    "published": "2026-07-30T00:00:00.000Z",
+    "date": "2026-07-30",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "noche",
+      "europea"
     ]
   },
   {
@@ -6692,7 +6818,7 @@
   },
   {
     "title": "El IAC acoge la reunión del Comité del Programa Científico de la ESA en las instalaciones de IACTEC",
-    "title_es": "El IAC acoge la reunión del Comité del Programa Científico de la esa en las instalaciones de IACTEC",
+    "title_es": "El IAC acoge la reunión del Comité del Programa Científico de la ESA en las instalaciones de IACTEC",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-la-reunion-del-comite-del-programa-cientifico-de-la-esa-en-las-instalaciones-de-iactec",
     "source": "IAC",
     "published": "2026-06-10T00:00:00.000Z",
@@ -6748,7 +6874,7 @@
   },
   {
     "title": "Fossil Discovery in Patagonia Reveals New Species of Horned Turtle",
-    "title_es": "Descubrimiento de fósiles en la Patagonia revela una nueva especie de tortuga cornuda",
+    "title_es": "Fossil Discovery in Patagonia Reveals New Species of Horned Turtle",
     "url": "https://www.sci.news/paleontology/patagoniaemys-aeschyli-14832.html",
     "source": "Sci.News",
     "published": "2026-06-09T21:31:30.000Z",
@@ -6762,7 +6888,7 @@
   },
   {
     "title": "Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games",
-    "title_es": "Charla barata bizantina: resiliencia adversaria y efectos de la topología en los juegos de coordinación de LLM",
+    "title_es": "Byzantine Cheap Talk: Adversarial Resilience and Topology Effects in LLM Coordination Games",
     "url": "https://arxiv.org/abs/2606.07790",
     "source": "arXiv",
     "published": "2026-06-09T04:00:00.000Z",
@@ -114849,6 +114975,20 @@
       "fire",
       "rainbow",
       "over"
+    ]
+  },
+  {
+    "title": "Vaporizing Meteor Photobombs the Lacerta Nebula",
+    "title_es": "Vaporizing Meteor Photobombs the Lacerta Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2608/meteorgecko_burnett_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "vaporizing",
+      "meteor",
+      "photobombs"
     ]
   }
 ]
