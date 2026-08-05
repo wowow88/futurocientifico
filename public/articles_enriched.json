@@ -1,5 +1,47 @@
 [
   {
+    "title": "'Like the end of the world': The eclipse chasers flocking to Spain",
+    "title_es": "'Como el fin del mundo': Los cazadores de eclipses acuden en masa a España",
+    "url": "https://phys.org/news/2026-08-world-eclipse-chasers-flocking-spain.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "como",
+      "fin",
+      "mundo"
+    ]
+  },
+  {
+    "title": "Fossil Find in China Reveals Dinosaur Family Never Before Seen in East Asia",
+    "title_es": "Hallazgo fósil en China revela una familia de dinosaurios nunca antes vista en el este de Asia",
+    "url": "https://www.sci.news/paleontology/yantaloong-lini-14966.html",
+    "source": "Sci.News",
+    "published": "2026-08-04T23:03:08.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "fossil",
+      "find",
+      "china"
+    ]
+  },
+  {
+    "title": "Should you stop using preventive flea treatments on your pets?",
+    "title_es": "¿Debería dejar de usar tratamientos preventivos contra pulgas en sus mascotas?",
+    "url": "https://www.newscientist.com/article/2583235-should-you-stop-using-preventive-flea-treatments-on-your-pets/",
+    "source": "New Scientist",
+    "published": "2026-08-04T23:01:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "should",
+      "you",
+      "stop"
+    ]
+  },
+  {
     "title": "Structured Proxy Features for Multimodal NSCLC Survival Prediction from Pretreatment CT",
     "title_es": "Características proxy estructuradas para la predicción multimodal de la supervivencia del CPNM a partir de la TC previa al tratamiento",
     "url": "https://arxiv.org/abs/2608.00446",
@@ -52,6 +94,90 @@
     "tags": [
       "noroeste",
       "lucha",
+      "contra"
+    ]
+  },
+  {
+    "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+    "title_es": "TurnSight: autodestilación retrospectiva a nivel de giro para razonamiento integrado en herramientas",
+    "url": "http://arxiv.org/abs/2608.04007v1",
+    "source": "arXiv",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "turnsight",
+      "autodestilación",
+      "retrospectiva"
+    ]
+  },
+  {
+    "title": "Author Correction: Casdatifan shows durable response linked to HIF-2α biology in kidney cancer",
+    "title_es": "Corrección del autor: Casdatifan muestra una respuesta duradera relacionada con la biología de HIF-2α en el cáncer de riñón",
+    "url": "https://www.nature.com/articles/s41586-026-10958-x",
+    "source": "Nature",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "casdatifan"
+    ]
+  },
+  {
+    "title": "El CNIC en la Semana de la Ciencia y la Innovación de Madrid 2026",
+    "title_es": "El CNIC en la Semana de la Ciencia y la Innovación de Madrid 2026",
+    "url": "https://www.cnic.es/es/noticias/cnic-semana-ciencia-innovacion-madrid-2026",
+    "source": "CNIC",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "semana",
+      "ciencia"
+    ]
+  },
+  {
+    "title": "Is AI making us dumber? Maybe not. But our skills are at risk",
+    "title_es": "¿La IA nos está volviendo más tontos? Quizás no. Pero nuestras habilidades están en riesgo",
+    "url": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+    "source": "Science News",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "nos",
+      "está",
+      "volviendo"
+    ]
+  },
+  {
+    "title": "Songs prep unhatched finches’ brains for a hot world",
+    "title_es": "Las canciones preparan el cerebro de los pinzones aún no eclosionados para un mundo cálido",
+    "url": "https://www.snexplores.org/article/songs-change-finch-brains-heat",
+    "source": "Science News Explores",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "canciones",
+      "preparan",
+      "cerebro"
+    ]
+  },
+  {
+    "title": "Cancer-fighting chewing gum cuts HPV levels by up to 93%",
+    "title_es": "Masticar chicle contra el cáncer reduce los niveles de VPH hasta en un 93%",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-04T00:00:00.000Z",
+    "date": "2026-08-04",
+    "category": "noticia",
+    "tags": [
+      "masticar",
+      "chicle",
       "contra"
     ]
   },
@@ -6678,7 +6804,7 @@
   },
   {
     "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
-    "title_es": "Puntuación automatizada de texto árabe utilizando modelos de lenguaje grandes: una revisión de la literatura",
+    "title_es": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
     "url": "https://arxiv.org/abs/2606.09830",
     "source": "arXiv",
     "published": "2026-06-11T04:00:00.000Z",
@@ -6776,7 +6902,7 @@
   },
   {
     "title": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para impulsar la estrategia cardiovascular “SAFE HEARTS PLAN”",
-    "title_es": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para impulsar la estrategia cardiovascular “PLAN CORAZONES SEGUROS”",
+    "title_es": "El CNIC y la Fundación AstraZeneca reúnen en Madrid a jóvenes científicos y líderes europeos para impulsar la estrategia cardiovascular “SAFE HEARTS PLAN”",
     "url": "https://www.cnic.es/es/noticias/cnic-fundacion-astrazeneca-reunen-madrid-jovenes-cientificos-lideres-europeos-para-impulsar",
     "source": "CNIC",
     "published": "2026-06-11T00:00:00.000Z",
@@ -6832,7 +6958,7 @@
   },
   {
     "title": "Study: Cave Lions were Distinct Species that Occasionally Bred with Ancestors of Today’s Lions",
-    "title_es": "Estudio: Los leones de las cavernas eran especies distintas que ocasionalmente se criaban con ancestros de los leones de hoy",
+    "title_es": "Study: Cave Lions were Distinct Species that Occasionally Bred with Ancestors of Today’s Lions",
     "url": "https://www.sci.news/paleontology/cave-lions-14837.html",
     "source": "Sci.News",
     "published": "2026-06-10T22:54:32.000Z",
@@ -53510,17 +53636,17 @@
     ]
   },
   {
-    "title": "Comparative dynamics of coffee–tea cultural spaces in two Chinese cities: Evidence from Qingdao and Jinan, 2018–2024",
-    "title_es": "Dinámica comparada de los espacios culturales de café y té en dos ciudades chinas: evidencia de Qingdao y Jinan, 2018-2024",
+    "title": "In-class AI usage and university students’ attitudes: The mediating role of perceived learning engagement benefits",
+    "title_es": "Uso de la IA en clase y actitudes de los estudiantes universitarios: el papel mediador de los beneficios percibidos del compromiso con el aprendizaje",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "dinámica",
-      "comparada",
-      "espacios"
+      "uso",
+      "clase",
+      "actitudes"
     ]
   },
   {
@@ -115157,6 +115283,20 @@
       "curious",
       "cometary",
       "knots"
+    ]
+  },
+  {
+    "title": "Spokes on Saturn's B Ring",
+    "title_es": "Spokes on Saturn's B Ring",
+    "url": "https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "spokes",
+      "saturns",
+      "ring"
     ]
   }
 ]
