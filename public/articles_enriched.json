@@ -1,5 +1,117 @@
 [
   {
+    "title": "Towards a New Grammar of Reasoning for Artificial Legal Intelligence and the Mecelle as Its Semantic Protocol",
+    "title_es": "Hacia una nueva gramática del razonamiento para la inteligencia jurídica artificial y la mecela como su protocolo semántico",
+    "url": "https://arxiv.org/abs/2608.04011",
+    "source": "arXiv",
+    "published": "2026-08-06T04:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "towards",
+      "new",
+      "grammar"
+    ]
+  },
+  {
+    "title": "Pumas are drivers’ guardian angels",
+    "title_es": "Los pumas son los ángeles guardianes de los conductores",
+    "url": "https://www.nature.com/articles/d41586-026-02429-0",
+    "source": "Nature",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "pumas",
+      "son",
+      "ángeles"
+    ]
+  },
+  {
+    "title": "APOD: 2026 August 6 – New Sharpest Image of the Sun Uncovers Instability",
+    "title_es": "APOD: 6 de agosto de 2026: la nueva imagen más nítida del Sol revela inestabilidad",
+    "url": "https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "agosto",
+      "2026"
+    ]
+  },
+  {
+    "title": "567-million-year-old fossils rewrite the dawn of animal life",
+    "title_es": "Fósiles de 567 millones de años reescriben los albores de la vida animal",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034644.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "fósiles",
+      "567",
+      "millones"
+    ]
+  },
+  {
+    "title": "Climate change contributed to big Canada fires, study says as Trump blames mismanagement",
+    "title_es": "El cambio climático contribuyó a los grandes incendios en Canadá, según un estudio, mientras Trump culpa a la mala gestión",
+    "url": "https://phys.org/news/2026-08-climate-contributed-big-canada-trump.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "cambio",
+      "climático",
+      "contribuyó"
+    ]
+  },
+  {
+    "title": "La Brea Tar Pits Yield New Species of Ice Age Toad",
+    "title_es": "Los pozos de alquitrán de La Brea producen nuevas especies de sapos de la Edad de Hielo",
+    "url": "https://www.sci.news/paleontology/spea-labreae-14971.html",
+    "source": "Sci.News",
+    "published": "2026-08-05T22:23:38.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "brea",
+      "tar",
+      "pits"
+    ]
+  },
+  {
+    "title": "Three factors in midlife can delay the onset of dementia by 13 years",
+    "title_es": "Tres factores en la mediana edad pueden retrasar la aparición de la demencia en 13 años",
+    "url": "https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/",
+    "source": "New Scientist",
+    "published": "2026-08-05T20:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "three",
+      "factors",
+      "midlife"
+    ]
+  },
+  {
+    "title": "A colossal magma system has been hiding beneath Tuscany",
+    "title_es": "Un colosal sistema de magma se ha estado escondiendo debajo de la Toscana",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-05T09:19:43.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "colossal",
+      "magma",
+      "system"
+    ]
+  },
+  {
     "title": "'Like the end of the world': The eclipse chasers flocking to Spain",
     "title_es": "'Como el fin del mundo': Los cazadores de eclipses acuden en masa a España",
     "url": "https://phys.org/news/2026-08-world-eclipse-chasers-flocking-spain.html",
@@ -11,6 +123,76 @@
       "como",
       "fin",
       "mundo"
+    ]
+  },
+  {
+    "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+    "title_es": "Argus: un tiempo de ejecución agente de propósito general para el razonamiento a largo plazo",
+    "url": "http://arxiv.org/abs/2608.05144v1",
+    "source": "arXiv",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "argus",
+      "tiempo",
+      "ejecución"
+    ]
+  },
+  {
+    "title": "The EMBO Journal: Identifican una proteína esencial para prevenir el daño hepático y el desarrollo de tumores durante el envejecimiento",
+    "title_es": "The EMBO Journal: Identifican una proteína esencial para prevenir el daño hepático y el desarrollo de tumores durante el envejecimiento",
+    "url": "https://www.cnic.es/es/noticias/embo-journal-identifican-proteina-esencial-para-prevenir-dano-hepatico-desarrollo-tumores",
+    "source": "CNIC",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "revista",
+    "tags": [
+      "embo",
+      "journal",
+      "identifican"
+    ]
+  },
+  {
+    "title": "DALI supera el Preliminary Design Review y avanza en la búsqueda de materia oscura",
+    "title_es": "DALI supera el Preliminary Design Review y avanza en la búsqueda de materia oscura",
+    "url": "https://www.iac.es/es/divulgacion/noticias/dali-supera-el-preliminary-design-review-y-avanza-en-la-busqueda-de-materia-oscura",
+    "source": "IAC",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "dali",
+      "supera",
+      "preliminary"
+    ]
+  },
+  {
+    "title": "These tiny swirls on the sun could trigger solar flares",
+    "title_es": "Estos pequeños remolinos en el sol podrían provocar erupciones solares",
+    "url": "https://www.sciencenews.org/article/tiny-swirls-sun-trigger-solar-flares",
+    "source": "Science News",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "estos",
+      "pequeños",
+      "remolinos"
+    ]
+  },
+  {
+    "title": "Scientists made clocks from an atomic nucleus",
+    "title_es": "Los científicos construyeron relojes a partir de un núcleo atómico.",
+    "url": "https://www.snexplores.org/article/first-atomic-nuclear-clock",
+    "source": "Science News Explores",
+    "published": "2026-08-05T00:00:00.000Z",
+    "date": "2026-08-05",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "construyeron",
+      "relojes"
     ]
   },
   {
@@ -6636,7 +6818,7 @@
   },
   {
     "title": "In California, a Plan to Help Wildlife Cross a Busy Freeway",
-    "title_es": "En California, un plan para ayudar a la vida silvestre a cruzar una autopista muy transitada",
+    "title_es": "In California, a Plan to Help Wildlife Cross a Busy Freeway",
     "url": "https://undark.org/2026/06/12/california-wildlife-crossing/",
     "source": "Undark Magazine",
     "published": "2026-06-12T17:50:24.000Z",
@@ -6650,7 +6832,7 @@
   },
   {
     "title": "The relationship recession is even bigger for Gen Z than we thought",
-    "title_es": "La recesión de la relación es aún mayor para la Generación Z de lo que pensábamos",
+    "title_es": "The relationship recession is even bigger for Gen Z than we thought",
     "url": "https://www.newscientist.com/article/2530237-the-relationship-recession-is-even-bigger-for-gen-z-than-we-thought/",
     "source": "New Scientist",
     "published": "2026-06-12T17:00:59.000Z",
@@ -6664,7 +6846,7 @@
   },
   {
     "title": "Astronomers May Have Found Supernova Remnant near Milky Way’s Central Black Hole",
-    "title_es": "Los astrónomos pueden haber encontrado un remanente de supernova cerca del agujero negro central de la Vía Láctea",
+    "title_es": "Astronomers May Have Found Supernova Remnant near Milky Way’s Central Black Hole",
     "url": "https://www.sci.news/astronomy/sagittarius-c-supernova-remnant-14841.html",
     "source": "Sci.News",
     "published": "2026-06-12T15:43:13.000Z",
@@ -6678,7 +6860,7 @@
   },
   {
     "title": "How to sparkle in conversation with strangers",
-    "title_es": "Cómo brillar en una conversación con extraños",
+    "title_es": "How to sparkle in conversation with strangers",
     "url": "https://www.newscientist.com/article/2530034-how-to-sparkle-in-conversation-with-strangers/",
     "source": "New Scientist",
     "published": "2026-06-12T09:00:50.000Z",
@@ -6692,7 +6874,7 @@
   },
   {
     "title": "AI SciBrief as a Gateway to Research: A Framework for Onboarding Students into New Research Areas",
-    "title_es": "AI SciBrief como puerta de entrada a la investigación: un marco para incorporar a los estudiantes a nuevas áreas de investigación",
+    "title_es": "AI SciBrief as a Gateway to Research: A Framework for Onboarding Students into New Research Areas",
     "url": "https://arxiv.org/abs/2606.12413",
     "source": "arXiv",
     "published": "2026-06-12T04:00:00.000Z",
@@ -6790,7 +6972,7 @@
   },
   {
     "title": "New Species of Ancient Bear-Dog Identified in Spain",
-    "title_es": "Nueva especie de oso-perro antiguo identificada en España",
+    "title_es": "New Species of Ancient Bear-Dog Identified in Spain",
     "url": "https://www.sci.news/paleontology/paludocyon-moyasolai-14840.html",
     "source": "Sci.News",
     "published": "2026-06-11T21:46:18.000Z",
@@ -53636,17 +53818,17 @@
     ]
   },
   {
-    "title": "In-class AI usage and university students’ attitudes: The mediating role of perceived learning engagement benefits",
-    "title_es": "Uso de la IA en clase y actitudes de los estudiantes universitarios: el papel mediador de los beneficios percibidos del compromiso con el aprendizaje",
+    "title": "Day-to-day experiences and challenges of long-term warfarin use among patients with prosthetic heart valves at a National Cardiac Institute in Tanzania: A qualitative study",
+    "title_es": "Experiencias cotidianas y desafíos del uso prolongado de warfarina entre pacientes con prótesis valvulares cardíacas en un Instituto Cardíaco Nacional de Tanzania: un estudio cualitativo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "uso",
-      "clase",
-      "actitudes"
+      "experiencias",
+      "cotidianas",
+      "desafíos"
     ]
   },
   {
@@ -115297,6 +115479,34 @@
       "spokes",
       "saturns",
       "ring"
+    ]
+  },
+  {
+    "title": "Nonperturbative effects in triple-differential dijet and Z+jet production at the LHC, by Stefan Gieseke, Maximilian Horzela, Manjit Kaur, Dari Leonardi, Klaus Rabbertz, Aayushi Singla, Cedric Verstege",
+    "title_es": "Nonperturbative effects in triple-differential dijet and Z+jet production at the LHC, by Stefan Gieseke, Maximilian Horzela, Manjit Kaur, Dari Leonardi, Klaus Rabbertz, Aayushi Singla, Cedric Verstege",
+    "url": "https://scipost.org/scipostphys.21.2.033",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "nonperturbative",
+      "effects",
+      "triple-differential"
+    ]
+  },
+  {
+    "title": "New Sharpest Image of the Sun Uncovers Instability",
+    "title_es": "New Sharpest Image of the Sun Uncovers Instability",
+    "url": "https://apod.nasa.gov/apod/image/2608/sunflowers_nso_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "sharpest",
+      "image"
     ]
   }
 ]
