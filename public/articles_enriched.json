@@ -1,5 +1,61 @@
 [
   {
+    "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+    "title_es": "Modelos de lenguaje grande basados en simuladores para el razonamiento causal industrial: uso de herramientas, inyección estructurada y recuperación portátil de plantas para el apoyo a la toma de decisiones de tratamiento de aguas residuales",
+    "url": "https://arxiv.org/abs/2608.05151",
+    "source": "arXiv",
+    "published": "2026-08-07T04:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "simulator-grounded",
+      "large",
+      "language"
+    ]
+  },
+  {
+    "title": "Camels find unlikely home in outback Australia",
+    "title_es": "Los camellos encuentran un hogar improbable en el interior de Australia",
+    "url": "https://phys.org/news/2026-08-camels-home-outback-australia.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "camellos",
+      "encuentran",
+      "hogar"
+    ]
+  },
+  {
+    "title": "Study Points to Sugar, Not Just Meat, as Fuel for Human Brain Evolution",
+    "title_es": "El estudio apunta al azúcar, no solo a la carne, como combustible para la evolución del cerebro humano",
+    "url": "https://www.sci.news/othersciences/anthropology/sugar-human-brain-evolution-14973.html",
+    "source": "Sci.News",
+    "published": "2026-08-06T19:46:17.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "study",
+      "points",
+      "sugar"
+    ]
+  },
+  {
+    "title": "It’s good for the planet to scrap a new petrol car and buy electric",
+    "title_es": "Es bueno para el planeta desechar un nuevo coche de gasolina y comprar eléctrico",
+    "url": "https://www.newscientist.com/article/2583523-its-good-for-the-planet-to-scrap-a-new-petrol-car-and-buy-electric/",
+    "source": "New Scientist",
+    "published": "2026-08-06T18:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "its",
+      "good",
+      "planet"
+    ]
+  },
+  {
     "title": "Towards a New Grammar of Reasoning for Artificial Legal Intelligence and the Mecelle as Its Semantic Protocol",
     "title_es": "Hacia una nueva gramática del razonamiento para la inteligencia jurídica artificial y la mecela como su protocolo semántico",
     "url": "https://arxiv.org/abs/2608.04011",
@@ -67,6 +123,118 @@
       "cambio",
       "climático",
       "contribuyó"
+    ]
+  },
+  {
+    "title": "Learning When to Trust via Selective Context Preference Optimization",
+    "title_es": "Aprender cuándo confiar mediante la optimización selectiva de las preferencias de contexto",
+    "url": "http://arxiv.org/abs/2608.06377v1",
+    "source": "arXiv",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "aprender",
+      "cuándo",
+      "confiar"
+    ]
+  },
+  {
+    "title": "A harrowing tour of Earth’s sacrificial lands",
+    "title_es": "Un recorrido desgarrador por las tierras de sacrificio de la Tierra",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aei8513",
+    "source": "Science.org",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "recorrido",
+      "desgarrador",
+      "por"
+    ]
+  },
+  {
+    "title": "Operational Tropical Cyclone Forecasting with AI",
+    "title_es": "Pronóstico operativo de ciclones tropicales con IA",
+    "url": "https://www.nature.com/articles/s41586-026-10953-2",
+    "source": "Nature",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "pronóstico",
+      "operativo",
+      "ciclones"
+    ]
+  },
+  {
+    "title": "El IAC despliega sus equipos en Palencia y en distintos puntos de la Península para el histórico eclipse solar del 12 de agosto",
+    "title_es": "El IAC despliega sus equipos en Palencia y en distintos puntos de la Península para el histórico eclipse solar del 12 de agosto",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-despliega-sus-equipos-en-palencia-y-en-distintos-puntos-de-la-peninsula-para-el-historico",
+    "source": "IAC",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "despliega",
+      "sus"
+    ]
+  },
+  {
+    "title": "Educators & Teens Get Hands-On With TEMPO Data to Help Investigate Local Air Quality",
+    "title_es": "Educadores y adolescentes utilizan datos TEMPO para ayudar a investigar la calidad del aire local",
+    "url": "https://science.nasa.gov/learning-resources/science-activation/educators-teens-get-hands-on-with-tempo-data-to-help-investigate-local-air-quality/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "educadores",
+      "adolescentes",
+      "utilizan"
+    ]
+  },
+  {
+    "title": "Here’s what the first mRNA flu vaccine could mean for flu season",
+    "title_es": "Esto es lo que podría significar la primera vacuna de ARNm contra la gripe para la temporada de gripe",
+    "url": "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season",
+    "source": "Science News",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "esto",
+      "que",
+      "podría"
+    ]
+  },
+  {
+    "title": "Explainer: What is bioprinting?",
+    "title_es": "Explicador: ¿Qué es la bioimpresión?",
+    "url": "https://www.snexplores.org/article/explainer-what-is-bioprinting",
+    "source": "Science News Explores",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "explicador",
+      "qué",
+      "bioimpresión"
+    ]
+  },
+  {
+    "title": "A drug already used for osteoporosis blocked spinal damage in a new study",
+    "title_es": "Un fármaco ya utilizado para la osteoporosis bloqueó el daño de la columna en un nuevo estudio",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260806051943.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-06T00:00:00.000Z",
+    "date": "2026-08-06",
+    "category": "noticia",
+    "tags": [
+      "fármaco",
+      "utilizado",
+      "osteoporosis"
     ]
   },
   {
@@ -6608,7 +6776,7 @@
   },
   {
     "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
-    "title_es": "Un Método de Transformador Basado en Aprendizaje de Refuerzo Profundo (DRL) para Resolver el Problema de Programación de Taller Abierto",
+    "title_es": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
     "url": "https://arxiv.org/abs/2606.13682",
     "source": "arXiv",
     "published": "2026-06-15T04:00:00.000Z",
@@ -6748,7 +6916,7 @@
   },
   {
     "title": "Honey bees have their own personal flight paths and fly them with stunning precision",
-    "title_es": "Las abejas melíferas tienen sus propias rutas de vuelo personales y las vuelan con una precisión impresionante",
+    "title_es": "Honey bees have their own personal flight paths and fly them with stunning precision",
     "url": "https://www.sciencedaily.com/releases/2026/06/260614011857.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-06-14T21:25:28.000Z",
@@ -6762,7 +6930,7 @@
   },
   {
     "title": "Entomologists Reconstruct Evolutionary History of Millipedes",
-    "title_es": "Los entomólogos reconstruyen la historia evolutiva de los milpiés",
+    "title_es": "Entomologists Reconstruct Evolutionary History of Millipedes",
     "url": "https://www.sci.news/biology/evolutionary-history-millipedes-14842.html",
     "source": "Sci.News",
     "published": "2026-06-14T12:51:23.000Z",
@@ -53818,17 +53986,17 @@
     ]
   },
   {
-    "title": "Day-to-day experiences and challenges of long-term warfarin use among patients with prosthetic heart valves at a National Cardiac Institute in Tanzania: A qualitative study",
-    "title_es": "Experiencias cotidianas y desafíos del uso prolongado de warfarina entre pacientes con prótesis valvulares cardíacas en un Instituto Cardíaco Nacional de Tanzania: un estudio cualitativo",
+    "title": "Post activation performance enhancement effects on countermovement jumps in men and women",
+    "title_es": "Efectos de mejora del rendimiento posterior a la activación en saltos con contramovimiento en hombres y mujeres",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "experiencias",
-      "cotidianas",
-      "desafíos"
+      "efectos",
+      "mejora",
+      "rendimiento"
     ]
   },
   {
@@ -115507,6 +115675,20 @@
       "new",
       "sharpest",
       "image"
+    ]
+  },
+  {
+    "title": "Rubin's COSMOS field",
+    "title_es": "Rubin's COSMOS field",
+    "url": "https://apod.nasa.gov/apod/image/2608/noirlab2618b_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "rubins",
+      "cosmos",
+      "field"
     ]
   }
 ]
