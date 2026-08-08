@@ -1,5 +1,61 @@
 [
   {
+    "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
+    "title_es": "APOD: 8 de agosto de 2026: un momento más complicado para Tempel 2",
+    "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-08T00:00:00.000Z",
+    "date": "2026-08-08",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "agosto",
+      "2026"
+    ]
+  },
+  {
+    "title": "New Troodontid Dinosaur Genus Identified from Fossil Bone Found Decades Ago in New Mexico",
+    "title_es": "Nuevo género de dinosaurio troodóntido identificado a partir de hueso fósil encontrado hace décadas en Nuevo México",
+    "url": "https://www.sci.news/paleontology/dinevenator-robustus-14976.html",
+    "source": "Sci.News",
+    "published": "2026-08-07T20:58:57.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "troodontid",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Postbiotic supplement boosts body’s own GLP-1 and weight loss",
+    "title_es": "El suplemento posbiótico aumenta el propio GLP-1 del cuerpo y la pérdida de peso",
+    "url": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/",
+    "source": "New Scientist",
+    "published": "2026-08-07T13:05:45.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "postbiotic",
+      "supplement",
+      "boosts"
+    ]
+  },
+  {
+    "title": "Book Review: How Wildlife Is Returning to the East",
+    "title_es": "Reseña del libro: Cómo la vida silvestre está regresando al este",
+    "url": "https://undark.org/2026/08/07/book-review-beasts-of-the-east/",
+    "source": "Undark Magazine",
+    "published": "2026-08-07T07:06:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "how"
+    ]
+  },
+  {
     "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
     "title_es": "Modelos de lenguaje grande basados en simuladores para el razonamiento causal industrial: uso de herramientas, inyección estructurada y recuperación portátil de plantas para el apoyo a la toma de decisiones de tratamiento de aguas residuales",
     "url": "https://arxiv.org/abs/2608.05151",
@@ -25,6 +81,76 @@
       "camellos",
       "encuentran",
       "hogar"
+    ]
+  },
+  {
+    "title": "Briefing Chat: Is DNA repair the secret to a long life? Whales and mole rats offer tantalizing hints",
+    "title_es": "Charla informativa: ¿Es la reparación del ADN el secreto para una vida larga? Las ballenas y las ratas topo ofrecen pistas tentadoras",
+    "url": "https://www.nature.com/articles/d41586-026-02488-3",
+    "source": "Nature",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "reparación"
+    ]
+  },
+  {
+    "title": "El Instituto de Astrofísica de Canarias retransmitirá en directo el eclipse solar total desde Palencia a través de su canal oficial",
+    "title_es": "El Instituto de Astrofísica de Canarias retransmitirá en directo el eclipse solar total desde Palencia a través de su canal oficial",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-instituto-de-astrofisica-de-canarias-retransmitira-en-directo-el-eclipse-solar-total-desde-palencia",
+    "source": "IAC",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "instituto",
+      "astrofísica",
+      "canarias"
+    ]
+  },
+  {
+    "title": "Ancient Greek rings may have been forged with iron from meteorites",
+    "title_es": "Los anillos de la antigua Grecia pueden haber sido forjados con hierro de meteoritos",
+    "url": "https://www.sciencenews.org/article/bronze-age-greek-rings-iron-meteorites",
+    "source": "Science News",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "anillos",
+      "antigua",
+      "grecia"
+    ]
+  },
+  {
+    "title": "Scientists tracked 12 people in Antarctica for 10 months—what happened could shape future Mars missions",
+    "title_es": "Los científicos rastrearon a 12 personas en la Antártida durante 10 meses; lo que sucedió podría dar forma a futuras misiones a Marte",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "rastrearon",
+      "personas"
+    ]
+  },
+  {
+    "title": "One million years without sex fails to erase stick insects' unused biological system",
+    "title_es": "Un millón de años sin sexo no logra borrar el sistema biológico no utilizado de los insectos palo",
+    "url": "https://phys.org/news/2026-08-million-years-sex-erase-insects.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "millón",
+      "años",
+      "sin"
     ]
   },
   {
@@ -6636,7 +6762,7 @@
   },
   {
     "title": "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces",
-    "title_es": "Depuración de repetición cero basada en el conocimiento de rastros de LLM multiagente",
+    "title_es": "Knowledge-Based Zero-Replay Debugging of Multi-Agent LLM Traces",
     "url": "https://arxiv.org/abs/2606.14805",
     "source": "arXiv",
     "published": "2026-06-16T04:00:00.000Z",
@@ -6748,7 +6874,7 @@
   },
   {
     "title": "Fossils from Chinese Cave Fill Crucial Gap in History of Gigantopithecus blacki",
-    "title_es": "Los fósiles de una cueva china llenan un vacío crucial en la historia del Gigantopithecus blacki",
+    "title_es": "Fossils from Chinese Cave Fill Crucial Gap in History of Gigantopithecus blacki",
     "url": "https://www.sci.news/paleontology/gigantopithecus-blacki-14847.html",
     "source": "Sci.News",
     "published": "2026-06-15T20:38:45.000Z",
@@ -6762,7 +6888,7 @@
   },
   {
     "title": "We may have finally solved cosmology's chicken-or-the-egg problem",
-    "title_es": "Es posible que finalmente hayamos resuelto el problema del huevo o la gallina de la cosmología",
+    "title_es": "We may have finally solved cosmology's chicken-or-the-egg problem",
     "url": "https://www.newscientist.com/article/2530220-we-may-have-finally-solved-cosmologys-chicken-or-the-egg-problem/",
     "source": "New Scientist",
     "published": "2026-06-15T09:00:57.000Z",
@@ -53986,17 +54112,17 @@
     ]
   },
   {
-    "title": "Post activation performance enhancement effects on countermovement jumps in men and women",
-    "title_es": "Efectos de mejora del rendimiento posterior a la activación en saltos con contramovimiento en hombres y mujeres",
+    "title": "A Transgenic mouse tolerant to syngeneic cancer cells expressing truncated human epidermal growth factor receptor",
+    "title_es": "Un ratón transgénico tolerante a células cancerosas singénicas que expresan un receptor truncado del factor de crecimiento epidérmico humano",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "efectos",
-      "mejora",
-      "rendimiento"
+      "ratón",
+      "transgénico",
+      "tolerante"
     ]
   },
   {
@@ -115689,6 +115815,34 @@
       "rubins",
       "cosmos",
       "field"
+    ]
+  },
+  {
+    "title": "Hidden order in dielectrics: string condensation, solitons, and the charge-vortex duality, by Sergei Khlebnikov",
+    "title_es": "Hidden order in dielectrics: string condensation, solitons, and the charge-vortex duality, by Sergei Khlebnikov",
+    "url": "https://scipost.org/scipostphys.21.2.034",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "hidden",
+      "order",
+      "dielectrics"
+    ]
+  },
+  {
+    "title": "A Messier Moment for Tempel 2",
+    "title_es": "A Messier Moment for Tempel 2",
+    "url": "https://apod.nasa.gov/apod/image/2608/10p_tempel2_globular_m30_20260729_debartlett600c.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "messier",
+      "moment",
+      "tempel"
     ]
   }
 ]
