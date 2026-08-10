@@ -1,5 +1,75 @@
 [
   {
+    "title": "Multimodal Drivers' Emotion Recognition and Safety-Oriented Intervention for Intelligent Transportation Systems",
+    "title_es": "Reconocimiento de emociones de los conductores multimodales e intervención orientada a la seguridad para sistemas de transporte inteligentes",
+    "url": "https://arxiv.org/abs/2608.06378",
+    "source": "arXiv",
+    "published": "2026-08-10T04:00:00.000Z",
+    "date": "2026-08-10",
+    "category": "noticia",
+    "tags": [
+      "multimodal",
+      "drivers",
+      "emotion"
+    ]
+  },
+  {
+    "title": "Liquid Nitrogen May Have Flowed on Pluto’s Surface in Recent Past",
+    "title_es": "El nitrógeno líquido puede haber fluido en la superficie de Plutón en el pasado reciente",
+    "url": "https://www.sci.news/space/liquid-nitrogen-pluto-14977.html",
+    "source": "Sci.News",
+    "published": "2026-08-10T00:25:21.000Z",
+    "date": "2026-08-10",
+    "category": "noticia",
+    "tags": [
+      "liquid",
+      "nitrogen",
+      "may"
+    ]
+  },
+  {
+    "title": "APOD: 2026 August 10 – Three Galaxy Pairs",
+    "title_es": "APOD: 10 de agosto de 2026 – Tres pares de galaxias",
+    "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-10T00:00:00.000Z",
+    "date": "2026-08-10",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "agosto",
+      "2026"
+    ]
+  },
+  {
+    "title": "Western Europe experienced hottest June-July on record: EU monitor",
+    "title_es": "Europa Occidental experimentó el junio-julio más caluroso jamás registrado: observador de la UE",
+    "url": "https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-10T00:00:00.000Z",
+    "date": "2026-08-10",
+    "category": "noticia",
+    "tags": [
+      "europa",
+      "occidental",
+      "experimentó"
+    ]
+  },
+  {
+    "title": "60,000-year-old ostrich eggshell engravings reveal a surprisingly sophisticated human mind",
+    "title_es": "Grabados de cáscaras de huevos de avestruz de hace 60.000 años revelan una mente humana sorprendentemente sofisticada",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260808235013.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-09T00:00:00.000Z",
+    "date": "2026-08-09",
+    "category": "noticia",
+    "tags": [
+      "grabados",
+      "cáscaras",
+      "huevos"
+    ]
+  },
+  {
     "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
     "title_es": "APOD: 8 de agosto de 2026: un momento más complicado para Tempel 2",
     "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2/",
@@ -179,6 +249,20 @@
       "millón",
       "años",
       "sin"
+    ]
+  },
+  {
+    "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+    "title_es": "CreativeInstruct: Enseñanza escalable de LLM para equilibrar la calidad, la creatividad y la diversidad",
+    "url": "http://arxiv.org/abs/2608.07460v1",
+    "source": "arXiv",
+    "published": "2026-08-07T00:00:00.000Z",
+    "date": "2026-08-07",
+    "category": "noticia",
+    "tags": [
+      "creativeinstruct",
+      "enseñanza",
+      "escalable"
     ]
   },
   {
@@ -6762,7 +6846,7 @@
   },
   {
     "title": "Alien messages may have reached Earth without us realizing it",
-    "title_es": "Los mensajes alienígenas pueden haber llegado a la Tierra sin que nos demos cuenta",
+    "title_es": "Alien messages may have reached Earth without us realizing it",
     "url": "https://www.sciencedaily.com/releases/2026/06/260615033851.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-06-16T08:11:57.000Z",
@@ -6776,7 +6860,7 @@
   },
   {
     "title": "Making Sense of Data From Wearable Health Trackers",
-    "title_es": "Dar sentido a los datos de los rastreadores de salud portátiles",
+    "title_es": "Making Sense of Data From Wearable Health Trackers",
     "url": "https://undark.org/2026/06/16/opinion-wearable-health-tracker-data/",
     "source": "Undark Magazine",
     "published": "2026-06-16T07:41:00.000Z",
@@ -115884,6 +115968,20 @@
     "tags": [
       "contemplating",
       "sun"
+    ]
+  },
+  {
+    "title": "Three Galaxy Pairs",
+    "title_es": "Three Galaxy Pairs",
+    "url": "https://apod.nasa.gov/apod/image/2608/three3galaxypairs_sampaio_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "three",
+      "galaxy",
+      "pairs"
     ]
   }
 ]
