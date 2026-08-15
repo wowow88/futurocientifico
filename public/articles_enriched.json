@@ -1,5 +1,61 @@
 [
   {
+    "title": "APOD: 2026 August 15 – Bright Perseids from Sweden",
+    "title_es": "APOD: 15 de agosto de 2026 – Perseidas brillantes de Suecia",
+    "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-15T00:00:00.000Z",
+    "date": "2026-08-15",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "agosto",
+      "2026"
+    ]
+  },
+  {
+    "title": "After commercial whaling nearly erased them, blue and fin whales are slowly reclaiming the southeast Atlantic",
+    "title_es": "Después de que la caza comercial de ballenas casi las borrara, las ballenas azul y de aleta están recuperando lentamente el Atlántico sureste",
+    "url": "https://phys.org/news/2026-04-commercial-whaling-erased-blue-fin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-15T00:00:00.000Z",
+    "date": "2026-08-15",
+    "category": "noticia",
+    "tags": [
+      "después",
+      "que",
+      "caza"
+    ]
+  },
+  {
+    "title": "Ornithologists Discover New Bird Species in Brazil",
+    "title_es": "Ornitólogos descubren nuevas especies de aves en Brasil",
+    "url": "https://www.sci.news/biology/chamaeza-baturitensis-14994.html",
+    "source": "Sci.News",
+    "published": "2026-08-14T23:23:37.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "ornithologists",
+      "discover",
+      "new"
+    ]
+  },
+  {
+    "title": "Test moderators use AI-generated writing to judge literacy standards",
+    "title_es": "Los moderadores de las pruebas utilizan la escritura generada por IA para juzgar los estándares de alfabetización",
+    "url": "https://www.newscientist.com/article/2584776-test-moderators-use-ai-generated-writing-to-judge-literacy-standards/",
+    "source": "New Scientist",
+    "published": "2026-08-14T14:28:46.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "test",
+      "moderators",
+      "use"
+    ]
+  },
+  {
     "title": "The AI Accountability Ecosystem in the Era of Language Models",
     "title_es": "El ecosistema de rendición de cuentas de la IA en la era de los modelos lingüísticos",
     "url": "https://arxiv.org/abs/2608.12320",
@@ -39,6 +95,48 @@
       "por",
       "qué",
       "hierba"
+    ]
+  },
+  {
+    "title": "Author Correction: Cell intrinsic immunity spreads to bystander cells via the intercellular transfer of cGAMP",
+    "title_es": "Corrección del autor: la inmunidad celular intrínseca se propaga a las células espectadoras mediante la transferencia intercelular de cGAMP",
+    "url": "https://www.nature.com/articles/s41586-026-11023-3",
+    "source": "Nature",
+    "published": "2026-08-14T00:00:00.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "inmunidad"
+    ]
+  },
+  {
+    "title": "How a brutal drought may have helped unleash yellow fever in Brazil",
+    "title_es": "Cómo una sequía brutal pudo haber ayudado a desencadenar la fiebre amarilla en Brasil",
+    "url": "https://www.sciencenews.org/article/drought-yellow-fever-outbreak-brazil",
+    "source": "Science News",
+    "published": "2026-08-14T00:00:00.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "cómo",
+      "sequía",
+      "brutal"
+    ]
+  },
+  {
+    "title": "A stress hormone may help the brain repair itself",
+    "title_es": "Una hormona del estrés puede ayudar al cerebro a repararse a sí mismo",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-14T00:00:00.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "hormona",
+      "estrés",
+      "puede"
     ]
   },
   {
@@ -6860,7 +6958,7 @@
   },
   {
     "title": "Supporting Design Decisions in Rule-Based Model Transformations",
-    "title_es": "Apoyo a las decisiones de diseño en las transformaciones de modelos basados en reglas",
+    "title_es": "Supporting Design Decisions in Rule-Based Model Transformations",
     "url": "https://arxiv.org/abs/2606.19342",
     "source": "arXiv",
     "published": "2026-06-19T04:00:00.000Z",
@@ -54742,17 +54840,17 @@
     ]
   },
   {
-    "title": "Endophytic Aspergillus fumigatus modulates growth, oxidative stress, and cadmium accumulation in okra under salinity and heavy-metal stress",
-    "title_es": "El endofítico Aspergillus fumigatus modula el crecimiento, el estrés oxidativo y la acumulación de cadmio en la okra bajo estrés por salinidad y metales pesados.",
+    "title": "Tuberculosis Knowledge, Attitude, and Practice (TB-KAP) among the volunteers: Findings from community-based intervention training outcome in Tribal Hard-to-Reach Areas in Manipur",
+    "title_es": "Conocimiento, actitud y práctica sobre la tuberculosis (TB-KAP) entre los voluntarios: hallazgos del resultado de la capacitación de intervención comunitaria en áreas tribales de difícil acceso en Manipur",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "endofítico",
-      "aspergillus",
-      "fumigatus"
+      "conocimiento",
+      "actitud",
+      "práctica"
     ]
   },
   {
@@ -116570,6 +116668,34 @@
       "total",
       "solar",
       "eclipse"
+    ]
+  },
+  {
+    "title": "Further aspects of supersymmetric Virasoro minimal strings, by Clifford V. Johnson",
+    "title_es": "Further aspects of supersymmetric Virasoro minimal strings, by Clifford V. Johnson",
+    "url": "http://scipost.org/scipostphys.21.2.040",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "further",
+      "aspects",
+      "supersymmetric"
+    ]
+  },
+  {
+    "title": "Bright Perseids from Sweden",
+    "title_es": "Bright Perseids from Sweden",
+    "url": "https://apod.nasa.gov/apod/image/2608/perseidsapod_p-mheden.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bright",
+      "perseids",
+      "sweden"
     ]
   }
 ]
