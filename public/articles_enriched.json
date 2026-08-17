@@ -1,5 +1,33 @@
 [
   {
+    "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
+    "title_es": "L-FNO: operador neuronal de Fourier lorentziano para dinámicas de eventos estocásticos",
+    "url": "https://arxiv.org/abs/2608.13562",
+    "source": "arXiv",
+    "published": "2026-08-17T04:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "l-fno",
+      "lorentzian",
+      "fourier"
+    ]
+  },
+  {
+    "title": "Giant crocodylians dominated the food chain in Miocene South America, fossil evidence suggests",
+    "title_es": "Los cocodrilos gigantes dominaron la cadena alimentaria en el Mioceno de América del Sur, según sugiere la evidencia fósil",
+    "url": "https://phys.org/news/2026-08-giant-crocodylians-dominated-food-chain.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "cocodrilos",
+      "gigantes",
+      "dominaron"
+    ]
+  },
+  {
     "title": "APOD: 2026 August 16 – Milky Way over Yellowstone",
     "title_es": "APOD: 16 de agosto de 2026 – Vía Láctea sobre Yellowstone",
     "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-16-milky-way-over-yellowstone/",
@@ -25,6 +53,20 @@
       "naturaleza",
       "pasado",
       "miles"
+    ]
+  },
+  {
+    "title": "Scientists reveal why walking gets so much harder with age",
+    "title_es": "Los científicos revelan por qué caminar se vuelve mucho más difícil con la edad",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260815065014.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-16T00:00:00.000Z",
+    "date": "2026-08-16",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "revelan",
+      "por"
     ]
   },
   {
@@ -192,6 +234,20 @@
     "tags": [
       "nuevos",
       "productos"
+    ]
+  },
+  {
+    "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+    "title_es": "Decodificando el pasado: un marco de aprendizaje profundo consciente de la incertidumbre para la atribución de sexo en plantillas de manos prehistóricas",
+    "url": "http://arxiv.org/abs/2608.14539v1",
+    "source": "arXiv",
+    "published": "2026-08-14T00:00:00.000Z",
+    "date": "2026-08-14",
+    "category": "noticia",
+    "tags": [
+      "decodificando",
+      "pasado",
+      "marco"
     ]
   },
   {
@@ -6999,7 +7055,7 @@
   },
   {
     "title": "Interview: California Lawmaker Calls for a Peptide Working Group",
-    "title_es": "Entrevista: Legislador de California pide un grupo de trabajo sobre péptidos",
+    "title_es": "Interview: California Lawmaker Calls for a Peptide Working Group",
     "url": "https://undark.org/2026/06/19/interview-joe-patterson-peptides/",
     "source": "Undark Magazine",
     "published": "2026-06-19T07:43:00.000Z",
@@ -116765,6 +116821,20 @@
       "milky",
       "way",
       "over"
+    ]
+  },
+  {
+    "title": "A Golden Corona Eclipse",
+    "title_es": "A Golden Corona Eclipse",
+    "url": "https://apod.nasa.gov/apod/image/2608/goldcorona_santos_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "golden",
+      "corona",
+      "eclipse"
     ]
   }
 ]
