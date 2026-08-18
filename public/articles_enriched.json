@@ -1,5 +1,61 @@
 [
   {
+    "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+    "title_es": "FLOP frente al trabajo real: la importancia de la replicación en la evaluación de la eficiencia de la IA",
+    "url": "https://arxiv.org/abs/2608.14550",
+    "source": "arXiv",
+    "published": "2026-08-18T04:00:00.000Z",
+    "date": "2026-08-18",
+    "category": "noticia",
+    "tags": [
+      "flops",
+      "real",
+      "work"
+    ]
+  },
+  {
+    "title": "Ancient Egyptian tomb shows how burial trends changed over hundreds of years",
+    "title_es": "La tumba del antiguo Egipto muestra cómo cambiaron las tendencias de los entierros a lo largo de cientos de años",
+    "url": "https://phys.org/news/2026-08-ancient-egyptian-tomb-burial-trends.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-18T00:00:00.000Z",
+    "date": "2026-08-18",
+    "category": "noticia",
+    "tags": [
+      "tumba",
+      "antiguo",
+      "egipto"
+    ]
+  },
+  {
+    "title": "Denisovans Were Surprisingly Tall, New Fossils from Taiwan Suggest",
+    "title_es": "Los denisovanos eran sorprendentemente altos, sugieren nuevos fósiles de Taiwán",
+    "url": "https://www.sci.news/othersciences/anthropology/tall-denisovans-14999.html",
+    "source": "Sci.News",
+    "published": "2026-08-17T21:37:35.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "denisovans",
+      "were",
+      "surprisingly"
+    ]
+  },
+  {
+    "title": "Britain’s only desalination plant remains idle during drought",
+    "title_es": "La única planta desalinizadora de Gran Bretaña permanece inactiva durante la sequía",
+    "url": "https://www.newscientist.com/article/2585005-britains-only-desalination-plant-remains-idle-during-drought/",
+    "source": "New Scientist",
+    "published": "2026-08-17T15:48:20.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "britains",
+      "only",
+      "desalination"
+    ]
+  },
+  {
     "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
     "title_es": "L-FNO: operador neuronal de Fourier lorentziano para dinámicas de eventos estocásticos",
     "url": "https://arxiv.org/abs/2608.13562",
@@ -25,6 +81,104 @@
       "cocodrilos",
       "gigantes",
       "dominaron"
+    ]
+  },
+  {
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "title_es": "No deje caer el bastón: manipulación de robots a largo plazo mediante exploración de subtareas agentes y memoria consciente de la transición",
+    "url": "http://arxiv.org/abs/2608.16889v1",
+    "source": "arXiv",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "deje",
+      "caer",
+      "bastón"
+    ]
+  },
+  {
+    "title": "Positional isomerisation of pyridine via nitrogen transposition",
+    "title_es": "Isomerización posicional de piridina mediante transposición de nitrógeno.",
+    "url": "https://www.nature.com/articles/s41586-026-11006-4",
+    "source": "Nature",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "isomerización",
+      "posicional",
+      "piridina"
+    ]
+  },
+  {
+    "title": "The CNIC at the European Society of Cardiology Congress 2026",
+    "title_es": "El CNIC en el Congreso de la Sociedad Europea de Cardiología 2026",
+    "url": "https://www.cnic.es/es/node/243948",
+    "source": "CNIC",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "european",
+      "society"
+    ]
+  },
+  {
+    "title": "El IAC y la ULL participan en el hallazgo del Hubble que desvela una de las primeras fusiones de la Vía Láctea",
+    "title_es": "El IAC y la ULL participan en el hallazgo del Hubble que desvela una de las primeras fusiones de la Vía Láctea",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-participan-en-el-hallazgo-del-hubble-que-desvela-una-de-las-primeras-fusiones-de-la",
+    "source": "IAC",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "ull",
+      "participan"
+    ]
+  },
+  {
+    "title": "Snail slime does many jobs thanks to calcium",
+    "title_es": "La baba de caracol cumple muchas funciones gracias al calcio",
+    "url": "https://www.sciencenews.org/article/snail-slime-mucus-many-jobs-calcium",
+    "source": "Science News",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "baba",
+      "caracol",
+      "cumple"
+    ]
+  },
+  {
+    "title": "Scientists Say: Phenology",
+    "title_es": "Los científicos dicen: fenología",
+    "url": "https://www.snexplores.org/article/scientists-say-phenology-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "dicen",
+      "fenología"
+    ]
+  },
+  {
+    "title": "Tiny 1.7-billion-year-old fossils could reveal how complex life began",
+    "title_es": "Pequeños fósiles de 1.700 millones de años podrían revelar cómo comenzó la vida compleja",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260815064811.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-17T00:00:00.000Z",
+    "date": "2026-08-17",
+    "category": "noticia",
+    "tags": [
+      "pequeños",
+      "fósiles",
+      "1700"
     ]
   },
   {
@@ -6915,7 +7069,7 @@
   },
   {
     "title": "June y Sadelain, ‘padres’ de la inmunoterapia con células CAR-T, premiados con el Fronteras del Conocimiento",
-    "title_es": "June y Sadelain, ‘padres’ de la inmunoterapia con células CAR-T, premiados con las Fronteras del Conocimiento",
+    "title_es": "June y Sadelain, ‘padres’ de la inmunoterapia con células CAR-T, premiados con el Fronteras del Conocimiento",
     "url": "https://www.cnio.es/noticias/june-y-sadelain-padres-de-la-inmunoterapia-con-celulas-car-t-premiados-con-el-fronteras-del-conocimiento/",
     "source": "CNIO",
     "published": "2026-06-22T00:00:00.000Z",
@@ -7013,7 +7167,7 @@
   },
   {
     "title": "113-Million-Year-Old Pterosaur Fossil Reveals What Flying Reptiles Ate",
-    "title_es": "Fósil de pterosaurio de 113 millones de años revela lo que comieron los reptiles voladores",
+    "title_es": "113-Million-Year-Old Pterosaur Fossil Reveals What Flying Reptiles Ate",
     "url": "https://www.sci.news/paleontology/anhanguerid-pterosaur-wing-14860.html",
     "source": "Sci.News",
     "published": "2026-06-19T22:36:27.000Z",
@@ -7027,7 +7181,7 @@
   },
   {
     "title": "Faecal transplant makes the brains of old mice act young again",
-    "title_es": "El trasplante fecal hace que los cerebros de ratones viejos vuelvan a actuar jóvenes",
+    "title_es": "Faecal transplant makes the brains of old mice act young again",
     "url": "https://www.newscientist.com/article/2531241-faecal-transplant-makes-the-brains-of-old-mice-act-young-again/",
     "source": "New Scientist",
     "published": "2026-06-19T17:48:29.000Z",
@@ -7041,7 +7195,7 @@
   },
   {
     "title": "We've found a mysterious substance on Titan and Pluto",
-    "title_es": "Hemos encontrado una sustancia misteriosa en Titán y Plutón",
+    "title_es": "We've found a mysterious substance on Titan and Pluto",
     "url": "https://www.newscientist.com/article/2531107-weve-found-a-mysterious-substance-on-titan-and-pluto/",
     "source": "New Scientist",
     "published": "2026-06-19T17:00:01.000Z",
@@ -54951,17 +55105,17 @@
     ]
   },
   {
-    "title": "Tuberculosis Knowledge, Attitude, and Practice (TB-KAP) among the volunteers: Findings from community-based intervention training outcome in Tribal Hard-to-Reach Areas in Manipur",
-    "title_es": "Conocimiento, actitud y práctica sobre la tuberculosis (TB-KAP) entre los voluntarios: hallazgos del resultado de la capacitación de intervención comunitaria en áreas tribales de difícil acceso en Manipur",
+    "title": "Relationship of patellar tendon micromorphology with body anthropometrics and lower-limb range of motion in volleyball athletes",
+    "title_es": "Relación de la micromorfología del tendón rotuliano con la antropometría corporal y el rango de movimiento de las extremidades inferiores en deportistas de voleibol.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "conocimiento",
-      "actitud",
-      "práctica"
+      "relación",
+      "micromorfología",
+      "tendón"
     ]
   },
   {
@@ -116835,6 +116989,33 @@
       "golden",
       "corona",
       "eclipse"
+    ]
+  },
+  {
+    "title": "Semi-universality of CFT$_d$ entropy at large spin, by Harsh Anand, Nathan Benjamin, Vipul Kumar, Shiraz Minwalla, Jyotirmoy Mukherjee, Sridip Pal, Asikur Rahaman",
+    "title_es": "Semi-universality of CFT$_d$ entropy at large spin, by Harsh Anand, Nathan Benjamin, Vipul Kumar, Shiraz Minwalla, Jyotirmoy Mukherjee, Sridip Pal, Asikur Rahaman",
+    "url": "http://scipost.org/scipostphys.21.2.042",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "semi-universality",
+      "cftd",
+      "entropy"
+    ]
+  },
+  {
+    "title": "Perseids from Perseus",
+    "title_es": "Perseids from Perseus",
+    "url": "https://apod.nasa.gov/apod/image/2608/perseids_karuk_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "perseids",
+      "perseus"
     ]
   }
 ]
