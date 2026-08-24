@@ -1,5 +1,33 @@
 [
   {
+    "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+    "title_es": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+    "url": "https://arxiv.org/abs/2608.20341",
+    "source": "arXiv",
+    "published": "2026-08-24T04:00:00.000Z",
+    "date": "2026-08-24",
+    "category": "noticia",
+    "tags": [
+      "sdad",
+      "spec-driven",
+      "agentic"
+    ]
+  },
+  {
+    "title": "What Lake Bonneville Left Behind",
+    "title_es": "Lo que dejó el lago Bonneville",
+    "url": "https://science.nasa.gov/earth/earth-observatory/what-lake-bonneville-left-behind/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-24T00:00:00.000Z",
+    "date": "2026-08-24",
+    "category": "noticia",
+    "tags": [
+      "que",
+      "dejó",
+      "lago"
+    ]
+  },
+  {
     "title": "Black holes keep tearing these stars apart, but they survive",
     "title_es": "Los agujeros negros siguen destrozando estas estrellas, pero sobreviven",
     "url": "https://www.sciencedaily.com/releases/2026/08/260822015119.htm",
@@ -11,6 +39,34 @@
       "agujeros",
       "negros",
       "siguen"
+    ]
+  },
+  {
+    "title": "Experimental compound helps burn fat without muscle loss",
+    "title_es": "Un compuesto experimental ayuda a quemar grasa sin perder masa muscular",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260823014953.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-23T00:00:00.000Z",
+    "date": "2026-08-23",
+    "category": "noticia",
+    "tags": [
+      "compuesto",
+      "experimental",
+      "ayuda"
+    ]
+  },
+  {
+    "title": "Protein degradation rate helps explain why humans develop more slowly than mice",
+    "title_es": "La tasa de degradación de proteínas ayuda a explicar por qué los humanos se desarrollan más lentamente que los ratones",
+    "url": "https://phys.org/news/2026-08-protein-degradation-humans-slowly-mice.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-23T00:00:00.000Z",
+    "date": "2026-08-23",
+    "category": "noticia",
+    "tags": [
+      "tasa",
+      "degradación",
+      "proteínas"
     ]
   },
   {
@@ -192,6 +248,20 @@
       "naufragio",
       "romano",
       "2200"
+    ]
+  },
+  {
+    "title": "Primal Acceleration of Newton's Method",
+    "title_es": "Aceleración primaria del método de Newton",
+    "url": "http://arxiv.org/abs/2608.21359v1",
+    "source": "arXiv",
+    "published": "2026-08-21T00:00:00.000Z",
+    "date": "2026-08-21",
+    "category": "noticia",
+    "tags": [
+      "aceleración",
+      "primaria",
+      "método"
     ]
   },
   {
@@ -7110,7 +7180,7 @@
   },
   {
     "title": "The race to understand how and when Thwaites glacier will collapse",
-    "title_es": "La carrera por entender cómo y cuándo colapsará el glaciar Thwaites",
+    "title_es": "The race to understand how and when Thwaites glacier will collapse",
     "url": "https://www.newscientist.com/article/2526630-the-race-to-understand-how-and-when-thwaites-glacier-will-collapse/",
     "source": "New Scientist",
     "published": "2026-06-25T15:59:05.000Z",
@@ -117771,6 +117841,20 @@
       "cassini",
       "approaches",
       "saturn"
+    ]
+  },
+  {
+    "title": "Comet 220P in Outburst",
+    "title_es": "Comet 220P in Outburst",
+    "url": "https://apod.nasa.gov/apod/image/2608/comet220p_sa_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "220p",
+      "outburst"
     ]
   }
 ]
