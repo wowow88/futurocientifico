@@ -1,5 +1,75 @@
 [
   {
+    "title": "Whose Psychiatry Was Summoned? A Clinical Response to the Psychodynamic Assessment of Claude Mythos Preview",
+    "title_es": "¿De quién fue convocada la psiquiatría? Una respuesta clínica a la evaluación psicodinámica de Claude Mythos Preview",
+    "url": "https://arxiv.org/abs/2608.23567",
+    "source": "arXiv",
+    "published": "2026-08-26T04:00:00.000Z",
+    "date": "2026-08-26",
+    "category": "noticia",
+    "tags": [
+      "whose",
+      "psychiatry",
+      "was"
+    ]
+  },
+  {
+    "title": "Three forgotten kings could rewrite the history of ancient Assyria",
+    "title_es": "Tres reyes olvidados podrían reescribir la historia de la antigua Asiria",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260824065549.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-26T00:00:00.000Z",
+    "date": "2026-08-26",
+    "category": "noticia",
+    "tags": [
+      "three",
+      "forgotten",
+      "kings"
+    ]
+  },
+  {
+    "title": "Even low-level traffic noise can reduce birdsong's stress-relieving effects",
+    "title_es": "Incluso el ruido del tráfico de bajo nivel puede reducir los efectos de alivio del estrés del canto de los pájaros",
+    "url": "https://phys.org/news/2026-08-traffic-noise-birdsong-stress-relieving.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-26T00:00:00.000Z",
+    "date": "2026-08-26",
+    "category": "noticia",
+    "tags": [
+      "even",
+      "low-level",
+      "traffic"
+    ]
+  },
+  {
+    "title": "Scientists Reconstruct Sound of Jurassic Insects",
+    "title_es": "Científicos reconstruyen el sonido de insectos jurásicos",
+    "url": "https://www.sci.news/paleontology/jurassic-insect-sounds-15017.html",
+    "source": "Sci.News",
+    "published": "2026-08-25T23:31:08.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "reconstruct",
+      "sound"
+    ]
+  },
+  {
+    "title": "See the stunning contenders for the Wildlife Photographer of the Year",
+    "title_es": "Descubre a los impresionantes aspirantes al premio Fotógrafo de vida silvestre del año",
+    "url": "https://www.newscientist.com/article/2585388-see-the-stunning-contenders-for-the-wildlife-photographer-of-the-year/",
+    "source": "New Scientist",
+    "published": "2026-08-25T23:01:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "see",
+      "stunning",
+      "contenders"
+    ]
+  },
+  {
     "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
     "title_es": "KVBoost: reutilización de caché de valor clave a nivel de fragmento con recalculación guiada por desviación para una inferencia eficiente del modelo de lenguaje grande",
     "url": "https://arxiv.org/abs/2608.21362",
@@ -25,6 +95,76 @@
       "access",
       "bilingual",
       "education"
+    ]
+  },
+  {
+    "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+    "title_es": "Evolución de la memoria de trabajo experiencial recursiva para arneses de agente Long-Horizon",
+    "url": "http://arxiv.org/abs/2608.24876v1",
+    "source": "arXiv",
+    "published": "2026-08-25T00:00:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "recursive",
+      "experiential-working",
+      "memory"
+    ]
+  },
+  {
+    "title": "Addendum: Sea level much higher than assumed in most coastal hazard assessments",
+    "title_es": "Anexo: El nivel del mar es mucho más alto de lo que se supone en la mayoría de las evaluaciones de riesgos costeros",
+    "url": "https://www.nature.com/articles/s41586-026-11017-1",
+    "source": "Nature",
+    "published": "2026-08-25T00:00:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "addendum",
+      "sea",
+      "level"
+    ]
+  },
+  {
+    "title": "El telescopio del IAC ATLAS-Teide descubre un asteroide de 10 metros de diámetro que pasó ‘rozando’ la Tierra el 12 de agosto",
+    "title_es": "El telescopio del IAC ATLAS-Teide descubre un asteroide de 10 metros de diámetro que pasó ‘rozando’ la Tierra el 12 de agosto",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-telescopio-del-iac-atlas-teide-descubre-un-asteroide-de-10-metros-de-diametro-que-paso-rozando-la",
+    "source": "IAC",
+    "published": "2026-08-25T00:00:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "telescopio",
+      "iac",
+      "atlas-teide"
+    ]
+  },
+  {
+    "title": "A new cancer vaccine may keep melanoma from coming back",
+    "title_es": "Una nueva vacuna contra el cáncer puede evitar que el melanoma regrese",
+    "url": "https://www.sciencenews.org/article/cancer-vaccine-melanoma-treatment-mrna",
+    "source": "Science News",
+    "published": "2026-08-25T00:00:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "cancer",
+      "vaccine"
+    ]
+  },
+  {
+    "title": "Frozen poop reveals Ice Age squirrels’ ecosystem",
+    "title_es": "Caca congelada revela el ecosistema de ardillas de la Edad de Hielo",
+    "url": "https://www.snexplores.org/article/ice-age-squirrel-poop-ecosystem",
+    "source": "Science News Explores",
+    "published": "2026-08-25T00:00:00.000Z",
+    "date": "2026-08-25",
+    "category": "noticia",
+    "tags": [
+      "frozen",
+      "poop",
+      "reveals"
     ]
   },
   {
@@ -6592,7 +6732,7 @@
   },
   {
     "title": "83-Million-Year-Old Fossil Rewrites Timeline of Antarctica’s First Dinosaur Discovery",
-    "title_es": "Un fósil de 83 millones de años reescribe la cronología del primer descubrimiento de dinosaurios en la Antártida",
+    "title_es": "83-Million-Year-Old Fossil Rewrites Timeline of Antarctica’s First Dinosaur Discovery",
     "url": "https://www.sci.news/paleontology/antarctic-titanosaur-14888.html",
     "source": "Sci.News",
     "published": "2026-07-01T21:06:10.000Z",
@@ -6606,7 +6746,7 @@
   },
   {
     "title": "Do you want your underwear with added probiotics?",
-    "title_es": "¿Quieres tu ropa interior con probióticos añadidos?",
+    "title_es": "Do you want your underwear with added probiotics?",
     "url": "https://www.newscientist.com/article/mg27136022-300-do-you-want-your-underwear-with-added-probiotics/",
     "source": "New Scientist",
     "published": "2026-07-01T18:00:00.000Z",
@@ -6620,7 +6760,7 @@
   },
   {
     "title": "ASR-Agnostic Multimodal Spectrotemporal Modeling for Early Dementia Detection",
-    "title_es": "Modelado Espectrotemporal Multimodal de ASR-Agnostic para la Detección Temprana de la Demencia",
+    "title_es": "ASR-Agnostic Multimodal Spectrotemporal Modeling for Early Dementia Detection",
     "url": "https://arxiv.org/abs/2606.30646",
     "source": "arXiv",
     "published": "2026-07-01T04:00:00.000Z",
@@ -6676,7 +6816,7 @@
   },
   {
     "title": "Circulation: Researchers Identify a Key Mechanism Driving Coronary Damage in Kawasaki Disease",
-    "title_es": "Circulación: los investigadores identifican un mecanismo clave que impulsa el daño coronario en la enfermedad de Kawasaki",
+    "title_es": "Circulation: Researchers Identify a Key Mechanism Driving Coronary Damage in Kawasaki Disease",
     "url": "https://www.cnic.es/es/node/243260",
     "source": "CNIC",
     "published": "2026-07-01T00:00:00.000Z",
@@ -6746,7 +6886,7 @@
   },
   {
     "title": "Fossils from German Quarry Reveal New Subspecies of European Leopard",
-    "title_es": "Fósiles de cantera alemana revelan nueva subespecie de leopardo europeo",
+    "title_es": "Fossils from German Quarry Reveal New Subspecies of European Leopard",
     "url": "https://www.sci.news/paleontology/panthera-pardus-burgtonnae-14883.html",
     "source": "Sci.News",
     "published": "2026-06-30T21:54:52.000Z",
@@ -6760,7 +6900,7 @@
   },
   {
     "title": "Scientists discover a completely different way to fight viruses",
-    "title_es": "Los científicos descubren una forma completamente diferente de combatir los virus",
+    "title_es": "Scientists discover a completely different way to fight viruses",
     "url": "https://www.sciencedaily.com/releases/2026/06/260630020534.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-06-30T20:18:00.000Z",
@@ -6774,7 +6914,7 @@
   },
   {
     "title": "The world's fastest spider tops 3.5 metres per second",
-    "title_es": "Las cimas de araña más rápidas del mundo a 3,5 metros por segundo",
+    "title_es": "The world's fastest spider tops 3.5 metres per second",
     "url": "https://www.newscientist.com/article/2532086-the-worlds-fastest-spider-tops-3-5-metres-per-second/",
     "source": "New Scientist",
     "published": "2026-06-30T18:00:57.000Z",
@@ -6788,7 +6928,7 @@
   },
   {
     "title": "On the Necessity of a Liquid Substrate for Mesh Intelligence",
-    "title_es": "Sobre la necesidad de un sustrato líquido para la inteligencia de malla",
+    "title_es": "On the Necessity of a Liquid Substrate for Mesh Intelligence",
     "url": "https://arxiv.org/abs/2606.28413",
     "source": "arXiv",
     "published": "2026-06-30T04:00:00.000Z",
@@ -6858,7 +6998,7 @@
   },
   {
     "title": "Marina Ruiz Castell: \"Existe una tendencia a diseñar soluciones desde arriba, sin tener en cuenta las necesidades reales de las personas\"",
-    "title_es": "Marina Ruiz Castell: “Existe una tendencia a diseñar soluciones desde arriba, sin tener en cuenta las necesidades reales de las personas”",
+    "title_es": "Marina Ruiz Castell: \"Existe una tendencia a diseñar soluciones desde arriba, sin tener en cuenta las necesidades reales de las personas\"",
     "url": "https://www.cnic.es/es/noticias/marina-ruiz-castell-existe-tendencia-disenar-soluciones-desde-arriba-sin-tener-cuenta",
     "source": "CNIC",
     "published": "2026-06-30T00:00:00.000Z",
@@ -55972,17 +56112,17 @@
     ]
   },
   {
-    "title": "Agreement of keratometry measurements for toric IOL planning in routine clinical practice: KR-800, IOLMaster 500, and Pentacam HR",
-    "title_es": "",
+    "title": "Can different exercise modalities improve esports performance? Study protocol for a 12-week three-arm randomized controlled trial",
+    "title_es": "¿Pueden las diferentes modalidades de ejercicio mejorar el rendimiento en los deportes electrónicos? Protocolo de estudio para un ensayo controlado aleatorio de tres brazos de 12 semanas de duración",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "agreement",
-      "keratometry",
-      "measurements"
+      "pueden",
+      "diferentes",
+      "modalidades"
     ]
   },
   {
@@ -118037,6 +118177,34 @@
       "earths",
       "shadow",
       "visualized"
+    ]
+  },
+  {
+    "title": "Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques, by Xavier Waintal, Chen-How Huang, Christoph W. Groth",
+    "title_es": "Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques, by Xavier Waintal, Chen-How Huang, Christoph W. Groth",
+    "url": "http://scipost.org/scipostphyslectnotes.133",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "who",
+      "can",
+      "compete"
+    ]
+  },
+  {
+    "title": "JWST Images The Lion's Head Nebula",
+    "title_es": "JWST Images The Lion's Head Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "jwst",
+      "images",
+      "lions"
     ]
   }
 ]
