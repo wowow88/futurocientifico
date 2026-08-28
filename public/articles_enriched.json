@@ -1,5 +1,145 @@
 [
   {
+    "title": "CERN Physicists Hunting for Pairs of Higgs Bosons",
+    "title_es": "Físicos del CERN buscan pares de bosones de Higgs",
+    "url": "https://www.sci.news/physics/double-higgs-production-15025.html",
+    "source": "Sci.News",
+    "published": "2026-08-28T17:19:20.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "cern",
+      "physicists",
+      "hunting"
+    ]
+  },
+  {
+    "title": "Healed fang wound found on 520-million-year-old apex predator",
+    "title_es": "Herida de colmillo curada encontrada en un depredador del ápice de 520 millones de años",
+    "url": "https://www.newscientist.com/article/2586883-healed-fang-wound-found-on-520-million-year-old-apex-predator/",
+    "source": "New Scientist",
+    "published": "2026-08-28T14:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "healed",
+      "fang",
+      "wound"
+    ]
+  },
+  {
+    "title": "Book Review: Our Conflicted Relationship with the Sun",
+    "title_es": "Reseña del libro: Nuestra relación conflictiva con el sol",
+    "url": "https://undark.org/2026/08/28/book-review-in-defense-of-sunlight/",
+    "source": "Undark Magazine",
+    "published": "2026-08-28T07:42:24.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "our"
+    ]
+  },
+  {
+    "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+    "title_es": "EduRiskX: Un Marco Neuro-Simbólico con Razonamiento F-Lógico para la Predicción Temprana del Riesgo Académico",
+    "url": "https://arxiv.org/abs/2608.26107",
+    "source": "arXiv",
+    "published": "2026-08-28T04:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "eduriskx",
+      "neuro-symbolic",
+      "framework"
+    ]
+  },
+  {
+    "title": "Briefing Chat: How Dolly Parton left her mark on science",
+    "title_es": "Charla informativa: cómo Dolly Parton dejó su huella en la ciencia",
+    "url": "https://www.nature.com/articles/d41586-026-02732-w",
+    "source": "Nature",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "cómo"
+    ]
+  },
+  {
+    "title": "Confirman desde el Observatorio del Teide un sistema con un posible mundo de lava y otro potencialmente habitable",
+    "title_es": "Confirman desde el Observatorio del Teide un sistema con un posible mundo de lava y otro potencialmente habitable",
+    "url": "https://www.iac.es/es/divulgacion/noticias/confirman-desde-el-observatorio-del-teide-un-sistema-con-un-posible-mundo-de-lava-y-otro-potencialmente",
+    "source": "IAC",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "confirman",
+      "desde",
+      "observatorio"
+    ]
+  },
+  {
+    "title": "Your skin chemistry may affect which mosquitoes most want to bite you",
+    "title_es": "La química de tu piel puede afectar qué mosquitos quieren más picarte",
+    "url": "https://www.sciencenews.org/article/skin-chemistry-which-mosquitoes-bite",
+    "source": "Science News",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "química",
+      "piel",
+      "puede"
+    ]
+  },
+  {
+    "title": "This cosmic oddity blurs the line between planet and moon",
+    "title_es": "Esta rareza cósmica desdibuja la línea entre el planeta y la luna",
+    "url": "https://www.snexplores.org/article/cosmic-oddity-moon-planet-definition",
+    "source": "Science News Explores",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "esta",
+      "rareza",
+      "cósmica"
+    ]
+  },
+  {
+    "title": "NASA’s Roman telescope will see 100 times more sky than Hubble",
+    "title_es": "El telescopio romano de la NASA verá 100 veces más cielo que el Hubble",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260828082333.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "telescopio",
+      "romano",
+      "nasa"
+    ]
+  },
+  {
+    "title": "Motorboat noise stunts growth and impairs predator escape in reef fish, study shows",
+    "title_es": "El ruido de las lanchas a motor frena el crecimiento y perjudica el escape de los depredadores en los peces de arrecife, según un estudio",
+    "url": "https://phys.org/news/2026-08-motorboat-noise-stunts-growth-impairs.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "ruido",
+      "lanchas",
+      "motor"
+    ]
+  },
+  {
     "title": "Astonishing whale feeding frenzy seen off the eastern coast of Greenland",
     "title_es": "Asombroso frenesí de alimentación de ballenas en la costa este de Groenlandia",
     "url": "https://www.newscientist.com/article/2586630-astonishing-whale-feeding-frenzy-seen-off-the-eastern-coast-of-greenland/",
@@ -109,6 +249,34 @@
       "ingredientes",
       "sorprendentes",
       "sugieren"
+    ]
+  },
+  {
+    "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+    "title_es": "WikiSkill: Recopilación de la experiencia del agente en conocimientos persistentes para la evolución de habilidades",
+    "url": "http://arxiv.org/abs/2608.27454v1",
+    "source": "arXiv",
+    "published": "2026-08-27T00:00:00.000Z",
+    "date": "2026-08-27",
+    "category": "noticia",
+    "tags": [
+      "wikiskill",
+      "compiling",
+      "agent"
+    ]
+  },
+  {
+    "title": "The history and future of sickle cell disease",
+    "title_es": "La historia y el futuro de la anemia drepanocítica",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aej0154",
+    "source": "Science.org",
+    "published": "2026-08-27T00:00:00.000Z",
+    "date": "2026-08-27",
+    "category": "noticia",
+    "tags": [
+      "history",
+      "future",
+      "sickle"
     ]
   },
   {
@@ -6522,7 +6690,7 @@
   },
   {
     "title": "From cloning to gene-editing: the enduring legacy of Dolly the sheep",
-    "title_es": "De la clonación a la edición de genes: el legado perdurable de la oveja Dolly",
+    "title_es": "From cloning to gene-editing: the enduring legacy of Dolly the sheep",
     "url": "https://www.nature.com/articles/d41586-026-02096-1",
     "source": "Nature",
     "published": "2026-07-06T00:00:00.000Z",
@@ -6536,7 +6704,7 @@
   },
   {
     "title": "Homo floresiensis Probably Didn’t Hunt Stegodons or Use Fire",
-    "title_es": "El Homo floresiensis probablemente no cazaba estegodones ni usaba fuego",
+    "title_es": "Homo floresiensis Probably Didn’t Hunt Stegodons or Use Fire",
     "url": "https://www.sci.news/othersciences/anthropology/homo-floresiensis-hunting-fire-use-14891.html",
     "source": "Sci.News",
     "published": "2026-07-05T13:25:26.000Z",
@@ -6578,7 +6746,7 @@
   },
   {
     "title": "Biologists Build Synthetic Cell that Can Feed, Grow, Divide and Evolve",
-    "title_es": "Los biólogos construyen células sintéticas que pueden alimentarse, crecer, dividirse y evolucionar",
+    "title_es": "Biologists Build Synthetic Cell that Can Feed, Grow, Divide and Evolve",
     "url": "https://www.sci.news/biology/synthetic-cell-14890.html",
     "source": "Sci.News",
     "published": "2026-07-04T22:33:40.000Z",
@@ -6620,7 +6788,7 @@
   },
   {
     "title": "‘Hobbit’ hominins scavenged meat left over by Komodo dragons",
-    "title_es": "Los homínidos ‘hobbits’ se deshicieron de la carne sobrante de los dragones de Komodo",
+    "title_es": "‘Hobbit’ hominins scavenged meat left over by Komodo dragons",
     "url": "https://www.newscientist.com/article/2532777-hobbit-hominins-scavenged-meat-left-over-by-komodo-dragons/",
     "source": "New Scientist",
     "published": "2026-07-03T19:00:38.000Z",
@@ -6634,7 +6802,7 @@
   },
   {
     "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
-    "title_es": "TokenScope: Explicabilidad e interpretabilidad a nivel de token para tareas orientadas al código en modelos de lenguaje grandes",
+    "title_es": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
     "url": "https://arxiv.org/abs/2607.01235",
     "source": "arXiv",
     "published": "2026-07-03T04:00:00.000Z",
@@ -6648,7 +6816,7 @@
   },
   {
     "title": "Evocative photos of Canadian Arctic win New Scientist Editors Award",
-    "title_es": "Fotos evocadoras del Ártico canadiense ganan el New Scientist Editors Award",
+    "title_es": "Evocative photos of Canadian Arctic win New Scientist Editors Award",
     "url": "https://www.newscientist.com/article/2532503-evocative-photos-of-canadian-arctic-win-new-scientist-editors-award/",
     "source": "New Scientist",
     "published": "2026-07-03T00:05:34.000Z",
@@ -56266,17 +56434,17 @@
     ]
   },
   {
-    "title": "Correction: Binary image acquisition and texture parameter calculation of asphalt pavement based on a U-Net model",
-    "title_es": "Corrección: Adquisición de imágenes binarias y cálculo de parámetros de textura de pavimento asfáltico basado en un modelo U-Net",
+    "title": "Smoking cessation is associated with regression of electrocardiographic left ventricular hypertrophy: A 6-year retrospective observational study",
+    "title_es": "Dejar de fumar se asocia con la regresión de la hipertrofia ventricular izquierda electrocardiográfica: un estudio observacional retrospectivo de 6 años",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "adquisición",
-      "imágenes"
+      "dejar",
+      "fumar",
+      "asocia"
     ]
   },
   {
@@ -118373,6 +118541,34 @@
       "fusion",
       "periodic",
       "temperleylieb"
+    ]
+  },
+  {
+    "title": "A numerical implementation of the NLO DIS structure functions in the dipole picture, by Henri Hänninen, Heikki Mäntysaari, Jani Penttala",
+    "title_es": "A numerical implementation of the NLO DIS structure functions in the dipole picture, by Henri Hänninen, Heikki Mäntysaari, Jani Penttala",
+    "url": "http://scipost.org/scipostphyscodeb.80",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "numerical",
+      "implementation",
+      "nlo"
+    ]
+  },
+  {
+    "title": "The Sky Turns Above Paranal",
+    "title_es": "The Sky Turns Above Paranal",
+    "url": "https://apod.nasa.gov/apod/image/2608/theskyturnsaboveparanal_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "sky",
+      "turns",
+      "above"
     ]
   }
 ]
