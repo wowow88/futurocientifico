@@ -1,5 +1,47 @@
 [
   {
+    "title": "Australia’s red soil may be hiding a massive clean energy source",
+    "title_es": "El suelo rojo de Australia puede estar ocultando una enorme fuente de energía limpia",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-29T00:00:00.000Z",
+    "date": "2026-08-29",
+    "category": "noticia",
+    "tags": [
+      "suelo",
+      "rojo",
+      "australia"
+    ]
+  },
+  {
+    "title": "Many cities buried urban streams. Here's how to bring them back",
+    "title_es": "Muchas ciudades enterraron arroyos urbanos. A continuación, te mostramos cómo recuperarlos",
+    "url": "https://phys.org/news/2026-08-cities-urban-streams.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-29T00:00:00.000Z",
+    "date": "2026-08-29",
+    "category": "noticia",
+    "tags": [
+      "many",
+      "cities",
+      "buried"
+    ]
+  },
+  {
+    "title": "Paleontologists Identify New Species of Glyptodont",
+    "title_es": "Paleontólogos identifican nuevas especies de gliptodontes",
+    "url": "https://www.sci.news/paleontology/glyptotherium-deuterophractum-15026.html",
+    "source": "Sci.News",
+    "published": "2026-08-28T21:44:02.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "identify",
+      "new"
+    ]
+  },
+  {
     "title": "CERN Physicists Hunting for Pairs of Higgs Bosons",
     "title_es": "Físicos del CERN buscan pares de bosones de Higgs",
     "url": "https://www.sci.news/physics/double-higgs-production-15025.html",
@@ -106,9 +148,9 @@
     "date": "2026-08-28",
     "category": "noticia",
     "tags": [
-      "esta",
-      "rareza",
-      "cósmica"
+      "this",
+      "cosmic",
+      "oddity"
     ]
   },
   {
@@ -137,6 +179,20 @@
       "ruido",
       "lanchas",
       "motor"
+    ]
+  },
+  {
+    "title": "Free-falling atoms in space put a new twist on Galileo’s gravity test",
+    "title_es": "Los átomos en caída libre en el espacio dan un nuevo giro a la prueba de gravedad de Galileo",
+    "url": "https://www.sciencenews.org/article/atoms-gravity-space-galileo-einstein",
+    "source": "Science News",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "átomos",
+      "caída",
+      "libre"
     ]
   },
   {
@@ -253,7 +309,7 @@
   },
   {
     "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-    "title_es": "WikiSkill: Recopilación de la experiencia del agente en conocimientos persistentes para la evolución de habilidades",
+    "title_es": "WikiSkill: Compilación de la experiencia del agente en conocimiento persistente para la evolución de las habilidades",
     "url": "http://arxiv.org/abs/2608.27454v1",
     "source": "arXiv",
     "published": "2026-08-27T00:00:00.000Z",
@@ -261,22 +317,22 @@
     "category": "noticia",
     "tags": [
       "wikiskill",
-      "compiling",
-      "agent"
+      "compilación",
+      "experiencia"
     ]
   },
   {
     "title": "The history and future of sickle cell disease",
-    "title_es": "La historia y el futuro de la anemia drepanocítica",
+    "title_es": "La historia y el futuro de la anemia de células falciformes",
     "url": "https://www.science.org/doi/abs/10.1126/science.aej0154",
     "source": "Science.org",
     "published": "2026-08-27T00:00:00.000Z",
     "date": "2026-08-27",
     "category": "noticia",
     "tags": [
-      "history",
-      "future",
-      "sickle"
+      "historia",
+      "futuro",
+      "anemia"
     ]
   },
   {
@@ -361,6 +417,20 @@
       "eva",
       "villaver",
       "julia"
+    ]
+  },
+  {
+    "title": "NEJM: REACT reveals that silent atherosclerosis already affects 1 in 13 young adults aged 18 to 29 and progresses rapidly from the menopause",
+    "title_es": "NEJM: REACT revela que la aterosclerosis silenciosa ya afecta a 1 de cada 13 adultos jóvenes de 18 a 29 años y progresa rápidamente desde la menopausia",
+    "url": "https://www.cnic.es/es/node/244035",
+    "source": "CNIC",
+    "published": "2026-08-26T00:00:00.000Z",
+    "date": "2026-08-26",
+    "category": "noticia",
+    "tags": [
+      "nejm",
+      "react",
+      "reveals"
     ]
   },
   {
@@ -6592,7 +6662,7 @@
   },
   {
     "title": "Can the biggest problems in AI be solved by philosophy?",
-    "title_es": "¿Se pueden resolver los mayores problemas de la IA mediante la filosofía?",
+    "title_es": "Can the biggest problems in AI be solved by philosophy?",
     "url": "https://www.newscientist.com/article/2532588-can-the-biggest-problems-in-ai-be-solved-by-philosophy/",
     "source": "New Scientist",
     "published": "2026-07-06T06:00:42.000Z",
@@ -6648,7 +6718,7 @@
   },
   {
     "title": "Alzheimer's & Dementia: A new imaging technique locates microthrombi that worsen Alzheimer’s disease, opening the way to personalized anticoagulant therapy",
-    "title_es": "Alzheimer y demencia: una nueva técnica de imagen localiza microtrombos que empeoran la enfermedad de Alzheimer, abriendo el camino a una terapia anticoagulante personalizada",
+    "title_es": "Alzheimer's & Dementia: A new imaging technique locates microthrombi that worsen Alzheimer’s disease, opening the way to personalized anticoagulant therapy",
     "url": "https://www.cnic.es/es/node/243355",
     "source": "CNIC",
     "published": "2026-07-06T00:00:00.000Z",
@@ -56434,17 +56504,17 @@
     ]
   },
   {
-    "title": "Smoking cessation is associated with regression of electrocardiographic left ventricular hypertrophy: A 6-year retrospective observational study",
-    "title_es": "Dejar de fumar se asocia con la regresión de la hipertrofia ventricular izquierda electrocardiográfica: un estudio observacional retrospectivo de 6 años",
+    "title": "Factors associated with behavioral engagement and learning satisfaction in YouTube-based informal English learning among Taiwanese undergraduate students",
+    "title_es": "",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "dejar",
-      "fumar",
-      "asocia"
+      "factors",
+      "associated",
+      "behavioral"
     ]
   },
   {
@@ -118569,6 +118639,19 @@
       "sky",
       "turns",
       "above"
+    ]
+  },
+  {
+    "title": "Eclipse Pair",
+    "title_es": "Eclipse Pair",
+    "url": "https://apod.nasa.gov/apod/image/2608/2026-08_12and28-eclipsepair1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "eclipse",
+      "pair"
     ]
   }
 ]
