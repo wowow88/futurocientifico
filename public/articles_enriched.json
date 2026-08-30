@@ -1,5 +1,19 @@
 [
   {
+    "title": "NASA's Roman telescope set to launch on cosmic mapping mission",
+    "title_es": "El telescopio romano de la NASA se lanzará en una misión de mapeo cósmico",
+    "url": "https://phys.org/news/2026-08-nasa-roman-telescope-cosmic-mission.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-30T00:00:00.000Z",
+    "date": "2026-08-30",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "roman",
+      "telescope"
+    ]
+  },
+  {
     "title": "Australia’s red soil may be hiding a massive clean energy source",
     "title_es": "El suelo rojo de Australia puede estar ocultando una enorme fuente de energía limpia",
     "url": "https://www.sciencedaily.com/releases/2026/08/260829035214.htm",
@@ -25,6 +39,20 @@
       "many",
       "cities",
       "buried"
+    ]
+  },
+  {
+    "title": "Long-term melatonin use linked to 90% higher heart failure risk",
+    "title_es": "El uso de melatonina a largo plazo está relacionado con un riesgo de insuficiencia cardíaca un 90% mayor",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260829035228.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-29T00:00:00.000Z",
+    "date": "2026-08-29",
+    "category": "noticia",
+    "tags": [
+      "long-term",
+      "melatonin",
+      "use"
     ]
   },
   {
@@ -99,16 +127,16 @@
   },
   {
     "title": "Briefing Chat: How Dolly Parton left her mark on science",
-    "title_es": "Charla informativa: cómo Dolly Parton dejó su huella en la ciencia",
+    "title_es": "Charla informativa: Cómo Dolly Parton dejó su huella en la ciencia",
     "url": "https://www.nature.com/articles/d41586-026-02732-w",
     "source": "Nature",
     "published": "2026-08-28T00:00:00.000Z",
     "date": "2026-08-28",
     "category": "noticia",
     "tags": [
-      "charla",
-      "informativa",
-      "cómo"
+      "briefing",
+      "chat",
+      "how"
     ]
   },
   {
@@ -190,9 +218,23 @@
     "date": "2026-08-28",
     "category": "noticia",
     "tags": [
-      "átomos",
-      "caída",
-      "libre"
+      "free-falling",
+      "atoms",
+      "space"
+    ]
+  },
+  {
+    "title": "NASA’s Artemis II Crew Receives Congressional Space Medal of Honor",
+    "title_es": "La tripulación del Artemis II de la NASA recibe la Medalla de Honor Espacial del Congreso",
+    "url": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor/",
+    "source": "NASA (Top News)",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "artemis",
+      "crew"
     ]
   },
   {
@@ -309,7 +351,7 @@
   },
   {
     "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-    "title_es": "WikiSkill: Compilación de la experiencia del agente en conocimiento persistente para la evolución de las habilidades",
+    "title_es": "WikiSkill: Recopilación de la experiencia del agente en conocimientos persistentes para la evolución de habilidades",
     "url": "http://arxiv.org/abs/2608.27454v1",
     "source": "arXiv",
     "published": "2026-08-27T00:00:00.000Z",
@@ -317,22 +359,22 @@
     "category": "noticia",
     "tags": [
       "wikiskill",
-      "compilación",
-      "experiencia"
+      "compiling",
+      "agent"
     ]
   },
   {
     "title": "The history and future of sickle cell disease",
-    "title_es": "La historia y el futuro de la anemia de células falciformes",
+    "title_es": "La historia y el futuro de la anemia drepanocítica",
     "url": "https://www.science.org/doi/abs/10.1126/science.aej0154",
     "source": "Science.org",
     "published": "2026-08-27T00:00:00.000Z",
     "date": "2026-08-27",
     "category": "noticia",
     "tags": [
-      "historia",
-      "futuro",
-      "anemia"
+      "history",
+      "future",
+      "sickle"
     ]
   },
   {
@@ -6480,7 +6522,7 @@
   },
   {
     "title": "Incredible new material makes heat programmable",
-    "title_es": "Nuevo material increíble que hace que el calor sea programable",
+    "title_es": "Incredible new material makes heat programmable",
     "url": "https://www.sciencedaily.com/releases/2026/07/260707025046.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-07T23:28:50.000Z",
@@ -6494,7 +6536,7 @@
   },
   {
     "title": "New Jurassic Fossil Reveals How Birds Lost Their Dinosaur Tails",
-    "title_es": "Nuevo fósil del Jurásico revela cómo las aves perdieron sus colas de dinosaurio",
+    "title_es": "New Jurassic Fossil Reveals How Birds Lost Their Dinosaur Tails",
     "url": "https://www.sci.news/paleontology/zhengheornis-buyu-14899.html",
     "source": "Sci.News",
     "published": "2026-07-07T22:05:09.000Z",
@@ -6508,7 +6550,7 @@
   },
   {
     "title": "Peter Shor’s algorithm could break the internet – but he's not worried",
-    "title_es": "El algoritmo de Peter Shor podría romper internet, pero no le preocupa",
+    "title_es": "Peter Shor’s algorithm could break the internet – but he's not worried",
     "url": "https://www.newscientist.com/article/2533218-peter-shors-algorithm-could-break-the-internet-but-hes-not-worried/",
     "source": "New Scientist",
     "published": "2026-07-07T18:00:57.000Z",
@@ -6522,7 +6564,7 @@
   },
   {
     "title": "Crypto-Microeconomics: The Distribution of Bitcoin Wealth Among Diverse Economic Agents",
-    "title_es": "Criptomicroeconomía: la distribución de la riqueza de Bitcoin entre diversos agentes económicos",
+    "title_es": "Crypto-Microeconomics: The Distribution of Bitcoin Wealth Among Diverse Economic Agents",
     "url": "https://arxiv.org/abs/2607.03646",
     "source": "arXiv",
     "published": "2026-07-07T04:00:00.000Z",
@@ -6634,7 +6676,7 @@
   },
   {
     "title": "Interstellar Comet 3I/ATLAS Likely Originated in Outskirts of Ancient Planetary System",
-    "title_es": "El cometa interestelar 3I/ATLAS probablemente se originó en las afueras del antiguo sistema planetario",
+    "title_es": "Interstellar Comet 3I/ATLAS Likely Originated in Outskirts of Ancient Planetary System",
     "url": "https://www.sci.news/astronomy/interstellar-comet-3i-atlas-outskirts-ancient-planetary-system-14896.html",
     "source": "Sci.News",
     "published": "2026-07-06T20:51:08.000Z",
@@ -6648,7 +6690,7 @@
   },
   {
     "title": "Bumblebee facial movements give clues to their inner lives",
-    "title_es": "Los movimientos faciales de los abejorros dan pistas sobre su vida interior",
+    "title_es": "Bumblebee facial movements give clues to their inner lives",
     "url": "https://www.newscientist.com/article/2533149-bumblebee-facial-movements-give-clues-to-their-inner-lives/",
     "source": "New Scientist",
     "published": "2026-07-06T20:00:51.000Z",
@@ -118652,6 +118694,34 @@
     "tags": [
       "eclipse",
       "pair"
+    ]
+  },
+  {
+    "title": "AutoPot: Automated and massively parallelized construction of machine-learning potentials, by Max Hodapp, Guillaume Anciaux",
+    "title_es": "AutoPot: Automated and massively parallelized construction of machine-learning potentials, by Max Hodapp, Guillaume Anciaux",
+    "url": "http://scipost.org/scipostphyscodeb.79",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "autopot",
+      "automated",
+      "massively"
+    ]
+  },
+  {
+    "title": "M74: A Grand Design Spiral",
+    "title_es": "M74: A Grand Design Spiral",
+    "url": "https://apod.nasa.gov/apod/image/2608/m74_hst_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "m74",
+      "grand",
+      "design"
     ]
   }
 ]
