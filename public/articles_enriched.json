@@ -1,5 +1,117 @@
 [
   {
+    "title": "Black fungus thriving in the midst of Ireland's whiskey boom",
+    "title_es": "El hongo negro prospera en medio del auge del whisky en Irlanda",
+    "url": "https://phys.org/news/2026-08-black-fungus-midst-ireland-whiskey.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-31T11:40:03.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "black",
+      "fungus",
+      "thriving"
+    ]
+  },
+  {
+    "title": "Keto Diet Outperforms Others for Cardiometabolic Health during Weight Loss: Study",
+    "title_es": "La dieta cetogénica supera a otras en salud cardiometabólica durante la pérdida de peso: estudio",
+    "url": "https://www.sci.news/medicine/keto-diet-cardiometabolic-health-weight-loss-15028.html",
+    "source": "Sci.News",
+    "published": "2026-08-31T11:36:51.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "keto",
+      "diet",
+      "outperforms"
+    ]
+  },
+  {
+    "title": "Should we all be taking low doses of lithium to prevent Alzheimer’s?",
+    "title_es": "¿Deberíamos todos tomar dosis bajas de litio para prevenir el Alzheimer?",
+    "url": "https://www.newscientist.com/article/2586894-should-we-all-be-taking-low-doses-of-lithium-to-prevent-alzheimers/",
+    "source": "New Scientist",
+    "published": "2026-08-31T08:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "should",
+      "all",
+      "taking"
+    ]
+  },
+  {
+    "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+    "title_es": "Cápsula del tiempo de conocimiento humano comprobable: ¡41 años de peligro! en un solo modelo local gratuito",
+    "url": "https://arxiv.org/abs/2608.27459",
+    "source": "arXiv",
+    "published": "2026-08-31T04:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "time",
+      "capsule",
+      "testable"
+    ]
+  },
+  {
+    "title": "Scale of snakebites estimated globally",
+    "title_es": "Escala de mordeduras de serpiente estimada a nivel mundial",
+    "url": "https://www.nature.com/articles/d41586-026-02642-x",
+    "source": "Nature",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "scale",
+      "snakebites",
+      "estimated"
+    ]
+  },
+  {
+    "title": "Some sea stars channel light like fiber-optic cables",
+    "title_es": "Algunas estrellas de mar canalizan la luz como cables de fibra óptica",
+    "url": "https://www.snexplores.org/article/some-sea-stars-channel-light-like-fiber-optic-cables",
+    "source": "Science News Explores",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "algunas",
+      "estrellas",
+      "mar"
+    ]
+  },
+  {
+    "title": "NASA’s Roman Space Telescope launches to reveal the Universe’s darkest secrets",
+    "title_es": "El Telescopio Espacial Romano de la NASA se lanza para revelar los secretos más oscuros del Universo",
+    "url": "https://www.sciencedaily.com/releases/2026/08/260831035213.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "telescopio",
+      "espacial",
+      "romano"
+    ]
+  },
+  {
+    "title": "JWST may solve a 20-year mystery behind a rule-breaking gamma-ray burst",
+    "title_es": "JWST puede resolver un misterio de 20 años detrás de un estallido de rayos gamma que rompe las reglas",
+    "url": "https://phys.org/news/2026-08-jwst-year-mystery-gamma-ray.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "jwst",
+      "puede",
+      "resolver"
+    ]
+  },
+  {
     "title": "NASA's Roman telescope set to launch on cosmic mapping mission",
     "title_es": "El telescopio romano de la NASA se lanzará en una misión de mapeo cósmico",
     "url": "https://phys.org/news/2026-08-nasa-roman-telescope-cosmic-mission.html",
@@ -218,9 +330,9 @@
     "date": "2026-08-28",
     "category": "noticia",
     "tags": [
-      "free-falling",
-      "atoms",
-      "space"
+      "átomos",
+      "caída",
+      "libre"
     ]
   },
   {
@@ -235,6 +347,20 @@
       "nasas",
       "artemis",
       "crew"
+    ]
+  },
+  {
+    "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+    "title_es": "Aero Hand Open: una mano impulsada por tendones lista para la simulación para el aprendizaje de la manipulación diestro",
+    "url": "http://arxiv.org/abs/2608.28578v1",
+    "source": "arXiv",
+    "published": "2026-08-28T00:00:00.000Z",
+    "date": "2026-08-28",
+    "category": "noticia",
+    "tags": [
+      "aero",
+      "hand",
+      "open"
     ]
   },
   {
@@ -6368,7 +6494,7 @@
   },
   {
     "title": "Ancient Turkish Cave Reveals Neanderthals and Homo sapiens Shared Same Way of Life",
-    "title_es": "Antigua cueva turca revela que los neandertales y el Homo sapiens compartían la misma forma de vida",
+    "title_es": "Ancient Turkish Cave Reveals Neanderthals and Homo sapiens Shared Same Way of Life",
     "url": "https://www.sci.news/archaeology/neanderthal-homo-sapiens-cultural-continuity-14904.html",
     "source": "Sci.News",
     "published": "2026-07-08T22:55:38.000Z",
@@ -6382,7 +6508,7 @@
   },
   {
     "title": "The 4 best science-fiction shows of 2026 so far",
-    "title_es": "Los 4 mejores espectáculos de ciencia ficción de 2026 hasta el momento",
+    "title_es": "The 4 best science-fiction shows of 2026 so far",
     "url": "https://www.newscientist.com/article/mg27136031-100-the-4-best-science-fiction-shows-of-2026-so-far/",
     "source": "New Scientist",
     "published": "2026-07-08T18:00:00.000Z",
@@ -6396,7 +6522,7 @@
   },
   {
     "title": "New Scientist recommends a vital look at the science of fatherhood",
-    "title_es": "New Scientist recomienda una mirada vital a la ciencia de la paternidad",
+    "title_es": "New Scientist recommends a vital look at the science of fatherhood",
     "url": "https://www.newscientist.com/article/mg27136031-400-new-scientist-recommends-a-vital-look-at-the-science-of-fatherhood/",
     "source": "New Scientist",
     "published": "2026-07-08T18:00:00.000Z",
@@ -6410,7 +6536,7 @@
   },
   {
     "title": "Proof of Execution: Runtime Verification for Governed AI Agent Actions",
-    "title_es": "Prueba de ejecución: verificación en tiempo de ejecución para acciones de agentes de IA reguladas",
+    "title_es": "Proof of Execution: Runtime Verification for Governed AI Agent Actions",
     "url": "https://arxiv.org/abs/2607.05397",
     "source": "arXiv",
     "published": "2026-07-08T04:00:00.000Z",
@@ -56547,16 +56673,16 @@
   },
   {
     "title": "Factors associated with behavioral engagement and learning satisfaction in YouTube-based informal English learning among Taiwanese undergraduate students",
-    "title_es": "",
+    "title_es": "Factores asociados con el compromiso conductual y la satisfacción con el aprendizaje en el aprendizaje informal de inglés basado en YouTube entre estudiantes universitarios taiwaneses",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "factors",
-      "associated",
-      "behavioral"
+      "factores",
+      "asociados",
+      "con"
     ]
   },
   {
@@ -118722,6 +118848,20 @@
       "m74",
       "grand",
       "design"
+    ]
+  },
+  {
+    "title": "Launch of the Roman Space Telescope",
+    "title_es": "Launch of the Roman Space Telescope",
+    "url": "https://apod.nasa.gov/apod/image/2608/romanlaunch_nasa.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "launch",
+      "roman",
+      "space"
     ]
   }
 ]
