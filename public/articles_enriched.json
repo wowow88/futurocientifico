@@ -1,5 +1,89 @@
 [
   {
+    "title": "The best new science-fiction books of September 2026",
+    "title_es": "Los mejores nuevos libros de ciencia ficción de septiembre de 2026",
+    "url": "https://www.newscientist.com/article/2585976-the-best-new-science-fiction-books-of-september-2026/",
+    "source": "New Scientist",
+    "published": "2026-09-01T09:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "best",
+      "new",
+      "science-fiction"
+    ]
+  },
+  {
+    "title": "AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds",
+    "title_es": "AlgoWorlds: Uso de herramientas de evaluación comparativa para la optimización global en mundos algorítmicos",
+    "url": "https://arxiv.org/abs/2608.29397",
+    "source": "arXiv",
+    "published": "2026-09-01T04:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "algoworlds",
+      "benchmarking",
+      "tool"
+    ]
+  },
+  {
+    "title": "China’s regulatory innovation for new biomedical technologies",
+    "title_es": "Innovación regulatoria de China para nuevas tecnologías biomédicas",
+    "url": "https://www.nature.com/articles/d41586-026-02737-5",
+    "source": "Nature",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "chinas",
+      "regulatory",
+      "innovation"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 1 – A Plane Lunar Eclipse",
+    "title_es": "APOD: 1 de septiembre de 2026: un eclipse lunar plano",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-1-a-plane-lunar-eclipse/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "septiembre",
+      "2026"
+    ]
+  },
+  {
+    "title": "In Japan's mountains, a different way to manage bears",
+    "title_es": "En las montañas de Japón, una forma diferente de controlar a los osos",
+    "url": "https://phys.org/news/2026-09-japan-mountains.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "japans",
+      "mountains",
+      "different"
+    ]
+  },
+  {
+    "title": "55-Million-Year-Old Predatory Mammal Footprint Found in Antarctica",
+    "title_es": "Huella de mamíferos depredadores de 55 millones de años encontrada en la Antártida",
+    "url": "https://www.sci.news/paleontology/eocene-predatory-mammal-footprint-antarctica-15031.html",
+    "source": "Sci.News",
+    "published": "2026-08-31T19:22:12.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "55-million-year-old",
+      "predatory",
+      "mammal"
+    ]
+  },
+  {
     "title": "Black fungus thriving in the midst of Ireland's whiskey boom",
     "title_es": "El hongo negro prospera en medio del auge del whisky en Irlanda",
     "url": "https://phys.org/news/2026-08-black-fungus-midst-ireland-whiskey.html",
@@ -78,9 +162,9 @@
     "date": "2026-08-31",
     "category": "noticia",
     "tags": [
-      "algunas",
-      "estrellas",
-      "mar"
+      "some",
+      "sea",
+      "stars"
     ]
   },
   {
@@ -109,6 +193,48 @@
       "jwst",
       "puede",
       "resolver"
+    ]
+  },
+  {
+    "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+    "title_es": "SUN: Programas persistentes para políticas de control basadas en el lenguaje y de aprendizaje a realidad",
+    "url": "http://arxiv.org/abs/2608.31167v1",
+    "source": "arXiv",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "sun",
+      "programas",
+      "persistentes"
+    ]
+  },
+  {
+    "title": "José Javier Fuster receives the 2026 ESC Outstanding Achievement Award",
+    "title_es": "José Javier Fuster recibe el Premio al Logro Sobresaliente 2026 ESC",
+    "url": "https://www.cnic.es/es/node/244089",
+    "source": "CNIC",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "josé",
+      "javier",
+      "fuster"
+    ]
+  },
+  {
+    "title": "Migraine drugs are getting more precise. Choosing the right one is still tricky",
+    "title_es": "Los medicamentos para la migraña son cada vez más precisos. Elegir el correcto sigue siendo complicado",
+    "url": "https://www.sciencenews.org/article/migraine-drugs-prevention-guidelines",
+    "source": "Science News",
+    "published": "2026-08-31T00:00:00.000Z",
+    "date": "2026-08-31",
+    "category": "noticia",
+    "tags": [
+      "medicamentos",
+      "migraña",
+      "son"
     ]
   },
   {
@@ -491,16 +617,16 @@
   },
   {
     "title": "The history and future of sickle cell disease",
-    "title_es": "La historia y el futuro de la anemia drepanocítica",
+    "title_es": "La historia y el futuro de la anemia de células falciformes",
     "url": "https://www.science.org/doi/abs/10.1126/science.aej0154",
     "source": "Science.org",
     "published": "2026-08-27T00:00:00.000Z",
     "date": "2026-08-27",
     "category": "noticia",
     "tags": [
-      "history",
-      "future",
-      "sickle"
+      "historia",
+      "futuro",
+      "anemia"
     ]
   },
   {
@@ -6298,7 +6424,7 @@
   },
   {
     "title": "This alien planet never has sunrise or sunset. It may support life",
-    "title_es": "Este planeta alienígena nunca tiene amanecer ni atardecer. Puede sustentar la vida",
+    "title_es": "This alien planet never has sunrise or sunset. It may support life",
     "url": "https://www.sciencedaily.com/releases/2026/07/260709160657.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-09T21:27:22.000Z",
@@ -6312,7 +6438,7 @@
   },
   {
     "title": "New Species of Long-Necked Dinosaur Identified in Thailand",
-    "title_es": "Nueva especie de dinosaurio de cuello largo identificada en Tailandia",
+    "title_es": "New Species of Long-Necked Dinosaur Identified in Thailand",
     "url": "https://www.sci.news/paleontology/uragasaurus-kalasinensis-14906.html",
     "source": "Sci.News",
     "published": "2026-07-09T19:33:35.000Z",
@@ -6326,7 +6452,7 @@
   },
   {
     "title": "Special relativity can warp chemical bonds – now we've seen it happen",
-    "title_es": "La relatividad especial puede deformar los enlaces químicos; ahora lo hemos visto suceder",
+    "title_es": "Special relativity can warp chemical bonds – now we've seen it happen",
     "url": "https://www.newscientist.com/article/2533629-special-relativity-can-warp-chemical-bonds-now-weve-seen-it-happen/",
     "source": "New Scientist",
     "published": "2026-07-09T19:00:13.000Z",
@@ -6480,7 +6606,7 @@
   },
   {
     "title": "Rare goblin shark filmed alive for the first time in the deep sea",
-    "title_es": "Tiburón duende raro filmado vivo por primera vez en las profundidades del mar",
+    "title_es": "Rare goblin shark filmed alive for the first time in the deep sea",
     "url": "https://www.sciencedaily.com/releases/2026/07/260708022208.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-08T23:00:05.000Z",
@@ -56672,17 +56798,17 @@
     ]
   },
   {
-    "title": "Factors associated with behavioral engagement and learning satisfaction in YouTube-based informal English learning among Taiwanese undergraduate students",
-    "title_es": "Factores asociados con el compromiso conductual y la satisfacción con el aprendizaje en el aprendizaje informal de inglés basado en YouTube entre estudiantes universitarios taiwaneses",
+    "title": "Integrated computational analysis prioritizes candidate targets and pathways linking ochratoxin A exposure to hepatocellular carcinoma",
+    "title_es": "El análisis computacional integrado prioriza objetivos candidatos y vías que vinculan la exposición a la ocratoxina A con el carcinoma hepatocelular",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "factores",
-      "asociados",
-      "con"
+      "análisis",
+      "computacional",
+      "integrado"
     ]
   },
   {
@@ -118862,6 +118988,20 @@
       "launch",
       "roman",
       "space"
+    ]
+  },
+  {
+    "title": "A Plane Lunar Eclipse",
+    "title_es": "A Plane Lunar Eclipse",
+    "url": "https://apod.nasa.gov/apod/image/2608/planeeclipse_ferreira_1059.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "plane",
+      "lunar",
+      "eclipse"
     ]
   }
 ]
