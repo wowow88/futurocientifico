@@ -1,5 +1,89 @@
 [
   {
+    "title": "Research on Optimized Fuzzy PID Temperature Control Strategy Based on Improved Particle Swarm Optimization",
+    "title_es": "Investigación sobre la estrategia optimizada de control de temperatura PID difuso basada en la optimización mejorada del enjambre de partículas",
+    "url": "https://arxiv.org/abs/2609.00001",
+    "source": "arXiv",
+    "published": "2026-09-02T04:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "research",
+      "optimized",
+      "fuzzy"
+    ]
+  },
+  {
+    "title": "Can we really reverse global warming after overshooting 1.5°C?",
+    "title_es": "¿Podemos realmente revertir el calentamiento global después de sobrepasar los 1,5 °C?",
+    "url": "https://www.newscientist.com/article/2587239-can-we-really-reverse-global-warming-after-overshooting-1-5c/",
+    "source": "New Scientist",
+    "published": "2026-09-02T04:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "really",
+      "reverse"
+    ]
+  },
+  {
+    "title": "Satellite images before Nepal disaster showed warning signs",
+    "title_es": "Imágenes de satélite antes del desastre de Nepal mostraron señales de advertencia",
+    "url": "https://www.nature.com/articles/d41586-026-02746-4",
+    "source": "Nature",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "imágenes",
+      "satélite",
+      "antes"
+    ]
+  },
+  {
+    "title": "Too much coffee may weaken bones, study finds",
+    "title_es": "Demasiado café puede debilitar los huesos, según un estudio",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260901070550.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "demasiado",
+      "café",
+      "puede"
+    ]
+  },
+  {
+    "title": "Bovine stem cells offer new approach to future cultivated steak research",
+    "title_es": "Las células madre bovinas ofrecen un nuevo enfoque para la futura investigación sobre filetes cultivados",
+    "url": "https://phys.org/news/2026-08-bovine-stem-cells-approach-future.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "células",
+      "madre",
+      "bovinas"
+    ]
+  },
+  {
+    "title": "Fossil of Giant Squid-Like Creature from Cretaceous Period Bears Marks of Deadly Attack",
+    "title_es": "Fósil de una criatura gigante parecida a un calamar del período Cretácico muestra marcas de un ataque mortal",
+    "url": "https://www.sci.news/paleontology/enchoteuthis-gladius-bite-marks-15034.html",
+    "source": "Sci.News",
+    "published": "2026-09-01T21:16:12.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "fossil",
+      "giant",
+      "squid-like"
+    ]
+  },
+  {
     "title": "The best new science-fiction books of September 2026",
     "title_es": "Los mejores nuevos libros de ciencia ficción de septiembre de 2026",
     "url": "https://www.newscientist.com/article/2585976-the-best-new-science-fiction-books-of-september-2026/",
@@ -67,6 +151,62 @@
       "japans",
       "mountains",
       "different"
+    ]
+  },
+  {
+    "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+    "title_es": "Evaluación comparativa eficiente de agentes SWE a través de una evaluación basada en la trayectoria",
+    "url": "http://arxiv.org/abs/2609.01603v1",
+    "source": "arXiv",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "evaluación",
+      "comparativa",
+      "eficiente"
+    ]
+  },
+  {
+    "title": "NASA Selects Blue Origin as Mars Telecommunications Network Provider",
+    "title_es": "La NASA selecciona a Blue Origin como proveedor de redes de telecomunicaciones de Marte",
+    "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-as-mars-telecommunications-network-provider/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "selecciona",
+      "blue"
+    ]
+  },
+  {
+    "title": "The universe may have been building rocky planets almost from the start",
+    "title_es": "Es posible que el universo haya estado formando planetas rocosos casi desde el principio",
+    "url": "https://www.sciencenews.org/article/universe-rocky-planets-formed-early",
+    "source": "Science News",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "posible",
+      "que",
+      "universo"
+    ]
+  },
+  {
+    "title": "Ancient Egyptian princesses may have been skilled warriors",
+    "title_es": "Las princesas del antiguo Egipto pueden haber sido hábiles guerreras",
+    "url": "https://www.snexplores.org/article/egyptian-warrior-princesses-weapons",
+    "source": "Science News Explores",
+    "published": "2026-09-01T00:00:00.000Z",
+    "date": "2026-09-01",
+    "category": "noticia",
+    "tags": [
+      "princesas",
+      "antiguo",
+      "egipto"
     ]
   },
   {
@@ -6270,7 +6410,7 @@
   },
   {
     "title": "UN space database aimed at easing global tensions is mysteriously down",
-    "title_es": "La base de datos espacial de la ONU destinada a aliviar las tensiones mundiales está misteriosamente baja",
+    "title_es": "UN space database aimed at easing global tensions is mysteriously down",
     "url": "https://www.newscientist.com/article/2533721-un-space-database-aimed-at-easing-global-tensions-is-mysteriously-down/",
     "source": "New Scientist",
     "published": "2026-07-10T15:11:26.000Z",
@@ -6284,7 +6424,7 @@
   },
   {
     "title": "AI-Driven Thermal Mapping and Management in 3D Integrated Photonic Circuits",
-    "title_es": "Mapeo y gestión térmica impulsada por IA en circuitos fotónicos integrados 3D",
+    "title_es": "AI-Driven Thermal Mapping and Management in 3D Integrated Photonic Circuits",
     "url": "https://arxiv.org/abs/2607.07711",
     "source": "arXiv",
     "published": "2026-07-10T04:00:00.000Z",
@@ -56798,17 +56938,17 @@
     ]
   },
   {
-    "title": "Integrated computational analysis prioritizes candidate targets and pathways linking ochratoxin A exposure to hepatocellular carcinoma",
-    "title_es": "El análisis computacional integrado prioriza objetivos candidatos y vías que vinculan la exposición a la ocratoxina A con el carcinoma hepatocelular",
+    "title": "Prevalence of intestinal parasites and associated factors among HIV patients receiving antiretroviral therapy at public hospitals in North Shoa Zone, Oromia, Ethiopia: Cross-sectional study",
+    "title_es": "Prevalencia de parásitos intestinales y factores asociados entre pacientes con VIH que reciben terapia antirretroviral en hospitales públicos en la zona norte de Shoa, Oromia, Etiopía: estudio transversal",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "análisis",
-      "computacional",
-      "integrado"
+      "prevalencia",
+      "parásitos",
+      "intestinales"
     ]
   },
   {
@@ -119002,6 +119142,34 @@
       "plane",
       "lunar",
       "eclipse"
+    ]
+  },
+  {
+    "title": "Temperature-insensitive tunable and stable Fabry-Perot cavity for atomic physics, by Joshua Ruelle, Martin Hauden, Francisco S. Ponciano-Ojeda, Marion Delehaye",
+    "title_es": "Temperature-insensitive tunable and stable Fabry-Perot cavity for atomic physics, by Joshua Ruelle, Martin Hauden, Francisco S. Ponciano-Ojeda, Marion Delehaye",
+    "url": "http://scipost.org/scipostphyscore.9.3.054",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "temperature-insensitive",
+      "tunable",
+      "stable"
+    ]
+  },
+  {
+    "title": "Solar Eclipses and Culture",
+    "title_es": "Solar Eclipses and Culture",
+    "url": "https://apod.nasa.gov/apod/image/2609/colors_of_eclipse_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "solar",
+      "eclipses",
+      "culture"
     ]
   }
 ]
