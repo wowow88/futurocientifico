@@ -1,5 +1,75 @@
 [
   {
+    "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+    "title_es": "WMLLM: Agentes de optimización auto-evolutivos a través de Predict-Then-Act World Modeling",
+    "url": "https://arxiv.org/abs/2609.01608",
+    "source": "arXiv",
+    "published": "2026-09-03T04:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "wmllm",
+      "self-evolving",
+      "optimization"
+    ]
+  },
+  {
+    "title": "September brings a dazzling Venus and a glowing Harvest Moon",
+    "title_es": "Septiembre trae una Venus deslumbrante y una Luna de Cosecha resplandeciente",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260902234500.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "septiembre",
+      "trae",
+      "venus"
+    ]
+  },
+  {
+    "title": "Farming experts tout 'conscious' food systems to fix agriculture woes",
+    "title_es": "Expertos agrícolas promocionan sistemas alimentarios 'conscientes' para solucionar los problemas agrícolas",
+    "url": "https://phys.org/news/2026-09-farming-experts-tout-conscious-food.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "expertos",
+      "agrícolas",
+      "promocionan"
+    ]
+  },
+  {
+    "title": "Astronomers Discover Decagonal Wave circling Saturn’s South Pole",
+    "title_es": "Astrónomos descubren una onda decagonal que rodea el polo sur de Saturno",
+    "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html",
+    "source": "Sci.News",
+    "published": "2026-09-02T23:26:33.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "astronomers",
+      "discover",
+      "decagonal"
+    ]
+  },
+  {
+    "title": "Saturn has a big, weird decagon around its south pole",
+    "title_es": "Saturno tiene un gran y extraño decágono alrededor de su polo sur",
+    "url": "https://www.newscientist.com/article/2587345-saturn-has-a-big-weird-decagon-around-its-south-pole/",
+    "source": "New Scientist",
+    "published": "2026-09-02T18:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "saturn",
+      "has",
+      "big"
+    ]
+  },
+  {
     "title": "Research on Optimized Fuzzy PID Temperature Control Strategy Based on Improved Particle Swarm Optimization",
     "title_es": "Investigación sobre la estrategia optimizada de control de temperatura PID difuso basada en la optimización mejorada del enjambre de partículas",
     "url": "https://arxiv.org/abs/2609.00001",
@@ -67,6 +137,76 @@
       "células",
       "madre",
       "bovinas"
+    ]
+  },
+  {
+    "title": "Discriminative World Models for Web Agents",
+    "title_es": "Modelos mundiales discriminativos para agentes web",
+    "url": "http://arxiv.org/abs/2609.02885v1",
+    "source": "arXiv",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "modelos",
+      "mundiales",
+      "discriminativos"
+    ]
+  },
+  {
+    "title": "Author Correction: Endocannabinoids facilitate reward engagement through retrograde gain control",
+    "title_es": "Corrección del autor: los endocannabinoides facilitan la recompensa a través del control de ganancia retrógrada",
+    "url": "https://www.nature.com/articles/s41586-026-11104-3",
+    "source": "Nature",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "corrección",
+      "autor",
+      "endocannabinoides"
+    ]
+  },
+  {
+    "title": "European Journal of Heart Failure: A diabetes drug reduces complications after aortic valve replacement",
+    "title_es": "European Journal of Heart Failure: Un medicamento para la diabetes reduce las complicaciones después del reemplazo de la válvula aórtica",
+    "url": "https://www.cnic.es/es/node/244119",
+    "source": "CNIC",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "revista",
+    "tags": [
+      "european",
+      "journal",
+      "heart"
+    ]
+  },
+  {
+    "title": "New Hubble images reveal a bizarre decagon over Saturn’s south pole",
+    "title_es": "Nuevas imágenes del Hubble revelan un extraño decágono sobre el polo sur de Saturno",
+    "url": "https://www.sciencenews.org/article/hubble-decagon-saturn-south-pole",
+    "source": "Science News",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "nuevas",
+      "imágenes",
+      "hubble"
+    ]
+  },
+  {
+    "title": "Analyze This: Spooky feelings may come from noises too low to hear",
+    "title_es": "Analice esto: Los sentimientos espeluznantes pueden provenir de ruidos demasiado bajos para escucharlos",
+    "url": "https://www.snexplores.org/article/spooky-feelings-infrasound",
+    "source": "Science News Explores",
+    "published": "2026-09-02T00:00:00.000Z",
+    "date": "2026-09-02",
+    "category": "noticia",
+    "tags": [
+      "analice",
+      "esto",
+      "sentimientos"
     ]
   },
   {
@@ -6326,7 +6466,7 @@
   },
   {
     "title": "Scientists discover how the brain rewires itself to truly multitask",
-    "title_es": "Los científicos descubren cómo el cerebro se reconecta para realizar múltiples tareas",
+    "title_es": "Scientists discover how the brain rewires itself to truly multitask",
     "url": "https://www.sciencedaily.com/releases/2026/07/260712011912.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-12T07:42:58.000Z",
@@ -6368,7 +6508,7 @@
   },
   {
     "title": "Scientists warn invasive Asian mantises are threatening Europe's wildlife",
-    "title_es": "Los científicos advierten que las mantis asiáticas invasoras amenazan la vida silvestre de Europa",
+    "title_es": "Scientists warn invasive Asian mantises are threatening Europe's wildlife",
     "url": "https://www.sciencedaily.com/releases/2026/07/260710003540.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-11T12:53:55.000Z",
@@ -6396,7 +6536,7 @@
   },
   {
     "title": "Tiny Triassic Reptile Sheds Light on Early Lizard Evolution",
-    "title_es": "Pequeño reptil triásico arroja luz sobre la evolución temprana del lagarto",
+    "title_es": "Tiny Triassic Reptile Sheds Light on Early Lizard Evolution",
     "url": "https://www.sci.news/paleontology/cargninia-enigmatica-14909.html",
     "source": "Sci.News",
     "published": "2026-07-10T21:45:25.000Z",
@@ -56938,17 +57078,17 @@
     ]
   },
   {
-    "title": "Prevalence of intestinal parasites and associated factors among HIV patients receiving antiretroviral therapy at public hospitals in North Shoa Zone, Oromia, Ethiopia: Cross-sectional study",
-    "title_es": "Prevalencia de parásitos intestinales y factores asociados entre pacientes con VIH que reciben terapia antirretroviral en hospitales públicos en la zona norte de Shoa, Oromia, Etiopía: estudio transversal",
+    "title": "Correction: Exploring the influencing factors of academic doctoral students’ academic innovation behavior in the context of generative artificial intelligence: Self-determination theory and motivation-opportunity-ability perspectives",
+    "title_es": "Corrección: Exploración de los factores que influyen en el comportamiento de innovación académica de los estudiantes de doctorado en el contexto de la inteligencia artificial generativa: teoría de la autodeterminación y perspectivas de motivación-oportunidad-capacidad",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "prevalencia",
-      "parásitos",
-      "intestinales"
+      "corrección",
+      "exploración",
+      "factores"
     ]
   },
   {
