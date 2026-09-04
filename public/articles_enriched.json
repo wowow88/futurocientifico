@@ -1,5 +1,117 @@
 [
   {
+    "title": "Book Review: The Messy Business of Making Science Happen",
+    "title_es": "Reseña del libro: El desordenado negocio de hacer que la ciencia suceda",
+    "url": "https://undark.org/2026/09/04/book-review-lost-in-curiosity/",
+    "source": "Undark Magazine",
+    "published": "2026-09-04T07:54:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "book",
+      "review",
+      "messy"
+    ]
+  },
+  {
+    "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+    "title_es": "¿Dónde vive el valor de la optimización del arnés? Las ganancias localizadas y la trampa de la división del presupuesto en los agentes de LLM autónomos",
+    "url": "https://arxiv.org/abs/2609.02889",
+    "source": "arXiv",
+    "published": "2026-09-04T04:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "where",
+      "does",
+      "harness-optimization"
+    ]
+  },
+  {
+    "title": "Body parts used for ancient Egyptian artworks traced to surprising source",
+    "title_es": "Partes del cuerpo utilizadas en obras de arte del antiguo Egipto tienen un origen sorprendente",
+    "url": "https://www.nature.com/articles/d41586-026-02739-3",
+    "source": "Nature",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "partes",
+      "cuerpo",
+      "utilizadas"
+    ]
+  },
+  {
+    "title": "CNIC and Fundación Ramón Areces organise the second international conference to understand the neurovascular network and prevent dementia",
+    "title_es": "El CNIC y la Fundación Ramón Areces organizan el segundo congreso internacional para entender la red neurovascular y prevenir la demencia",
+    "url": "https://www.cnic.es/es/node/244158",
+    "source": "CNIC",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "fundación",
+      "ramón"
+    ]
+  },
+  {
+    "title": "A Trio of Tropical Cyclones in the Pacific",
+    "title_es": "Un trío de ciclones tropicales en el Pacífico",
+    "url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "trío",
+      "ciclones",
+      "tropicales"
+    ]
+  },
+  {
+    "title": "Molecular snapshots reveal how bacteria assemble outer membrane proteins",
+    "title_es": "Instantáneas moleculares revelan cómo las bacterias ensamblan proteínas de la membrana externa",
+    "url": "https://phys.org/news/2026-09-molecular-snapshots-reveal-bacteria-outer.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "instantáneas",
+      "moleculares",
+      "revelan"
+    ]
+  },
+  {
+    "title": "Pig kidney kept a man off dialysis for nine months in world first",
+    "title_es": "El riñón de cerdo mantuvo a un hombre fuera de diálisis durante nueve meses en el primer",
+    "url": "https://www.newscientist.com/article/2587510-pig-kidney-kept-a-man-off-dialysis-for-nine-months-in-world-first/",
+    "source": "New Scientist",
+    "published": "2026-09-03T22:30:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "pig",
+      "kidney",
+      "kept"
+    ]
+  },
+  {
+    "title": "Scientists Map Genetics of Personality across Million People",
+    "title_es": "Los científicos mapean la genética de la personalidad en millones de personas",
+    "url": "https://www.sci.news/genetics/personality-genes-15041.html",
+    "source": "Sci.News",
+    "published": "2026-09-03T21:15:55.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "map",
+      "genetics"
+    ]
+  },
+  {
     "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
     "title_es": "WMLLM: Agentes de optimización auto-evolutivos a través de Predict-Then-Act World Modeling",
     "url": "https://arxiv.org/abs/2609.01608",
@@ -39,6 +151,90 @@
       "expertos",
       "agrícolas",
       "promocionan"
+    ]
+  },
+  {
+    "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+    "title_es": "Compilación mediante capacitación: convertir especificaciones del lenguaje natural en funciones neuronales locales",
+    "url": "http://arxiv.org/abs/2609.04199v1",
+    "source": "arXiv",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "compilación",
+      "mediante",
+      "capacitación"
+    ]
+  },
+  {
+    "title": "Fall Books 2026",
+    "title_es": "Libros de otoño 2026",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ael0869",
+    "source": "Science.org",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "libros",
+      "otoño",
+      "2026"
+    ]
+  },
+  {
+    "title": "Nueva vía para mejorar la efectividad de los antiangiogénicos y de la inmunoterapia en cáncer de mama",
+    "title_es": "Nueva vía para mejorar la efectividad de los antiangiogénicos y de la inmunoterapia en cáncer de mama",
+    "url": "https://www.cnio.es/noticias/nueva-via-para-mejorar-la-efectividad-de-los-antiangiogenicos-y-de-la-inmunoterapia-en-cancer-de-mama/",
+    "source": "CNIO",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "nueva",
+      "vía",
+      "mejorar"
+    ]
+  },
+  {
+    "title": "AI agents aren’t ready to replace humans in behavioral research",
+    "title_es": "Los agentes de IA no están preparados para sustituir a los humanos en la investigación del comportamiento",
+    "url": "https://www.sciencenews.org/article/ai-agents-replace-humans-research",
+    "source": "Science News",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "agentes",
+      "están",
+      "preparados"
+    ]
+  },
+  {
+    "title": "Introducing a new collection: Food for Thought",
+    "title_es": "Presentamos una nueva colección: Food for Thought",
+    "url": "https://www.snexplores.org/article/introducing-food-for-thought-collection",
+    "source": "Science News Explores",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "presentamos",
+      "nueva",
+      "colección"
+    ]
+  },
+  {
+    "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
+    "title_es": "Científicos de la NASA descubren un patrón gigante de 10 lados en Saturno",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-03T00:00:00.000Z",
+    "date": "2026-09-03",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "nasa",
+      "descubren"
     ]
   },
   {
@@ -6242,7 +6438,7 @@
   },
   {
     "title": "Eight of Spain’s top sixth-form students begin their research training at the CNIC thanks to the ACÉRCATE programme",
-    "title_es": "Ocho de los mejores estudiantes de sexto grado de España inician su formación investigadora en el CNIC gracias al programa ACÉRCATE",
+    "title_es": "Eight of Spain’s top sixth-form students begin their research training at the CNIC thanks to the ACÉRCATE programme",
     "url": "https://www.cnic.es/es/node/243560",
     "source": "CNIC",
     "published": "2026-07-14T00:00:00.000Z",
@@ -6312,7 +6508,7 @@
   },
   {
     "title": "Maya mathematician’s name decoded alongside astronomical formula",
-    "title_es": "Nombre de matemático maya decodificado junto a fórmula astronómica",
+    "title_es": "Maya mathematician’s name decoded alongside astronomical formula",
     "url": "https://www.newscientist.com/article/2578746-maya-mathematicians-name-decoded-alongside-astronomical-formula/",
     "source": "New Scientist",
     "published": "2026-07-13T23:01:00.000Z",
@@ -6326,7 +6522,7 @@
   },
   {
     "title": "Paleontologists Discover New Species of Titanosaur in Uruguay",
-    "title_es": "Paleontólogos descubren una nueva especie de titanosaurio en Uruguay",
+    "title_es": "Paleontologists Discover New Species of Titanosaur in Uruguay",
     "url": "https://www.sci.news/paleontology/mesetasaurus-protector-14914.html",
     "source": "Sci.News",
     "published": "2026-07-13T21:41:57.000Z",
@@ -6340,7 +6536,7 @@
   },
   {
     "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
-    "title_es": "Certificaciones de Intervalo para Perceptrones de Múltiples Capas a través de Transversal de Enrejado",
+    "title_es": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
     "url": "https://arxiv.org/abs/2607.08773",
     "source": "arXiv",
     "published": "2026-07-13T04:00:00.000Z",
@@ -57078,17 +57274,17 @@
     ]
   },
   {
-    "title": "Correction: Exploring the influencing factors of academic doctoral students’ academic innovation behavior in the context of generative artificial intelligence: Self-determination theory and motivation-opportunity-ability perspectives",
-    "title_es": "Corrección: Exploración de los factores que influyen en el comportamiento de innovación académica de los estudiantes de doctorado en el contexto de la inteligencia artificial generativa: teoría de la autodeterminación y perspectivas de motivación-oportunidad-capacidad",
+    "title": "Time and frequency characteristics of various noninvasive heartbeat sensors",
+    "title_es": "Características de tiempo y frecuencia de varios sensores de latidos cardíacos no invasivos.",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "exploración",
-      "factores"
+      "características",
+      "tiempo",
+      "frecuencia"
     ]
   },
   {
@@ -119310,6 +119506,34 @@
       "solar",
       "eclipses",
       "culture"
+    ]
+  },
+  {
+    "title": "A phenomenological universal expression for the condensate fraction in strongly-correlated two-dimensional Bose gases, by Grigori E. Astrakharchik, I. L. Kurbakov, Norayr A. Asriyan",
+    "title_es": "A phenomenological universal expression for the condensate fraction in strongly-correlated two-dimensional Bose gases, by Grigori E. Astrakharchik, I. L. Kurbakov, Norayr A. Asriyan",
+    "url": "http://scipost.org/scipostphys.21.3.052",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "phenomenological",
+      "universal",
+      "expression"
+    ]
+  },
+  {
+    "title": "Nā ʻUhane Māhoe Huki Pū i ke Ola",
+    "title_es": "Nā ʻUhane Māhoe Huki Pū i ke Ola",
+    "url": "https://apod.nasa.gov/apod/image/2609/noirlab2621a_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "uhane",
+      "mhoe",
+      "huki"
     ]
   }
 ]
