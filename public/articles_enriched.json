@@ -1,5 +1,75 @@
 [
   {
+    "title": "Life uses 4 DNA letters. Scientists just made 8 work",
+    "title_es": "La vida usa 4 letras de ADN. Los científicos acaban de hacer que 8 funcionen",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-05T00:00:00.000Z",
+    "date": "2026-09-05",
+    "category": "noticia",
+    "tags": [
+      "life",
+      "uses",
+      "dna"
+    ]
+  },
+  {
+    "title": "AI could undermine managers' judgment unless used carefully, study warns",
+    "title_es": "La IA podría socavar el juicio de los gerentes a menos que se use con cuidado, advierte un estudio",
+    "url": "https://phys.org/news/2026-09-ai-undermine-judgment.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-05T00:00:00.000Z",
+    "date": "2026-09-05",
+    "category": "noticia",
+    "tags": [
+      "could",
+      "undermine",
+      "managers"
+    ]
+  },
+  {
+    "title": "Ancient DNA Rewrites Story of Enigmatic ‘American Cheetah’",
+    "title_es": "El ADN antiguo reescribe la historia del enigmático ‘guepardo americano’",
+    "url": "https://www.sci.news/paleontology/miracinonyx-trumani-15043.html",
+    "source": "Sci.News",
+    "published": "2026-09-04T21:51:52.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "dna",
+      "rewrites"
+    ]
+  },
+  {
+    "title": "How worried should we be about the invasive mosquitoes in the UK?",
+    "title_es": "¿Qué tan preocupados deberíamos estar por los mosquitos invasores en el Reino Unido?",
+    "url": "https://www.newscientist.com/article/2587789-how-worried-should-we-be-about-the-invasive-mosquitoes-in-the-uk/",
+    "source": "New Scientist",
+    "published": "2026-09-04T16:24:46.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "worried",
+      "should"
+    ]
+  },
+  {
+    "title": "A longer exhale may push your brain toward bolder decisions",
+    "title_es": "Una exhalación más larga puede empujar tu cerebro hacia decisiones más audaces",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-04T11:33:12.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "longer",
+      "exhale",
+      "may"
+    ]
+  },
+  {
     "title": "Book Review: The Messy Business of Making Science Happen",
     "title_es": "Reseña del libro: El desordenado negocio de hacer que la ciencia suceda",
     "url": "https://undark.org/2026/09/04/book-review-lost-in-curiosity/",
@@ -81,6 +151,90 @@
       "instantáneas",
       "moleculares",
       "revelan"
+    ]
+  },
+  {
+    "title": "Briefing Chat: How 1,000 pairs of buried underpants helped measure soil health",
+    "title_es": "Charla informativa: Cómo 1.000 pares de calzoncillos enterrados ayudaron a medir la salud del suelo",
+    "url": "https://www.nature.com/articles/d41586-026-02800-1",
+    "source": "Nature",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "briefing",
+      "chat",
+      "how"
+    ]
+  },
+  {
+    "title": "Science Immunology: El secreto de los tejidos que más trabajan: una buena limpieza",
+    "title_es": "Ciencia Inmunología: El secreto de los tejidos que más trabajan: una buena limpieza",
+    "url": "https://www.cnic.es/es/noticias/science-immunology-secreto-tejidos-que-mas-trabajan-buena-limpieza",
+    "source": "CNIC",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "science",
+      "immunology",
+      "secreto"
+    ]
+  },
+  {
+    "title": "Un estudio del IAC desvela que las galaxias pueden crecer de forma “explosiva”",
+    "title_es": "Un estudio del IAC desvela que las galaxias pueden crecer de forma “explosiva”",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-estudio-del-iac-desvela-que-las-galaxias-pueden-crecer-de-forma-explosiva",
+    "source": "IAC",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "estudio",
+      "iac",
+      "desvela"
+    ]
+  },
+  {
+    "title": "NASA Ames Fire Department Aircraft Firefighting Training",
+    "title_es": "Entrenamiento de extinción de incendios de aeronaves del Departamento de Bomberos de Ames de la",
+    "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "ames",
+      "fire"
+    ]
+  },
+  {
+    "title": "Was the ‘American cheetah’ a cheetah at all?",
+    "title_es": "¿Era el ‘guepardo americano’ un guepardo?",
+    "url": "https://www.sciencenews.org/article/american-cheetah-puma-ancient-dna-diet",
+    "source": "Science News",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "was",
+      "american",
+      "cheetah"
+    ]
+  },
+  {
+    "title": "Wildfires can be tracked by their distinctive rumble",
+    "title_es": "Los incendios forestales se pueden rastrear por su estruendo distintivo",
+    "url": "https://www.snexplores.org/article/tracking-wildfire-infrasound-rumble",
+    "source": "Science News Explores",
+    "published": "2026-09-04T00:00:00.000Z",
+    "date": "2026-09-04",
+    "category": "noticia",
+    "tags": [
+      "wildfires",
+      "can",
+      "tracked"
     ]
   },
   {
@@ -6033,7 +6187,7 @@
   },
   {
     "title": "Tyrannosaurus rex Scavenged Duck-Billed Dinosaurs in Ancient Wyoming, Bite Marks Reveal",
-    "title_es": "Dinosaurios de pico de pato carroñeros de Tyrannosaurus rex en el antiguo Wyoming, revelan marcas de mordeduras",
+    "title_es": "Tyrannosaurus rex Scavenged Duck-Billed Dinosaurs in Ancient Wyoming, Bite Marks Reveal",
     "url": "https://www.sci.news/paleontology/tyrannosaurus-rex-edmontosaurus-annectens-scavenging-bite-marks-14922.html",
     "source": "Sci.News",
     "published": "2026-07-16T00:01:41.000Z",
@@ -6089,7 +6243,7 @@
   },
   {
     "title": "Drug discovery Is changing. Drug development must change too.",
-    "title_es": "El descubrimiento de fármacos está cambiando. El desarrollo de fármacos también debe cambiar.",
+    "title_es": "Drug discovery Is changing. Drug development must change too.",
     "url": "https://www.newscientist.com/article/2579721-drug-discovery-is-changing/",
     "source": "New Scientist",
     "published": "2026-07-16T00:00:00.000Z",
@@ -6187,7 +6341,7 @@
   },
   {
     "title": "Will AI Fix Prior Authorization — or Make It Worse?",
-    "title_es": "¿La IA arreglará la autorización previa, o la empeorará?",
+    "title_es": "Will AI Fix Prior Authorization — or Make It Worse?",
     "url": "https://undark.org/2026/07/15/medicare-prior-authorization-ai/",
     "source": "Undark Magazine",
     "published": "2026-07-15T07:16:00.000Z",
@@ -6201,7 +6355,7 @@
   },
   {
     "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
-    "title_es": "Creación óptima de mercado adaptativo: un marco teórico para la provisión de liquidez de alto rendimiento en los mercados de futuros perpetuos",
+    "title_es": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
     "url": "https://arxiv.org/abs/2607.11888",
     "source": "arXiv",
     "published": "2026-07-15T04:00:00.000Z",
@@ -6271,7 +6425,7 @@
   },
   {
     "title": "Artūras Makselis, winner of the CNIC Prize at EUCYS, undertakes a research placement at the CNIC",
-    "title_es": "Artūras Makselis, ganador del Premio CNIC en EUCYS, realiza una estancia de investigación en el CNIC",
+    "title_es": "Artūras Makselis, winner of the CNIC Prize at EUCYS, undertakes a research placement at the CNIC",
     "url": "https://www.cnic.es/es/node/243579",
     "source": "CNIC",
     "published": "2026-07-15T00:00:00.000Z",
@@ -6327,7 +6481,7 @@
   },
   {
     "title": "New Crested Dinosaur Species Identified in Canada",
-    "title_es": "Nueva especie de dinosaurio crestado identificada en Canadá",
+    "title_es": "New Crested Dinosaur Species Identified in Canada",
     "url": "https://www.sci.news/paleontology/plesiolophus-warnerensis-14917.html",
     "source": "Sci.News",
     "published": "2026-07-14T22:26:27.000Z",
@@ -6341,7 +6495,7 @@
   },
   {
     "title": "Can everyone live a ‘good life’ without destroying the planet?",
-    "title_es": "¿Puede todo el mundo vivir una \"buena vida\" sin destruir el planeta?",
+    "title_es": "Can everyone live a ‘good life’ without destroying the planet?",
     "url": "https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/",
     "source": "New Scientist",
     "published": "2026-07-14T15:00:03.000Z",
@@ -6355,7 +6509,7 @@
   },
   {
     "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
-    "title_es": "De las predicciones de ML a la asistencia diagnóstica informada utilizando el modelo de argumentación de Toulmin",
+    "title_es": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
     "url": "https://arxiv.org/abs/2607.09664",
     "source": "arXiv",
     "published": "2026-07-14T04:00:00.000Z",
@@ -57274,17 +57428,17 @@
     ]
   },
   {
-    "title": "Time and frequency characteristics of various noninvasive heartbeat sensors",
-    "title_es": "Características de tiempo y frecuencia de varios sensores de latidos cardíacos no invasivos.",
+    "title": "Correction: Holt-Laury as a gumball machine",
+    "title_es": "",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "características",
-      "tiempo",
-      "frecuencia"
+      "correction",
+      "holt-laury",
+      "gumball"
     ]
   },
   {
@@ -119534,6 +119688,34 @@
       "uhane",
       "mhoe",
       "huki"
+    ]
+  },
+  {
+    "title": "Bridging perturbation theory and simulations: Initial conditions and fast integrators for cosmological simulations, by Oliver Hahn",
+    "title_es": "Bridging perturbation theory and simulations: Initial conditions and fast integrators for cosmological simulations, by Oliver Hahn",
+    "url": "http://scipost.org/scipostphyslectnotes.134",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bridging",
+      "perturbation",
+      "theory"
+    ]
+  },
+  {
+    "title": "Chasing the Moon's Shadow",
+    "title_es": "Chasing the Moon's Shadow",
+    "url": "https://apod.nasa.gov/apod/image/2609/2026eclipse_wb57gopro_totality_h264_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "chasing",
+      "moons",
+      "shadow"
     ]
   }
 ]
