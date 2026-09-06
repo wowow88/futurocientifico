@@ -1,5 +1,47 @@
 [
   {
+    "title": "A mysterious signal around Earth could be dark matter",
+    "title_es": "Una señal misteriosa alrededor de la Tierra podría ser materia oscura",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260904000328.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-06T00:00:00.000Z",
+    "date": "2026-09-06",
+    "category": "noticia",
+    "tags": [
+      "mysterious",
+      "signal",
+      "around"
+    ]
+  },
+  {
+    "title": "Germany's Isar Aerospace launches rocket into orbit from Norway",
+    "title_es": "La alemana Isar Aerospace pone en órbita un cohete desde Noruega",
+    "url": "https://phys.org/news/2026-09-germany-isar-aerospace-rocket-orbit.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-06T00:00:00.000Z",
+    "date": "2026-09-06",
+    "category": "noticia",
+    "tags": [
+      "germanys",
+      "isar",
+      "aerospace"
+    ]
+  },
+  {
+    "title": "Fermat’s last theorem formalised by AI agents in just 11 days",
+    "title_es": "Último teorema de Fermat formalizado por agentes de IA en tan solo 11 días",
+    "url": "https://www.newscientist.com/article/2587839-fermats-last-theorem-formalised-by-ai-agents-in-just-11-days/",
+    "source": "New Scientist",
+    "published": "2026-09-05T11:05:48.000Z",
+    "date": "2026-09-05",
+    "category": "noticia",
+    "tags": [
+      "fermats",
+      "last",
+      "theorem"
+    ]
+  },
+  {
     "title": "Life uses 4 DNA letters. Scientists just made 8 work",
     "title_es": "La vida usa 4 letras de ADN. Los científicos acaban de hacer que 8 funcionen",
     "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
@@ -25,6 +67,20 @@
       "could",
       "undermine",
       "managers"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 5 – Chasing the Moon’s Shadow",
+    "title_es": "APOD: 2026 5 de septiembre – Persiguiendo la sombra de la luna",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-05T00:00:00.000Z",
+    "date": "2026-09-05",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
     ]
   },
   {
@@ -309,16 +365,16 @@
   },
   {
     "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-    "title_es": "Compilación mediante capacitación: convertir especificaciones del lenguaje natural en funciones neuronales locales",
+    "title_es": "Compilar por capacitación: convertir las especificaciones del lenguaje natural en funciones neuronales locales",
     "url": "http://arxiv.org/abs/2609.04199v1",
     "source": "arXiv",
     "published": "2026-09-03T00:00:00.000Z",
     "date": "2026-09-03",
     "category": "noticia",
     "tags": [
-      "compilación",
-      "mediante",
-      "capacitación"
+      "compile",
+      "training",
+      "turning"
     ]
   },
   {
@@ -330,8 +386,8 @@
     "date": "2026-09-03",
     "category": "noticia",
     "tags": [
-      "libros",
-      "otoño",
+      "fall",
+      "books",
       "2026"
     ]
   },
@@ -5991,7 +6047,7 @@
   },
   {
     "title": "Using AI for creative pursuits? Moderation is key",
-    "title_es": "¿Usar la IA para actividades creativas? La moderación es clave",
+    "title_es": "Using AI for creative pursuits? Moderation is key",
     "url": "https://www.newscientist.com/article/2580262-using-ai-for-creative-pursuits-moderation-is-key/",
     "source": "New Scientist",
     "published": "2026-07-17T16:47:17.000Z",
@@ -6005,7 +6061,7 @@
   },
   {
     "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
-    "title_es": "Arquitectura inteligente de aprendizaje de tres niveles para enjambres de UAV autónomos en búsqueda y rescate",
+    "title_es": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
     "url": "https://arxiv.org/abs/2607.14093",
     "source": "arXiv",
     "published": "2026-07-17T04:00:00.000Z",
@@ -6019,7 +6075,7 @@
   },
   {
     "title": "Ancient Egyptian princesses buried with weapons may have been fighters",
-    "title_es": "Las antiguas princesas egipcias enterradas con armas pueden haber sido combatientes",
+    "title_es": "Ancient Egyptian princesses buried with weapons may have been fighters",
     "url": "https://www.newscientist.com/article/2579773-ancient-egyptian-princesses-buried-with-weapons-may-have-been-fighters/",
     "source": "New Scientist",
     "published": "2026-07-17T04:00:00.000Z",
@@ -6159,7 +6215,7 @@
   },
   {
     "title": "Potential Atmosphere Detected on Habitable-Zone Exoplanet LHS 1140b",
-    "title_es": "Atmósfera potencial detectada en el exoplaneta LHS 1140b de la zona habitable",
+    "title_es": "Potential Atmosphere Detected on Habitable-Zone Exoplanet LHS 1140b",
     "url": "https://www.sci.news/astronomy/atmosphere-habitable-zone-exoplanet-lhs-1140b-14925.html",
     "source": "Sci.News",
     "published": "2026-07-16T23:37:45.000Z",
@@ -6173,7 +6229,7 @@
   },
   {
     "title": "FixItFlow: Automated Troubleshooting Guide Generation from Cloud Incidents",
-    "title_es": "FixItFlow: generación automatizada de guías de solución de problemas a partir de incidentes en la nube",
+    "title_es": "FixItFlow: Automated Troubleshooting Guide Generation from Cloud Incidents",
     "url": "https://arxiv.org/abs/2607.13035",
     "source": "arXiv",
     "published": "2026-07-16T04:00:00.000Z",
@@ -119716,6 +119772,34 @@
       "chasing",
       "moons",
       "shadow"
+    ]
+  },
+  {
+    "title": "Les Houches study on inclusive jet production at NNLO+NNLL, by Terry Generet, Joey Huston, Kyle Lee, Ian Moult, Rene Poncelet, Xiaoyuan Zhang",
+    "title_es": "Les Houches study on inclusive jet production at NNLO+NNLL, by Terry Generet, Joey Huston, Kyle Lee, Ian Moult, Rene Poncelet, Xiaoyuan Zhang",
+    "url": "http://scipost.org/scipostphyscommrep.29",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "les",
+      "houches",
+      "study"
+    ]
+  },
+  {
+    "title": "Pluto in Enhanced Color",
+    "title_es": "Pluto in Enhanced Color",
+    "url": "https://apod.nasa.gov/apod/image/2609/plutoenhancedhires_newhorizons_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "pluto",
+      "enhanced",
+      "color"
     ]
   }
 ]
