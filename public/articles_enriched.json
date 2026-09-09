@@ -1,5 +1,61 @@
 [
   {
+    "title": "Why the super-fun Ig Nobel prizes bring serious value to science",
+    "title_es": "Por qué los súper divertidos premios Ig Nobel aportan un gran valor a la ciencia",
+    "url": "https://www.nature.com/articles/d41586-026-02793-x",
+    "source": "Nature",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "súper"
+    ]
+  },
+  {
+    "title": "Families' interest in their kids' education is falling around the globe as scores drop, test shows",
+    "title_es": "El interés de las familias en la educación de sus hijos está cayendo en todo el mundo a medida que bajan los puntajes, según muestran pruebas",
+    "url": "https://phys.org/news/2026-09-families-kids-falling-globe-scores.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "interés",
+      "familias",
+      "educación"
+    ]
+  },
+  {
+    "title": "Paracetamol use in early pregnancy linked to smaller ovaries and testes",
+    "title_es": "Uso de paracetamol en el embarazo temprano relacionado con ovarios y testículos más pequeños",
+    "url": "https://www.newscientist.com/article/2588178-common-painkiller-use-in-early-pregnancy-linked-to-smaller-ovaries-and-testes/",
+    "source": "New Scientist",
+    "published": "2026-09-08T23:05:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "paracetamol",
+      "use",
+      "early"
+    ]
+  },
+  {
+    "title": "New Owl Species Discovered in Peru",
+    "title_es": "Descubren una nueva especie de búho en Perú",
+    "url": "https://www.sci.news/biology/bubo-jalca-15051.html",
+    "source": "Sci.News",
+    "published": "2026-09-08T22:59:26.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "owl",
+      "species"
+    ]
+  },
+  {
     "title": "As Star Trek turns 60, it’s not too late to discover the seminal series",
     "title_es": "A medida que Star Trek cumple 60 años, no es demasiado tarde para descubrir la serie seminal",
     "url": "https://www.newscientist.com/article/2587667-as-star-trek-turns-60-its-not-too-late-to-discover-the-seminal-series/",
@@ -53,6 +109,90 @@
       "kauai",
       "bajo",
       "alerta"
+    ]
+  },
+  {
+    "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+    "title_es": "TANGO: Navegación humanoide en entornos desordenados con un modelo de visión, lenguaje y acción de todo el cuerpo",
+    "url": "http://arxiv.org/abs/2609.09158v1",
+    "source": "arXiv",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "tango",
+      "navegación",
+      "humanoide"
+    ]
+  },
+  {
+    "title": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
+    "title_es": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
+    "url": "https://www.cnic.es/es/noticias/circulation-un-estudio-liderado-por-dr-pablo-garcia-pavia-permite-identificar-pacientes-con",
+    "source": "CNIC",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "estudio",
+      "liderado"
+    ]
+  },
+  {
+    "title": "El ‘modus operandi’ de un ARN clave para la división celular da pistas para resolver “un gran desafío” de la biología actual",
+    "title_es": "El ‘modus operandi’ de un ARN clave para la división celular da pistas para resolver “un gran desafío” de la biología actual",
+    "url": "https://www.cnio.es/noticias/el-modus-operandi-de-un-arn-clave-para-la-division-celular-da-pistas-para-resolver-un-gran-desafio-de-la-biologia-actual/",
+    "source": "CNIO",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "modus",
+      "operandi",
+      "arn"
+    ]
+  },
+  {
+    "title": "A choir of katydid ancestors filled the Jurassic rainforest with song",
+    "title_es": "Un coro de ancestros de saltamontes llenó de canciones la selva jurásica",
+    "url": "https://www.sciencenews.org/article/hear-insect-ancestors-jurassic-sound",
+    "source": "Science News",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "coro",
+      "ancestros",
+      "saltamontes"
+    ]
+  },
+  {
+    "title": "Let’s learn about humanmade seismic waves",
+    "title_es": "Aprendamos sobre las ondas sísmicas creadas por el hombre",
+    "url": "https://www.snexplores.org/article/lets-learn-about-human-seismic-waves-taylor-swift",
+    "source": "Science News Explores",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "aprendamos",
+      "sobre",
+      "ondas"
+    ]
+  },
+  {
+    "title": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+    "title_es": "Los científicos descubren un nuevo y poderoso antídoto escondido en la sangre de una serpiente de cascabel",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-08T00:00:00.000Z",
+    "date": "2026-09-08",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "descubren",
+      "nuevo"
     ]
   },
   {
@@ -6005,7 +6145,7 @@
   },
   {
     "title": "Inhaling high-dose CO2 clears Alzheimer’s proteins from the brain",
-    "title_es": "La inhalación de altas dosis de CO2 elimina las proteínas del Alzheimer del cerebro",
+    "title_es": "Inhaling high-dose CO2 clears Alzheimer’s proteins from the brain",
     "url": "https://www.newscientist.com/article/2580471-inhaling-high-dose-co2-clears-alzheimers-proteins-from-the-brain/",
     "source": "New Scientist",
     "published": "2026-07-20T16:31:27.000Z",
@@ -6019,7 +6159,7 @@
   },
   {
     "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-    "title_es": "GraphDx: un marco multiagente con conocimiento y conciencia de costes para el diagnóstico secuencial",
+    "title_es": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
     "url": "https://arxiv.org/abs/2607.15280",
     "source": "arXiv",
     "published": "2026-07-20T04:00:00.000Z",
@@ -6075,7 +6215,7 @@
   },
   {
     "title": "Arranca el primer estudio español para predecir riesgo personalizado de cáncer de mama",
-    "title_es": "Arranca el primer estudio español para predecir el riesgo personalizado de cáncer de mama",
+    "title_es": "Arranca el primer estudio español para predecir riesgo personalizado de cáncer de mama",
     "url": "https://www.cnio.es/noticias/arranca-el-primer-estudio-espanol-para-predecir-riesgo-personalizado-de-cancer-de-mama/",
     "source": "CNIO",
     "published": "2026-07-20T00:00:00.000Z",
@@ -57680,8 +57820,8 @@
     ]
   },
   {
-    "title": "Correction: Holt-Laury as a gumball machine",
-    "title_es": "Corrección: Holt-Laury como una máquina de chicles",
+    "title": "Correction: Time and spatial trends in landing per unit of effort as support to fisheries management in a multi-gear coastal fishery",
+    "title_es": "Corrección: Tendencias temporales y espaciales en los desembarques por unidad de esfuerzo como apoyo a la ordenación pesquera en una pesquería costera con artes múltiples",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -57689,8 +57829,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "holt-laury",
-      "como"
+      "tendencias",
+      "temporales"
     ]
   },
   {
@@ -120052,6 +120192,34 @@
       "hubble",
       "decagon",
       "around"
+    ]
+  },
+  {
+    "title": "Unbinning global LHC analyses, by Henning Bahl, Tilman Plehn, Nikita Schmal",
+    "title_es": "Unbinning global LHC analyses, by Henning Bahl, Tilman Plehn, Nikita Schmal",
+    "url": "http://scipost.org/scipostphys.21.3.057",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "unbinning",
+      "global",
+      "lhc"
+    ]
+  },
+  {
+    "title": "Witness XZ Andromedae Wink",
+    "title_es": "Witness XZ Andromedae Wink",
+    "url": "https://apod.nasa.gov/apod/image/2609/xz_and.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "witness",
+      "andromedae",
+      "wink"
     ]
   }
 ]
