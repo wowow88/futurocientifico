@@ -1,5 +1,103 @@
 [
   {
+    "title": "Cracking the ageing code",
+    "title_es": "Descifrar el código de envejecimiento",
+    "url": "https://www.newscientist.com/article/2587740-cracking-the-ageing-code/",
+    "source": "New Scientist",
+    "published": "2026-09-10T08:13:33.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "cracking",
+      "ageing",
+      "code"
+    ]
+  },
+  {
+    "title": "Spectral origin of the topological gap exponent d + {\\eta}: mechanism, kernel, decomposition, and scope",
+    "title_es": "Origen espectral del exponente del gap topológico d + {\\eta}: mecanismo, núcleo, descomposición y alcance",
+    "url": "https://arxiv.org/abs/2609.09159",
+    "source": "arXiv",
+    "published": "2026-09-10T04:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "spectral",
+      "origin",
+      "topological"
+    ]
+  },
+  {
+    "title": "Desvelan los procesos que dañan el ADN en la mayoría de los cánceres de próstata",
+    "title_es": "Desvelan los procesos que dañan el ADN en la mayoría de los cánceres de próstata",
+    "url": "https://www.cnio.es/noticias/desvelan-los-procesos-que-danan-el-adn-en-la-mayoria-de-los-canceres-de-prostata/",
+    "source": "CNIO",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "desvelan",
+      "procesos",
+      "que"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 10 – LDN 1295: The Giraffe Nebula",
+    "title_es": "APOD: 10 de septiembre de 2026 – LDN 1295: La Nebulosa de la Jirafa",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-10-ldn-1295-the-giraffe-nebula/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "septiembre",
+      "2026"
+    ]
+  },
+  {
+    "title": "AI pinpoints when fish reach their thermal limit",
+    "title_es": "La IA detecta cuándo los peces alcanzan su límite térmico",
+    "url": "https://phys.org/news/2026-09-ai-fish-thermal-limit.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "detecta",
+      "cuándo",
+      "peces"
+    ]
+  },
+  {
+    "title": "Distant sensors announced a fearsome tsunami’s birth",
+    "title_es": "Sensores distantes anunciaron el nacimiento de un temible tsunami",
+    "url": "https://www.nature.com/articles/d41586-026-02809-6",
+    "source": "Nature",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "distant",
+      "sensors",
+      "announced"
+    ]
+  },
+  {
+    "title": "Paleontologists Discover First-Ever Adult Tyrannosaurus rex Trackway",
+    "title_es": "Paleontólogos descubren el primer sendero de tiranosaurio rex adulto",
+    "url": "https://www.sci.news/paleontology/adult-tyrannosaurus-rex-trackway-15056.html",
+    "source": "Sci.News",
+    "published": "2026-09-09T23:04:19.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "discover",
+      "first-ever"
+    ]
+  },
+  {
     "title": "Why the super-fun Ig Nobel prizes bring serious value to science",
     "title_es": "Por qué los súper divertidos premios Ig Nobel aportan un gran valor a la ciencia",
     "url": "https://www.nature.com/articles/d41586-026-02793-x",
@@ -25,6 +123,62 @@
       "interés",
       "familias",
       "educación"
+    ]
+  },
+  {
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "title_es": "Show-Harness: Sólo un agente de VLM puede jugar con robots",
+    "url": "http://arxiv.org/abs/2609.10522v1",
+    "source": "arXiv",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "show-harness",
+      "sólo",
+      "agente"
+    ]
+  },
+  {
+    "title": "AI may have solved one of math’s biggest puzzles, raising controversy",
+    "title_es": "La IA puede haber resuelto uno de los mayores acertijos de las matemáticas, lo que genera controversia",
+    "url": "https://www.sciencenews.org/article/ai-math-puzzle-navier-stokes-openai",
+    "source": "Science News",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "puede",
+      "haber",
+      "resuelto"
+    ]
+  },
+  {
+    "title": "Uh oh! AI agents broke free and went on a hacking spree",
+    "title_es": "¡Oh, oh! Los agentes de IA se liberaron y se lanzaron a una ola de piratería",
+    "url": "https://www.snexplores.org/article/ai-agents-hacking-spree-openai",
+    "source": "Science News Explores",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "agentes",
+      "liberaron",
+      "lanzaron"
+    ]
+  },
+  {
+    "title": "Scientists find a bone-building switch that could fight osteoporosis",
+    "title_es": "Los científicos encuentran un interruptor de formación de huesos que podría combatir la osteoporosis",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-09T00:00:00.000Z",
+    "date": "2026-09-09",
+    "category": "noticia",
+    "tags": [
+      "científicos",
+      "encuentran",
+      "interruptor"
     ]
   },
   {
@@ -127,7 +281,7 @@
   },
   {
     "title": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
-    "title_es": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
+    "title_es": "Circulación: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
     "url": "https://www.cnic.es/es/noticias/circulation-un-estudio-liderado-por-dr-pablo-garcia-pavia-permite-identificar-pacientes-con",
     "source": "CNIC",
     "published": "2026-09-08T00:00:00.000Z",
@@ -5991,7 +6145,7 @@
   },
   {
     "title": "Small Sauropod Dinosaur from Jurassic Period Discovered in India",
-    "title_es": "Pequeño dinosaurio saurópodo del período jurásico descubierto en la India",
+    "title_es": "Small Sauropod Dinosaur from Jurassic Period Discovered in India",
     "url": "https://www.sci.news/paleontology/ceratocaudia-antiqua-14934.html",
     "source": "Sci.News",
     "published": "2026-07-21T21:31:38.000Z",
@@ -6005,7 +6159,7 @@
   },
   {
     "title": "Scientists found mystery bacteria inside one of the ocean’s most elusive whales",
-    "title_es": "Los científicos encontraron bacterias misteriosas dentro de una de las ballenas más esquivas del océano",
+    "title_es": "Scientists found mystery bacteria inside one of the ocean’s most elusive whales",
     "url": "https://www.sciencedaily.com/releases/2026/07/260721000847.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-07-21T05:10:08.000Z",
@@ -6019,7 +6173,7 @@
   },
   {
     "title": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization",
-    "title_es": "Aprendizaje de refuerzo: NSGA-II guiado mejorado con el coeficiente relacional gris para la optimización multiobjetivo: aplicación a la optimización de la cartera NASDAQ",
+    "title_es": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization",
     "url": "https://arxiv.org/abs/2607.16194",
     "source": "arXiv",
     "published": "2026-07-21T04:00:00.000Z",
@@ -6089,7 +6243,7 @@
   },
   {
     "title": "eLife: A virtual map shows how the mammalian heart takes shape",
-    "title_es": "eLife: Un mapa virtual muestra cómo toma forma el corazón de los mamíferos",
+    "title_es": "eLife: A virtual map shows how the mammalian heart takes shape",
     "url": "https://www.cnic.es/es/node/243665",
     "source": "CNIC",
     "published": "2026-07-21T00:00:00.000Z",
@@ -6131,7 +6285,7 @@
   },
   {
     "title": "Oldest Known Male Gecko Found Preserved in Kachin Amber",
-    "title_es": "Gecko macho más antiguo conocido encontrado conservado en ámbar kachin",
+    "title_es": "Oldest Known Male Gecko Found Preserved in Kachin Amber",
     "url": "https://www.sci.news/paleontology/carinasquama-rusmithii-14931.html",
     "source": "Sci.News",
     "published": "2026-07-20T20:55:25.000Z",
@@ -57820,8 +57974,8 @@
     ]
   },
   {
-    "title": "Correction: Time and spatial trends in landing per unit of effort as support to fisheries management in a multi-gear coastal fishery",
-    "title_es": "Corrección: Tendencias temporales y espaciales en los desembarques por unidad de esfuerzo como apoyo a la ordenación pesquera en una pesquería costera con artes múltiples",
+    "title": "Correction: Global burden and future projections of non-communicable diseases (2000–2050): Progress toward SDG 3.4 and disparities across regions and risk factors",
+    "title_es": "Corrección: Carga global y proyecciones futuras de enfermedades no transmisibles (2000-2050): progreso hacia el ODS 3.4 y disparidades entre regiones y factores de riesgo",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
@@ -57829,8 +57983,8 @@
     "category": "noticia",
     "tags": [
       "corrección",
-      "tendencias",
-      "temporales"
+      "carga",
+      "global"
     ]
   },
   {
@@ -120220,6 +120374,34 @@
       "witness",
       "andromedae",
       "wink"
+    ]
+  },
+  {
+    "title": "Full counting statistics in the sine-Gordon model, by Botond C. Nagy, Márton Kormos, Gábor Takács",
+    "title_es": "Full counting statistics in the sine-Gordon model, by Botond C. Nagy, Márton Kormos, Gábor Takács",
+    "url": "http://scipost.org/scipostphys.21.3.061",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "full",
+      "counting",
+      "statistics"
+    ]
+  },
+  {
+    "title": "LDN 1295: The Giraffe Nebula",
+    "title_es": "LDN 1295: The Giraffe Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2609/ldn1295_giraffe_1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ldn",
+      "1295",
+      "giraffe"
     ]
   }
 ]
