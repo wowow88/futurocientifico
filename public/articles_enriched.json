@@ -1,5 +1,89 @@
 [
   {
+    "title": "How to build powerful microhabits for your wellbeing – and keep them",
+    "title_es": "Cómo crear microhábitos potentes para tu bienestar y mantenerlos",
+    "url": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/",
+    "source": "New Scientist",
+    "published": "2026-09-11T08:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "build",
+      "powerful"
+    ]
+  },
+  {
+    "title": "Review: A Vision of a Future Where Machines Fight Wars",
+    "title_es": "Revisión: Una visión de un futuro donde las máquinas luchan contra las guerras",
+    "url": "https://undark.org/2026/09/11/book-review-lethal-autonomy/",
+    "source": "Undark Magazine",
+    "published": "2026-09-11T07:36:32.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "review",
+      "vision",
+      "future"
+    ]
+  },
+  {
+    "title": "The Internet of Collaborating Things: Agentic Edge AI for Autonomous Cross-Domain Collaboration",
+    "title_es": "Internet de las cosas colaborativas: inteligencia artificial de vanguardia para la colaboración autónoma entre dominios",
+    "url": "https://arxiv.org/abs/2609.10542",
+    "source": "arXiv",
+    "published": "2026-09-11T04:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "internet",
+      "collaborating",
+      "things"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 11 – M83: The Southern Pinwheel",
+    "title_es": "APOD: 11 de septiembre de 2026 – M83: El molinete del sur",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-11-m83-the-southern-pinwheel/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "septiembre",
+      "2026"
+    ]
+  },
+  {
+    "title": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India",
+    "title_es": "Indonesia busca traer de vuelta a los bebés orangutanes presuntamente traficados a la India",
+    "url": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "indonesia",
+      "seeks",
+      "bring"
+    ]
+  },
+  {
+    "title": "Exceptionally Preserved Bird Feathers Found in 66-Million-Year-Old Dinosaur Coprolite",
+    "title_es": "Se encuentran plumas de pájaro excepcionalmente conservadas en el coprolito de dinosaurio de 66 millones de años",
+    "url": "https://www.sci.news/paleontology/hesperornithiform-bird-feathers-dinosaur-coprolite-15058.html",
+    "source": "Sci.News",
+    "published": "2026-09-10T22:08:07.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "exceptionally",
+      "preserved",
+      "bird"
+    ]
+  },
+  {
     "title": "Cracking the ageing code",
     "title_es": "Descifrar el código de envejecimiento",
     "url": "https://www.newscientist.com/article/2587740-cracking-the-ageing-code/",
@@ -81,6 +165,90 @@
       "distant",
       "sensors",
       "announced"
+    ]
+  },
+  {
+    "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "title_es": "GPU-CFR: minimización de arrepentimiento contrafactual 80 veces más rápida al compilar el juego en flujo de datos estático y reproducción de gráficos CUDA",
+    "url": "http://arxiv.org/abs/2609.11923v1",
+    "source": "arXiv",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "gpu-cfr",
+      "80x",
+      "faster"
+    ]
+  },
+  {
+    "title": "Save the bogs, for peat’s sake",
+    "title_es": "Salva las turberas, por el bien de la turba",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aei4007",
+    "source": "Science.org",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "save",
+      "bogs",
+      "peats"
+    ]
+  },
+  {
+    "title": "Author Correction: The molecular basis of force selectivity by PIEZO2",
+    "title_es": "Corrección del autor: La base molecular de la selectividad de la fuerza por PIEZO2",
+    "url": "https://www.nature.com/articles/s41586-026-11079-1",
+    "source": "Nature",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "author",
+      "correction",
+      "molecular"
+    ]
+  },
+  {
+    "title": "Circulation: A study led by Spanish scientists identifies dilated cardiomyopathy patients at greater risk of sudden death and arrhythmias[",
+    "title_es": "Circulación: Un estudio liderado por científicos españoles identifica a los pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias[",
+    "url": "https://www.cnic.es/es/node/244220",
+    "source": "CNIC",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "study",
+      "led"
+    ]
+  },
+  {
+    "title": "Climate change is shifting malaria hot spots in Africa",
+    "title_es": "El cambio climático está cambiando los puntos críticos de la malaria en África",
+    "url": "https://www.sciencenews.org/article/climate-change-shifting-malaria-africa",
+    "source": "Science News",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "climate",
+      "change",
+      "shifting"
+    ]
+  },
+  {
+    "title": "Spying on the secret lives of boobies",
+    "title_es": "Espiar la vida secreta de los piqueros",
+    "url": "https://www.snexplores.org/article/tagging-red-footed-boobies-seabird-lives",
+    "source": "Science News Explores",
+    "published": "2026-09-10T00:00:00.000Z",
+    "date": "2026-09-10",
+    "category": "noticia",
+    "tags": [
+      "spying",
+      "secret",
+      "lives"
     ]
   },
   {
@@ -169,16 +337,16 @@
   },
   {
     "title": "Scientists find a bone-building switch that could fight osteoporosis",
-    "title_es": "Los científicos encuentran un interruptor de formación de huesos que podría combatir la osteoporosis",
+    "title_es": "Los científicos encuentran un interruptor de construcción ósea que podría combatir la osteoporosis",
     "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-09T00:00:00.000Z",
     "date": "2026-09-09",
     "category": "noticia",
     "tags": [
-      "científicos",
-      "encuentran",
-      "interruptor"
+      "scientists",
+      "find",
+      "bone-building"
     ]
   },
   {
@@ -5669,7 +5837,7 @@
   },
   {
     "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
-    "title_es": "¿Qué es bueno? Extracción y prueba de teorías implícitas de la calidad literaria a partir de las pistas de razonamiento de LLM",
+    "title_es": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
     "url": "https://arxiv.org/abs/2607.20425",
     "source": "arXiv",
     "published": "2026-07-24T04:00:00.000Z",
@@ -5683,7 +5851,7 @@
   },
   {
     "title": "Did Early Snakes Burrow, Swim or Crawl? 80‑Million‑Year‑Old Fossil Suggests: All Three",
-    "title_es": "¿Las primeras serpientes excavaron, nadaron o gatearon? Sugiere un fósil de 80 millones de años: los tres",
+    "title_es": "Did Early Snakes Burrow, Swim or Crawl? 80‑Million‑Year‑Old Fossil Suggests: All Three",
     "url": "https://www.sci.news/paleontology/tametara-mirim-14942.html",
     "source": "Sci.News",
     "published": "2026-07-24T00:18:24.000Z",
@@ -5809,7 +5977,7 @@
   },
   {
     "title": "This El Niño will be the hottest by a huge margin",
-    "title_es": "Este El Niño será el más caliente por un amplio margen",
+    "title_es": "This El Niño will be the hottest by a huge margin",
     "url": "https://www.newscientist.com/article/2581151-this-el-nino-will-be-the-hottest-by-a-huge-margin/",
     "source": "New Scientist",
     "published": "2026-07-23T18:00:39.000Z",
@@ -5823,7 +5991,7 @@
   },
   {
     "title": "Interview: How Tragedy Changed the FDA",
-    "title_es": "Entrevista: Cómo la tragedia cambió la FDA",
+    "title_es": "Interview: How Tragedy Changed the FDA",
     "url": "https://undark.org/2026/07/23/interview-mikkael-sekeres/",
     "source": "Undark Magazine",
     "published": "2026-07-23T07:44:00.000Z",
@@ -5837,7 +6005,7 @@
   },
   {
     "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
-    "title_es": "FineServe: un conjunto de datos de grano fino y caracterización de las cargas de trabajo globales de servicio de LLM",
+    "title_es": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
     "url": "https://arxiv.org/abs/2607.19349",
     "source": "arXiv",
     "published": "2026-07-23T04:00:00.000Z",
@@ -5851,7 +6019,7 @@
   },
   {
     "title": "Orcas filmed making sunfish explode by ramming them at high speed",
-    "title_es": "Orcas filmadas haciendo explotar peces luna embistiéndolas a gran velocidad",
+    "title_es": "Orcas filmed making sunfish explode by ramming them at high speed",
     "url": "https://www.newscientist.com/article/2580817-orcas-filmed-making-sunfish-explode-by-ramming-it-at-high-speed/",
     "source": "New Scientist",
     "published": "2026-07-23T04:00:00.000Z",
@@ -6005,7 +6173,7 @@
   },
   {
     "title": "Jurassic Pliosaur Liopleurodon Was Big, but Not as Big as Once Feared",
-    "title_es": "El pliosaurio jurásico Liopleurodon era grande, pero no tan grande como se temía",
+    "title_es": "Jurassic Pliosaur Liopleurodon Was Big, but Not as Big as Once Feared",
     "url": "https://www.sci.news/paleontology/liopleurodon-ferox-14939.html",
     "source": "Sci.News",
     "published": "2026-07-22T22:50:49.000Z",
@@ -6019,7 +6187,7 @@
   },
   {
     "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
-    "title_es": "SysAdmin: Medición de la búsqueda de poder instrumental en la inteligencia artificial de frontera",
+    "title_es": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
     "url": "https://arxiv.org/abs/2607.18239",
     "source": "arXiv",
     "published": "2026-07-22T04:00:00.000Z",
@@ -6033,7 +6201,7 @@
   },
   {
     "title": "Magic rituals took place in an Australian cave for 25,000 years",
-    "title_es": "Los rituales mágicos tuvieron lugar en una cueva australiana durante 25.000 años",
+    "title_es": "Magic rituals took place in an Australian cave for 25,000 years",
     "url": "https://www.newscientist.com/article/2580559-magic-ceremonies-took-place-in-an-australian-cave-for-25000-years/",
     "source": "New Scientist",
     "published": "2026-07-22T04:00:00.000Z",
@@ -6047,7 +6215,7 @@
   },
   {
     "title": "El IAC refuerza su presencia internacional en SPIE Astronomical Telescopes + Instrumentation 2026",
-    "title_es": "El IAC refuerza su presencia internacional en Telescopios Astronómicos SPIE + Instrumentación 2026",
+    "title_es": "El IAC refuerza su presencia internacional en SPIE Astronomical Telescopes + Instrumentation 2026",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-refuerza-su-presencia-internacional-en-spie-astronomical-telescopes-instrumentation-2026",
     "source": "IAC",
     "published": "2026-07-22T00:00:00.000Z",
@@ -57974,17 +58142,17 @@
     ]
   },
   {
-    "title": "Correction: Global burden and future projections of non-communicable diseases (2000–2050): Progress toward SDG 3.4 and disparities across regions and risk factors",
-    "title_es": "Corrección: Carga global y proyecciones futuras de enfermedades no transmisibles (2000-2050): progreso hacia el ODS 3.4 y disparidades entre regiones y factores de riesgo",
+    "title": "Mutations in the N-glycan branching enzyme MGAT1 promote invasiveness and EGF-stimulated proliferation and adhesion in neuroblastoma cells",
+    "title_es": "",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "corrección",
-      "carga",
-      "global"
+      "mutations",
+      "n-glycan",
+      "branching"
     ]
   },
   {
@@ -120402,6 +120570,20 @@
       "ldn",
       "1295",
       "giraffe"
+    ]
+  },
+  {
+    "title": "Test anxiety can predict exam scores depending on how missing data and influential data points are treated, by Dylan Molenaar",
+    "title_es": "Test anxiety can predict exam scores depending on how missing data and influential data points are treated, by Dylan Molenaar",
+    "url": "http://scipost.org/jrobustrep.6-rr1",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "test",
+      "anxiety",
+      "can"
     ]
   }
 ]
