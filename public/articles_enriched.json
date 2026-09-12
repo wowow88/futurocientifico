@@ -1,5 +1,75 @@
 [
   {
+    "title": "The secret to longer life may be hidden in bat DNA",
+    "title_es": "El secreto para una vida más larga puede estar escondido en el ADN de los murciélagos",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260911003852.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-12T00:00:00.000Z",
+    "date": "2026-09-12",
+    "category": "noticia",
+    "tags": [
+      "secreto",
+      "vida",
+      "más"
+    ]
+  },
+  {
+    "title": "As antibiotic resistance grows, researchers turn to copper to fight infections",
+    "title_es": "A medida que crece la resistencia a los antibióticos, los investigadores recurren al cobre para combatir las infecciones",
+    "url": "https://phys.org/news/2026-09-antibiotic-resistance-copper-infections.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-12T00:00:00.000Z",
+    "date": "2026-09-12",
+    "category": "noticia",
+    "tags": [
+      "medida",
+      "que",
+      "crece"
+    ]
+  },
+  {
+    "title": "Ancient Alligator Relative Lived Right After Dinosaur-Killing Asteroid",
+    "title_es": "Un pariente de un antiguo cocodrilo vivió justo después del asteroide que mató a los dinosaurios",
+    "url": "https://www.sci.news/paleontology/mandrasuchus-milleri-15060.html",
+    "source": "Sci.News",
+    "published": "2026-09-11T23:14:40.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "alligator",
+      "relative"
+    ]
+  },
+  {
+    "title": "SpaceXAI data centre may have led to Mississippi air pollution spike",
+    "title_es": "El centro de datos de SpaceXAI puede haber provocado un aumento de la contaminación del aire en Mississippi",
+    "url": "https://www.newscientist.com/article/2588786-spacexai-data-centre-may-have-led-to-mississippi-air-pollution-spike/",
+    "source": "New Scientist",
+    "published": "2026-09-11T18:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "spacexai",
+      "data",
+      "centre"
+    ]
+  },
+  {
+    "title": "Wasps are disappearing this summer, and scientists are worried",
+    "title_es": "Las avispas están desapareciendo este verano, y los científicos están preocupados",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260911003901.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-11T11:38:35.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "wasps",
+      "are",
+      "disappearing"
+    ]
+  },
+  {
     "title": "How to build powerful microhabits for your wellbeing – and keep them",
     "title_es": "Cómo crear microhábitos potentes para tu bienestar y mantenerlos",
     "url": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/",
@@ -67,6 +137,90 @@
       "indonesia",
       "seeks",
       "bring"
+    ]
+  },
+  {
+    "title": "Briefing Chat: The Bunsen burner myth that turns out to be just hot air",
+    "title_es": "Charla informativa: El mito del mechero Bunsen que resulta ser solo aire caliente",
+    "url": "https://www.nature.com/articles/d41586-026-02893-8",
+    "source": "Nature",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "charla",
+      "informativa",
+      "mito"
+    ]
+  },
+  {
+    "title": "Nature Medicine: Study establishes the role of new treatments for transthyretin amyloid cardiomyopathy",
+    "title_es": "Nature Medicine: Estudio establece el papel de los nuevos tratamientos para la miocardiopatía amiloide por transtiretina",
+    "url": "https://www.cnic.es/es/node/244228",
+    "source": "CNIC",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "medicine",
+      "study"
+    ]
+  },
+  {
+    "title": "Relaciones de temperatura electrónica con DESIRED en regiones de formación estelar del Universo local",
+    "title_es": "Relaciones de temperatura electrónica con las regiones DESEADAS de formación estelar del Universo local",
+    "url": "https://www.iac.es/es/divulgacion/noticias/relaciones-de-temperatura-electronica-con-desired-en-regiones-de-formacion-estelar-del-universo-local",
+    "source": "IAC",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "relaciones",
+      "temperatura",
+      "electrónica"
+    ]
+  },
+  {
+    "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "title_es": "Ayude a refinar los datos de los telescopios espaciales con Artifact InSPECtor",
+    "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "ayude",
+      "refinar",
+      "datos"
+    ]
+  },
+  {
+    "title": "A human set a new mathematical record. Then AI came for it",
+    "title_es": "Un humano estableció un nuevo récord matemático. Entonces la IA vino a por ello",
+    "url": "https://www.sciencenews.org/article/human-math-record-twin-primes-openai",
+    "source": "Science News",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "humano",
+      "estableció",
+      "nuevo"
+    ]
+  },
+  {
+    "title": "Plasma whirlpools on the sun could trigger solar flares",
+    "title_es": "Los remolinos de plasma en el Sol podrían provocar erupciones solares",
+    "url": "https://www.snexplores.org/article/plasma-whirlpools-sun-solar-flares",
+    "source": "Science News Explores",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "remolinos",
+      "plasma",
+      "sol"
     ]
   },
   {
@@ -169,7 +323,7 @@
   },
   {
     "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-    "title_es": "GPU-CFR: minimización de arrepentimiento contrafactual 80 veces más rápida al compilar el juego en flujo de datos estático y reproducción de gráficos CUDA",
+    "title_es": "GPU-CFR: Minimización del arrepentimiento contrafactual 80 veces más rápida mediante la compilación del juego en flujo de datos estático y reproducción de gráficos CUDA",
     "url": "http://arxiv.org/abs/2609.11923v1",
     "source": "arXiv",
     "published": "2026-09-10T00:00:00.000Z",
@@ -177,22 +331,22 @@
     "category": "noticia",
     "tags": [
       "gpu-cfr",
-      "80x",
-      "faster"
+      "minimización",
+      "arrepentimiento"
     ]
   },
   {
     "title": "Save the bogs, for peat’s sake",
-    "title_es": "Salva las turberas, por el bien de la turba",
+    "title_es": "Salva los pantanos, por amor a la turba",
     "url": "https://www.science.org/doi/abs/10.1126/science.aei4007",
     "source": "Science.org",
     "published": "2026-09-10T00:00:00.000Z",
     "date": "2026-09-10",
     "category": "noticia",
     "tags": [
-      "save",
-      "bogs",
-      "peats"
+      "salva",
+      "pantanos",
+      "por"
     ]
   },
   {
@@ -5725,7 +5879,7 @@
   },
   {
     "title": "Planetary-Mass Exomoon Found Circling Brown Dwarf",
-    "title_es": "Exoluna de masa planetaria hallada rodeando a una enana marrón",
+    "title_es": "Planetary-Mass Exomoon Found Circling Brown Dwarf",
     "url": "https://www.sci.news/astronomy/brown-dwarf-exomoon-14945.html",
     "source": "Sci.News",
     "published": "2026-07-26T23:35:45.000Z",
@@ -5809,7 +5963,7 @@
   },
   {
     "title": "One of NASA’s crucial links to deep space is at risk of burning down",
-    "title_es": "Uno de los enlaces cruciales de la NASA con el espacio profundo está en riesgo de quemarse",
+    "title_es": "One of NASA’s crucial links to deep space is at risk of burning down",
     "url": "https://www.newscientist.com/article/2581311-one-of-nasas-crucial-links-to-deep-space-is-at-risk-of-burning-down/",
     "source": "New Scientist",
     "published": "2026-07-24T21:30:01.000Z",
@@ -5823,7 +5977,7 @@
   },
   {
     "title": "Early Miocene Fossil Rewrites Family Tree of Little Carnivorous Marsupials",
-    "title_es": "Fósil del Mioceno Inferior reescribe árbol genealógico de pequeños marsupiales carnívoros",
+    "title_es": "Early Miocene Fossil Rewrites Family Tree of Little Carnivorous Marsupials",
     "url": "https://www.sci.news/paleontology/miyumba-chrisdickmani-14944.html",
     "source": "Sci.News",
     "published": "2026-07-24T20:40:36.000Z",
@@ -58142,17 +58296,17 @@
     ]
   },
   {
-    "title": "Mutations in the N-glycan branching enzyme MGAT1 promote invasiveness and EGF-stimulated proliferation and adhesion in neuroblastoma cells",
-    "title_es": "",
+    "title": "Rates of childbirth in female cancer survivors: A population-based study in Taiwan",
+    "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
     "published": "2025-08-15T00:00:00.000Z",
     "date": "2025-08-15",
     "category": "noticia",
     "tags": [
-      "mutations",
-      "n-glycan",
-      "branching"
+      "tasas",
+      "parto",
+      "mujeres"
     ]
   },
   {
@@ -120584,6 +120738,34 @@
       "test",
       "anxiety",
       "can"
+    ]
+  },
+  {
+    "title": "Thermodynamic coprocessor for linear operations with input-size-independent calculation time based on open quantum system, by Ivan V. Vovchenko, Alexander A. Zyablovsky, Alexander A. Pukhov, Evgeny S. Andrianov",
+    "title_es": "Thermodynamic coprocessor for linear operations with input-size-independent calculation time based on open quantum system, by Ivan V. Vovchenko, Alexander A. Zyablovsky, Alexander A. Pukhov, Evgeny S. Andrianov",
+    "url": "http://scipost.org/scipostphyscore.9.3.056",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "thermodynamic",
+      "coprocessor",
+      "linear"
+    ]
+  },
+  {
+    "title": "Apollo 11: Catching Some Sun",
+    "title_es": "Apollo 11: Catching Some Sun",
+    "url": "https://apod.nasa.gov/apod/image/2609/as11-40-5872hr1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "apollo",
+      "catching",
+      "some"
     ]
   }
 ]
