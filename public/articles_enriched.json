@@ -1,5 +1,47 @@
 [
   {
+    "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+    "title_es": "APOD: 2026 13 de septiembre – El cometa NEOWISE se eleva sobre el mar Adriático",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-13T00:00:00.000Z",
+    "date": "2026-09-13",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "Venus’s pale yellow clouds may hide something surprisingly dark",
+    "title_es": "Las nubes de color amarillo pálido de Venus pueden ocultar algo sorprendentemente oscuro",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260912220022.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-13T00:00:00.000Z",
+    "date": "2026-09-13",
+    "category": "noticia",
+    "tags": [
+      "venuss",
+      "pale",
+      "yellow"
+    ]
+  },
+  {
+    "title": "Ancient armored fish evolved two distinct ways to crush prey 385 million years ago",
+    "title_es": "Los antiguos peces acorazados evolucionaron de dos formas distintas para aplastar a sus presas hace 385 millones de años",
+    "url": "https://phys.org/news/2026-09-ancient-armored-fish-evolved-distinct.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-13T00:00:00.000Z",
+    "date": "2026-09-13",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "armored",
+      "fish"
+    ]
+  },
+  {
     "title": "The secret to longer life may be hidden in bat DNA",
     "title_es": "El secreto para una vida más larga puede estar escondido en el ADN de los murciélagos",
     "url": "https://www.sciencedaily.com/releases/2026/09/260911003852.htm",
@@ -5725,7 +5767,7 @@
   },
   {
     "title": "How ultra-processed foods may damage your long-term brain health",
-    "title_es": "Cómo los alimentos ultraprocesados pueden dañar su salud cerebral a largo plazo",
+    "title_es": "How ultra-processed foods may damage your long-term brain health",
     "url": "https://www.newscientist.com/article/2581148-how-ultra-processed-foods-may-damage-your-long-term-brain-health/",
     "source": "New Scientist",
     "published": "2026-07-27T08:00:00.000Z",
@@ -5739,7 +5781,7 @@
   },
   {
     "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-    "title_es": "FlowEvo: Agentes Autónomos a través de la Coevolución de los Flujos de Trabajo y las Habilidades Ejecutables",
+    "title_es": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
     "url": "https://arxiv.org/abs/2607.21596",
     "source": "arXiv",
     "published": "2026-07-27T04:00:00.000Z",
@@ -120766,6 +120808,20 @@
       "apollo",
       "catching",
       "some"
+    ]
+  },
+  {
+    "title": "Comet NEOWISE Rising over the Adriatic Sea",
+    "title_es": "Comet NEOWISE Rising over the Adriatic Sea",
+    "url": "https://apod.nasa.gov/apod/image/2609/noctilucentneowise_girotti.mp4",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "comet",
+      "neowise",
+      "rising"
     ]
   }
 ]
