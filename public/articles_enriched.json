@@ -1,5 +1,103 @@
 [
   {
+    "title": "The cosmic coincidences that made our universe – and us – possible",
+    "title_es": "Las coincidencias cósmicas que hicieron posible nuestro universo -y a nosotros-",
+    "url": "https://www.newscientist.com/article/2588854-the-cosmic-coincidences-that-made-our-universe-and-us-possible/",
+    "source": "New Scientist",
+    "published": "2026-09-14T08:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "cosmic",
+      "coincidences",
+      "that"
+    ]
+  },
+  {
+    "title": "MaRDMO: FAIR Documentation of In-Silico Research",
+    "title_es": "MaRDMO: Documentación FAIR de Investigación In-Silico",
+    "url": "https://arxiv.org/abs/2609.11931",
+    "source": "arXiv",
+    "published": "2026-09-14T04:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "mardmo",
+      "fair",
+      "documentation"
+    ]
+  },
+  {
+    "title": "The pet trade puts reptiles and amphibians at risk: close legal gaps now",
+    "title_es": "El comercio de mascotas pone en riesgo a reptiles y anfibios: cierra las brechas legales ahora",
+    "url": "https://www.nature.com/articles/d41586-026-02852-3",
+    "source": "Nature",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "pet",
+      "trade",
+      "puts"
+    ]
+  },
+  {
+    "title": "JAHA: Two novel blood biomarkers predict subclinical atherosclerosis and cardiovascular events",
+    "title_es": "JAHA: Dos nuevos biomarcadores sanguíneos predicen la aterosclerosis subclínica y los eventos cardiovasculares",
+    "url": "https://www.cnic.es/es/node/244248",
+    "source": "CNIC",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "jaha",
+      "two",
+      "novel"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 14 – Where Your Elements Came From",
+    "title_es": "APOD: 2026 14 de septiembre – De dónde provienen sus elementos",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "Monkeys might share our instincts for math",
+    "title_es": "Los monos pueden compartir nuestros instintos para las matemáticas",
+    "url": "https://www.snexplores.org/article/monkeys-understand-math-shapes",
+    "source": "Science News Explores",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "monkeys",
+      "might",
+      "share"
+    ]
+  },
+  {
+    "title": "Improved climate forecasts alone won't protect Africa's poorest farmers",
+    "title_es": "La mejora de las previsiones climáticas por sí sola no protegerá a los agricultores más pobres de África",
+    "url": "https://phys.org/news/2026-09-climate-wont-africa-poorest-farmers.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "improved",
+      "climate",
+      "forecasts"
+    ]
+  },
+  {
     "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
     "title_es": "APOD: 2026 13 de septiembre – El cometa NEOWISE se eleva sobre el mar Adriático",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
@@ -39,6 +137,20 @@
       "ancient",
       "armored",
       "fish"
+    ]
+  },
+  {
+    "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+    "title_es": "La IA descubre los efectos secundarios ocultos de Ozempic en 400 000 publicaciones de Reddit",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-13T00:00:00.000Z",
+    "date": "2026-09-13",
+    "category": "noticia",
+    "tags": [
+      "uncovers",
+      "hidden",
+      "ozempic"
     ]
   },
   {
@@ -263,6 +375,20 @@
       "remolinos",
       "plasma",
       "sol"
+    ]
+  },
+  {
+    "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+    "title_es": "Repensar la desagregación del sistema heterogéneo para la atención subcuadrática",
+    "url": "http://arxiv.org/abs/2609.13134v1",
+    "source": "arXiv",
+    "published": "2026-09-11T00:00:00.000Z",
+    "date": "2026-09-11",
+    "category": "noticia",
+    "tags": [
+      "rethinking",
+      "heterogeneous",
+      "system"
     ]
   },
   {
@@ -5445,7 +5571,7 @@
   },
   {
     "title": "DocAnnot -- Accelerating the Creation of Key Information Extraction Datasets with GenAI-Powered Auto-annotation",
-    "title_es": "DocAnnot -- Aceleración de la creación de conjuntos de datos de extracción de información clave con anotación automática impulsada por GenAI",
+    "title_es": "DocAnnot -- Accelerating the Creation of Key Information Extraction Datasets with GenAI-Powered Auto-annotation",
     "url": "https://arxiv.org/abs/2607.24745",
     "source": "arXiv",
     "published": "2026-07-29T04:00:00.000Z",
@@ -5529,7 +5655,7 @@
   },
   {
     "title": "JACC: CardioOncology: Study questions the value of intensive cardiac surveillance in cancer patients treated with anthracyclines",
-    "title_es": "JACC: CardioOncology: Estudio cuestiona el valor de la vigilancia cardíaca intensiva en pacientes con cáncer tratados con antraciclinas",
+    "title_es": "JACC: CardioOncology: Study questions the value of intensive cardiac surveillance in cancer patients treated with anthracyclines",
     "url": "https://www.cnic.es/es/node/243728",
     "source": "CNIC",
     "published": "2026-07-29T00:00:00.000Z",
@@ -5599,7 +5725,7 @@
   },
   {
     "title": "Ancient Footprints in Kenya Hint at Bigger Bodies and Group Behavior among Early Human Relatives",
-    "title_es": "Huellas antiguas en Kenia apuntan a cuerpos más grandes y comportamiento grupal entre los primeros parientes humanos",
+    "title_es": "Ancient Footprints in Kenya Hint at Bigger Bodies and Group Behavior among Early Human Relatives",
     "url": "https://www.sci.news/othersciences/anthropology/paranthropus-boisei-homo-erectus-footprints-kenya-14952.html",
     "source": "Sci.News",
     "published": "2026-07-28T22:20:59.000Z",
@@ -5613,7 +5739,7 @@
   },
   {
     "title": "Jaguar makes epic 2100-kilometre journey across the Amazon",
-    "title_es": "Jaguar hace un viaje épico de 2100 kilómetros a través del Amazonas",
+    "title_es": "Jaguar makes epic 2100-kilometre journey across the Amazon",
     "url": "https://www.newscientist.com/article/2581557-jaguar-makes-epic-2100-kilometre-journey-across-the-amazon/",
     "source": "New Scientist",
     "published": "2026-07-28T15:00:00.000Z",
@@ -5627,7 +5753,7 @@
   },
   {
     "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
-    "title_es": "Explicaciones contrafácticas visuales basadas en conceptos con modelos de difusión",
+    "title_es": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
     "url": "https://arxiv.org/abs/2607.22544",
     "source": "arXiv",
     "published": "2026-07-28T04:00:00.000Z",
@@ -5739,7 +5865,7 @@
   },
   {
     "title": "Japanese Fossil Bee Fills Two-Million-Year Gap in Honeybee History",
-    "title_es": "La abeja fósil japonesa llena la brecha de dos millones de años en la historia de las abejas melíferas",
+    "title_es": "Japanese Fossil Bee Fills Two-Million-Year Gap in Honeybee History",
     "url": "https://www.sci.news/paleontology/apis-aibai-14949.html",
     "source": "Sci.News",
     "published": "2026-07-27T20:45:51.000Z",
@@ -5753,7 +5879,7 @@
   },
   {
     "title": "Peptides are the latest wellness trend – but do they work?",
-    "title_es": "Los péptidos son la última tendencia en bienestar, pero ¿funcionan?",
+    "title_es": "Peptides are the latest wellness trend – but do they work?",
     "url": "https://www.newscientist.com/article/2581574-peptides-are-the-latest-wellness-trend-but-do-they-work/",
     "source": "New Scientist",
     "published": "2026-07-27T19:21:00.000Z",
@@ -120822,6 +120948,34 @@
       "comet",
       "neowise",
       "rising"
+    ]
+  },
+  {
+    "title": "A formal Bethe/gauge correspondence for classical gauge groups, by Xiang-Mao Ding, Ting Zhang",
+    "title_es": "A formal Bethe/gauge correspondence for classical gauge groups, by Xiang-Mao Ding, Ting Zhang",
+    "url": "http://scipost.org/scipostphyscore.9.3.057",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "formal",
+      "bethegauge",
+      "correspondence"
+    ]
+  },
+  {
+    "title": "Where Your Elements Came From",
+    "title_es": "Where Your Elements Came From",
+    "url": "https://apod.nasa.gov/apod/image/2609/elementorigins2_svs_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "where",
+      "your",
+      "elements"
     ]
   }
 ]
