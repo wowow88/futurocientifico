@@ -1,5 +1,103 @@
 [
   {
+    "title": "A new biography of Stephen Hawking gets to grips with a complicated man",
+    "title_es": "Una nueva biografía de Stephen Hawking se enfrenta a un hombre complicado",
+    "url": "https://www.newscientist.com/article/2589245-a-new-biography-of-stephen-hawking-gets-to-grips-with-a-complicated-man/",
+    "source": "New Scientist",
+    "published": "2026-09-15T09:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "biography",
+      "stephen"
+    ]
+  },
+  {
+    "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction",
+    "title_es": "RIGOR: Geometría Informada por la Plataforma para la Reconstrucción Omnidireccional",
+    "url": "https://arxiv.org/abs/2609.13504",
+    "source": "arXiv",
+    "published": "2026-09-15T04:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "rigor",
+      "rig-informed",
+      "geometry"
+    ]
+  },
+  {
+    "title": "A wake-up call: diversify global research funding",
+    "title_es": "Una llamada de atención: diversificar la financiación global de la investigación",
+    "url": "https://www.nature.com/articles/d41586-026-02904-8",
+    "source": "Nature",
+    "published": "2026-09-15T00:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "wake-up",
+      "call",
+      "diversify"
+    ]
+  },
+  {
+    "title": "Antibody Responses in Health and Disease: un encuentro internacional para avanzar en el conocimiento de la inmunidad",
+    "title_es": "Respuestas de anticuerpos en salud y enfermedad: un encuentro internacional para avanzar en el conocimiento de la inmunidad",
+    "url": "https://www.cnic.es/es/noticias/antibody-responses-health-and-disease-un-encuentro-internacional-para-avanzar-conocimiento",
+    "source": "CNIC",
+    "published": "2026-09-15T00:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "antibody",
+      "responses",
+      "health"
+    ]
+  },
+  {
+    "title": "Plague was killing entire families thousands of years before the Black Death",
+    "title_es": "La peste estaba matando a familias enteras miles de años antes de la Peste Negra",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260913082203.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-15T00:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "plague",
+      "was",
+      "killing"
+    ]
+  },
+  {
+    "title": "Just add fish: Scientists pursue more rice, less disease in Senegal paddies",
+    "title_es": "Solo añada pescado: los científicos buscan más arroz y menos enfermedades en los arrozales de Senegal",
+    "url": "https://phys.org/news/2026-09-fish-scientists-pursue-rice-disease.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-15T00:00:00.000Z",
+    "date": "2026-09-15",
+    "category": "noticia",
+    "tags": [
+      "just",
+      "add",
+      "fish"
+    ]
+  },
+  {
+    "title": "Spanish Amber Deposit Offers Rare Window into Cretaceous Life",
+    "title_es": "El depósito español de ámbar ofrece una rara ventana a la vida del Cretácico",
+    "url": "https://www.sci.news/paleontology/el-soplao-amber-15065.html",
+    "source": "Sci.News",
+    "published": "2026-09-14T22:33:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "spanish",
+      "amber",
+      "deposit"
+    ]
+  },
+  {
     "title": "The cosmic coincidences that made our universe – and us – possible",
     "title_es": "Las coincidencias cósmicas que hicieron posible nuestro universo -y a nosotros-",
     "url": "https://www.newscientist.com/article/2588854-the-cosmic-coincidences-that-made-our-universe-and-us-possible/",
@@ -95,6 +193,34 @@
       "improved",
       "climate",
       "forecasts"
+    ]
+  },
+  {
+    "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+    "title_es": "Planes corruptos, rastros limpios: evadir el monitoreo de la cadena de pensamiento con la inyección del plan",
+    "url": "http://arxiv.org/abs/2609.15989v1",
+    "source": "arXiv",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "corrupt",
+      "plans",
+      "clean"
+    ]
+  },
+  {
+    "title": "Feeling nervous? Work the system",
+    "title_es": "¿Te sientes nervioso? Trabaja el sistema",
+    "url": "https://www.sciencenews.org/article/nervous-system-stress-hormone-cortisol",
+    "source": "Science News",
+    "published": "2026-09-14T00:00:00.000Z",
+    "date": "2026-09-14",
+    "category": "noticia",
+    "tags": [
+      "feeling",
+      "nervous",
+      "work"
     ]
   },
   {
@@ -5305,7 +5431,7 @@
   },
   {
     "title": "Bridging openEHR and OMOP: Expanded Mappings and Systematic Analysis of Semantic and Structural Limitations in the OMOP CDM",
-    "title_es": "Puente entre openEHR y OMOP: Mapas ampliados y análisis sistemático de las limitaciones semánticas y estructurales en el MDL de OMOP",
+    "title_es": "Bridging openEHR and OMOP: Expanded Mappings and Systematic Analysis of Semantic and Structural Limitations in the OMOP CDM",
     "url": "https://arxiv.org/abs/2607.27208",
     "source": "arXiv",
     "published": "2026-07-31T04:00:00.000Z",
@@ -5333,7 +5459,7 @@
   },
   {
     "title": "How smallpox reached the Americas: first genomic evidence points to Europeans",
-    "title_es": "Cómo llegó la viruela a América: la primera evidencia genómica apunta a los europeos",
+    "title_es": "How smallpox reached the Americas: first genomic evidence points to Europeans",
     "url": "https://www.nature.com/articles/d41586-026-02366-y",
     "source": "Nature",
     "published": "2026-07-31T00:00:00.000Z",
@@ -5389,7 +5515,7 @@
   },
   {
     "title": "224,000-Year-Old Homo Skull Fragment Adds New Mystery to Human Origins",
-    "title_es": "Fragmento de cráneo de Homo de 224.000 años añade un nuevo misterio a los orígenes humanos",
+    "title_es": "224,000-Year-Old Homo Skull Fragment Adds New Mystery to Human Origins",
     "url": "https://www.sci.news/othersciences/anthropology/ruidera-homo-14960.html",
     "source": "Sci.News",
     "published": "2026-07-30T23:33:27.000Z",
@@ -5403,7 +5529,7 @@
   },
   {
     "title": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
-    "title_es": "Emergent Sparsity en Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
+    "title_es": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
     "url": "https://arxiv.org/abs/2607.26059",
     "source": "arXiv",
     "published": "2026-07-30T04:00:00.000Z",
@@ -5543,7 +5669,7 @@
   },
   {
     "title": "Dinosaur-Killing Asteroid Didn’t Just Strike Earth, Its Dust Cloud Cooked It",
-    "title_es": "El asteroide que mató a los dinosaurios no solo golpeó la Tierra, su nube de polvo la cocinó",
+    "title_es": "Dinosaur-Killing Asteroid Didn’t Just Strike Earth, Its Dust Cloud Cooked It",
     "url": "https://www.sci.news/paleontology/chicxulub-asteroid-impact-heat-wildfires-14957.html",
     "source": "Sci.News",
     "published": "2026-07-29T21:33:07.000Z",
@@ -5557,7 +5683,7 @@
   },
   {
     "title": "Spectacular fossil preserves internal organs of ancient marine reptile",
-    "title_es": "Espectacular fósil que conserva los órganos internos de un antiguo reptil marino",
+    "title_es": "Spectacular fossil preserves internal organs of ancient marine reptile",
     "url": "https://www.newscientist.com/article/2582138-spectacular-fossil-preserves-internal-organs-of-ancient-marine-reptile/",
     "source": "New Scientist",
     "published": "2026-07-29T18:00:00.000Z",
@@ -58464,7 +58590,7 @@
     ]
   },
   {
-    "title": "Rates of childbirth in female cancer survivors: A population-based study in Taiwan",
+    "title": "Correction: Mechanism and empirical evidence on new-type urbanization to narrow the urban–rural income gap: Evidence from China’s provincial data",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -120976,6 +121102,20 @@
       "where",
       "your",
       "elements"
+    ]
+  },
+  {
+    "title": "A Daytime Eclipse: Moon Occults Venus",
+    "title_es": "A Daytime Eclipse: Moon Occults Venus",
+    "url": "https://apod.nasa.gov/apod/image/2609/moonvenus_mariat_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "daytime",
+      "eclipse",
+      "moon"
     ]
   }
 ]
