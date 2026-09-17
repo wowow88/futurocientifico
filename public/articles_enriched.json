@@ -1,5 +1,89 @@
 [
   {
+    "title": "Ancient skeleton shows woman in imperial China had her nose amputated",
+    "title_es": "Un antiguo esqueleto muestra que a una mujer en la China imperial le amputaron la nariz",
+    "url": "https://www.newscientist.com/article/2589480-ancient-skeleton-shows-woman-in-imperial-china-had-her-nose-amputated/",
+    "source": "New Scientist",
+    "published": "2026-09-17T09:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "ancient",
+      "skeleton",
+      "shows"
+    ]
+  },
+  {
+    "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
+    "title_es": "Mejora de la predicción de fallas de extubación con características derivadas de LLM de las notas clínicas de terapia respiratoria",
+    "url": "https://arxiv.org/abs/2609.17532",
+    "source": "arXiv",
+    "published": "2026-09-17T04:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "enhancing",
+      "extubation",
+      "failure"
+    ]
+  },
+  {
+    "title": "Fossil Evidence Suggests Early Homo Had Abandoned Tree-Climbing by 1.8 Million Years Ago",
+    "title_es": "La evidencia fósil sugiere que los primeros homos habían abandonado la escalada de árboles hace 1,8 millones de años",
+    "url": "https://www.sci.news/othersciences/anthropology/australopithecus-homo-arboreality-15073.html",
+    "source": "Sci.News",
+    "published": "2026-09-17T00:29:54.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "fossil",
+      "evidence",
+      "suggests"
+    ]
+  },
+  {
+    "title": "OpenAI maths bombshell sparks debate about who gets credit in age of AI",
+    "title_es": "La bomba matemática de OpenAI desata el debate sobre quién recibe crédito en la era de la IA",
+    "url": "https://www.nature.com/articles/d41586-026-02910-w",
+    "source": "Nature",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "openai",
+      "maths",
+      "bombshell"
+    ]
+  },
+  {
+    "title": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
+    "title_es": "New Horizons de la NASA detecta signos de nitrógeno líquido fluyendo en Plutón",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260916232525.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "new",
+      "horizons"
+    ]
+  },
+  {
+    "title": "World's water cycle becoming more unpredictable, UN warns",
+    "title_es": "El ciclo mundial del agua es cada vez más impredecible, advierte la ONU",
+    "url": "https://phys.org/news/2026-09-world-unpredictable.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "worlds",
+      "water",
+      "cycle"
+    ]
+  },
+  {
     "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
     "title_es": "La degradación de pocos disparos no es lo que parece: evidencia de comportamiento, análisis de representación y control de texto aleatorio en 12 modelos, 2 tareas y 2 arquitecturas",
     "url": "https://arxiv.org/abs/2609.15990",
@@ -67,6 +151,62 @@
       "first-of-its-kind",
       "preventive",
       "phage"
+    ]
+  },
+  {
+    "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+    "title_es": "Objetivo vs. Búsqueda: Descomponer lo que hace un buen tokenizador",
+    "url": "http://arxiv.org/abs/2609.19145v1",
+    "source": "arXiv",
+    "published": "2026-09-16T00:00:00.000Z",
+    "date": "2026-09-16",
+    "category": "noticia",
+    "tags": [
+      "objective",
+      "search",
+      "decomposing"
+    ]
+  },
+  {
+    "title": "El IAC y la ULL participan en Sunrise III, una misión internacional que abre un nuevo horizonte para el estudio del Sol",
+    "title_es": "El IAC y la ULL participan en Sunrise III, una misión internacional que abre un nuevo horizonte para el estudio del Sol",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-y-la-ull-participan-en-sunrise-iii-una-mision-internacional-que-abre-un-nuevo-horizonte-para-el",
+    "source": "IAC",
+    "published": "2026-09-16T00:00:00.000Z",
+    "date": "2026-09-16",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "ull",
+      "participan"
+    ]
+  },
+  {
+    "title": "These mice have human (nerve cells) on the brain",
+    "title_es": "Estos ratones tienen células nerviosas humanas en el cerebro",
+    "url": "https://www.sciencenews.org/article/mice-brain-human-organoid-cells",
+    "source": "Science News",
+    "published": "2026-09-16T00:00:00.000Z",
+    "date": "2026-09-16",
+    "category": "noticia",
+    "tags": [
+      "these",
+      "mice",
+      "have"
+    ]
+  },
+  {
+    "title": "Watch an orca smash into a sunfish hard enough to make it explode",
+    "title_es": "Observa cómo una orca se estrella contra un pez luna lo suficientemente fuerte como para hacer que explote",
+    "url": "https://www.snexplores.org/article/orca-explode-sunfish-pinata",
+    "source": "Science News Explores",
+    "published": "2026-09-16T00:00:00.000Z",
+    "date": "2026-09-16",
+    "category": "noticia",
+    "tags": [
+      "watch",
+      "orca",
+      "smash"
     ]
   },
   {
@@ -4815,7 +4955,7 @@
   },
   {
     "title": "Towards a New Grammar of Reasoning for Artificial Legal Intelligence and the Mecelle as Its Semantic Protocol",
-    "title_es": "Hacia una nueva gramática del razonamiento para la inteligencia jurídica artificial y la mecela como su protocolo semántico",
+    "title_es": "Towards a New Grammar of Reasoning for Artificial Legal Intelligence and the Mecelle as Its Semantic Protocol",
     "url": "https://arxiv.org/abs/2608.04011",
     "source": "arXiv",
     "published": "2026-08-06T04:00:00.000Z",
@@ -4997,7 +5137,7 @@
   },
   {
     "title": "La Brea Tar Pits Yield New Species of Ice Age Toad",
-    "title_es": "Los pozos de alquitrán de La Brea producen nuevas especies de sapos de la Edad de Hielo",
+    "title_es": "La Brea Tar Pits Yield New Species of Ice Age Toad",
     "url": "https://www.sci.news/paleontology/spea-labreae-14971.html",
     "source": "Sci.News",
     "published": "2026-08-05T22:23:38.000Z",
@@ -5011,7 +5151,7 @@
   },
   {
     "title": "Three factors in midlife can delay the onset of dementia by 13 years",
-    "title_es": "Tres factores en la mediana edad pueden retrasar la aparición de la demencia en 13 años",
+    "title_es": "Three factors in midlife can delay the onset of dementia by 13 years",
     "url": "https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/",
     "source": "New Scientist",
     "published": "2026-08-05T20:00:00.000Z",
@@ -5025,7 +5165,7 @@
   },
   {
     "title": "A colossal magma system has been hiding beneath Tuscany",
-    "title_es": "Un colosal sistema de magma se ha estado escondiendo debajo de la Toscana",
+    "title_es": "A colossal magma system has been hiding beneath Tuscany",
     "url": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-05T09:19:43.000Z",
@@ -5123,7 +5263,7 @@
   },
   {
     "title": "Fossil Find in China Reveals Dinosaur Family Never Before Seen in East Asia",
-    "title_es": "Hallazgo fósil en China revela una familia de dinosaurios nunca antes vista en el este de Asia",
+    "title_es": "Fossil Find in China Reveals Dinosaur Family Never Before Seen in East Asia",
     "url": "https://www.sci.news/paleontology/yantaloong-lini-14966.html",
     "source": "Sci.News",
     "published": "2026-08-04T23:03:08.000Z",
@@ -5137,7 +5277,7 @@
   },
   {
     "title": "Should you stop using preventive flea treatments on your pets?",
-    "title_es": "¿Debería dejar de usar tratamientos preventivos contra pulgas en sus mascotas?",
+    "title_es": "Should you stop using preventive flea treatments on your pets?",
     "url": "https://www.newscientist.com/article/2583235-should-you-stop-using-preventive-flea-treatments-on-your-pets/",
     "source": "New Scientist",
     "published": "2026-08-04T23:01:00.000Z",
@@ -5151,7 +5291,7 @@
   },
   {
     "title": "Structured Proxy Features for Multimodal NSCLC Survival Prediction from Pretreatment CT",
-    "title_es": "Características proxy estructuradas para la predicción multimodal de la supervivencia del CPNM a partir de la TC previa al tratamiento",
+    "title_es": "Structured Proxy Features for Multimodal NSCLC Survival Prediction from Pretreatment CT",
     "url": "https://arxiv.org/abs/2608.00446",
     "source": "arXiv",
     "published": "2026-08-04T04:00:00.000Z",
@@ -58744,7 +58884,7 @@
     ]
   },
   {
-    "title": "Temporal patterns of tuberculosis-associated hyperglycaemia and its effect on treatment outcomes in individuals not previously diabetic: A prospective cohort study",
+    "title": "Correction: Audit data governance for disability-inclusive public services: A systematic review and integrative S–A–C framework",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -121298,6 +121438,20 @@
       "webbs",
       "view",
       "m64"
+    ]
+  },
+  {
+    "title": "A Treasure Chest in the Carina Nebula",
+    "title_es": "A Treasure Chest in the Carina Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2609/jwst_treasure_chest_800.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "treasure",
+      "chest",
+      "carina"
     ]
   }
 ]
