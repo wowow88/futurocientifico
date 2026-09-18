@@ -1,5 +1,89 @@
 [
   {
+    "title": "Our brain evolved from two primitive nervous systems that merged",
+    "title_es": "Nuestro cerebro evolucionó a partir de dos sistemas nerviosos primitivos que se fusionaron",
+    "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
+    "source": "New Scientist",
+    "published": "2026-09-18T09:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "our",
+      "brain",
+      "evolved"
+    ]
+  },
+  {
+    "title": "A Reduction Library for Polynomial-Base Harmonic Numbers",
+    "title_es": "Una biblioteca de reducción para números armónicos de base polinómica",
+    "url": "https://arxiv.org/abs/2609.19146",
+    "source": "arXiv",
+    "published": "2026-09-18T04:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "reduction",
+      "library",
+      "polynomial-base"
+    ]
+  },
+  {
+    "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
+    "title_es": "La resiliencia cognitiva ayuda a predecir la demencia de Alzheimer",
+    "url": "https://www.nature.com/articles/d41586-026-02897-4",
+    "source": "Nature",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "cognitive",
+      "resilience",
+      "helps"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
+    "title_es": "APOD: 2026 18 de septiembre – Messier 33: La Galaxia del Triángulo",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
+    "title_es": "Las primeras olas de calor golpean con más fuerza los rendimientos del trigo, pero aumentan la resistencia a las olas de calor posteriores",
+    "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "early",
+      "heat",
+      "waves"
+    ]
+  },
+  {
+    "title": "New Species of Imperial Pigeon Identified",
+    "title_es": "Nueva especie de paloma imperial identificada",
+    "url": "https://www.sci.news/biology/ducula-tawitawi-15074.html",
+    "source": "Sci.News",
+    "published": "2026-09-17T22:15:22.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "imperial"
+    ]
+  },
+  {
     "title": "Ancient skeleton shows woman in imperial China had her nose amputated",
     "title_es": "Un antiguo esqueleto muestra que a una mujer en la China imperial le amputaron la nariz",
     "url": "https://www.newscientist.com/article/2589480-ancient-skeleton-shows-woman-in-imperial-china-had-her-nose-amputated/",
@@ -81,6 +165,104 @@
       "worlds",
       "water",
       "cycle"
+    ]
+  },
+  {
+    "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+    "title_es": "Agentes de codificación con un arnés de detección de obstáculos para una manipulación segura del robot",
+    "url": "http://arxiv.org/abs/2609.20822v1",
+    "source": "arXiv",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "coding",
+      "agents",
+      "obstacle-aware"
+    ]
+  },
+  {
+    "title": "The indomitable Stephen Hawking",
+    "title_es": "El indomable Stephen Hawking",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aej4194",
+    "source": "Science.org",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "indomitable",
+      "stephen",
+      "hawking"
+    ]
+  },
+  {
+    "title": "Hallada una nueva manera en que las células evitan errores al duplicar su material genético",
+    "title_es": "Hallada una nueva manera en que las células evitan errores al duplicar su material genético",
+    "url": "https://www.cnio.es/noticias/hallada-una-nueva-manera-en-que-las-celulas-evitan-errores-al-duplicar-su-material-genetico/",
+    "source": "CNIO",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "hallada",
+      "nueva",
+      "manera"
+    ]
+  },
+  {
+    "title": "El IAC acoge en Tenerife la reunión científica final de la Acción COST NanoSpace sobre nanomateriales de carbono en el espacio",
+    "title_es": "El IAC acoge en Tenerife la reunión científica final de la Acción COST NanoSpace sobre nanomateriales de carbono en el espacio",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-en-tenerife-la-reunion-cientifica-final-de-la-accion-cost-nanospace-sobre-nanomateriales",
+    "source": "IAC",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "acoge",
+      "tenerife"
+    ]
+  },
+  {
+    "title": "Big space mirrors could bring Earth on-demand light — and upend our night sky",
+    "title_es": "Los grandes espejos espaciales podrían traer luz a la Tierra bajo demanda y poner patas arriba nuestro cielo nocturno",
+    "url": "https://www.sciencenews.org/article/reflect-orbital-space-mirrors-satellite",
+    "source": "Science News",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "big",
+      "space",
+      "mirrors"
+    ]
+  },
+  {
+    "title": "A modern ‘snowball’ Earth? What the movies get wrong",
+    "title_es": "¿Una Tierra moderna \"bola de nieve\"? En qué se equivocan las películas",
+    "url": "https://www.snexplores.org/article/snowball-earth-ice-age-movies",
+    "source": "Science News Explores",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "modern",
+      "snowball",
+      "earth"
+    ]
+  },
+  {
+    "title": "Scientists discover a mysterious new frog hiding in the Amazon",
+    "title_es": "Científicos descubren una nueva y misteriosa rana escondida en el Amazonas",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260917003737.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-17T00:00:00.000Z",
+    "date": "2026-09-17",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "mysterious"
     ]
   },
   {
@@ -4465,7 +4647,7 @@
   },
   {
     "title": "CRISPR-armed phages help treat severe superbug infection",
-    "title_es": "Los fagos con CRISPR ayudan a tratar la infección grave por superbacterias",
+    "title_es": "CRISPR-armed phages help treat severe superbug infection",
     "url": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/",
     "source": "New Scientist",
     "published": "2026-08-11T16:43:32.000Z",
@@ -4479,7 +4661,7 @@
   },
   {
     "title": "Can AI Write Compliant Code, and to What Extent? Evaluating SOC 2 Compliance of Claude Fable 5, Claude Opus 4.8, and Claude Opus 5 Across Four Use Cases",
-    "title_es": "¿Puede la IA escribir código conforme y en qué medida? Evaluación del cumplimiento del SOC 2 de Claude Fable 5, Claude Opus 4.8 y Claude Opus 5 en cuatro casos de uso",
+    "title_es": "Can AI Write Compliant Code, and to What Extent? Evaluating SOC 2 Compliance of Claude Fable 5, Claude Opus 4.8, and Claude Opus 5 Across Four Use Cases",
     "url": "https://arxiv.org/abs/2608.07776",
     "source": "arXiv",
     "published": "2026-08-11T04:00:00.000Z",
@@ -4563,7 +4745,7 @@
   },
   {
     "title": "Homo antecessor Had Surprisingly Modern Skull, New Fossils Suggest",
-    "title_es": "El Homo antecessor tenía un cráneo sorprendentemente moderno, sugieren nuevos fósiles",
+    "title_es": "Homo antecessor Had Surprisingly Modern Skull, New Fossils Suggest",
     "url": "https://www.sci.news/othersciences/anthropology/homo-antecessor-14981.html",
     "source": "Sci.News",
     "published": "2026-08-10T22:11:41.000Z",
@@ -4577,7 +4759,7 @@
   },
   {
     "title": "What primates tell us about the evolutionary origins of keeping pets",
-    "title_es": "Lo que los primates nos dicen sobre los orígenes evolutivos de tener mascotas",
+    "title_es": "What primates tell us about the evolutionary origins of keeping pets",
     "url": "https://www.newscientist.com/article/2583030-what-primates-tell-us-about-the-evolutionary-origins-of-keeping-pets/",
     "source": "New Scientist",
     "published": "2026-08-10T17:00:00.000Z",
@@ -4591,7 +4773,7 @@
   },
   {
     "title": "Multimodal Drivers' Emotion Recognition and Safety-Oriented Intervention for Intelligent Transportation Systems",
-    "title_es": "Reconocimiento de emociones de los conductores multimodales e intervención orientada a la seguridad para sistemas de transporte inteligentes",
+    "title_es": "Multimodal Drivers' Emotion Recognition and Safety-Oriented Intervention for Intelligent Transportation Systems",
     "url": "https://arxiv.org/abs/2608.06378",
     "source": "arXiv",
     "published": "2026-08-10T04:00:00.000Z",
@@ -4605,7 +4787,7 @@
   },
   {
     "title": "Liquid Nitrogen May Have Flowed on Pluto’s Surface in Recent Past",
-    "title_es": "El nitrógeno líquido puede haber fluido en la superficie de Plutón en el pasado reciente",
+    "title_es": "Liquid Nitrogen May Have Flowed on Pluto’s Surface in Recent Past",
     "url": "https://www.sci.news/space/liquid-nitrogen-pluto-14977.html",
     "source": "Sci.News",
     "published": "2026-08-10T00:25:21.000Z",
@@ -4773,7 +4955,7 @@
   },
   {
     "title": "New Troodontid Dinosaur Genus Identified from Fossil Bone Found Decades Ago in New Mexico",
-    "title_es": "Nuevo género de dinosaurio troodóntido identificado a partir de hueso fósil encontrado hace décadas en Nuevo México",
+    "title_es": "New Troodontid Dinosaur Genus Identified from Fossil Bone Found Decades Ago in New Mexico",
     "url": "https://www.sci.news/paleontology/dinevenator-robustus-14976.html",
     "source": "Sci.News",
     "published": "2026-08-07T20:58:57.000Z",
@@ -4787,7 +4969,7 @@
   },
   {
     "title": "Postbiotic supplement boosts body’s own GLP-1 and weight loss",
-    "title_es": "El suplemento posbiótico aumenta el propio GLP-1 del cuerpo y la pérdida de peso",
+    "title_es": "Postbiotic supplement boosts body’s own GLP-1 and weight loss",
     "url": "https://www.newscientist.com/article/2583831-postbiotic-supplement-boosts-bodys-own-glp-1-and-weight-loss/",
     "source": "New Scientist",
     "published": "2026-08-07T13:05:45.000Z",
@@ -4801,7 +4983,7 @@
   },
   {
     "title": "Book Review: How Wildlife Is Returning to the East",
-    "title_es": "Reseña del libro: Cómo la vida silvestre está regresando al este",
+    "title_es": "Book Review: How Wildlife Is Returning to the East",
     "url": "https://undark.org/2026/08/07/book-review-beasts-of-the-east/",
     "source": "Undark Magazine",
     "published": "2026-08-07T07:06:00.000Z",
@@ -4815,7 +4997,7 @@
   },
   {
     "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
-    "title_es": "Modelos de lenguaje grande basados en simuladores para el razonamiento causal industrial: uso de herramientas, inyección estructurada y recuperación portátil de plantas para el apoyo a la toma de decisiones de tratamiento de aguas residuales",
+    "title_es": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
     "url": "https://arxiv.org/abs/2608.05151",
     "source": "arXiv",
     "published": "2026-08-07T04:00:00.000Z",
@@ -4927,7 +5109,7 @@
   },
   {
     "title": "Study Points to Sugar, Not Just Meat, as Fuel for Human Brain Evolution",
-    "title_es": "El estudio apunta al azúcar, no solo a la carne, como combustible para la evolución del cerebro humano",
+    "title_es": "Study Points to Sugar, Not Just Meat, as Fuel for Human Brain Evolution",
     "url": "https://www.sci.news/othersciences/anthropology/sugar-human-brain-evolution-14973.html",
     "source": "Sci.News",
     "published": "2026-08-06T19:46:17.000Z",
@@ -4941,7 +5123,7 @@
   },
   {
     "title": "It’s good for the planet to scrap a new petrol car and buy electric",
-    "title_es": "Es bueno para el planeta desechar un nuevo coche de gasolina y comprar eléctrico",
+    "title_es": "It’s good for the planet to scrap a new petrol car and buy electric",
     "url": "https://www.newscientist.com/article/2583523-its-good-for-the-planet-to-scrap-a-new-petrol-car-and-buy-electric/",
     "source": "New Scientist",
     "published": "2026-08-06T18:00:00.000Z",
@@ -58884,7 +59066,7 @@
     ]
   },
   {
-    "title": "Correction: Audit data governance for disability-inclusive public services: A systematic review and integrative S–A–C framework",
+    "title": "Short-term effects of different toothpaste formulations on total salivary calcium: A randomized crossover study",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -121452,6 +121634,20 @@
       "treasure",
       "chest",
       "carina"
+    ]
+  },
+  {
+    "title": "Messier 33: The Triangulum Galaxy",
+    "title_es": "Messier 33: The Triangulum Galaxy",
+    "url": "https://apod.nasa.gov/apod/image/2609/m33m14_rasa3nm1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "messier",
+      "triangulum",
+      "galaxy"
     ]
   }
 ]
