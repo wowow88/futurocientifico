@@ -1,5 +1,47 @@
 [
   {
+    "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
+    "title_es": "Mejorar el pronóstico de inundaciones urbanas con detección de lluvias peligrosas en tiempo real",
+    "url": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-19T00:00:00.000Z",
+    "date": "2026-09-19",
+    "category": "noticia",
+    "tags": [
+      "improving",
+      "urban",
+      "flood"
+    ]
+  },
+  {
+    "title": "Tyrannosaurus rex Had Mammal-Like Body Temperature, Study Finds",
+    "title_es": "El tiranosaurio rex tenía una temperatura corporal similar a la de los mamíferos, según un estudio",
+    "url": "https://www.sci.news/paleontology/tyrannosaurus-rex-body-temperature-15077.html",
+    "source": "Sci.News",
+    "published": "2026-09-18T22:36:28.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "tyrannosaurus",
+      "rex",
+      "had"
+    ]
+  },
+  {
+    "title": "SpaceX’s Starship will orbit Earth for first time during next flight",
+    "title_es": "La nave espacial de SpaceX orbitará la Tierra por primera vez durante el próximo vuelo",
+    "url": "https://www.newscientist.com/article/2589461-spacexs-starship-will-orbit-earth-for-first-time-during-next-flight/",
+    "source": "New Scientist",
+    "published": "2026-09-18T14:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "spacexs",
+      "starship",
+      "will"
+    ]
+  },
+  {
     "title": "Our brain evolved from two primitive nervous systems that merged",
     "title_es": "Nuestro cerebro evolucionó a partir de dos sistemas nerviosos primitivos que se fusionaron",
     "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
@@ -57,7 +99,7 @@
   },
   {
     "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
-    "title_es": "Las primeras olas de calor golpean con más fuerza los rendimientos del trigo, pero aumentan la resistencia a las olas de calor posteriores",
+    "title_es": "Las primeras olas de calor afectaron más duramente a los rendimientos del trigo, pero aumentaron la resistencia a las olas de calor posteriores",
     "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-18T00:00:00.000Z",
@@ -67,6 +109,62 @@
       "early",
       "heat",
       "waves"
+    ]
+  },
+  {
+    "title": "La ULL y el IAC celebran dos décadas del Máster en Astrofísica, uno de los posgrados más reconocidos de España",
+    "title_es": "La ULL y el IAC celebran dos décadas del Máster en Astrofísica, uno de los posgrados más reconocidos de España",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-ull-y-el-iac-celebran-dos-decadas-del-master-en-astrofisica-uno-de-los-posgrados-mas-reconocidos-de",
+    "source": "IAC",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "ull",
+      "iac",
+      "celebran"
+    ]
+  },
+  {
+    "title": "Will the U.S. megadrought ever end?",
+    "title_es": "¿Terminará alguna vez la megasequía en Estados Unidos?",
+    "url": "https://www.sciencenews.org/article/united-states-megadrought-climate",
+    "source": "Science News",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "will",
+      "megadrought",
+      "ever"
+    ]
+  },
+  {
+    "title": "The human brain may owe a lot of its size to our love of sweets",
+    "title_es": "El cerebro humano puede deber mucho de su tamaño a nuestro amor por los dulces",
+    "url": "https://www.snexplores.org/article/sugar-evolution-human-brain",
+    "source": "Science News Explores",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "human",
+      "brain",
+      "may"
+    ]
+  },
+  {
+    "title": "Scientists just named a new snake after Guns N’ Roses legend Slash",
+    "title_es": "Los científicos acaban de nombrar una nueva serpiente en honor a la leyenda de Guns N’ Roses Slash",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "just",
+      "named"
     ]
   },
   {
@@ -4381,7 +4479,7 @@
   },
   {
     "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-    "title_es": "Gobernanza dinámica de sistemas de agentes multi-LLM para resultados de conversación colaborativa",
+    "title_es": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
     "url": "https://arxiv.org/abs/2608.11207",
     "source": "arXiv",
     "published": "2026-08-13T04:00:00.000Z",
@@ -4395,7 +4493,7 @@
   },
   {
     "title": "Mammal ancestors were giving birth to live young 236 million years ago",
-    "title_es": "Los antepasados de los mamíferos dieron a luz a crías vivas hace 236 millones de años",
+    "title_es": "Mammal ancestors were giving birth to live young 236 million years ago",
     "url": "https://www.newscientist.com/article/2584319-mammal-ancestors-were-giving-birth-to-live-young-236-million-years-ago/",
     "source": "New Scientist",
     "published": "2026-08-13T04:00:00.000Z",
@@ -4493,7 +4591,7 @@
   },
   {
     "title": "El Instituto de Astrofísica de Canarias valida con éxito la instrumentación de medición de la corona solar en Palencia donde miles de personas disfrutaron del eclipse total de Sol",
-    "title_es": "El Instituto de Astrofísica de Canarias valida con éxito la instrumentación de medición de la corona solar en Palencia donde millas de personas disfrutaron del eclipse total de Sol",
+    "title_es": "El Instituto de Astrofísica de Canarias valida con éxito la instrumentación de medición de la corona solar en Palencia donde miles de personas disfrutaron del eclipse total de Sol",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-instituto-de-astrofisica-de-canarias-valida-con-exito-la-instrumentacion-de-medicion-de-la-corona",
     "source": "IAC",
     "published": "2026-08-13T00:00:00.000Z",
@@ -4535,7 +4633,7 @@
   },
   {
     "title": "Astronomers Find Black Hole Star in Early Universe",
-    "title_es": "Astrónomos encuentran una estrella de agujero negro en el universo primitivo",
+    "title_es": "Astronomers Find Black Hole Star in Early Universe",
     "url": "https://www.sci.news/astronomy/black-hole-star-early-universe-14989.html",
     "source": "Sci.News",
     "published": "2026-08-12T21:56:54.000Z",
@@ -4549,7 +4647,7 @@
   },
   {
     "title": "A full software stack for epidemic disease management: Unlocking the joint potential of software technology and supercomputing",
-    "title_es": "Una pila de software completa para la gestión de enfermedades epidémicas: desbloquear el potencial conjunto de la tecnología de software y la supercomputación",
+    "title_es": "A full software stack for epidemic disease management: Unlocking the joint potential of software technology and supercomputing",
     "url": "https://arxiv.org/abs/2608.09933",
     "source": "arXiv",
     "published": "2026-08-12T04:00:00.000Z",
@@ -4633,7 +4731,7 @@
   },
   {
     "title": "Germany’s Famous Fossil Beds Yield New Species of Jurassic Ichthyosaur",
-    "title_es": "Los famosos lechos fósiles de Alemania producen nuevas especies de ictiosaurio jurásico",
+    "title_es": "Germany’s Famous Fossil Beds Yield New Species of Jurassic Ichthyosaur",
     "url": "https://www.sci.news/paleontology/jabalisaurus-tethyensis-14984.html",
     "source": "Sci.News",
     "published": "2026-08-11T21:45:10.000Z",
@@ -59066,7 +59164,7 @@
     ]
   },
   {
-    "title": "Short-term effects of different toothpaste formulations on total salivary calcium: A randomized crossover study",
+    "title": "Correction: Physician management of immunoglobulin in Canada: A qualitative study",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -121648,6 +121746,19 @@
       "messier",
       "triangulum",
       "galaxy"
+    ]
+  },
+  {
+    "title": "A Zodiacal Night",
+    "title_es": "A Zodiacal Night",
+    "url": "https://apod.nasa.gov/apod/image/2609/2026-09-09zodiacallighthsp1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "zodiacal",
+      "night"
     ]
   }
 ]
