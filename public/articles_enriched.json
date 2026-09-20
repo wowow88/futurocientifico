@@ -1,5 +1,47 @@
 [
   {
+    "title": "Luis Paz-Ares, médico del año en los premios ABC Salud",
+    "title_es": "Luis Paz-Ares, médico del año en los premios ABC Salud",
+    "url": "https://www.cnio.es/noticias/luis-paz-ares-medico-del-ano-en-los-premios-abc-salud/",
+    "source": "CNIO",
+    "published": "2026-09-20T00:00:00.000Z",
+    "date": "2026-09-20",
+    "category": "noticia",
+    "tags": [
+      "luis",
+      "paz-ares",
+      "médico"
+    ]
+  },
+  {
+    "title": "Hurricane Hunters reveal 4 warning signs that a storm is about to strengthen",
+    "title_es": "Los cazadores de huracanes revelan 4 señales de advertencia de que una tormenta está a punto de fortalecerse",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260919031037.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-20T00:00:00.000Z",
+    "date": "2026-09-20",
+    "category": "noticia",
+    "tags": [
+      "hurricane",
+      "hunters",
+      "reveal"
+    ]
+  },
+  {
+    "title": "A giant crater may reveal the origin of Mars’ doomed moon",
+    "title_es": "Un cráter gigante puede revelar el origen de la luna condenada de Marte",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-19T12:12:41.000Z",
+    "date": "2026-09-19",
+    "category": "noticia",
+    "tags": [
+      "giant",
+      "crater",
+      "may"
+    ]
+  },
+  {
     "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
     "title_es": "Mejorar el pronóstico de inundaciones urbanas con detección de lluvias peligrosas en tiempo real",
     "url": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
@@ -11,6 +53,33 @@
       "improving",
       "urban",
       "flood"
+    ]
+  },
+  {
+    "title": "Surviving the summer",
+    "title_es": "Sobrevivir al verano",
+    "url": "https://www.sciencenews.org/article/surviving-summer-ed-note-october-2026",
+    "source": "Science News",
+    "published": "2026-09-19T00:00:00.000Z",
+    "date": "2026-09-19",
+    "category": "noticia",
+    "tags": [
+      "surviving",
+      "summer"
+    ]
+  },
+  {
+    "title": "At an old steel site in Pittsburgh, bacteria evolved to survive—and eat—industrial pollution",
+    "title_es": "En un antiguo sitio de acero en Pittsburgh, las bacterias evolucionaron para sobrevivir y comer la contaminación industrial",
+    "url": "https://phys.org/news/2026-09-steel-site-pittsburgh-bacteria-evolved.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-19T00:00:00.000Z",
+    "date": "2026-09-19",
+    "category": "noticia",
+    "tags": [
+      "old",
+      "steel",
+      "site"
     ]
   },
   {
@@ -99,7 +168,7 @@
   },
   {
     "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
-    "title_es": "Las primeras olas de calor afectaron más duramente a los rendimientos del trigo, pero aumentaron la resistencia a las olas de calor posteriores",
+    "title_es": "Las primeras olas de calor golpean con más fuerza los rendimientos del trigo, pero aumentan la resistencia a las olas de calor posteriores",
     "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-18T00:00:00.000Z",
@@ -4326,7 +4395,7 @@
   },
   {
     "title": "Ornithologists Discover New Bird Species in Brazil",
-    "title_es": "Ornitólogos descubren nuevas especies de aves en Brasil",
+    "title_es": "Ornithologists Discover New Bird Species in Brazil",
     "url": "https://www.sci.news/biology/chamaeza-baturitensis-14994.html",
     "source": "Sci.News",
     "published": "2026-08-14T23:23:37.000Z",
@@ -4340,7 +4409,7 @@
   },
   {
     "title": "Test moderators use AI-generated writing to judge literacy standards",
-    "title_es": "Los moderadores de las pruebas utilizan la escritura generada por IA para juzgar los estándares de alfabetización",
+    "title_es": "Test moderators use AI-generated writing to judge literacy standards",
     "url": "https://www.newscientist.com/article/2584776-test-moderators-use-ai-generated-writing-to-judge-literacy-standards/",
     "source": "New Scientist",
     "published": "2026-08-14T14:28:46.000Z",
@@ -4354,7 +4423,7 @@
   },
   {
     "title": "The AI Accountability Ecosystem in the Era of Language Models",
-    "title_es": "El ecosistema de rendición de cuentas de la IA en la era de los modelos lingüísticos",
+    "title_es": "The AI Accountability Ecosystem in the Era of Language Models",
     "url": "https://arxiv.org/abs/2608.12320",
     "source": "arXiv",
     "published": "2026-08-14T04:00:00.000Z",
@@ -4368,7 +4437,7 @@
   },
   {
     "title": "Dusty Accretion Disks around Supermassive Black Holes May Be Secret Planet Factories",
-    "title_es": "Los discos de acreción polvorientos alrededor de agujeros negros supermasivos pueden ser fábricas de planetas secretos",
+    "title_es": "Dusty Accretion Disks around Supermassive Black Holes May Be Secret Planet Factories",
     "url": "https://www.sci.news/astronomy/supermassive-black-hole-planets-14991.html",
     "source": "Sci.News",
     "published": "2026-08-14T00:22:51.000Z",
@@ -4465,7 +4534,7 @@
   },
   {
     "title": "‘Remarkable’ discovery upends our understanding of how brains store memories",
-    "title_es": "El descubrimiento \"notable\" altera nuestra comprensión de cómo los cerebros almacenan los recuerdos",
+    "title_es": "‘Remarkable’ discovery upends our understanding of how brains store memories",
     "url": "https://www.newscientist.com/article/2584638-remarkable-discovery-upends-our-understanding-of-how-brains-store-memories/",
     "source": "New Scientist",
     "published": "2026-08-13T18:00:00.000Z",
@@ -121759,6 +121828,34 @@
     "tags": [
       "zodiacal",
       "night"
+    ]
+  },
+  {
+    "title": "Many-body effects beyond excitons in second-harmonic generation of monolayer MoS$_{2}$, by Peio Garcia-Goiricelaya, Julen Ibañez-Azpiroz",
+    "title_es": "Many-body effects beyond excitons in second-harmonic generation of monolayer MoS$_{2}$, by Peio Garcia-Goiricelaya, Julen Ibañez-Azpiroz",
+    "url": "http://scipost.org/scipostphys.21.3.068",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "many-body",
+      "effects",
+      "beyond"
+    ]
+  },
+  {
+    "title": "Analemma over the Callanish Stones",
+    "title_es": "Analemma over the Callanish Stones",
+    "url": "https://apod.nasa.gov/apod/image/2609/callanishanalemma_petricca_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "analemma",
+      "over",
+      "callanish"
     ]
   }
 ]
