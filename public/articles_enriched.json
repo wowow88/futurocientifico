@@ -1,5 +1,89 @@
 [
   {
+    "title": "Do small language models know what they don't know?",
+    "title_es": "¿Los pequeños modelos de lenguaje saben lo que no saben?",
+    "url": "https://arxiv.org/abs/2609.20824",
+    "source": "arXiv",
+    "published": "2026-09-21T04:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "small",
+      "language",
+      "models"
+    ]
+  },
+  {
+    "title": "How do I change labs gracefully during my PhD?",
+    "title_es": "¿Cómo cambio de laboratorio con gracia durante mi doctorado?",
+    "url": "https://www.nature.com/articles/d41586-026-02441-4",
+    "source": "Nature",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "change",
+      "labs"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 21 – Cocoon Nebula Wide Field",
+    "title_es": "APOD: 2026 21 de septiembre – Campo ancho de la nebulosa Cocoon",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-21-cocoon-nebula-wide-field/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "A protein building block may help fight viruses and cancer",
+    "title_es": "Un componente proteico puede ayudar a combatir los virus y el cáncer",
+    "url": "https://www.snexplores.org/article/arginine-amino-acid-immune-protein",
+    "source": "Science News Explores",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "protein",
+      "building",
+      "block"
+    ]
+  },
+  {
+    "title": "What kills Schrödinger’s cat? Gravity may not be the answer",
+    "title_es": "¿Qué mata al gato de Schrödinger? La gravedad puede no ser la respuesta",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260920222350.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "kills",
+      "schrdingers"
+    ]
+  },
+  {
+    "title": "Photonic Legos of functional 3D thin-films unlock high-performance heterogeneous photonic integration",
+    "title_es": "Los Legos fotónicos de películas delgadas 3D funcionales desbloquean la integración fotónica heterogénea de alto rendimiento",
+    "url": "https://phys.org/news/2026-09-photonic-legos-functional-3d-thin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "photonic",
+      "legos",
+      "functional"
+    ]
+  },
+  {
     "title": "Luis Paz-Ares, médico del año en los premios ABC Salud",
     "title_es": "Luis Paz-Ares, médico del año en los premios ABC Salud",
     "url": "https://www.cnio.es/noticias/luis-paz-ares-medico-del-ano-en-los-premios-abc-salud/",
@@ -25,6 +109,20 @@
       "hurricane",
       "hunters",
       "reveal"
+    ]
+  },
+  {
+    "title": "El IAC mantiene intacto su compromiso con el desarrollo del Observatorio del Roque de los Muchachos tras la decisión del TMT",
+    "title_es": "El IAC mantiene intacto su compromiso con el desarrollo del Observatorio del Roque de los Muchachos tras la decisión del TMT",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-mantiene-intacto-su-compromiso-con-el-desarrollo-del-observatorio-del-roque-de-los-muchachos",
+    "source": "IAC",
+    "published": "2026-09-20T00:00:00.000Z",
+    "date": "2026-09-20",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "mantiene",
+      "intacto"
     ]
   },
   {
@@ -234,6 +332,20 @@
       "scientists",
       "just",
       "named"
+    ]
+  },
+  {
+    "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+    "title_es": "Diseñador-RSI: Evolución de la memoria de procedimientos a partir del tráfico de usuarios para el diseño gráfico genético",
+    "url": "http://arxiv.org/abs/2609.22086v1",
+    "source": "arXiv",
+    "published": "2026-09-18T00:00:00.000Z",
+    "date": "2026-09-18",
+    "category": "noticia",
+    "tags": [
+      "designer-rsi",
+      "evolving",
+      "procedural"
     ]
   },
   {
@@ -4045,7 +4157,7 @@
   },
   {
     "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
-    "title_es": "FLOP frente al trabajo real: la importancia de la replicación en la evaluación de la eficiencia de la IA",
+    "title_es": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
     "url": "https://arxiv.org/abs/2608.14550",
     "source": "arXiv",
     "published": "2026-08-18T04:00:00.000Z",
@@ -4129,7 +4241,7 @@
   },
   {
     "title": "Heatwaves expose weak links in food systems",
-    "title_es": "Las olas de calor exponen eslabones débiles en los sistemas alimentarios",
+    "title_es": "Heatwaves expose weak links in food systems",
     "url": "https://www.nature.com/articles/d41586-026-02577-3",
     "source": "Nature",
     "published": "2026-08-18T00:00:00.000Z",
@@ -4143,7 +4255,7 @@
   },
   {
     "title": "The bacteria that make cheese taste so good may also benefit your gut",
-    "title_es": "Las bacterias que hacen que el queso sepa tan bien también pueden beneficiar a tu intestino",
+    "title_es": "The bacteria that make cheese taste so good may also benefit your gut",
     "url": "https://www.sciencedaily.com/releases/2026/08/260816044847.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-17T22:18:03.000Z",
@@ -4157,7 +4269,7 @@
   },
   {
     "title": "Denisovans Were Surprisingly Tall, New Fossils from Taiwan Suggest",
-    "title_es": "Los denisovanos eran sorprendentemente altos, sugieren nuevos fósiles de Taiwán",
+    "title_es": "Denisovans Were Surprisingly Tall, New Fossils from Taiwan Suggest",
     "url": "https://www.sci.news/othersciences/anthropology/tall-denisovans-14999.html",
     "source": "Sci.News",
     "published": "2026-08-17T21:37:35.000Z",
@@ -4171,7 +4283,7 @@
   },
   {
     "title": "Britain’s only desalination plant remains idle during drought",
-    "title_es": "La única planta desalinizadora de Gran Bretaña permanece inactiva durante la sequía",
+    "title_es": "Britain’s only desalination plant remains idle during drought",
     "url": "https://www.newscientist.com/article/2585005-britains-only-desalination-plant-remains-idle-during-drought/",
     "source": "New Scientist",
     "published": "2026-08-17T15:48:20.000Z",
@@ -4185,7 +4297,7 @@
   },
   {
     "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
-    "title_es": "L-FNO: operador neuronal de Fourier lorentziano para dinámicas de eventos estocásticos",
+    "title_es": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
     "url": "https://arxiv.org/abs/2608.13562",
     "source": "arXiv",
     "published": "2026-08-17T04:00:00.000Z",
@@ -4241,7 +4353,7 @@
   },
   {
     "title": "The CNIC at the European Society of Cardiology Congress 2026",
-    "title_es": "El CNIC en el Congreso de la Sociedad Europea de Cardiología 2026",
+    "title_es": "The CNIC at the European Society of Cardiology Congress 2026",
     "url": "https://www.cnic.es/es/node/243948",
     "source": "CNIC",
     "published": "2026-08-17T00:00:00.000Z",
@@ -121856,6 +121968,20 @@
       "analemma",
       "over",
       "callanish"
+    ]
+  },
+  {
+    "title": "Cocoon Nebula Wide Field",
+    "title_es": "Cocoon Nebula Wide Field",
+    "url": "https://apod.nasa.gov/apod/image/2609/cocoon_czerski_1080.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cocoon",
+      "nebula",
+      "wide"
     ]
   }
 ]
