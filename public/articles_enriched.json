@@ -1,5 +1,75 @@
 [
   {
+    "title": "Worried about an AI apocalypse? Here’s how to think about the risk of doom",
+    "title_es": "¿Preocupado por un apocalipsis de IA? A continuación, te mostramos cómo pensar en el riesgo de fatalidad",
+    "url": "https://www.newscientist.com/article/2590164-worried-about-an-ai-apocalypse-heres-how-to-think-about-the-risk-of-doom/",
+    "source": "New Scientist",
+    "published": "2026-09-22T05:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "worried",
+      "about",
+      "apocalypse"
+    ]
+  },
+  {
+    "title": "Biosecurity must protect human functional capacity",
+    "title_es": "La bioseguridad debe proteger la capacidad funcional humana",
+    "url": "https://www.nature.com/articles/d41586-026-02996-2",
+    "source": "Nature",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "biosecurity",
+      "must",
+      "protect"
+    ]
+  },
+  {
+    "title": "Stem cells reverse stroke damage and restore movement in mice",
+    "title_es": "Las células madre revierten el daño cerebral y restauran el movimiento en ratones",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260921081116.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "stem",
+      "cells",
+      "reverse"
+    ]
+  },
+  {
+    "title": "El Niño weather pattern enters record territory: Scientist",
+    "title_es": "Patrón climático de El Niño entra en territorio récord: Científico",
+    "url": "https://phys.org/news/2026-09-el-nio-weather-pattern-territory.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "niño",
+      "weather",
+      "pattern"
+    ]
+  },
+  {
+    "title": "New Therizinosaurian Dinosaur Unearthed in China",
+    "title_es": "Nuevo dinosaurio terizinosaurio desenterrado en China",
+    "url": "https://www.sci.news/paleontology/kayrasaurus-changliensis-15082.html",
+    "source": "Sci.News",
+    "published": "2026-09-21T22:10:02.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "therizinosaurian",
+      "dinosaur"
+    ]
+  },
+  {
     "title": "Do small language models know what they don't know?",
     "title_es": "¿Los pequeños modelos de lenguaje saben lo que no saben?",
     "url": "https://arxiv.org/abs/2609.20824",
@@ -81,6 +151,48 @@
       "photonic",
       "legos",
       "functional"
+    ]
+  },
+  {
+    "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+    "title_es": "GameHorizon Suite: datos y evaluación multihorizonte en el juego",
+    "url": "http://arxiv.org/abs/2609.25001v1",
+    "source": "arXiv",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "gamehorizon",
+      "suite",
+      "multi-horizon"
+    ]
+  },
+  {
+    "title": "Un investigador predoctoral del IAC recibe una STEP Grant de The Planetary Society",
+    "title_es": "Un investigador predoctoral del IAC recibe una STEP Grant de The Planetary Society",
+    "url": "https://www.iac.es/es/divulgacion/noticias/un-investigador-predoctoral-del-iac-recibe-una-step-grant-de-planetary-society",
+    "source": "IAC",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "investigador",
+      "predoctoral",
+      "iac"
+    ]
+  },
+  {
+    "title": "First radio waves seen from an exoplanet hint at otherworldly auroras",
+    "title_es": "Las primeras ondas de radio vistas desde un exoplaneta apuntan a auroras de otro mundo",
+    "url": "https://www.sciencenews.org/article/exoplanet-aurora-radio-waves",
+    "source": "Science News",
+    "published": "2026-09-21T00:00:00.000Z",
+    "date": "2026-09-21",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "radio",
+      "waves"
     ]
   },
   {
@@ -3989,7 +4101,7 @@
   },
   {
     "title": "Newly-Discovered Star Could Finally Reveal Spin of Our Galaxy’s Central Black Hole",
-    "title_es": "Una estrella recién descubierta podría finalmente revelar el giro del agujero negro central de nuestra galaxia",
+    "title_es": "Newly-Discovered Star Could Finally Reveal Spin of Our Galaxy’s Central Black Hole",
     "url": "https://www.sci.news/astronomy/s301-star-spin-sagittarius-a-15004.html",
     "source": "Sci.News",
     "published": "2026-08-19T19:32:34.000Z",
@@ -4003,7 +4115,7 @@
   },
   {
     "title": "Suggesting that ADHD is a myth is pseudoscientific and dangerous",
-    "title_es": "Sugerir que el TDAH es un mito es pseudocientífico y peligroso",
+    "title_es": "Suggesting that ADHD is a myth is pseudoscientific and dangerous",
     "url": "https://www.newscientist.com/article/2585608-calling-adhd-a-myth-is-pseudoscientific-and-dangerous/",
     "source": "New Scientist",
     "published": "2026-08-19T18:07:49.000Z",
@@ -4017,7 +4129,7 @@
   },
   {
     "title": "Pollen has a surprising problem — and honeybees have found a way around it",
-    "title_es": "El polen tiene un problema sorprendente, y las abejas han encontrado una manera de evitarlo",
+    "title_es": "Pollen has a surprising problem — and honeybees have found a way around it",
     "url": "https://www.sciencedaily.com/releases/2026/08/260819041237.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-19T11:25:45.000Z",
@@ -4031,7 +4143,7 @@
   },
   {
     "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
-    "title_es": "Agente GxP: Topología Process-DAG para una programación confiable de ensayos clínicos con agentes LLM",
+    "title_es": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
     "url": "https://arxiv.org/abs/2608.16890",
     "source": "arXiv",
     "published": "2026-08-19T04:00:00.000Z",
@@ -4129,7 +4241,7 @@
   },
   {
     "title": "Meet Bataspis crux, Jawless Fish that Cruised Devonian Seas with Batwing Head",
-    "title_es": "Conoce a Bataspis crux, un pez sin mandíbula que surcó los mares del Devónico con cabeza de ala de murciélago",
+    "title_es": "Meet Bataspis crux, Jawless Fish that Cruised Devonian Seas with Batwing Head",
     "url": "https://www.sci.news/paleontology/bataspis-crux-15002.html",
     "source": "Sci.News",
     "published": "2026-08-18T21:27:36.000Z",
@@ -4143,7 +4255,7 @@
   },
   {
     "title": "The surprising upsides of living in a reality that repeats for eternity",
-    "title_es": "Las sorprendentes ventajas de vivir en una realidad que se repite eternamente",
+    "title_es": "The surprising upsides of living in a reality that repeats for eternity",
     "url": "https://www.newscientist.com/article/2582556-the-surprising-upsides-of-living-in-a-reality-that-repeats-for-eternity/",
     "source": "New Scientist",
     "published": "2026-08-18T15:00:00.000Z",
@@ -59345,7 +59457,7 @@
     ]
   },
   {
-    "title": "Correction: Physician management of immunoglobulin in Canada: A qualitative study",
+    "title": "Ritualized experiences and perceived authenticity in shaping tourists’ willingness to support intangible cultural heritage inheritance",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -121982,6 +122094,20 @@
       "cocoon",
       "nebula",
       "wide"
+    ]
+  },
+  {
+    "title": "Chance Triple Alignment: Plane, Space Station, Sun",
+    "title_es": "Chance Triple Alignment: Plane, Space Station, Sun",
+    "url": "https://apod.nasa.gov/apod/image/2609/planeissspots_horalek_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "chance",
+      "triple",
+      "alignment"
     ]
   }
 ]
