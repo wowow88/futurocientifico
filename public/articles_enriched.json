@@ -1,5 +1,145 @@
 [
   {
+    "title": "Is AI really getting dangerously out of control?",
+    "title_es": "¿La IA realmente se está descontrolando peligrosamente?",
+    "url": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/",
+    "source": "New Scientist",
+    "published": "2026-09-23T05:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "really",
+      "getting",
+      "dangerously"
+    ]
+  },
+  {
+    "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
+    "title_es": "¿Qué mide la precisión del 99%? Una auditoría reproducible del aprendizaje abreviado en un corpus de noticias falsas ampliamente utilizado",
+    "url": "https://arxiv.org/abs/2609.25006",
+    "source": "arXiv",
+    "published": "2026-09-23T04:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "does",
+      "accuracy"
+    ]
+  },
+  {
+    "title": "Titanosaurs Nested Far South of Equator, Fossil Eggshells Reveal",
+    "title_es": "Titanosaurios anidados al sur del ecuador, cáscaras de huevo fósiles revelan",
+    "url": "https://www.sci.news/paleontology/high-latitude-titanosaur-nesting-15085.html",
+    "source": "Sci.News",
+    "published": "2026-09-23T00:09:31.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "titanosaurs",
+      "nested",
+      "far"
+    ]
+  },
+  {
+    "title": "In praise of human teachers: universities must resist outsourcing everything to AI",
+    "title_es": "Elogio de los profesores humanos: las universidades deben resistirse a subcontratar todo a la IA",
+    "url": "https://www.nature.com/articles/d41586-026-02949-9",
+    "source": "Nature",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "praise",
+      "human",
+      "teachers"
+    ]
+  },
+  {
+    "title": "Circulation Research: Un mecanismo de degradación de proteínas abre una nueva vía para tratar una arritmia hereditaria",
+    "title_es": "Circulation Research: Un mecanismo de degradación de proteínas abre una nueva vía para tratar una arritmia hereditaria",
+    "url": "https://www.cnic.es/es/noticias/circulation-research-un-mecanismo-degradacion-proteinas-abre-nueva-para-tratar-arritmia",
+    "source": "CNIC",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "research",
+      "mecanismo"
+    ]
+  },
+  {
+    "title": "El MICIU impulsa el desarrollo de un Nodo Nacional de Datos en Cáncer para acelerar la investigación oncológica",
+    "title_es": "El MICIU impulsa el desarrollo de un Nodo Nacional de Datos en Cáncer para acelerar la investigación oncológica",
+    "url": "https://www.cnio.es/noticias/el-miciu-impulsa-el-desarrollo-de-un-nodo-nacional-de-datos-en-cancer-para-acelerar-la-investigacion-oncologica/",
+    "source": "CNIO",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "miciu",
+      "impulsa",
+      "desarrollo"
+    ]
+  },
+  {
+    "title": "El IAC impulsa junto a instituciones europeas un encuentro sobre las estrellas más masivas del Universo",
+    "title_es": "El IAC impulsa junto a instituciones europeas un encuentro sobre las estrellas más masivas del Universo",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-impulsa-junto-instituciones-europeas-un-encuentro-sobre-las-estrellas-mas-masivas-del-universo",
+    "source": "IAC",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "impulsa",
+      "junto"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
+    "title_es": "APOD: 2026 23 de septiembre – Un nuevo cráter lunar: McGetchin",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "One of America’s largest reservoirs just hit a record low",
+    "title_es": "Uno de los embalses más grandes de Estados Unidos acaba de alcanzar un mínimo histórico",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260922005701.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "one",
+      "americas",
+      "largest"
+    ]
+  },
+  {
+    "title": "Pigeons' proposed inner-ear compass runs into a noise problem",
+    "title_es": "La brújula del oído interno propuesta por las palomas se encuentra con un problema de ruido",
+    "url": "https://phys.org/news/2026-09-pigeons-ear-compass-noise-problem.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "pigeons",
+      "proposed",
+      "inner-ear"
+    ]
+  },
+  {
     "title": "Worried about an AI apocalypse? Here’s how to think about the risk of doom",
     "title_es": "¿Preocupado por un apocalipsis de IA? A continuación, te mostramos cómo pensar en el riesgo de fatalidad",
     "url": "https://www.newscientist.com/article/2590164-worried-about-an-ai-apocalypse-heres-how-to-think-about-the-risk-of-doom/",
@@ -53,6 +193,48 @@
       "niño",
       "weather",
       "pattern"
+    ]
+  },
+  {
+    "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+    "title_es": "SpeakerMem-R1: Memoria Dual-Track Centrada en el Altavoz para Diálogo Multiparte",
+    "url": "http://arxiv.org/abs/2609.26780v1",
+    "source": "arXiv",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "speakermem-r1",
+      "speaker-centered",
+      "dual-track"
+    ]
+  },
+  {
+    "title": "Can AI reason without words? A small model puts the idea to the test",
+    "title_es": "¿Puede la IA razonar sin palabras? Un pequeño modelo pone a prueba la idea",
+    "url": "https://www.sciencenews.org/article/ai-model-reason-logic-words-efficient",
+    "source": "Science News",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "reason",
+      "without"
+    ]
+  },
+  {
+    "title": "Let’s learn about trace fossils",
+    "title_es": "Aprendamos sobre los fósiles traza",
+    "url": "https://www.snexplores.org/article/lets-learn-about-trace-fossils",
+    "source": "Science News Explores",
+    "published": "2026-09-22T00:00:00.000Z",
+    "date": "2026-09-22",
+    "category": "noticia",
+    "tags": [
+      "lets",
+      "learn",
+      "about"
     ]
   },
   {
@@ -3584,7 +3766,7 @@
   },
   {
     "title": "The exoskeletons are coming (to a store near you)",
-    "title_es": "Los exoesqueletos están llegando (a una tienda cerca de ti)",
+    "title_es": "",
     "url": "https://www.nature.com/articles/d41586-026-02641-y",
     "source": "Nature",
     "published": "2026-08-24T00:00:00.000Z",
@@ -3598,7 +3780,7 @@
   },
   {
     "title": "NASA Sets Coverage for Roman Space Telescope Launch from Florida",
-    "title_es": "La NASA fija la cobertura para el lanzamiento del telescopio espacial romano desde Florida",
+    "title_es": "",
     "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-roman-space-telescope-launch-from-florida/",
     "source": "NASA (Top News)",
     "published": "2026-08-24T00:00:00.000Z",
@@ -3612,7 +3794,7 @@
   },
   {
     "title": "Heat therapy for sick frogs lowers sperm levels",
-    "title_es": "La terapia de calor para ranas enfermas reduce los niveles de esperma",
+    "title_es": "",
     "url": "https://www.sciencenews.org/article/infection-treatment-lowers-frog-sperm",
     "source": "Science News",
     "published": "2026-08-24T00:00:00.000Z",
@@ -3626,7 +3808,7 @@
   },
   {
     "title": "Scientists Say: Midden",
-    "title_es": "Los científicos dicen: Midden",
+    "title_es": "",
     "url": "https://www.snexplores.org/article/scientists-say-midden-definition-pronunciation",
     "source": "Science News Explores",
     "published": "2026-08-24T00:00:00.000Z",
@@ -3640,7 +3822,7 @@
   },
   {
     "title": "Common medications may change your gut for years",
-    "title_es": "Los medicamentos comunes pueden cambiar su intestino durante años",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/08/260824065605.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-24T00:00:00.000Z",
@@ -3696,7 +3878,7 @@
   },
   {
     "title": "JWST finds early galaxies may be 4 times more massive than thought",
-    "title_es": "El JWST descubre que las primeras galaxias pueden ser 4 veces más masivas de lo que se pensaba",
+    "title_es": "JWST finds early galaxies may be 4 times more massive than thought",
     "url": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-22T12:36:23.000Z",
@@ -3710,7 +3892,7 @@
   },
   {
     "title": "Astronomers Discover Rare ‘Mega-Earth’ Exoplanet: Gliese 523b",
-    "title_es": "Astrónomos descubren un raro exoplaneta ‘Mega-Tierra’: Gliese 523b",
+    "title_es": "Astronomers Discover Rare ‘Mega-Earth’ Exoplanet: Gliese 523b",
     "url": "https://www.sci.news/astronomy/mega-earth-exoplanet-gliese-523b-15009.html",
     "source": "Sci.News",
     "published": "2026-08-22T00:12:39.000Z",
@@ -3779,7 +3961,7 @@
   },
   {
     "title": "‘Off the charts’ El Niño is already the strongest since records began",
-    "title_es": "‘Off the charts’ El Niño ya es el más fuerte desde que comenzaron los registros",
+    "title_es": "‘Off the charts’ El Niño is already the strongest since records began",
     "url": "https://www.newscientist.com/article/2586031-off-the-charts-el-nino-is-already-the-strongest-since-records-began/",
     "source": "New Scientist",
     "published": "2026-08-21T17:00:00.000Z",
@@ -3793,7 +3975,7 @@
   },
   {
     "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
-    "title_es": "Un miembro virtual de una comunidad de práctica para la Sociedad de Ingenieros Petroleros: del prototipo al despliegue",
+    "title_es": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
     "url": "https://arxiv.org/abs/2608.19199",
     "source": "arXiv",
     "published": "2026-08-21T04:00:00.000Z",
@@ -3905,7 +4087,7 @@
   },
   {
     "title": "Fossil of Small Duck-Billed Dinosaur Relative Found in Japan",
-    "title_es": "Fósil de pequeño pariente de dinosaurio pico de pato encontrado en Japón",
+    "title_es": "Fossil of Small Duck-Billed Dinosaur Relative Found in Japan",
     "url": "https://www.sci.news/paleontology/ashizawa-iguanodontian-dinosaur-15007.html",
     "source": "Sci.News",
     "published": "2026-08-20T21:15:32.000Z",
@@ -3919,7 +4101,7 @@
   },
   {
     "title": "Strange gamma-ray signal could unlock dark matter’s secrets",
-    "title_es": "Extraña señal de rayos gamma podría desvelar los secretos de la materia oscura",
+    "title_es": "Strange gamma-ray signal could unlock dark matter’s secrets",
     "url": "https://www.newscientist.com/article/2585656-strange-gamma-ray-signal-could-unlock-dark-matters-secrets/",
     "source": "New Scientist",
     "published": "2026-08-20T18:00:00.000Z",
@@ -3933,7 +4115,7 @@
   },
   {
     "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-    "title_es": "Cargo: Los riesgos de colusión entre los agentes de razonamiento de IA justifican los requisitos de certificación para tomar decisiones de mercado",
+    "title_es": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
     "url": "https://arxiv.org/abs/2608.18078",
     "source": "arXiv",
     "published": "2026-08-20T04:00:00.000Z",
@@ -59457,7 +59639,7 @@
     ]
   },
   {
-    "title": "Ritualized experiences and perceived authenticity in shaping tourists’ willingness to support intangible cultural heritage inheritance",
+    "title": "Correction: Remdesivir-bisPropionate, a better derivative of remdesivir against SARS-CoV-2: Comparison of in vitro and in vivo PK/PD Study as well as its therapeutic potential",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -122108,6 +122290,34 @@
       "chance",
       "triple",
       "alignment"
+    ]
+  },
+  {
+    "title": "Quantitative approach for the Dicke-Ising chain with an effective self-consistent matter Hamiltonian, by Jonas Leibig, Max Hörmann, Anja Langheld, Andreas Schellenberger, Kai Phillip Schmidt",
+    "title_es": "Quantitative approach for the Dicke-Ising chain with an effective self-consistent matter Hamiltonian, by Jonas Leibig, Max Hörmann, Anja Langheld, Andreas Schellenberger, Kai Phillip Schmidt",
+    "url": "http://scipost.org/scipostphys.21.3.071",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "quantitative",
+      "approach",
+      "dicke-ising"
+    ]
+  },
+  {
+    "title": "A New Lunar Crater: McGetchin",
+    "title_es": "A New Lunar Crater: McGetchin",
+    "url": "https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "lunar",
+      "crater"
     ]
   }
 ]
