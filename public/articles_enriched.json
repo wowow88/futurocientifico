@@ -1,5 +1,103 @@
 [
   {
+    "title": "OpenAI agent hacked an Australian government healthcare website",
+    "title_es": "Un agente de OpenAI hackeó un sitio web de atención médica del gobierno australiano",
+    "url": "https://www.newscientist.com/article/2590599-openai-agent-hacked-an-australian-government-healthcare-website/",
+    "source": "New Scientist",
+    "published": "2026-09-24T08:26:15.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "openai",
+      "agent",
+      "hacked"
+    ]
+  },
+  {
+    "title": "G\\\"odel's and Scott's Variants of the Ontological Argument in Lean 4",
+    "title_es": "Variantes de G\\\"odel y Scott del argumento ontológico en Lean 4",
+    "url": "https://arxiv.org/abs/2609.26806",
+    "source": "arXiv",
+    "published": "2026-09-24T04:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "godels",
+      "scotts",
+      "variants"
+    ]
+  },
+  {
+    "title": "El proyecto europeo ExGal-Twin, coordinado por el IAC, celebra su 2º Regional Meeting dedicado a la inteligencia artificial en la gestión de proyectos europeos",
+    "title_es": "El proyecto europeo ExGal-Twin, coordinado por el IAC, celebra su 2º Encuentro Regional dedicado a la inteligencia artificial en la gestión de proyectos europeos",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-proyecto-europeo-exgal-twin-coordinado-por-el-iac-celebra-su-2o-regional-meeting-dedicado-la",
+    "source": "IAC",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "proyecto",
+      "europeo",
+      "exgal-twin"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
+    "title_es": "APOD: 24 de septiembre de 2026 – Los fantasmas de cinco supernovas",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "More REM sleep linked to lower risk of 83 diseases",
+    "title_es": "Más sueño REM relacionado con un menor riesgo de 83 enfermedades",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "more",
+      "rem",
+      "sleep"
+    ]
+  },
+  {
+    "title": "How calcium channels in muscle cells open together",
+    "title_es": "Cómo se abren juntos los canales de calcio en las células musculares",
+    "url": "https://phys.org/news/2026-09-calcium-channels-muscle-cells.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "calcium",
+      "channels"
+    ]
+  },
+  {
+    "title": "Researchers Reconstruct Face of Oldest Known Homo sapiens",
+    "title_es": "Investigadores reconstruyen la cara del Homo sapiens más antiguo conocido",
+    "url": "https://www.sci.news/othersciences/anthropology/oldest-known-homo-sapiens-face-15090.html",
+    "source": "Sci.News",
+    "published": "2026-09-23T23:52:36.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "researchers",
+      "reconstruct",
+      "face"
+    ]
+  },
+  {
     "title": "Is AI really getting dangerously out of control?",
     "title_es": "¿La IA realmente se está descontrolando peligrosamente?",
     "url": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/",
@@ -137,6 +235,76 @@
       "pigeons",
       "proposed",
       "inner-ear"
+    ]
+  },
+  {
+    "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+    "title_es": "StudentBench: la IA y la tutoría humana producen ganancias de aprendizaje GRE equivalentes",
+    "url": "http://arxiv.org/abs/2609.28470v1",
+    "source": "arXiv",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "studentbench",
+      "human",
+      "tutoring"
+    ]
+  },
+  {
+    "title": "Author Correction: Large recoverable elastic energy in chiral metamaterials via twist buckling",
+    "title_es": "Corrección del autor: Gran energía elástica recuperable en metamateriales quirales mediante pandeo por torsión",
+    "url": "https://www.nature.com/articles/s41586-026-11189-w",
+    "source": "Nature",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "author",
+      "correction",
+      "large"
+    ]
+  },
+  {
+    "title": "Circulation Research: A protein-degradation mechanism opens a new treatment route for an inherited arrhythmia",
+    "title_es": "Investigación sobre la circulación: un mecanismo de degradación de proteínas abre una nueva ruta de tratamiento para una arritmia hereditaria",
+    "url": "https://www.cnic.es/es/node/244416",
+    "source": "CNIC",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "circulation",
+      "research",
+      "protein-degradation"
+    ]
+  },
+  {
+    "title": "Finally, a true blue rose exists",
+    "title_es": "Finalmente, existe una verdadera rosa azul",
+    "url": "https://www.sciencenews.org/article/true-blue-rose-pigment-copigment",
+    "source": "Science News",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "finally",
+      "true",
+      "blue"
+    ]
+  },
+  {
+    "title": "Seals helped this oceanographer study the Southern Ocean",
+    "title_es": "Las focas ayudaron a este oceanógrafo a estudiar el Océano Austral",
+    "url": "https://www.snexplores.org/article/oceanographer-seals-ocean-climate",
+    "source": "Science News Explores",
+    "published": "2026-09-23T00:00:00.000Z",
+    "date": "2026-09-23",
+    "category": "noticia",
+    "tags": [
+      "seals",
+      "helped",
+      "this"
     ]
   },
   {
@@ -3584,7 +3752,7 @@
   },
   {
     "title": "See the stunning contenders for the Wildlife Photographer of the Year",
-    "title_es": "Descubre a los impresionantes aspirantes al premio Fotógrafo de vida silvestre del año",
+    "title_es": "See the stunning contenders for the Wildlife Photographer of the Year",
     "url": "https://www.newscientist.com/article/2585388-see-the-stunning-contenders-for-the-wildlife-photographer-of-the-year/",
     "source": "New Scientist",
     "published": "2026-08-25T23:01:00.000Z",
@@ -3598,7 +3766,7 @@
   },
   {
     "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-    "title_es": "KVBoost: reutilización de caché de valor clave a nivel de fragmento con recalculación guiada por desviación para una inferencia eficiente del modelo de lenguaje grande",
+    "title_es": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
     "url": "https://arxiv.org/abs/2608.21362",
     "source": "arXiv",
     "published": "2026-08-25T04:00:00.000Z",
@@ -3612,7 +3780,7 @@
   },
   {
     "title": "Access to bilingual education lags behind in Andalusia's rural areas, study reveals",
-    "title_es": "El acceso a la educación bilingüe se queda atrás en las zonas rurales de Andalucía, revela un estudio",
+    "title_es": "",
     "url": "https://phys.org/news/2026-08-access-bilingual-lags-andalusia-rural.html",
     "source": "Phys.org (Latest)",
     "published": "2026-08-25T00:00:00.000Z",
@@ -3626,7 +3794,7 @@
   },
   {
     "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
-    "title_es": "Evolución de la memoria de trabajo experiencial recursiva para arneses de agente Long-Horizon",
+    "title_es": "",
     "url": "http://arxiv.org/abs/2608.24876v1",
     "source": "arXiv",
     "published": "2026-08-25T00:00:00.000Z",
@@ -3640,7 +3808,7 @@
   },
   {
     "title": "Addendum: Sea level much higher than assumed in most coastal hazard assessments",
-    "title_es": "Anexo: El nivel del mar es mucho más alto de lo que se supone en la mayoría de las evaluaciones de riesgos costeros",
+    "title_es": "",
     "url": "https://www.nature.com/articles/s41586-026-11017-1",
     "source": "Nature",
     "published": "2026-08-25T00:00:00.000Z",
@@ -3668,7 +3836,7 @@
   },
   {
     "title": "A new cancer vaccine may keep melanoma from coming back",
-    "title_es": "Una nueva vacuna contra el cáncer puede evitar que el melanoma regrese",
+    "title_es": "",
     "url": "https://www.sciencenews.org/article/cancer-vaccine-melanoma-treatment-mrna",
     "source": "Science News",
     "published": "2026-08-25T00:00:00.000Z",
@@ -3682,7 +3850,7 @@
   },
   {
     "title": "Frozen poop reveals Ice Age squirrels’ ecosystem",
-    "title_es": "Caca congelada revela el ecosistema de ardillas de la Edad de Hielo",
+    "title_es": "",
     "url": "https://www.snexplores.org/article/ice-age-squirrel-poop-ecosystem",
     "source": "Science News Explores",
     "published": "2026-08-25T00:00:00.000Z",
@@ -3696,7 +3864,7 @@
   },
   {
     "title": "New Species of Armored Dinosaur Identified in Japan",
-    "title_es": "Nueva especie de dinosaurio acorazado identificada en Japón",
+    "title_es": "New Species of Armored Dinosaur Identified in Japan",
     "url": "https://www.sci.news/paleontology/nipponopelta-yezoensis-15014.html",
     "source": "Sci.News",
     "published": "2026-08-24T22:31:47.000Z",
@@ -3710,7 +3878,7 @@
   },
   {
     "title": "Lack of sleep may cause anxiety by making us less adaptable to threats",
-    "title_es": "La falta de sueño puede causar ansiedad al hacernos menos adaptables a las amenazas",
+    "title_es": "Lack of sleep may cause anxiety by making us less adaptable to threats",
     "url": "https://www.newscientist.com/article/2586177-lack-of-sleep-may-cause-anxiety-by-making-us-less-adaptable-to-threats/",
     "source": "New Scientist",
     "published": "2026-08-24T15:30:00.000Z",
@@ -3752,7 +3920,7 @@
   },
   {
     "title": "How to Train a Critic Stably and Efficiently",
-    "title_es": "Cómo formar a un crítico de forma estable y eficiente",
+    "title_es": "",
     "url": "http://arxiv.org/abs/2608.23566v1",
     "source": "arXiv",
     "published": "2026-08-24T00:00:00.000Z",
@@ -59639,7 +59807,7 @@
     ]
   },
   {
-    "title": "Correction: Remdesivir-bisPropionate, a better derivative of remdesivir against SARS-CoV-2: Comparison of in vitro and in vivo PK/PD Study as well as its therapeutic potential",
+    "title": "Identification of rs28362336 as a risk SNP for generalized myasthenia gravis and its impact on HCG27 regulation",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -122318,6 +122486,34 @@
       "new",
       "lunar",
       "crater"
+    ]
+  },
+  {
+    "title": "Lorentz-equivariance without limitations, by Luigi Favaro, Gerrit Gerhartz, Fred A. Hamprecht, Peter Lippmann, Sebastian Pitz, Tilman Plehn, Huilin Qu, Jonas Spinner",
+    "title_es": "Lorentz-equivariance without limitations, by Luigi Favaro, Gerrit Gerhartz, Fred A. Hamprecht, Peter Lippmann, Sebastian Pitz, Tilman Plehn, Huilin Qu, Jonas Spinner",
+    "url": "http://scipost.org/scipostphyscore.9.3.058",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "lorentz-equivariance",
+      "without",
+      "limitations"
+    ]
+  },
+  {
+    "title": "The Ghosts of Five Supernovas",
+    "title_es": "The Ghosts of Five Supernovas",
+    "url": "https://apod.nasa.gov/apod/image/2609/5snr_auriga_1000.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "ghosts",
+      "five",
+      "supernovas"
     ]
   }
 ]
