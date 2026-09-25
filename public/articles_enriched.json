@@ -1,5 +1,117 @@
 [
   {
+    "title": "Mathematician discovers rare eight-faced shape",
+    "title_es": "Un matemático descubre una rara forma de ocho caras",
+    "url": "https://www.newscientist.com/article/2590747-eight-face-shape-with-three-holes-is-new-to-science/",
+    "source": "New Scientist",
+    "published": "2026-09-25T09:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "mathematician",
+      "discovers",
+      "rare"
+    ]
+  },
+  {
+    "title": "Podcast: Should We Put AI-Enabled Tech in Our Brains?",
+    "title_es": "Podcast: ¿Deberíamos poner tecnología habilitada para IA en nuestros cerebros?",
+    "url": "https://undark.org/2026/09/25/podcast-neural-implants/",
+    "source": "Undark Magazine",
+    "published": "2026-09-25T07:01:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "podcast",
+      "should",
+      "put"
+    ]
+  },
+  {
+    "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+    "title_es": "¿Cuándo deben razonar los agentes de pronóstico? Pruebas de estrés conductual para el enrutamiento de confiabilidad",
+    "url": "https://arxiv.org/abs/2609.28475",
+    "source": "arXiv",
+    "published": "2026-09-25T04:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "when",
+      "should",
+      "forecasting"
+    ]
+  },
+  {
+    "title": "AI bots are flooding researchers with requests for money and time",
+    "title_es": "Los bots de IA están inundando a los investigadores con solicitudes de dinero y tiempo",
+    "url": "https://www.nature.com/articles/d41586-026-03005-2",
+    "source": "Nature",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "bots",
+      "are",
+      "flooding"
+    ]
+  },
+  {
+    "title": "El CNIC incorpora una plataforma automatizada para aislar y expandir células pluripotentes modificadas con CRISPR/Cas9",
+    "title_es": "El CNIC incorpora una plataforma automatizada para aislar y expandir células pluripotentes modificadas con CRISPR/Cas9",
+    "url": "https://www.cnic.es/es/noticias/cnic-incorpora-plataforma-automatizada-para-aislar-expandir-celulas-pluripotentes",
+    "source": "CNIC",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "incorpora",
+      "plataforma"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
+    "title_es": "APOD: 2026 25 de septiembre – Cúmulo Estelar Globular Omega Centauri",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
+    "title_es": "\"Encontramos algo nunca antes visto\" – Una estrella muerta está produciendo una onda de choque que no debería existir",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "found",
+      "something",
+      "never"
+    ]
+  },
+  {
+    "title": "High-tech canopy maps reveal how tropical birds use Amazon forests",
+    "title_es": "Los mapas de dosel de alta tecnología revelan cómo las aves tropicales usan los bosques amazónicos",
+    "url": "https://phys.org/news/2026-09-high-tech-canopy-reveal-tropical.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "high-tech",
+      "canopy",
+      "maps"
+    ]
+  },
+  {
     "title": "OpenAI agent hacked an Australian government healthcare website",
     "title_es": "Un agente de OpenAI hackeó un sitio web de atención médica del gobierno australiano",
     "url": "https://www.newscientist.com/article/2590599-openai-agent-hacked-an-australian-government-healthcare-website/",
@@ -81,6 +193,62 @@
       "how",
       "calcium",
       "channels"
+    ]
+  },
+  {
+    "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+    "title_es": "Los agentes de LLM pueden manipular fácilmente sus propios rastros",
+    "url": "http://arxiv.org/abs/2609.30266v1",
+    "source": "arXiv",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "llm",
+      "agents",
+      "can"
+    ]
+  },
+  {
+    "title": "The Smallest Lights in the Universe: A Memoir",
+    "title_es": "Las luces más pequeñas del universo: Memorias",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aem0084",
+    "source": "Science.org",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "smallest",
+      "lights",
+      "universe"
+    ]
+  },
+  {
+    "title": "Meet the newest living cat species, the first described in 100 years",
+    "title_es": "Conoce la nueva especie de gato vivo, la primera descrita en 100 años",
+    "url": "https://www.sciencenews.org/article/new-living-tiger-cat-species-100-years",
+    "source": "Science News",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "meet",
+      "newest",
+      "living"
+    ]
+  },
+  {
+    "title": "When we were prey",
+    "title_es": "Cuando éramos presas",
+    "url": "https://www.snexplores.org/article/human-evolution-hunted-prey-predator",
+    "source": "Science News Explores",
+    "published": "2026-09-24T00:00:00.000Z",
+    "date": "2026-09-24",
+    "category": "noticia",
+    "tags": [
+      "when",
+      "were",
+      "prey"
     ]
   },
   {
@@ -3486,7 +3654,7 @@
   },
   {
     "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-    "title_es": "Aero Hand Open: una mano impulsada por tendones lista para la simulación para el aprendizaje de la manipulación diestro",
+    "title_es": "",
     "url": "http://arxiv.org/abs/2608.28578v1",
     "source": "arXiv",
     "published": "2026-08-28T00:00:00.000Z",
@@ -3500,7 +3668,7 @@
   },
   {
     "title": "Astonishing whale feeding frenzy seen off the eastern coast of Greenland",
-    "title_es": "Asombroso frenesí de alimentación de ballenas en la costa este de Groenlandia",
+    "title_es": "Astonishing whale feeding frenzy seen off the eastern coast of Greenland",
     "url": "https://www.newscientist.com/article/2586630-astonishing-whale-feeding-frenzy-seen-off-the-eastern-coast-of-greenland/",
     "source": "New Scientist",
     "published": "2026-08-27T16:00:00.000Z",
@@ -3514,7 +3682,7 @@
   },
   {
     "title": "The New Student Visa Policy Doesn’t Add Up",
-    "title_es": "La nueva política de visados de estudiante no tiene sentido",
+    "title_es": "The New Student Visa Policy Doesn’t Add Up",
     "url": "https://undark.org/2026/08/27/opinion-student-visa-policy-science/",
     "source": "Undark Magazine",
     "published": "2026-08-27T07:23:00.000Z",
@@ -3528,7 +3696,7 @@
   },
   {
     "title": "VLM-based automatic multi-granularity graph representation of building layouts for design informatics",
-    "title_es": "Representación gráfica automática de granularidad múltiple basada en VLM de diseños de edificios para informática de diseño",
+    "title_es": "VLM-based automatic multi-granularity graph representation of building layouts for design informatics",
     "url": "https://arxiv.org/abs/2608.24886",
     "source": "arXiv",
     "published": "2026-08-27T04:00:00.000Z",
@@ -3612,7 +3780,7 @@
   },
   {
     "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-    "title_es": "WikiSkill: Recopilación de la experiencia del agente en conocimientos persistentes para la evolución de habilidades",
+    "title_es": "",
     "url": "http://arxiv.org/abs/2608.27454v1",
     "source": "arXiv",
     "published": "2026-08-27T00:00:00.000Z",
@@ -3640,7 +3808,7 @@
   },
   {
     "title": "Mississippian People May Have Consumed Cacao as Early as 11th Century",
-    "title_es": "La gente del Mississippi puede haber consumido cacao ya en el siglo XI",
+    "title_es": "Mississippian People May Have Consumed Cacao as Early as 11th Century",
     "url": "https://www.sci.news/archaeology/mississippian-people-cacao-15022.html",
     "source": "Sci.News",
     "published": "2026-08-26T23:40:33.000Z",
@@ -3654,7 +3822,7 @@
   },
   {
     "title": "Whose Psychiatry Was Summoned? A Clinical Response to the Psychodynamic Assessment of Claude Mythos Preview",
-    "title_es": "¿De quién fue convocada la psiquiatría? Una respuesta clínica a la evaluación psicodinámica de Claude Mythos Preview",
+    "title_es": "Whose Psychiatry Was Summoned? A Clinical Response to the Psychodynamic Assessment of Claude Mythos Preview",
     "url": "https://arxiv.org/abs/2608.23567",
     "source": "arXiv",
     "published": "2026-08-26T04:00:00.000Z",
@@ -3668,7 +3836,7 @@
   },
   {
     "title": "Three forgotten kings could rewrite the history of ancient Assyria",
-    "title_es": "Tres reyes olvidados podrían reescribir la historia de la antigua Asiria",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/08/260824065549.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-26T00:00:00.000Z",
@@ -3682,7 +3850,7 @@
   },
   {
     "title": "Even low-level traffic noise can reduce birdsong's stress-relieving effects",
-    "title_es": "Incluso el ruido del tráfico de bajo nivel puede reducir los efectos de alivio del estrés del canto de los pájaros",
+    "title_es": "",
     "url": "https://phys.org/news/2026-08-traffic-noise-birdsong-stress-relieving.html",
     "source": "Phys.org (Latest)",
     "published": "2026-08-26T00:00:00.000Z",
@@ -3724,7 +3892,7 @@
   },
   {
     "title": "NEJM: REACT reveals that silent atherosclerosis already affects 1 in 13 young adults aged 18 to 29 and progresses rapidly from the menopause",
-    "title_es": "NEJM: REACT revela que la aterosclerosis silenciosa ya afecta a 1 de cada 13 adultos jóvenes de 18 a 29 años y progresa rápidamente desde la menopausia",
+    "title_es": "NEJM: REACT reveals that silent atherosclerosis already affects 1 in 13 young adults aged 18 to 29 and progresses rapidly from the menopause",
     "url": "https://www.cnic.es/es/node/244035",
     "source": "CNIC",
     "published": "2026-08-26T00:00:00.000Z",
@@ -3738,7 +3906,7 @@
   },
   {
     "title": "Scientists Reconstruct Sound of Jurassic Insects",
-    "title_es": "Científicos reconstruyen el sonido de insectos jurásicos",
+    "title_es": "Scientists Reconstruct Sound of Jurassic Insects",
     "url": "https://www.sci.news/paleontology/jurassic-insect-sounds-15017.html",
     "source": "Sci.News",
     "published": "2026-08-25T23:31:08.000Z",
@@ -59807,7 +59975,7 @@
     ]
   },
   {
-    "title": "Identification of rs28362336 as a risk SNP for generalized myasthenia gravis and its impact on HCG27 regulation",
+    "title": "Multi source Earth observation and machine learning framework for mapping land degradation vulnerability in salinity- and hydrothermal-stressed regions of the southern main Ethiopian Rift",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -122514,6 +122682,34 @@
       "ghosts",
       "five",
       "supernovas"
+    ]
+  },
+  {
+    "title": "Scalable ground-state certification of quantum spin systems via structured noncommutative polynomial optimization, by Jie Wang, David Jansen, Irénée Frerot, Marc-Olivier Renou, Victor Magron, Antonio Acín",
+    "title_es": "Scalable ground-state certification of quantum spin systems via structured noncommutative polynomial optimization, by Jie Wang, David Jansen, Irénée Frerot, Marc-Olivier Renou, Victor Magron, Antonio Acín",
+    "url": "http://scipost.org/scipostphys.21.3.074",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "scalable",
+      "ground-state",
+      "certification"
+    ]
+  },
+  {
+    "title": "Globular Cluster Omega Centauri",
+    "title_es": "Globular Cluster Omega Centauri",
+    "url": "https://apod.nasa.gov/apod/image/2609/ngc5139cadenasparra1024.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "globular",
+      "cluster",
+      "omega"
     ]
   }
 ]
