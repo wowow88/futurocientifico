@@ -1,5 +1,33 @@
 [
   {
+    "title": "Why AI has trouble predicting the fury of hurricane intensity",
+    "title_es": "Por qué la IA tiene problemas para predecir la furia de la intensidad de los huracanes",
+    "url": "https://phys.org/news/2026-09-ai-fury-hurricane-intensity.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-27T00:00:00.000Z",
+    "date": "2026-09-27",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "has",
+      "trouble"
+    ]
+  },
+  {
+    "title": "Blood test could gauge if a baby has a dangerous infection in 15 minutes",
+    "title_es": "El análisis de sangre podría medir si un bebé tiene una infección peligrosa en 15 minutos",
+    "url": "https://www.newscientist.com/article/2590894-blood-test-could-gauge-if-a-baby-has-a-dangerous-infection-in-15-minutes/",
+    "source": "New Scientist",
+    "published": "2026-09-26T22:01:00.000Z",
+    "date": "2026-09-26",
+    "category": "noticia",
+    "tags": [
+      "blood",
+      "test",
+      "could"
+    ]
+  },
+  {
     "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
     "title_es": "APOD: 26 de septiembre de 2026 – Meteorito reflejado y Vía Láctea",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
@@ -25,6 +53,20 @@
       "millions",
       "northeast",
       "brace"
+    ]
+  },
+  {
+    "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
+    "title_es": "Zepbound y Mounjaro pueden activar la grasa marrón que quema calorías del cuerpo",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-26T00:00:00.000Z",
+    "date": "2026-09-26",
+    "category": "noticia",
+    "tags": [
+      "zepbound",
+      "mounjaro",
+      "may"
     ]
   },
   {
@@ -3542,7 +3584,7 @@
   },
   {
     "title": "NASA's Roman telescope set to launch on cosmic mapping mission",
-    "title_es": "El telescopio romano de la NASA se lanzará en una misión de mapeo cósmico",
+    "title_es": "",
     "url": "https://phys.org/news/2026-08-nasa-roman-telescope-cosmic-mission.html",
     "source": "Phys.org (Latest)",
     "published": "2026-08-30T00:00:00.000Z",
@@ -3570,7 +3612,7 @@
   },
   {
     "title": "Many cities buried urban streams. Here's how to bring them back",
-    "title_es": "Muchas ciudades enterraron arroyos urbanos. A continuación, te mostramos cómo recuperarlos",
+    "title_es": "",
     "url": "https://phys.org/news/2026-08-cities-urban-streams.html",
     "source": "Phys.org (Latest)",
     "published": "2026-08-29T00:00:00.000Z",
@@ -3584,7 +3626,7 @@
   },
   {
     "title": "Long-term melatonin use linked to 90% higher heart failure risk",
-    "title_es": "El uso de melatonina a largo plazo está relacionado con un riesgo de insuficiencia cardíaca un 90% mayor",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/08/260829035228.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-08-29T00:00:00.000Z",
@@ -122864,6 +122906,20 @@
       "mirrored",
       "meteor",
       "milky"
+    ]
+  },
+  {
+    "title": "Andromeda before Photoshop",
+    "title_es": "Andromeda before Photoshop",
+    "url": "https://apod.nasa.gov/apod/image/2609/m31before_scherer_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "andromeda",
+      "before",
+      "photoshop"
     ]
   }
 ]
