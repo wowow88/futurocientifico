@@ -1,5 +1,131 @@
 [
   {
+    "title": "Why is this monster El Niño so strong?",
+    "title_es": "¿Por qué es tan fuerte este monstruo de El Niño?",
+    "url": "https://www.newscientist.com/article/2590917-what-has-made-this-monster-el-nino-so-strong/",
+    "source": "New Scientist",
+    "published": "2026-09-28T11:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "this",
+      "monster"
+    ]
+  },
+  {
+    "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+    "title_es": "Robots confiables: conozca al equipo de robótica diestro de Johnson",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-28T10:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "reliable",
+      "robots",
+      "meet"
+    ]
+  },
+  {
+    "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+    "title_es": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+    "url": "https://arxiv.org/abs/2609.30270",
+    "source": "arXiv",
+    "published": "2026-09-28T04:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "hybridinfer",
+      "thermal-aware",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "title": "China now leads the world in trials for next-gen CAR-T therapies",
+    "title_es": "China ahora lidera el mundo en ensayos para terapias CAR-T de próxima generación",
+    "url": "https://www.nature.com/articles/d41586-026-03004-3",
+    "source": "Nature",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "china",
+      "now",
+      "leads"
+    ]
+  },
+  {
+    "title": "El CNIC participa en la XVII Carrera Popular del Corazón para impulsar la prevención cardiovascular",
+    "title_es": "El CNIC participa en la XVII Carrera Popular del Corazón para impulsar la prevención cardiovascular",
+    "url": "https://www.cnic.es/es/noticias/cnic-participa-xvii-carrera-popular-corazon-para-impulsar-prevencion-cardiovascular",
+    "source": "CNIC",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "cnic",
+      "participa",
+      "xvii"
+    ]
+  },
+  {
+    "title": "El IAC reúne a profesionales de la ciencia, la sanidad y la empresa para explorar nuevas tecnologías médicas",
+    "title_es": "El IAC reúne a profesionales de la ciencia, la sanidad y la empresa para explorar nuevas tecnologías médicas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-reune-profesionales-de-la-ciencia-la-sanidad-y-la-empresa-para-explorar-nuevas-tecnologias",
+    "source": "IAC",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "reúne",
+      "profesionales"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
+    "title_es": "APOD: 2026 28 de septiembre – Latte Cósmico: El Color Promedio del Universo",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "Scientists Say: Paradox",
+    "title_es": "Los científicos dicen: Paradoja",
+    "url": "https://www.snexplores.org/article/scientists-say-paradox-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "say",
+      "paradox"
+    ]
+  },
+  {
+    "title": "Biscayne Bay recognized as an essential habitat for sharks and rays",
+    "title_es": "Bahía de Biscayne reconocida como un hábitat esencial para tiburones y rayas",
+    "url": "https://phys.org/news/2026-09-biscayne-bay-essential-habitat-sharks.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "biscayne",
+      "bay",
+      "recognized"
+    ]
+  },
+  {
     "title": "Why AI has trouble predicting the fury of hurricane intensity",
     "title_es": "Por qué la IA tiene problemas para predecir la furia de la intensidad de los huracanes",
     "url": "https://phys.org/news/2026-09-ai-fury-hurricane-intensity.html",
@@ -11,6 +137,20 @@
       "why",
       "has",
       "trouble"
+    ]
+  },
+  {
+    "title": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
+    "title_es": "La glucosamina, un popular suplemento para las articulaciones, relacionado con una progresión más rápida del Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-27T00:00:00.000Z",
+    "date": "2026-09-27",
+    "category": "noticia",
+    "tags": [
+      "glucosamine",
+      "popular",
+      "joint"
     ]
   },
   {
@@ -277,6 +417,20 @@
       "cern",
       "has",
       "begun"
+    ]
+  },
+  {
+    "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+    "title_es": "Aprender a detenerse sin aprender a detenerse: el entrenamiento de confianza auto-supervisado mejora la eficiencia del razonamiento",
+    "url": "http://arxiv.org/abs/2609.31619v1",
+    "source": "arXiv",
+    "published": "2026-09-25T00:00:00.000Z",
+    "date": "2026-09-25",
+    "category": "noticia",
+    "tags": [
+      "learning",
+      "stop",
+      "without"
     ]
   },
   {
@@ -3304,7 +3458,7 @@
   },
   {
     "title": "AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds",
-    "title_es": "AlgoWorlds: Uso de herramientas de evaluación comparativa para la optimización global en mundos algorítmicos",
+    "title_es": "AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds",
     "url": "https://arxiv.org/abs/2608.29397",
     "source": "arXiv",
     "published": "2026-09-01T04:00:00.000Z",
@@ -3318,7 +3472,7 @@
   },
   {
     "title": "China’s regulatory innovation for new biomedical technologies",
-    "title_es": "Innovación regulatoria de China para nuevas tecnologías biomédicas",
+    "title_es": "",
     "url": "https://www.nature.com/articles/d41586-026-02737-5",
     "source": "Nature",
     "published": "2026-09-01T00:00:00.000Z",
@@ -3346,7 +3500,7 @@
   },
   {
     "title": "In Japan's mountains, a different way to manage bears",
-    "title_es": "En las montañas de Japón, una forma diferente de controlar a los osos",
+    "title_es": "",
     "url": "https://phys.org/news/2026-09-japan-mountains.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-01T00:00:00.000Z",
@@ -3416,7 +3570,7 @@
   },
   {
     "title": "55-Million-Year-Old Predatory Mammal Footprint Found in Antarctica",
-    "title_es": "Huella de mamíferos depredadores de 55 millones de años encontrada en la Antártida",
+    "title_es": "55-Million-Year-Old Predatory Mammal Footprint Found in Antarctica",
     "url": "https://www.sci.news/paleontology/eocene-predatory-mammal-footprint-antarctica-15031.html",
     "source": "Sci.News",
     "published": "2026-08-31T19:22:12.000Z",
@@ -3430,7 +3584,7 @@
   },
   {
     "title": "Black fungus thriving in the midst of Ireland's whiskey boom",
-    "title_es": "El hongo negro prospera en medio del auge del whisky en Irlanda",
+    "title_es": "Black fungus thriving in the midst of Ireland's whiskey boom",
     "url": "https://phys.org/news/2026-08-black-fungus-midst-ireland-whiskey.html",
     "source": "Phys.org (Latest)",
     "published": "2026-08-31T11:40:03.000Z",
@@ -3444,7 +3598,7 @@
   },
   {
     "title": "Keto Diet Outperforms Others for Cardiometabolic Health during Weight Loss: Study",
-    "title_es": "La dieta cetogénica supera a otras en salud cardiometabólica durante la pérdida de peso: estudio",
+    "title_es": "Keto Diet Outperforms Others for Cardiometabolic Health during Weight Loss: Study",
     "url": "https://www.sci.news/medicine/keto-diet-cardiometabolic-health-weight-loss-15028.html",
     "source": "Sci.News",
     "published": "2026-08-31T11:36:51.000Z",
@@ -3458,7 +3612,7 @@
   },
   {
     "title": "Should we all be taking low doses of lithium to prevent Alzheimer’s?",
-    "title_es": "¿Deberíamos todos tomar dosis bajas de litio para prevenir el Alzheimer?",
+    "title_es": "Should we all be taking low doses of lithium to prevent Alzheimer’s?",
     "url": "https://www.newscientist.com/article/2586894-should-we-all-be-taking-low-doses-of-lithium-to-prevent-alzheimers/",
     "source": "New Scientist",
     "published": "2026-08-31T08:00:00.000Z",
@@ -3472,7 +3626,7 @@
   },
   {
     "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-    "title_es": "Cápsula del tiempo de conocimiento humano comprobable: ¡41 años de peligro! en un solo modelo local gratuito",
+    "title_es": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
     "url": "https://arxiv.org/abs/2608.27459",
     "source": "arXiv",
     "published": "2026-08-31T04:00:00.000Z",
@@ -3486,7 +3640,7 @@
   },
   {
     "title": "Scale of snakebites estimated globally",
-    "title_es": "Escala de mordeduras de serpiente estimada a nivel mundial",
+    "title_es": "",
     "url": "https://www.nature.com/articles/d41586-026-02642-x",
     "source": "Nature",
     "published": "2026-08-31T00:00:00.000Z",
@@ -3500,7 +3654,7 @@
   },
   {
     "title": "Some sea stars channel light like fiber-optic cables",
-    "title_es": "Algunas estrellas de mar canalizan la luz como cables de fibra óptica",
+    "title_es": "",
     "url": "https://www.snexplores.org/article/some-sea-stars-channel-light-like-fiber-optic-cables",
     "source": "Science News Explores",
     "published": "2026-08-31T00:00:00.000Z",
@@ -3556,7 +3710,7 @@
   },
   {
     "title": "José Javier Fuster receives the 2026 ESC Outstanding Achievement Award",
-    "title_es": "José Javier Fuster recibe el Premio al Logro Sobresaliente 2026 ESC",
+    "title_es": "José Javier Fuster receives the 2026 ESC Outstanding Achievement Award",
     "url": "https://www.cnic.es/es/node/244089",
     "source": "CNIC",
     "published": "2026-08-31T00:00:00.000Z",
@@ -122920,6 +123074,34 @@
       "andromeda",
       "before",
       "photoshop"
+    ]
+  },
+  {
+    "title": "Generalized cluster states in 2+1d: Non-invertible symmetries, interfaces, and parameterized families, by Kansei Inamura, Shuhei Ohyama",
+    "title_es": "Generalized cluster states in 2+1d: Non-invertible symmetries, interfaces, and parameterized families, by Kansei Inamura, Shuhei Ohyama",
+    "url": "http://scipost.org/scipostphys.21.3.078",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "generalized",
+      "cluster",
+      "states"
+    ]
+  },
+  {
+    "title": "Cosmic Latte: The Average Color of the Universe",
+    "title_es": "Cosmic Latte: The Average Color of the Universe",
+    "url": "https://apod.nasa.gov/apod/image/2609/cosmiclatte_jhu_960_annotated.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "cosmic",
+      "latte",
+      "average"
     ]
   }
 ]
