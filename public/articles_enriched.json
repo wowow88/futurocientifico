@@ -1,5 +1,117 @@
 [
   {
+    "title": "Trustworthy science journalism is more essential than ever",
+    "title_es": "El periodismo científico de confianza es más esencial que nunca",
+    "url": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/",
+    "source": "New Scientist",
+    "published": "2026-09-29T10:59:45.000Z",
+    "date": "2026-09-29",
+    "category": "revista",
+    "tags": [
+      "trustworthy",
+      "science",
+      "journalism"
+    ]
+  },
+  {
+    "title": "PhD training should encourage ethical dissent",
+    "title_es": "La formación de doctorado debe fomentar la disidencia ética",
+    "url": "https://www.nature.com/articles/d41586-026-03053-8",
+    "source": "Nature",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "phd",
+      "training",
+      "should"
+    ]
+  },
+  {
+    "title": "APOD: 2026 September 29 – Sh2-188: The Shrimp Nebula",
+    "title_es": "APOD: 2026 29 de septiembre – Sh2-188: La nebulosa del camarón",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-29-sh2-188-the-shrimp-nebula/",
+    "source": "NASA (Top News)",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "september"
+    ]
+  },
+  {
+    "title": "‘The Deep End’ podcast is back to explore what makes your voice yours",
+    "title_es": "El podcast ‘The Deep End’ vuelve para explorar lo que hace que tu voz sea tuya",
+    "url": "https://www.sciencenews.org/article/the-deep-end-season-2-voice-identity",
+    "source": "Science News",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "deep",
+      "end",
+      "podcast"
+    ]
+  },
+  {
+    "title": "Cuddling helps apes keep the peace",
+    "title_es": "Acurrucarse ayuda a los simios a mantener la paz",
+    "url": "https://www.snexplores.org/article/cuddling-apes-chimps-bonobos-peace",
+    "source": "Science News Explores",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "cuddling",
+      "helps",
+      "apes"
+    ]
+  },
+  {
+    "title": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
+    "title_es": "La explosión de hielo de la luna Encélado de Saturno es más extraña de lo que los científicos pensaban",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "ice",
+      "blasting",
+      "saturns"
+    ]
+  },
+  {
+    "title": "Study shows rising rates of reported intentional substance exposures at school",
+    "title_es": "El estudio muestra tasas crecientes de exposición intencional a sustancias en la escuela",
+    "url": "https://phys.org/news/2026-09-intentional-substance-exposures-school.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "study",
+      "shows",
+      "rising"
+    ]
+  },
+  {
+    "title": "120-Million-Year-Old Fossil Pushes Back Origin of Marsupial Lineage",
+    "title_es": "Un fósil de 120 millones de años retrasa el origen del linaje marsupial",
+    "url": "https://www.sci.news/paleontology/archetheridium-sinense-15098.html",
+    "source": "Sci.News",
+    "published": "2026-09-28T23:16:53.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "120-million-year-old",
+      "fossil",
+      "pushes"
+    ]
+  },
+  {
     "title": "Why is this monster El Niño so strong?",
     "title_es": "¿Por qué es tan fuerte este monstruo de El Niño?",
     "url": "https://www.newscientist.com/article/2590917-what-has-made-this-monster-el-nino-so-strong/",
@@ -123,6 +235,48 @@
       "biscayne",
       "bay",
       "recognized"
+    ]
+  },
+  {
+    "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+    "title_es": "FurE: Reconstrucción eficiente de pieles 3D específicas de la instancia sin conjuntos de datos de pieles de animales",
+    "url": "http://arxiv.org/abs/2609.35770v1",
+    "source": "arXiv",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "fure",
+      "efficient",
+      "instance-specific"
+    ]
+  },
+  {
+    "title": "Día Mundial del Corazón 2026: anticiparse a la enfermedad cardiovascular puede cambiar vidas",
+    "title_es": "Día Mundial del Corazón 2026: anticiparse a la enfermedad cardiovascular puede cambiar vidas",
+    "url": "https://www.cnic.es/es/noticias/dia-mundial-corazon-2026-anticiparse-enfermedad-cardiovascular-puede-cambiar-vidas",
+    "source": "CNIC",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "día",
+      "mundial",
+      "corazón"
+    ]
+  },
+  {
+    "title": "Investigadores del CNIO encuentran una diana terapéutica que acerca el objetivo de prevenir la metástasis cerebral y evitar recaídas",
+    "title_es": "Investigadores del CNIO encuentran una diana terapéutica que trata sobre el objetivo de prevenir la metástasis cerebral y evitar recaídas",
+    "url": "https://www.cnio.es/noticias/investigadores-del-cnio-encuentran-una-diana-terapeutica-que-acerca-el-objetivo-de-prevenir-la-metastasis-cerebral-y-evitar-recaidas/",
+    "source": "CNIO",
+    "published": "2026-09-28T00:00:00.000Z",
+    "date": "2026-09-28",
+    "category": "noticia",
+    "tags": [
+      "investigadores",
+      "cnio",
+      "encuentran"
     ]
   },
   {
@@ -3122,7 +3276,7 @@
   },
   {
     "title": "Scientists Map Genetics of Personality across Million People",
-    "title_es": "Los científicos mapean la genética de la personalidad en millones de personas",
+    "title_es": "Scientists Map Genetics of Personality across Million People",
     "url": "https://www.sci.news/genetics/personality-genes-15041.html",
     "source": "Sci.News",
     "published": "2026-09-03T21:15:55.000Z",
@@ -3136,7 +3290,7 @@
   },
   {
     "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
-    "title_es": "WMLLM: Agentes de optimización auto-evolutivos a través de Predict-Then-Act World Modeling",
+    "title_es": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
     "url": "https://arxiv.org/abs/2609.01608",
     "source": "arXiv",
     "published": "2026-09-03T04:00:00.000Z",
@@ -3178,7 +3332,7 @@
   },
   {
     "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
-    "title_es": "Compilar por capacitación: convertir las especificaciones del lenguaje natural en funciones neuronales locales",
+    "title_es": "",
     "url": "http://arxiv.org/abs/2609.04199v1",
     "source": "arXiv",
     "published": "2026-09-03T00:00:00.000Z",
@@ -3262,7 +3416,7 @@
   },
   {
     "title": "Astronomers Discover Decagonal Wave circling Saturn’s South Pole",
-    "title_es": "Astrónomos descubren una onda decagonal que rodea el polo sur de Saturno",
+    "title_es": "Astronomers Discover Decagonal Wave circling Saturn’s South Pole",
     "url": "https://www.sci.news/astronomy/saturn-decagon-15039.html",
     "source": "Sci.News",
     "published": "2026-09-02T23:26:33.000Z",
@@ -3276,7 +3430,7 @@
   },
   {
     "title": "Saturn has a big, weird decagon around its south pole",
-    "title_es": "Saturno tiene un gran y extraño decágono alrededor de su polo sur",
+    "title_es": "Saturn has a big, weird decagon around its south pole",
     "url": "https://www.newscientist.com/article/2587345-saturn-has-a-big-weird-decagon-around-its-south-pole/",
     "source": "New Scientist",
     "published": "2026-09-02T18:00:00.000Z",
@@ -3290,7 +3444,7 @@
   },
   {
     "title": "Research on Optimized Fuzzy PID Temperature Control Strategy Based on Improved Particle Swarm Optimization",
-    "title_es": "Investigación sobre la estrategia optimizada de control de temperatura PID difuso basada en la optimización mejorada del enjambre de partículas",
+    "title_es": "Research on Optimized Fuzzy PID Temperature Control Strategy Based on Improved Particle Swarm Optimization",
     "url": "https://arxiv.org/abs/2609.00001",
     "source": "arXiv",
     "published": "2026-09-02T04:00:00.000Z",
@@ -3304,7 +3458,7 @@
   },
   {
     "title": "Can we really reverse global warming after overshooting 1.5°C?",
-    "title_es": "¿Podemos realmente revertir el calentamiento global después de sobrepasar los 1,5 °C?",
+    "title_es": "Can we really reverse global warming after overshooting 1.5°C?",
     "url": "https://www.newscientist.com/article/2587239-can-we-really-reverse-global-warming-after-overshooting-1-5c/",
     "source": "New Scientist",
     "published": "2026-09-02T04:00:00.000Z",
@@ -3388,7 +3542,7 @@
   },
   {
     "title": "European Journal of Heart Failure: A diabetes drug reduces complications after aortic valve replacement",
-    "title_es": "European Journal of Heart Failure: Un medicamento para la diabetes reduce las complicaciones después del reemplazo de la válvula aórtica",
+    "title_es": "European Journal of Heart Failure: A diabetes drug reduces complications after aortic valve replacement",
     "url": "https://www.cnic.es/es/node/244119",
     "source": "CNIC",
     "published": "2026-09-02T00:00:00.000Z",
@@ -3430,7 +3584,7 @@
   },
   {
     "title": "Fossil of Giant Squid-Like Creature from Cretaceous Period Bears Marks of Deadly Attack",
-    "title_es": "Fósil de una criatura gigante parecida a un calamar del período Cretácico muestra marcas de un ataque mortal",
+    "title_es": "Fossil of Giant Squid-Like Creature from Cretaceous Period Bears Marks of Deadly Attack",
     "url": "https://www.sci.news/paleontology/enchoteuthis-gladius-bite-marks-15034.html",
     "source": "Sci.News",
     "published": "2026-09-01T21:16:12.000Z",
@@ -3444,7 +3598,7 @@
   },
   {
     "title": "The best new science-fiction books of September 2026",
-    "title_es": "Los mejores nuevos libros de ciencia ficción de septiembre de 2026",
+    "title_es": "The best new science-fiction books of September 2026",
     "url": "https://www.newscientist.com/article/2585976-the-best-new-science-fiction-books-of-september-2026/",
     "source": "New Scientist",
     "published": "2026-09-01T09:00:00.000Z",
@@ -60297,7 +60451,7 @@
     ]
   },
   {
-    "title": "Tumor microbial biodiversity and microsatellite instability in colorectal cancer",
+    "title": "Non-ablative dermal remodeling lasers in acquired dermal macular hyperpigmentation: A scoping review",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -123102,6 +123256,20 @@
       "cosmic",
       "latte",
       "average"
+    ]
+  },
+  {
+    "title": "Sh2-188: The Shrimp Nebula",
+    "title_es": "Sh2-188: The Shrimp Nebula",
+    "url": "https://apod.nasa.gov/apod/image/2609/shrimp_pawel_960.jpg",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "sh2-188",
+      "shrimp",
+      "nebula"
     ]
   }
 ]
