@@ -1,5 +1,103 @@
 [
   {
+    "title": "The best new science-fiction books of October 2026",
+    "title_es": "Los mejores nuevos libros de ciencia ficción de octubre de 2026",
+    "url": "https://www.newscientist.com/article/2591308-the-best-new-science-fiction-books-of-october-2026/",
+    "source": "New Scientist",
+    "published": "2026-09-30T09:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "best",
+      "new",
+      "science-fiction"
+    ]
+  },
+  {
+    "title": "Socrates-RAG: Premise-Directed Inquiry against Coordinated Evidence Poisoning",
+    "title_es": "Sócrates-RAG: Investigación dirigida por las premisas contra el envenenamiento coordinado de la evidencia",
+    "url": "https://arxiv.org/abs/2609.35773",
+    "source": "arXiv",
+    "published": "2026-09-30T04:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "socrates-rag",
+      "premise-directed",
+      "inquiry"
+    ]
+  },
+  {
+    "title": "The super El Niño is cooking coral reefs — can lullabies and probiotics save them?",
+    "title_es": "El super El Niño está cocinando los arrecifes de coral: ¿pueden salvarlos las canciones de cuna y los probióticos?",
+    "url": "https://www.nature.com/articles/d41586-026-02965-9",
+    "source": "Nature",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "super",
+      "niño",
+      "cooking"
+    ]
+  },
+  {
+    "title": "La Fundación Instituto Roche reconoce a ISCIII, CNIO, BSC-CNS y SEBiot por su labor en la formación de profesionales en Ciencia de Datos",
+    "title_es": "La Fundación Instituto Roche reconoce a ISCIII, CNIO, BSC-CNS y SEBiot por su labor en la formación de profesionales en Ciencia de Datos",
+    "url": "https://www.cnio.es/noticias/la-fundacion-instituto-roche-reconoce-a-isciii-cnio-bsc-cns-y-sebiot-por-su-labor-en-la-formacion-de-profesionales-en-ciencia-de-datos/",
+    "source": "CNIO",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "fundación",
+      "instituto",
+      "roche"
+    ]
+  },
+  {
+    "title": "UNDARK reúne a investigadores para explorar las fronteras del Universo oscuro",
+    "title_es": "UNDARK reúne a investigadores para explorar las fronteras del universo oscuro",
+    "url": "https://www.iac.es/es/divulgacion/noticias/undark-reune-investigadores-para-explorar-las-fronteras-del-universo-oscuro",
+    "source": "IAC",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "undark",
+      "reúne",
+      "investigadores"
+    ]
+  },
+  {
+    "title": "Analyze This: Even as Earth’s oceans warm, one spot has gone cold",
+    "title_es": "Analiza esto: A pesar de que los océanos de la Tierra se calientan, un lugar se ha enfriado",
+    "url": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
+    "source": "Science News Explores",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "analyze",
+      "this",
+      "even"
+    ]
+  },
+  {
+    "title": "Wild crabapples have genetic potential to improve domestic varieties",
+    "title_es": "Las manzanas silvestres tienen potencial genético para mejorar las variedades domésticas",
+    "url": "https://phys.org/news/2026-09-wild-crabapples-genetic-potential-domestic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "wild",
+      "crabapples",
+      "have"
+    ]
+  },
+  {
     "title": "Trustworthy science journalism is more essential than ever",
     "title_es": "El periodismo científico de confianza es más esencial que nunca",
     "url": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/",
@@ -95,6 +193,34 @@
       "study",
       "shows",
       "rising"
+    ]
+  },
+  {
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "title_es": "Disparo de habilidades espaciales para la mejora de la política de robots autónomos",
+    "url": "http://arxiv.org/abs/2609.38178v1",
+    "source": "arXiv",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "skill-space",
+      "shooting",
+      "autonomous"
+    ]
+  },
+  {
+    "title": "A medieval remedy could offer ideas for beating antibiotic resistance",
+    "title_es": "Un remedio medieval podría ofrecer ideas para vencer la resistencia a los antibióticos",
+    "url": "https://www.sciencenews.org/article/medieval-remedy-antibiotic-resistance",
+    "source": "Science News",
+    "published": "2026-09-29T00:00:00.000Z",
+    "date": "2026-09-29",
+    "category": "noticia",
+    "tags": [
+      "medieval",
+      "remedy",
+      "could"
     ]
   },
   {
@@ -3066,7 +3192,7 @@
   },
   {
     "title": "A longer exhale may push your brain toward bolder decisions",
-    "title_es": "Una exhalación más larga puede empujar tu cerebro hacia decisiones más audaces",
+    "title_es": "A longer exhale may push your brain toward bolder decisions",
     "url": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-04T11:33:12.000Z",
@@ -3080,7 +3206,7 @@
   },
   {
     "title": "Book Review: The Messy Business of Making Science Happen",
-    "title_es": "Reseña del libro: El desordenado negocio de hacer que la ciencia suceda",
+    "title_es": "Book Review: The Messy Business of Making Science Happen",
     "url": "https://undark.org/2026/09/04/book-review-lost-in-curiosity/",
     "source": "Undark Magazine",
     "published": "2026-09-04T07:54:00.000Z",
@@ -3094,7 +3220,7 @@
   },
   {
     "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
-    "title_es": "¿Dónde vive el valor de la optimización del arnés? Las ganancias localizadas y la trampa de la división del presupuesto en los agentes de LLM autónomos",
+    "title_es": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
     "url": "https://arxiv.org/abs/2609.02889",
     "source": "arXiv",
     "published": "2026-09-04T04:00:00.000Z",
@@ -3122,7 +3248,7 @@
   },
   {
     "title": "CNIC and Fundación Ramón Areces organise the second international conference to understand the neurovascular network and prevent dementia",
-    "title_es": "El CNIC y la Fundación Ramón Areces organizan el segundo congreso internacional para entender la red neurovascular y prevenir la demencia",
+    "title_es": "CNIC and Fundación Ramón Areces organise the second international conference to understand the neurovascular network and prevent dementia",
     "url": "https://www.cnic.es/es/node/244158",
     "source": "CNIC",
     "published": "2026-09-04T00:00:00.000Z",
@@ -3164,7 +3290,7 @@
   },
   {
     "title": "Briefing Chat: How 1,000 pairs of buried underpants helped measure soil health",
-    "title_es": "Charla informativa: Cómo 1.000 pares de calzoncillos enterrados ayudaron a medir la salud del suelo",
+    "title_es": "",
     "url": "https://www.nature.com/articles/d41586-026-02800-1",
     "source": "Nature",
     "published": "2026-09-04T00:00:00.000Z",
@@ -3178,7 +3304,7 @@
   },
   {
     "title": "Science Immunology: El secreto de los tejidos que más trabajan: una buena limpieza",
-    "title_es": "Ciencia Inmunología: El secreto de los tejidos que más trabajan: una buena limpieza",
+    "title_es": "Science Immunology: El secreto de los tejidos que más trabajan: una buena limpieza",
     "url": "https://www.cnic.es/es/noticias/science-immunology-secreto-tejidos-que-mas-trabajan-buena-limpieza",
     "source": "CNIC",
     "published": "2026-09-04T00:00:00.000Z",
@@ -3206,7 +3332,7 @@
   },
   {
     "title": "NASA Ames Fire Department Aircraft Firefighting Training",
-    "title_es": "Entrenamiento de extinción de incendios de aeronaves del Departamento de Bomberos de Ames de la",
+    "title_es": "",
     "url": "https://www.nasa.gov/news-release/nasa-ames-fire-department-aircraft-firefighting-training/",
     "source": "NASA (Top News)",
     "published": "2026-09-04T00:00:00.000Z",
@@ -3262,7 +3388,7 @@
   },
   {
     "title": "Pig kidney kept a man off dialysis for nine months in world first",
-    "title_es": "El riñón de cerdo mantuvo a un hombre fuera de diálisis durante nueve meses en el primer",
+    "title_es": "Pig kidney kept a man off dialysis for nine months in world first",
     "url": "https://www.newscientist.com/article/2587510-pig-kidney-kept-a-man-off-dialysis-for-nine-months-in-world-first/",
     "source": "New Scientist",
     "published": "2026-09-03T22:30:00.000Z",
@@ -60451,7 +60577,7 @@
     ]
   },
   {
-    "title": "Non-ablative dermal remodeling lasers in acquired dermal macular hyperpigmentation: A scoping review",
+    "title": "Determinants of women’s employee engagement in the Bangladeshi workforce",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -123270,6 +123396,20 @@
       "sh2-188",
       "shrimp",
       "nebula"
+    ]
+  },
+  {
+    "title": "Zeeman quantum geometry as a probe of unconventional magnetism, by Neelanjan Chakraborti, Sudeep Kumar Ghosh, Snehasish Nandy",
+    "title_es": "Zeeman quantum geometry as a probe of unconventional magnetism, by Neelanjan Chakraborti, Sudeep Kumar Ghosh, Snehasish Nandy",
+    "url": "http://scipost.org/scipostphys.21.3.080",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "zeeman",
+      "quantum",
+      "geometry"
     ]
   }
 ]
