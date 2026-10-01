@@ -1,5 +1,117 @@
 [
   {
+    "title": "A lack of rockets is creating a crisis for space technology companies",
+    "title_es": "La falta de cohetes está creando una crisis para las empresas de tecnología espacial",
+    "url": "https://www.newscientist.com/article/2591502-a-lack-of-rockets-is-creating-a-crisis-for-space-technology-companies/",
+    "source": "New Scientist",
+    "published": "2026-10-01T11:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "lack",
+      "rockets",
+      "creating"
+    ]
+  },
+  {
+    "title": "Large Language Models are Approximate Survival Estimators",
+    "title_es": "Los modelos de lenguaje grandes son estimadores aproximados de supervivencia",
+    "url": "https://arxiv.org/abs/2609.38181",
+    "source": "arXiv",
+    "published": "2026-10-01T04:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "large",
+      "language",
+      "models"
+    ]
+  },
+  {
+    "title": "New Feathered Dinosaur Suggests Flight Evolved More Than Once among Birds’ Closest Relatives",
+    "title_es": "Un nuevo dinosaurio emplumado sugiere que el vuelo evolucionó más de una vez entre los parientes más cercanos de las aves",
+    "url": "https://www.sci.news/paleontology/norellraptor-barsboldi-15101.html",
+    "source": "Sci.News",
+    "published": "2026-10-01T00:22:28.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "feathered",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
+    "title_es": "La ‘enfermedad perdida’ que afecta a 190 millones: el medicamento para la endometriosis muestra una promesa temprana",
+    "url": "https://www.nature.com/articles/d41586-026-03042-x",
+    "source": "Nature",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "missed",
+      "disease",
+      "that"
+    ]
+  },
+  {
+    "title": "The second Competitive Call for Unique Infrastructures of the Distributed Biomedical Imaging Network (ReDIB) for 2026 is now open",
+    "title_es": "Ya está abierta la segunda convocatoria competitiva de infraestructuras únicas de la Red de Imágenes Biomédicas Distribuidas (ReDIB) para 2026",
+    "url": "https://www.cnic.es/es/node/244557",
+    "source": "CNIC",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "second",
+      "competitive",
+      "call"
+    ]
+  },
+  {
+    "title": "El IAC presenta en Italia el telescopio SELF, un prototipo para avanzar en la búsqueda de vida en exoplanetas",
+    "title_es": "El IAC presenta en Italia el telescopio SELF, un prototipo para avanzar en la búsqueda de vida en exoplanetas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-presenta-en-italia-el-telescopio-self-un-prototipo-para-avanzar-en-la-busqueda-de-vida-en",
+    "source": "IAC",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "presenta",
+      "italia"
+    ]
+  },
+  {
+    "title": "Farting fish and tooting manatees — how some animals use gas",
+    "title_es": "Peces que se tiran pedos y manatíes que tocan: cómo algunos animales usan el gas",
+    "url": "https://www.snexplores.org/article/animal-farting-fish-manatee-gas",
+    "source": "Science News Explores",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "farting",
+      "fish",
+      "tooting"
+    ]
+  },
+  {
+    "title": "The hidden pressure behind responding to a boss's good news",
+    "title_es": "La presión oculta detrás de responder a las buenas noticias de un jefe",
+    "url": "https://phys.org/news/2026-10-hidden-pressure-boss-good-news.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "hidden",
+      "pressure",
+      "behind"
+    ]
+  },
+  {
     "title": "The best new science-fiction books of October 2026",
     "title_es": "Los mejores nuevos libros de ciencia ficción de octubre de 2026",
     "url": "https://www.newscientist.com/article/2591308-the-best-new-science-fiction-books-of-october-2026/",
@@ -95,6 +207,48 @@
       "wild",
       "crabapples",
       "have"
+    ]
+  },
+  {
+    "title": "Semifactual Credit-Augmented Policy Optimization",
+    "title_es": "Optimización de la Política de Crédito Aumentado Semifactual",
+    "url": "http://arxiv.org/abs/2609.40360v1",
+    "source": "arXiv",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "semifactual",
+      "credit-augmented",
+      "policy"
+    ]
+  },
+  {
+    "title": "A new map points out U.S. rivers most worth protecting",
+    "title_es": "Un nuevo mapa señala los ríos de EE. UU. que más vale la pena proteger",
+    "url": "https://www.sciencenews.org/article/new-map-rivers-conservation-protection",
+    "source": "Science News",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "map",
+      "points"
+    ]
+  },
+  {
+    "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
+    "title_es": "Mira en vivo: La tripulación 13 de la NASA podría hacer el viaje más rápido de Estados Unidos a la ISS",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-09-30T00:00:00.000Z",
+    "date": "2026-09-30",
+    "category": "noticia",
+    "tags": [
+      "watch",
+      "live",
+      "nasas"
     ]
   },
   {
@@ -2968,7 +3122,7 @@
   },
   {
     "title": "Laughter therapy may help people with chronic lung disease",
-    "title_es": "La risoterapia puede ayudar a las personas con enfermedad pulmonar crónica",
+    "title_es": "Laughter therapy may help people with chronic lung disease",
     "url": "https://www.newscientist.com/article/2587748-laughter-therapy-may-help-people-with-chronic-lung-disease/",
     "source": "New Scientist",
     "published": "2026-09-07T04:01:00.000Z",
@@ -2982,7 +3136,7 @@
   },
   {
     "title": "Embodied Multimedia: A Tutorial",
-    "title_es": "Multimedia incorporada: un tutorial",
+    "title_es": "Embodied Multimedia: A Tutorial",
     "url": "https://arxiv.org/abs/2609.04204",
     "source": "arXiv",
     "published": "2026-09-07T04:00:00.000Z",
@@ -3052,7 +3206,7 @@
   },
   {
     "title": "BepiColombo Begins Final Approach to Mercury",
-    "title_es": "BepiColombo comienza el acercamiento final a Mercurio",
+    "title_es": "BepiColombo Begins Final Approach to Mercury",
     "url": "https://www.sci.news/space/bepicolombo-mercury-arrival-15044.html",
     "source": "Sci.News",
     "published": "2026-09-06T22:52:03.000Z",
@@ -3066,7 +3220,7 @@
   },
   {
     "title": "A mysterious signal around Earth could be dark matter",
-    "title_es": "Una señal misteriosa alrededor de la Tierra podría ser materia oscura",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/09/260904000328.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-06T00:00:00.000Z",
@@ -3080,7 +3234,7 @@
   },
   {
     "title": "Germany's Isar Aerospace launches rocket into orbit from Norway",
-    "title_es": "La alemana Isar Aerospace pone en órbita un cohete desde Noruega",
+    "title_es": "",
     "url": "https://phys.org/news/2026-09-germany-isar-aerospace-rocket-orbit.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-06T00:00:00.000Z",
@@ -3108,7 +3262,7 @@
   },
   {
     "title": "Fermat’s last theorem formalised by AI agents in just 11 days",
-    "title_es": "Último teorema de Fermat formalizado por agentes de IA en tan solo 11 días",
+    "title_es": "Fermat’s last theorem formalised by AI agents in just 11 days",
     "url": "https://www.newscientist.com/article/2587839-fermats-last-theorem-formalised-by-ai-agents-in-just-11-days/",
     "source": "New Scientist",
     "published": "2026-09-05T11:05:48.000Z",
@@ -3122,7 +3276,7 @@
   },
   {
     "title": "Life uses 4 DNA letters. Scientists just made 8 work",
-    "title_es": "La vida usa 4 letras de ADN. Los científicos acaban de hacer que 8 funcionen",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-05T00:00:00.000Z",
@@ -3136,7 +3290,7 @@
   },
   {
     "title": "AI could undermine managers' judgment unless used carefully, study warns",
-    "title_es": "La IA podría socavar el juicio de los gerentes a menos que se use con cuidado, advierte un estudio",
+    "title_es": "",
     "url": "https://phys.org/news/2026-09-ai-undermine-judgment.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-05T00:00:00.000Z",
@@ -3150,7 +3304,7 @@
   },
   {
     "title": "APOD: 2026 September 5 – Chasing the Moon’s Shadow",
-    "title_es": "APOD: 2026 5 de septiembre – Persiguiendo la sombra de la luna",
+    "title_es": "",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow/",
     "source": "NASA (Top News)",
     "published": "2026-09-05T00:00:00.000Z",
@@ -3164,7 +3318,7 @@
   },
   {
     "title": "Ancient DNA Rewrites Story of Enigmatic ‘American Cheetah’",
-    "title_es": "El ADN antiguo reescribe la historia del enigmático ‘guepardo americano’",
+    "title_es": "Ancient DNA Rewrites Story of Enigmatic ‘American Cheetah’",
     "url": "https://www.sci.news/paleontology/miracinonyx-trumani-15043.html",
     "source": "Sci.News",
     "published": "2026-09-04T21:51:52.000Z",
@@ -3178,7 +3332,7 @@
   },
   {
     "title": "How worried should we be about the invasive mosquitoes in the UK?",
-    "title_es": "¿Qué tan preocupados deberíamos estar por los mosquitos invasores en el Reino Unido?",
+    "title_es": "How worried should we be about the invasive mosquitoes in the UK?",
     "url": "https://www.newscientist.com/article/2587789-how-worried-should-we-be-about-the-invasive-mosquitoes-in-the-uk/",
     "source": "New Scientist",
     "published": "2026-09-04T16:24:46.000Z",
@@ -60577,7 +60731,7 @@
     ]
   },
   {
-    "title": "Determinants of women’s employee engagement in the Bangladeshi workforce",
+    "title": "Knowledge coordination in a semi-closed IM network under time-critical conditions: Making distributed expertise actionable",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -123410,6 +123564,33 @@
       "zeeman",
       "quantum",
       "geometry"
+    ]
+  },
+  {
+    "title": "Evaporating universes, by Divij Gupta",
+    "title_es": "Evaporating universes, by Divij Gupta",
+    "url": "http://scipost.org/scipostphys.21.4.081",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "evaporating",
+      "universes",
+      "divij"
+    ]
+  },
+  {
+    "title": "NASA Science",
+    "title_es": "NASA Science",
+    "url": "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png",
+    "source": "NASA APOD",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "science"
     ]
   }
 ]
