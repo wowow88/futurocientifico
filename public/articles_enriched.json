@@ -1,5 +1,131 @@
 [
   {
+    "title": "Brain area discovered that may be critical for viable pregnancies",
+    "title_es": "Área del cerebro descubierta que puede ser crítica para embarazos viables",
+    "url": "https://www.newscientist.com/article/2591599-brain-area-discovered-that-may-be-critical-for-viable-pregnancies/",
+    "source": "New Scientist",
+    "published": "2026-10-02T10:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "brain",
+      "area",
+      "discovered"
+    ]
+  },
+  {
+    "title": "Podcast: Is ADHD Actually a Disorder?",
+    "title_es": "Podcast: ¿El TDAH es realmente un trastorno?",
+    "url": "https://undark.org/2026/10/02/podcast-adhd-disorder/",
+    "source": "Undark Magazine",
+    "published": "2026-10-02T07:05:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "podcast",
+      "adhd",
+      "actually"
+    ]
+  },
+  {
+    "title": "PEDAL: Open Infrastructure for Citable AI Prompts in STEM Education and Research",
+    "title_es": "PEDAL: Infraestructura abierta para indicaciones de IA citable en educación e investigación STEM",
+    "url": "https://arxiv.org/abs/2610.00001",
+    "source": "arXiv",
+    "published": "2026-10-02T04:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "pedal",
+      "open",
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Stunning fossil shows dinosaurs' distinctive path to flight",
+    "title_es": "Impresionante fósil muestra el camino distintivo de los dinosaurios hacia el vuelo",
+    "url": "https://www.nature.com/articles/d41586-026-03126-8",
+    "source": "Nature",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "stunning",
+      "fossil",
+      "shows"
+    ]
+  },
+  {
+    "title": "El proyecto NATE continúa con jornadas divulgativas en centros escolares de Marruecos y de trabajo en el Instituto Cervantes de Rabat",
+    "title_es": "El proyecto NATE continúa con jornadas divulgativas en centros escolares de Marruecos y de trabajo en el Instituto Cervantes de Rabat",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-proyecto-nate-continua-con-jornadas-divulgativas-en-centros-escolares-de-marruecos-y-de-trabajo-en",
+    "source": "IAC",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "proyecto",
+      "nate",
+      "continúa"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
+    "title_es": "APOD: 2026 2 de octubre – El catálogo completo de Sharpless: 313 nebulosas",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Among naked mole-rats, a royal’s scent keeps the peace",
+    "title_es": "Entre ratas topo desnudas, el aroma de una realeza mantiene la paz",
+    "url": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
+    "source": "Science News Explores",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "among",
+      "naked",
+      "mole-rats"
+    ]
+  },
+  {
+    "title": "Q&A: How can marketers use AI effectively—without losing human judgment?",
+    "title_es": "Preguntas y respuestas: ¿Cómo pueden los especialistas en marketing usar la IA de manera efectiva, sin perder el juicio humano?",
+    "url": "https://phys.org/news/2026-10-qa-ai-effectively-human-judgment.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "can",
+      "marketers"
+    ]
+  },
+  {
+    "title": "Dinosaur-Era Mammal Swam Like Platypus and Replaced Its Teeth Multiple Times",
+    "title_es": "Un mamífero de la era de los dinosaurios nadó como el ornitorrinco y reemplazó sus dientes varias veces",
+    "url": "https://www.sci.news/paleontology/dongoconodon-platycauda-15104.html",
+    "source": "Sci.News",
+    "published": "2026-10-01T22:28:50.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "dinosaur-era",
+      "mammal",
+      "swam"
+    ]
+  },
+  {
     "title": "A lack of rockets is creating a crisis for space technology companies",
     "title_es": "La falta de cohetes está creando una crisis para las empresas de tecnología espacial",
     "url": "https://www.newscientist.com/article/2591502-a-lack-of-rockets-is-creating-a-crisis-for-space-technology-companies/",
@@ -109,6 +235,62 @@
       "hidden",
       "pressure",
       "behind"
+    ]
+  },
+  {
+    "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+    "title_es": "Una base para animarlos a todos: destilación gaussiana en forma de mezcla para avatares en tiempo real",
+    "url": "http://arxiv.org/abs/2610.02207v1",
+    "source": "arXiv",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "one",
+      "basis",
+      "animate"
+    ]
+  },
+  {
+    "title": "A medical mystery unfolds in middle America",
+    "title_es": "Un misterio médico se desarrolla en el centro de Estados Unidos",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ael1175",
+    "source": "Science.org",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "medical",
+      "mystery",
+      "unfolds"
+    ]
+  },
+  {
+    "title": "Here’s how brain-eating amoebas may infect people",
+    "title_es": "Así es como las amebas devoradoras de cerebros pueden infectar a las personas",
+    "url": "https://www.sciencenews.org/article/brain-eating-amoebas-naegleria-fowleri",
+    "source": "Science News",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "heres",
+      "how",
+      "brain-eating"
+    ]
+  },
+  {
+    "title": "This diet may slow brain aging by 2.5 years",
+    "title_es": "Esta dieta puede retrasar el envejecimiento cerebral en 2,5 años",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "diet",
+      "may"
     ]
   },
   {
@@ -2744,7 +2926,7 @@
   },
   {
     "title": "Distant sensors announced a fearsome tsunami’s birth",
-    "title_es": "Sensores distantes anunciaron el nacimiento de un temible tsunami",
+    "title_es": "Distant sensors announced a fearsome tsunami’s birth",
     "url": "https://www.nature.com/articles/d41586-026-02809-6",
     "source": "Nature",
     "published": "2026-09-10T00:00:00.000Z",
@@ -2786,7 +2968,7 @@
   },
   {
     "title": "Author Correction: The molecular basis of force selectivity by PIEZO2",
-    "title_es": "Corrección del autor: La base molecular de la selectividad de la fuerza por PIEZO2",
+    "title_es": "",
     "url": "https://www.nature.com/articles/s41586-026-11079-1",
     "source": "Nature",
     "published": "2026-09-10T00:00:00.000Z",
@@ -2800,7 +2982,7 @@
   },
   {
     "title": "Circulation: A study led by Spanish scientists identifies dilated cardiomyopathy patients at greater risk of sudden death and arrhythmias[",
-    "title_es": "Circulación: Un estudio liderado por científicos españoles identifica a los pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias[",
+    "title_es": "Circulation: A study led by Spanish scientists identifies dilated cardiomyopathy patients at greater risk of sudden death and arrhythmias[",
     "url": "https://www.cnic.es/es/node/244220",
     "source": "CNIC",
     "published": "2026-09-10T00:00:00.000Z",
@@ -2814,7 +2996,7 @@
   },
   {
     "title": "Climate change is shifting malaria hot spots in Africa",
-    "title_es": "El cambio climático está cambiando los puntos críticos de la malaria en África",
+    "title_es": "",
     "url": "https://www.sciencenews.org/article/climate-change-shifting-malaria-africa",
     "source": "Science News",
     "published": "2026-09-10T00:00:00.000Z",
@@ -2828,7 +3010,7 @@
   },
   {
     "title": "Spying on the secret lives of boobies",
-    "title_es": "Espiar la vida secreta de los piqueros",
+    "title_es": "",
     "url": "https://www.snexplores.org/article/tagging-red-footed-boobies-seabird-lives",
     "source": "Science News Explores",
     "published": "2026-09-10T00:00:00.000Z",
@@ -2842,7 +3024,7 @@
   },
   {
     "title": "Paleontologists Discover First-Ever Adult Tyrannosaurus rex Trackway",
-    "title_es": "Paleontólogos descubren el primer sendero de tiranosaurio rex adulto",
+    "title_es": "Paleontologists Discover First-Ever Adult Tyrannosaurus rex Trackway",
     "url": "https://www.sci.news/paleontology/adult-tyrannosaurus-rex-trackway-15056.html",
     "source": "Sci.News",
     "published": "2026-09-09T23:04:19.000Z",
@@ -2926,7 +3108,7 @@
   },
   {
     "title": "Scientists find a bone-building switch that could fight osteoporosis",
-    "title_es": "Los científicos encuentran un interruptor de construcción ósea que podría combatir la osteoporosis",
+    "title_es": "",
     "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-09T00:00:00.000Z",
@@ -2940,7 +3122,7 @@
   },
   {
     "title": "Paracetamol use in early pregnancy linked to smaller ovaries and testes",
-    "title_es": "Uso de paracetamol en el embarazo temprano relacionado con ovarios y testículos más pequeños",
+    "title_es": "Paracetamol use in early pregnancy linked to smaller ovaries and testes",
     "url": "https://www.newscientist.com/article/2588178-common-painkiller-use-in-early-pregnancy-linked-to-smaller-ovaries-and-testes/",
     "source": "New Scientist",
     "published": "2026-09-08T23:05:00.000Z",
@@ -2954,7 +3136,7 @@
   },
   {
     "title": "New Owl Species Discovered in Peru",
-    "title_es": "Descubren una nueva especie de búho en Perú",
+    "title_es": "New Owl Species Discovered in Peru",
     "url": "https://www.sci.news/biology/bubo-jalca-15051.html",
     "source": "Sci.News",
     "published": "2026-09-08T22:59:26.000Z",
@@ -2968,7 +3150,7 @@
   },
   {
     "title": "As Star Trek turns 60, it’s not too late to discover the seminal series",
-    "title_es": "A medida que Star Trek cumple 60 años, no es demasiado tarde para descubrir la serie seminal",
+    "title_es": "As Star Trek turns 60, it’s not too late to discover the seminal series",
     "url": "https://www.newscientist.com/article/2587667-as-star-trek-turns-60-its-not-too-late-to-discover-the-seminal-series/",
     "source": "New Scientist",
     "published": "2026-09-08T09:30:00.000Z",
@@ -3038,7 +3220,7 @@
   },
   {
     "title": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
-    "title_es": "Circulación: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
+    "title_es": "Circulation: Un estudio liderado por el Dr. Pablo García Pavía permite identificar pacientes con miocardiopatía dilatada con mayor riesgo de muerte súbita y arritmias",
     "url": "https://www.cnic.es/es/noticias/circulation-un-estudio-liderado-por-dr-pablo-garcia-pavia-permite-identificar-pacientes-con",
     "source": "CNIC",
     "published": "2026-09-08T00:00:00.000Z",
@@ -3108,7 +3290,7 @@
   },
   {
     "title": "115-Million-Year-Old Dinosaur Fossil Recovered from Deep Drill Core in China",
-    "title_es": "Fósil de dinosaurio de 115 millones de años recuperado de un núcleo de perforación profunda en China",
+    "title_es": "115-Million-Year-Old Dinosaur Fossil Recovered from Deep Drill Core in China",
     "url": "https://www.sci.news/paleontology/cretaceous-dinosaur-fossil-deep-drill-core-china-15048.html",
     "source": "Sci.News",
     "published": "2026-09-07T23:23:02.000Z",
@@ -60731,7 +60913,7 @@
     ]
   },
   {
-    "title": "Knowledge coordination in a semi-closed IM network under time-critical conditions: Making distributed expertise actionable",
+    "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -123591,6 +123773,20 @@
     "tags": [
       "nasa",
       "science"
+    ]
+  },
+  {
+    "title": "Quantum kinetic theory for quantum chromodynamics, by Shu Lin",
+    "title_es": "Quantum kinetic theory for quantum chromodynamics, by Shu Lin",
+    "url": "http://scipost.org/scipostphys.21.4.082",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "quantum",
+      "kinetic",
+      "theory"
     ]
   }
 ]
