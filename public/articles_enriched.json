@@ -1,5 +1,61 @@
 [
   {
+    "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+    "title_es": "APOD: 2026 3 de octubre – Selfie en Vera Rubin Ridge",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-03T00:00:00.000Z",
+    "date": "2026-10-03",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Sea levels to rise in California as a coastal wave surges up the West Coast",
+    "title_es": "El nivel del mar aumentará en California a medida que una ola costera sube por la costa oeste",
+    "url": "https://phys.org/news/2026-10-sea-california-coastal-surges-west.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-03T00:00:00.000Z",
+    "date": "2026-10-03",
+    "category": "noticia",
+    "tags": [
+      "sea",
+      "levels",
+      "rise"
+    ]
+  },
+  {
+    "title": "First Animals May Have Appeared 200 Million Years Earlier than Their Oldest Fossils Suggest",
+    "title_es": "Los primeros animales pueden haber aparecido 200 millones de años antes de lo que sugieren sus fósiles más antiguos",
+    "url": "https://www.sci.news/paleontology/first-animals-15106.html",
+    "source": "Sci.News",
+    "published": "2026-10-02T22:15:56.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "animals",
+      "may"
+    ]
+  },
+  {
+    "title": "Fossil mammal with reptile-like teeth changes picture of our evolution",
+    "title_es": "Un mamífero fósil con dientes de reptil cambia el panorama de nuestra evolución",
+    "url": "https://www.newscientist.com/article/2591803-fossil-mammal-with-reptile-like-teeth-changes-picture-of-our-evolution/",
+    "source": "New Scientist",
+    "published": "2026-10-02T16:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "fossil",
+      "mammal",
+      "reptile-like"
+    ]
+  },
+  {
     "title": "Brain area discovered that may be critical for viable pregnancies",
     "title_es": "Área del cerebro descubierta que puede ser crítica para embarazos viables",
     "url": "https://www.newscientist.com/article/2591599-brain-area-discovered-that-may-be-critical-for-viable-pregnancies/",
@@ -109,6 +165,62 @@
       "how",
       "can",
       "marketers"
+    ]
+  },
+  {
+    "title": "Location, location, location: how to edit genes only in the cells you want",
+    "title_es": "Ubicación, ubicación, ubicación: cómo editar genes solo en las células que desea",
+    "url": "https://www.nature.com/articles/d41586-026-03037-8",
+    "source": "Nature",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "location",
+      "location",
+      "location"
+    ]
+  },
+  {
+    "title": "`Beca Leonardo´ a Marcos Díaz-Gay para investigar cómo el cáncer de colón en jóvenes escapa a las defensas del organismo",
+    "title_es": "`Beca Leonardo´ a Marcos Díaz-Gay para investigar cómo el cáncer de colón en jóvenes escapa a las defensas del organismo",
+    "url": "https://www.cnio.es/noticias/beca-leonardo-a-marcos-diaz-gay-para-investigar-como-el-cancer-de-colon-en-jovenes-escapa-a-las-defensas-del-organismo/",
+    "source": "CNIO",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "beca",
+      "leonardo",
+      "marcos"
+    ]
+  },
+  {
+    "title": "El Telescopio Solar Europeo (EST) recibe el estatus landmark de ESFRI",
+    "title_es": "El Telescopio Solar Europeo (EST) recibe el estatus de hito de ESFRI",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-telescopio-solar-europeo-est-recibe-el-estatus-landmark-de-esfri",
+    "source": "IAC",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "telescopio",
+      "solar",
+      "europeo"
+    ]
+  },
+  {
+    "title": "Young Yosemite toads survive winter, then emerge with a deadly fungus",
+    "title_es": "Los jóvenes sapos de Yosemite sobreviven al invierno y luego emergen con un hongo mortal",
+    "url": "https://www.sciencenews.org/article/yosemite-toads-fungus-chytrid-winter",
+    "source": "Science News",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "young",
+      "yosemite",
+      "toads"
     ]
   },
   {
@@ -2730,7 +2842,7 @@
   },
   {
     "title": "Indonesia seeks to bring back baby orangutans allegedly trafficked to India",
-    "title_es": "Indonesia busca traer de vuelta a los bebés orangutanes presuntamente traficados a la India",
+    "title_es": "",
     "url": "https://phys.org/news/2026-09-indonesia-baby-orangutans-allegedly-trafficked.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-11T00:00:00.000Z",
@@ -2758,7 +2870,7 @@
   },
   {
     "title": "Nature Medicine: Study establishes the role of new treatments for transthyretin amyloid cardiomyopathy",
-    "title_es": "Nature Medicine: Estudio establece el papel de los nuevos tratamientos para la miocardiopatía amiloide por transtiretina",
+    "title_es": "Nature Medicine: Study establishes the role of new treatments for transthyretin amyloid cardiomyopathy",
     "url": "https://www.cnic.es/es/node/244228",
     "source": "CNIC",
     "published": "2026-09-11T00:00:00.000Z",
@@ -2772,7 +2884,7 @@
   },
   {
     "title": "Relaciones de temperatura electrónica con DESIRED en regiones de formación estelar del Universo local",
-    "title_es": "Relaciones de temperatura electrónica con las regiones DESEADAS de formación estelar del Universo local",
+    "title_es": "Relaciones de temperatura electrónica con DESIRED en regiones de formación estelar del Universo local",
     "url": "https://www.iac.es/es/divulgacion/noticias/relaciones-de-temperatura-electronica-con-desired-en-regiones-de-formacion-estelar-del-universo-local",
     "source": "IAC",
     "published": "2026-09-11T00:00:00.000Z",
@@ -2828,7 +2940,7 @@
   },
   {
     "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
-    "title_es": "Repensar la desagregación del sistema heterogéneo para la atención subcuadrática",
+    "title_es": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
     "url": "http://arxiv.org/abs/2609.13134v1",
     "source": "arXiv",
     "published": "2026-09-11T00:00:00.000Z",
@@ -2842,7 +2954,7 @@
   },
   {
     "title": "Exceptionally Preserved Bird Feathers Found in 66-Million-Year-Old Dinosaur Coprolite",
-    "title_es": "Se encuentran plumas de pájaro excepcionalmente conservadas en el coprolito de dinosaurio de 66 millones de años",
+    "title_es": "Exceptionally Preserved Bird Feathers Found in 66-Million-Year-Old Dinosaur Coprolite",
     "url": "https://www.sci.news/paleontology/hesperornithiform-bird-feathers-dinosaur-coprolite-15058.html",
     "source": "Sci.News",
     "published": "2026-09-10T22:08:07.000Z",
@@ -2856,7 +2968,7 @@
   },
   {
     "title": "Cracking the ageing code",
-    "title_es": "Descifrar el código de envejecimiento",
+    "title_es": "Cracking the ageing code",
     "url": "https://www.newscientist.com/article/2587740-cracking-the-ageing-code/",
     "source": "New Scientist",
     "published": "2026-09-10T08:13:33.000Z",
@@ -2870,7 +2982,7 @@
   },
   {
     "title": "Spectral origin of the topological gap exponent d + {\\eta}: mechanism, kernel, decomposition, and scope",
-    "title_es": "Origen espectral del exponente del gap topológico d + {\\eta}: mecanismo, núcleo, descomposición y alcance",
+    "title_es": "Spectral origin of the topological gap exponent d + {\\eta}: mechanism, kernel, decomposition, and scope",
     "url": "https://arxiv.org/abs/2609.09159",
     "source": "arXiv",
     "published": "2026-09-10T04:00:00.000Z",
@@ -60913,7 +61025,7 @@
     ]
   },
   {
-    "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study",
+    "title": "A new approach of a path-tracking system of a differential drive robot for an arbitrary set of waypoints using sliding mode control",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -123787,6 +123899,20 @@
       "quantum",
       "kinetic",
       "theory"
+    ]
+  },
+  {
+    "title": "“Relief empire”: Racial aphasia, colonial unknowing and international organizations in the global governance of refugees, by Megan Bradley",
+    "title_es": "“Relief empire”: Racial aphasia, colonial unknowing and international organizations in the global governance of refugees, by Megan Bradley",
+    "url": "http://scipost.org/migpol.5.1.001",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "relief",
+      "empire",
+      "racial"
     ]
   }
 ]
