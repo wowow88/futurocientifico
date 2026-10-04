@@ -1,5 +1,33 @@
 [
   {
+    "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
+    "title_es": "APOD: 2026 4 de octubre – Arco iris supernumerario sobre Nueva Jersey",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-04T00:00:00.000Z",
+    "date": "2026-10-04",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Cry for help as French-Swiss lake dries up",
+    "title_es": "Llora pidiendo ayuda mientras el lago franco-suizo se seca",
+    "url": "https://phys.org/news/2026-10-cry-french-swiss-lake-dries.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-04T00:00:00.000Z",
+    "date": "2026-10-04",
+    "category": "noticia",
+    "tags": [
+      "cry",
+      "help",
+      "french-swiss"
+    ]
+  },
+  {
     "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
     "title_es": "APOD: 2026 3 de octubre – Selfie en Vera Rubin Ridge",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
@@ -25,6 +53,20 @@
       "sea",
       "levels",
       "rise"
+    ]
+  },
+  {
+    "title": "This protective enzyme could help stop fatty liver disease from getting worse",
+    "title_es": "Esta enzima protectora podría ayudar a evitar que la enfermedad del hígado graso empeore",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-03T00:00:00.000Z",
+    "date": "2026-10-03",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "protective",
+      "enzyme"
     ]
   },
   {
@@ -2786,7 +2828,7 @@
   },
   {
     "title": "How to build powerful microhabits for your wellbeing – and keep them",
-    "title_es": "Cómo crear microhábitos potentes para tu bienestar y mantenerlos",
+    "title_es": "How to build powerful microhabits for your wellbeing – and keep them",
     "url": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/",
     "source": "New Scientist",
     "published": "2026-09-11T08:00:00.000Z",
@@ -2800,7 +2842,7 @@
   },
   {
     "title": "Review: A Vision of a Future Where Machines Fight Wars",
-    "title_es": "Revisión: Una visión de un futuro donde las máquinas luchan contra las guerras",
+    "title_es": "Review: A Vision of a Future Where Machines Fight Wars",
     "url": "https://undark.org/2026/09/11/book-review-lethal-autonomy/",
     "source": "Undark Magazine",
     "published": "2026-09-11T07:36:32.000Z",
@@ -2814,7 +2856,7 @@
   },
   {
     "title": "The Internet of Collaborating Things: Agentic Edge AI for Autonomous Cross-Domain Collaboration",
-    "title_es": "Internet de las cosas colaborativas: inteligencia artificial de vanguardia para la colaboración autónoma entre dominios",
+    "title_es": "The Internet of Collaborating Things: Agentic Edge AI for Autonomous Cross-Domain Collaboration",
     "url": "https://arxiv.org/abs/2609.10542",
     "source": "arXiv",
     "published": "2026-09-11T04:00:00.000Z",
