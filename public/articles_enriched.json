@@ -1,5 +1,117 @@
 [
   {
+    "title": "Compressing bones releases molecules that ease traumatic brain injuries",
+    "title_es": "La compresión de los huesos libera moléculas que alivian las lesiones cerebrales traumáticas",
+    "url": "https://www.newscientist.com/article/2591964-compressing-bones-releases-molecules-that-ease-traumatic-brain-injuries/",
+    "source": "New Scientist",
+    "published": "2026-10-05T11:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "compressing",
+      "bones",
+      "releases"
+    ]
+  },
+  {
+    "title": "datascribe_api: Enabling Data-Driven Materials Discovery with DataScribe",
+    "title_es": "datascribe_api: Habilitar el descubrimiento de materiales basados en datos con DataScribe",
+    "url": "https://arxiv.org/abs/2610.02211",
+    "source": "arXiv",
+    "published": "2026-10-05T04:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "datascribeapi",
+      "enabling",
+      "data-driven"
+    ]
+  },
+  {
+    "title": "Medicine Nobel awarded for brain ‘switch’ that controls neurons with light: live updates",
+    "title_es": "Premio Nobel de Medicina por el ‘interruptor’ cerebral que controla las neuronas con luz: actualizaciones en directo",
+    "url": "https://www.nature.com/articles/d41586-026-03091-2",
+    "source": "Nature",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "medicine",
+      "nobel",
+      "awarded"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 5 – M104: The Sombrero Galaxy’s Tidal Streams",
+    "title_es": "APOD: 2026 5 de octubre – M104: Las corrientes de marea de la Galaxia del Sombrero",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "2026’s El Niño is record-breaking — and it’s not done yet",
+    "title_es": "El Niño de 2026 está batiendo récords, y aún no se ha terminado",
+    "url": "https://www.snexplores.org/article/record-breaking-2026-el-nino",
+    "source": "Science News Explores",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "2026s",
+      "niño",
+      "record-breaking"
+    ]
+  },
+  {
+    "title": "The “glue” holding your cells together has a surprising second job",
+    "title_es": "El \"pegamento\" que mantiene tus células juntas tiene un segundo trabajo sorprendente",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261002080023.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "glue",
+      "holding",
+      "your"
+    ]
+  },
+  {
+    "title": "Scientists uncover recurrent patterns within chaotic quantum behavior",
+    "title_es": "Los científicos descubren patrones recurrentes dentro del comportamiento cuántico caótico",
+    "url": "https://phys.org/news/2026-09-scientists-uncover-recurrent-patterns-chaotic.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "uncover",
+      "recurrent"
+    ]
+  },
+  {
+    "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
+    "title_es": "Los científicos encuentran una pista sorprendente de por qué la expansión del universo no cuadra",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-04T12:05:54.000Z",
+    "date": "2026-10-04",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "find",
+      "surprising"
+    ]
+  },
+  {
     "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
     "title_es": "APOD: 2026 4 de octubre – Arco iris supernumerario sobre Nueva Jersey",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
@@ -263,6 +375,34 @@
       "young",
       "yosemite",
       "toads"
+    ]
+  },
+  {
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "title_es": "Menos decodificador es más codificador: aprendizaje de representación geométrica a partir de la síntesis de vistas novedosas",
+    "url": "http://arxiv.org/abs/2610.03717v1",
+    "source": "arXiv",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "less",
+      "decoder",
+      "more"
+    ]
+  },
+  {
+    "title": "El Telescopio Solar Europeo recibe el estatus landmark de ESFRI",
+    "title_es": "El Telescopio Solar Europeo recibe el estatus de hito de ESFRI",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-telescopio-solar-europeo-recibe-el-estatus-landmark-de-esfri",
+    "source": "IAC",
+    "published": "2026-10-02T00:00:00.000Z",
+    "date": "2026-10-02",
+    "category": "noticia",
+    "tags": [
+      "telescopio",
+      "solar",
+      "europeo"
     ]
   },
   {
@@ -2660,7 +2800,7 @@
   },
   {
     "title": "Improved climate forecasts alone won't protect Africa's poorest farmers",
-    "title_es": "La mejora de las previsiones climáticas por sí sola no protegerá a los agricultores más pobres de África",
+    "title_es": "Improved climate forecasts alone won't protect Africa's poorest farmers",
     "url": "https://phys.org/news/2026-09-climate-wont-africa-poorest-farmers.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2674,7 +2814,7 @@
   },
   {
     "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
-    "title_es": "Planes corruptos, rastros limpios: evadir el monitoreo de la cadena de pensamiento con la inyección del plan",
+    "title_es": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
     "url": "http://arxiv.org/abs/2609.15989v1",
     "source": "arXiv",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2688,7 +2828,7 @@
   },
   {
     "title": "Feeling nervous? Work the system",
-    "title_es": "¿Te sientes nervioso? Trabaja el sistema",
+    "title_es": "Feeling nervous? Work the system",
     "url": "https://www.sciencenews.org/article/nervous-system-stress-hormone-cortisol",
     "source": "Science News",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2702,7 +2842,7 @@
   },
   {
     "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
-    "title_es": "APOD: 2026 13 de septiembre – El cometa NEOWISE se eleva sobre el mar Adriático",
+    "title_es": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
     "source": "NASA (Top News)",
     "published": "2026-09-13T00:00:00.000Z",
@@ -2716,7 +2856,7 @@
   },
   {
     "title": "Venus’s pale yellow clouds may hide something surprisingly dark",
-    "title_es": "Las nubes de color amarillo pálido de Venus pueden ocultar algo sorprendentemente oscuro",
+    "title_es": "Venus’s pale yellow clouds may hide something surprisingly dark",
     "url": "https://www.sciencedaily.com/releases/2026/09/260912220022.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-13T00:00:00.000Z",
@@ -2730,7 +2870,7 @@
   },
   {
     "title": "Ancient armored fish evolved two distinct ways to crush prey 385 million years ago",
-    "title_es": "Los antiguos peces acorazados evolucionaron de dos formas distintas para aplastar a sus presas hace 385 millones de años",
+    "title_es": "Ancient armored fish evolved two distinct ways to crush prey 385 million years ago",
     "url": "https://phys.org/news/2026-09-ancient-armored-fish-evolved-distinct.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-13T00:00:00.000Z",
@@ -2744,7 +2884,7 @@
   },
   {
     "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
-    "title_es": "La IA descubre los efectos secundarios ocultos de Ozempic en 400 000 publicaciones de Reddit",
+    "title_es": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
     "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-13T00:00:00.000Z",
@@ -2786,7 +2926,7 @@
   },
   {
     "title": "Ancient Alligator Relative Lived Right After Dinosaur-Killing Asteroid",
-    "title_es": "Un pariente de un antiguo cocodrilo vivió justo después del asteroide que mató a los dinosaurios",
+    "title_es": "Ancient Alligator Relative Lived Right After Dinosaur-Killing Asteroid",
     "url": "https://www.sci.news/paleontology/mandrasuchus-milleri-15060.html",
     "source": "Sci.News",
     "published": "2026-09-11T23:14:40.000Z",
@@ -2800,7 +2940,7 @@
   },
   {
     "title": "SpaceXAI data centre may have led to Mississippi air pollution spike",
-    "title_es": "El centro de datos de SpaceXAI puede haber provocado un aumento de la contaminación del aire en Mississippi",
+    "title_es": "SpaceXAI data centre may have led to Mississippi air pollution spike",
     "url": "https://www.newscientist.com/article/2588786-spacexai-data-centre-may-have-led-to-mississippi-air-pollution-spike/",
     "source": "New Scientist",
     "published": "2026-09-11T18:00:00.000Z",
@@ -2814,7 +2954,7 @@
   },
   {
     "title": "Wasps are disappearing this summer, and scientists are worried",
-    "title_es": "Las avispas están desapareciendo este verano, y los científicos están preocupados",
+    "title_es": "Wasps are disappearing this summer, and scientists are worried",
     "url": "https://www.sciencedaily.com/releases/2026/09/260911003901.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-11T11:38:35.000Z",
@@ -123955,6 +124095,20 @@
       "relief",
       "empire",
       "racial"
+    ]
+  },
+  {
+    "title": "BBP transition and the leading eigenvector of the spiked Wigner model with inhomogeneous noise, by Leonardo S. Ferreira, Fernando L. Metz",
+    "title_es": "BBP transition and the leading eigenvector of the spiked Wigner model with inhomogeneous noise, by Leonardo S. Ferreira, Fernando L. Metz",
+    "url": "http://scipost.org/scipostphyscore.9.4.064",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "bbp",
+      "transition",
+      "leading"
     ]
   }
 ]
