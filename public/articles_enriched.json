@@ -1,5 +1,103 @@
 [
   {
+    "title": "Nobel prize in physics awarded for discovery of high-energy neutrinos",
+    "title_es": "Premio Nobel de Física por el descubrimiento de neutrinos de alta energía",
+    "url": "https://www.newscientist.com/article/2592237-nobel-prize-in-physics-awarded-for-discovery-of-high-energy-neutrinos/",
+    "source": "New Scientist",
+    "published": "2026-10-06T10:26:02.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "nobel",
+      "prize",
+      "physics"
+    ]
+  },
+  {
+    "title": "Maintaining global science collaboration during conflict requires fairer rules",
+    "title_es": "Mantener la colaboración científica global durante los conflictos requiere reglas más justas",
+    "url": "https://www.nature.com/articles/d41586-026-03176-y",
+    "source": "Nature",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "maintaining",
+      "global",
+      "science"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
+    "title_es": "APOD: 2026 6 de octubre – Un óvalo auroral completo de SMILE",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Your voice is more than sound. It’s part of who you are",
+    "title_es": "Tu voz es más que sonido. Es parte de lo que eres",
+    "url": "https://www.sciencenews.org/article/deep-end-voice-more-sound-identity",
+    "source": "Science News",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "your",
+      "voice",
+      "more"
+    ]
+  },
+  {
+    "title": "Let’s learn about origami-inspired science",
+    "title_es": "Aprendamos sobre la ciencia inspirada en el origami",
+    "url": "https://www.snexplores.org/article/lets-learn-about-origami-inspired-science",
+    "source": "Science News Explores",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "lets",
+      "learn",
+      "about"
+    ]
+  },
+  {
+    "title": "As the planet warms, cities like Bangkok could be increasingly inundated by deadly floods",
+    "title_es": "A medida que el planeta se calienta, ciudades como Bangkok podrían verse cada vez más inundadas por inundaciones mortales",
+    "url": "https://phys.org/news/2026-10-planet-cities-bangkok-inundated-deadly.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "planet",
+      "warms",
+      "cities"
+    ]
+  },
+  {
+    "title": "New Species of Freshwater Mosasaur Identified in France",
+    "title_es": "Nueva especie de mosasaurio de agua dulce identificada en Francia",
+    "url": "https://www.sci.news/paleontology/garamaudo-bauciensis-15111.html",
+    "source": "Sci.News",
+    "published": "2026-10-05T23:55:53.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "freshwater"
+    ]
+  },
+  {
     "title": "Compressing bones releases molecules that ease traumatic brain injuries",
     "title_es": "La compresión de los huesos libera moléculas que alivian las lesiones cerebrales traumáticas",
     "url": "https://www.newscientist.com/article/2591964-compressing-bones-releases-molecules-that-ease-traumatic-brain-injuries/",
@@ -95,6 +193,48 @@
       "scientists",
       "uncover",
       "recurrent"
+    ]
+  },
+  {
+    "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+    "title_es": "Una figura, cada lienzo: retransmisión de diagrama de flujo editable a través de Agentic Pipeline",
+    "url": "http://arxiv.org/abs/2610.06852v1",
+    "source": "arXiv",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "one",
+      "figure",
+      "every"
+    ]
+  },
+  {
+    "title": "La Fundación Domingo Martínez impulsa la investigación del CNIO en cáncer de vejiga",
+    "title_es": "La Fundación Domingo Martínez impulsa la investigación del CNIO en cáncer de vejiga",
+    "url": "https://www.cnio.es/noticias/la-fundacion-domingo-martinez-impulsa-la-investigacion-del-cnio-en-cancer-de-vejiga/",
+    "source": "CNIO",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "fundación",
+      "domingo",
+      "martínez"
+    ]
+  },
+  {
+    "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
+    "title_es": "No te pierdas: observa el brillo de Saturno y los escombros del cometa Halley en el cielo",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-05T00:00:00.000Z",
+    "date": "2026-10-05",
+    "category": "noticia",
+    "tags": [
+      "dont",
+      "miss",
+      "watch"
     ]
   },
   {
@@ -2660,7 +2800,7 @@
   },
   {
     "title": "Meet Swiftiephylus, an Australian bug named after Taylor Swift",
-    "title_es": "Conoce a Swiftiephylus, un insecto australiano que lleva el nombre de Taylor Swift",
+    "title_es": "Meet Swiftiephylus, an Australian bug named after Taylor Swift",
     "url": "https://www.sciencenews.org/article/swiftiephylus-bug-named-taylor-swift",
     "source": "Science News",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2674,7 +2814,7 @@
   },
   {
     "title": "Finally! How to get a truly random number — and prove it",
-    "title_es": "¡Por fin! Cómo obtener un número verdaderamente aleatorio y demostrarlo",
+    "title_es": "Finally! How to get a truly random number — and prove it",
     "url": "https://www.snexplores.org/article/quantum-random-number-generator",
     "source": "Science News Explores",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2688,7 +2828,7 @@
   },
   {
     "title": "Smelling chocolate helped men complete more reps without feeling more tired",
-    "title_es": "El olor a chocolate ayudó a los hombres a completar más repeticiones sin sentirse más cansados",
+    "title_es": "Smelling chocolate helped men complete more reps without feeling more tired",
     "url": "https://www.sciencedaily.com/releases/2026/09/260914102445.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2702,7 +2842,7 @@
   },
   {
     "title": "Spanish Amber Deposit Offers Rare Window into Cretaceous Life",
-    "title_es": "El depósito español de ámbar ofrece una rara ventana a la vida del Cretácico",
+    "title_es": "Spanish Amber Deposit Offers Rare Window into Cretaceous Life",
     "url": "https://www.sci.news/paleontology/el-soplao-amber-15065.html",
     "source": "Sci.News",
     "published": "2026-09-14T22:33:00.000Z",
@@ -2716,7 +2856,7 @@
   },
   {
     "title": "The cosmic coincidences that made our universe – and us – possible",
-    "title_es": "Las coincidencias cósmicas que hicieron posible nuestro universo -y a nosotros-",
+    "title_es": "The cosmic coincidences that made our universe – and us – possible",
     "url": "https://www.newscientist.com/article/2588854-the-cosmic-coincidences-that-made-our-universe-and-us-possible/",
     "source": "New Scientist",
     "published": "2026-09-14T08:00:00.000Z",
@@ -2730,7 +2870,7 @@
   },
   {
     "title": "MaRDMO: FAIR Documentation of In-Silico Research",
-    "title_es": "MaRDMO: Documentación FAIR de Investigación In-Silico",
+    "title_es": "MaRDMO: FAIR Documentation of In-Silico Research",
     "url": "https://arxiv.org/abs/2609.11931",
     "source": "arXiv",
     "published": "2026-09-14T04:00:00.000Z",
@@ -2744,7 +2884,7 @@
   },
   {
     "title": "The pet trade puts reptiles and amphibians at risk: close legal gaps now",
-    "title_es": "El comercio de mascotas pone en riesgo a reptiles y anfibios: cierra las brechas legales ahora",
+    "title_es": "The pet trade puts reptiles and amphibians at risk: close legal gaps now",
     "url": "https://www.nature.com/articles/d41586-026-02852-3",
     "source": "Nature",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2758,7 +2898,7 @@
   },
   {
     "title": "JAHA: Two novel blood biomarkers predict subclinical atherosclerosis and cardiovascular events",
-    "title_es": "JAHA: Dos nuevos biomarcadores sanguíneos predicen la aterosclerosis subclínica y los eventos cardiovasculares",
+    "title_es": "JAHA: Two novel blood biomarkers predict subclinical atherosclerosis and cardiovascular events",
     "url": "https://www.cnic.es/es/node/244248",
     "source": "CNIC",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2772,7 +2912,7 @@
   },
   {
     "title": "APOD: 2026 September 14 – Where Your Elements Came From",
-    "title_es": "APOD: 2026 14 de septiembre – De dónde provienen sus elementos",
+    "title_es": "APOD: 2026 September 14 – Where Your Elements Came From",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-14-where-your-elements-came-from/",
     "source": "NASA (Top News)",
     "published": "2026-09-14T00:00:00.000Z",
@@ -2786,7 +2926,7 @@
   },
   {
     "title": "Monkeys might share our instincts for math",
-    "title_es": "Los monos pueden compartir nuestros instintos para las matemáticas",
+    "title_es": "Monkeys might share our instincts for math",
     "url": "https://www.snexplores.org/article/monkeys-understand-math-shapes",
     "source": "Science News Explores",
     "published": "2026-09-14T00:00:00.000Z",
@@ -61207,7 +61347,7 @@
     ]
   },
   {
-    "title": "A new approach of a path-tracking system of a differential drive robot for an arbitrary set of waypoints using sliding mode control",
+    "title": "Circulating low- and medium-molecular-weight adiponectin are associated with metabolic phenotypes in adults undergoing cardiometabolic screening",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -124109,6 +124249,20 @@
       "bbp",
       "transition",
       "leading"
+    ]
+  },
+  {
+    "title": "Codebase release 3.0 for CONTUR, by Andy Buckley, Jon Butterworth, Joseph Egan, Christian Gutschow, Sihyun Jeon, Martin Habedank, Tomasz Procter, Peng Wang, Yoran Yeh, Luzhan Yue",
+    "title_es": "Codebase release 3.0 for CONTUR, by Andy Buckley, Jon Butterworth, Joseph Egan, Christian Gutschow, Sihyun Jeon, Martin Habedank, Tomasz Procter, Peng Wang, Yoran Yeh, Luzhan Yue",
+    "url": "http://scipost.org/scipostphyscodeb.83-r3.0",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "contur"
     ]
   }
 ]
