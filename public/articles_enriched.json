@@ -1,5 +1,131 @@
 [
   {
+    "title": "OpenAI announces 722 mathematical discoveries in one go",
+    "title_es": "OpenAI anuncia 722 descubrimientos matemáticos de una sola vez",
+    "url": "https://www.newscientist.com/article/2592421-openai-announces-722-mathematical-discoveries-in-one-go/",
+    "source": "New Scientist",
+    "published": "2026-10-07T10:29:19.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "openai",
+      "announces",
+      "722"
+    ]
+  },
+  {
+    "title": "Beyond Marginals: A Multi-Dimensional Evaluation Framework for Multi-Table Synthetic Data Generation",
+    "title_es": "Más allá de los márgenes: un marco de evaluación multidimensional para la generación de datos sintéticos de múltiples mesas",
+    "url": "https://arxiv.org/abs/2610.06854",
+    "source": "arXiv",
+    "published": "2026-10-07T04:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "beyond",
+      "marginals",
+      "multi-dimensional"
+    ]
+  },
+  {
+    "title": "Chemistry Nobel for solving mystery of how ‘handed’ organic molecules can emerge",
+    "title_es": "Premio Nobel de Química por resolver el misterio de cómo pueden surgir las moléculas orgánicas con quiralidad definida.",
+    "url": "https://www.nature.com/articles/d41586-026-03093-0",
+    "source": "Nature",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "chemistry",
+      "nobel",
+      "solving"
+    ]
+  },
+  {
+    "title": "Boletín Amigos/as del CNIO 53",
+    "title_es": "Boletín Amigos/as del CNIO 53",
+    "url": "https://www.cnio.es/noticias/boletin-amigos/boletin-amigos-as-del-cnio-53/",
+    "source": "CNIO",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "boletín",
+      "amigosas",
+      "cnio"
+    ]
+  },
+  {
+    "title": "La investigación astronómica vuelve a las aulas de toda España de la mano del proyecto PETeR del IAC",
+    "title_es": "La investigación astronómica vuelve a las aulas de toda España de la mano del proyecto PETeR del IAC",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-investigacion-astronomica-vuelve-las-aulas-de-toda-espana-de-la-mano-del-proyecto-peter-del-iac",
+    "source": "IAC",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "investigación",
+      "astronómica",
+      "vuelve"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 7 – Supernova Remnant Pa 30",
+    "title_es": "APOD: 2026 7 de octubre – Remanente de Supernova Pa 30",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Experiment: Discover the science behind afterimages",
+    "title_es": "Experimento: Descubre la ciencia detrás de las imágenes residuales",
+    "url": "https://www.snexplores.org/article/vision-eyes-see-color-afterimages",
+    "source": "Science News Explores",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "experiment",
+      "discover",
+      "science"
+    ]
+  },
+  {
+    "title": "Humans may not be as hardwired for violence as we thought",
+    "title_es": "Es posible que los humanos no estén tan programados para la violencia como pensábamos",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261005071529.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "humans",
+      "may",
+      "not"
+    ]
+  },
+  {
+    "title": "'Real opportunity' to boost low-carbon European holidays",
+    "title_es": "'Oportunidad real' para impulsar unas vacaciones europeas bajas en carbono",
+    "url": "https://phys.org/news/2026-10-real-opportunity-boost-carbon-european.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-07T00:00:00.000Z",
+    "date": "2026-10-07",
+    "category": "noticia",
+    "tags": [
+      "real",
+      "opportunity",
+      "boost"
+    ]
+  },
+  {
     "title": "Nobel prize in physics awarded for discovery of high-energy neutrinos",
     "title_es": "Premio Nobel de Física por el descubrimiento de neutrinos de alta energía",
     "url": "https://www.newscientist.com/article/2592237-nobel-prize-in-physics-awarded-for-discovery-of-high-energy-neutrinos/",
@@ -81,6 +207,34 @@
       "planet",
       "warms",
       "cities"
+    ]
+  },
+  {
+    "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+    "title_es": "4D-HOF: coincidencia de flujo mano-objeto para la reconstrucción de interacción 4D de avance",
+    "url": "http://arxiv.org/abs/2610.08782v1",
+    "source": "arXiv",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "4d-hof",
+      "hand-object",
+      "flow"
+    ]
+  },
+  {
+    "title": "An extinct crocodilian was found among rocks that built the Great Sphinx",
+    "title_es": "Se encontró un cocodrilo extinto entre las rocas que construyeron la Gran Esfinge",
+    "url": "https://www.sciencenews.org/article/extinct-crocodilian-rocks-great-sphinx",
+    "source": "Science News",
+    "published": "2026-10-06T00:00:00.000Z",
+    "date": "2026-10-06",
+    "category": "noticia",
+    "tags": [
+      "extinct",
+      "crocodilian",
+      "was"
     ]
   },
   {
@@ -725,6 +879,20 @@
       "this",
       "diet",
       "may"
+    ]
+  },
+  {
+    "title": "A medical mystery unfolds in middle America",
+    "title_es": "Un misterio médico se desarrolla en el centro de Estados Unidos",
+    "url": "https://spj.science.org/doi/abs/10.1126/science.ael1175",
+    "source": "Science.org",
+    "published": "2026-10-01T00:00:00.000Z",
+    "date": "2026-10-01",
+    "category": "noticia",
+    "tags": [
+      "medical",
+      "mystery",
+      "unfolds"
     ]
   },
   {
@@ -2646,7 +2814,7 @@
   },
   {
     "title": "These mice have human (nerve cells) on the brain",
-    "title_es": "Estos ratones tienen células nerviosas humanas en el cerebro",
+    "title_es": "These mice have human (nerve cells) on the brain",
     "url": "https://www.sciencenews.org/article/mice-brain-human-organoid-cells",
     "source": "Science News",
     "published": "2026-09-16T00:00:00.000Z",
@@ -2660,7 +2828,7 @@
   },
   {
     "title": "Watch an orca smash into a sunfish hard enough to make it explode",
-    "title_es": "Observa cómo una orca se estrella contra un pez luna lo suficientemente fuerte como para hacer que explote",
+    "title_es": "Watch an orca smash into a sunfish hard enough to make it explode",
     "url": "https://www.snexplores.org/article/orca-explode-sunfish-pinata",
     "source": "Science News Explores",
     "published": "2026-09-16T00:00:00.000Z",
@@ -2674,7 +2842,7 @@
   },
   {
     "title": "New Dicynodont Species from Tanzania Suggests Younger Age for Rocks Tied to Earliest Dinosaurs",
-    "title_es": "Una nueva especie de dicinodonte de Tanzania sugiere una edad más temprana para las rocas vinculadas a los primeros dinosaurios",
+    "title_es": "New Dicynodont Species from Tanzania Suggests Younger Age for Rocks Tied to Earliest Dinosaurs",
     "url": "https://www.sci.news/paleontology/dinodontosaurus-isiyavamanda-15068.html",
     "source": "Sci.News",
     "published": "2026-09-15T23:04:45.000Z",
@@ -2688,7 +2856,7 @@
   },
   {
     "title": "A new biography of Stephen Hawking gets to grips with a complicated man",
-    "title_es": "Una nueva biografía de Stephen Hawking se enfrenta a un hombre complicado",
+    "title_es": "A new biography of Stephen Hawking gets to grips with a complicated man",
     "url": "https://www.newscientist.com/article/2589245-a-new-biography-of-stephen-hawking-gets-to-grips-with-a-complicated-man/",
     "source": "New Scientist",
     "published": "2026-09-15T09:00:00.000Z",
@@ -2702,7 +2870,7 @@
   },
   {
     "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction",
-    "title_es": "RIGOR: Geometría Informada por la Plataforma para la Reconstrucción Omnidireccional",
+    "title_es": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction",
     "url": "https://arxiv.org/abs/2609.13504",
     "source": "arXiv",
     "published": "2026-09-15T04:00:00.000Z",
@@ -2716,7 +2884,7 @@
   },
   {
     "title": "A wake-up call: diversify global research funding",
-    "title_es": "Una llamada de atención: diversificar la financiación global de la investigación",
+    "title_es": "A wake-up call: diversify global research funding",
     "url": "https://www.nature.com/articles/d41586-026-02904-8",
     "source": "Nature",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2730,7 +2898,7 @@
   },
   {
     "title": "Antibody Responses in Health and Disease: un encuentro internacional para avanzar en el conocimiento de la inmunidad",
-    "title_es": "Respuestas de anticuerpos en salud y enfermedad: un encuentro internacional para avanzar en el conocimiento de la inmunidad",
+    "title_es": "Antibody Responses in Health and Disease: un encuentro internacional para avanzar en el conocimiento de la inmunidad",
     "url": "https://www.cnic.es/es/noticias/antibody-responses-health-and-disease-un-encuentro-internacional-para-avanzar-conocimiento",
     "source": "CNIC",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2744,7 +2912,7 @@
   },
   {
     "title": "Plague was killing entire families thousands of years before the Black Death",
-    "title_es": "La peste estaba matando a familias enteras miles de años antes de la Peste Negra",
+    "title_es": "Plague was killing entire families thousands of years before the Black Death",
     "url": "https://www.sciencedaily.com/releases/2026/09/260913082203.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2758,7 +2926,7 @@
   },
   {
     "title": "Just add fish: Scientists pursue more rice, less disease in Senegal paddies",
-    "title_es": "Solo añada pescado: los científicos buscan más arroz y menos enfermedades en los arrozales de Senegal",
+    "title_es": "Just add fish: Scientists pursue more rice, less disease in Senegal paddies",
     "url": "https://phys.org/news/2026-09-fish-scientists-pursue-rice-disease.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2772,7 +2940,7 @@
   },
   {
     "title": "Agentic Societies Need a Social Harness",
-    "title_es": "Las sociedades genéticas necesitan un arnés social",
+    "title_es": "Agentic Societies Need a Social Harness",
     "url": "http://arxiv.org/abs/2609.17527v1",
     "source": "arXiv",
     "published": "2026-09-15T00:00:00.000Z",
@@ -2786,7 +2954,7 @@
   },
   {
     "title": "Antibody Responses in Health and Disease: An International Meeting to Advance Knowledge of Immunity",
-    "title_es": "Respuestas de anticuerpos en la salud y la enfermedad: una reunión internacional para avanzar en el conocimiento de la inmunidad",
+    "title_es": "Antibody Responses in Health and Disease: An International Meeting to Advance Knowledge of Immunity",
     "url": "https://www.cnic.es/es/node/244272",
     "source": "CNIC",
     "published": "2026-09-15T00:00:00.000Z",
@@ -61347,7 +61515,7 @@
     ]
   },
   {
-    "title": "Circulating low- and medium-molecular-weight adiponectin are associated with metabolic phenotypes in adults undergoing cardiometabolic screening",
+    "title": "Occupational hazard incident reporting systems in health facilities across sub-Saharan Africa: A scoping review protocol",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
