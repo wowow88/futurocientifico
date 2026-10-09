@@ -1,5 +1,131 @@
 [
   {
+    "title": "Grief and tech collide in uneasily brilliant sci-fi film The Remotes",
+    "title_es": "El duelo y la tecnología chocan en una película de ciencia ficción incómodamente brillante The Remotes",
+    "url": "https://www.newscientist.com/article/2592782-grief-and-tech-collide-in-uneasily-brilliant-sci-fi-film-the-remotes/",
+    "source": "New Scientist",
+    "published": "2026-10-09T11:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "grief",
+      "tech",
+      "collide"
+    ]
+  },
+  {
+    "title": "Podcast: Which Animals Are Conscious?",
+    "title_es": "Podcast: ¿Qué animales son conscientes?",
+    "url": "https://undark.org/2026/10/09/podcast-which-animals-are-conscious/",
+    "source": "Undark Magazine",
+    "published": "2026-10-09T07:05:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "podcast",
+      "which",
+      "animals"
+    ]
+  },
+  {
+    "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+    "title_es": "Un marco explicable centrado en el encabezado para la interpretación de tablas semánticas a gran escala y la evaluación de la calidad de los datos",
+    "url": "https://arxiv.org/abs/2610.10541",
+    "source": "arXiv",
+    "published": "2026-10-09T04:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "explainable",
+      "header-centric",
+      "framework"
+    ]
+  },
+  {
+    "title": "Honeybee Swarms Have Been Misread for Centuries, Biologists Say",
+    "title_es": "Los enjambres de abejas han sido malinterpretados durante siglos, dicen los biólogos",
+    "url": "https://www.sci.news/biology/honeybee-colony-15118.html",
+    "source": "Sci.News",
+    "published": "2026-10-09T00:33:34.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "honeybee",
+      "swarms",
+      "have"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 9 – Stickney Crater",
+    "title_es": "APOD: 2026 9 de octubre – Stickney Crater",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Anger or fear? Dogs may be able to read it on your face",
+    "title_es": "¿Ira o miedo? Los perros pueden leerlo en tu cara",
+    "url": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
+    "source": "Science News Explores",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "anger",
+      "fear",
+      "dogs"
+    ]
+  },
+  {
+    "title": "NASA astronauts splash down after 100 million miles in space",
+    "title_es": "Astronautas de la NASA chapotean después de 100 millones de millas en el espacio",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "astronauts",
+      "splash"
+    ]
+  },
+  {
+    "title": "YouTube overtakes TV as top source of political news, study finds",
+    "title_es": "YouTube supera a la televisión como principal fuente de noticias políticas, según un estudio",
+    "url": "https://phys.org/news/2026-10-youtube-tv-source-political-news.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "youtube",
+      "overtakes",
+      "top"
+    ]
+  },
+  {
+    "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+    "title_es": "Los cerebros de chimpancés y gorilas resisten la pérdida de peso con la edad, a diferencia de los cere",
+    "url": "https://www.nature.com/articles/d41586-026-03158-0",
+    "source": "Nature",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "chimp",
+      "gorilla",
+      "brains"
+    ]
+  },
+  {
     "title": "The world may never go back to how it was after this monster El Niño",
     "title_es": "Puede que el mundo nunca vuelva a ser como era después de este monstruo de El Niño",
     "url": "https://www.newscientist.com/article/2592450-the-world-may-never-go-back-to-how-it-was-after-this-monster-el-nino/",
@@ -81,6 +207,48 @@
       "brain",
       "cells",
       "regulate"
+    ]
+  },
+  {
+    "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+    "title_es": "Sobre la estimación y la validez de los horizontes temporales de la IA: una mirada estadística a la gráfica METR",
+    "url": "http://arxiv.org/abs/2610.12466v1",
+    "source": "arXiv",
+    "published": "2026-10-08T00:00:00.000Z",
+    "date": "2026-10-08",
+    "category": "noticia",
+    "tags": [
+      "estimation",
+      "validity",
+      "time"
+    ]
+  },
+  {
+    "title": "Demographic “doomsday” misses the mark",
+    "title_es": "El \"día del juicio final\" demográfico no da en el blanco",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ael8752",
+    "source": "Science.org",
+    "published": "2026-10-08T00:00:00.000Z",
+    "date": "2026-10-08",
+    "category": "noticia",
+    "tags": [
+      "demographic",
+      "doomsday",
+      "misses"
+    ]
+  },
+  {
+    "title": "Kilauea’s display is revealing why volcanoes spew like a fountain show",
+    "title_es": "La exhibición de Kilauea revela por qué los volcanes vomitan como un espectáculo de fuentes",
+    "url": "https://www.sciencenews.org/article/kilauea-why-volcanoes-spew-fountains",
+    "source": "Science News",
+    "published": "2026-10-08T00:00:00.000Z",
+    "date": "2026-10-08",
+    "category": "noticia",
+    "tags": [
+      "kilaueas",
+      "display",
+      "revealing"
     ]
   },
   {
@@ -2632,7 +2800,7 @@
   },
   {
     "title": "The human brain may owe a lot of its size to our love of sweets",
-    "title_es": "El cerebro humano puede deber mucho de su tamaño a nuestro amor por los dulces",
+    "title_es": "The human brain may owe a lot of its size to our love of sweets",
     "url": "https://www.snexplores.org/article/sugar-evolution-human-brain",
     "source": "Science News Explores",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2646,7 +2814,7 @@
   },
   {
     "title": "Scientists just named a new snake after Guns N’ Roses legend Slash",
-    "title_es": "Los científicos acaban de nombrar una nueva serpiente en honor a la leyenda de Guns N’ Roses Slash",
+    "title_es": "Scientists just named a new snake after Guns N’ Roses legend Slash",
     "url": "https://www.sciencedaily.com/releases/2026/09/260918024816.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2660,7 +2828,7 @@
   },
   {
     "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-    "title_es": "Diseñador-RSI: Evolución de la memoria de procedimientos a partir del tráfico de usuarios para el diseño gráfico genético",
+    "title_es": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
     "url": "http://arxiv.org/abs/2609.22086v1",
     "source": "arXiv",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2674,7 +2842,7 @@
   },
   {
     "title": "New Species of Imperial Pigeon Identified",
-    "title_es": "Nueva especie de paloma imperial identificada",
+    "title_es": "New Species of Imperial Pigeon Identified",
     "url": "https://www.sci.news/biology/ducula-tawitawi-15074.html",
     "source": "Sci.News",
     "published": "2026-09-17T22:15:22.000Z",
@@ -2688,7 +2856,7 @@
   },
   {
     "title": "Ancient skeleton shows woman in imperial China had her nose amputated",
-    "title_es": "Un antiguo esqueleto muestra que a una mujer en la China imperial le amputaron la nariz",
+    "title_es": "Ancient skeleton shows woman in imperial China had her nose amputated",
     "url": "https://www.newscientist.com/article/2589480-ancient-skeleton-shows-woman-in-imperial-china-had-her-nose-amputated/",
     "source": "New Scientist",
     "published": "2026-09-17T09:00:00.000Z",
@@ -2702,7 +2870,7 @@
   },
   {
     "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
-    "title_es": "Mejora de la predicción de fallas de extubación con características derivadas de LLM de las notas clínicas de terapia respiratoria",
+    "title_es": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
     "url": "https://arxiv.org/abs/2609.17532",
     "source": "arXiv",
     "published": "2026-09-17T04:00:00.000Z",
@@ -2716,7 +2884,7 @@
   },
   {
     "title": "Fossil Evidence Suggests Early Homo Had Abandoned Tree-Climbing by 1.8 Million Years Ago",
-    "title_es": "La evidencia fósil sugiere que los primeros homos habían abandonado la escalada de árboles hace 1,8 millones de años",
+    "title_es": "Fossil Evidence Suggests Early Homo Had Abandoned Tree-Climbing by 1.8 Million Years Ago",
     "url": "https://www.sci.news/othersciences/anthropology/australopithecus-homo-arboreality-15073.html",
     "source": "Sci.News",
     "published": "2026-09-17T00:29:54.000Z",
@@ -2730,7 +2898,7 @@
   },
   {
     "title": "OpenAI maths bombshell sparks debate about who gets credit in age of AI",
-    "title_es": "La bomba matemática de OpenAI desata el debate sobre quién recibe crédito en la era de la IA",
+    "title_es": "OpenAI maths bombshell sparks debate about who gets credit in age of AI",
     "url": "https://www.nature.com/articles/d41586-026-02910-w",
     "source": "Nature",
     "published": "2026-09-17T00:00:00.000Z",
@@ -2744,7 +2912,7 @@
   },
   {
     "title": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
-    "title_es": "New Horizons de la NASA detecta signos de nitrógeno líquido fluyendo en Plutón",
+    "title_es": "NASA’s New Horizons spots signs of liquid nitrogen flowing on Pluto",
     "url": "https://www.sciencedaily.com/releases/2026/09/260916232525.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-17T00:00:00.000Z",
@@ -2758,7 +2926,7 @@
   },
   {
     "title": "World's water cycle becoming more unpredictable, UN warns",
-    "title_es": "El ciclo mundial del agua es cada vez más impredecible, advierte la ONU",
+    "title_es": "World's water cycle becoming more unpredictable, UN warns",
     "url": "https://phys.org/news/2026-09-world-unpredictable.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-17T00:00:00.000Z",
@@ -2772,7 +2940,7 @@
   },
   {
     "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-    "title_es": "Agentes de codificación con un arnés de detección de obstáculos para una manipulación segura del robot",
+    "title_es": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
     "url": "http://arxiv.org/abs/2609.20822v1",
     "source": "arXiv",
     "published": "2026-09-17T00:00:00.000Z",
@@ -2786,7 +2954,7 @@
   },
   {
     "title": "The indomitable Stephen Hawking",
-    "title_es": "El indomable Stephen Hawking",
+    "title_es": "The indomitable Stephen Hawking",
     "url": "https://www.science.org/doi/abs/10.1126/science.aej4194",
     "source": "Science.org",
     "published": "2026-09-17T00:00:00.000Z",
@@ -61669,7 +61837,7 @@
     ]
   },
   {
-    "title": "Correction: Causal associations of particulate matter 2.5 and cardiovascular disease: A two-sample mendelian randomization study",
+    "title": "Effect of amaranth flatbread on maternal anthropometry during pregnancy: Evidence from a cluster-randomized controlled trial in Southern Ethiopia",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -124585,6 +124753,20 @@
       "codebase",
       "release",
       "contur"
+    ]
+  },
+  {
+    "title": "Central charges and vacuum moduli of 2d $\\mathcal{N}=(0,4)$ theories from class $\\mathcal{S}$, by Wei Cui, Junkang Huang, Zi-Xiao Huang, Satoshi Nawata, Shutong Zhuang",
+    "title_es": "Central charges and vacuum moduli of 2d $\\mathcal{N}=(0,4)$ theories from class $\\mathcal{S}$, by Wei Cui, Junkang Huang, Zi-Xiao Huang, Satoshi Nawata, Shutong Zhuang",
+    "url": "http://scipost.org/scipostphys.21.4.086",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "central",
+      "charges",
+      "vacuum"
     ]
   }
 ]
