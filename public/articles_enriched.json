@@ -1,5 +1,61 @@
 [
   {
+    "title": "APOD: 2026 October 10 – Lunar Farside",
+    "title_es": "APOD: 2026 10 de octubre – Lunar Farside",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-10T00:00:00.000Z",
+    "date": "2026-10-10",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Hybrid quantum computer observes foundational quantum effect in a new setting",
+    "title_es": "Un ordenador cuántico híbrido observa el efecto cuántico fundamental en un nuevo entorno",
+    "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-10T00:00:00.000Z",
+    "date": "2026-10-10",
+    "category": "noticia",
+    "tags": [
+      "hybrid",
+      "quantum",
+      "computer"
+    ]
+  },
+  {
+    "title": "Jurassic Crocodile Relative from Morocco Had Needle-Thin Teeth",
+    "title_es": "Un pariente de cocodrilo jurásico de Marruecos tenía dientes muy finos",
+    "url": "https://www.sci.news/paleontology/ctenosuchus-tenuidens-15120.html",
+    "source": "Sci.News",
+    "published": "2026-10-09T23:17:10.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "jurassic",
+      "crocodile",
+      "relative"
+    ]
+  },
+  {
+    "title": "Two large asteroids found spinning as fast as a fairground ride",
+    "title_es": "Dos grandes asteroides encontrados girando tan rápido como un paseo en feria",
+    "url": "https://www.newscientist.com/article/2593044-two-large-asteroids-found-spinning-as-fast-as-fairground-ride/",
+    "source": "New Scientist",
+    "published": "2026-10-09T17:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "two",
+      "large",
+      "asteroids"
+    ]
+  },
+  {
     "title": "Grief and tech collide in uneasily brilliant sci-fi film The Remotes",
     "title_es": "El duelo y la tecnología chocan en una película de ciencia ficción incómodamente brillante The Remotes",
     "url": "https://www.newscientist.com/article/2592782-grief-and-tech-collide-in-uneasily-brilliant-sci-fi-film-the-remotes/",
@@ -123,6 +179,48 @@
       "chimp",
       "gorilla",
       "brains"
+    ]
+  },
+  {
+    "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+    "title_es": "Romper el andamio de células nerviosas alivia el dolor crónico en ratones",
+    "url": "https://www.nature.com/articles/d41586-026-03159-z",
+    "source": "Nature",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "breaking",
+      "down",
+      "nerve-cell"
+    ]
+  },
+  {
+    "title": "El astrofísico y divulgador Héctor Socas presenta su libro Horizontes de la civilización en el Museo de la Ciencia y el Cosmos",
+    "title_es": "El astrofísico y divulgador Héctor Socas presenta su libro Horizontes de la civilización en el Museo de la Ciencia y el Cosmos",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-astrofisico-y-divulgador-hector-socas-presenta-su-libro-horizontes-de-la-civilizacion-en-el-museo-de",
+    "source": "IAC",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "astrofísico",
+      "divulgador",
+      "héctor"
+    ]
+  },
+  {
+    "title": "How the Grand Canyon could have lost 1 billion years of geologic history",
+    "title_es": "Cómo el Gran Cañón podría haber perdido mil millones de años de historia geológica",
+    "url": "https://www.sciencenews.org/article/grand-canyon-lost-history-giant-cliff",
+    "source": "Science News",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "grand",
+      "canyon"
     ]
   },
   {
@@ -2702,7 +2800,7 @@
   },
   {
     "title": "Our brain evolved from two primitive nervous systems that merged",
-    "title_es": "Nuestro cerebro evolucionó a partir de dos sistemas nerviosos primitivos que se fusionaron",
+    "title_es": "Our brain evolved from two primitive nervous systems that merged",
     "url": "https://www.newscientist.com/article/2589739-our-brain-evolved-from-two-primitive-nervous-systems-that-merged/",
     "source": "New Scientist",
     "published": "2026-09-18T09:00:00.000Z",
@@ -2716,7 +2814,7 @@
   },
   {
     "title": "A Reduction Library for Polynomial-Base Harmonic Numbers",
-    "title_es": "Una biblioteca de reducción para números armónicos de base polinómica",
+    "title_es": "A Reduction Library for Polynomial-Base Harmonic Numbers",
     "url": "https://arxiv.org/abs/2609.19146",
     "source": "arXiv",
     "published": "2026-09-18T04:00:00.000Z",
@@ -2730,7 +2828,7 @@
   },
   {
     "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
-    "title_es": "La resiliencia cognitiva ayuda a predecir la demencia de Alzheimer",
+    "title_es": "Cognitive resilience helps to predict Alzheimer’s dementia",
     "url": "https://www.nature.com/articles/d41586-026-02897-4",
     "source": "Nature",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2744,7 +2842,7 @@
   },
   {
     "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
-    "title_es": "APOD: 2026 18 de septiembre – Messier 33: La Galaxia del Triángulo",
+    "title_es": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
     "source": "NASA (Top News)",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2758,7 +2856,7 @@
   },
   {
     "title": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
-    "title_es": "Las primeras olas de calor golpean con más fuerza los rendimientos del trigo, pero aumentan la resistencia a las olas de calor posteriores",
+    "title_es": "Early heat waves hit wheat yields hardest but boost resilience to subsequent heat waves",
     "url": "https://phys.org/news/2026-09-early-wheat-yields-hardest-boost.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-18T00:00:00.000Z",
@@ -2786,7 +2884,7 @@
   },
   {
     "title": "Will the U.S. megadrought ever end?",
-    "title_es": "¿Terminará alguna vez la megasequía en Estados Unidos?",
+    "title_es": "Will the U.S. megadrought ever end?",
     "url": "https://www.sciencenews.org/article/united-states-megadrought-climate",
     "source": "Science News",
     "published": "2026-09-18T00:00:00.000Z",
@@ -61837,7 +61935,7 @@
     ]
   },
   {
-    "title": "Effect of amaranth flatbread on maternal anthropometry during pregnancy: Evidence from a cluster-randomized controlled trial in Southern Ethiopia",
+    "title": "Analysis of the spectrum of critical illnesses in the emergency department of Hebei Children's Hospital: A single-center study",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -124767,6 +124865,20 @@
       "central",
       "charges",
       "vacuum"
+    ]
+  },
+  {
+    "title": "On the upper critical dimension of the KPZ universality class: KPZ and related equations on a fully connected graph, by Jesús María Marcos Merino, Juan José Meléndez, Rodolfo Cuerno, Juan J. Ruiz-Lorenzo",
+    "title_es": "On the upper critical dimension of the KPZ universality class: KPZ and related equations on a fully connected graph, by Jesús María Marcos Merino, Juan José Meléndez, Rodolfo Cuerno, Juan J. Ruiz-Lorenzo",
+    "url": "http://scipost.org/scipostphys.21.4.087",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "upper",
+      "critical",
+      "dimension"
     ]
   }
 ]
