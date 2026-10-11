@@ -1,5 +1,33 @@
 [
   {
+    "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+    "title_es": "Los científicos construyen un reloj nuclear que podría hacer obsoletos los relojes atómicos",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-11T00:00:00.000Z",
+    "date": "2026-10-11",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "build",
+      "nuclear"
+    ]
+  },
+  {
+    "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
+    "title_es": "Los dinosaurios de Zimbabue eran diferentes a los de Sudáfrica: una nueva especie ofrece pistas",
+    "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-11T00:00:00.000Z",
+    "date": "2026-10-11",
+    "category": "noticia",
+    "tags": [
+      "zimbabwes",
+      "dinosaurs",
+      "were"
+    ]
+  },
+  {
     "title": "APOD: 2026 October 10 – Lunar Farside",
     "title_es": "APOD: 2026 10 de octubre – Lunar Farside",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
@@ -2772,7 +2800,7 @@
   },
   {
     "title": "Tyrannosaurus rex Had Mammal-Like Body Temperature, Study Finds",
-    "title_es": "El tiranosaurio rex tenía una temperatura corporal similar a la de los mamíferos, según un estudio",
+    "title_es": "Tyrannosaurus rex Had Mammal-Like Body Temperature, Study Finds",
     "url": "https://www.sci.news/paleontology/tyrannosaurus-rex-body-temperature-15077.html",
     "source": "Sci.News",
     "published": "2026-09-18T22:36:28.000Z",
@@ -2786,7 +2814,7 @@
   },
   {
     "title": "SpaceX’s Starship will orbit Earth for first time during next flight",
-    "title_es": "La nave espacial de SpaceX orbitará la Tierra por primera vez durante el próximo vuelo",
+    "title_es": "SpaceX’s Starship will orbit Earth for first time during next flight",
     "url": "https://www.newscientist.com/article/2589461-spacexs-starship-will-orbit-earth-for-first-time-during-next-flight/",
     "source": "New Scientist",
     "published": "2026-09-18T14:00:00.000Z",
@@ -124879,6 +124907,20 @@
       "upper",
       "critical",
       "dimension"
+    ]
+  },
+  {
+    "title": "Remarks on non-invertible symmetries on a tensor product Hilbert space in 1+1 dimensions, by Kansei Inamura",
+    "title_es": "Remarks on non-invertible symmetries on a tensor product Hilbert space in 1+1 dimensions, by Kansei Inamura",
+    "url": "http://scipost.org/scipostphys.21.4.088",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "remarks",
+      "non-invertible",
+      "symmetries"
     ]
   }
 ]
