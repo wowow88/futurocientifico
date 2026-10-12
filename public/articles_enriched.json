@@ -1,5 +1,117 @@
 [
   {
+    "title": "Messier 83 Hints At How Star-Forming Gas Behaves in Barred Spirals Like Our Own",
+    "title_es": "Messier 83 insinúa cómo se comporta el gas formador de estrellas en espirales barradas como la nuestra",
+    "url": "https://www.sci.news/astronomy/messier-83-star-forming-gas-15121.html",
+    "source": "Sci.News",
+    "published": "2026-10-12T12:10:28.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "messier",
+      "hints",
+      "how"
+    ]
+  },
+  {
+    "title": "Why the worst El Niño killed millions – and how we can avoid a repeat",
+    "title_es": "Por qué el peor El Niño mató a millones y cómo podemos evitar que se repita",
+    "url": "https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/",
+    "source": "New Scientist",
+    "published": "2026-10-12T09:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "worst",
+      "niño"
+    ]
+  },
+  {
+    "title": "Neuromorphic Satellite Intelligence: A Formal Framework for Event-Driven Architectures, Spike-Based Algorithms, and Quantitative Energy-Accuracy Trade-offs",
+    "title_es": "Inteligencia satelital neuromórfica: un marco formal para arquitecturas impulsadas por eventos, algoritmos basados en picos y compensaciones cuantitativas de precisión energética",
+    "url": "https://arxiv.org/abs/2610.12471",
+    "source": "arXiv",
+    "published": "2026-10-12T04:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "neuromorphic",
+      "satellite",
+      "intelligence"
+    ]
+  },
+  {
+    "title": "Award-winning microscopy image disqualified over AI use",
+    "title_es": "Imagen de microscopía galardonada descalificada por el uso de IA",
+    "url": "https://www.nature.com/articles/d41586-026-03240-7",
+    "source": "Nature",
+    "published": "2026-10-12T00:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "award-winning",
+      "microscopy",
+      "image"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 12 – Jupiter and the Moons",
+    "title_es": "APOD: 2026 12 de octubre – Júpiter y las Lunas",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-12T00:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "And the science Nobels for 2026 go to …",
+    "title_es": "Y los premios Nobel de ciencias para 2026 van a ...",
+    "url": "https://www.snexplores.org/article/science-nobel-prizes-2026",
+    "source": "Science News Explores",
+    "published": "2026-10-12T00:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "science",
+      "nobels",
+      "2026"
+    ]
+  },
+  {
+    "title": "Scientists discover vanilla’s hidden healing potential",
+    "title_es": "Los científicos descubren el potencial curativo oculto de la vainilla",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261011211550.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-12T00:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "vanillas"
+    ]
+  },
+  {
+    "title": "Climate fingerprints reveal stronger evidence of human-caused warming after more than 30 years",
+    "title_es": "Las huellas dactilares del clima revelan pruebas más sólidas del calentamiento causado por el hombre después de más de 30 años",
+    "url": "https://phys.org/news/2026-10-climate-fingerprints-reveal-stronger-evidence.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-12T00:00:00.000Z",
+    "date": "2026-10-12",
+    "category": "noticia",
+    "tags": [
+      "climate",
+      "fingerprints",
+      "reveal"
+    ]
+  },
+  {
     "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
     "title_es": "Los científicos construyen un reloj nuclear que podría hacer obsoletos los relojes atómicos",
     "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
@@ -249,6 +361,20 @@
       "how",
       "grand",
       "canyon"
+    ]
+  },
+  {
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "title_es": "¿Pueden los modelos de lenguaje jugar el juego de Wikipedia?",
+    "url": "http://arxiv.org/abs/2610.13948v1",
+    "source": "arXiv",
+    "published": "2026-10-09T00:00:00.000Z",
+    "date": "2026-10-09",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "language",
+      "models"
     ]
   },
   {
@@ -2689,7 +2815,7 @@
   },
   {
     "title": "First radio waves seen from an exoplanet hint at otherworldly auroras",
-    "title_es": "Las primeras ondas de radio vistas desde un exoplaneta apuntan a auroras de otro mundo",
+    "title_es": "First radio waves seen from an exoplanet hint at otherworldly auroras",
     "url": "https://www.sciencenews.org/article/exoplanet-aurora-radio-waves",
     "source": "Science News",
     "published": "2026-09-21T00:00:00.000Z",
@@ -2717,7 +2843,7 @@
   },
   {
     "title": "Hurricane Hunters reveal 4 warning signs that a storm is about to strengthen",
-    "title_es": "Los cazadores de huracanes revelan 4 señales de advertencia de que una tormenta está a punto de fortalecerse",
+    "title_es": "Hurricane Hunters reveal 4 warning signs that a storm is about to strengthen",
     "url": "https://www.sciencedaily.com/releases/2026/09/260919031037.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-20T00:00:00.000Z",
@@ -2745,7 +2871,7 @@
   },
   {
     "title": "A giant crater may reveal the origin of Mars’ doomed moon",
-    "title_es": "Un cráter gigante puede revelar el origen de la luna condenada de Marte",
+    "title_es": "A giant crater may reveal the origin of Mars’ doomed moon",
     "url": "https://www.sciencedaily.com/releases/2026/09/260919031040.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-19T12:12:41.000Z",
@@ -2759,7 +2885,7 @@
   },
   {
     "title": "Improving urban flood forecasting with real-time hazardous rainfall detection",
-    "title_es": "Mejorar el pronóstico de inundaciones urbanas con detección de lluvias peligrosas en tiempo real",
+    "title_es": "Improving urban flood forecasting with real-time hazardous rainfall detection",
     "url": "https://phys.org/news/2026-09-urban-real-hazardous-rainfall.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-19T00:00:00.000Z",
@@ -2773,7 +2899,7 @@
   },
   {
     "title": "Surviving the summer",
-    "title_es": "Sobrevivir al verano",
+    "title_es": "Surviving the summer",
     "url": "https://www.sciencenews.org/article/surviving-summer-ed-note-october-2026",
     "source": "Science News",
     "published": "2026-09-19T00:00:00.000Z",
@@ -2786,7 +2912,7 @@
   },
   {
     "title": "At an old steel site in Pittsburgh, bacteria evolved to survive—and eat—industrial pollution",
-    "title_es": "En un antiguo sitio de acero en Pittsburgh, las bacterias evolucionaron para sobrevivir y comer la contaminación industrial",
+    "title_es": "At an old steel site in Pittsburgh, bacteria evolved to survive—and eat—industrial pollution",
     "url": "https://phys.org/news/2026-09-steel-site-pittsburgh-bacteria-evolved.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-19T00:00:00.000Z",
@@ -124921,6 +125047,20 @@
       "remarks",
       "non-invertible",
       "symmetries"
+    ]
+  },
+  {
+    "title": "Gauss law constraint in A-theory branes, by Machiko Hatsuda, Ondřej Hulík, William D. Linch, Di Wang, Yu-Ping Wang",
+    "title_es": "Gauss law constraint in A-theory branes, by Machiko Hatsuda, Ondřej Hulík, William D. Linch, Di Wang, Yu-Ping Wang",
+    "url": "http://scipost.org/scipostphys.21.4.090",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "gauss",
+      "law",
+      "constraint"
     ]
   }
 ]
