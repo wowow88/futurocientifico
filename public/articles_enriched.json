@@ -1,5 +1,89 @@
 [
   {
+    "title": "China’s AI research is booming. Where is it headed?",
+    "title_es": "La investigación de IA en China está en auge. ¿Hacia dónde se dirige?",
+    "url": "https://www.nature.com/articles/d41586-026-03223-8",
+    "source": "Nature",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "chinas",
+      "research",
+      "booming"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+    "title_es": "APOD: 2026 14 de octubre – Marte y la colmena bajo una aurora",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+    "title_es": "La gigantesca serpiente prehistórica descubierta en la India puede haber sido una de las más grandes de la historia",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "gigantic",
+      "prehistoric",
+      "snake"
+    ]
+  },
+  {
+    "title": "Global deforestation slowed in 2025 but surged in Congo basin: Study",
+    "title_es": "La deforestación mundial se desaceleró en 2025, pero aumentó en la cuenca del Congo: estudio",
+    "url": "https://phys.org/news/2026-10-global-deforestation-surged-congo-basin.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "global",
+      "deforestation",
+      "slowed"
+    ]
+  },
+  {
+    "title": "Small, Chicken-Like Dinosaur May Have Had a Jaw Built for Fruit",
+    "title_es": "Un dinosaurio pequeño parecido a un pollo puede haber tenido una mandíbula hecha para la fruta",
+    "url": "https://www.sci.news/paleontology/infernogallus-jamesi-15128.html",
+    "source": "Sci.News",
+    "published": "2026-10-13T23:38:21.000Z",
+    "date": "2026-10-13",
+    "category": "noticia",
+    "tags": [
+      "small",
+      "chicken-like",
+      "dinosaur"
+    ]
+  },
+  {
+    "title": "Dinosaur named new species a century after fossil found on Isle of Wight",
+    "title_es": "El dinosaurio nombró una nueva especie un siglo después de que se encontrara un fósil en la Isla de Wight",
+    "url": "https://www.newscientist.com/article/2593437-dinosaur-named-new-species-102-years-after-fossil-found-on-isle-of-wight/",
+    "source": "New Scientist",
+    "published": "2026-10-13T23:01:00.000Z",
+    "date": "2026-10-13",
+    "category": "noticia",
+    "tags": [
+      "dinosaur",
+      "named",
+      "new"
+    ]
+  },
+  {
     "title": "Will we observe dark matter as a particle or a wave?",
     "title_es": "¿Observaremos la materia oscura como una partícula o una onda?",
     "url": "https://www.newscientist.com/article/2591125-will-we-observe-dark-matter-as-a-particle-or-a-wave/",
@@ -123,6 +207,48 @@
       "modified",
       "lentil",
       "protein"
+    ]
+  },
+  {
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
+    "title_es": "ChunkAct: fragmentación de acciones para robótica genética",
+    "url": "http://arxiv.org/abs/2610.18874v1",
+    "source": "arXiv",
+    "published": "2026-10-13T00:00:00.000Z",
+    "date": "2026-10-13",
+    "category": "noticia",
+    "tags": [
+      "chunkact",
+      "action",
+      "chunking"
+    ]
+  },
+  {
+    "title": "El IAC impulsa nuevas colaboraciones para trasladar avances astrofísicos al diagnóstico médico",
+    "title_es": "El IAC impulsa nuevas colaboraciones para trasladar avances astrofísicos al diagnóstico médico",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-impulsa-nuevas-colaboraciones-para-trasladar-avances-astrofisicos-al-diagnostico-medico",
+    "source": "IAC",
+    "published": "2026-10-13T00:00:00.000Z",
+    "date": "2026-10-13",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "impulsa",
+      "nuevas"
+    ]
+  },
+  {
+    "title": "To turn invisible, we need to tweak the path light travels",
+    "title_es": "Para volvernos invisibles, debemos ajustar el camino que recorre la luz",
+    "url": "https://www.sciencenews.org/article/invisibility-tweak-path-light-cloak",
+    "source": "Science News",
+    "published": "2026-10-13T00:00:00.000Z",
+    "date": "2026-10-13",
+    "category": "noticia",
+    "tags": [
+      "turn",
+      "invisible",
+      "need"
     ]
   },
   {
@@ -2675,7 +2801,7 @@
   },
   {
     "title": "Circulation Research: A protein-degradation mechanism opens a new treatment route for an inherited arrhythmia",
-    "title_es": "Investigación sobre la circulación: un mecanismo de degradación de proteínas abre una nueva ruta de tratamiento para una arritmia hereditaria",
+    "title_es": "Circulation Research: A protein-degradation mechanism opens a new treatment route for an inherited arrhythmia",
     "url": "https://www.cnic.es/es/node/244416",
     "source": "CNIC",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2689,7 +2815,7 @@
   },
   {
     "title": "Finally, a true blue rose exists",
-    "title_es": "Finalmente, existe una verdadera rosa azul",
+    "title_es": "Finally, a true blue rose exists",
     "url": "https://www.sciencenews.org/article/true-blue-rose-pigment-copigment",
     "source": "Science News",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2703,7 +2829,7 @@
   },
   {
     "title": "Seals helped this oceanographer study the Southern Ocean",
-    "title_es": "Las focas ayudaron a este oceanógrafo a estudiar el Océano Austral",
+    "title_es": "Seals helped this oceanographer study the Southern Ocean",
     "url": "https://www.snexplores.org/article/oceanographer-seals-ocean-climate",
     "source": "Science News Explores",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2717,7 +2843,7 @@
   },
   {
     "title": "Worried about an AI apocalypse? Here’s how to think about the risk of doom",
-    "title_es": "¿Preocupado por un apocalipsis de IA? A continuación, te mostramos cómo pensar en el riesgo de fatalidad",
+    "title_es": "Worried about an AI apocalypse? Here’s how to think about the risk of doom",
     "url": "https://www.newscientist.com/article/2590164-worried-about-an-ai-apocalypse-heres-how-to-think-about-the-risk-of-doom/",
     "source": "New Scientist",
     "published": "2026-09-22T05:00:00.000Z",
@@ -2731,7 +2857,7 @@
   },
   {
     "title": "Biosecurity must protect human functional capacity",
-    "title_es": "La bioseguridad debe proteger la capacidad funcional humana",
+    "title_es": "Biosecurity must protect human functional capacity",
     "url": "https://www.nature.com/articles/d41586-026-02996-2",
     "source": "Nature",
     "published": "2026-09-22T00:00:00.000Z",
@@ -2745,7 +2871,7 @@
   },
   {
     "title": "Stem cells reverse stroke damage and restore movement in mice",
-    "title_es": "Las células madre revierten el daño cerebral y restauran el movimiento en ratones",
+    "title_es": "Stem cells reverse stroke damage and restore movement in mice",
     "url": "https://www.sciencedaily.com/releases/2026/09/260921081116.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-22T00:00:00.000Z",
@@ -2759,7 +2885,7 @@
   },
   {
     "title": "El Niño weather pattern enters record territory: Scientist",
-    "title_es": "Patrón climático de El Niño entra en territorio récord: Científico",
+    "title_es": "El Niño weather pattern enters record territory: Scientist",
     "url": "https://phys.org/news/2026-09-el-nio-weather-pattern-territory.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-22T00:00:00.000Z",
@@ -2773,7 +2899,7 @@
   },
   {
     "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-    "title_es": "SpeakerMem-R1: Memoria Dual-Track Centrada en el Altavoz para Diálogo Multiparte",
+    "title_es": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
     "url": "http://arxiv.org/abs/2609.26780v1",
     "source": "arXiv",
     "published": "2026-09-22T00:00:00.000Z",
@@ -2787,7 +2913,7 @@
   },
   {
     "title": "Can AI reason without words? A small model puts the idea to the test",
-    "title_es": "¿Puede la IA razonar sin palabras? Un pequeño modelo pone a prueba la idea",
+    "title_es": "Can AI reason without words? A small model puts the idea to the test",
     "url": "https://www.sciencenews.org/article/ai-model-reason-logic-words-efficient",
     "source": "Science News",
     "published": "2026-09-22T00:00:00.000Z",
@@ -62215,7 +62341,7 @@
     ]
   },
   {
-    "title": "Experiences and perspectives of Ayurvedic practitioners on non-communicable disease management in the UK: A qualitative study",
+    "title": "Task-aware conformal power envelopes for multi-horizon spacecraft monitoring",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -125187,6 +125313,20 @@
       "gauss",
       "law",
       "constraint"
+    ]
+  },
+  {
+    "title": "Long-range interactions in celestial CFT, by Sangmin Choi, Ameya Kadhe, Andrea Puhm",
+    "title_es": "Long-range interactions in celestial CFT, by Sangmin Choi, Ameya Kadhe, Andrea Puhm",
+    "url": "http://scipost.org/scipostphys.21.4.093",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "long-range",
+      "interactions",
+      "celestial"
     ]
   }
 ]
