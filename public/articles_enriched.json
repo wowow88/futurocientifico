@@ -1,5 +1,89 @@
 [
   {
+    "title": "Whalefall review: Worth watching for the bits inside a sperm whale",
+    "title_es": "Reseña de Whalefall: Vale la pena observar los trozos dentro de un cachalote",
+    "url": "https://www.newscientist.com/article/2592386-whalefall-review-worth-watching-for-the-bits-inside-a-sperm-whale/",
+    "source": "New Scientist",
+    "published": "2026-10-15T07:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "whalefall",
+      "review",
+      "worth"
+    ]
+  },
+  {
+    "title": "Lotus: Learning to Understand Time-series by Learning to Forecast",
+    "title_es": "Lotus: Aprender a entender las series de tiempo aprendiendo a pronosticar",
+    "url": "https://arxiv.org/abs/2610.18877",
+    "source": "arXiv",
+    "published": "2026-10-15T04:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "lotus",
+      "learning",
+      "understand"
+    ]
+  },
+  {
+    "title": "ArXiv versus AI slop: will capping preprint submissions work?",
+    "title_es": "ArXiv versus AI slop: ¿funcionará la limitación de las presentaciones de preimpresión?",
+    "url": "https://www.nature.com/articles/d41586-026-03194-w",
+    "source": "Nature",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "arxiv",
+      "versus",
+      "slop"
+    ]
+  },
+  {
+    "title": "El Instituto de Astrofísica de Canarias muestra en Antalya sus capacidades para pequeñas misiones espaciales",
+    "title_es": "El Instituto de Astrofísica de Canarias muestra en Antalya sus capacidades para pequeñas misiones espaciales",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-instituto-de-astrofisica-de-canarias-muestra-en-antalya-sus-capacidades-para-pequenas-misiones",
+    "source": "IAC",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "instituto",
+      "astrofísica",
+      "canarias"
+    ]
+  },
+  {
+    "title": "Countries most vulnerable to fossil fuel phaseout generate just 6% of global output, climate analysis finds",
+    "title_es": "Los países más vulnerables a la eliminación gradual de los combustibles fósiles generan solo el 6% de la producción mundial, según un análisis climático",
+    "url": "https://phys.org/news/2026-10-countries-vulnerable-fossil-fuel-phaseout.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "countries",
+      "most",
+      "vulnerable"
+    ]
+  },
+  {
+    "title": "New Species of Predatory Dinosaur Identified in UK",
+    "title_es": "Nueva especie de dinosaurio depredador identificada en el Reino Unido",
+    "url": "https://www.sci.news/paleontology/invictibellatrix-amberina-15131.html",
+    "source": "Sci.News",
+    "published": "2026-10-14T23:12:11.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "predatory"
+    ]
+  },
+  {
     "title": "China’s AI research is booming. Where is it headed?",
     "title_es": "La investigación de IA en China está en auge. ¿Hacia dónde se dirige?",
     "url": "https://www.nature.com/articles/d41586-026-03223-8",
@@ -53,6 +137,62 @@
       "global",
       "deforestation",
       "slowed"
+    ]
+  },
+  {
+    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "title_es": "Modelado y comprensión de los pesos neuronales de las políticas humanoides con difusión",
+    "url": "http://arxiv.org/abs/2610.20606v1",
+    "source": "arXiv",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "modeling",
+      "understanding",
+      "neural"
+    ]
+  },
+  {
+    "title": "Can math stay human in the age of AI?",
+    "title_es": "¿Pueden las matemáticas seguir siendo humanas en la era de la IA?",
+    "url": "https://www.sciencenews.org/article/math-human-ai-age",
+    "source": "Science News",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "math",
+      "stay"
+    ]
+  },
+  {
+    "title": "Bees may survive a swim by heading for the dark [COMIC]",
+    "title_es": "Las abejas pueden sobrevivir a un baño dirigiéndose a la oscuridad [CÓMIC]",
+    "url": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
+    "source": "Science News Explores",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "bees",
+      "may",
+      "survive"
+    ]
+  },
+  {
+    "title": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
+    "title_es": "Un fósil olvidado revela un temible dinosaurio con garras gigantes",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-14T00:00:00.000Z",
+    "date": "2026-10-14",
+    "category": "noticia",
+    "tags": [
+      "forgotten",
+      "fossil",
+      "reveals"
     ]
   },
   {
@@ -2661,7 +2801,7 @@
   },
   {
     "title": "Titanosaurs Nested Far South of Equator, Fossil Eggshells Reveal",
-    "title_es": "Titanosaurios anidados al sur del ecuador, cáscaras de huevo fósiles revelan",
+    "title_es": "Titanosaurs Nested Far South of Equator, Fossil Eggshells Reveal",
     "url": "https://www.sci.news/paleontology/high-latitude-titanosaur-nesting-15085.html",
     "source": "Sci.News",
     "published": "2026-09-23T00:09:31.000Z",
@@ -2675,7 +2815,7 @@
   },
   {
     "title": "In praise of human teachers: universities must resist outsourcing everything to AI",
-    "title_es": "Elogio de los profesores humanos: las universidades deben resistirse a subcontratar todo a la IA",
+    "title_es": "In praise of human teachers: universities must resist outsourcing everything to AI",
     "url": "https://www.nature.com/articles/d41586-026-02949-9",
     "source": "Nature",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2731,7 +2871,7 @@
   },
   {
     "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
-    "title_es": "APOD: 2026 23 de septiembre – Un nuevo cráter lunar: McGetchin",
+    "title_es": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
     "source": "NASA (Top News)",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2745,7 +2885,7 @@
   },
   {
     "title": "One of America’s largest reservoirs just hit a record low",
-    "title_es": "Uno de los embalses más grandes de Estados Unidos acaba de alcanzar un mínimo histórico",
+    "title_es": "One of America’s largest reservoirs just hit a record low",
     "url": "https://www.sciencedaily.com/releases/2026/09/260922005701.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2759,7 +2899,7 @@
   },
   {
     "title": "Pigeons' proposed inner-ear compass runs into a noise problem",
-    "title_es": "La brújula del oído interno propuesta por las palomas se encuentra con un problema de ruido",
+    "title_es": "Pigeons' proposed inner-ear compass runs into a noise problem",
     "url": "https://phys.org/news/2026-09-pigeons-ear-compass-noise-problem.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2773,7 +2913,7 @@
   },
   {
     "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-    "title_es": "StudentBench: la IA y la tutoría humana producen ganancias de aprendizaje GRE equivalentes",
+    "title_es": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
     "url": "http://arxiv.org/abs/2609.28470v1",
     "source": "arXiv",
     "published": "2026-09-23T00:00:00.000Z",
@@ -2787,7 +2927,7 @@
   },
   {
     "title": "Author Correction: Large recoverable elastic energy in chiral metamaterials via twist buckling",
-    "title_es": "Corrección del autor: Gran energía elástica recuperable en metamateriales quirales mediante pandeo por torsión",
+    "title_es": "Author Correction: Large recoverable elastic energy in chiral metamaterials via twist buckling",
     "url": "https://www.nature.com/articles/s41586-026-11189-w",
     "source": "Nature",
     "published": "2026-09-23T00:00:00.000Z",
@@ -62341,7 +62481,7 @@
     ]
   },
   {
-    "title": "Task-aware conformal power envelopes for multi-horizon spacecraft monitoring",
+    "title": "Species-specific effects of post-wheat green manure incorporation on spring wheat yield and soil greenhouse gas emissions in an arid irrigated system",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -125327,6 +125467,20 @@
       "long-range",
       "interactions",
       "celestial"
+    ]
+  },
+  {
+    "title": "Conformal data for the $O(2)$ Wilson-Fisher CFT in $(2+1)$-dimensional spacetime from exact diagonalization and matrix product states on the fuzzy sphere, by Arjun Dey, Loic Herviou, Christopher Mudry, Slava Rychkov, Andreas Martin Läuchli",
+    "title_es": "Conformal data for the $O(2)$ Wilson-Fisher CFT in $(2+1)$-dimensional spacetime from exact diagonalization and matrix product states on the fuzzy sphere, by Arjun Dey, Loic Herviou, Christopher Mudry, Slava Rychkov, Andreas Martin Läuchli",
+    "url": "http://scipost.org/scipostphys.21.4.094",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "conformal",
+      "data",
+      "wilson-fisher"
     ]
   }
 ]
