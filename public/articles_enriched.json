@@ -1,5 +1,103 @@
 [
   {
+    "title": "Can a positive mindset protect us from the sniffles?",
+    "title_es": "¿Puede una mentalidad positiva protegernos de los resoplidos?",
+    "url": "https://www.newscientist.com/article/2594259-can-a-positive-mindset-protect-us-from-the-sniffles/",
+    "source": "New Scientist",
+    "published": "2026-10-16T08:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "can",
+      "positive",
+      "mindset"
+    ]
+  },
+  {
+    "title": "Podcast: Is There a Population Crisis?",
+    "title_es": "Podcast: ¿Hay una crisis de población?",
+    "url": "https://undark.org/2026/10/16/podcast-population-crisis/",
+    "source": "Undark Magazine",
+    "published": "2026-10-16T07:05:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "podcast",
+      "there",
+      "population"
+    ]
+  },
+  {
+    "title": "DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API",
+    "title_es": "DeepUnfolding_Agent: una API de control adaptativo clásico_cuántico",
+    "url": "https://arxiv.org/abs/2610.20615",
+    "source": "arXiv",
+    "published": "2026-10-16T04:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "deepunfoldingagent",
+      "classicalquantum",
+      "adaptive"
+    ]
+  },
+  {
+    "title": "White Dwarfs Really are White, But Few are Green, Pink or Vivid Blue",
+    "title_es": "Las enanas blancas son realmente blancas, pero pocas son verdes, rosadas o azules vívidas",
+    "url": "https://www.sci.news/astronomy/white-dwarf-colors-15134.html",
+    "source": "Sci.News",
+    "published": "2026-10-16T00:07:52.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "white",
+      "dwarfs",
+      "really"
+    ]
+  },
+  {
+    "title": "AtheroPTM, el proyecto liderado por Miguel Ángel del Pozo en el CNIC, recibe cerca de un millón de euros para investigar nuevas terapias frente a la aterosclerosis",
+    "title_es": "AtheroPTM, el proyecto liderado por Miguel Ángel del Pozo en el CNIC, recibe cerca de un millón de euros para investigar nuevas terapias frente a la aterosclerosis",
+    "url": "https://www.cnic.es/es/noticias/atheroptm-proyecto-liderado-por-miguel-angel-pozo-cnic-recibe-cerca-un-millon-euros-para",
+    "source": "CNIC",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "atheroptm",
+      "proyecto",
+      "liderado"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 16 – Chasing the International Space Station",
+    "title_es": "APOD: 16 de octubre de 2026 – Persiguiendo la Estación Espacial Internacional",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Winter sea ice loss may be underestimated, ancient clues from a warmer Arctic suggest",
+    "title_es": "La pérdida de hielo marino en invierno puede estar subestimada, sugieren antiguas pistas de un Ártico más cálido",
+    "url": "https://phys.org/news/2026-10-winter-sea-ice-loss-underestimated.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "winter",
+      "sea",
+      "ice"
+    ]
+  },
+  {
     "title": "Whalefall review: Worth watching for the bits inside a sperm whale",
     "title_es": "Reseña de Whalefall: Vale la pena observar los trozos dentro de un cachalote",
     "url": "https://www.newscientist.com/article/2592386-whalefall-review-worth-watching-for-the-bits-inside-a-sperm-whale/",
@@ -67,6 +165,90 @@
       "countries",
       "most",
       "vulnerable"
+    ]
+  },
+  {
+    "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "title_es": "LIBERO-PeRM: Evaluación comparativa de la manipulación robótica personalizada",
+    "url": "http://arxiv.org/abs/2610.22372v1",
+    "source": "arXiv",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "libero-perm",
+      "benchmarking",
+      "personalized"
+    ]
+  },
+  {
+    "title": "An elegy for the unsung world-builders",
+    "title_es": "Una elegía para los anónimos constructores del mundo",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aek0152",
+    "source": "Science.org",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "elegy",
+      "unsung",
+      "world-builders"
+    ]
+  },
+  {
+    "title": "Is AI eroding PhD students’ critical thinking and analysis skills?",
+    "title_es": "¿La IA está erosionando el pensamiento crítico y las habilidades de análisis de los estudiantes de doctorado?",
+    "url": "https://www.nature.com/articles/d41586-026-03178-w",
+    "source": "Nature",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "eroding",
+      "phd",
+      "students"
+    ]
+  },
+  {
+    "title": "Many American diets may not include enough of this essential nutrient",
+    "title_es": "Es posible que muchas dietas estadounidenses no incluyan suficiente de este nutriente esencial",
+    "url": "https://www.sciencenews.org/article/iodine-salt-brain-development-diets",
+    "source": "Science News",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "many",
+      "american",
+      "diets"
+    ]
+  },
+  {
+    "title": "Calls of the wild offer sound guidance for protecting animals",
+    "title_es": "Las llamadas de la naturaleza ofrecen una guía sólida para proteger a los animales",
+    "url": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
+    "source": "Science News Explores",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "calls",
+      "wild",
+      "offer"
+    ]
+  },
+  {
+    "title": "Arctic sea ice hits another troubling low in 2026",
+    "title_es": "El hielo marino del Ártico alcanza otro mínimo preocupante en 2026",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-15T00:00:00.000Z",
+    "date": "2026-10-15",
+    "category": "noticia",
+    "tags": [
+      "arctic",
+      "sea",
+      "ice"
     ]
   },
   {
@@ -2619,7 +2801,7 @@
   },
   {
     "title": "OpenAI agent hacked an Australian government healthcare website",
-    "title_es": "Un agente de OpenAI hackeó un sitio web de atención médica del gobierno australiano",
+    "title_es": "OpenAI agent hacked an Australian government healthcare website",
     "url": "https://www.newscientist.com/article/2590599-openai-agent-hacked-an-australian-government-healthcare-website/",
     "source": "New Scientist",
     "published": "2026-09-24T08:26:15.000Z",
@@ -2633,7 +2815,7 @@
   },
   {
     "title": "G\\\"odel's and Scott's Variants of the Ontological Argument in Lean 4",
-    "title_es": "Variantes de G\\\"odel y Scott del argumento ontológico en Lean 4",
+    "title_es": "G\\\"odel's and Scott's Variants of the Ontological Argument in Lean 4",
     "url": "https://arxiv.org/abs/2609.26806",
     "source": "arXiv",
     "published": "2026-09-24T04:00:00.000Z",
@@ -2647,7 +2829,7 @@
   },
   {
     "title": "El proyecto europeo ExGal-Twin, coordinado por el IAC, celebra su 2º Regional Meeting dedicado a la inteligencia artificial en la gestión de proyectos europeos",
-    "title_es": "El proyecto europeo ExGal-Twin, coordinado por el IAC, celebra su 2º Encuentro Regional dedicado a la inteligencia artificial en la gestión de proyectos europeos",
+    "title_es": "El proyecto europeo ExGal-Twin, coordinado por el IAC, celebra su 2º Regional Meeting dedicado a la inteligencia artificial en la gestión de proyectos europeos",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-proyecto-europeo-exgal-twin-coordinado-por-el-iac-celebra-su-2o-regional-meeting-dedicado-la",
     "source": "IAC",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2661,7 +2843,7 @@
   },
   {
     "title": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
-    "title_es": "APOD: 24 de septiembre de 2026 – Los fantasmas de cinco supernovas",
+    "title_es": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
     "source": "NASA (Top News)",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2675,7 +2857,7 @@
   },
   {
     "title": "More REM sleep linked to lower risk of 83 diseases",
-    "title_es": "Más sueño REM relacionado con un menor riesgo de 83 enfermedades",
+    "title_es": "More REM sleep linked to lower risk of 83 diseases",
     "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2689,7 +2871,7 @@
   },
   {
     "title": "How calcium channels in muscle cells open together",
-    "title_es": "Cómo se abren juntos los canales de calcio en las células musculares",
+    "title_es": "How calcium channels in muscle cells open together",
     "url": "https://phys.org/news/2026-09-calcium-channels-muscle-cells.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2703,7 +2885,7 @@
   },
   {
     "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-    "title_es": "Los agentes de LLM pueden manipular fácilmente sus propios rastros",
+    "title_es": "LLM Agents Can Easily Tamper With Their Own Traces",
     "url": "http://arxiv.org/abs/2609.30266v1",
     "source": "arXiv",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2717,7 +2899,7 @@
   },
   {
     "title": "The Smallest Lights in the Universe: A Memoir",
-    "title_es": "Las luces más pequeñas del universo: Memorias",
+    "title_es": "The Smallest Lights in the Universe: A Memoir",
     "url": "https://www.science.org/doi/abs/10.1126/science.aem0084",
     "source": "Science.org",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2731,7 +2913,7 @@
   },
   {
     "title": "Meet the newest living cat species, the first described in 100 years",
-    "title_es": "Conoce la nueva especie de gato vivo, la primera descrita en 100 años",
+    "title_es": "Meet the newest living cat species, the first described in 100 years",
     "url": "https://www.sciencenews.org/article/new-living-tiger-cat-species-100-years",
     "source": "Science News",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2745,7 +2927,7 @@
   },
   {
     "title": "When we were prey",
-    "title_es": "Cuando éramos presas",
+    "title_es": "When we were prey",
     "url": "https://www.snexplores.org/article/human-evolution-hunted-prey-predator",
     "source": "Science News Explores",
     "published": "2026-09-24T00:00:00.000Z",
@@ -2759,7 +2941,7 @@
   },
   {
     "title": "Researchers Reconstruct Face of Oldest Known Homo sapiens",
-    "title_es": "Investigadores reconstruyen la cara del Homo sapiens más antiguo conocido",
+    "title_es": "Researchers Reconstruct Face of Oldest Known Homo sapiens",
     "url": "https://www.sci.news/othersciences/anthropology/oldest-known-homo-sapiens-face-15090.html",
     "source": "Sci.News",
     "published": "2026-09-23T23:52:36.000Z",
@@ -2773,7 +2955,7 @@
   },
   {
     "title": "Is AI really getting dangerously out of control?",
-    "title_es": "¿La IA realmente se está descontrolando peligrosamente?",
+    "title_es": "Is AI really getting dangerously out of control?",
     "url": "https://www.newscientist.com/article/2590038-is-ai-dangerously-out-of-control-or-about-to-be/",
     "source": "New Scientist",
     "published": "2026-09-23T05:00:00.000Z",
@@ -2787,7 +2969,7 @@
   },
   {
     "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
-    "title_es": "¿Qué mide la precisión del 99%? Una auditoría reproducible del aprendizaje abreviado en un corpus de noticias falsas ampliamente utilizado",
+    "title_es": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
     "url": "https://arxiv.org/abs/2609.25006",
     "source": "arXiv",
     "published": "2026-09-23T04:00:00.000Z",
@@ -62481,7 +62663,7 @@
     ]
   },
   {
-    "title": "Species-specific effects of post-wheat green manure incorporation on spring wheat yield and soil greenhouse gas emissions in an arid irrigated system",
+    "title": "Ancient Greek votive epigraphy: Ancient religion between individual choice and cultural trends",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -125481,6 +125663,20 @@
       "conformal",
       "data",
       "wilson-fisher"
+    ]
+  },
+  {
+    "title": "NMSSMScanner: Efficient scans in the NMSSM parameter space proof of concept, by Rafael Boto, Thi Nhung Dao, Felix Egle, Karim Elyaouti, Martin Gabelmann, Margarete Mühlleitner, Johann Plotnikov",
+    "title_es": "NMSSMScanner: Efficient scans in the NMSSM parameter space proof of concept, by Rafael Boto, Thi Nhung Dao, Felix Egle, Karim Elyaouti, Martin Gabelmann, Margarete Mühlleitner, Johann Plotnikov",
+    "url": "http://scipost.org/scipostphyscommrep.31",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "nmssmscanner",
+      "efficient",
+      "scans"
     ]
   }
 ]
