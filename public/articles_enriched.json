@@ -1,5 +1,61 @@
 [
   {
+    "title": "APOD: 2026 October 17 – 3D 67P",
+    "title_es": "APOD: 2026 17 de octubre – 3D 67P",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-17T00:00:00.000Z",
+    "date": "2026-10-17",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
+    "title_es": "Las imágenes ópticas vinculan el metabolismo alterado y el uso de oxígeno en la enfermedad de Alzheimer",
+    "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-17T00:00:00.000Z",
+    "date": "2026-10-17",
+    "category": "noticia",
+    "tags": [
+      "optical",
+      "imaging",
+      "links"
+    ]
+  },
+  {
+    "title": "Lizard Dropped Its Tail 99 Million Years Ago, Amber Preserved Evidence",
+    "title_es": "La lagartija dejó caer su cola hace 99 millones de años, evidencia conservada en ámbar",
+    "url": "https://www.sci.news/paleontology/cretaceous-lizard-tail-15135.html",
+    "source": "Sci.News",
+    "published": "2026-10-16T21:03:57.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "lizard",
+      "dropped",
+      "its"
+    ]
+  },
+  {
+    "title": "Japan is launching a mission to Mars’s largest moon Phobos",
+    "title_es": "Japón lanza una misión a la luna más grande de Marte, Fobos",
+    "url": "https://www.newscientist.com/article/2594332-japan-is-launching-a-mission-to-marss-largest-moon-phobos/",
+    "source": "New Scientist",
+    "published": "2026-10-16T17:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "japan",
+      "launching",
+      "mission"
+    ]
+  },
+  {
     "title": "Can a positive mindset protect us from the sniffles?",
     "title_es": "¿Puede una mentalidad positiva protegernos de los resoplidos?",
     "url": "https://www.newscientist.com/article/2594259-can-a-positive-mindset-protect-us-from-the-sniffles/",
@@ -95,6 +151,62 @@
       "winter",
       "sea",
       "ice"
+    ]
+  },
+  {
+    "title": "Briefing Chat: An invisible tattoo that appears under UV light – and then disappears",
+    "title_es": "Charla informativa: Un tatuaje invisible que aparece bajo la luz UV y luego desaparece",
+    "url": "https://www.nature.com/articles/d41586-026-03341-3",
+    "source": "Nature",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "briefing",
+      "chat",
+      "invisible"
+    ]
+  },
+  {
+    "title": "Horned dinosaurs’ weapons evolved to handle the forces of combat",
+    "title_es": "Las armas de los dinosaurios con cuernos evolucionaron para manejar las fuerzas de combate",
+    "url": "https://www.sciencenews.org/article/horned-dinosaur-skull-forces-combat",
+    "source": "Science News",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "horned",
+      "dinosaurs",
+      "weapons"
+    ]
+  },
+  {
+    "title": "In the heat, this Death Valley shrub air conditions its leaves",
+    "title_es": "En el calor, este aire arbustivo del Valle de la Muerte acondiciona sus hojas",
+    "url": "https://www.snexplores.org/article/extreme-heat-plant-cools-leaves",
+    "source": "Science News Explores",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "heat",
+      "this",
+      "death"
+    ]
+  },
+  {
+    "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
+    "title_es": "\"Crawzilla\" era enorme. Entonces los científicos encontraron un cangrejo de río aún más grande",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "crawzilla",
+      "was",
+      "huge"
     ]
   },
   {
@@ -2689,7 +2801,7 @@
   },
   {
     "title": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
-    "title_es": "\"Encontramos algo nunca antes visto\" – Una estrella muerta está produciendo una onda de choque que no debería existir",
+    "title_es": "“We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
     "url": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2703,7 +2815,7 @@
   },
   {
     "title": "High-tech canopy maps reveal how tropical birds use Amazon forests",
-    "title_es": "Los mapas de dosel de alta tecnología revelan cómo las aves tropicales usan los bosques amazónicos",
+    "title_es": "High-tech canopy maps reveal how tropical birds use Amazon forests",
     "url": "https://phys.org/news/2026-09-high-tech-canopy-reveal-tropical.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2717,7 +2829,7 @@
   },
   {
     "title": "Briefing Chat: Why scientists made papyrus scrolls, then burnt them",
-    "title_es": "Charla informativa: Por qué los científicos hicieron rollos de papiro y luego los quemaron",
+    "title_es": "Briefing Chat: Why scientists made papyrus scrolls, then burnt them",
     "url": "https://www.nature.com/articles/d41586-026-03041-y",
     "source": "Nature",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2745,7 +2857,7 @@
   },
   {
     "title": "These are the first feathers ever found in fossilized dinosaur poop",
-    "title_es": "Estas son las primeras plumas que se han encontrado en caca de dinosaurio fosilizada",
+    "title_es": "These are the first feathers ever found in fossilized dinosaur poop",
     "url": "https://www.sciencenews.org/article/dino-poop-fossil-feathers-extinction",
     "source": "Science News",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2759,7 +2871,7 @@
   },
   {
     "title": "Like an armadillo, a new soft robot rolls up to protect itself",
-    "title_es": "Como un armadillo, un nuevo robot suave se enrolla para protegerse",
+    "title_es": "Like an armadillo, a new soft robot rolls up to protect itself",
     "url": "https://www.snexplores.org/article/soft-robot-armadillo-rolls-up",
     "source": "Science News Explores",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2773,7 +2885,7 @@
   },
   {
     "title": "CERN has begun disconnecting the Large Hadron Collider",
-    "title_es": "El CERN ha comenzado a desconectar el Gran Colisionador de Hadrones",
+    "title_es": "CERN has begun disconnecting the Large Hadron Collider",
     "url": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2787,7 +2899,7 @@
   },
   {
     "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
-    "title_es": "Aprender a detenerse sin aprender a detenerse: el entrenamiento de confianza auto-supervisado mejora la eficiencia del razonamiento",
+    "title_es": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
     "url": "http://arxiv.org/abs/2609.31619v1",
     "source": "arXiv",
     "published": "2026-09-25T00:00:00.000Z",
@@ -62663,7 +62775,7 @@
     ]
   },
   {
-    "title": "Ancient Greek votive epigraphy: Ancient religion between individual choice and cultural trends",
+    "title": "Meta reinforcement learning for robust quadruped locomotion under joint failures",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
