@@ -1,5 +1,47 @@
 [
   {
+    "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+    "title_es": "APOD: 2026 18 de octubre – Sonificado: Pilares de la Nebulosa del Águila",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-18T00:00:00.000Z",
+    "date": "2026-10-18",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "World's oldest shipwreck discovered off coast of Turkey",
+    "title_es": "Descubierto el naufragio más antiguo del mundo frente a las costas de Turquía",
+    "url": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-18T00:00:00.000Z",
+    "date": "2026-10-18",
+    "category": "noticia",
+    "tags": [
+      "worlds",
+      "oldest",
+      "shipwreck"
+    ]
+  },
+  {
+    "title": "Noise-cancelling headphones prevent vomiting after surgery",
+    "title_es": "Los auriculares con cancelación de ruido evitan el vómito después de la cirugía",
+    "url": "https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery/",
+    "source": "New Scientist",
+    "published": "2026-10-17T18:30:00.000Z",
+    "date": "2026-10-17",
+    "category": "noticia",
+    "tags": [
+      "noise-cancelling",
+      "headphones",
+      "prevent"
+    ]
+  },
+  {
     "title": "APOD: 2026 October 17 – 3D 67P",
     "title_es": "APOD: 2026 17 de octubre – 3D 67P",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
@@ -25,6 +67,20 @@
       "optical",
       "imaging",
       "links"
+    ]
+  },
+  {
+    "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
+    "title_es": "Los científicos descubren cómo el sueño profundo construye músculo, quema grasa y estimula el cerebro",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-17T00:00:00.000Z",
+    "date": "2026-10-17",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "how"
     ]
   },
   {
@@ -2745,7 +2801,7 @@
   },
   {
     "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
-    "title_es": "¿Cuándo deben razonar los agentes de pronóstico? Pruebas de estrés conductual para el enrutamiento de confiabilidad",
+    "title_es": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
     "url": "https://arxiv.org/abs/2609.28475",
     "source": "arXiv",
     "published": "2026-09-25T04:00:00.000Z",
@@ -2759,7 +2815,7 @@
   },
   {
     "title": "AI bots are flooding researchers with requests for money and time",
-    "title_es": "Los bots de IA están inundando a los investigadores con solicitudes de dinero y tiempo",
+    "title_es": "AI bots are flooding researchers with requests for money and time",
     "url": "https://www.nature.com/articles/d41586-026-03005-2",
     "source": "Nature",
     "published": "2026-09-25T00:00:00.000Z",
@@ -2787,7 +2843,7 @@
   },
   {
     "title": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
-    "title_es": "APOD: 2026 25 de septiembre – Cúmulo Estelar Globular Omega Centauri",
+    "title_es": "APOD: 2026 September 25 – Globular Star Cluster Omega Centauri",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-25-globular-star-cluster-omega-centauri/",
     "source": "NASA (Top News)",
     "published": "2026-09-25T00:00:00.000Z",
