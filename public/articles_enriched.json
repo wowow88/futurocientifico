@@ -1,5 +1,131 @@
 [
   {
+    "title": "El Niño is dramatically increasing sea levels – how bad could it get?",
+    "title_es": "El Niño está aumentando dramáticamente el nivel del mar, ¿qué tan malo podría llegar a ser?",
+    "url": "https://www.newscientist.com/article/2594376-el-nino-is-dramatically-increasing-sea-levels-how-bad-could-it-get/",
+    "source": "New Scientist",
+    "published": "2026-10-19T10:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "niño",
+      "dramatically",
+      "increasing"
+    ]
+  },
+  {
+    "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+    "title_es": "Inyección de autoridad estructurada: control humano persistente para agentes de LLM a través de anulaciones de MCP escritas",
+    "url": "https://arxiv.org/abs/2610.22373",
+    "source": "arXiv",
+    "published": "2026-10-19T04:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "structured",
+      "authority",
+      "injection"
+    ]
+  },
+  {
+    "title": "Three reasons why AI is not conscious and perhaps never will be",
+    "title_es": "Tres razones por las que la IA no es consciente y tal vez nunca lo será",
+    "url": "https://www.nature.com/articles/d41586-026-03313-7",
+    "source": "Nature",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "three",
+      "reasons",
+      "why"
+    ]
+  },
+  {
+    "title": "«¿Por qué yo tengo este cáncer?» En el CNIO, la investigación en cáncer de mama baja a lo personal",
+    "title_es": "«¿Por qué yo tengo este cáncer?» En el CNIO, la investigación en cáncer de mama baja a lo personal",
+    "url": "https://www.cnio.es/noticias/por-que-yo-tengo-este-cancer-en-el-cnio-la-investigacion-en-cancer-de-mama-baja-a-lo-personal/",
+    "source": "CNIO",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "por",
+      "qué",
+      "tengo"
+    ]
+  },
+  {
+    "title": "¿Qué sabemos del Universo? El cosmólogo Enrique Martínez González responde a esta pregunta en el Museo de la Ciencia y el Cosmos",
+    "title_es": "¿Qué sabemos del Universo? El cosmólogo Enrique Martínez González responde a esta pregunta en el Museo de la Ciencia y el Cosmos",
+    "url": "https://www.iac.es/es/divulgacion/noticias/que-sabemos-del-universo-el-cosmologo-enrique-martinez-gonzalez-responde-esta-pregunta-en-el-museo-de",
+    "source": "IAC",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "qué",
+      "sabemos",
+      "universo"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+    "title_es": "APOD: 2026 19 de octubre – Treble Clef: Fuente de radio caliente de rayos X inusual",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Newfound clouds of missing ‘ordinary’ matter sit outside galaxies",
+    "title_es": "Nubes recién descubiertas de materia \"ordinaria\" desaparecida se encuentran fuera de las galaxias",
+    "url": "https://www.snexplores.org/article/missing-matter-clouds-outside-galaxies",
+    "source": "Science News Explores",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "newfound",
+      "clouds",
+      "missing"
+    ]
+  },
+  {
+    "title": "Nations seek reset at UN talks as nature goals off track",
+    "title_es": "Las naciones buscan un restablecimiento en las conversaciones de la ONU a medida que los objetivos de la naturaleza se",
+    "url": "https://phys.org/news/2026-10-nations-reset-nature-goals-track.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "nations",
+      "seek",
+      "reset"
+    ]
+  },
+  {
+    "title": "Hubble Space Telescope Spots Dusty Spiral Galaxy: NGC 1827",
+    "title_es": "El telescopio espacial Hubble detecta una galaxia espiral polvorienta: NGC 1827",
+    "url": "https://www.sci.news/astronomy/hubble-dusty-spiral-galaxy-ngc-1827-15136.html",
+    "source": "Sci.News",
+    "published": "2026-10-18T23:58:53.000Z",
+    "date": "2026-10-18",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "space",
+      "telescope"
+    ]
+  },
+  {
     "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
     "title_es": "APOD: 2026 18 de octubre – Sonificado: Pilares de la Nebulosa del Águila",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
@@ -25,6 +151,20 @@
       "worlds",
       "oldest",
       "shipwreck"
+    ]
+  },
+  {
+    "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
+    "title_es": "Los físicos crean un nuevo estado cuántico extraño llamado mar de Fermi fraccional",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-18T00:00:00.000Z",
+    "date": "2026-10-18",
+    "category": "noticia",
+    "tags": [
+      "physicists",
+      "create",
+      "bizarre"
     ]
   },
   {
@@ -263,6 +403,20 @@
       "crawzilla",
       "was",
       "huge"
+    ]
+  },
+  {
+    "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+    "title_es": "Repensar el espacio de diseño de los Transformadores de Difusión de Píxeles de Vainilla",
+    "url": "http://arxiv.org/abs/2610.23854v1",
+    "source": "arXiv",
+    "published": "2026-10-16T00:00:00.000Z",
+    "date": "2026-10-16",
+    "category": "noticia",
+    "tags": [
+      "rethinking",
+      "design",
+      "space"
     ]
   },
   {
@@ -2647,7 +2801,7 @@
   },
   {
     "title": "Investigadores del CNIO encuentran una diana terapéutica que acerca el objetivo de prevenir la metástasis cerebral y evitar recaídas",
-    "title_es": "Investigadores del CNIO encuentran una diana terapéutica que trata sobre el objetivo de prevenir la metástasis cerebral y evitar recaídas",
+    "title_es": "Investigadores del CNIO encuentran una diana terapéutica que acerca el objetivo de prevenir la metástasis cerebral y evitar recaídas",
     "url": "https://www.cnio.es/noticias/investigadores-del-cnio-encuentran-una-diana-terapeutica-que-acerca-el-objetivo-de-prevenir-la-metastasis-cerebral-y-evitar-recaidas/",
     "source": "CNIO",
     "published": "2026-09-28T00:00:00.000Z",
@@ -2661,7 +2815,7 @@
   },
   {
     "title": "Why AI has trouble predicting the fury of hurricane intensity",
-    "title_es": "Por qué la IA tiene problemas para predecir la furia de la intensidad de los huracanes",
+    "title_es": "Why AI has trouble predicting the fury of hurricane intensity",
     "url": "https://phys.org/news/2026-09-ai-fury-hurricane-intensity.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-27T00:00:00.000Z",
@@ -2675,7 +2829,7 @@
   },
   {
     "title": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
-    "title_es": "La glucosamina, un popular suplemento para las articulaciones, relacionado con una progresión más rápida del Alzheimer",
+    "title_es": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
     "url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-27T00:00:00.000Z",
@@ -2689,7 +2843,7 @@
   },
   {
     "title": "Blood test could gauge if a baby has a dangerous infection in 15 minutes",
-    "title_es": "El análisis de sangre podría medir si un bebé tiene una infección peligrosa en 15 minutos",
+    "title_es": "Blood test could gauge if a baby has a dangerous infection in 15 minutes",
     "url": "https://www.newscientist.com/article/2590894-blood-test-could-gauge-if-a-baby-has-a-dangerous-infection-in-15-minutes/",
     "source": "New Scientist",
     "published": "2026-09-26T22:01:00.000Z",
@@ -2703,7 +2857,7 @@
   },
   {
     "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
-    "title_es": "APOD: 26 de septiembre de 2026 – Meteorito reflejado y Vía Láctea",
+    "title_es": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
     "source": "NASA (Top News)",
     "published": "2026-09-26T00:00:00.000Z",
@@ -2717,7 +2871,7 @@
   },
   {
     "title": "Millions in the US Northeast brace for a powerful storm",
-    "title_es": "Millones de personas en el noreste de EE. UU. se preparan para una poderosa tormenta",
+    "title_es": "Millions in the US Northeast brace for a powerful storm",
     "url": "https://phys.org/news/2026-09-millions-northeast-brace-powerful-storm.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-26T00:00:00.000Z",
@@ -2731,7 +2885,7 @@
   },
   {
     "title": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
-    "title_es": "Zepbound y Mounjaro pueden activar la grasa marrón que quema calorías del cuerpo",
+    "title_es": "Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
     "url": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-26T00:00:00.000Z",
@@ -2745,7 +2899,7 @@
   },
   {
     "title": "Trogons Once Had Ordinary Feet, 55-Million-Year-Old Fossil Shows",
-    "title_es": "Los trogones una vez tuvieron pies ordinarios, espectáculos fósiles de 55 millones de años",
+    "title_es": "Trogons Once Had Ordinary Feet, 55-Million-Year-Old Fossil Shows",
     "url": "https://www.sci.news/paleontology/daniatrogon-kochi-15093.html",
     "source": "Sci.News",
     "published": "2026-09-25T23:57:36.000Z",
@@ -2759,7 +2913,7 @@
   },
   {
     "title": "Virtual green spaces and classical music reduce blood pressure in hospital",
-    "title_es": "Los espacios verdes virtuales y la música clásica reducen la presión arterial en el hospital",
+    "title_es": "Virtual green spaces and classical music reduce blood pressure in hospital",
     "url": "https://www.newscientist.com/article/2590932-virtual-green-spaces-and-classical-music-reduce-blood-pressure-in-hospital/",
     "source": "New Scientist",
     "published": "2026-09-25T22:01:00.000Z",
@@ -2773,7 +2927,7 @@
   },
   {
     "title": "Mathematician discovers rare eight-faced shape",
-    "title_es": "Un matemático descubre una rara forma de ocho caras",
+    "title_es": "Mathematician discovers rare eight-faced shape",
     "url": "https://www.newscientist.com/article/2590747-eight-face-shape-with-three-holes-is-new-to-science/",
     "source": "New Scientist",
     "published": "2026-09-25T09:00:00.000Z",
@@ -2787,7 +2941,7 @@
   },
   {
     "title": "Podcast: Should We Put AI-Enabled Tech in Our Brains?",
-    "title_es": "Podcast: ¿Deberíamos poner tecnología habilitada para IA en nuestros cerebros?",
+    "title_es": "Podcast: Should We Put AI-Enabled Tech in Our Brains?",
     "url": "https://undark.org/2026/09/25/podcast-neural-implants/",
     "source": "Undark Magazine",
     "published": "2026-09-25T07:01:00.000Z",
