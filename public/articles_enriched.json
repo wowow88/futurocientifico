@@ -1,5 +1,75 @@
 [
   {
+    "title": "The roots of AI fear in the West are cultural, not technological",
+    "title_es": "Las raíces del miedo a la IA en Occidente son culturales, no tecnológicas",
+    "url": "https://www.newscientist.com/article/2594390-the-roots-of-ai-fear-in-the-west-are-cultural-not-technological/",
+    "source": "New Scientist",
+    "published": "2026-10-20T08:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "roots",
+      "fear",
+      "west"
+    ]
+  },
+  {
+    "title": "Single Vertebra Hints at Oldest Known Iberian Dinosaur",
+    "title_es": "Pistas de una sola vértebra en el dinosaurio ibérico más antiguo conocido",
+    "url": "https://www.sci.news/paleontology/oldest-known-iberian-dinosaur-15140.html",
+    "source": "Sci.News",
+    "published": "2026-10-20T00:26:29.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "single",
+      "vertebra",
+      "hints"
+    ]
+  },
+  {
+    "title": "Bundle water safeguards into critical-mineral licences",
+    "title_es": "Agrupe las protecciones contra el agua en licencias de minerales críticos",
+    "url": "https://www.nature.com/articles/d41586-026-03353-z",
+    "source": "Nature",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "bundle",
+      "water",
+      "safeguards"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan",
+    "title_es": "APOD: 2026 20 de octubre – Un abanico arcoíris anticrepuscular",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Near miss: Indonesia probes crash of suspected Chinese rocket fragment",
+    "title_es": "Casi accidente: Indonesia investiga el accidente de un presunto fragmento de cohete chino",
+    "url": "https://phys.org/news/2026-10-indonesia-probes-chinese-rocket-fragment.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "near",
+      "miss",
+      "indonesia"
+    ]
+  },
+  {
     "title": "El Niño is dramatically increasing sea levels – how bad could it get?",
     "title_es": "El Niño está aumentando dramáticamente el nivel del mar, ¿qué tan malo podría llegar a ser?",
     "url": "https://www.newscientist.com/article/2594376-el-nino-is-dramatically-increasing-sea-levels-how-bad-could-it-get/",
@@ -109,6 +179,62 @@
       "nations",
       "seek",
       "reset"
+    ]
+  },
+  {
+    "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+    "title_es": "OpenVLHarness: Herramienta visual agénica del mundo real: uso con memoria multimodal",
+    "url": "http://arxiv.org/abs/2610.26860v1",
+    "source": "arXiv",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "openvlharness",
+      "real",
+      "world"
+    ]
+  },
+  {
+    "title": "Del Cielo a la Tesis explora el universo a través del telescopio Rubin y las galaxias virtuales",
+    "title_es": "Del Cielo a la Tesis explora el universo a través del telescopio Rubin y las galaxias virtuales",
+    "url": "https://www.iac.es/es/divulgacion/noticias/del-cielo-la-tesis-explora-el-universo-traves-del-telescopio-rubin-y-las-galaxias-virtuales",
+    "source": "IAC",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "cielo",
+      "tesis",
+      "explora"
+    ]
+  },
+  {
+    "title": "These tiny snakes cartwheel to escape danger",
+    "title_es": "Estas diminutas serpientes giran para escapar del peligro",
+    "url": "https://www.sciencenews.org/article/tiny-snakes-cartwheel-escape-video",
+    "source": "Science News",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "these",
+      "tiny",
+      "snakes"
+    ]
+  },
+  {
+    "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
+    "title_es": "Los científicos descubren que solo 3.000 pasos al día pueden ayudar a frenar el Alzheimer",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-19T00:00:00.000Z",
+    "date": "2026-10-19",
+    "category": "noticia",
+    "tags": [
+      "just",
+      "3000",
+      "steps"
     ]
   },
   {
@@ -2689,7 +2815,7 @@
   },
   {
     "title": "China now leads the world in trials for next-gen CAR-T therapies",
-    "title_es": "China ahora lidera el mundo en ensayos para terapias CAR-T de próxima generación",
+    "title_es": "China now leads the world in trials for next-gen CAR-T therapies",
     "url": "https://www.nature.com/articles/d41586-026-03004-3",
     "source": "Nature",
     "published": "2026-09-28T00:00:00.000Z",
@@ -2731,7 +2857,7 @@
   },
   {
     "title": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
-    "title_es": "APOD: 2026 28 de septiembre – Latte Cósmico: El Color Promedio del Universo",
+    "title_es": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
     "source": "NASA (Top News)",
     "published": "2026-09-28T00:00:00.000Z",
@@ -2745,7 +2871,7 @@
   },
   {
     "title": "Scientists Say: Paradox",
-    "title_es": "Los científicos dicen: Paradoja",
+    "title_es": "Scientists Say: Paradox",
     "url": "https://www.snexplores.org/article/scientists-say-paradox-definition-pronunciation",
     "source": "Science News Explores",
     "published": "2026-09-28T00:00:00.000Z",
@@ -2759,7 +2885,7 @@
   },
   {
     "title": "Biscayne Bay recognized as an essential habitat for sharks and rays",
-    "title_es": "Bahía de Biscayne reconocida como un hábitat esencial para tiburones y rayas",
+    "title_es": "Biscayne Bay recognized as an essential habitat for sharks and rays",
     "url": "https://phys.org/news/2026-09-biscayne-bay-essential-habitat-sharks.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-28T00:00:00.000Z",
@@ -2773,7 +2899,7 @@
   },
   {
     "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
-    "title_es": "FurE: Reconstrucción eficiente de pieles 3D específicas de la instancia sin conjuntos de datos de pieles de animales",
+    "title_es": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
     "url": "http://arxiv.org/abs/2609.35770v1",
     "source": "arXiv",
     "published": "2026-09-28T00:00:00.000Z",
@@ -62985,7 +63111,7 @@
     ]
   },
   {
-    "title": "Meta reinforcement learning for robust quadruped locomotion under joint failures",
+    "title": "Retraction: Pyrroloquinoline Quinine Inhibits RANKL-Mediated Expression of NFATc1 in Part via Suppression of c-Fos in Mouse Bone Marrow Cells and Inhibits Wear Particle-Induced Osteolysis in Mice",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -125999,6 +126125,20 @@
       "nmssmscanner",
       "efficient",
       "scans"
+    ]
+  },
+  {
+    "title": "Codebase release 1.0 for QCommute, by Oleg Lychkovskiy, Viacheslav Khrushchev, Ilya Shirokov",
+    "title_es": "Codebase release 1.0 for QCommute, by Oleg Lychkovskiy, Viacheslav Khrushchev, Ilya Shirokov",
+    "url": "http://scipost.org/scipostphyscodeb.84-r1.0",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "codebase",
+      "release",
+      "qcommute"
     ]
   }
 ]
