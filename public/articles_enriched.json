@@ -1,5 +1,89 @@
 [
   {
+    "title": "UN says 1.5°C is over and world is on track for 2.8°C of global warming",
+    "title_es": "La ONU dice que 1,5° C ha terminado y el mundo está en camino de 2,8° C de calentamiento global",
+    "url": "https://www.newscientist.com/article/2594831-un-says-1-5c-is-over-and-world-is-on-track-for-2-8c-of-global-warming/",
+    "source": "New Scientist",
+    "published": "2026-10-21T05:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "says",
+      "15c",
+      "over"
+    ]
+  },
+  {
+    "title": "H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning",
+    "title_es": "H2DF: Bandas objetivo calibradas para el desaprendizaje del modelo de lenguaje controlable",
+    "url": "https://arxiv.org/abs/2610.26864",
+    "source": "arXiv",
+    "published": "2026-10-21T04:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "h2df",
+      "calibrated",
+      "target"
+    ]
+  },
+  {
+    "title": "Early Cambrian Fossil Rewrites Starfish Family Tree",
+    "title_es": "El fósil del Cámbrico temprano reescribe el árbol genealógico de las estrellas de mar",
+    "url": "https://www.sci.news/paleontology/yujingia-glutenotunica-15143.html",
+    "source": "Sci.News",
+    "published": "2026-10-21T00:32:28.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "early",
+      "cambrian",
+      "fossil"
+    ]
+  },
+  {
+    "title": "Global emissions slow — but world hurtles towards 2 °C of warming",
+    "title_es": "Las emisiones globales son lentas, pero el mundo se precipita hacia 2 °C de calentamiento",
+    "url": "https://www.nature.com/articles/d41586-026-03355-x",
+    "source": "Nature",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "global",
+      "emissions",
+      "slow"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 21 – New Ghosts Revealed in Cassiopeia",
+    "title_es": "APOD: 21 de octubre de 2026 – Nuevos fantasmas revelados en Casiopea",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "South Korea launches new bid to guide crowd-pulling shark to sea",
+    "title_es": "Corea del Sur lanza una nueva oferta para guiar a los tiburones que tiran de la multitud hacia el mar",
+    "url": "https://phys.org/news/2026-10-south-korea-crowd-shark-sea.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "south",
+      "korea",
+      "launches"
+    ]
+  },
+  {
     "title": "The roots of AI fear in the West are cultural, not technological",
     "title_es": "Las raíces del miedo a la IA en Occidente son culturales, no tecnológicas",
     "url": "https://www.newscientist.com/article/2594390-the-roots-of-ai-fear-in-the-west-are-cultural-not-technological/",
@@ -67,6 +151,90 @@
       "near",
       "miss",
       "indonesia"
+    ]
+  },
+  {
+    "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+    "title_es": "¡Articulaciones, cámara, acción! Cogeneración de movimiento y vídeo 3D para plataformas arbitrarias",
+    "url": "http://arxiv.org/abs/2610.28632v1",
+    "source": "arXiv",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "joints",
+      "camera",
+      "action"
+    ]
+  },
+  {
+    "title": "Cinco investigadores del CNIO reciben ayudas de la Fundación ‘la Caixa’ para desarrollar nuevas estrategias de tratamiento del cáncer",
+    "title_es": "Cinco investigadores del CNIO reciben ayudas de la Fundación ‘la Caixa’ para desarrollar nuevas estrategias de tratamiento del cáncer",
+    "url": "https://www.cnio.es/noticias/cuatro-investigadores-del-cnio-reciben-ayudas-de-la-fundacion-la-caixa-para-desarrollar-nuevas-estrategias-de-tratamiento-del-cancer/",
+    "source": "CNIO",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "cinco",
+      "investigadores",
+      "cnio"
+    ]
+  },
+  {
+    "title": "La directora del LASP visita el IAC para explorar futuras vías de colaboración científica y tecnológica",
+    "title_es": "La directora del LASP visita el IAC para explorar futuras vías de colaboración científica y tecnológica",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-directora-del-lasp-visita-el-iac-para-explorar-futuras-vias-de-colaboracion-cientifica-y-tecnologica",
+    "source": "IAC",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "directora",
+      "lasp",
+      "visita"
+    ]
+  },
+  {
+    "title": "Rule breaking by just a few people can be contagious",
+    "title_es": "Romper las reglas por solo unas pocas personas puede ser contagioso",
+    "url": "https://www.sciencenews.org/article/rule-breaking-can-be-contagious",
+    "source": "Science News",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "rule",
+      "breaking",
+      "just"
+    ]
+  },
+  {
+    "title": "Sliding down surfaces can make rainwater corrosive",
+    "title_es": "Deslizarse por las superficies puede hacer que el agua de lluvia sea corrosiva",
+    "url": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
+    "source": "Science News Explores",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "sliding",
+      "down",
+      "surfaces"
+    ]
+  },
+  {
+    "title": "Scientists finally uncover why statins can cause muscle pain",
+    "title_es": "Los científicos finalmente descubren por qué las estatinas pueden causar dolor muscular",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-20T00:00:00.000Z",
+    "date": "2026-10-20",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "finally",
+      "uncover"
     ]
   },
   {
@@ -2633,7 +2801,7 @@
   },
   {
     "title": "Trustworthy science journalism is more essential than ever",
-    "title_es": "El periodismo científico de confianza es más esencial que nunca",
+    "title_es": "Trustworthy science journalism is more essential than ever",
     "url": "https://www.newscientist.com/article/2591119-trustworthy-science-journalism-is-more-essential-than-ever/",
     "source": "New Scientist",
     "published": "2026-09-29T10:59:45.000Z",
@@ -2647,7 +2815,7 @@
   },
   {
     "title": "PhD training should encourage ethical dissent",
-    "title_es": "La formación de doctorado debe fomentar la disidencia ética",
+    "title_es": "PhD training should encourage ethical dissent",
     "url": "https://www.nature.com/articles/d41586-026-03053-8",
     "source": "Nature",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2661,7 +2829,7 @@
   },
   {
     "title": "APOD: 2026 September 29 – Sh2-188: The Shrimp Nebula",
-    "title_es": "APOD: 2026 29 de septiembre – Sh2-188: La nebulosa del camarón",
+    "title_es": "APOD: 2026 September 29 – Sh2-188: The Shrimp Nebula",
     "url": "https://science.nasa.gov/image-article/apod-2026-september-29-sh2-188-the-shrimp-nebula/",
     "source": "NASA (Top News)",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2675,7 +2843,7 @@
   },
   {
     "title": "‘The Deep End’ podcast is back to explore what makes your voice yours",
-    "title_es": "El podcast ‘The Deep End’ vuelve para explorar lo que hace que tu voz sea tuya",
+    "title_es": "‘The Deep End’ podcast is back to explore what makes your voice yours",
     "url": "https://www.sciencenews.org/article/the-deep-end-season-2-voice-identity",
     "source": "Science News",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2689,7 +2857,7 @@
   },
   {
     "title": "Cuddling helps apes keep the peace",
-    "title_es": "Acurrucarse ayuda a los simios a mantener la paz",
+    "title_es": "Cuddling helps apes keep the peace",
     "url": "https://www.snexplores.org/article/cuddling-apes-chimps-bonobos-peace",
     "source": "Science News Explores",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2703,7 +2871,7 @@
   },
   {
     "title": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
-    "title_es": "La explosión de hielo de la luna Encélado de Saturno es más extraña de lo que los científicos pensaban",
+    "title_es": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
     "url": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2717,7 +2885,7 @@
   },
   {
     "title": "Study shows rising rates of reported intentional substance exposures at school",
-    "title_es": "El estudio muestra tasas crecientes de exposición intencional a sustancias en la escuela",
+    "title_es": "Study shows rising rates of reported intentional substance exposures at school",
     "url": "https://phys.org/news/2026-09-intentional-substance-exposures-school.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2731,7 +2899,7 @@
   },
   {
     "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-    "title_es": "Disparo de habilidades espaciales para la mejora de la política de robots autónomos",
+    "title_es": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
     "url": "http://arxiv.org/abs/2609.38178v1",
     "source": "arXiv",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2745,7 +2913,7 @@
   },
   {
     "title": "A medieval remedy could offer ideas for beating antibiotic resistance",
-    "title_es": "Un remedio medieval podría ofrecer ideas para vencer la resistencia a los antibióticos",
+    "title_es": "A medieval remedy could offer ideas for beating antibiotic resistance",
     "url": "https://www.sciencenews.org/article/medieval-remedy-antibiotic-resistance",
     "source": "Science News",
     "published": "2026-09-29T00:00:00.000Z",
@@ -2759,7 +2927,7 @@
   },
   {
     "title": "120-Million-Year-Old Fossil Pushes Back Origin of Marsupial Lineage",
-    "title_es": "Un fósil de 120 millones de años retrasa el origen del linaje marsupial",
+    "title_es": "120-Million-Year-Old Fossil Pushes Back Origin of Marsupial Lineage",
     "url": "https://www.sci.news/paleontology/archetheridium-sinense-15098.html",
     "source": "Sci.News",
     "published": "2026-09-28T23:16:53.000Z",
@@ -2773,7 +2941,7 @@
   },
   {
     "title": "Why is this monster El Niño so strong?",
-    "title_es": "¿Por qué es tan fuerte este monstruo de El Niño?",
+    "title_es": "Why is this monster El Niño so strong?",
     "url": "https://www.newscientist.com/article/2590917-what-has-made-this-monster-el-nino-so-strong/",
     "source": "New Scientist",
     "published": "2026-09-28T11:00:00.000Z",
@@ -2787,7 +2955,7 @@
   },
   {
     "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
-    "title_es": "Robots confiables: conozca al equipo de robótica diestro de Johnson",
+    "title_es": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
     "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
     "source": "NASA (Top News)",
     "published": "2026-09-28T10:00:00.000Z",
@@ -63111,7 +63279,7 @@
     ]
   },
   {
-    "title": "Retraction: Pyrroloquinoline Quinine Inhibits RANKL-Mediated Expression of NFATc1 in Part via Suppression of c-Fos in Mouse Bone Marrow Cells and Inhibits Wear Particle-Induced Osteolysis in Mice",
+    "title": "Depth-dependent soil water-salt relationships in the Hetao Irrigation District, arid Northwest China: Implications for sustainable management",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -126139,6 +126307,20 @@
       "codebase",
       "release",
       "qcommute"
+    ]
+  },
+  {
+    "title": "On the resolution of categorical symmetries in (non-) unitary rational CFTs, by Arpan Bhattacharyya, Saptaswa Ghosh, Sounak Pal, Jagannath Santara",
+    "title_es": "On the resolution of categorical symmetries in (non-) unitary rational CFTs, by Arpan Bhattacharyya, Saptaswa Ghosh, Sounak Pal, Jagannath Santara",
+    "url": "http://scipost.org/scipostphyscore.9.4.069",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "resolution",
+      "categorical",
+      "symmetries"
     ]
   }
 ]
