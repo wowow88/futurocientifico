@@ -1,5 +1,75 @@
 [
   {
+    "title": "RESEARCHHUB: A Personalized Literature Discovery System for Biomedical Preprints",
+    "title_es": "RESEARCHHUB: un sistema personalizado de descubrimiento de literatura para preimpresiones biomédicas",
+    "url": "https://arxiv.org/abs/2610.28636",
+    "source": "arXiv",
+    "published": "2026-10-22T04:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "researchhub",
+      "personalized",
+      "literature"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 22 – The First Green Star, WD J1330+6435",
+    "title_es": "APOD: 2026 22 de octubre – La primera estrella verde, WD J1330+6435",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Algae-powered soft robot arm uses light to grasp and lift small objects",
+    "title_es": "El brazo robótico suave alimentado por algas utiliza la luz para agarrar y levantar objetos pequeños",
+    "url": "https://phys.org/news/2026-10-algae-powered-soft-robot-arm.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "algae-powered",
+      "soft",
+      "robot"
+    ]
+  },
+  {
+    "title": "Crocodile Kin Have Been Chasing Warm Climates for 250 Million Years",
+    "title_es": "Cocodrilo Kin ha estado persiguiendo climas cálidos durante 250 millones de años",
+    "url": "https://www.sci.news/paleontology/warm-climate-pseudosuchians-15146.html",
+    "source": "Sci.News",
+    "published": "2026-10-21T23:20:51.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "crocodile",
+      "kin",
+      "have"
+    ]
+  },
+  {
+    "title": "People are vibe coding copyrighted apps with AI – will tech firms sue?",
+    "title_es": "La gente está codificando aplicaciones con derechos de autor con IA: ¿demandarán las empresas de tecnología?",
+    "url": "https://www.newscientist.com/article/2595251-people-are-vibe-coding-copyrighted-apps-with-ai-will-tech-firms-sue/",
+    "source": "New Scientist",
+    "published": "2026-10-21T19:18:25.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "people",
+      "are",
+      "vibe"
+    ]
+  },
+  {
     "title": "UN says 1.5°C is over and world is on track for 2.8°C of global warming",
     "title_es": "La ONU dice que 1,5° C ha terminado y el mundo está en camino de 2,8° C de calentamiento global",
     "url": "https://www.newscientist.com/article/2594831-un-says-1-5c-is-over-and-world-is-on-track-for-2-8c-of-global-warming/",
@@ -81,6 +151,90 @@
       "south",
       "korea",
       "launches"
+    ]
+  },
+  {
+    "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+    "title_es": "Piense más en lo que importa: Recursión adaptativa a nivel de elemento para la recomendación secuencial",
+    "url": "http://arxiv.org/abs/2610.30128v1",
+    "source": "arXiv",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "think",
+      "harder",
+      "where"
+    ]
+  },
+  {
+    "title": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
+    "title_es": "Diseño de novo de fotocatalizadores de metaloenzimas artificiales enantioselectivos",
+    "url": "https://www.nature.com/articles/s41586-026-11317-6",
+    "source": "Nature",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "novo",
+      "design",
+      "enantioselective"
+    ]
+  },
+  {
+    "title": "El Instituto de Astrofísica de Canarias conmemora a Francisco Sánchez en el primer aniversario de su fallecimiento",
+    "title_es": "El Instituto de Astrofísica de Canarias conmemora a Francisco Sánchez en el primer aniversario de su fallecimiento",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-instituto-de-astrofisica-de-canarias-conmemora-francisco-sanchez-en-el-primer-aniversario-de-su",
+    "source": "IAC",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "instituto",
+      "astrofísica",
+      "canarias"
+    ]
+  },
+  {
+    "title": "AI could turn scientific papers into research assistants",
+    "title_es": "La IA podría convertir los artículos científicos en asistentes de investigación",
+    "url": "https://www.sciencenews.org/article/ai-scientific-papers-research-assistant",
+    "source": "Science News",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "could",
+      "turn",
+      "scientific"
+    ]
+  },
+  {
+    "title": "Explainer: What is an equation?",
+    "title_es": "Explicador: ¿Qué es una ecuación?",
+    "url": "https://www.snexplores.org/article/what-is-math-equation",
+    "source": "Science News Explores",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "explainer",
+      "what",
+      "equation"
+    ]
+  },
+  {
+    "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+    "title_es": "Un enorme asteroide se estrelló contra el Mar del Norte y desató un tsunami de 330 pies",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-21T00:00:00.000Z",
+    "date": "2026-10-21",
+    "category": "noticia",
+    "tags": [
+      "massive",
+      "asteroid",
+      "slammed"
     ]
   },
   {
@@ -2647,7 +2801,7 @@
   },
   {
     "title": "A medical mystery unfolds in middle America",
-    "title_es": "Un misterio médico se desarrolla en el centro de Estados Unidos",
+    "title_es": "A medical mystery unfolds in middle America",
     "url": "https://spj.science.org/doi/abs/10.1126/science.ael1175",
     "source": "Science.org",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2661,7 +2815,7 @@
   },
   {
     "title": "The best new science-fiction books of October 2026",
-    "title_es": "Los mejores nuevos libros de ciencia ficción de octubre de 2026",
+    "title_es": "The best new science-fiction books of October 2026",
     "url": "https://www.newscientist.com/article/2591308-the-best-new-science-fiction-books-of-october-2026/",
     "source": "New Scientist",
     "published": "2026-09-30T09:00:00.000Z",
@@ -2675,7 +2829,7 @@
   },
   {
     "title": "Socrates-RAG: Premise-Directed Inquiry against Coordinated Evidence Poisoning",
-    "title_es": "Sócrates-RAG: Investigación dirigida por las premisas contra el envenenamiento coordinado de la evidencia",
+    "title_es": "Socrates-RAG: Premise-Directed Inquiry against Coordinated Evidence Poisoning",
     "url": "https://arxiv.org/abs/2609.35773",
     "source": "arXiv",
     "published": "2026-09-30T04:00:00.000Z",
@@ -2689,7 +2843,7 @@
   },
   {
     "title": "The super El Niño is cooking coral reefs — can lullabies and probiotics save them?",
-    "title_es": "El super El Niño está cocinando los arrecifes de coral: ¿pueden salvarlos las canciones de cuna y los probióticos?",
+    "title_es": "The super El Niño is cooking coral reefs — can lullabies and probiotics save them?",
     "url": "https://www.nature.com/articles/d41586-026-02965-9",
     "source": "Nature",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2717,7 +2871,7 @@
   },
   {
     "title": "UNDARK reúne a investigadores para explorar las fronteras del Universo oscuro",
-    "title_es": "UNDARK reúne a investigadores para explorar las fronteras del universo oscuro",
+    "title_es": "UNDARK reúne a investigadores para explorar las fronteras del Universo oscuro",
     "url": "https://www.iac.es/es/divulgacion/noticias/undark-reune-investigadores-para-explorar-las-fronteras-del-universo-oscuro",
     "source": "IAC",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2731,7 +2885,7 @@
   },
   {
     "title": "Analyze This: Even as Earth’s oceans warm, one spot has gone cold",
-    "title_es": "Analiza esto: A pesar de que los océanos de la Tierra se calientan, un lugar se ha enfriado",
+    "title_es": "Analyze This: Even as Earth’s oceans warm, one spot has gone cold",
     "url": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
     "source": "Science News Explores",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2745,7 +2899,7 @@
   },
   {
     "title": "Wild crabapples have genetic potential to improve domestic varieties",
-    "title_es": "Las manzanas silvestres tienen potencial genético para mejorar las variedades domésticas",
+    "title_es": "Wild crabapples have genetic potential to improve domestic varieties",
     "url": "https://phys.org/news/2026-09-wild-crabapples-genetic-potential-domestic.html",
     "source": "Phys.org (Latest)",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2759,7 +2913,7 @@
   },
   {
     "title": "Semifactual Credit-Augmented Policy Optimization",
-    "title_es": "Optimización de la Política de Crédito Aumentado Semifactual",
+    "title_es": "Semifactual Credit-Augmented Policy Optimization",
     "url": "http://arxiv.org/abs/2609.40360v1",
     "source": "arXiv",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2773,7 +2927,7 @@
   },
   {
     "title": "A new map points out U.S. rivers most worth protecting",
-    "title_es": "Un nuevo mapa señala los ríos de EE. UU. que más vale la pena proteger",
+    "title_es": "A new map points out U.S. rivers most worth protecting",
     "url": "https://www.sciencenews.org/article/new-map-rivers-conservation-protection",
     "source": "Science News",
     "published": "2026-09-30T00:00:00.000Z",
@@ -2787,7 +2941,7 @@
   },
   {
     "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
-    "title_es": "Mira en vivo: La tripulación 13 de la NASA podría hacer el viaje más rápido de Estados Unidos a la ISS",
+    "title_es": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
     "url": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-09-30T00:00:00.000Z",
@@ -63279,7 +63433,7 @@
     ]
   },
   {
-    "title": "Depth-dependent soil water-salt relationships in the Hetao Irrigation District, arid Northwest China: Implications for sustainable management",
+    "title": "Correction: Gut microbiome is associated with stereotypic behavior of the giant panda ( Ailuropoda melanoleuca )",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -126321,6 +126475,20 @@
       "resolution",
       "categorical",
       "symmetries"
+    ]
+  },
+  {
+    "title": "Detecting symmetry-resolved entanglement: A quantum Monte Carlo approach, by Kuangjie Chen, Weizhen Jia, Xiaopeng Li, René Meyer, Jiarui Zhao",
+    "title_es": "Detecting symmetry-resolved entanglement: A quantum Monte Carlo approach, by Kuangjie Chen, Weizhen Jia, Xiaopeng Li, René Meyer, Jiarui Zhao",
+    "url": "http://scipost.org/scipostphys.21.4.099",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "detecting",
+      "symmetry-resolved",
+      "entanglement"
     ]
   }
 ]
