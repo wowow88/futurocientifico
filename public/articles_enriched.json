@@ -1,5 +1,117 @@
 [
   {
+    "title": "Emily St. John Mandel: ‘I don’t want to write something relentlessly bleak’",
+    "title_es": "Emily St. John Mandel: \"No quiero escribir algo implacablemente sombrío\"",
+    "url": "https://www.newscientist.com/article/2594154-emily-st-john-mandel-i-dont-want-to-write-something-relentlessly-bleak/",
+    "source": "New Scientist",
+    "published": "2026-10-23T09:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "emily",
+      "john",
+      "mandel"
+    ]
+  },
+  {
+    "title": "Podcast: The Entanglements Series Finale",
+    "title_es": "Podcast: El final de la serie Entanglements",
+    "url": "https://undark.org/2026/10/23/podcast-season-3-finale/",
+    "source": "Undark Magazine",
+    "published": "2026-10-23T07:05:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "podcast",
+      "entanglements",
+      "series"
+    ]
+  },
+  {
+    "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+    "title_es": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+    "url": "https://arxiv.org/abs/2610.30151",
+    "source": "arXiv",
+    "published": "2026-10-23T04:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "cost",
+      "saying",
+      "hello"
+    ]
+  },
+  {
+    "title": "Average Human Genome Carries Millions of Variants, New Research Shows",
+    "title_es": "El genoma humano promedio lleva millones de variantes, según muestra una nueva investigación",
+    "url": "https://www.sci.news/genetics/average-human-genome-15148.html",
+    "source": "Sci.News",
+    "published": "2026-10-23T01:32:19.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "average",
+      "human",
+      "genome"
+    ]
+  },
+  {
+    "title": "Elusive snow leopards and evasive particles: Books in brief",
+    "title_es": "Leopardos de las nieves esquivos y partículas evasivas: Libros breves",
+    "url": "https://www.nature.com/articles/d41586-026-03395-3",
+    "source": "Nature",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "elusive",
+      "snow",
+      "leopards"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 23 – Andromeda in Southern Spring",
+    "title_es": "APOD: 2026 23 de octubre – Andrómeda en Southern Spring",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+    "title_es": "Científicos de Cambridge crean un chip de $ 10 que podría poner un laboratorio médico en tu muñeca",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "cambridge",
+      "scientists",
+      "create"
+    ]
+  },
+  {
+    "title": "Just 3% of the world's glaciers account for over half of glacier ice loss",
+    "title_es": "Solo el 3% de los glaciares del mundo representan más de la mitad de la pérdida de hielo glaciar",
+    "url": "https://phys.org/news/2026-10-world-glaciers-account-glacier-ice.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "just",
+      "worlds",
+      "glaciers"
+    ]
+  },
+  {
     "title": "RESEARCHHUB: A Personalized Literature Discovery System for Biomedical Preprints",
     "title_es": "RESEARCHHUB: un sistema personalizado de descubrimiento de literatura para preimpresiones biomédicas",
     "url": "https://arxiv.org/abs/2610.28636",
@@ -39,6 +151,75 @@
       "algae-powered",
       "soft",
       "robot"
+    ]
+  },
+  {
+    "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+    "title_es": "Aprobación directa @$k$ Optimización para la poda del pensamiento: equilibrar la calidad y la diversidad en el razonamiento a tiempo de prueba",
+    "url": "http://arxiv.org/abs/2610.31667v1",
+    "source": "arXiv",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "direct",
+      "passk",
+      "optimization"
+    ]
+  },
+  {
+    "title": "The Monarch Bear",
+    "title_es": "El oso monarca",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aem5501",
+    "source": "Science.org",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "monarch",
+      "bear"
+    ]
+  },
+  {
+    "title": "La sombra del disco de un agujero negro revela cómo devora materia",
+    "title_es": "La sombra del disco de un agujero negro revela cómo devora materia",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-sombra-del-disco-de-un-agujero-negro-revela-como-devora-materia",
+    "source": "IAC",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "sombra",
+      "disco",
+      "agujero"
+    ]
+  },
+  {
+    "title": "A nanoparticle revealed the tiny impact of a single gas atom",
+    "title_es": "Una nanopartícula reveló el pequeño impacto de un solo átomo de gas",
+    "url": "https://www.sciencenews.org/article/nanoparticle-tiny-impact-gas-atom",
+    "source": "Science News",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "nanoparticle",
+      "revealed",
+      "tiny"
+    ]
+  },
+  {
+    "title": "Circular cities go ‘green’ by reusing things over and over again",
+    "title_es": "Las ciudades circulares se vuelven \"verdes\" al reutilizar las cosas una y otra vez",
+    "url": "https://www.snexplores.org/article/circular-cities-go-green-reuse-recycle",
+    "source": "Science News Explores",
+    "published": "2026-10-22T00:00:00.000Z",
+    "date": "2026-10-22",
+    "category": "noticia",
+    "tags": [
+      "circular",
+      "cities",
+      "green"
     ]
   },
   {
@@ -2619,7 +2800,7 @@
   },
   {
     "title": "Dinosaur-Era Mammal Swam Like Platypus and Replaced Its Teeth Multiple Times",
-    "title_es": "Un mamífero de la era de los dinosaurios nadó como el ornitorrinco y reemplazó sus dientes varias veces",
+    "title_es": "Dinosaur-Era Mammal Swam Like Platypus and Replaced Its Teeth Multiple Times",
     "url": "https://www.sci.news/paleontology/dongoconodon-platycauda-15104.html",
     "source": "Sci.News",
     "published": "2026-10-01T22:28:50.000Z",
@@ -2633,7 +2814,7 @@
   },
   {
     "title": "A lack of rockets is creating a crisis for space technology companies",
-    "title_es": "La falta de cohetes está creando una crisis para las empresas de tecnología espacial",
+    "title_es": "A lack of rockets is creating a crisis for space technology companies",
     "url": "https://www.newscientist.com/article/2591502-a-lack-of-rockets-is-creating-a-crisis-for-space-technology-companies/",
     "source": "New Scientist",
     "published": "2026-10-01T11:00:00.000Z",
@@ -2647,7 +2828,7 @@
   },
   {
     "title": "Large Language Models are Approximate Survival Estimators",
-    "title_es": "Los modelos de lenguaje grandes son estimadores aproximados de supervivencia",
+    "title_es": "Large Language Models are Approximate Survival Estimators",
     "url": "https://arxiv.org/abs/2609.38181",
     "source": "arXiv",
     "published": "2026-10-01T04:00:00.000Z",
@@ -2661,7 +2842,7 @@
   },
   {
     "title": "New Feathered Dinosaur Suggests Flight Evolved More Than Once among Birds’ Closest Relatives",
-    "title_es": "Un nuevo dinosaurio emplumado sugiere que el vuelo evolucionó más de una vez entre los parientes más cercanos de las aves",
+    "title_es": "New Feathered Dinosaur Suggests Flight Evolved More Than Once among Birds’ Closest Relatives",
     "url": "https://www.sci.news/paleontology/norellraptor-barsboldi-15101.html",
     "source": "Sci.News",
     "published": "2026-10-01T00:22:28.000Z",
@@ -2675,7 +2856,7 @@
   },
   {
     "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
-    "title_es": "La ‘enfermedad perdida’ que afecta a 190 millones: el medicamento para la endometriosis muestra una promesa temprana",
+    "title_es": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
     "url": "https://www.nature.com/articles/d41586-026-03042-x",
     "source": "Nature",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2689,7 +2870,7 @@
   },
   {
     "title": "The second Competitive Call for Unique Infrastructures of the Distributed Biomedical Imaging Network (ReDIB) for 2026 is now open",
-    "title_es": "Ya está abierta la segunda convocatoria competitiva de infraestructuras únicas de la Red de Imágenes Biomédicas Distribuidas (ReDIB) para 2026",
+    "title_es": "The second Competitive Call for Unique Infrastructures of the Distributed Biomedical Imaging Network (ReDIB) for 2026 is now open",
     "url": "https://www.cnic.es/es/node/244557",
     "source": "CNIC",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2717,7 +2898,7 @@
   },
   {
     "title": "Farting fish and tooting manatees — how some animals use gas",
-    "title_es": "Peces que se tiran pedos y manatíes que tocan: cómo algunos animales usan el gas",
+    "title_es": "Farting fish and tooting manatees — how some animals use gas",
     "url": "https://www.snexplores.org/article/animal-farting-fish-manatee-gas",
     "source": "Science News Explores",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2731,7 +2912,7 @@
   },
   {
     "title": "The hidden pressure behind responding to a boss's good news",
-    "title_es": "La presión oculta detrás de responder a las buenas noticias de un jefe",
+    "title_es": "The hidden pressure behind responding to a boss's good news",
     "url": "https://phys.org/news/2026-10-hidden-pressure-boss-good-news.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2745,7 +2926,7 @@
   },
   {
     "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-    "title_es": "Una base para animarlos a todos: destilación gaussiana en forma de mezcla para avatares en tiempo real",
+    "title_es": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
     "url": "http://arxiv.org/abs/2610.02207v1",
     "source": "arXiv",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2759,7 +2940,7 @@
   },
   {
     "title": "A medical mystery unfolds in middle America",
-    "title_es": "Un misterio médico se desarrolla en el centro de Estados Unidos",
+    "title_es": "A medical mystery unfolds in middle America",
     "url": "https://www.science.org/doi/abs/10.1126/science.ael1175",
     "source": "Science.org",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2773,7 +2954,7 @@
   },
   {
     "title": "Here’s how brain-eating amoebas may infect people",
-    "title_es": "Así es como las amebas devoradoras de cerebros pueden infectar a las personas",
+    "title_es": "Here’s how brain-eating amoebas may infect people",
     "url": "https://www.sciencenews.org/article/brain-eating-amoebas-naegleria-fowleri",
     "source": "Science News",
     "published": "2026-10-01T00:00:00.000Z",
@@ -2787,7 +2968,7 @@
   },
   {
     "title": "This diet may slow brain aging by 2.5 years",
-    "title_es": "Esta dieta puede retrasar el envejecimiento cerebral en 2,5 años",
+    "title_es": "This diet may slow brain aging by 2.5 years",
     "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-01T00:00:00.000Z",
@@ -63433,7 +63614,7 @@
     ]
   },
   {
-    "title": "Correction: Gut microbiome is associated with stereotypic behavior of the giant panda ( Ailuropoda melanoleuca )",
+    "title": "Correction: Nonlinear dose-response of mind-body exercise in older adults with mild cognitive impairment: A systematic review and meta-analysis",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -126489,6 +126670,20 @@
       "detecting",
       "symmetry-resolved",
       "entanglement"
+    ]
+  },
+  {
+    "title": "Extraordinary boundary correlations at deconfined quantum critical points, by Hao-Ran Cui, Hart Goldman",
+    "title_es": "Extraordinary boundary correlations at deconfined quantum critical points, by Hao-Ran Cui, Hart Goldman",
+    "url": "http://scipost.org/scipostphys.21.4.103",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "extraordinary",
+      "boundary",
+      "correlations"
     ]
   }
 ]
