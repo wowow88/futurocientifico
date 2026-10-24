@@ -1,5 +1,61 @@
 [
   {
+    "title": "‘Treble Clef’ Radio Glow Reveals Galaxy Cluster Hiding behind Milky Way",
+    "title_es": "El resplandor de la radio ‘Treble Clef’ revela que el cúmulo de galaxias se esconde detrás de la Vía Láctea",
+    "url": "https://www.sci.news/astronomy/treble-clef-15150.html",
+    "source": "Sci.News",
+    "published": "2026-10-24T01:07:26.000Z",
+    "date": "2026-10-24",
+    "category": "noticia",
+    "tags": [
+      "treble",
+      "clef",
+      "radio"
+    ]
+  },
+  {
+    "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+    "title_es": "APOD: 24 de octubre de 2026 – Selfie de Rosetta",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-24T00:00:00.000Z",
+    "date": "2026-10-24",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "october"
+    ]
+  },
+  {
+    "title": "NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years",
+    "title_es": "La NASA adopta la urgencia de Apolo de construir una base lunar y aterrizar astronautas en 2 años",
+    "url": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-24T00:00:00.000Z",
+    "date": "2026-10-24",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "adopting",
+      "apollos"
+    ]
+  },
+  {
+    "title": "Personalised cancer vaccine expected to be approved next year",
+    "title_es": "Se espera que la vacuna personalizada contra el cáncer se apruebe el próximo año",
+    "url": "https://www.newscientist.com/article/2595599-personalised-cancer-vaccine-expected-to-be-approved-next-year/",
+    "source": "New Scientist",
+    "published": "2026-10-23T14:42:27.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "personalised",
+      "cancer",
+      "vaccine"
+    ]
+  },
+  {
     "title": "Emily St. John Mandel: ‘I don’t want to write something relentlessly bleak’",
     "title_es": "Emily St. John Mandel: \"No quiero escribir algo implacablemente sombrío\"",
     "url": "https://www.newscientist.com/article/2594154-emily-st-john-mandel-i-dont-want-to-write-something-relentlessly-bleak/",
@@ -109,6 +165,90 @@
       "just",
       "worlds",
       "glaciers"
+    ]
+  },
+  {
+    "title": "Author Correction: DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells",
+    "title_es": "Corrección del autor: DYNLL1 se une a MRE11 para limitar la resección final del ADN en células deficientes en BRCA1",
+    "url": "https://www.nature.com/articles/s41586-026-11303-y",
+    "source": "Nature",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "author",
+      "correction",
+      "dynll1"
+    ]
+  },
+  {
+    "title": "Del aula al laboratorio: el CNIO invita a estudiantes de toda España a descubrir en directo cómo se investiga el cáncer",
+    "title_es": "Del aula al laboratorio: el CNIO invita a estudiantes de toda España a descubrir en directo cómo se investiga el cáncer",
+    "url": "https://www.cnio.es/noticias/del-aula-al-laboratorio-el-cnio-invita-a-estudiantes-de-toda-espana-a-descubrir-en-directo-como-se-investiga-el-cancer/",
+    "source": "CNIO",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "aula",
+      "laboratorio",
+      "cnio"
+    ]
+  },
+  {
+    "title": "Indicios de incremento en la actividad magnética tras el intervalo de rotación intermedia según el índice cromosférico triplete infrarrojo de Ca II",
+    "title_es": "Indicios de incremento en la actividad magnética tras el intervalo de rotación intermedia según el índice cromosférico triplete infrarrojo de Ca II",
+    "url": "https://www.iac.es/es/divulgacion/noticias/indicios-de-incremento-en-la-actividad-magnetica-tras-el-intervalo-de-rotacion-intermedia-segun-el",
+    "source": "IAC",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "indicios",
+      "incremento",
+      "actividad"
+    ]
+  },
+  {
+    "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
+    "title_es": "¿Por qué los cerebros de los humanos superaron a los de los chimpancés Un pequeño enemigo podría ayudar a explicarlo",
+    "url": "https://www.sciencenews.org/article/human-chimp-brains-different-virus-dna",
+    "source": "Science News",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "did",
+      "humans"
+    ]
+  },
+  {
+    "title": "Your skin’s chemistry may affect which mosquitoes you attract",
+    "title_es": "La química de tu piel puede afectar a los mosquitos que atraes",
+    "url": "https://www.snexplores.org/article/skin-chemistry-attract-mosquito-bites",
+    "source": "Science News Explores",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "your",
+      "skins",
+      "chemistry"
+    ]
+  },
+  {
+    "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
+    "title_es": "Uno de los supervolcanes más poderosos de la Tierra se está rellenando con magma fresco",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "one",
+      "earths",
+      "most"
     ]
   },
   {
@@ -2674,7 +2814,7 @@
   },
   {
     "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
-    "title_es": "APOD: 2026 2 de octubre – El catálogo completo de Sharpless: 313 nebulosas",
+    "title_es": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
     "source": "NASA (Top News)",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2688,7 +2828,7 @@
   },
   {
     "title": "Among naked mole-rats, a royal’s scent keeps the peace",
-    "title_es": "Entre ratas topo desnudas, el aroma de una realeza mantiene la paz",
+    "title_es": "Among naked mole-rats, a royal’s scent keeps the peace",
     "url": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
     "source": "Science News Explores",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2702,7 +2842,7 @@
   },
   {
     "title": "Q&A: How can marketers use AI effectively—without losing human judgment?",
-    "title_es": "Preguntas y respuestas: ¿Cómo pueden los especialistas en marketing usar la IA de manera efectiva, sin perder el juicio humano?",
+    "title_es": "Q&A: How can marketers use AI effectively—without losing human judgment?",
     "url": "https://phys.org/news/2026-10-qa-ai-effectively-human-judgment.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2716,7 +2856,7 @@
   },
   {
     "title": "Location, location, location: how to edit genes only in the cells you want",
-    "title_es": "Ubicación, ubicación, ubicación: cómo editar genes solo en las células que desea",
+    "title_es": "Location, location, location: how to edit genes only in the cells you want",
     "url": "https://www.nature.com/articles/d41586-026-03037-8",
     "source": "Nature",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2744,7 +2884,7 @@
   },
   {
     "title": "El Telescopio Solar Europeo (EST) recibe el estatus landmark de ESFRI",
-    "title_es": "El Telescopio Solar Europeo (EST) recibe el estatus de hito de ESFRI",
+    "title_es": "El Telescopio Solar Europeo (EST) recibe el estatus landmark de ESFRI",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-telescopio-solar-europeo-est-recibe-el-estatus-landmark-de-esfri",
     "source": "IAC",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2758,7 +2898,7 @@
   },
   {
     "title": "Young Yosemite toads survive winter, then emerge with a deadly fungus",
-    "title_es": "Los jóvenes sapos de Yosemite sobreviven al invierno y luego emergen con un hongo mortal",
+    "title_es": "Young Yosemite toads survive winter, then emerge with a deadly fungus",
     "url": "https://www.sciencenews.org/article/yosemite-toads-fungus-chytrid-winter",
     "source": "Science News",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2772,7 +2912,7 @@
   },
   {
     "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-    "title_es": "Menos decodificador es más codificador: aprendizaje de representación geométrica a partir de la síntesis de vistas novedosas",
+    "title_es": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
     "url": "http://arxiv.org/abs/2610.03717v1",
     "source": "arXiv",
     "published": "2026-10-02T00:00:00.000Z",
@@ -2786,7 +2926,7 @@
   },
   {
     "title": "El Telescopio Solar Europeo recibe el estatus landmark de ESFRI",
-    "title_es": "El Telescopio Solar Europeo recibe el estatus de hito de ESFRI",
+    "title_es": "El Telescopio Solar Europeo recibe el estatus landmark de ESFRI",
     "url": "https://www.iac.es/es/divulgacion/noticias/el-telescopio-solar-europeo-recibe-el-estatus-landmark-de-esfri",
     "source": "IAC",
     "published": "2026-10-02T00:00:00.000Z",
@@ -63614,7 +63754,7 @@
     ]
   },
   {
-    "title": "Correction: Nonlinear dose-response of mind-body exercise in older adults with mild cognitive impairment: A systematic review and meta-analysis",
+    "title": "Correction: Ultrasound-guided microwave ablation versus conventional surgery for Granulomatous Lobular Mastitis: A two-center retrospective comparative stud",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
