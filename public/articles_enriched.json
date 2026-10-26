@@ -1,5 +1,89 @@
 [
   {
+    "title": "What are microchimeric cells doing to our brain?",
+    "title_es": "¿Qué le están haciendo las células microquiméricas a nuestro cerebro?",
+    "url": "https://www.newscientist.com/article/2595503-what-are-microchimeric-cells-doing-to-our-brain/",
+    "source": "New Scientist",
+    "published": "2026-10-26T09:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "what",
+      "are",
+      "microchimeric"
+    ]
+  },
+  {
+    "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+    "title_es": "Validar la comparación, no solo el calificador: por qué la precisión general puede inducir a error en la evaluación interactiva de LLM",
+    "url": "https://arxiv.org/abs/2610.31678",
+    "source": "arXiv",
+    "published": "2026-10-26T04:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "validating",
+      "comparison",
+      "not"
+    ]
+  },
+  {
+    "title": "The Selfish Gene , 50 years on — it’s time for an update",
+    "title_es": "The Selfish Gene, 50 years on — it’s time for an update",
+    "url": "https://www.nature.com/articles/d41586-026-03393-5",
+    "source": "Nature",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "selfish",
+      "gene",
+      "years"
+    ]
+  },
+  {
+    "title": "2026 October 26 – M42: The Great Nebula in Orion",
+    "title_es": "2026 26 de octubre – M42: La Gran Nebulosa de Orión",
+    "url": "https://science.nasa.gov/image-article/2026-october-26-m42-the-great-nebula-in-orion/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "2026",
+      "october",
+      "m42"
+    ]
+  },
+  {
+    "title": "Feeling nervous? Work that system to calm it down",
+    "title_es": "¿Te sientes nervioso? Trabaja ese sistema para calmarlo",
+    "url": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
+    "source": "Science News Explores",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "feeling",
+      "nervous",
+      "work"
+    ]
+  },
+  {
+    "title": "Mindfulness in DNP education: Cultivating resilience and leadership in advanced practice",
+    "title_es": "Mindfulness en la educación de DNP: Cultivar la resiliencia y el liderazgo en la práctica avanzada",
+    "url": "https://phys.org/news/2026-10-mindfulness-dnp-cultivating-resilience-leadership.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "mindfulness",
+      "dnp",
+      "education"
+    ]
+  },
+  {
     "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
     "title_es": "depuración de ADNct y resultados para el cáncer de pulmón resecable de NeoCOAST-2",
     "url": "https://www.nature.com/articles/s41586-026-11328-3",
@@ -25,6 +109,20 @@
       "who",
       "should",
       "have"
+    ]
+  },
+  {
+    "title": "Low-dose aspirin linked to 70% lower dementia risk, but there's a catch",
+    "title_es": "La aspirina en dosis bajas está relacionada con un 70% menos de riesgo de demencia, pero hay un problema",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261024222026.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-25T00:00:00.000Z",
+    "date": "2026-10-25",
+    "category": "noticia",
+    "tags": [
+      "low-dose",
+      "aspirin",
+      "linked"
     ]
   },
   {
@@ -304,6 +402,20 @@
       "one",
       "earths",
       "most"
+    ]
+  },
+  {
+    "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+    "title_es": "SceneBloom: Generación de ambientes interiores genéticos con diseños realistas y diversos para el aprendizaje incorporado",
+    "url": "http://arxiv.org/abs/2610.32978v1",
+    "source": "arXiv",
+    "published": "2026-10-23T00:00:00.000Z",
+    "date": "2026-10-23",
+    "category": "noticia",
+    "tags": [
+      "scenebloom",
+      "agentic",
+      "indoor"
     ]
   },
   {
@@ -2701,7 +2813,7 @@
   },
   {
     "title": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
-    "title_es": "APOD: 2026 4 de octubre – Arco iris supernumerario sobre Nueva Jersey",
+    "title_es": "APOD: 2026 October 4 – Supernumerary Rainbows over New Jersey",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey/",
     "source": "NASA (Top News)",
     "published": "2026-10-04T00:00:00.000Z",
@@ -2715,7 +2827,7 @@
   },
   {
     "title": "Cry for help as French-Swiss lake dries up",
-    "title_es": "Llora pidiendo ayuda mientras el lago franco-suizo se seca",
+    "title_es": "Cry for help as French-Swiss lake dries up",
     "url": "https://phys.org/news/2026-10-cry-french-swiss-lake-dries.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-04T00:00:00.000Z",
@@ -2729,7 +2841,7 @@
   },
   {
     "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
-    "title_es": "APOD: 2026 3 de octubre – Selfie en Vera Rubin Ridge",
+    "title_es": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
     "source": "NASA (Top News)",
     "published": "2026-10-03T00:00:00.000Z",
@@ -2743,7 +2855,7 @@
   },
   {
     "title": "Sea levels to rise in California as a coastal wave surges up the West Coast",
-    "title_es": "El nivel del mar aumentará en California a medida que una ola costera sube por la costa oeste",
+    "title_es": "Sea levels to rise in California as a coastal wave surges up the West Coast",
     "url": "https://phys.org/news/2026-10-sea-california-coastal-surges-west.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-03T00:00:00.000Z",
@@ -2757,7 +2869,7 @@
   },
   {
     "title": "This protective enzyme could help stop fatty liver disease from getting worse",
-    "title_es": "Esta enzima protectora podría ayudar a evitar que la enfermedad del hígado graso empeore",
+    "title_es": "This protective enzyme could help stop fatty liver disease from getting worse",
     "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-03T00:00:00.000Z",
@@ -2771,7 +2883,7 @@
   },
   {
     "title": "First Animals May Have Appeared 200 Million Years Earlier than Their Oldest Fossils Suggest",
-    "title_es": "Los primeros animales pueden haber aparecido 200 millones de años antes de lo que sugieren sus fósiles más antiguos",
+    "title_es": "First Animals May Have Appeared 200 Million Years Earlier than Their Oldest Fossils Suggest",
     "url": "https://www.sci.news/paleontology/first-animals-15106.html",
     "source": "Sci.News",
     "published": "2026-10-02T22:15:56.000Z",
@@ -2785,7 +2897,7 @@
   },
   {
     "title": "Fossil mammal with reptile-like teeth changes picture of our evolution",
-    "title_es": "Un mamífero fósil con dientes de reptil cambia el panorama de nuestra evolución",
+    "title_es": "Fossil mammal with reptile-like teeth changes picture of our evolution",
     "url": "https://www.newscientist.com/article/2591803-fossil-mammal-with-reptile-like-teeth-changes-picture-of-our-evolution/",
     "source": "New Scientist",
     "published": "2026-10-02T16:00:00.000Z",
