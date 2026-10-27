@@ -1,5 +1,103 @@
 [
   {
+    "title": "How vaccines could be about to revolutionise acne treatments",
+    "title_es": "Cómo las vacunas podrían estar a punto de revolucionar los tratamientos contra el acné",
+    "url": "https://www.newscientist.com/article/2595926-how-vaccines-could-be-about-to-revolutionise-acne-treatments/",
+    "source": "New Scientist",
+    "published": "2026-10-27T09:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "vaccines",
+      "could"
+    ]
+  },
+  {
+    "title": "New Lenses on Learning Design: Course Types and Indicators from Large-Scale Moodle Data",
+    "title_es": "Nuevas lentes sobre el diseño del aprendizaje: tipos de cursos e indicadores a partir de datos de Moodle a gran escala",
+    "url": "https://arxiv.org/abs/2610.32983",
+    "source": "arXiv",
+    "published": "2026-10-27T04:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "lenses",
+      "learning"
+    ]
+  },
+  {
+    "title": "The Nobel prize in economic science has a serious gender problem",
+    "title_es": "El premio Nobel de Economía tiene un grave problema de género",
+    "url": "https://www.nature.com/articles/d41586-026-03404-5",
+    "source": "Nature",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "nobel",
+      "prize",
+      "economic"
+    ]
+  },
+  {
+    "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+    "title_es": "Cómo un mentor de Johnson da forma a la próxima generación de talentos de la NASA",
+    "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "johnson",
+      "mentor"
+    ]
+  },
+  {
+    "title": "Farm plants may help fight infections, teen finds",
+    "title_es": "Las plantas de granja pueden ayudar a combatir las infecciones, descubre un adolescente",
+    "url": "https://www.snexplores.org/article/farm-plants-fight-bacteria-jic",
+    "source": "Science News Explores",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "farm",
+      "plants",
+      "may"
+    ]
+  },
+  {
+    "title": "El Niño watch: The impacts around the world this week",
+    "title_es": "Vigilancia de El Niño: Los impactos en todo el mundo esta semana",
+    "url": "https://phys.org/news/2026-10-el-nio-impacts-world-week-1.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "niño",
+      "watch",
+      "impacts"
+    ]
+  },
+  {
+    "title": "Paleontologists Reconstruct Cretaceous Bird in Remarkable Detail",
+    "title_es": "Los paleontólogos reconstruyen aves del Cretácico con gran detalle",
+    "url": "https://www.sci.news/paleontology/concornis-lacustris-15155.html",
+    "source": "Sci.News",
+    "published": "2026-10-26T23:59:25.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "reconstruct",
+      "cretaceous"
+    ]
+  },
+  {
     "title": "What are microchimeric cells doing to our brain?",
     "title_es": "¿Qué le están haciendo las células microquiméricas a nuestro cerebro?",
     "url": "https://www.newscientist.com/article/2595503-what-are-microchimeric-cells-doing-to-our-brain/",
@@ -28,8 +126,8 @@
     ]
   },
   {
-    "title": "The Selfish Gene , 50 years on — it’s time for an update",
-    "title_es": "The Selfish Gene, 50 years on — it’s time for an update",
+    "title": "The Selfish Gene, 50 years on — it’s time for an update",
+    "title_es": "El gen egoísta, 50 años después: es hora de una actualización",
     "url": "https://www.nature.com/articles/d41586-026-03393-5",
     "source": "Nature",
     "published": "2026-10-26T00:00:00.000Z",
@@ -81,6 +179,62 @@
       "mindfulness",
       "dnp",
       "education"
+    ]
+  },
+  {
+    "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+    "title_es": "Recuperación libre de recuperadores: Navegación de documentos con modelos de decisión",
+    "url": "http://arxiv.org/abs/2610.35868v1",
+    "source": "arXiv",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "retriever-free",
+      "retrieval",
+      "navigating"
+    ]
+  },
+  {
+    "title": "Genome Biology: A new online tool developed by CNIC scientists makes it easier to integrate data and uncover the biological mechanisms behind disease",
+    "title_es": "Biología Genómica: Una nueva herramienta online desarrollada por científicos del CNIC facilita la integración de datos y el descubrimiento de los mecanismos biológicos detrás de la enfermedad",
+    "url": "https://www.cnic.es/es/node/267139",
+    "source": "CNIC",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "genome",
+      "biology",
+      "new"
+    ]
+  },
+  {
+    "title": "Volcanoes lurk behind the scenes of human history",
+    "title_es": "Los volcanes acechan entre bastidores en la historia de la humanidad",
+    "url": "https://www.sciencenews.org/article/volcanoes-impact-human-history-climate",
+    "source": "Science News",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "volcanoes",
+      "lurk",
+      "behind"
+    ]
+  },
+  {
+    "title": "Exercise doesn't just strengthen your heart. It rewires it",
+    "title_es": "El ejercicio no solo fortalece tu corazón, sino que lo reconecta",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-26T00:00:00.000Z",
+    "date": "2026-10-26",
+    "category": "noticia",
+    "tags": [
+      "exercise",
+      "doesnt",
+      "just"
     ]
   },
   {
@@ -2645,7 +2799,7 @@
   },
   {
     "title": "New Species of Freshwater Mosasaur Identified in France",
-    "title_es": "Nueva especie de mosasaurio de agua dulce identificada en Francia",
+    "title_es": "New Species of Freshwater Mosasaur Identified in France",
     "url": "https://www.sci.news/paleontology/garamaudo-bauciensis-15111.html",
     "source": "Sci.News",
     "published": "2026-10-05T23:55:53.000Z",
@@ -2659,7 +2813,7 @@
   },
   {
     "title": "Compressing bones releases molecules that ease traumatic brain injuries",
-    "title_es": "La compresión de los huesos libera moléculas que alivian las lesiones cerebrales traumáticas",
+    "title_es": "Compressing bones releases molecules that ease traumatic brain injuries",
     "url": "https://www.newscientist.com/article/2591964-compressing-bones-releases-molecules-that-ease-traumatic-brain-injuries/",
     "source": "New Scientist",
     "published": "2026-10-05T11:00:00.000Z",
@@ -2673,7 +2827,7 @@
   },
   {
     "title": "datascribe_api: Enabling Data-Driven Materials Discovery with DataScribe",
-    "title_es": "datascribe_api: Habilitar el descubrimiento de materiales basados en datos con DataScribe",
+    "title_es": "datascribe_api: Enabling Data-Driven Materials Discovery with DataScribe",
     "url": "https://arxiv.org/abs/2610.02211",
     "source": "arXiv",
     "published": "2026-10-05T04:00:00.000Z",
@@ -2687,7 +2841,7 @@
   },
   {
     "title": "Medicine Nobel awarded for brain ‘switch’ that controls neurons with light: live updates",
-    "title_es": "Premio Nobel de Medicina por el ‘interruptor’ cerebral que controla las neuronas con luz: actualizaciones en directo",
+    "title_es": "Medicine Nobel awarded for brain ‘switch’ that controls neurons with light: live updates",
     "url": "https://www.nature.com/articles/d41586-026-03091-2",
     "source": "Nature",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2701,7 +2855,7 @@
   },
   {
     "title": "APOD: 2026 October 5 – M104: The Sombrero Galaxy’s Tidal Streams",
-    "title_es": "APOD: 2026 5 de octubre – M104: Las corrientes de marea de la Galaxia del Sombrero",
+    "title_es": "APOD: 2026 October 5 – M104: The Sombrero Galaxy’s Tidal Streams",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams/",
     "source": "NASA (Top News)",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2715,7 +2869,7 @@
   },
   {
     "title": "2026’s El Niño is record-breaking — and it’s not done yet",
-    "title_es": "El Niño de 2026 está batiendo récords, y aún no se ha terminado",
+    "title_es": "2026’s El Niño is record-breaking — and it’s not done yet",
     "url": "https://www.snexplores.org/article/record-breaking-2026-el-nino",
     "source": "Science News Explores",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2729,7 +2883,7 @@
   },
   {
     "title": "The “glue” holding your cells together has a surprising second job",
-    "title_es": "El \"pegamento\" que mantiene tus células juntas tiene un segundo trabajo sorprendente",
+    "title_es": "The “glue” holding your cells together has a surprising second job",
     "url": "https://www.sciencedaily.com/releases/2026/10/261002080023.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2743,7 +2897,7 @@
   },
   {
     "title": "Scientists uncover recurrent patterns within chaotic quantum behavior",
-    "title_es": "Los científicos descubren patrones recurrentes dentro del comportamiento cuántico caótico",
+    "title_es": "Scientists uncover recurrent patterns within chaotic quantum behavior",
     "url": "https://phys.org/news/2026-09-scientists-uncover-recurrent-patterns-chaotic.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2757,7 +2911,7 @@
   },
   {
     "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
-    "title_es": "Una figura, cada lienzo: retransmisión de diagrama de flujo editable a través de Agentic Pipeline",
+    "title_es": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
     "url": "http://arxiv.org/abs/2610.06852v1",
     "source": "arXiv",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2785,7 +2939,7 @@
   },
   {
     "title": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
-    "title_es": "No te pierdas: observa el brillo de Saturno y los escombros del cometa Halley en el cielo",
+    "title_es": "Don't miss: Watch Saturn shine and Halley’s Comet debris streak across the sky",
     "url": "https://www.sciencedaily.com/releases/2026/10/261005071523.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-05T00:00:00.000Z",
@@ -2799,7 +2953,7 @@
   },
   {
     "title": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
-    "title_es": "Los científicos encuentran una pista sorprendente de por qué la expansión del universo no cuadra",
+    "title_es": "Scientists find a surprising clue to why the universe’s expansion doesn’t add up",
     "url": "https://www.sciencedaily.com/releases/2026/10/261002080026.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-04T12:05:54.000Z",
@@ -63921,7 +64075,7 @@
     ]
   },
   {
-    "title": "Correction: Ultrasound-guided microwave ablation versus conventional surgery for Granulomatous Lobular Mastitis: A two-center retrospective comparative stud",
+    "title": "From sounds to sentences: A longitudinal study of phonological and emergent literacy predictors of early writing in Turkish children",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -126991,6 +127145,20 @@
       "extraordinary",
       "boundary",
       "correlations"
+    ]
+  },
+  {
+    "title": "Exact many-body wavefunction of the Kondo model with time-dependent interaction strength, by Parameshwar R. Pasnoori, Emil A. Yuzbashyan",
+    "title_es": "Exact many-body wavefunction of the Kondo model with time-dependent interaction strength, by Parameshwar R. Pasnoori, Emil A. Yuzbashyan",
+    "url": "http://scipost.org/scipostphys.21.4.104",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "exact",
+      "many-body",
+      "wavefunction"
     ]
   }
 ]
