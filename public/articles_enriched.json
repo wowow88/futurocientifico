@@ -1,5 +1,117 @@
 [
   {
+    "title": "Super-insulating solid may soon help historical homes reach net-zero goals",
+    "title_es": "El sólido superaislante pronto podría ayudar a las casas históricas a alcanzar los objetivos de cero emisiones netas",
+    "url": "https://www.newscientist.com/article/2596016-super-insulating-solid-may-soon-offer-a-net-zero-solution-for-tricky-homes/",
+    "source": "New Scientist",
+    "published": "2026-10-28T11:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "super-insulating",
+      "solid",
+      "may"
+    ]
+  },
+  {
+    "title": "KORA: Deterministic-First Execution Control for AI Workloads",
+    "title_es": "KORA: DETERMINISTIC-FIRST Execution Control for AI Workloads (Control determinista de primera ejecución para cargas de trabajo de",
+    "url": "https://arxiv.org/abs/2610.35869",
+    "source": "arXiv",
+    "published": "2026-10-28T04:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "kora",
+      "deterministic-first",
+      "execution"
+    ]
+  },
+  {
+    "title": "D. rex: Giant New Fungus Species Discovered in China",
+    "title_es": "D. rex: Nuevas especies gigantes de hongos descubiertas en China",
+    "url": "https://www.sci.news/biology/dianjunus-rex-15158.html",
+    "source": "Sci.News",
+    "published": "2026-10-28T00:47:28.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "rex",
+      "giant",
+      "new"
+    ]
+  },
+  {
+    "title": "How personalization and psychedelics are revitalizing psychiatry",
+    "title_es": "Cómo la personalización y los psicodélicos están revitalizando la psiquiatría",
+    "url": "https://www.nature.com/articles/d41586-026-03402-7",
+    "source": "Nature",
+    "published": "2026-10-28T00:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "personalization",
+      "psychedelics"
+    ]
+  },
+  {
+    "title": "Why do flamingos dance while they eat? This scientist found out",
+    "title_es": "¿Por qué bailan los flamencos mientras comen? Este científico se enteró",
+    "url": "https://www.sciencenews.org/article/flamingos-dance-eat-scientist",
+    "source": "Science News",
+    "published": "2026-10-28T00:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "why",
+      "flamingos",
+      "dance"
+    ]
+  },
+  {
+    "title": "An avalanche inspired this forecaster to keep others safe",
+    "title_es": "Una avalancha inspiró a este pronosticador a mantener a otros a salvo",
+    "url": "https://www.snexplores.org/article/avalanche-forecaster-snow-science",
+    "source": "Science News Explores",
+    "published": "2026-10-28T00:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "avalanche",
+      "inspired",
+      "this"
+    ]
+  },
+  {
+    "title": "The autistic brain processes faces differently than scientists thought",
+    "title_es": "Los procesos cerebrales autistas se enfrentan de manera diferente a lo que los científicos pensaban",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-28T00:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "autistic",
+      "brain",
+      "processes"
+    ]
+  },
+  {
+    "title": "Dead tree branches rise and fall with changing humidity, laser scans reveal",
+    "title_es": "Las ramas de los árboles muertos suben y bajan con la humedad cambiante, revelan los escáneres láser",
+    "url": "https://phys.org/news/2026-10-dead-tree-fall-humidity-laser.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-28T00:00:00.000Z",
+    "date": "2026-10-28",
+    "category": "noticia",
+    "tags": [
+      "dead",
+      "tree",
+      "branches"
+    ]
+  },
+  {
     "title": "How vaccines could be about to revolutionise acne treatments",
     "title_es": "Cómo las vacunas podrían estar a punto de revolucionar los tratamientos contra el acné",
     "url": "https://www.newscientist.com/article/2595926-how-vaccines-could-be-about-to-revolutionise-acne-treatments/",
@@ -81,6 +193,48 @@
       "niño",
       "watch",
       "impacts"
+    ]
+  },
+  {
+    "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+    "title_es": "Superficies de panal: primitivas hexagonales compactas para una representación y reconstrucción eficientes de escenas",
+    "url": "http://arxiv.org/abs/2610.37668v1",
+    "source": "arXiv",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "honeycomb-surfels",
+      "compact",
+      "hexagonal"
+    ]
+  },
+  {
+    "title": "La Fundación Martín Álvarez Muelas apoya una investigación del CNIO para avanzar en el tratamiento de un tumor cerebral infantil sin cura",
+    "title_es": "La Fundación Martín Álvarez Muelas apoya una investigación del CNIO para avanzar en el tratamiento de un tumor cerebral infantil sin cura",
+    "url": "https://www.cnio.es/noticias/la-fundacion-martin-alvarez-muelas-apoya-una-investigacion-del-cnio-para-avanzar-en-el-tratamiento-de-un-tumor-cerebral-infantil-sin-cura-2/",
+    "source": "CNIO",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "fundación",
+      "martín",
+      "álvarez"
+    ]
+  },
+  {
+    "title": "Las XI Jornadas Protagonistas de la Ciencia y la Tecnología en Canarias homenajean a Francisco Sánchez",
+    "title_es": "Las XI Jornadas Protagonistas de la Ciencia y la Tecnología en Canarias homenajean a Francisco Sánchez",
+    "url": "https://www.iac.es/es/divulgacion/noticias/las-xi-jornadas-protagonistas-de-la-ciencia-y-la-tecnologia-en-canarias-homenajean-francisco-sanchez",
+    "source": "IAC",
+    "published": "2026-10-27T00:00:00.000Z",
+    "date": "2026-10-27",
+    "category": "noticia",
+    "tags": [
+      "jornadas",
+      "protagonistas",
+      "ciencia"
     ]
   },
   {
@@ -518,7 +672,7 @@
   },
   {
     "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
-    "title_es": "¿Por qué los cerebros de los humanos superaron a los de los chimpancés Un pequeño enemigo podría ayudar a explicarlo",
+    "title_es": "¿Por qué los cerebros de los humanos superaron a los de los chimpancés? Un pequeño enemigo podría ayudar a explicarlo",
     "url": "https://www.sciencenews.org/article/human-chimp-brains-different-virus-dna",
     "source": "Science News",
     "published": "2026-10-23T00:00:00.000Z",
@@ -2645,7 +2799,7 @@
   },
   {
     "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
-    "title_es": "Nunca mires atrás: comprensión de la persistencia en la memoria de objetos 3D a partir de videos egocéntricos",
+    "title_es": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
     "url": "http://arxiv.org/abs/2610.10538v1",
     "source": "arXiv",
     "published": "2026-10-07T00:00:00.000Z",
@@ -2673,7 +2827,7 @@
   },
   {
     "title": "Gene therapy and special goggles give some blind people limited sight",
-    "title_es": "La terapia génica y las gafas especiales dan a algunas personas ciegas una visión limitada",
+    "title_es": "Gene therapy and special goggles give some blind people limited sight",
     "url": "https://www.sciencenews.org/article/gene-therapy-cells-light-blind-vision",
     "source": "Science News",
     "published": "2026-10-07T00:00:00.000Z",
@@ -2687,7 +2841,7 @@
   },
   {
     "title": "Nobel prize in physics awarded for discovery of high-energy neutrinos",
-    "title_es": "Premio Nobel de Física por el descubrimiento de neutrinos de alta energía",
+    "title_es": "Nobel prize in physics awarded for discovery of high-energy neutrinos",
     "url": "https://www.newscientist.com/article/2592237-nobel-prize-in-physics-awarded-for-discovery-of-high-energy-neutrinos/",
     "source": "New Scientist",
     "published": "2026-10-06T10:26:02.000Z",
@@ -2701,7 +2855,7 @@
   },
   {
     "title": "Maintaining global science collaboration during conflict requires fairer rules",
-    "title_es": "Mantener la colaboración científica global durante los conflictos requiere reglas más justas",
+    "title_es": "Maintaining global science collaboration during conflict requires fairer rules",
     "url": "https://www.nature.com/articles/d41586-026-03176-y",
     "source": "Nature",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2715,7 +2869,7 @@
   },
   {
     "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
-    "title_es": "APOD: 2026 6 de octubre – Un óvalo auroral completo de SMILE",
+    "title_es": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
     "source": "NASA (Top News)",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2729,7 +2883,7 @@
   },
   {
     "title": "Your voice is more than sound. It’s part of who you are",
-    "title_es": "Tu voz es más que sonido. Es parte de lo que eres",
+    "title_es": "Your voice is more than sound. It’s part of who you are",
     "url": "https://www.sciencenews.org/article/deep-end-voice-more-sound-identity",
     "source": "Science News",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2743,7 +2897,7 @@
   },
   {
     "title": "Let’s learn about origami-inspired science",
-    "title_es": "Aprendamos sobre la ciencia inspirada en el origami",
+    "title_es": "Let’s learn about origami-inspired science",
     "url": "https://www.snexplores.org/article/lets-learn-about-origami-inspired-science",
     "source": "Science News Explores",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2757,7 +2911,7 @@
   },
   {
     "title": "As the planet warms, cities like Bangkok could be increasingly inundated by deadly floods",
-    "title_es": "A medida que el planeta se calienta, ciudades como Bangkok podrían verse cada vez más inundadas por inundaciones mortales",
+    "title_es": "As the planet warms, cities like Bangkok could be increasingly inundated by deadly floods",
     "url": "https://phys.org/news/2026-10-planet-cities-bangkok-inundated-deadly.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2771,7 +2925,7 @@
   },
   {
     "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-    "title_es": "4D-HOF: coincidencia de flujo mano-objeto para la reconstrucción de interacción 4D de avance",
+    "title_es": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
     "url": "http://arxiv.org/abs/2610.08782v1",
     "source": "arXiv",
     "published": "2026-10-06T00:00:00.000Z",
@@ -2785,7 +2939,7 @@
   },
   {
     "title": "An extinct crocodilian was found among rocks that built the Great Sphinx",
-    "title_es": "Se encontró un cocodrilo extinto entre las rocas que construyeron la Gran Esfinge",
+    "title_es": "An extinct crocodilian was found among rocks that built the Great Sphinx",
     "url": "https://www.sciencenews.org/article/extinct-crocodilian-rocks-great-sphinx",
     "source": "Science News",
     "published": "2026-10-06T00:00:00.000Z",
@@ -64075,7 +64229,7 @@
     ]
   },
   {
-    "title": "From sounds to sentences: A longitudinal study of phonological and emergent literacy predictors of early writing in Turkish children",
+    "title": "Correction: Chromodomain mutation in S . pombe Kat5/Mst1 affects centromere dynamics and DNA repair",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -127159,6 +127313,20 @@
       "exact",
       "many-body",
       "wavefunction"
+    ]
+  },
+  {
+    "title": "Couch-Torrence conformal inversion, supersymmetry and conserved charges for D3-branes, by Mohammad Akhond, Massimo Bianchi, Antonio Cristofaro, Fabio Riccioni",
+    "title_es": "Couch-Torrence conformal inversion, supersymmetry and conserved charges for D3-branes, by Mohammad Akhond, Massimo Bianchi, Antonio Cristofaro, Fabio Riccioni",
+    "url": "http://scipost.org/scipostphys.21.4.105",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "couch-torrence",
+      "conformal",
+      "inversion"
     ]
   }
 ]
