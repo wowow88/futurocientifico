@@ -1,5 +1,89 @@
 [
   {
+    "title": "Scientists confirm fruit and vegetable skin really is good for you",
+    "title_es": "Los científicos confirman que la piel de frutas y verduras es realmente buena para ti",
+    "url": "https://www.newscientist.com/article/2596529-scientists-have-discovered-a-completely-free-way-to-eat-more-fibre/",
+    "source": "New Scientist",
+    "published": "2026-10-30T09:49:57.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "confirm",
+      "fruit"
+    ]
+  },
+  {
+    "title": "Body Snatchers and the Murky Process of Whole-Body Donation",
+    "title_es": "Los ladrones de cuerpos y el turbio proceso de la donación de cuerpo entero",
+    "url": "https://undark.org/2026/10/30/body-snatchers-murky-whole-body-donation/",
+    "source": "Undark Magazine",
+    "published": "2026-10-30T07:00:49.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "body",
+      "snatchers",
+      "murky"
+    ]
+  },
+  {
+    "title": "New Species of Predatory Dinosaur Identified in Argentina",
+    "title_es": "Nueva especie de dinosaurio depredador identificada en Argentina",
+    "url": "https://www.sci.news/paleontology/rinconraptor-pipoae-15164.html",
+    "source": "Sci.News",
+    "published": "2026-10-30T00:35:12.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "new",
+      "species",
+      "predatory"
+    ]
+  },
+  {
+    "title": "November’s Night Sky Notes: Light-Day Away",
+    "title_es": "Notas del cielo nocturno de noviembre: días de luz de distancia",
+    "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+    "source": "NASA (Top News)",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "novembers",
+      "night",
+      "sky"
+    ]
+  },
+  {
+    "title": "Giant sea spiders emit eerie glow deep below the ocean waves",
+    "title_es": "Las arañas marinas gigantes emiten un misterioso resplandor muy por debajo de las olas del océano",
+    "url": "https://www.snexplores.org/article/giant-sea-spiders-emit-eerie-glow",
+    "source": "Science News Explores",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "giant",
+      "sea",
+      "spiders"
+    ]
+  },
+  {
+    "title": "Asking teachers to set high expectations leads to more detailed feedback and reveals subtle bias, study finds",
+    "title_es": "El estudio encuentra que pedir a los maestros que establezcan altas expectativas conduce a una retroalimentación más detallada y revela un sesgo sutil",
+    "url": "https://phys.org/news/2026-10-teachers-high-feedback-reveals-subtle.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "asking",
+      "teachers",
+      "set"
+    ]
+  },
+  {
     "title": "Key oddity of quantum physics may run even deeper than anticipated",
     "title_es": "La rareza clave de la física cuántica puede ser aún más profunda de lo previsto",
     "url": "https://www.newscientist.com/article/2596105-key-oddity-of-quantum-physics-may-run-even-deeper-than-anticipated/",
@@ -95,6 +179,76 @@
       "prosecutors",
       "invoke",
       "gender"
+    ]
+  },
+  {
+    "title": "Rethinking Neural Thickets Without Weight Perturbations",
+    "title_es": "Repensar los matorrales neuronales sin perturbaciones de peso",
+    "url": "http://arxiv.org/abs/2610.40649v1",
+    "source": "arXiv",
+    "published": "2026-10-29T00:00:00.000Z",
+    "date": "2026-10-29",
+    "category": "noticia",
+    "tags": [
+      "rethinking",
+      "neural",
+      "thickets"
+    ]
+  },
+  {
+    "title": "Spawning Season: An Experiment in Queer Parenthood",
+    "title_es": "Temporada de desove: un experimento en la paternidad queer",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aem8469",
+    "source": "Science.org",
+    "published": "2026-10-29T00:00:00.000Z",
+    "date": "2026-10-29",
+    "category": "noticia",
+    "tags": [
+      "spawning",
+      "season",
+      "experiment"
+    ]
+  },
+  {
+    "title": "Even stupendous black holes can’t explain dark matter",
+    "title_es": "Incluso los agujeros negros estupendos no pueden explicar la materia oscura",
+    "url": "https://www.nature.com/articles/d41586-026-03386-4",
+    "source": "Nature",
+    "published": "2026-10-29T00:00:00.000Z",
+    "date": "2026-10-29",
+    "category": "noticia",
+    "tags": [
+      "even",
+      "stupendous",
+      "black"
+    ]
+  },
+  {
+    "title": "Seabirds get jet lag, too — and it can throw them a bit off course",
+    "title_es": "Las aves marinas también tienen jet lag, y puede desviarlas un poco de su curso",
+    "url": "https://www.sciencenews.org/article/seabird-jet-lag-navigation-off-course",
+    "source": "Science News",
+    "published": "2026-10-29T00:00:00.000Z",
+    "date": "2026-10-29",
+    "category": "noticia",
+    "tags": [
+      "seabirds",
+      "get",
+      "jet"
+    ]
+  },
+  {
+    "title": "Six popular sugar substitutes linked to faster brain aging",
+    "title_es": "Seis sustitutos populares del azúcar vinculados a un envejecimiento cerebral más rápido",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-29T00:00:00.000Z",
+    "date": "2026-10-29",
+    "category": "noticia",
+    "tags": [
+      "six",
+      "popular",
+      "sugar"
     ]
   },
   {
@@ -2645,7 +2799,7 @@
   },
   {
     "title": "How the Grand Canyon could have lost 1 billion years of geologic history",
-    "title_es": "Cómo el Gran Cañón podría haber perdido mil millones de años de historia geológica",
+    "title_es": "How the Grand Canyon could have lost 1 billion years of geologic history",
     "url": "https://www.sciencenews.org/article/grand-canyon-lost-history-giant-cliff",
     "source": "Science News",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2659,7 +2813,7 @@
   },
   {
     "title": "Can Language Models Play the Wikipedia Game?",
-    "title_es": "¿Pueden los modelos de lenguaje jugar el juego de Wikipedia?",
+    "title_es": "Can Language Models Play the Wikipedia Game?",
     "url": "http://arxiv.org/abs/2610.13948v1",
     "source": "arXiv",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2673,7 +2827,7 @@
   },
   {
     "title": "The world may never go back to how it was after this monster El Niño",
-    "title_es": "Puede que el mundo nunca vuelva a ser como era después de este monstruo de El Niño",
+    "title_es": "The world may never go back to how it was after this monster El Niño",
     "url": "https://www.newscientist.com/article/2592450-the-world-may-never-go-back-to-how-it-was-after-this-monster-el-nino/",
     "source": "New Scientist",
     "published": "2026-10-08T11:00:00.000Z",
@@ -2687,7 +2841,7 @@
   },
   {
     "title": "A Bayesian Mirror Architecture for Emergent Consciousness: Circular Hierarchies, Self-Manifolds, and Hybrid Event-Self Binding",
-    "title_es": "A Bayesian Mirror Architecture for Emergent Consciousness: Circular Hierarchies, Self-Manifolds, and Hybrid Event-Self Binding (Una arquitectura de espejo bayesiana para la conciencia emergente: jerarquías circulares, auto",
+    "title_es": "A Bayesian Mirror Architecture for Emergent Consciousness: Circular Hierarchies, Self-Manifolds, and Hybrid Event-Self Binding",
     "url": "https://arxiv.org/abs/2610.08792",
     "source": "arXiv",
     "published": "2026-10-08T04:00:00.000Z",
@@ -2701,7 +2855,7 @@
   },
   {
     "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
-    "title_es": "Se están desplegando ‘mantas’ leñosas en el permafrost del Ártico para reducir las emisiones de carbono",
+    "title_es": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
     "url": "https://www.nature.com/articles/d41586-026-03045-8",
     "source": "Nature",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2715,7 +2869,7 @@
   },
   {
     "title": "These clues might point to life on other worlds",
-    "title_es": "Estas pistas podrían apuntar a la vida en otros mundos",
+    "title_es": "These clues might point to life on other worlds",
     "url": "https://www.snexplores.org/article/clues-life-venus-mars",
     "source": "Science News Explores",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2729,7 +2883,7 @@
   },
   {
     "title": "Stanford scientists turn a cancer driver into a kill switch",
-    "title_es": "Científicos de Stanford convierten a un conductor de cáncer en un interruptor de apagado",
+    "title_es": "Stanford scientists turn a cancer driver into a kill switch",
     "url": "https://www.sciencedaily.com/releases/2026/10/261005071533.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2743,7 +2897,7 @@
   },
   {
     "title": "Brain cells regulate cholesterol to control neuron signaling",
-    "title_es": "Las células cerebrales regulan el colesterol para controlar la señalización neuronal",
+    "title_es": "Brain cells regulate cholesterol to control neuron signaling",
     "url": "https://phys.org/news/2026-10-brain-cells-cholesterol-neuron.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2757,7 +2911,7 @@
   },
   {
     "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-    "title_es": "Sobre la estimación y la validez de los horizontes temporales de la IA: una mirada estadística a la gráfica METR",
+    "title_es": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
     "url": "http://arxiv.org/abs/2610.12466v1",
     "source": "arXiv",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2771,7 +2925,7 @@
   },
   {
     "title": "Demographic “doomsday” misses the mark",
-    "title_es": "El \"día del juicio final\" demográfico no da en el blanco",
+    "title_es": "Demographic “doomsday” misses the mark",
     "url": "https://www.science.org/doi/abs/10.1126/science.ael8752",
     "source": "Science.org",
     "published": "2026-10-08T00:00:00.000Z",
@@ -2785,7 +2939,7 @@
   },
   {
     "title": "Kilauea’s display is revealing why volcanoes spew like a fountain show",
-    "title_es": "La exhibición de Kilauea revela por qué los volcanes vomitan como un espectáculo de fuentes",
+    "title_es": "Kilauea’s display is revealing why volcanoes spew like a fountain show",
     "url": "https://www.sciencenews.org/article/kilauea-why-volcanoes-spew-fountains",
     "source": "Science News",
     "published": "2026-10-08T00:00:00.000Z",
@@ -64383,7 +64537,7 @@
     ]
   },
   {
-    "title": "Growth, yield and nutrient-use responses of drought-tolerant maize varieties to sowing date and fertilizer microdosing in northern Benin",
+    "title": "Effect of nutrition counseling on complementary feeding practices among mothers with children aged 6–23 months in West Gojjam Zone, Northwest Ethiopia: A cluster-randomized controlled trial",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -127481,6 +127635,20 @@
       "couch-torrence",
       "conformal",
       "inversion"
+    ]
+  },
+  {
+    "title": "Confinement in the three-state Potts quantum spin chain in extreme ferromagnetic limit, by Anna Krasznai, Sergei Rutkevich, Gábor Takács",
+    "title_es": "Confinement in the three-state Potts quantum spin chain in extreme ferromagnetic limit, by Anna Krasznai, Sergei Rutkevich, Gábor Takács",
+    "url": "http://scipost.org/scipostphyscore.9.4.072",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "confinement",
+      "three-state",
+      "potts"
     ]
   }
 ]
