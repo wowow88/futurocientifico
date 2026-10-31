@@ -1,5 +1,47 @@
 [
   {
+    "title": "Meteorite Found in Sahara is Piece of Mars at Least 4.1 Billion Years Old",
+    "title_es": "El meteorito encontrado en el Sahara es un pedazo de Marte de al menos 4.100 millones de años",
+    "url": "https://www.sci.news/space/martian-meteorite-teghaza-001-15165.html",
+    "source": "Sci.News",
+    "published": "2026-10-31T00:16:29.000Z",
+    "date": "2026-10-31",
+    "category": "noticia",
+    "tags": [
+      "meteorite",
+      "found",
+      "sahara"
+    ]
+  },
+  {
+    "title": "Nations commit to get nature goals back on track",
+    "title_es": "Las naciones se comprometen a volver a encarrilar los objetivos de la naturaleza",
+    "url": "https://phys.org/news/2026-10-nations-commit-nature-goals-track.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-10-31T00:00:00.000Z",
+    "date": "2026-10-31",
+    "category": "noticia",
+    "tags": [
+      "nations",
+      "commit",
+      "get"
+    ]
+  },
+  {
+    "title": "Rusty crust made Mars warm and wet",
+    "title_es": "La corteza oxidada hizo que Marte fuera cálido y húmedo",
+    "url": "https://www.newscientist.com/article/2596726-rusty-crust-made-mars-warm-and-wet/",
+    "source": "New Scientist",
+    "published": "2026-10-30T15:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "rusty",
+      "crust",
+      "made"
+    ]
+  },
+  {
     "title": "Scientists confirm fruit and vegetable skin really is good for you",
     "title_es": "Los científicos confirman que la piel de frutas y verduras es realmente buena para ti",
     "url": "https://www.newscientist.com/article/2596529-scientists-have-discovered-a-completely-free-way-to-eat-more-fibre/",
@@ -81,6 +123,48 @@
       "asking",
       "teachers",
       "set"
+    ]
+  },
+  {
+    "title": "Briefing Chat: Dog years: could longevity science extend your pets' lives?",
+    "title_es": "Charla informativa: Años de perro: ¿podría la ciencia de la longevidad prolongar la vida de tus mascotas?",
+    "url": "https://www.nature.com/articles/d41586-026-03553-7",
+    "source": "Nature",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "briefing",
+      "chat",
+      "dog"
+    ]
+  },
+  {
+    "title": "This Halloween, amateur astronomers may be in for a dwarf planet treat",
+    "title_es": "Este Halloween, los astrónomos aficionados pueden disfrutar de un regalo de planeta enano",
+    "url": "https://www.sciencenews.org/article/halloween-astronomers-dwarf-planet",
+    "source": "Science News",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "this",
+      "halloween",
+      "amateur"
+    ]
+  },
+  {
+    "title": "Astronauts just gave the International Space Station a powerful upgrade",
+    "title_es": "Los astronautas acaban de dar a la Estación Espacial Internacional una poderosa actualización",
+    "url": "https://www.sciencedaily.com/releases/2026/10/261030002931.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "astronauts",
+      "just",
+      "gave"
     ]
   },
   {
@@ -2715,7 +2799,7 @@
   },
   {
     "title": "Anger or fear? Dogs may be able to read it on your face",
-    "title_es": "¿Ira o miedo? Los perros pueden leerlo en tu cara",
+    "title_es": "Anger or fear? Dogs may be able to read it on your face",
     "url": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
     "source": "Science News Explores",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2729,7 +2813,7 @@
   },
   {
     "title": "NASA astronauts splash down after 100 million miles in space",
-    "title_es": "Astronautas de la NASA chapotean después de 100 millones de millas en el espacio",
+    "title_es": "NASA astronauts splash down after 100 million miles in space",
     "url": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2743,7 +2827,7 @@
   },
   {
     "title": "YouTube overtakes TV as top source of political news, study finds",
-    "title_es": "YouTube supera a la televisión como principal fuente de noticias políticas, según un estudio",
+    "title_es": "YouTube overtakes TV as top source of political news, study finds",
     "url": "https://phys.org/news/2026-10-youtube-tv-source-political-news.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2757,7 +2841,7 @@
   },
   {
     "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
-    "title_es": "Los cerebros de chimpancés y gorilas resisten la pérdida de peso con la edad, a diferencia de los cere",
+    "title_es": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
     "url": "https://www.nature.com/articles/d41586-026-03158-0",
     "source": "Nature",
     "published": "2026-10-09T00:00:00.000Z",
@@ -2771,7 +2855,7 @@
   },
   {
     "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
-    "title_es": "Romper el andamio de células nerviosas alivia el dolor crónico en ratones",
+    "title_es": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
     "url": "https://www.nature.com/articles/d41586-026-03159-z",
     "source": "Nature",
     "published": "2026-10-09T00:00:00.000Z",
@@ -64537,7 +64621,7 @@
     ]
   },
   {
-    "title": "Effect of nutrition counseling on complementary feeding practices among mothers with children aged 6–23 months in West Gojjam Zone, Northwest Ethiopia: A cluster-randomized controlled trial",
+    "title": "Prognostic value of the preoperative C-reactive protein-to-lymphocyte ratio in patients with non-metastatic clear cell renal cell carcinoma",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
