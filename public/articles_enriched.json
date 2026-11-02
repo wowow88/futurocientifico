@@ -1,5 +1,75 @@
 [
   {
+    "title": "COP31: Will this year’s climate summit be the most underwhelming ever?",
+    "title_es": "COP31: ¿Será la cumbre climática de este año la más decepcionante de la historia?",
+    "url": "https://www.newscientist.com/article/2595518-cop31-will-this-years-climate-summit-be-the-most-underwhelming-ever/",
+    "source": "New Scientist",
+    "published": "2026-11-02T12:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "cop31",
+      "will",
+      "this"
+    ]
+  },
+  {
+    "title": "Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint",
+    "title_es": "Explique, luego olvide: Recomendación de desaprendizaje bajo la restricción de acceso asimétrico",
+    "url": "https://arxiv.org/abs/2610.40658",
+    "source": "arXiv",
+    "published": "2026-11-02T05:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "explain",
+      "then",
+      "forget"
+    ]
+  },
+  {
+    "title": "Author Correction: mTORC1 drives cell-autonomous astrocyte reactivity in tuberous sclerosis",
+    "title_es": "Corrección del autor: mTORC1 impulsa la reactividad de los astrocitos autónomos celulares en la esclerosis tuberosa",
+    "url": "https://www.nature.com/articles/s41586-026-11350-5",
+    "source": "Nature",
+    "published": "2026-11-02T00:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "author",
+      "correction",
+      "mtorc1"
+    ]
+  },
+  {
+    "title": "Scientists Say: Fibonacci sequence",
+    "title_es": "Los científicos dicen: Secuencia de Fibonacci",
+    "url": "https://www.snexplores.org/article/scientists-say-fibonacci-sequence-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-11-02T00:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "say",
+      "fibonacci"
+    ]
+  },
+  {
+    "title": "Retirement does not make older Australians more lonely",
+    "title_es": "La jubilación no hace que los australianos mayores se sientan más solos",
+    "url": "https://phys.org/news/2026-11-older-australians-lonely.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-02T00:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "retirement",
+      "does",
+      "not"
+    ]
+  },
+  {
     "title": "Fish pay attention to one influential neighbour in virtual reality",
     "title_es": "Los peces prestan atención a un vecino influyente en la realidad virtual",
     "url": "https://www.newscientist.com/article/2596645-fish-only-pay-attention-to-one-most-influential-neighbor-in-virtual-reality/",
@@ -221,6 +291,20 @@
       "astronauts",
       "just",
       "gave"
+    ]
+  },
+  {
+    "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+    "title_es": "Atención dispersa latente: hacia la atención subcuadrática de contexto ultralargo",
+    "url": "http://arxiv.org/abs/2610.42147v1",
+    "source": "arXiv",
+    "published": "2026-10-30T00:00:00.000Z",
+    "date": "2026-10-30",
+    "category": "noticia",
+    "tags": [
+      "latent",
+      "sparse",
+      "attention"
     ]
   },
   {
@@ -2715,7 +2799,7 @@
   },
   {
     "title": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
-    "title_es": "Los dinosaurios de Zimbabue eran diferentes a los de Sudáfrica: una nueva especie ofrece pistas",
+    "title_es": "Zimbabwe's dinosaurs were different from South Africa's: New species offers clues",
     "url": "https://phys.org/news/2026-10-zimbabwe-dinosaurs-south-africa-species.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-11T00:00:00.000Z",
@@ -2729,7 +2813,7 @@
   },
   {
     "title": "APOD: 2026 October 10 – Lunar Farside",
-    "title_es": "APOD: 2026 10 de octubre – Lunar Farside",
+    "title_es": "APOD: 2026 October 10 – Lunar Farside",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
     "source": "NASA (Top News)",
     "published": "2026-10-10T00:00:00.000Z",
@@ -2743,7 +2827,7 @@
   },
   {
     "title": "Hybrid quantum computer observes foundational quantum effect in a new setting",
-    "title_es": "Un ordenador cuántico híbrido observa el efecto cuántico fundamental en un nuevo entorno",
+    "title_es": "Hybrid quantum computer observes foundational quantum effect in a new setting",
     "url": "https://phys.org/news/2026-10-hybrid-quantum-foundational-effect.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-10T00:00:00.000Z",
@@ -2757,7 +2841,7 @@
   },
   {
     "title": "Jurassic Crocodile Relative from Morocco Had Needle-Thin Teeth",
-    "title_es": "Un pariente de cocodrilo jurásico de Marruecos tenía dientes muy finos",
+    "title_es": "Jurassic Crocodile Relative from Morocco Had Needle-Thin Teeth",
     "url": "https://www.sci.news/paleontology/ctenosuchus-tenuidens-15120.html",
     "source": "Sci.News",
     "published": "2026-10-09T23:17:10.000Z",
@@ -2771,7 +2855,7 @@
   },
   {
     "title": "Two large asteroids found spinning as fast as a fairground ride",
-    "title_es": "Dos grandes asteroides encontrados girando tan rápido como un paseo en feria",
+    "title_es": "Two large asteroids found spinning as fast as a fairground ride",
     "url": "https://www.newscientist.com/article/2593044-two-large-asteroids-found-spinning-as-fast-as-fairground-ride/",
     "source": "New Scientist",
     "published": "2026-10-09T17:00:00.000Z",
@@ -2785,7 +2869,7 @@
   },
   {
     "title": "Grief and tech collide in uneasily brilliant sci-fi film The Remotes",
-    "title_es": "El duelo y la tecnología chocan en una película de ciencia ficción incómodamente brillante The Remotes",
+    "title_es": "Grief and tech collide in uneasily brilliant sci-fi film The Remotes",
     "url": "https://www.newscientist.com/article/2592782-grief-and-tech-collide-in-uneasily-brilliant-sci-fi-film-the-remotes/",
     "source": "New Scientist",
     "published": "2026-10-09T11:00:00.000Z",
@@ -127789,6 +127873,20 @@
       "confinement",
       "three-state",
       "potts"
+    ]
+  },
+  {
+    "title": "Tensor-network methodology for real-space super-moiré excitons, by Anouar Moustaj, Yitao Sun, Tiago Antão, Lumen Eek, Jose L. Lado",
+    "title_es": "Tensor-network methodology for real-space super-moiré excitons, by Anouar Moustaj, Yitao Sun, Tiago Antão, Lumen Eek, Jose L. Lado",
+    "url": "http://scipost.org/scipostphys.21.5.108",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "tensor-network",
+      "methodology",
+      "real-space"
     ]
   }
 ]
