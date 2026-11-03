@@ -1,5 +1,103 @@
 [
   {
+    "title": "Vibrating mattress helps clear Alzheimer’s protein from the brain",
+    "title_es": "El colchón vibratorio ayuda a eliminar la proteína del Alzheimer del cerebro",
+    "url": "https://www.newscientist.com/article/2597081-vibrating-mattress-helps-clear-alzheimers-protein-from-the-brain/",
+    "source": "New Scientist",
+    "published": "2026-11-03T10:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "vibrating",
+      "mattress",
+      "helps"
+    ]
+  },
+  {
+    "title": "Large Megapode Bird Identified from Flores Cave Bone",
+    "title_es": "Ave megápoda grande identificada a partir del hueso de la cueva de Flores",
+    "url": "https://www.sci.news/paleontology/megapodius-rokusi-15170.html",
+    "source": "Sci.News",
+    "published": "2026-11-03T00:57:08.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "large",
+      "megapode",
+      "bird"
+    ]
+  },
+  {
+    "title": "Research bonuses need clear and fair rules",
+    "title_es": "Los bonos de investigación necesitan normas claras y justas",
+    "url": "https://www.nature.com/articles/d41586-026-03562-6",
+    "source": "Nature",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "research",
+      "bonuses",
+      "need"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
+    "title_es": "APOD: 2026 3 de noviembre – Cometa PanSTARRs y Rainbow Meteor",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "Let’s learn about how particles act like waves",
+    "title_es": "Aprendamos cómo las partículas actúan como ondas",
+    "url": "https://www.snexplores.org/article/lets-learn-about-how-particles-act-like-waves",
+    "source": "Science News Explores",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "lets",
+      "learn",
+      "about"
+    ]
+  },
+  {
+    "title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
+    "title_es": "Científicos descubren un nuevo fármaco para el Alzheimer que repara el daño del ADN y reduce la inflamación cerebral",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "new"
+    ]
+  },
+  {
+    "title": "Leviathan's sprawling stars challenge idea that dusty giants become compact galaxies",
+    "title_es": "Las estrellas en expansión de Leviatán desafían la idea de que los gigantes polvorientos se conviertan en galaxias compactas",
+    "url": "https://phys.org/news/2026-10-leviathan-sprawling-stars-idea-dusty.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "leviathans",
+      "sprawling",
+      "stars"
+    ]
+  },
+  {
     "title": "COP31: Will this year’s climate summit be the most underwhelming ever?",
     "title_es": "COP31: ¿Será la cumbre climática de este año la más decepcionante de la historia?",
     "url": "https://www.newscientist.com/article/2595518-cop31-will-this-years-climate-summit-be-the-most-underwhelming-ever/",
@@ -67,6 +165,34 @@
       "retirement",
       "does",
       "not"
+    ]
+  },
+  {
+    "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+    "title_es": "Pixel-UMI: Manipulación de todo el cuerpo consciente del entorno de aprendizaje a partir de demostraciones humanas sensorizadas",
+    "url": "http://arxiv.org/abs/2611.03647v1",
+    "source": "arXiv",
+    "published": "2026-11-02T00:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "pixel-umi",
+      "learning",
+      "environment-aware"
+    ]
+  },
+  {
+    "title": "Newborn survival improves when families receive financial support",
+    "title_es": "La supervivencia del recién nacido mejora cuando las familias reciben apoyo financiero",
+    "url": "https://www.sciencenews.org/article/newborn-cash-support-survival",
+    "source": "Science News",
+    "published": "2026-11-02T00:00:00.000Z",
+    "date": "2026-11-02",
+    "category": "noticia",
+    "tags": [
+      "newborn",
+      "survival",
+      "improves"
     ]
   },
   {
@@ -2673,7 +2799,7 @@
   },
   {
     "title": "Messier 83 Hints At How Star-Forming Gas Behaves in Barred Spirals Like Our Own",
-    "title_es": "Messier 83 insinúa cómo se comporta el gas formador de estrellas en espirales barradas como la nuestra",
+    "title_es": "Messier 83 Hints At How Star-Forming Gas Behaves in Barred Spirals Like Our Own",
     "url": "https://www.sci.news/astronomy/messier-83-star-forming-gas-15121.html",
     "source": "Sci.News",
     "published": "2026-10-12T12:10:28.000Z",
@@ -2687,7 +2813,7 @@
   },
   {
     "title": "Why the worst El Niño killed millions – and how we can avoid a repeat",
-    "title_es": "Por qué el peor El Niño mató a millones y cómo podemos evitar que se repita",
+    "title_es": "Why the worst El Niño killed millions – and how we can avoid a repeat",
     "url": "https://www.newscientist.com/article/2592513-why-the-worst-el-nino-killed-millions-and-how-we-can-avoid-a-repeat/",
     "source": "New Scientist",
     "published": "2026-10-12T09:00:00.000Z",
@@ -2701,7 +2827,7 @@
   },
   {
     "title": "Neuromorphic Satellite Intelligence: A Formal Framework for Event-Driven Architectures, Spike-Based Algorithms, and Quantitative Energy-Accuracy Trade-offs",
-    "title_es": "Inteligencia satelital neuromórfica: un marco formal para arquitecturas impulsadas por eventos, algoritmos basados en picos y compensaciones cuantitativas de precisión energética",
+    "title_es": "Neuromorphic Satellite Intelligence: A Formal Framework for Event-Driven Architectures, Spike-Based Algorithms, and Quantitative Energy-Accuracy Trade-offs",
     "url": "https://arxiv.org/abs/2610.12471",
     "source": "arXiv",
     "published": "2026-10-12T04:00:00.000Z",
@@ -2715,7 +2841,7 @@
   },
   {
     "title": "Award-winning microscopy image disqualified over AI use",
-    "title_es": "Imagen de microscopía galardonada descalificada por el uso de IA",
+    "title_es": "Award-winning microscopy image disqualified over AI use",
     "url": "https://www.nature.com/articles/d41586-026-03240-7",
     "source": "Nature",
     "published": "2026-10-12T00:00:00.000Z",
@@ -2729,7 +2855,7 @@
   },
   {
     "title": "APOD: 2026 October 12 – Jupiter and the Moons",
-    "title_es": "APOD: 2026 12 de octubre – Júpiter y las Lunas",
+    "title_es": "APOD: 2026 October 12 – Jupiter and the Moons",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
     "source": "NASA (Top News)",
     "published": "2026-10-12T00:00:00.000Z",
@@ -2743,7 +2869,7 @@
   },
   {
     "title": "And the science Nobels for 2026 go to …",
-    "title_es": "Y los premios Nobel de ciencias para 2026 van a ...",
+    "title_es": "And the science Nobels for 2026 go to …",
     "url": "https://www.snexplores.org/article/science-nobel-prizes-2026",
     "source": "Science News Explores",
     "published": "2026-10-12T00:00:00.000Z",
@@ -2757,7 +2883,7 @@
   },
   {
     "title": "Scientists discover vanilla’s hidden healing potential",
-    "title_es": "Los científicos descubren el potencial curativo oculto de la vainilla",
+    "title_es": "Scientists discover vanilla’s hidden healing potential",
     "url": "https://www.sciencedaily.com/releases/2026/10/261011211550.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-12T00:00:00.000Z",
@@ -2771,7 +2897,7 @@
   },
   {
     "title": "Climate fingerprints reveal stronger evidence of human-caused warming after more than 30 years",
-    "title_es": "Las huellas dactilares del clima revelan pruebas más sólidas del calentamiento causado por el hombre después de más de 30 años",
+    "title_es": "Climate fingerprints reveal stronger evidence of human-caused warming after more than 30 years",
     "url": "https://phys.org/news/2026-10-climate-fingerprints-reveal-stronger-evidence.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-12T00:00:00.000Z",
@@ -2785,7 +2911,7 @@
   },
   {
     "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
-    "title_es": "Los científicos construyen un reloj nuclear que podría hacer obsoletos los relojes atómicos",
+    "title_es": "Scientists build a nuclear clock that could make atomic clocks obsolete",
     "url": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-11T00:00:00.000Z",
@@ -64761,7 +64887,7 @@
     ]
   },
   {
-    "title": "Prognostic value of the preoperative C-reactive protein-to-lymphocyte ratio in patients with non-metastatic clear cell renal cell carcinoma",
+    "title": "Adoption, usage patterns, and perceptions of DeepSeek among medical interns: Evidence from a Chinese Teaching Hospital",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
