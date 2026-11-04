@@ -1,5 +1,145 @@
 [
   {
+    "title": "Loop unrolling of UCA models: distance labeling",
+    "title_es": "Desenrollado en bucle de modelos UCA: etiquetado a distancia",
+    "url": "https://arxiv.org/abs/2202.10527",
+    "source": "arXiv",
+    "published": "2026-11-04T05:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "loop",
+      "unrolling",
+      "uca"
+    ]
+  },
+  {
+    "title": "AI-Generated Sexual Imagery Abuse is Far More Common than Many Assume: Study",
+    "title_es": "El abuso de imágenes sexuales generado por la IA es mucho más común de lo que muchos suponen: estudio",
+    "url": "https://www.sci.news/othersciences/computerscience/ai-generated-sexual-imagery-abuse-15173.html",
+    "source": "Sci.News",
+    "published": "2026-11-04T00:35:06.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "ai-generated",
+      "sexual",
+      "imagery"
+    ]
+  },
+  {
+    "title": "Feet-stiffening socks could help you run further for longer",
+    "title_es": "Los calcetines que refuerzan los pies podrían ayudarte a correr más durante más tiempo",
+    "url": "https://www.newscientist.com/article/2597125-feet-stiffening-socks-could-help-you-run-further-for-longer/",
+    "source": "New Scientist",
+    "published": "2026-11-04T00:01:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "feet-stiffening",
+      "socks",
+      "could"
+    ]
+  },
+  {
+    "title": "Ecosystems depend on people: don’t abandon them",
+    "title_es": "Los ecosistemas dependen de las personas: no los abandones",
+    "url": "https://www.nature.com/articles/d41586-026-03544-8",
+    "source": "Nature",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "ecosystems",
+      "depend",
+      "people"
+    ]
+  },
+  {
+    "title": "Una terapia celular regulable con un ‘interruptor químico’ abre la vía a inmunoterapias personalizadas menos tóxicas y para cánceres sólidos",
+    "title_es": "Una terapia celular regulable con un ‘interruptor químico’ abre la vía a inmunoterapias personalizadas menos tóxicas y para cánceres sólidos",
+    "url": "https://www.cnio.es/noticias/una-terapia-celular-regulable-con-un-interruptor-quimico-abre-la-via-a-inmunoterapias-personalizadas-menos-toxicas-y-para-canceres-solidos/",
+    "source": "CNIO",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "terapia",
+      "celular",
+      "regulable"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+    "title_es": "APOD: 2026 4 de noviembre – La galaxia no tan oculta, IC 342",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "Food contains thousands of overlooked chemicals. This physicist is mapping them",
+    "title_es": "Los alimentos contienen miles de productos químicos que se pasan por alto. Este físico los está mapeando",
+    "url": "https://www.sciencenews.org/article/scientist-maps-food-chemicals-sn10",
+    "source": "Science News",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "food",
+      "contains",
+      "thousands"
+    ]
+  },
+  {
+    "title": "Analyze This: Microbes can make valuable chemicals more sustainable",
+    "title_es": "Analice esto: los microbios pueden hacer que los productos químicos valiosos sean más sostenibles",
+    "url": "https://www.snexplores.org/article/microbes-make-green-chemicals",
+    "source": "Science News Explores",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "analyze",
+      "this",
+      "microbes"
+    ]
+  },
+  {
+    "title": "A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests",
+    "title_es": "Una estrella oculta está surcando la atmósfera de Betelgeuse, sugiere una nueva evidencia",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261103003149.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "hidden",
+      "star",
+      "plowing"
+    ]
+  },
+  {
+    "title": "Drying harvested blue-green algae sludge halves methane emissions in experiments",
+    "title_es": "El secado de lodos de algas verdeazuladas cosechadas reduce a la mitad las emisiones de metano en experimentos",
+    "url": "https://phys.org/news/2026-11-drying-harvested-blue-green-algae.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "drying",
+      "harvested",
+      "blue-green"
+    ]
+  },
+  {
     "title": "Vibrating mattress helps clear Alzheimer’s protein from the brain",
     "title_es": "El colchón vibratorio ayuda a eliminar la proteína del Alzheimer del cerebro",
     "url": "https://www.newscientist.com/article/2597081-vibrating-mattress-helps-clear-alzheimers-protein-from-the-brain/",
@@ -11,6 +151,20 @@
       "vibrating",
       "mattress",
       "helps"
+    ]
+  },
+  {
+    "title": "NASA smashed into an asteroid. Now Hera is closing in to see what happened",
+    "title_es": "La NASA se estrelló contra un asteroide. Ahora Hera se acerca para ver qué pasó",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-03T09:46:21.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "smashed",
+      "into"
     ]
   },
   {
@@ -95,6 +249,34 @@
       "leviathans",
       "sprawling",
       "stars"
+    ]
+  },
+  {
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+    "title_es": "DreamX: El modelo de difusión de vídeo es un aprendiz de acción latente universal",
+    "url": "http://arxiv.org/abs/2611.05377v1",
+    "source": "arXiv",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "dreamx",
+      "video",
+      "diffusion"
+    ]
+  },
+  {
+    "title": "UNDARK presenta «SUPERNOVAE», un viaje ilustrado por la muerte de las estrellas",
+    "title_es": "UNDARK presenta «SUPERNOVAS», un viaje ilustrado por la muerte de las estrellas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/undark-presenta-supernovae-un-viaje-ilustrado-por-la-muerte-de-las-estrellas",
+    "source": "IAC",
+    "published": "2026-11-03T00:00:00.000Z",
+    "date": "2026-11-03",
+    "category": "noticia",
+    "tags": [
+      "undark",
+      "presenta",
+      "supernovae"
     ]
   },
   {
@@ -2617,7 +2799,7 @@
   },
   {
     "title": "Dinosaur named new species a century after fossil found on Isle of Wight",
-    "title_es": "El dinosaurio nombró una nueva especie un siglo después de que se encontrara un fósil en la Isla de Wight",
+    "title_es": "Dinosaur named new species a century after fossil found on Isle of Wight",
     "url": "https://www.newscientist.com/article/2593437-dinosaur-named-new-species-102-years-after-fossil-found-on-isle-of-wight/",
     "source": "New Scientist",
     "published": "2026-10-13T23:01:00.000Z",
@@ -2631,7 +2813,7 @@
   },
   {
     "title": "Will we observe dark matter as a particle or a wave?",
-    "title_es": "¿Observaremos la materia oscura como una partícula o una onda?",
+    "title_es": "Will we observe dark matter as a particle or a wave?",
     "url": "https://www.newscientist.com/article/2591125-will-we-observe-dark-matter-as-a-particle-or-a-wave/",
     "source": "New Scientist",
     "published": "2026-10-13T08:00:00.000Z",
@@ -2645,7 +2827,7 @@
   },
   {
     "title": "Fossil Armored Fish from China Bridges Primitive and Advanced Jawless Lineages",
-    "title_es": "Los peces con armadura fósil de China unen linajes primitivos y avanzados sin mandíbula",
+    "title_es": "Fossil Armored Fish from China Bridges Primitive and Advanced Jawless Lineages",
     "url": "https://www.sci.news/paleontology/asioaspis-brachyotus-15125.html",
     "source": "Sci.News",
     "published": "2026-10-13T00:35:13.000Z",
@@ -2659,7 +2841,7 @@
   },
   {
     "title": "Preserve research data for tomorrow’s AI-enabled integrity checks",
-    "title_es": "Preservar los datos de investigación para las comprobaciones de integridad habilitadas por IA del mañana",
+    "title_es": "Preserve research data for tomorrow’s AI-enabled integrity checks",
     "url": "https://www.nature.com/articles/d41586-026-03244-3",
     "source": "Nature",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2673,7 +2855,7 @@
   },
   {
     "title": "CNIC participates in CHAIN, a new European initiative aims to accelerate AI in cardiovascular care",
-    "title_es": "El CNIC participa en CHAIN, una nueva iniciativa europea que tiene como objetivo acelerar la IA en la atención cardiovascular",
+    "title_es": "CNIC participates in CHAIN, a new European initiative aims to accelerate AI in cardiovascular care",
     "url": "https://www.cnic.es/es/node/266582",
     "source": "CNIC",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2687,7 +2869,7 @@
   },
   {
     "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-    "title_es": "NASA Science, lanzamiento de carga en la 35ª misión de reabastecimiento de SpaceX a la estación",
+    "title_es": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
     "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
     "source": "NASA (Top News)",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2701,7 +2883,7 @@
   },
   {
     "title": "What happens when you lose your voice?",
-    "title_es": "¿Qué pasa cuando pierdes la voz?",
+    "title_es": "What happens when you lose your voice?",
     "url": "https://www.sciencenews.org/article/deep-end-podcast-voice-communication",
     "source": "Science News",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2715,7 +2897,7 @@
   },
   {
     "title": "Is AI making us dumber? Depends how it’s used",
-    "title_es": "¿La IA nos está haciendo más tontos? Depende de cómo se use",
+    "title_es": "Is AI making us dumber? Depends how it’s used",
     "url": "https://www.snexplores.org/article/ai-making-us-dumber-learn-lose-skills",
     "source": "Science News Explores",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2729,7 +2911,7 @@
   },
   {
     "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
-    "title_es": "James Webb revela una estructura cósmica masiva que desafía nuestra comprensión del Universo",
+    "title_es": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
     "url": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2743,7 +2925,7 @@
   },
   {
     "title": "Modified lentil protein mimics fat in non-fat yogurt",
-    "title_es": "La proteína de lenteja modificada imita la grasa en el yogur sin grasa",
+    "title_es": "Modified lentil protein mimics fat in non-fat yogurt",
     "url": "https://phys.org/news/2026-10-lentil-protein-mimics-fat-yogurt.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2757,7 +2939,7 @@
   },
   {
     "title": "ChunkAct: Action Chunking for Agentic Robotics",
-    "title_es": "ChunkAct: fragmentación de acciones para robótica genética",
+    "title_es": "ChunkAct: Action Chunking for Agentic Robotics",
     "url": "http://arxiv.org/abs/2610.18874v1",
     "source": "arXiv",
     "published": "2026-10-13T00:00:00.000Z",
@@ -2785,7 +2967,7 @@
   },
   {
     "title": "To turn invisible, we need to tweak the path light travels",
-    "title_es": "Para volvernos invisibles, debemos ajustar el camino que recorre la luz",
+    "title_es": "To turn invisible, we need to tweak the path light travels",
     "url": "https://www.sciencenews.org/article/invisibility-tweak-path-light-cloak",
     "source": "Science News",
     "published": "2026-10-13T00:00:00.000Z",
@@ -64887,7 +65069,7 @@
     ]
   },
   {
-    "title": "Adoption, usage patterns, and perceptions of DeepSeek among medical interns: Evidence from a Chinese Teaching Hospital",
+    "title": "Correction: Determinants of domestic violence against women in Cambodia: How digital access, media exposure, motorcycle ownership, and partners’ alcohol use matter",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -128013,6 +128195,20 @@
       "tensor-network",
       "methodology",
       "real-space"
+    ]
+  },
+  {
+    "title": "Irreversibility of quantum field theory in de Sitter: The C, F and A theorems, by Nicolás Abate, Gonzalo Torroba",
+    "title_es": "Irreversibility of quantum field theory in de Sitter: The C, F and A theorems, by Nicolás Abate, Gonzalo Torroba",
+    "url": "http://scipost.org/scipostphys.21.5.112",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "irreversibility",
+      "quantum",
+      "field"
     ]
   }
 ]
