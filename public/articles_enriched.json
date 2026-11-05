@@ -1,5 +1,131 @@
 [
   {
+    "title": "VAR-Q: Tuning-free KV Cache Quantization for Visual Autoregressive Image and Video Generation",
+    "title_es": "VAR-Q: Cuantificación de caché KV sin sintonización para la generación de imágenes y vídeos autorregresivos visuales",
+    "url": "https://arxiv.org/abs/2611.05380",
+    "source": "arXiv",
+    "published": "2026-11-05T05:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "var-q",
+      "tuning-free",
+      "cache"
+    ]
+  },
+  {
+    "title": "Mysterious Gas over Mars’ Alba Mons Could Hint at Volcanic Activity",
+    "title_es": "El misterioso gas sobre el Alba Mons de Marte podría insinuar actividad volcánica",
+    "url": "https://www.sci.news/space/mars-hydrogen-chloride-15178.html",
+    "source": "Sci.News",
+    "published": "2026-11-05T03:43:15.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "mysterious",
+      "gas",
+      "over"
+    ]
+  },
+  {
+    "title": "Stunning collection of prehistoric engravings found in Spanish cave",
+    "title_es": "Impresionante colección de grabados prehistóricos encontrados en una cueva española",
+    "url": "https://www.newscientist.com/article/2597300-stunning-collection-of-prehistoric-engravings-found-in-spanish-cave/",
+    "source": "New Scientist",
+    "published": "2026-11-05T00:01:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "stunning",
+      "collection",
+      "prehistoric"
+    ]
+  },
+  {
+    "title": "The hidden cost of flexible work in academia: women do more parenting",
+    "title_es": "El coste oculto del trabajo flexible en el mundo académico: las mujeres son más madres",
+    "url": "https://www.nature.com/articles/d41586-026-03568-0",
+    "source": "Nature",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "hidden",
+      "cost",
+      "flexible"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+    "title_es": "APOD: 2026 5 de noviembre – Encélado en Silueta",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "European orbiter detects hints of volcanic activity on Mars",
+    "title_es": "Orbitador europeo detecta indicios de actividad volcánica en Marte",
+    "url": "https://new.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+    "source": "ESA (Top News)",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "european",
+      "orbiter",
+      "detects"
+    ]
+  },
+  {
+    "title": "Little Ice Age cooling in Europe may have raised the risk of rickets",
+    "title_es": "El pequeño enfriamiento de la Edad de Hielo en Europa puede haber aumentado el riesgo de raquitismo",
+    "url": "https://www.sciencenews.org/article/little-ice-age-climate-europe-rickets",
+    "source": "Science News",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "little",
+      "ice",
+      "age"
+    ]
+  },
+  {
+    "title": "Static electricity remains shockingly mysterious",
+    "title_es": "La electricidad estática sigue siendo sorprendentemente misteriosa",
+    "url": "https://www.snexplores.org/article/static-electricity-shock-mysterious",
+    "source": "Science News Explores",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "static",
+      "electricity",
+      "remains"
+    ]
+  },
+  {
+    "title": "Where U.S. states rank on new housing supply pipeline",
+    "title_es": "Donde los estados de EE. UU. se clasifican en la nueva línea de suministro de viviendas",
+    "url": "https://phys.org/news/2026-11-states-housing-pipeline.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "where",
+      "states",
+      "rank"
+    ]
+  },
+  {
     "title": "Loop unrolling of UCA models: distance labeling",
     "title_es": "Desenrollado en bucle de modelos UCA: etiquetado a distancia",
     "url": "https://arxiv.org/abs/2202.10527",
@@ -137,6 +263,62 @@
       "drying",
       "harvested",
       "blue-green"
+    ]
+  },
+  {
+    "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+    "title_es": "VASO DE PRECIPITADOS: un punto de referencia curado por expertos para cerebros incorporados en laboratorios químicos autónomos",
+    "url": "http://arxiv.org/abs/2611.06911v1",
+    "source": "arXiv",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "beaker",
+      "expert-curated",
+      "benchmark"
+    ]
+  },
+  {
+    "title": "Nature: Descubren vías alternativas para el crecimiento de los vasos sanguíneos que podrían ayudar a superar la resistencia a los tratamientos antiangiogénicos contra el cáncer",
+    "title_es": "Naturaleza: Descubren vías alternativas para el crecimiento de los vasos sanguíneos que podrían ayudar a superar la resistencia a los tratamientos antiangiogénicos contra el cáncer",
+    "url": "https://www.cnic.es/es/noticias/nature-descubren-vias-alternativas-para-crecimiento-vasos-sanguineos-que-podrian-ayudar",
+    "source": "CNIC",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "descubren",
+      "vías"
+    ]
+  },
+  {
+    "title": "La XXXVII Winter School del IAC convierte a Tenerife en la capital mundial de las estrellas masivas durante dos semanas",
+    "title_es": "La XXXVII Escuela de Invierno del IAC convierte a Tenerife en la capital mundial de las estrellas masivas durante dos semanas",
+    "url": "https://www.iac.es/es/divulgacion/noticias/la-xxxvii-winter-school-del-iac-convierte-tenerife-en-la-capital-mundial-de-las-estrellas-masivas",
+    "source": "IAC",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "xxxvii",
+      "winter",
+      "school"
+    ]
+  },
+  {
+    "title": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
+    "title_es": "Científicos del SLAC encuentran pruebas concluyentes de un misterioso tercer tipo de magnetismo",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-04T00:00:00.000Z",
+    "date": "2026-11-04",
+    "category": "noticia",
+    "tags": [
+      "slac",
+      "scientists",
+      "find"
     ]
   },
   {
@@ -2617,7 +2799,7 @@
   },
   {
     "title": "Many American diets may not include enough of this essential nutrient",
-    "title_es": "Es posible que muchas dietas estadounidenses no incluyan suficiente de este nutriente esencial",
+    "title_es": "Many American diets may not include enough of this essential nutrient",
     "url": "https://www.sciencenews.org/article/iodine-salt-brain-development-diets",
     "source": "Science News",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2631,7 +2813,7 @@
   },
   {
     "title": "Calls of the wild offer sound guidance for protecting animals",
-    "title_es": "Las llamadas de la naturaleza ofrecen una guía sólida para proteger a los animales",
+    "title_es": "Calls of the wild offer sound guidance for protecting animals",
     "url": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
     "source": "Science News Explores",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2645,7 +2827,7 @@
   },
   {
     "title": "Arctic sea ice hits another troubling low in 2026",
-    "title_es": "El hielo marino del Ártico alcanza otro mínimo preocupante en 2026",
+    "title_es": "Arctic sea ice hits another troubling low in 2026",
     "url": "https://www.sciencedaily.com/releases/2026/10/261015073212.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2659,7 +2841,7 @@
   },
   {
     "title": "New Species of Predatory Dinosaur Identified in UK",
-    "title_es": "Nueva especie de dinosaurio depredador identificada en el Reino Unido",
+    "title_es": "New Species of Predatory Dinosaur Identified in UK",
     "url": "https://www.sci.news/paleontology/invictibellatrix-amberina-15131.html",
     "source": "Sci.News",
     "published": "2026-10-14T23:12:11.000Z",
@@ -2673,7 +2855,7 @@
   },
   {
     "title": "China’s AI research is booming. Where is it headed?",
-    "title_es": "La investigación de IA en China está en auge. ¿Hacia dónde se dirige?",
+    "title_es": "China’s AI research is booming. Where is it headed?",
     "url": "https://www.nature.com/articles/d41586-026-03223-8",
     "source": "Nature",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2687,7 +2869,7 @@
   },
   {
     "title": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
-    "title_es": "APOD: 2026 14 de octubre – Marte y la colmena bajo una aurora",
+    "title_es": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/",
     "source": "NASA (Top News)",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2701,7 +2883,7 @@
   },
   {
     "title": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
-    "title_es": "La gigantesca serpiente prehistórica descubierta en la India puede haber sido una de las más grandes de la historia",
+    "title_es": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
     "url": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2715,7 +2897,7 @@
   },
   {
     "title": "Global deforestation slowed in 2025 but surged in Congo basin: Study",
-    "title_es": "La deforestación mundial se desaceleró en 2025, pero aumentó en la cuenca del Congo: estudio",
+    "title_es": "Global deforestation slowed in 2025 but surged in Congo basin: Study",
     "url": "https://phys.org/news/2026-10-global-deforestation-surged-congo-basin.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2729,7 +2911,7 @@
   },
   {
     "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-    "title_es": "Modelado y comprensión de los pesos neuronales de las políticas humanoides con difusión",
+    "title_es": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
     "url": "http://arxiv.org/abs/2610.20606v1",
     "source": "arXiv",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2743,7 +2925,7 @@
   },
   {
     "title": "Can math stay human in the age of AI?",
-    "title_es": "¿Pueden las matemáticas seguir siendo humanas en la era de la IA?",
+    "title_es": "Can math stay human in the age of AI?",
     "url": "https://www.sciencenews.org/article/math-human-ai-age",
     "source": "Science News",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2757,7 +2939,7 @@
   },
   {
     "title": "Bees may survive a swim by heading for the dark [COMIC]",
-    "title_es": "Las abejas pueden sobrevivir a un baño dirigiéndose a la oscuridad [CÓMIC]",
+    "title_es": "Bees may survive a swim by heading for the dark [COMIC]",
     "url": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
     "source": "Science News Explores",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2771,7 +2953,7 @@
   },
   {
     "title": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
-    "title_es": "Un fósil olvidado revela un temible dinosaurio con garras gigantes",
+    "title_es": "A forgotten fossil reveals a fearsome dinosaur with giant claws",
     "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-14T00:00:00.000Z",
@@ -2785,7 +2967,7 @@
   },
   {
     "title": "Small, Chicken-Like Dinosaur May Have Had a Jaw Built for Fruit",
-    "title_es": "Un dinosaurio pequeño parecido a un pollo puede haber tenido una mandíbula hecha para la fruta",
+    "title_es": "Small, Chicken-Like Dinosaur May Have Had a Jaw Built for Fruit",
     "url": "https://www.sci.news/paleontology/infernogallus-jamesi-15128.html",
     "source": "Sci.News",
     "published": "2026-10-13T23:38:21.000Z",
@@ -65069,7 +65251,7 @@
     ]
   },
   {
-    "title": "Correction: Determinants of domestic violence against women in Cambodia: How digital access, media exposure, motorcycle ownership, and partners’ alcohol use matter",
+    "title": "Nationwide trends in physical disability among rheumatoid arthritis patients in Korea (2010–2022): A retrospective cohort study based on national registry data",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -128209,6 +128391,20 @@
       "irreversibility",
       "quantum",
       "field"
+    ]
+  },
+  {
+    "title": "Twisted (co)homology of non-orientable Weyl semimetals, by Thijs Douwes, Marcus Stålhammar",
+    "title_es": "Twisted (co)homology of non-orientable Weyl semimetals, by Thijs Douwes, Marcus Stålhammar",
+    "url": "http://scipost.org/scipostphys.21.5.114",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "twisted",
+      "cohomology",
+      "non-orientable"
     ]
   }
 ]
