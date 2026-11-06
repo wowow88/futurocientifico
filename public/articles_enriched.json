@@ -1,5 +1,144 @@
 [
   {
+    "title": "Hubble Space Telescope is falling to Earth – should NASA save it?",
+    "title_es": "El Telescopio Espacial Hubble está cayendo a la Tierra, ¿debería salvarlo la NASA?",
+    "url": "https://www.newscientist.com/article/2597221-hubble-space-telescope-is-falling-to-earth-should-nasa-save-it/",
+    "source": "New Scientist",
+    "published": "2026-11-06T12:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "hubble",
+      "space",
+      "telescope"
+    ]
+  },
+  {
+    "title": "TimeArch: A Multi-Agent Approach for Software Architecture Design",
+    "title_es": "TimeArch: un enfoque multiagente para el diseño de arquitectura de software",
+    "url": "https://arxiv.org/abs/2611.06921",
+    "source": "arXiv",
+    "published": "2026-11-06T05:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "timearch",
+      "multi-agent",
+      "approach"
+    ]
+  },
+  {
+    "title": "Salt-Loving Microbe Can Grow Under Mars-Like Conditions: Study",
+    "title_es": "El microbio amante de la sal puede crecer en condiciones similares a las de Marte: estudio",
+    "url": "https://www.sci.news/astrobiology-2/salt-loving-microbe-mars-like-conditions-15180.html",
+    "source": "Sci.News",
+    "published": "2026-11-06T02:03:18.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "salt-loving",
+      "microbe",
+      "can"
+    ]
+  },
+  {
+    "title": "ESC (DC) 2",
+    "title_es": "ESC (DC)2",
+    "url": "https://www.nature.com/articles/d41586-026-03450-z",
+    "source": "Nature",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "esc",
+      "dc2"
+    ]
+  },
+  {
+    "title": "José Javier Fuster recibe el premio Constantes y Vitales al Joven Talento en Investigación Biomédica",
+    "title_es": "José Javier Fuster recibe el premio Constantes y Vitales al Joven Talento en Investigación Biomédica",
+    "url": "https://www.cnic.es/es/noticias/jose-javier-fuster-recibe-premio-constantes-vitales-al-joven-talento-investigacion",
+    "source": "CNIC",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "josé",
+      "javier",
+      "fuster"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 6 – A Farewell to Swift",
+    "title_es": "APOD: 2026 6 de noviembre – Adiós a Swift",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "European orbiter detects hints of volcanic activity on Mars",
+    "title_es": "Orbitador europeo detecta indicios de actividad volcánica en Marte",
+    "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
+    "source": "ESA (Top News)",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "european",
+      "orbiter",
+      "detects"
+    ]
+  },
+  {
+    "title": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
+    "title_es": "¿Misterio resuelto? ¿Por qué las hormigas \"durmientes\" explotan repentinamente con actividad?",
+    "url": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
+    "source": "Science News Explores",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "mystery",
+      "solved",
+      "why"
+    ]
+  },
+  {
+    "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+    "title_es": "No te pierdas: lluvias de meteoros, bolas de fuego y una superluna iluminan el cielo nocturno de noviembre",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "dont",
+      "miss",
+      "meteor"
+    ]
+  },
+  {
+    "title": "A galaxy nicknamed Misty Moons offers a glimpse of early star formation",
+    "title_es": "Una galaxia apodada Misty Moons ofrece una visión de la formación estelar temprana",
+    "url": "https://phys.org/news/2026-11-galaxy-nicknamed-misty-moons-glimpse.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "galaxy",
+      "nicknamed",
+      "misty"
+    ]
+  },
+  {
     "title": "VAR-Q: Tuning-free KV Cache Quantization for Visual Autoregressive Image and Video Generation",
     "title_es": "VAR-Q: Cuantificación de caché KV sin sintonización para la generación de imágenes y vídeos autorregresivos visuales",
     "url": "https://arxiv.org/abs/2611.05380",
@@ -123,6 +262,48 @@
       "where",
       "states",
       "rank"
+    ]
+  },
+  {
+    "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+    "title_es": "SwarmEvolve: enjambres de agentes latentes para el descubrimiento evolutivo y la optimización",
+    "url": "http://arxiv.org/abs/2611.08483v1",
+    "source": "arXiv",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "swarmevolve",
+      "latent",
+      "agent"
+    ]
+  },
+  {
+    "title": "A cultural history of altered artifacts",
+    "title_es": "Una historia cultural de artefactos alterados",
+    "url": "https://www.science.org/doi/abs/10.1126/science.ael6284",
+    "source": "Science.org",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "cultural",
+      "history",
+      "altered"
+    ]
+  },
+  {
+    "title": "How octopuses squeeze through tiny openings, step by step",
+    "title_es": "Cómo los pulpos se escurren a través de pequeñas aberturas, paso a paso",
+    "url": "https://www.sciencenews.org/article/octopuses-squeeze-escape-steps-video",
+    "source": "Science News",
+    "published": "2026-11-05T00:00:00.000Z",
+    "date": "2026-11-05",
+    "category": "noticia",
+    "tags": [
+      "how",
+      "octopuses",
+      "squeeze"
     ]
   },
   {
@@ -2631,7 +2812,7 @@
   },
   {
     "title": "Horned dinosaurs’ weapons evolved to handle the forces of combat",
-    "title_es": "Las armas de los dinosaurios con cuernos evolucionaron para manejar las fuerzas de combate",
+    "title_es": "Horned dinosaurs’ weapons evolved to handle the forces of combat",
     "url": "https://www.sciencenews.org/article/horned-dinosaur-skull-forces-combat",
     "source": "Science News",
     "published": "2026-10-16T00:00:00.000Z",
@@ -2645,7 +2826,7 @@
   },
   {
     "title": "In the heat, this Death Valley shrub air conditions its leaves",
-    "title_es": "En el calor, este aire arbustivo del Valle de la Muerte acondiciona sus hojas",
+    "title_es": "In the heat, this Death Valley shrub air conditions its leaves",
     "url": "https://www.snexplores.org/article/extreme-heat-plant-cools-leaves",
     "source": "Science News Explores",
     "published": "2026-10-16T00:00:00.000Z",
@@ -2659,7 +2840,7 @@
   },
   {
     "title": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
-    "title_es": "\"Crawzilla\" era enorme. Entonces los científicos encontraron un cangrejo de río aún más grande",
+    "title_es": "“Crawzilla” was huge. Then scientists found an even bigger crayfish",
     "url": "https://www.sciencedaily.com/releases/2026/10/261015073220.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-16T00:00:00.000Z",
@@ -2673,7 +2854,7 @@
   },
   {
     "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
-    "title_es": "Repensar el espacio de diseño de los Transformadores de Difusión de Píxeles de Vainilla",
+    "title_es": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
     "url": "http://arxiv.org/abs/2610.23854v1",
     "source": "arXiv",
     "published": "2026-10-16T00:00:00.000Z",
@@ -2687,7 +2868,7 @@
   },
   {
     "title": "Whalefall review: Worth watching for the bits inside a sperm whale",
-    "title_es": "Reseña de Whalefall: Vale la pena observar los trozos dentro de un cachalote",
+    "title_es": "Whalefall review: Worth watching for the bits inside a sperm whale",
     "url": "https://www.newscientist.com/article/2592386-whalefall-review-worth-watching-for-the-bits-inside-a-sperm-whale/",
     "source": "New Scientist",
     "published": "2026-10-15T07:00:00.000Z",
@@ -2701,7 +2882,7 @@
   },
   {
     "title": "Lotus: Learning to Understand Time-series by Learning to Forecast",
-    "title_es": "Lotus: Aprender a entender las series de tiempo aprendiendo a pronosticar",
+    "title_es": "Lotus: Learning to Understand Time-series by Learning to Forecast",
     "url": "https://arxiv.org/abs/2610.18877",
     "source": "arXiv",
     "published": "2026-10-15T04:00:00.000Z",
@@ -2715,7 +2896,7 @@
   },
   {
     "title": "ArXiv versus AI slop: will capping preprint submissions work?",
-    "title_es": "ArXiv versus AI slop: ¿funcionará la limitación de las presentaciones de preimpresión?",
+    "title_es": "ArXiv versus AI slop: will capping preprint submissions work?",
     "url": "https://www.nature.com/articles/d41586-026-03194-w",
     "source": "Nature",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2743,7 +2924,7 @@
   },
   {
     "title": "Countries most vulnerable to fossil fuel phaseout generate just 6% of global output, climate analysis finds",
-    "title_es": "Los países más vulnerables a la eliminación gradual de los combustibles fósiles generan solo el 6% de la producción mundial, según un análisis climático",
+    "title_es": "Countries most vulnerable to fossil fuel phaseout generate just 6% of global output, climate analysis finds",
     "url": "https://phys.org/news/2026-10-countries-vulnerable-fossil-fuel-phaseout.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2757,7 +2938,7 @@
   },
   {
     "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-    "title_es": "LIBERO-PeRM: Evaluación comparativa de la manipulación robótica personalizada",
+    "title_es": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
     "url": "http://arxiv.org/abs/2610.22372v1",
     "source": "arXiv",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2771,7 +2952,7 @@
   },
   {
     "title": "An elegy for the unsung world-builders",
-    "title_es": "Una elegía para los anónimos constructores del mundo",
+    "title_es": "An elegy for the unsung world-builders",
     "url": "https://www.science.org/doi/abs/10.1126/science.aek0152",
     "source": "Science.org",
     "published": "2026-10-15T00:00:00.000Z",
@@ -2785,7 +2966,7 @@
   },
   {
     "title": "Is AI eroding PhD students’ critical thinking and analysis skills?",
-    "title_es": "¿La IA está erosionando el pensamiento crítico y las habilidades de análisis de los estudiantes de doctorado?",
+    "title_es": "Is AI eroding PhD students’ critical thinking and analysis skills?",
     "url": "https://www.nature.com/articles/d41586-026-03178-w",
     "source": "Nature",
     "published": "2026-10-15T00:00:00.000Z",
@@ -65251,7 +65432,7 @@
     ]
   },
   {
-    "title": "Nationwide trends in physical disability among rheumatoid arthritis patients in Korea (2010–2022): A retrospective cohort study based on national registry data",
+    "title": "Study on hydration cementation and enhancement mechanism of grout-rock interface of PVA modified grouting material",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -128405,6 +128586,20 @@
       "twisted",
       "cohomology",
       "non-orientable"
+    ]
+  },
+  {
+    "title": "MadAgents, by Tilman Plehn, Daniel Schiller, Nikita Schmal",
+    "title_es": "MadAgents, by Tilman Plehn, Daniel Schiller, Nikita Schmal",
+    "url": "http://scipost.org/scipostphyscodeb.86",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "madagents",
+      "tilman",
+      "plehn"
     ]
   }
 ]
