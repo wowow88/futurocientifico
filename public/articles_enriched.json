@@ -1,5 +1,75 @@
 [
   {
+    "title": "Antipersonnel mines have returned in Ukraine and now threaten the world",
+    "title_es": "Las minas antipersonal han regresado a Ucrania y ahora amenazan al mundo",
+    "url": "https://www.newscientist.com/article/2597901-antipersonnel-mines-have-returned-in-ukraine-and-now-threaten-the-world/",
+    "source": "New Scientist",
+    "published": "2026-11-08T10:00:00.000Z",
+    "date": "2026-11-08",
+    "category": "noticia",
+    "tags": [
+      "antipersonnel",
+      "mines",
+      "have"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+    "title_es": "APOD: 2026 8 de noviembre – Gran meteorito de bola de fuego",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-08T00:00:00.000Z",
+    "date": "2026-11-08",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "A nuclear blast could save Earth from an asteroid, but there's a catch",
+    "title_es": "Una explosión nuclear podría salvar a la Tierra de un asteroide, pero hay una trampa",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-08T00:00:00.000Z",
+    "date": "2026-11-08",
+    "category": "noticia",
+    "tags": [
+      "nuclear",
+      "blast",
+      "could"
+    ]
+  },
+  {
+    "title": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
+    "title_es": "¿Quieres volar a la luna? La NASA está buscando nuevos astronautas para ayudar a hacer crecer su programa Artemis",
+    "url": "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-08T00:00:00.000Z",
+    "date": "2026-11-08",
+    "category": "noticia",
+    "tags": [
+      "want",
+      "fly",
+      "moon"
+    ]
+  },
+  {
+    "title": "A hidden limit of space and time could unlock electronics 100,000 times faster",
+    "title_es": "Un límite oculto de espacio y tiempo podría desbloquear la electrónica 100.000 veces más rápido",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-07T23:34:19.000Z",
+    "date": "2026-11-07",
+    "category": "noticia",
+    "tags": [
+      "hidden",
+      "limit",
+      "space"
+    ]
+  },
+  {
     "title": "COP climate summits might yet have a useful future – here’s how",
     "title_es": "Las cumbres climáticas de la COP aún podrían tener un futuro útil: así es como",
     "url": "https://www.newscientist.com/article/2596962-cop-climate-summits-might-yet-have-a-useful-future-heres-how/",
@@ -2728,7 +2798,7 @@
   },
   {
     "title": "Noise-cancelling headphones prevent vomiting after surgery",
-    "title_es": "Los auriculares con cancelación de ruido evitan el vómito después de la cirugía",
+    "title_es": "Noise-cancelling headphones prevent vomiting after surgery",
     "url": "https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery/",
     "source": "New Scientist",
     "published": "2026-10-17T18:30:00.000Z",
@@ -2742,7 +2812,7 @@
   },
   {
     "title": "APOD: 2026 October 17 – 3D 67P",
-    "title_es": "APOD: 2026 17 de octubre – 3D 67P",
+    "title_es": "APOD: 2026 October 17 – 3D 67P",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
     "source": "NASA (Top News)",
     "published": "2026-10-17T00:00:00.000Z",
@@ -2756,7 +2826,7 @@
   },
   {
     "title": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
-    "title_es": "Las imágenes ópticas vinculan el metabolismo alterado y el uso de oxígeno en la enfermedad de Alzheimer",
+    "title_es": "Optical imaging links altered metabolism and oxygen use in Alzheimer's disease",
     "url": "https://phys.org/news/2026-10-optical-imaging-links-metabolism-oxygen.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-17T00:00:00.000Z",
@@ -2770,7 +2840,7 @@
   },
   {
     "title": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
-    "title_es": "Los científicos descubren cómo el sueño profundo construye músculo, quema grasa y estimula el cerebro",
+    "title_es": "Scientists discover how deep sleep builds muscle, burns fat, and boosts the brain",
     "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-17T00:00:00.000Z",
@@ -2784,7 +2854,7 @@
   },
   {
     "title": "Lizard Dropped Its Tail 99 Million Years Ago, Amber Preserved Evidence",
-    "title_es": "La lagartija dejó caer su cola hace 99 millones de años, evidencia conservada en ámbar",
+    "title_es": "Lizard Dropped Its Tail 99 Million Years Ago, Amber Preserved Evidence",
     "url": "https://www.sci.news/paleontology/cretaceous-lizard-tail-15135.html",
     "source": "Sci.News",
     "published": "2026-10-16T21:03:57.000Z",
