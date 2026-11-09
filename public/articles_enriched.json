@@ -1,5 +1,131 @@
 [
   {
+    "title": "Weird ‘ultraquantum’ turbulence seen for the first time",
+    "title_es": "Extraña turbulencia ‘ultraquántica’ vista por primera vez",
+    "url": "https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/",
+    "source": "New Scientist",
+    "published": "2026-11-09T12:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "weird",
+      "ultraquantum",
+      "turbulence"
+    ]
+  },
+  {
+    "title": "Australia’s Social Media Ban Has Not Worked — For Now",
+    "title_es": "La prohibición de las redes sociales en Australia no ha funcionado, por ahora",
+    "url": "https://undark.org/2026/11/09/australia-social-media-ban/",
+    "source": "Undark Magazine",
+    "published": "2026-11-09T08:00:41.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "australias",
+      "social",
+      "media"
+    ]
+  },
+  {
+    "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+    "title_es": "FasterRW: un eficiente solucionador de caminatas aleatorias asistido previamente para el análisis térmico",
+    "url": "https://arxiv.org/abs/2611.08490",
+    "source": "arXiv",
+    "published": "2026-11-09T05:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "fasterrw",
+      "efficient",
+      "prior-assisted"
+    ]
+  },
+  {
+    "title": "The super El Niño is more than a climate shock – it’s a health one, too",
+    "title_es": "El super El Niño es más que un shock climático, también es un problema de salud",
+    "url": "https://www.nature.com/articles/d41586-026-03628-5",
+    "source": "Nature",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "super",
+      "niño",
+      "more"
+    ]
+  },
+  {
+    "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
+    "title_es": "La tripulación de la misión CHAPEA 2 reflexiona después de 378 días en Marte simulado",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "chapea",
+      "mission",
+      "crew"
+    ]
+  },
+  {
+    "title": "Scientists Say: Occultation",
+    "title_es": "Los científicos dicen: Ocultación",
+    "url": "https://www.snexplores.org/article/scientists-say-occultation-definition-pronunciation",
+    "source": "Science News Explores",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "say",
+      "occultation"
+    ]
+  },
+  {
+    "title": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
+    "title_es": "La NASA revela un nuevo y audaz plan para devolver astronautas a la Luna en 2028",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "nasa",
+      "reveals",
+      "bold"
+    ]
+  },
+  {
+    "title": "COP31 opens with leaders under pressure to tackle climate crisis",
+    "title_es": "La COP31 comienza con líderes bajo presión para abordar la crisis climática",
+    "url": "https://phys.org/news/2026-11-cop31-leaders-pressure-tackle-climate.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "cop31",
+      "opens",
+      "leaders"
+    ]
+  },
+  {
+    "title": "Longest Feather Ever Found in Amber Offers Clues to Flight’s Origins",
+    "title_es": "La pluma más larga jamás encontrada en ámbar ofrece pistas sobre los orígenes del vuelo",
+    "url": "https://www.sci.news/paleontology/longest-amber-feather-15181.html",
+    "source": "Sci.News",
+    "published": "2026-11-08T19:39:03.000Z",
+    "date": "2026-11-08",
+    "category": "noticia",
+    "tags": [
+      "longest",
+      "feather",
+      "ever"
+    ]
+  },
+  {
     "title": "Antipersonnel mines have returned in Ukraine and now threaten the world",
     "title_es": "Las minas antipersonal han regresado a Ucrania y ahora amenazan al mundo",
     "url": "https://www.newscientist.com/article/2597901-antipersonnel-mines-have-returned-in-ukraine-and-now-threaten-the-world/",
@@ -318,6 +444,20 @@
       "this",
       "may",
       "best"
+    ]
+  },
+  {
+    "title": "On Agentic Manipulation Policies",
+    "title_es": "Sobre las Políticas de Manipulación Agénica",
+    "url": "http://arxiv.org/abs/2611.09892v1",
+    "source": "arXiv",
+    "published": "2026-11-06T00:00:00.000Z",
+    "date": "2026-11-06",
+    "category": "noticia",
+    "tags": [
+      "agentic",
+      "manipulation",
+      "policies"
     ]
   },
   {
@@ -2658,7 +2798,7 @@
   },
   {
     "title": "Newfound clouds of missing ‘ordinary’ matter sit outside galaxies",
-    "title_es": "Nubes recién descubiertas de materia \"ordinaria\" desaparecida se encuentran fuera de las galaxias",
+    "title_es": "Newfound clouds of missing ‘ordinary’ matter sit outside galaxies",
     "url": "https://www.snexplores.org/article/missing-matter-clouds-outside-galaxies",
     "source": "Science News Explores",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2672,7 +2812,7 @@
   },
   {
     "title": "Nations seek reset at UN talks as nature goals off track",
-    "title_es": "Las naciones buscan un restablecimiento en las conversaciones de la ONU a medida que los objetivos de la naturaleza se",
+    "title_es": "Nations seek reset at UN talks as nature goals off track",
     "url": "https://phys.org/news/2026-10-nations-reset-nature-goals-track.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2686,7 +2826,7 @@
   },
   {
     "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-    "title_es": "OpenVLHarness: Herramienta visual agénica del mundo real: uso con memoria multimodal",
+    "title_es": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
     "url": "http://arxiv.org/abs/2610.26860v1",
     "source": "arXiv",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2714,7 +2854,7 @@
   },
   {
     "title": "These tiny snakes cartwheel to escape danger",
-    "title_es": "Estas diminutas serpientes giran para escapar del peligro",
+    "title_es": "These tiny snakes cartwheel to escape danger",
     "url": "https://www.sciencenews.org/article/tiny-snakes-cartwheel-escape-video",
     "source": "Science News",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2728,7 +2868,7 @@
   },
   {
     "title": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
-    "title_es": "Los científicos descubren que solo 3.000 pasos al día pueden ayudar a frenar el Alzheimer",
+    "title_es": "Just 3,000 steps a day may help slow Alzheimer's, scientists find",
     "url": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2742,7 +2882,7 @@
   },
   {
     "title": "Hubble Space Telescope Spots Dusty Spiral Galaxy: NGC 1827",
-    "title_es": "El telescopio espacial Hubble detecta una galaxia espiral polvorienta: NGC 1827",
+    "title_es": "Hubble Space Telescope Spots Dusty Spiral Galaxy: NGC 1827",
     "url": "https://www.sci.news/astronomy/hubble-dusty-spiral-galaxy-ngc-1827-15136.html",
     "source": "Sci.News",
     "published": "2026-10-18T23:58:53.000Z",
@@ -2756,7 +2896,7 @@
   },
   {
     "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
-    "title_es": "APOD: 2026 18 de octubre – Sonificado: Pilares de la Nebulosa del Águila",
+    "title_es": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
     "source": "NASA (Top News)",
     "published": "2026-10-18T00:00:00.000Z",
@@ -2770,7 +2910,7 @@
   },
   {
     "title": "World's oldest shipwreck discovered off coast of Turkey",
-    "title_es": "Descubierto el naufragio más antiguo del mundo frente a las costas de Turquía",
+    "title_es": "World's oldest shipwreck discovered off coast of Turkey",
     "url": "https://phys.org/news/2026-10-world-oldest-shipwreck-coast-turkey.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-18T00:00:00.000Z",
@@ -2784,7 +2924,7 @@
   },
   {
     "title": "Physicists create a bizarre new quantum state called a fractional fermi sea",
-    "title_es": "Los físicos crean un nuevo estado cuántico extraño llamado mar de Fermi fraccional",
+    "title_es": "Physicists create a bizarre new quantum state called a fractional fermi sea",
     "url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-18T00:00:00.000Z",
