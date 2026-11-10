@@ -1,5 +1,131 @@
 [
   {
+    "title": "Newly described insect may live its whole life on a spider’s web",
+    "title_es": "Un insecto recién descrito puede vivir toda su vida en una tela de araña",
+    "url": "https://www.newscientist.com/article/2598153-newly-described-bug-lives-its-whole-life-on-a-spider-web/",
+    "source": "New Scientist",
+    "published": "2026-11-10T10:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "newly",
+      "described",
+      "insect"
+    ]
+  },
+  {
+    "title": "Paleontologists Identify New Species of Tapejarid Pterosaur",
+    "title_es": "Paleontólogos identifican nuevas especies de pterosaurio tapéjarido",
+    "url": "https://www.sci.news/paleontology/hintighernia-edingerae-15186.html",
+    "source": "Sci.News",
+    "published": "2026-11-10T01:12:56.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "paleontologists",
+      "identify",
+      "new"
+    ]
+  },
+  {
+    "title": "PhD funding mechanisms should protect the right to disagree with supervisors",
+    "title_es": "Los mecanismos de financiación del doctorado deben proteger el derecho a estar en desacuerdo con los supervisores",
+    "url": "https://www.nature.com/articles/d41586-026-03645-4",
+    "source": "Nature",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "phd",
+      "funding",
+      "mechanisms"
+    ]
+  },
+  {
+    "title": "El IAC participa en el desarrollo de nuevas escalas para medir la composición química de las galaxias",
+    "title_es": "El IAC participa en el desarrollo de nuevas escalas para medir la composición química de las galaxias",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-participa-en-el-desarrollo-de-nuevas-escalas-para-medir-la-composicion-quimica-de-las-galaxias",
+    "source": "IAC",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "participa",
+      "desarrollo"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
+    "title_es": "APOD: 2026 10 de noviembre – Saturno Detrás de la Luna",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "Toxic secrets are hiding in Arctic ice",
+    "title_es": "Secretos tóxicos se esconden en el hielo ártico",
+    "url": "https://www.sciencenews.org/article/toxic-secrets-hiding-arctic-ice-harm",
+    "source": "Science News",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "toxic",
+      "secrets",
+      "are"
+    ]
+  },
+  {
+    "title": "Four T. rex footprints hint at how fast it traveled",
+    "title_es": "Cuatro huellas de T. rex indican lo rápido que viajó",
+    "url": "https://www.snexplores.org/article/footprints-how-fast-t-rex-walked",
+    "source": "Science News Explores",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "four",
+      "rex",
+      "footprints"
+    ]
+  },
+  {
+    "title": "Alzheimer’s may have early warning signs outside the brain",
+    "title_es": "El Alzheimer puede tener signos de alerta temprana fuera del cerebro",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "alzheimers",
+      "may",
+      "have"
+    ]
+  },
+  {
+    "title": "Egyptian cats meant for the gods led harsh lives, extensive museum collection reveals",
+    "title_es": "Los gatos egipcios destinados a los dioses llevaban vidas duras, revela una extensa colección de museos",
+    "url": "https://phys.org/news/2026-11-egyptian-cats-meant-gods-harsh.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "egyptian",
+      "cats",
+      "meant"
+    ]
+  },
+  {
     "title": "Weird ‘ultraquantum’ turbulence seen for the first time",
     "title_es": "Extraña turbulencia ‘ultraquántica’ vista por primera vez",
     "url": "https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/",
@@ -109,6 +235,20 @@
       "cop31",
       "opens",
       "leaders"
+    ]
+  },
+  {
+    "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+    "title_es": "HiVe-Mem: entrelazado de expansión de memoria horizontal y composición de evidencia vertical para agentes multimodales",
+    "url": "http://arxiv.org/abs/2611.12872v1",
+    "source": "arXiv",
+    "published": "2026-11-09T00:00:00.000Z",
+    "date": "2026-11-09",
+    "category": "noticia",
+    "tags": [
+      "hive-mem",
+      "interleaving",
+      "horizontal"
     ]
   },
   {
@@ -2672,7 +2812,7 @@
   },
   {
     "title": "Rule breaking by just a few people can be contagious",
-    "title_es": "Romper las reglas por solo unas pocas personas puede ser contagioso",
+    "title_es": "Rule breaking by just a few people can be contagious",
     "url": "https://www.sciencenews.org/article/rule-breaking-can-be-contagious",
     "source": "Science News",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2686,7 +2826,7 @@
   },
   {
     "title": "Sliding down surfaces can make rainwater corrosive",
-    "title_es": "Deslizarse por las superficies puede hacer que el agua de lluvia sea corrosiva",
+    "title_es": "Sliding down surfaces can make rainwater corrosive",
     "url": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
     "source": "Science News Explores",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2700,7 +2840,7 @@
   },
   {
     "title": "Scientists finally uncover why statins can cause muscle pain",
-    "title_es": "Los científicos finalmente descubren por qué las estatinas pueden causar dolor muscular",
+    "title_es": "Scientists finally uncover why statins can cause muscle pain",
     "url": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2714,7 +2854,7 @@
   },
   {
     "title": "El Niño is dramatically increasing sea levels – how bad could it get?",
-    "title_es": "El Niño está aumentando dramáticamente el nivel del mar, ¿qué tan malo podría llegar a ser?",
+    "title_es": "El Niño is dramatically increasing sea levels – how bad could it get?",
     "url": "https://www.newscientist.com/article/2594376-el-nino-is-dramatically-increasing-sea-levels-how-bad-could-it-get/",
     "source": "New Scientist",
     "published": "2026-10-19T10:00:00.000Z",
@@ -2728,7 +2868,7 @@
   },
   {
     "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
-    "title_es": "Inyección de autoridad estructurada: control humano persistente para agentes de LLM a través de anulaciones de MCP escritas",
+    "title_es": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
     "url": "https://arxiv.org/abs/2610.22373",
     "source": "arXiv",
     "published": "2026-10-19T04:00:00.000Z",
@@ -2742,7 +2882,7 @@
   },
   {
     "title": "Three reasons why AI is not conscious and perhaps never will be",
-    "title_es": "Tres razones por las que la IA no es consciente y tal vez nunca lo será",
+    "title_es": "Three reasons why AI is not conscious and perhaps never will be",
     "url": "https://www.nature.com/articles/d41586-026-03313-7",
     "source": "Nature",
     "published": "2026-10-19T00:00:00.000Z",
@@ -2784,7 +2924,7 @@
   },
   {
     "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
-    "title_es": "APOD: 2026 19 de octubre – Treble Clef: Fuente de radio caliente de rayos X inusual",
+    "title_es": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/",
     "source": "NASA (Top News)",
     "published": "2026-10-19T00:00:00.000Z",
@@ -65754,7 +65894,7 @@
     ]
   },
   {
-    "title": "Effects of vitamin D supplementation on vitamin D status and physical performance in football players: A systematic review and meta-analysis",
+    "title": "Correction: The limited effects of social media use on misperceptions Social media’s limited role in misperceptions",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
