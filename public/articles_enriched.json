@@ -1,5 +1,131 @@
 [
   {
+    "title": "Voyager is one light day away from us. Here’s what it discovered on its epic journey",
+    "title_es": "Voyager está a un día luz de nosotros. Esto es lo que descubrió en su viaje épico",
+    "url": "https://www.newscientist.com/article/2598369-voyager-is-one-light-day-away-from-us-heres-what-it-discovered-on-its-epic-journey/",
+    "source": "New Scientist",
+    "published": "2026-11-11T08:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "voyager",
+      "one",
+      "light"
+    ]
+  },
+  {
+    "title": "We Used It Anyway: Low Trust and High Adoption of Large Language Models in Requirements Engineering Education",
+    "title_es": "Lo usamos de todos modos: baja confianza y alta adopción de modelos de lenguaje grandes en la educación en ingeniería de requisitos",
+    "url": "https://arxiv.org/abs/2611.12889",
+    "source": "arXiv",
+    "published": "2026-11-11T05:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "used",
+      "anyway",
+      "low"
+    ]
+  },
+  {
+    "title": "35-Million-Year-Old Fossil Teeth from Thailand Reveal Rodent as Heavy as Large Dog",
+    "title_es": "Dientes fósiles de 35 millones de años de Tailandia revelan a un roedor tan pesado como un perro grande",
+    "url": "https://www.sci.news/paleontology/yakamys-sirindhornae-15189.html",
+    "source": "Sci.News",
+    "published": "2026-11-11T00:21:07.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "35-million-year-old",
+      "fossil",
+      "teeth"
+    ]
+  },
+  {
+    "title": "Biotech innovations are an opportunity to limit climate change",
+    "title_es": "Las innovaciones biotecnológicas son una oportunidad para limitar el cambio climático",
+    "url": "https://www.nature.com/articles/d41586-026-03621-y",
+    "source": "Nature",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "biotech",
+      "innovations",
+      "are"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
+    "title_es": "APOD: 2026 11 de noviembre – NGC 4449: Galaxia pequeña, gran impacto",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "Light is hard to block from every direction. This physicist found a way",
+    "title_es": "La luz es difícil de bloquear desde todas las direcciones. Este físico encontró una manera",
+    "url": "https://www.sciencenews.org/article/light-block-direction-physicist-sn10",
+    "source": "Science News",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "light",
+      "hard",
+      "block"
+    ]
+  },
+  {
+    "title": "Some video games offer mental-health benefits",
+    "title_es": "Algunos videojuegos ofrecen beneficios para la salud mental",
+    "url": "https://www.snexplores.org/article/video-games-help-mental-health",
+    "source": "Science News Explores",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "some",
+      "video",
+      "games"
+    ]
+  },
+  {
+    "title": "Scientists discover a giant 66-pound rodent that lived 34 million years ago",
+    "title_es": "Los científicos descubren un roedor gigante de 66 libras que vivió hace 34 millones de años",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "discover",
+      "giant"
+    ]
+  },
+  {
+    "title": "Research snapshot: The use of icons in aphasia-friendly texts",
+    "title_es": "Resumen de la investigación: El uso de iconos en textos aptos para la afasia",
+    "url": "https://phys.org/news/2026-11-snapshot-icons-aphasia-friendly-texts.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-11T00:00:00.000Z",
+    "date": "2026-11-11",
+    "category": "noticia",
+    "tags": [
+      "research",
+      "snapshot",
+      "use"
+    ]
+  },
+  {
     "title": "Newly described insect may live its whole life on a spider’s web",
     "title_es": "Un insecto recién descrito puede vivir toda su vida en una tela de araña",
     "url": "https://www.newscientist.com/article/2598153-newly-described-bug-lives-its-whole-life-on-a-spider-web/",
@@ -123,6 +249,20 @@
       "egyptian",
       "cats",
       "meant"
+    ]
+  },
+  {
+    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+    "title_es": "Segmentación de imágenes médicas: adaptación del modelo de base versus capacitación específica de la tarea",
+    "url": "http://arxiv.org/abs/2611.14519v1",
+    "source": "arXiv",
+    "published": "2026-11-10T00:00:00.000Z",
+    "date": "2026-11-10",
+    "category": "noticia",
+    "tags": [
+      "medical",
+      "image",
+      "segmentation"
     ]
   },
   {
@@ -2658,7 +2798,7 @@
   },
   {
     "title": "AI could turn scientific papers into research assistants",
-    "title_es": "La IA podría convertir los artículos científicos en asistentes de investigación",
+    "title_es": "AI could turn scientific papers into research assistants",
     "url": "https://www.sciencenews.org/article/ai-scientific-papers-research-assistant",
     "source": "Science News",
     "published": "2026-10-21T00:00:00.000Z",
@@ -2672,7 +2812,7 @@
   },
   {
     "title": "Explainer: What is an equation?",
-    "title_es": "Explicador: ¿Qué es una ecuación?",
+    "title_es": "Explainer: What is an equation?",
     "url": "https://www.snexplores.org/article/what-is-math-equation",
     "source": "Science News Explores",
     "published": "2026-10-21T00:00:00.000Z",
@@ -2686,7 +2826,7 @@
   },
   {
     "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
-    "title_es": "Un enorme asteroide se estrelló contra el Mar del Norte y desató un tsunami de 330 pies",
+    "title_es": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
     "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-21T00:00:00.000Z",
@@ -2700,7 +2840,7 @@
   },
   {
     "title": "The roots of AI fear in the West are cultural, not technological",
-    "title_es": "Las raíces del miedo a la IA en Occidente son culturales, no tecnológicas",
+    "title_es": "The roots of AI fear in the West are cultural, not technological",
     "url": "https://www.newscientist.com/article/2594390-the-roots-of-ai-fear-in-the-west-are-cultural-not-technological/",
     "source": "New Scientist",
     "published": "2026-10-20T08:00:00.000Z",
@@ -2714,7 +2854,7 @@
   },
   {
     "title": "Single Vertebra Hints at Oldest Known Iberian Dinosaur",
-    "title_es": "Pistas de una sola vértebra en el dinosaurio ibérico más antiguo conocido",
+    "title_es": "Single Vertebra Hints at Oldest Known Iberian Dinosaur",
     "url": "https://www.sci.news/paleontology/oldest-known-iberian-dinosaur-15140.html",
     "source": "Sci.News",
     "published": "2026-10-20T00:26:29.000Z",
@@ -2728,7 +2868,7 @@
   },
   {
     "title": "Bundle water safeguards into critical-mineral licences",
-    "title_es": "Agrupe las protecciones contra el agua en licencias de minerales críticos",
+    "title_es": "Bundle water safeguards into critical-mineral licences",
     "url": "https://www.nature.com/articles/d41586-026-03353-z",
     "source": "Nature",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2742,7 +2882,7 @@
   },
   {
     "title": "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan",
-    "title_es": "APOD: 2026 20 de octubre – Un abanico arcoíris anticrepuscular",
+    "title_es": "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan",
     "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
     "source": "NASA (Top News)",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2756,7 +2896,7 @@
   },
   {
     "title": "Near miss: Indonesia probes crash of suspected Chinese rocket fragment",
-    "title_es": "Casi accidente: Indonesia investiga el accidente de un presunto fragmento de cohete chino",
+    "title_es": "Near miss: Indonesia probes crash of suspected Chinese rocket fragment",
     "url": "https://phys.org/news/2026-10-indonesia-probes-chinese-rocket-fragment.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-20T00:00:00.000Z",
@@ -2770,7 +2910,7 @@
   },
   {
     "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-    "title_es": "¡Articulaciones, cámara, acción! Cogeneración de movimiento y vídeo 3D para plataformas arbitrarias",
+    "title_es": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
     "url": "http://arxiv.org/abs/2610.28632v1",
     "source": "arXiv",
     "published": "2026-10-20T00:00:00.000Z",
@@ -65894,7 +66034,7 @@
     ]
   },
   {
-    "title": "Correction: The limited effects of social media use on misperceptions Social media’s limited role in misperceptions",
+    "title": "Correction: Addressing risk factors for hypertensive disorders in pregnancy: A case study of a quality improvement program in two states in Nigeria",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
@@ -129076,6 +129216,20 @@
       "higgs",
       "signal",
       "strength"
+    ]
+  },
+  {
+    "title": "Lee-Huang-Yang dynamics emergent from a direct Wigner representation, by King Lun Ng, Maciej Bartłomiej Kruk, Piotr Deuar",
+    "title_es": "Lee-Huang-Yang dynamics emergent from a direct Wigner representation, by King Lun Ng, Maciej Bartłomiej Kruk, Piotr Deuar",
+    "url": "http://scipost.org/scipostphys.21.5.117",
+    "source": "SciPost Publications",
+    "published": "",
+    "date": "",
+    "category": "noticia",
+    "tags": [
+      "lee-huang-yang",
+      "dynamics",
+      "emergent"
     ]
   }
 ]
