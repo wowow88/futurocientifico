@@ -1,5 +1,131 @@
 [
   {
+    "title": "Cooking pollution dominates air quality at mealtimes in London",
+    "title_es": "La contaminación por cocinar domina la calidad del aire a la hora de las comidas en Londres",
+    "url": "https://www.newscientist.com/article/2599772-cooking-pollution-dominates-air-quality-at-mealtimes-in-london/",
+    "source": "New Scientist",
+    "published": "2026-11-19T12:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "cooking",
+      "pollution",
+      "dominates"
+    ]
+  },
+  {
+    "title": "A Metric for Semantic Graph Matching of No-Code Workflows",
+    "title_es": "Una métrica para la coincidencia de grafos semánticos de flujos de trabajo «no-code»",
+    "url": "https://arxiv.org/abs/2611.23233",
+    "source": "arXiv",
+    "published": "2026-11-19T05:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "metric",
+      "semantic",
+      "graph"
+    ]
+  },
+  {
+    "title": "Homo erectus Thrived in Chinese Rainforest Far Later than Thought",
+    "title_es": "El Homo erectus prosperó en la selva tropical china mucho más tarde de lo que se pensaba",
+    "url": "https://www.sci.news/othersciences/anthropology/homo-erectus-china-15208.html",
+    "source": "Sci.News",
+    "published": "2026-11-19T01:08:35.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "homo",
+      "erectus",
+      "thrived"
+    ]
+  },
+  {
+    "title": "Retraction Note: Detection of anisotropic cosmic structures on a gigaparsec scale",
+    "title_es": "Nota de retractación: Detección de estructuras cósmicas anisotrópicas a escala de gigaparsecs",
+    "url": "https://www.nature.com/articles/s41586-026-11388-5",
+    "source": "Nature",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "retraction",
+      "note",
+      "detection"
+    ]
+  },
+  {
+    "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
+    "title_es": "APOD: 19 de noviembre de 2026 – Las nebulosas de Cabeza de Caballo y de la Llama",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "apod",
+      "2026",
+      "november"
+    ]
+  },
+  {
+    "title": "American science is broken. Meet the people fixing it",
+    "title_es": "La ciencia estadounidense está rota. Conozca a las personas que la están arreglando",
+    "url": "https://www.sciencenews.org/article/fixing-american-science-priorities",
+    "source": "Science News",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "american",
+      "science",
+      "broken"
+    ]
+  },
+  {
+    "title": "Peru’s penguins are in trouble. A super El Niño could worsen things",
+    "title_es": "Los pingüinos de Perú están en apuros. Un super El Niño podría empeorar las cosas",
+    "url": "https://www.snexplores.org/article/peru-penguins-el-nino-trouble",
+    "source": "Science News Explores",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "perus",
+      "penguins",
+      "are"
+    ]
+  },
+  {
+    "title": "Scientists tested 212 plant-based foods. Every single one contained fungal toxins",
+    "title_es": "Los científicos analizaron 212 alimentos de origen vegetal. Todos y cada uno de ellos contenían toxinas fúngicas.",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "scientists",
+      "tested",
+      "212"
+    ]
+  },
+  {
+    "title": "Fridges and packaging contribute to food waste",
+    "title_es": "Las neveras y los envases contribuyen al desperdicio de alimentos",
+    "url": "https://phys.org/news/2026-11-fridges-packaging-contribute-food.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-19T00:00:00.000Z",
+    "date": "2026-11-19",
+    "category": "noticia",
+    "tags": [
+      "fridges",
+      "packaging",
+      "contribute"
+    ]
+  },
+  {
     "title": "Timeline: The biggest breakthroughs of the past 70 years",
     "title_es": "Cronología: Los mayores avances de los últimos 70 años",
     "url": "https://www.newscientist.com/article/2599549-timeline-the-biggest-breakthroughs-of-the-past-70-years/",
@@ -71,7 +197,7 @@
   },
   {
     "title": "APOD: 2026 November 18 – An M-class Solar Flare",
-    "title_es": "APOD: 18 de noviembre de 2026 – Una llamarada solar de clase M",
+    "title_es": "APOD: 18 de noviembre de 2026 – Una erupción solar de clase M",
     "url": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
     "source": "NASA (Top News)",
     "published": "2026-11-18T00:00:00.000Z",
@@ -137,6 +263,48 @@
       "joe",
       "rogan",
       "catalyst"
+    ]
+  },
+  {
+    "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+    "title_es": "Saber lo que se sabe: una teoría de rasgos sobre el valor de los revisores en los sistemas cognitivos humanos-IA",
+    "url": "http://arxiv.org/abs/2611.24932v1",
+    "source": "arXiv",
+    "published": "2026-11-18T00:00:00.000Z",
+    "date": "2026-11-18",
+    "category": "noticia",
+    "tags": [
+      "knowing",
+      "what",
+      "you"
+    ]
+  },
+  {
+    "title": "El IAC acoge una reunión de trabajo del equipo NATE",
+    "title_es": "El IAC acoge una reunión de trabajo del equipo de la NATE",
+    "url": "https://www.iac.es/es/divulgacion/noticias/el-iac-acoge-una-reunion-de-trabajo-del-equipo-nate",
+    "source": "IAC",
+    "published": "2026-11-18T00:00:00.000Z",
+    "date": "2026-11-18",
+    "category": "noticia",
+    "tags": [
+      "iac",
+      "acoge",
+      "reunión"
+    ]
+  },
+  {
+    "title": "First thermal images from Sentinel-3C radiometer",
+    "title_es": "Primeras imágenes térmicas del radiómetro Sentinel-3C",
+    "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-3/first-thermal-images-from-sentinel-3c-radiometer",
+    "source": "ESA (Top News)",
+    "published": "2026-11-18T00:00:00.000Z",
+    "date": "2026-11-18",
+    "category": "noticia",
+    "tags": [
+      "first",
+      "thermal",
+      "images"
     ]
   },
   {
@@ -267,7 +435,7 @@
   },
   {
     "title": "The world's soil is worth US$325 trillion: Why isn't it protected?",
-    "title_es": "El suelo del mundo vale 325 billones de dólares: ¿por qué no está protegido?",
+    "title_es": "El suelo del mundo vale 325 billones de dólares estadounidenses: ¿por qué no está protegido?",
     "url": "https://phys.org/news/2026-11-world-soil-worth-us325-trillion.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-17T00:00:00.000Z",
@@ -365,7 +533,7 @@
   },
   {
     "title": "As El Niño builds, studies of extreme marine heatwaves must start now",
-    "title_es": "A medida que se intensifica El Niño, deben comenzar ya los estudios sobre las olas de calor marinas extremas",
+    "title_es": "A medida que se va formando El Niño, los estudios sobre las olas de calor marinas extremas deben comenzar ya",
     "url": "https://www.nature.com/articles/d41586-026-03715-7",
     "source": "Nature",
     "published": "2026-11-16T00:00:00.000Z",
@@ -477,7 +645,7 @@
   },
   {
     "title": "Is this iconic black hole image accurate? New study delivers an independent result",
-    "title_es": "¿Es precisa esta icónica imagen del agujero negro? Un nuevo estudio ofrece un resultado independiente",
+    "title_es": "¿Es exacta esta icónica imagen del agujero negro? Un nuevo estudio ofrece un resultado independiente",
     "url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-15T00:00:00.000Z",
@@ -547,7 +715,7 @@
   },
   {
     "title": "Chinese graduate students are now choosing to stay closer to home",
-    "title_es": "Los estudiantes chinos de posgrado ahora prefieren quedarse más cerca de casa",
+    "title_es": "Los estudiantes chinos de posgrado ahora optan por quedarse más cerca de casa",
     "url": "https://www.nature.com/articles/d41586-026-03456-7",
     "source": "Nature",
     "published": "2026-11-13T00:00:00.000Z",
@@ -575,7 +743,7 @@
   },
   {
     "title": "Hera spies a half-hidden asteroid moonlet",
-    "title_es": "Hera detecta una pequeña luna asteroidal medio oculta",
+    "title_es": "Hera detecta una pequeña luna asteroidal semiescondida",
     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet",
     "source": "ESA (Top News)",
     "published": "2026-11-13T00:00:00.000Z",
@@ -617,7 +785,7 @@
   },
   {
     "title": "Wider daily temperature ranges linked to stronger fevers in amphibians and reptiles",
-    "title_es": "Las amplitudes térmicas diarias mayores están relacionadas con fiebres más intensas en anfibios y reptiles",
+    "title_es": "Las amplitudes térmicas diarias más amplias están relacionadas con fiebres más intensas en anfibios y reptiles",
     "url": "https://phys.org/news/2026-11-wider-daily-temperature-ranges-linked.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-13T00:00:00.000Z",
@@ -645,7 +813,7 @@
   },
   {
     "title": "CNIO researchers create protein ‘nanocages’, laying the groundwork for a potential new strategy to deliver cancer drugs",
-    "title_es": "Los investigadores del CNIO crean «nanojaulas» de proteínas, sentando las bases de una posible nueva estrategia para administrar fármacos contra el cáncer",
+    "title_es": "Los investigadores del CNIO crean «nanojaulas» proteicas, sentando las bases de una posible nueva estrategia para administrar fármacos contra el cáncer",
     "url": "https://www.cnio.es/noticias/cnio-researchers-create-protein-nanocages-laying-the-groundwork-for-a-potential-new-strategy-to-deliver-cancer-drugs/",
     "source": "CNIO",
     "published": "2026-11-13T00:00:00.000Z",
@@ -743,7 +911,7 @@
   },
   {
     "title": "Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
-    "title_es": "Corrección del autor: SLAMF6 como supresor farmacológicamente diana de la inmunidad de las células T frente al cáncer",
+    "title_es": "Corrección del autor: SLAMF6 como supresor diana de fármacos de la inmunidad de las células T frente al cáncer",
     "url": "https://www.nature.com/articles/s41586-026-11409-3",
     "source": "Nature",
     "published": "2026-11-12T00:00:00.000Z",
@@ -799,7 +967,7 @@
   },
   {
     "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
-    "title_es": "El nacimiento ardiente de la Tierra pudo haber creado agua equivalente a cientos de océanos",
+    "title_es": "El nacimiento ígneo de la Tierra pudo haber creado una cantidad de agua equivalente a cientos de océanos",
     "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-12T00:00:00.000Z",
@@ -813,7 +981,7 @@
   },
   {
     "title": "Study tracks Rum Jungle Mine's metal legacy through Finniss River food web",
-    "title_es": "Un estudio sigue el rastro del legado metálico de la mina Rum Jungle a través de la red trófica del río Finniss",
+    "title_es": "Un estudio rastrea el legado metálico de la mina Rum Jungle a través de la red trófica del río Finniss",
     "url": "https://phys.org/news/2026-11-tracks-rum-jungle-metal-legacy.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-12T00:00:00.000Z",
@@ -869,7 +1037,7 @@
   },
   {
     "title": "The brain’s fear center moonlights as the save button for memories",
-    "title_es": "El centro del miedo del cerebro actúa como botón de guardado de los recuerdos",
+    "title_es": "El centro del miedo del cerebro actúa como el botón de guardar de los recuerdos",
     "url": "https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories",
     "source": "Science News",
     "published": "2026-11-12T00:00:00.000Z",
@@ -911,7 +1079,7 @@
   },
   {
     "title": "Voyager is one light day away from us. Here’s what it discovered on its epic journey",
-    "title_es": "La Voyager está a un día luz de nosotros. Esto es lo que ha descubierto en su épico viaje",
+    "title_es": "La Voyager está a un día luz de nosotros. Esto es lo que ha descubierto en su épico viaje.",
     "url": "https://www.newscientist.com/article/2598369-voyager-is-one-light-day-away-from-us-heres-what-it-discovered-on-its-epic-journey/",
     "source": "New Scientist",
     "published": "2026-11-11T08:00:00.000Z",
@@ -925,7 +1093,7 @@
   },
   {
     "title": "We Used It Anyway: Low Trust and High Adoption of Large Language Models in Requirements Engineering Education",
-    "title_es": "Lo usamos de todos modos: baja confianza y alta adopción de grandes modelos de lenguaje en la formación en ingeniería de requisitos",
+    "title_es": "Lo usamos de todos modos: baja confianza y alta adopción de grandes modelos lingüísticos en la formación en ingeniería de requisitos",
     "url": "https://arxiv.org/abs/2611.12889",
     "source": "arXiv",
     "published": "2026-11-11T05:00:00.000Z",
@@ -1023,7 +1191,7 @@
   },
   {
     "title": "Research snapshot: The use of icons in aphasia-friendly texts",
-    "title_es": "Resumen de la investigación: El uso de iconos en textos adaptados a la afasia",
+    "title_es": "Resumen de la investigación: El uso de iconos en textos adaptados a personas con afasia",
     "url": "https://phys.org/news/2026-11-snapshot-icons-aphasia-friendly-texts.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-11T00:00:00.000Z",
@@ -1037,7 +1205,7 @@
   },
   {
     "title": "Stone Age children left fingerprints on ancient art projects",
-    "title_es": "Los niños de la Edad de Piedra dejaron huellas dactilares en obras de arte antiguas",
+    "title_es": "Los niños de la Edad de Piedra dejaron huellas dactilares en antiguas obras de arte",
     "url": "https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt",
     "source": "Science News",
     "published": "2026-11-11T00:00:00.000Z",
@@ -1051,7 +1219,7 @@
   },
   {
     "title": "Newly described insect may live its whole life on a spider’s web",
-    "title_es": "Un insecto recientemente descubierto podría vivir toda su vida en la telaraña de una araña",
+    "title_es": "Un insecto recientemente descrito puede vivir toda su vida en la telaraña de una araña",
     "url": "https://www.newscientist.com/article/2598153-newly-described-bug-lives-its-whole-life-on-a-spider-web/",
     "source": "New Scientist",
     "published": "2026-11-10T10:00:00.000Z",
@@ -1079,7 +1247,7 @@
   },
   {
     "title": "PhD funding mechanisms should protect the right to disagree with supervisors",
-    "title_es": "Los mecanismos de financiación de los doctorados deberían proteger el derecho a estar en desacuerdo con los directores de tesis.",
+    "title_es": "Los mecanismos de financiación de los doctorados deben proteger el derecho a discrepar con los directores de tesis.",
     "url": "https://www.nature.com/articles/d41586-026-03645-4",
     "source": "Nature",
     "published": "2026-11-10T00:00:00.000Z",
@@ -1317,7 +1485,7 @@
   },
   {
     "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-    "title_es": "HiVe-Mem: Intercalado de la expansión de la memoria horizontal y la composición de evidencias verticales para agentes multimodales",
+    "title_es": "HiVe-Mem: Intercalado de la expansión de la memoria horizontal y la composición de la evidencia vertical para agentes multimodales",
     "url": "http://arxiv.org/abs/2611.12872v1",
     "source": "arXiv",
     "published": "2026-11-09T00:00:00.000Z",
@@ -1331,7 +1499,7 @@
   },
   {
     "title": "Longest Feather Ever Found in Amber Offers Clues to Flight’s Origins",
-    "title_es": "La pluma más larga jamás hallada en ámbar ofrece pistas sobre los orígenes del vuelo",
+    "title_es": "La pluma más larga jamás encontrada en ámbar ofrece pistas sobre los orígenes del vuelo",
     "url": "https://www.sci.news/paleontology/longest-amber-feather-15181.html",
     "source": "Sci.News",
     "published": "2026-11-08T19:39:03.000Z",
@@ -1401,7 +1569,7 @@
   },
   {
     "title": "A hidden limit of space and time could unlock electronics 100,000 times faster",
-    "title_es": "Un límite oculto del espacio y el tiempo podría hacer que la electrónica fuera 100 000 veces más rápida",
+    "title_es": "Un límite oculto del espacio y el tiempo podría hacer que la electrónica sea 100 000 veces más rápida",
     "url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-07T23:34:19.000Z",
@@ -1443,7 +1611,7 @@
   },
   {
     "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
-    "title_es": "Unos científicos descubren que los bosques antiguos de Europa no eran nada parecidos a lo que imaginábamos",
+    "title_es": "Unos científicos descubren que los bosques antiguos de Europa no eran como nos imaginábamos",
     "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-07T00:00:00.000Z",
@@ -1554,7 +1722,7 @@
   },
   {
     "title": "European orbiter detects hints of volcanic activity on Mars",
-    "title_es": "Una sonda europea detecta indicios de actividad volcánica en Marte",
+    "title_es": "Una sonda europea en órbita detecta indicios de actividad volcánica en Marte",
     "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
     "source": "ESA (Top News)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -1568,7 +1736,7 @@
   },
   {
     "title": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
-    "title_es": "¿Misterio resuelto? Por qué las hormigas «dormidas» se ponen de repente a mil por hora",
+    "title_es": "¿Misterio resuelto? Por qué las hormigas «dormidas» se ponen de repente como locas",
     "url": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
     "source": "Science News Explores",
     "published": "2026-11-06T00:00:00.000Z",
@@ -1582,7 +1750,7 @@
   },
   {
     "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
-    "title_es": "No te lo pierdas: lluvias de estrellas, bólidos y una superluna iluminan el cielo nocturno de noviembre",
+    "title_es": "No te lo pierdas: lluvias de estrellas, bólidos y una superluna iluminarán el cielo nocturno de noviembre",
     "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -1722,7 +1890,7 @@
   },
   {
     "title": "The hidden cost of flexible work in academia: women do more parenting",
-    "title_es": "El coste oculto del trabajo flexible en el mundo académico: las mujeres se ocupan más de los hijos",
+    "title_es": "El coste oculto del trabajo flexible en el mundo académico: las mujeres se encargan más de la crianza de los hijos",
     "url": "https://www.nature.com/articles/d41586-026-03568-0",
     "source": "Nature",
     "published": "2026-11-05T00:00:00.000Z",
@@ -1750,7 +1918,7 @@
   },
   {
     "title": "European orbiter detects hints of volcanic activity on Mars",
-    "title_es": "Una sonda europea detecta indicios de actividad volcánica en Marte",
+    "title_es": "Una sonda europea en órbita detecta indicios de actividad volcánica en Marte",
     "url": "https://new.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
     "source": "ESA (Top News)",
     "published": "2026-11-05T00:00:00.000Z",
@@ -1890,7 +2058,7 @@
   },
   {
     "title": "Ecosystems depend on people: don’t abandon them",
-    "title_es": "Los ecosistemas dependen de las personas: no los abandonéis",
+    "title_es": "Los ecosistemas dependen de las personas: no los abandonemos",
     "url": "https://www.nature.com/articles/d41586-026-03544-8",
     "source": "Nature",
     "published": "2026-11-04T00:00:00.000Z",
@@ -2030,7 +2198,7 @@
   },
   {
     "title": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
-    "title_es": "Los científicos del SLAC encuentran pruebas concluyentes de un misterioso tercer tipo de magnetismo",
+    "title_es": "Científicos del SLAC encuentran pruebas concluyentes de un misterioso tercer tipo de magnetismo",
     "url": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-04T00:00:00.000Z",
@@ -2128,7 +2296,7 @@
   },
   {
     "title": "Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation",
-    "title_es": "Unos científicos descubren un nuevo fármaco contra el alzhéimer que repara los daños en el ADN y reduce la inflamación cerebral",
+    "title_es": "Unos científicos descubren un nuevo fármaco contra el alzhéimer que repara el daño en el ADN y reduce la inflamación cerebral",
     "url": "https://www.sciencedaily.com/releases/2026/11/261102075806.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-03T00:00:00.000Z",
@@ -2324,7 +2492,7 @@
   },
   {
     "title": "Breaking the ice: Scientists use attracting particles to form an anti-spin ice",
-    "title_es": "Romper el hielo: los científicos utilizan partículas de atracción para formar un hielo antiespín",
+    "title_es": "Romper el hielo: los científicos utilizan partículas de atracción para formar un hielo antispin",
     "url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-01T00:00:00.000Z",
@@ -2352,7 +2520,7 @@
   },
   {
     "title": "Nations commit to get nature goals back on track",
-    "title_es": "Los países se comprometen a retomar los objetivos medioambientales",
+    "title_es": "Los países se comprometen a retomar los objetivos relacionados con la naturaleza",
     "url": "https://phys.org/news/2026-10-nations-commit-nature-goals-track.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-31T00:00:00.000Z",
@@ -2604,7 +2772,7 @@
   },
   {
     "title": "Prosecutors invoke gender stereotypes in capital cases against women",
-    "title_es": "Los fiscales invocan estereotipos de género en causas con pena de muerte contra mujeres",
+    "title_es": "Los fiscales invocan estereotipos de género en casos de pena capital contra mujeres",
     "url": "https://phys.org/news/2026-10-prosecutors-invoke-gender-stereotypes-capital.html",
     "source": "Phys.org (Latest)",
     "published": "2026-10-29T00:00:00.000Z",
@@ -2632,7 +2800,7 @@
   },
   {
     "title": "Spawning Season: An Experiment in Queer Parenthood",
-    "title_es": "Temporada de desove: un experimento de paternidad queer",
+    "title_es": "Spawning Season: An Experiment in Queer Parenthood",
     "url": "https://www.science.org/doi/abs/10.1126/science.aem8469",
     "source": "Science.org",
     "published": "2026-10-29T00:00:00.000Z",
@@ -2646,7 +2814,7 @@
   },
   {
     "title": "Even stupendous black holes can’t explain dark matter",
-    "title_es": "Ni siquiera los asombrosos agujeros negros pueden explicar la materia oscura",
+    "title_es": "Even stupendous black holes can’t explain dark matter",
     "url": "https://www.nature.com/articles/d41586-026-03386-4",
     "source": "Nature",
     "published": "2026-10-29T00:00:00.000Z",
@@ -2660,7 +2828,7 @@
   },
   {
     "title": "Seabirds get jet lag, too — and it can throw them a bit off course",
-    "title_es": "Las aves marinas también sufren «jet lag», y eso puede hacer que se desvíen un poco de su rumbo.",
+    "title_es": "Seabirds get jet lag, too — and it can throw them a bit off course",
     "url": "https://www.sciencenews.org/article/seabird-jet-lag-navigation-off-course",
     "source": "Science News",
     "published": "2026-10-29T00:00:00.000Z",
@@ -2674,7 +2842,7 @@
   },
   {
     "title": "Six popular sugar substitutes linked to faster brain aging",
-    "title_es": "Seis edulcorantes populares relacionados con un envejecimiento cerebral más rápido",
+    "title_es": "Six popular sugar substitutes linked to faster brain aging",
     "url": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-29T00:00:00.000Z",
@@ -2688,7 +2856,7 @@
   },
   {
     "title": "The FDA Wants to Pull Its Approval of a Drug. It’s Not So Easy.",
-    "title_es": "La FDA quiere retirar su aprobación de un medicamento. No es tan fácil.",
+    "title_es": "The FDA Wants to Pull Its Approval of a Drug. It’s Not So Easy.",
     "url": "https://undark.org/2026/10/28/tavneos-fda-approval/",
     "source": "Undark Magazine",
     "published": "2026-10-28T21:55:45.000Z",
@@ -2702,7 +2870,7 @@
   },
   {
     "title": "Super-insulating solid may soon help historical homes reach net-zero goals",
-    "title_es": "Un sólido superaislante podría ayudar pronto a que las viviendas históricas alcancen los objetivos de cero emisiones netas",
+    "title_es": "Super-insulating solid may soon help historical homes reach net-zero goals",
     "url": "https://www.newscientist.com/article/2596016-super-insulating-solid-may-soon-offer-a-net-zero-solution-for-tricky-homes/",
     "source": "New Scientist",
     "published": "2026-10-28T11:00:00.000Z",
@@ -2716,7 +2884,7 @@
   },
   {
     "title": "KORA: Deterministic-First Execution Control for AI Workloads",
-    "title_es": "KORA: Control de ejecución determinista prioritario para cargas de trabajo de IA",
+    "title_es": "KORA: Deterministic-First Execution Control for AI Workloads",
     "url": "https://arxiv.org/abs/2610.35869",
     "source": "arXiv",
     "published": "2026-10-28T04:00:00.000Z",
@@ -2730,7 +2898,7 @@
   },
   {
     "title": "D. rex: Giant New Fungus Species Discovered in China",
-    "title_es": "D. rex: Descubrimiento de una nueva especie de hongo gigante en China",
+    "title_es": "D. rex: Giant New Fungus Species Discovered in China",
     "url": "https://www.sci.news/biology/dianjunus-rex-15158.html",
     "source": "Sci.News",
     "published": "2026-10-28T00:47:28.000Z",
@@ -2744,7 +2912,7 @@
   },
   {
     "title": "How personalization and psychedelics are revitalizing psychiatry",
-    "title_es": "Cómo la personalización y las sustancias psicodélicas están revitalizando la psiquiatría",
+    "title_es": "How personalization and psychedelics are revitalizing psychiatry",
     "url": "https://www.nature.com/articles/d41586-026-03402-7",
     "source": "Nature",
     "published": "2026-10-28T00:00:00.000Z",
@@ -2758,7 +2926,7 @@
   },
   {
     "title": "Why do flamingos dance while they eat? This scientist found out",
-    "title_es": "¿Por qué bailan los flamencos mientras comen? Este científico lo ha descubierto",
+    "title_es": "Why do flamingos dance while they eat? This scientist found out",
     "url": "https://www.sciencenews.org/article/flamingos-dance-eat-scientist",
     "source": "Science News",
     "published": "2026-10-28T00:00:00.000Z",
@@ -2772,7 +2940,7 @@
   },
   {
     "title": "An avalanche inspired this forecaster to keep others safe",
-    "title_es": "Una avalancha inspiró a este pronosticador a proteger a los demás",
+    "title_es": "An avalanche inspired this forecaster to keep others safe",
     "url": "https://www.snexplores.org/article/avalanche-forecaster-snow-science",
     "source": "Science News Explores",
     "published": "2026-10-28T00:00:00.000Z",
@@ -2786,7 +2954,7 @@
   },
   {
     "title": "The autistic brain processes faces differently than scientists thought",
-    "title_es": "El cerebro autista procesa los rostros de forma diferente a lo que pensaban los científicos",
+    "title_es": "The autistic brain processes faces differently than scientists thought",
     "url": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-10-28T00:00:00.000Z",
@@ -66972,7 +67140,7 @@
     ]
   },
   {
-    "title": "Correction: Cross-cultural adaptation and psychometric validation of the ISBAR structured handover observation tool for ICU-to-ward patient transfer in China",
+    "title": "The vitamin D-vitamin D receptor axis in uterine leiomyomas: A scoping review of clinical, molecular, and genetic evidence",
     "title_es": "Tasas de parto en mujeres sobrevivientes de cáncer: un estudio poblacional en Taiwán",
     "url": "https://journals.plos.org/plosone/article",
     "source": "PLOS ONE",
