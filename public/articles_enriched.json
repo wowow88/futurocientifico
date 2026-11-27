@@ -1,5 +1,131 @@
 [
   {
+    "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+    "title_es": "La misión NG-25 de la NASA lanzará una investigación pionera sobre cultivos espaciales",
+    "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-27T14:22:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "nasas",
+      "ng-25",
+      "mission"
+    ]
+  },
+  {
+    "title": "Vagus nerve stimulation slows growth and spread of pancreatic cancer",
+    "title_es": "La estimulación del nervio vago ralentiza el crecimiento y la propagación del cáncer de páncreas",
+    "url": "https://www.newscientist.com/article/2601187-vagus-nerve-stimulation-slows-growth-and-spread-of-pancreatic-cancer/",
+    "source": "New Scientist",
+    "published": "2026-11-27T14:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "vagus",
+      "nerve",
+      "stimulation"
+    ]
+  },
+  {
+    "title": "Dust ‘Fingerprints’ in Cassiopeia A Hint at Original Star’s Pre-Explosion Shake-Up",
+    "title_es": "Las «huellas dactilares» de polvo en Casiopea A sugieren una sacudida de la estrella original antes de su explosión",
+    "url": "https://www.sci.news/astronomy/cassiopeia-a-dust-fingerprints-15221.html",
+    "source": "Sci.News",
+    "published": "2026-11-27T12:46:01.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "dust",
+      "fingerprints",
+      "cassiopeia"
+    ]
+  },
+  {
+    "title": "For Sale: Custom Space Program, Ready to Launch",
+    "title_es": "Se vende: programa espacial personalizado, listo para su lanzamiento",
+    "url": "https://undark.org/2026/11/27/space-for-sale/",
+    "source": "Undark Magazine",
+    "published": "2026-11-27T08:00:12.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "sale",
+      "custom",
+      "space"
+    ]
+  },
+  {
+    "title": "The haunting loveliness of boglands: Books in brief",
+    "title_es": "La fascinante belleza de las turberas: Libros en resumen",
+    "url": "https://www.nature.com/articles/d41586-026-03885-4",
+    "source": "Nature",
+    "published": "2026-11-27T00:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "haunting",
+      "loveliness",
+      "boglands"
+    ]
+  },
+  {
+    "title": "SPECFANN: Ajuste espectral mediante redes neuronales artificiales: I. Un emulador de FASTWIND basado en aprendizaje profundo y un conjunto de herramientas de ajuste",
+    "title_es": "SPECFANN: Ajuste espectral mediante redes neuronales artificiales: I. Un emulador de FASTWIND basado en aprendizaje profundo y un conjunto de herramientas de ajuste",
+    "url": "https://www.iac.es/es/divulgacion/noticias/specfann-ajuste-espectral-mediante-redes-neuronales-artificiales-i-un-emulador-de-fastwind-basado-en",
+    "source": "IAC",
+    "published": "2026-11-27T00:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "specfann",
+      "ajuste",
+      "espectral"
+    ]
+  },
+  {
+    "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+    "title_es": "El astronauta de la misión Artemis III, Andre Douglas, visita el VAB",
+    "url": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+    "source": "NASA (Top News)",
+    "published": "2026-11-27T00:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "artemis",
+      "iii",
+      "astronaut"
+    ]
+  },
+  {
+    "title": "The narwhal’s legendary “unicorn horn” holds a remarkable engineering secret",
+    "title_es": "El legendario «cuerno de unicornio» del narval guarda un notable secreto de ingeniería",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261126063316.htm",
+    "source": "ScienceDaily (Top)",
+    "published": "2026-11-27T00:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "narwhals",
+      "legendary",
+      "unicorn"
+    ]
+  },
+  {
+    "title": "Internet cables double as seismic sensors to map earthquake faults in fine detail",
+    "title_es": "Los cables de Internet sirven también como sensores sísmicos para mapear las fallas sísmicas con gran detalle",
+    "url": "https://phys.org/news/2026-11-internet-cables-seismic-sensors-earthquake.html",
+    "source": "Phys.org (Latest)",
+    "published": "2026-11-27T00:00:00.000Z",
+    "date": "2026-11-27",
+    "category": "noticia",
+    "tags": [
+      "internet",
+      "cables",
+      "double"
+    ]
+  },
+  {
     "title": "Ultracold atoms could help unravel a major flaw in quantum theory",
     "title_es": "Los átomos ultrfríos podrían ayudar a desentrañar un importante fallo de la teoría cuántica",
     "url": "https://www.newscientist.com/article/2600718-ultracold-atoms-could-help-unravel-a-major-flaw-in-quantum-theory/",
@@ -29,7 +155,7 @@
   },
   {
     "title": "Navigating grief in academia: ways to find balance",
-    "title_es": "Cómo afrontar el duelo en el mundo académico: formas de encontrar el equilibrio",
+    "title_es": "Afrontar el duelo en el mundo académico: formas de encontrar el equilibrio",
     "url": "https://www.nature.com/articles/d41586-026-02752-6",
     "source": "Nature",
     "published": "2026-11-26T00:00:00.000Z",
@@ -99,7 +225,7 @@
   },
   {
     "title": "Do all groups drift toward rule by the few? Not when time is on their side",
-    "title_es": "¿Todos los grupos tienden hacia el gobierno de unos pocos? No cuando el tiempo está de su parte",
+    "title_es": "¿Todos los grupos tienden hacia el gobierno de unos pocos? No cuando el tiempo está de su lado",
     "url": "https://phys.org/news/2026-11-groups-drift-side.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-26T00:00:00.000Z",
@@ -109,6 +235,48 @@
       "all",
       "groups",
       "drift"
+    ]
+  },
+  {
+    "title": "The absent-minded physicist who bested them all",
+    "title_es": "El físico despistado que los superó a todos",
+    "url": "https://www.science.org/doi/abs/10.1126/science.aem8414",
+    "source": "Science.org",
+    "published": "2026-11-26T00:00:00.000Z",
+    "date": "2026-11-26",
+    "category": "noticia",
+    "tags": [
+      "absent-minded",
+      "physicist",
+      "who"
+    ]
+  },
+  {
+    "title": "Nature Cardiovascular Research: Why Can’t the Heart Repair Itself? CNIC Study Reveals a Fundamental Trade-Off Between Beating and Regeneration",
+    "title_es": "Nature Cardiovascular Research: ¿Por qué el corazón no puede repararse a sí mismo? Un estudio del CNIC revela una relación de compromiso fundamental entre el latido y la regeneración",
+    "url": "https://www.cnic.es/es/node/268325",
+    "source": "CNIC",
+    "published": "2026-11-26T00:00:00.000Z",
+    "date": "2026-11-26",
+    "category": "noticia",
+    "tags": [
+      "nature",
+      "cardiovascular",
+      "research"
+    ]
+  },
+  {
+    "title": "Ozone hole one of the largest in decades",
+    "title_es": "El agujero de ozono, uno de los más grandes en décadas",
+    "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-5p/ozone-hole-one-of-the-largest-in-decades",
+    "source": "ESA (Top News)",
+    "published": "2026-11-26T00:00:00.000Z",
+    "date": "2026-11-26",
+    "category": "noticia",
+    "tags": [
+      "ozone",
+      "hole",
+      "one"
     ]
   },
   {
@@ -197,7 +365,7 @@
   },
   {
     "title": "Australia’s legless geckos evolved like snakes did",
-    "title_es": "Los gecos sin patas de Australia evolucionaron como lo hicieron las serpientes",
+    "title_es": "Los gecos sin patas de Australia evolucionaron como las serpientes",
     "url": "https://www.sciencenews.org/article/legless-geckos-evolved-like-snakes",
     "source": "Science News",
     "published": "2026-11-25T00:00:00.000Z",
@@ -211,7 +379,7 @@
   },
   {
     "title": "Insects once had 24 legs",
-    "title_es": "Los insectos tuvieron 24 patas en el pasado",
+    "title_es": "Los insectos tuvieron 24 patas",
     "url": "https://www.snexplores.org/article/insects-had-24-legs",
     "source": "Science News Explores",
     "published": "2026-11-25T00:00:00.000Z",
@@ -239,7 +407,7 @@
   },
   {
     "title": "Voting rights for AI? The research behind an unsettling idea",
-    "title_es": "¿Derecho al voto para la IA? La investigación detrás de una idea inquietante",
+    "title_es": "¿Derecho a voto para la IA? La investigación detrás de una idea inquietante",
     "url": "https://phys.org/news/2026-11-voting-rights-ai-unsettling-idea.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-25T00:00:00.000Z",
@@ -281,7 +449,7 @@
   },
   {
     "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
-    "title_es": "Una supernova cósmicamente cercana podría revelar los secretos de la explosión estelar",
+    "title_es": "Una supernova cósmicamente cercana podría desvelar los secretos de la explosión estelar",
     "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
     "source": "Science News",
     "published": "2026-11-25T00:00:00.000Z",
@@ -295,7 +463,7 @@
   },
   {
     "title": "2-Million-Year-Old Australopithecus Jaw Reveals Bony Bump Still Found in Humans Today",
-    "title_es": "Una mandíbula de «Australopithecus» de 2 millones de años revela una protuberancia ósea que todavía se encuentra en los humanos actuales",
+    "title_es": "Una mandíbula de australopiteco de 2 millones de años revela una protuberancia ósea que todavía se encuentra en los humanos actuales",
     "url": "https://www.sci.news/othersciences/anthropology/australopithecus-mandibular-torus-15220.html",
     "source": "Sci.News",
     "published": "2026-11-24T23:20:31.000Z",
@@ -365,7 +533,7 @@
   },
   {
     "title": "Meet the first new living cat species described in more than a century",
-    "title_es": "Conoce a la primera nueva especie de felino viva descrita en más de un siglo",
+    "title_es": "Conoce a la primera nueva especie de gato vivo descrita en más de un siglo",
     "url": "https://www.snexplores.org/article/new-living-cat-species",
     "source": "Science News Explores",
     "published": "2026-11-24T00:00:00.000Z",
@@ -407,7 +575,7 @@
   },
   {
     "title": "OmniAct: One Policy, One Million Embodiments",
-    "title_es": "OmniAct: una política, un millón de formas de aplicarla",
+    "title_es": "OmniAct: Una política, un millón de formas de aplicarla",
     "url": "http://arxiv.org/abs/2611.33158v1",
     "source": "arXiv",
     "published": "2026-11-24T00:00:00.000Z",
@@ -435,7 +603,7 @@
   },
   {
     "title": "New Silesaurid Species from Brazil Helps Close Gap in Early Record of Dinosaur Lineage",
-    "title_es": "Una nueva especie de silesáurido de Brasil ayuda a completar el registro de los primeros momentos del linaje de los dinosaurios",
+    "title_es": "Una nueva especie de silesáurido de Brasil ayuda a completar el registro temprano del linaje de los dinosaurios",
     "url": "https://www.sci.news/paleontology/itaguyra-occulta-15217.html",
     "source": "Sci.News",
     "published": "2026-11-23T20:04:32.000Z",
@@ -659,7 +827,7 @@
   },
   {
     "title": "Saw-Toothed ‘Killer’ Dolphin Lived Off South Carolina 28 Million Years Ago",
-    "title_es": "El delfín «asesino» de dientes aserrados vivió frente a las costas de Carolina del Sur hace 28 millones de años",
+    "title_es": "El delfín «asesino» de dientes aserrados vivió en Carolina del Sur hace 28 millones de años",
     "url": "https://www.sci.news/paleontology/ankylorhiza-serratidens-15215.html",
     "source": "Sci.News",
     "published": "2026-11-21T00:59:45.000Z",
@@ -701,7 +869,7 @@
   },
   {
     "title": "Fermi's 14-year all-sky map bridges astronomy's elusive 'MeV gap'",
-    "title_es": "El mapa de todo el cielo de 14 años del telescopio Fermi cierra el escurridizo «hueco de MeV» de la astronomía",
+    "title_es": "El mapa de todo el cielo de 14 años del Fermi cierra la esquiva «brecha MeV» de la astronomía",
     "url": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-21T00:00:00.000Z",
@@ -743,7 +911,7 @@
   },
   {
     "title": "Time may be far stranger than we realize. Scientists have a way to test it",
-    "title_es": "El tiempo puede ser mucho más extraño de lo que creemos. Los científicos tienen una forma de comprobarlo.",
+    "title_es": "El tiempo puede ser mucho más extraño de lo que creemos. Los científicos tienen una forma de comprobarlo",
     "url": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-21T00:00:00.000Z",
@@ -771,7 +939,7 @@
   },
   {
     "title": "Unexpected stone tools from Israel raise questions about cultural evolution",
-    "title_es": "Unas herramientas de piedra inesperadas halladas en Israel plantean interrogantes sobre la evolución cultural",
+    "title_es": "Unas herramientas de piedra inesperadas procedentes de Israel plantean interrogantes sobre la evolución cultural",
     "url": "https://www.newscientist.com/article/2599953-unexpected-stone-tools-from-israel-raise-questions-about-cultural-evolution/",
     "source": "New Scientist",
     "published": "2026-11-20T12:00:00.000Z",
@@ -827,7 +995,7 @@
   },
   {
     "title": "2nd International Symposium: Understanding the Neurovascular Network to Prevent Dementia",
-    "title_es": "II Simposio Internacional: Comprender la red neurovascular para prevenir la demencia",
+    "title_es": "2.º Simposio Internacional: Comprender la red neurovascular para prevenir la demencia",
     "url": "https://www.cnic.es/es/node/268095",
     "source": "CNIC",
     "published": "2026-11-20T00:00:00.000Z",
@@ -981,7 +1149,7 @@
   },
   {
     "title": "A Metric for Semantic Graph Matching of No-Code Workflows",
-    "title_es": "Una métrica para la coincidencia de grafos semánticos de flujos de trabajo «no-code»",
+    "title_es": "Una métrica para la coincidencia de grafos semánticos de flujos de trabajo sin código",
     "url": "https://arxiv.org/abs/2611.23233",
     "source": "arXiv",
     "published": "2026-11-19T05:00:00.000Z",
@@ -1191,7 +1359,7 @@
   },
   {
     "title": "Julián Palomino-Doza: \"“No research question makes sense unless it is rooted in a patient need”\"",
-    "title_es": "Julián Palomino-Doza: «Ninguna pregunta de investigación tiene sentido si no está basada en una necesidad del paciente».",
+    "title_es": "Julián Palomino-Doza: «Ninguna pregunta de investigación tiene sentido a menos que esté basada en una necesidad del paciente».",
     "url": "https://www.cnic.es/es/node/267996",
     "source": "CNIC",
     "published": "2026-11-18T00:00:00.000Z",
@@ -1275,7 +1443,7 @@
   },
   {
     "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
-    "title_es": "Saber lo que se sabe: una teoría de rasgos sobre el valor del revisor en los sistemas cognitivos humano-IA",
+    "title_es": "Saber lo que se sabe: una teoría de rasgos sobre el valor de los revisores en los sistemas cognitivos humano-IA",
     "url": "http://arxiv.org/abs/2611.24932v1",
     "source": "arXiv",
     "published": "2026-11-18T00:00:00.000Z",
@@ -1401,7 +1569,7 @@
   },
   {
     "title": "What to know about kratom and its powerful derivatives",
-    "title_es": "Lo que hay que saber sobre el kratom y sus potentes derivados",
+    "title_es": "Qué debes saber sobre el kratom y sus potentes derivados",
     "url": "https://www.sciencenews.org/article/kratom-pain-addictive-potential-danger",
     "source": "Science News",
     "published": "2026-11-17T00:00:00.000Z",
@@ -1457,7 +1625,7 @@
   },
   {
     "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
-    "title_es": "LLM ambientales: ajuste fino supervisado y eficiente en cuanto a datos mediante la adaptación de la temperatura",
+    "title_es": "LLM ambientales: ajuste fino supervisado eficiente en cuanto a datos mediante la adaptación de la temperatura",
     "url": "http://arxiv.org/abs/2611.23229v1",
     "source": "arXiv",
     "published": "2026-11-17T00:00:00.000Z",
@@ -1513,7 +1681,7 @@
   },
   {
     "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-    "title_es": "¿Cuándo deben olvidar los agentes LLM? Filtrado de la memoria en caso de errores críticos del solucionador de consultas",
+    "title_es": "¿Cuándo deben olvidar los agentes LLM? Filtrado de la memoria en caso de errores críticos del resolutor relacionados con las consultas",
     "url": "https://arxiv.org/abs/2611.17338",
     "source": "arXiv",
     "published": "2026-11-16T05:00:00.000Z",
@@ -1541,7 +1709,7 @@
   },
   {
     "title": "As El Niño builds, studies of extreme marine heatwaves must start now",
-    "title_es": "A medida que se intensifica El Niño, deben comenzar ya los estudios sobre las olas de calor marinas extremas",
+    "title_es": "A medida que se va formando El Niño, deben comenzar ya los estudios sobre las olas de calor marinas extremas",
     "url": "https://www.nature.com/articles/d41586-026-03715-7",
     "source": "Nature",
     "published": "2026-11-16T00:00:00.000Z",
@@ -1639,7 +1807,7 @@
   },
   {
     "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
-    "title_es": "La enfermedad de Alzheimer puede comenzar a reducir dos regiones del cerebro años antes de que se produzca la pérdida de memoria.",
+    "title_es": "La enfermedad de Alzheimer puede comenzar a reducir dos regiones del cerebro años antes de la pérdida de memoria",
     "url": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-15T00:00:00.000Z",
@@ -1653,7 +1821,7 @@
   },
   {
     "title": "Is this iconic black hole image accurate? New study delivers an independent result",
-    "title_es": "¿Es exacta esta icónica imagen del agujero negro? Un nuevo estudio ofrece un resultado independiente",
+    "title_es": "¿Es exacta esta icónica imagen de un agujero negro? Un nuevo estudio ofrece un resultado independiente",
     "url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-15T00:00:00.000Z",
@@ -1667,7 +1835,7 @@
   },
   {
     "title": "New Scientist readers on how the magazine has shaped their lives",
-    "title_es": "Los lectores de New Scientist hablan de cómo la revista ha influido en sus vidas",
+    "title_es": "Lectores de New Scientist sobre cómo la revista ha influido en sus vidas",
     "url": "https://www.newscientist.com/article/2595857-new-scientist-readers-on-how-the-magazine-has-shaped-their-lives/",
     "source": "New Scientist",
     "published": "2026-11-14T07:00:00.000Z",
@@ -1695,7 +1863,7 @@
   },
   {
     "title": "Alaska laments decline of its prized salmon populations",
-    "title_es": "Alaska lamenta el declive de sus preciadas poblaciones de salmón",
+    "title_es": "Alaska lamenta el declive de sus apreciadas poblaciones de salmón",
     "url": "https://phys.org/news/2026-11-alaska-laments-decline-prized-salmon.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-14T00:00:00.000Z",
@@ -1723,7 +1891,7 @@
   },
   {
     "title": "Chinese graduate students are now choosing to stay closer to home",
-    "title_es": "Los estudiantes chinos de posgrado ahora optan por quedarse más cerca de casa",
+    "title_es": "Los estudiantes chinos de posgrado ahora prefieren quedarse más cerca de casa",
     "url": "https://www.nature.com/articles/d41586-026-03456-7",
     "source": "Nature",
     "published": "2026-11-13T00:00:00.000Z",
@@ -1751,7 +1919,7 @@
   },
   {
     "title": "Hera spies a half-hidden asteroid moonlet",
-    "title_es": "Hera detecta una pequeña luna asteroidal semiescondida",
+    "title_es": "Hera detecta una pequeña luna asteroidal medio oculta",
     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet",
     "source": "ESA (Top News)",
     "published": "2026-11-13T00:00:00.000Z",
@@ -1793,7 +1961,7 @@
   },
   {
     "title": "Wider daily temperature ranges linked to stronger fevers in amphibians and reptiles",
-    "title_es": "Las mayores oscilaciones térmicas diarias están relacionadas con fiebres más intensas en anfibios y reptiles",
+    "title_es": "Las amplitudes térmicas diarias mayores están relacionadas con fiebres más intensas en anfibios y reptiles",
     "url": "https://phys.org/news/2026-11-wider-daily-temperature-ranges-linked.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-13T00:00:00.000Z",
@@ -1821,7 +1989,7 @@
   },
   {
     "title": "CNIO researchers create protein ‘nanocages’, laying the groundwork for a potential new strategy to deliver cancer drugs",
-    "title_es": "Los investigadores del CNIO crean «nanojaulas» proteicas, sentando las bases de una posible nueva estrategia para administrar fármacos contra el cáncer",
+    "title_es": "Los investigadores del CNIO crean «nanojaulas» de proteínas, sentando las bases de una posible nueva estrategia para administrar fármacos contra el cáncer",
     "url": "https://www.cnio.es/noticias/cnio-researchers-create-protein-nanocages-laying-the-groundwork-for-a-potential-new-strategy-to-deliver-cancer-drugs/",
     "source": "CNIO",
     "published": "2026-11-13T00:00:00.000Z",
@@ -1863,7 +2031,7 @@
   },
   {
     "title": "In National Geographic’s “Expedition: Saving Our Seas,” it’s all hands on deck",
-    "title_es": "En «Expedition: Saving Our Seas» de National Geographic, todos ponen de su parte.",
+    "title_es": "En «Expedition: Saving Our Seas» de National Geographic, todo el mundo se pone manos a la obra.",
     "url": "https://www.sciencenews.org/article/nat-geo-saving-our-seas-documentary",
     "source": "Science News",
     "published": "2026-11-13T00:00:00.000Z",
@@ -1947,7 +2115,7 @@
   },
   {
     "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
-    "title_es": "A través de la lente de la NASA: captando el traslado del transbordador espacial Endeavour a Los Ángeles",
+    "title_es": "A través de la lente de la NASA: capturando el traslado del transbordador espacial Endeavour a Los Ángeles",
     "url": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
     "source": "NASA (Top News)",
     "published": "2026-11-12T00:00:00.000Z",
@@ -1975,7 +2143,7 @@
   },
   {
     "title": "Earth's fiery birth may have created hundreds of oceans' worth of water",
-    "title_es": "El nacimiento ardiente de la Tierra podría haber creado una cantidad de agua equivalente a cientos de océanos",
+    "title_es": "El nacimiento ígneo de la Tierra podría haber creado una cantidad de agua equivalente a cientos de océanos",
     "url": "https://www.sciencedaily.com/releases/2026/11/261110042549.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-12T00:00:00.000Z",
@@ -1989,7 +2157,7 @@
   },
   {
     "title": "Study tracks Rum Jungle Mine's metal legacy through Finniss River food web",
-    "title_es": "Un estudio sigue el rastro del legado metálico de la mina Rum Jungle a través de la red trófica del río Finniss",
+    "title_es": "Un estudio rastrea el legado de metales de la mina Rum Jungle a través de la red trófica del río Finniss",
     "url": "https://phys.org/news/2026-11-tracks-rum-jungle-metal-legacy.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-12T00:00:00.000Z",
@@ -2045,7 +2213,7 @@
   },
   {
     "title": "The brain’s fear center moonlights as the save button for memories",
-    "title_es": "El centro del miedo del cerebro actúa como el botón de guardar de los recuerdos",
+    "title_es": "El centro del miedo del cerebro también funciona como botón de guardado de los recuerdos",
     "url": "https://www.sciencenews.org/article/brain-amygdala-neuron-saves-memories",
     "source": "Science News",
     "published": "2026-11-12T00:00:00.000Z",
@@ -2059,7 +2227,7 @@
   },
   {
     "title": "Clay Fragments from Türkiye Point to Pottery Experiments 11,000 Years Ago",
-    "title_es": "Fragmentos de arcilla de Turquía indican que se realizaron experimentos con cerámica hace 11 000 años",
+    "title_es": "Fragmentos de arcilla de Turquía apuntan a experimentos con cerámica hace 11 000 años",
     "url": "https://www.sci.news/archaeology/neolithic-pottery-experiments-15192.html",
     "source": "Sci.News",
     "published": "2026-11-11T22:15:04.000Z",
@@ -2087,7 +2255,7 @@
   },
   {
     "title": "Voyager is one light day away from us. Here’s what it discovered on its epic journey",
-    "title_es": "La Voyager está a un día luz de nosotros. Esto es lo que ha descubierto en su épico viaje",
+    "title_es": "La Voyager está a un día luz de nosotros. Esto es lo que ha descubierto en su épico viaje.",
     "url": "https://www.newscientist.com/article/2598369-voyager-is-one-light-day-away-from-us-heres-what-it-discovered-on-its-epic-journey/",
     "source": "New Scientist",
     "published": "2026-11-11T08:00:00.000Z",
@@ -2143,7 +2311,7 @@
   },
   {
     "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
-    "title_es": "APOD: 11 de noviembre de 2026 – NGC 4449: Galaxia pequeña, gran impacto",
+    "title_es": "APOD: 11 de noviembre de 2026 – NGC 4449: galaxia pequeña, gran impacto",
     "url": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
     "source": "NASA (Top News)",
     "published": "2026-11-11T00:00:00.000Z",
@@ -2339,7 +2507,7 @@
   },
   {
     "title": "Egyptian cats meant for the gods led harsh lives, extensive museum collection reveals",
-    "title_es": "Una amplia colección de museos revela que los gatos egipcios destinados a los dioses llevaban una vida dura",
+    "title_es": "Una amplia colección de un museo revela que los gatos egipcios destinados a los dioses llevaban una vida dura",
     "url": "https://phys.org/news/2026-11-egyptian-cats-meant-gods-harsh.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-10T00:00:00.000Z",
@@ -2381,7 +2549,7 @@
   },
   {
     "title": "Weird ‘ultraquantum’ turbulence seen for the first time",
-    "title_es": "Se observa por primera vez una extraña turbulencia «ultracuántica»",
+    "title_es": "Por primera vez, se observa una extraña turbulencia «ultracuántica»",
     "url": "https://www.newscientist.com/article/2597812-weird-ultraquantum-turbulence-seen-for-the-first-time/",
     "source": "New Scientist",
     "published": "2026-11-09T12:00:00.000Z",
@@ -2465,7 +2633,7 @@
   },
   {
     "title": "NASA reveals bold new plan to return astronauts to the Moon in 2028",
-    "title_es": "La NASA revela un nuevo y ambicioso plan para devolver a los astronautas a la Luna en 2028",
+    "title_es": "La NASA revela un nuevo y ambicioso plan para llevar a los astronautas de vuelta a la Luna en 2028",
     "url": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-09T00:00:00.000Z",
@@ -2493,7 +2661,7 @@
   },
   {
     "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
-    "title_es": "HiVe-Mem: Intercalado de la expansión de la memoria horizontal y la composición de la evidencia vertical para agentes multimodales",
+    "title_es": "HiVe-Mem: Intercalado de la expansión de la memoria horizontal y la composición de evidencias verticales para agentes multimodales",
     "url": "http://arxiv.org/abs/2611.12872v1",
     "source": "arXiv",
     "published": "2026-11-09T00:00:00.000Z",
@@ -2507,7 +2675,7 @@
   },
   {
     "title": "Longest Feather Ever Found in Amber Offers Clues to Flight’s Origins",
-    "title_es": "La pluma más larga jamás encontrada en ámbar ofrece pistas sobre los orígenes del vuelo",
+    "title_es": "La pluma más larga jamás hallada en ámbar ofrece pistas sobre los orígenes del vuelo",
     "url": "https://www.sci.news/paleontology/longest-amber-feather-15181.html",
     "source": "Sci.News",
     "published": "2026-11-08T19:39:03.000Z",
@@ -2633,7 +2801,7 @@
   },
   {
     "title": "Diwali celebrations coincide with worsening air. Here's how to stay safer",
-    "title_es": "Las celebraciones del Diwali coinciden con un empeoramiento de la calidad del aire. Te contamos cómo protegerte mejor",
+    "title_es": "Diwali celebrations coincide with worsening air. Here's how to stay safer",
     "url": "https://phys.org/news/2026-11-diwali-celebrations-coincide-worsening-air.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-07T00:00:00.000Z",
@@ -2647,7 +2815,7 @@
   },
   {
     "title": "Hubble Space Telescope is falling to Earth – should NASA save it?",
-    "title_es": "El telescopio espacial Hubble está cayendo a la Tierra: ¿debería la NASA salvarlo?",
+    "title_es": "Hubble Space Telescope is falling to Earth – should NASA save it?",
     "url": "https://www.newscientist.com/article/2597221-hubble-space-telescope-is-falling-to-earth-should-nasa-save-it/",
     "source": "New Scientist",
     "published": "2026-11-06T12:00:00.000Z",
@@ -2661,7 +2829,7 @@
   },
   {
     "title": "TimeArch: A Multi-Agent Approach for Software Architecture Design",
-    "title_es": "TimeArch: un enfoque multiagente para el diseño de arquitecturas de software",
+    "title_es": "TimeArch: A Multi-Agent Approach for Software Architecture Design",
     "url": "https://arxiv.org/abs/2611.06921",
     "source": "arXiv",
     "published": "2026-11-06T05:00:00.000Z",
@@ -2675,7 +2843,7 @@
   },
   {
     "title": "Salt-Loving Microbe Can Grow Under Mars-Like Conditions: Study",
-    "title_es": "Un microbio amante de la sal puede crecer en condiciones similares a las de Marte: estudio",
+    "title_es": "Salt-Loving Microbe Can Grow Under Mars-Like Conditions: Study",
     "url": "https://www.sci.news/astrobiology-2/salt-loving-microbe-mars-like-conditions-15180.html",
     "source": "Sci.News",
     "published": "2026-11-06T02:03:18.000Z",
@@ -2689,7 +2857,7 @@
   },
   {
     "title": "ESC (DC)2",
-    "title_es": "ESC (CC)2",
+    "title_es": "ESC (DC)2",
     "url": "https://www.nature.com/articles/d41586-026-03450-z",
     "source": "Nature",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2702,7 +2870,7 @@
   },
   {
     "title": "José Javier Fuster recibe el premio Constantes y Vitales al Joven Talento en Investigación Biomédica",
-    "title_es": "José Javier Fuster recibe el Premio Constantes y Vitales al Joven Talento en Investigación Biomédica",
+    "title_es": "José Javier Fuster recibe el premio Constantes y Vitales al Joven Talento en Investigación Biomédica",
     "url": "https://www.cnic.es/es/noticias/jose-javier-fuster-recibe-premio-constantes-vitales-al-joven-talento-investigacion",
     "source": "CNIC",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2716,7 +2884,7 @@
   },
   {
     "title": "APOD: 2026 November 6 – A Farewell to Swift",
-    "title_es": "APOD: 6 de noviembre de 2026 – Despedida de Swift",
+    "title_es": "APOD: 2026 November 6 – A Farewell to Swift",
     "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
     "source": "NASA (Top News)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2730,7 +2898,7 @@
   },
   {
     "title": "European orbiter detects hints of volcanic activity on Mars",
-    "title_es": "Una sonda europea en órbita detecta indicios de actividad volcánica en Marte",
+    "title_es": "European orbiter detects hints of volcanic activity on Mars",
     "url": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
     "source": "ESA (Top News)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2744,7 +2912,7 @@
   },
   {
     "title": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
-    "title_es": "¿Misterio resuelto? Por qué las hormigas «dormidas» se ponen de repente a mil por hora",
+    "title_es": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
     "url": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
     "source": "Science News Explores",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2758,7 +2926,7 @@
   },
   {
     "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
-    "title_es": "No te lo pierdas: lluvias de estrellas, bólidos y una superluna iluminan el cielo nocturno de noviembre",
+    "title_es": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
     "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
     "source": "ScienceDaily (Top)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2772,7 +2940,7 @@
   },
   {
     "title": "A galaxy nicknamed Misty Moons offers a glimpse of early star formation",
-    "title_es": "Una galaxia apodada «Misty Moons» ofrece una visión de la formación estelar temprana",
+    "title_es": "A galaxy nicknamed Misty Moons offers a glimpse of early star formation",
     "url": "https://phys.org/news/2026-11-galaxy-nicknamed-misty-moons-glimpse.html",
     "source": "Phys.org (Latest)",
     "published": "2026-11-06T00:00:00.000Z",
@@ -2786,7 +2954,7 @@
   },
   {
     "title": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
-    "title_es": "Plantas medicinales, lecciones de las setas y el poder del olfato: libros en pocas palabras",
+    "title_es": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
     "url": "https://www.nature.com/articles/d41586-026-03595-x",
     "source": "Nature",
     "published": "2026-11-06T00:00:00.000Z",
